@@ -85,6 +85,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [52]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -105,7 +108,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [14]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
-                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [7]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -117,7 +121,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
-                "🚩 CF | 🔓 VLESS | @ghalagyann [18]",
+                "🚩 CF | 🔓 VLESS | @ghalagyann [17]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [2]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [3]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [4]",
@@ -265,6 +269,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [52]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -285,7 +292,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [14]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
-                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+                "🇫🇮 FI | 🔒 VLESS | @free1_vpn [7]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -297,7 +305,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
-                "🚩 CF | 🔓 VLESS | @ghalagyann [18]",
+                "🚩 CF | 🔓 VLESS | @ghalagyann [17]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [2]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [3]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann2 [4]",
@@ -616,6 +624,49 @@
                     "Host": "SpEedteST.NET"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "104.21.72.109",
+            "server_port": 80,
+            "uuid": "0df8d1c1-f354-46d2-8e12-28fd7a748452",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "104.19.43.200",
+            "server_port": 443,
+            "uuid": "c4ccdba8-dfae-4354-a78c-3d5f113f15d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "violation-em-pulling-referenced.trycloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/c4ccdba8-dfae-4354-a78c-3d5f113f15d7-vless?ed=2048",
+                "headers": {
+                    "Host": "violation-em-pulling-referenced.trycloudflare.com"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "45.136.5.109",
+            "server_port": 7443,
+            "uuid": "6d9a7312-5021-40b0-9e2b-d08b6ef0d917",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -945,7 +996,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @free1_vpn [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+            "type": "vless",
+            "server": "3.76.7.202",
+            "server_port": 25670,
+            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @free1_vpn [7]",
             "type": "vless",
             "server": "65.108.231.185",
             "server_port": 443,
@@ -1154,7 +1214,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @ghalagyann [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @ghalagyann [17]",
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
