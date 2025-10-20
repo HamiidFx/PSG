@@ -92,7 +92,9 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔓 VLESS | @v2raytg [58]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [12]",
+                "❔ XX | 🔓 VLESS | @v2raytg [58]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +117,9 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔓 VLESS | @v2raytg [58]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [12]",
+                "❔ XX | 🔓 VLESS | @v2raytg [58]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -405,6 +409,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [12]",
+            "type": "vless",
+            "server": "2a01:4f8:c013:aa5::1",
+            "server_port": 443,
+            "uuid": "f031aaf9-2fa4-4e47-b6b6-b31515778a94",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "98990f747a"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @v2raytg [58]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
@@ -412,6 +439,29 @@
             "uuid": "Parsashonam-309",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "2604:2dc0:105:4f00::fbeb:6038",
+            "server_port": 443,
+            "uuid": "f031aaf9-2fa4-4e47-b6b6-b31515778a94",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "98990f747a"
+                }
+            }
         }
     ],
     "route": {
