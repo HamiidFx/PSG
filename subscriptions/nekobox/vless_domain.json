@@ -112,6 +112,11 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [51]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -610,8 +615,8 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [5]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [10]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔓 VLESS | @vmesc [9]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmesskhodam [4]",
@@ -706,6 +711,11 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [51]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1204,8 +1214,8 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [5]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [10]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔓 VLESS | @vmesc [9]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmesskhodam [4]",
@@ -1936,6 +1946,81 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "ucj3xy12fic116ixrq0m.appcity-download.ir",
+            "server_port": 17337,
+            "uuid": "21441ba7-8364-496c-d43b-39fc7f9cb8d7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "panelaf.dnsline.top",
+            "server_port": 55522,
+            "uuid": "66185905-e3f9-4822-ba31-f46d3e6539f3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "free.vpn.luna-marzban.ir",
+            "server_port": 15510,
+            "uuid": "9e32844a-cfe8-4f27-80c2-fc4f1a0e386f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "de.pickvpn.live",
+            "server_port": 443,
+            "uuid": "afe821e2-75a2-4b94-8960-c3f180c24d3e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "nl.horizongatex.org",
+            "server_port": 2087,
+            "uuid": "2988936d-3c33-4572-900c-40df2c63faa0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl.horizongatex.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nl.horizongatex.org"
+                }
             }
         },
         {
@@ -10787,7 +10872,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmesc [9]",
             "type": "vless",
             "server": "alo007.sernett.ir",
             "server_port": 80,
@@ -10796,7 +10881,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "bitpay.com",
             "server_port": 443,
