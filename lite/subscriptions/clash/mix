@@ -29,7 +29,6 @@ proxies:
   - {"name":"❔ XX | 🔓 TROJAN | @armodchannel [61]","type":"trojan","server":"asia.artunnel57.host","port":80,"password":"fa9b326c-ca6f-4bb2-88f5-a163b404fcf8","skip-cert-verify":false}
   - {"name":"❔ XX | 🔓 VMESS | @armodchannel [62]","type":"vmess","server":"asia.artunnel57.host","port":443,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-tls","headers":{"Host":"asia.artunnel57.host"}}}
   - {"name":"❔ XX | 🔓 VMESS | @armodchannel [63]","type":"vmess","server":"asia.artunnel57.host","port":80,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-ntls","headers":{"Host":"asia.artunnel57.host"}}}
-  - {"name":"🇨🇳 CN | 🔓 VMESS | @config_proxy [46]","type":"vmess","server":"106.14.75.114","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"❔ XX | 🔒 VMESS | @configforvpn01 [9]","type":"vmess","server":"join.melodyfreenet2.shop","port":443,"cipher":"auto","uuid":"50ef0b23-f14b-459f-97aa-d0f346189d2a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mail/","headers":{"Host":""}}}
   - {"name":"❔ XX | 🔓 VMESS | @configforvpn01 [10]","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
   - {"name":"🇳🇱 NL | 🔓 VMESS | @custom_14 [6]","type":"vmess","server":"45.199.138.152","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -56,9 +55,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]","type":"vmess","server":"de.netwatchvpn.sbs","port":44799,"cipher":"auto","uuid":"d48de346-aaea-424a-9338-0049e1f1c865","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷 FR | 🔓 VMESS | @garnet_free [10]","type":"vmess","server":"89.116.38.170","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]","type":"vmess","server":"mrgold.iranman.shop","port":52065,"cipher":"auto","uuid":"f29ea77c-6842-4ee0-9fc1-9c7a871566b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 SS | @hope_net [18]","type":"ss","server":"69.50.95.103","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [19]","type":"trojan","server":"172.66.44.58","port":443,"password":"bc953cb6-7112-4d3c-bbf4-eaf8a0d004cb","skip-cert-verify":false}
-  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [20]","type":"trojan","server":"104.17.97.5","port":2053,"password":"channel-daily-configs","skip-cert-verify":false}
+  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [18]","type":"trojan","server":"104.18.37.111","port":443,"password":"bpb-trojan","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🔒 SS | @imhdiyvp [12]","type":"ss","server":"45.87.175.157","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]","type":"vmess","server":"142.4.125.84","port":59614,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔒 SS | @ir_netproxy [13]","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
@@ -175,7 +172,6 @@ proxy-groups:
       - '❔ XX | 🔓 TROJAN | @armodchannel [61]'
       - '❔ XX | 🔓 VMESS | @armodchannel [62]'
       - '❔ XX | 🔓 VMESS | @armodchannel [63]'
-      - '🇨🇳 CN | 🔓 VMESS | @config_proxy [46]'
       - '❔ XX | 🔒 VMESS | @configforvpn01 [9]'
       - '❔ XX | 🔓 VMESS | @configforvpn01 [10]'
       - '🇳🇱 NL | 🔓 VMESS | @custom_14 [6]'
@@ -202,9 +198,7 @@ proxy-groups:
       - '🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]'
       - '🇫🇷 FR | 🔓 VMESS | @garnet_free [10]'
       - '🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]'
-      - '🇺🇸 US | 🔒 SS | @hope_net [18]'
-      - '🚩 CF | 🔒 TROJAN | @hope_net [19]'
-      - '🚩 CF | 🔒 TROJAN | @hope_net [20]'
+      - '🚩 CF | 🔒 TROJAN | @hope_net [18]'
       - '🇺🇸 US | 🔒 SS | @imhdiyvp [12]'
       - '🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]'
       - '🇬🇧 GB | 🔒 SS | @ir_netproxy [13]'
