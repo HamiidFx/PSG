@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -97,13 +96,14 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [143]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [151]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,8 +114,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -131,13 +130,14 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [143]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [151]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -228,22 +228,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "9c7fb49c-a9c9-4f62-940e-b4baa0b42bdc",
+            "server": "216.22.5.99",
+            "server_port": 443,
+            "uuid": "fcc3bc87-eb71-4e0a-a172-a8193c1f62c8",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "d46f6896-7e76-463d-b5f3-60f24ea320db",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "216.22.5.99",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -487,7 +487,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [143]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [151]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -618,6 +618,15 @@
                     "short_id": "61e683d41fdb"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "18fdfef1-981b-44a6-aff7-5fccedd2c49e",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
