@@ -80,7 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]"
+                "❔ XX | 🔒 HY2 | @config_proxy [40]",
+                "❔ XX | 🔒 HY2 | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 HY2 | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]",
+                "🇳🇱 NL | 🔒 HY2 | @config_proxy [43]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]"
+                "❔ XX | 🔒 HY2 | @config_proxy [40]",
+                "❔ XX | 🔒 HY2 | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 HY2 | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]",
+                "🇳🇱 NL | 🔒 HY2 | @config_proxy [43]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,6 +190,63 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 HY2 | @config_proxy [40]",
+            "type": "hysteria2",
+            "server": "[2a0c:4ac1:8::121]",
+            "server_port": 35000,
+            "password": "680210f5-3b5f-4947-9983-e508a15cf169",
+            "obfs": {
+                "type": "salamander",
+                "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir.pichondan.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 HY2 | @config_proxy [42]",
+            "type": "hysteria2",
+            "server": "[2a14:3f87:f001:1a::a]",
+            "server_port": 35000,
+            "password": "680210f5-3b5f-4947-9983-e508a15cf169",
+            "obfs": {
+                "type": "salamander",
+                "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir.pichondan.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 HY2 | @config_proxy [41]",
+            "type": "hysteria2",
+            "server": "dir.cybsecguru.com",
+            "server_port": 35000,
+            "password": "680210f5-3b5f-4947-9983-e508a15cf169",
+            "obfs": {
+                "type": "salamander",
+                "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir.pichondan.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]",
             "type": "hysteria2",
             "server": "yapc-1.adamhayward.co.uk",
@@ -195,6 +260,25 @@
                 "enabled": true,
                 "server_name": "YAPC-1.afshin.ir",
                 "insecure": false,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 HY2 | @config_proxy [43]",
+            "type": "hysteria2",
+            "server": "206.71.158.41",
+            "server_port": 35000,
+            "password": "680210f5-3b5f-4947-9983-e508a15cf169",
+            "obfs": {
+                "type": "salamander",
+                "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir.pichondan.com",
+                "insecure": true,
                 "alpn": [
                     "h3"
                 ]
