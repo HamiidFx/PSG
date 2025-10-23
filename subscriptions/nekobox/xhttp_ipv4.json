@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇨🇼 CW | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -143,7 +145,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -154,7 +156,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇨🇼 CW | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -217,7 +221,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -308,11 +312,43 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+            "tag": "🇨🇼 CW | 🔓 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "45.146.201.22",
+            "server_port": 80,
+            "uuid": "c24364d8-9a27-4476-c437-4fc9e65ceee9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "91.98.94.34",
+            "server_port": 443,
+            "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "87I7aEBv0W9xl5LoEkJpd_wi6zBbVDUNDA-zZruC53g",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "608a6bd2-8d2b-434b-ace6-02ad4c6ed970",
+            "uuid": "4ec30700-5b14-4b39-bd38-5a8f6d5177ec",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1416,7 +1452,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
