@@ -98,7 +98,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -139,7 +140,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -304,11 +306,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "ae9f99cf-bfbf-4ed0-9504-64da0f724669",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48Â¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "151.101.70.85",
             "server_port": 80,
-            "uuid": "31d4085a-b367-4e7e-962b-a8343f36834a",
+            "uuid": "MOSIV2--MOSIV2",
             "flow": "",
             "packet_encoding": "xudp"
         },
