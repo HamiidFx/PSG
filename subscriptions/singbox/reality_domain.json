@@ -96,6 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -130,7 +132,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [131]",
-                "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [142]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -148,9 +150,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raying [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [5]",
+                "❔ XX | 🔒 VLESS | @v2rayopen [4]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -197,6 +200,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -231,7 +236,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [131]",
-                "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [142]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -249,9 +254,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raying [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [5]",
+                "❔ XX | 🔒 VLESS | @v2rayopen [4]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -467,6 +473,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "auto.quattro-tech.ru",
+            "server_port": 8443,
+            "uuid": "5c44b52f-361e-45c5-bd12-dc72f28397ce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "auto.quattro-tech.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+                    "short_id": "43dcff53849b81e6"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "russia.marzxo.biz",
+            "server_port": 8086,
+            "uuid": "9884b77c-ba62-2334-01d7-439c7ad79ae1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
+                }
             }
         },
         {
@@ -1331,7 +1383,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [142]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
             "type": "vless",
             "server": "auto.quattro-tech.ru",
             "server_port": 8443,
@@ -1753,7 +1805,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raying [4]",
             "type": "vless",
             "server": "nld-0001-xr.packet-drop-society.net",
             "server_port": 443,
@@ -1772,6 +1824,29 @@
                     "enabled": true,
                     "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
                     "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raying [6]",
+            "type": "vless",
+            "server": "de.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
+                    "short_id": "89dbda1a1c9369"
                 }
             }
         },
@@ -1799,7 +1874,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [5]",
+            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [4]",
             "type": "vless",
             "server": "de.pickvpn.live",
             "server_port": 443,
