@@ -96,6 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -174,15 +177,15 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [16]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [1]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [5]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [7]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [11]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [14]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -198,6 +201,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -276,15 +282,15 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [16]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [1]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [5]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [7]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [11]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [14]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -469,6 +475,75 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "239200f3-4403-43d8-8903-1a40d8f40d78",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "playcaliber.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iQ4ObeGOrzKEWuAVIRSP4PlXd4Sc5nodMH_UM-ZQ6xA",
+                    "short_id": "4dbe9199"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 5432,
+            "uuid": "3b2503c4-2b85-4637-a6e4-01c06636dc84",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "netcraze.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PXl7mdlTaC8edL3uD5leT5lNz8TKuMoh2Cb1EOoEzyo",
+                    "short_id": "3c376b96"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "ffac89e3-cbfc-47d2-bfa8-ae51c32c3c62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rustore.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZZfMI4jrkTuV493O5aN3zxzGYuWDDZONqV4-2fyPU3o",
+                    "short_id": "7f09835400"
+                }
             }
         },
         {
@@ -2405,7 +2480,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [1]",
             "type": "vless",
             "server": "speedtest.wlftest.xyz",
             "server_port": 443,
@@ -2428,7 +2503,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [3]",
             "type": "vless",
             "server": "speedtest.wlftest.xyz",
             "server_port": 443,
@@ -2589,7 +2664,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
