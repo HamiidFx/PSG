@@ -115,6 +115,7 @@
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -164,7 +165,6 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [3]",
-                "🇸🇬 SG | 🔓 VMESS | @v2raying [5]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -214,6 +214,7 @@
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -263,7 +264,6 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [3]",
-                "🇸🇬 SG | 🔓 VMESS | @v2raying [5]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -729,9 +729,34 @@
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
+            "server": "hkcft01.xqc.best",
+            "server_port": 443,
+            "uuid": "dbdb6b65-5515-47e5-bb31-3adadb4c8371",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hkcft01.xqc.best",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hkcft01.xqc.best"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
             "server": "sgcft01.xqc.best",
             "server_port": 443,
-            "uuid": "59678b1b-6f41-4e3c-b0d6-5a7c819f366c",
+            "uuid": "6beba43f-f43f-4259-85ba-15d5b7a74c0c",
             "security": "auto",
             "alter_id": 0,
             "tls": {
@@ -1521,15 +1546,6 @@
                     "Host": "yichueng.org"
                 }
             }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2raying [5]",
-            "type": "vmess",
-            "server": "62.146.235.12",
-            "server_port": 550,
-            "uuid": "48b986d8-7da2-47a2-85de-2306c9259953",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
