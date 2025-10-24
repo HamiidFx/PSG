@@ -103,6 +103,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -162,6 +163,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇩🇪 DE | 🔒 VMESS | @vpn_ioss [15]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
@@ -201,6 +203,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -260,6 +263,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇩🇪 DE | 🔒 VMESS | @vpn_ioss [15]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
@@ -740,6 +744,31 @@
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "jpcft01.xqc.best",
+            "server_port": 443,
+            "uuid": "1aa72c0a-75af-4c23-b277-39cf92710cf3",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "jpcft01.xqc.best",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "jpcft01.xqc.best"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
@@ -1661,6 +1690,31 @@
             "uuid": "410be941-c55a-4cec-9596-761076ea6c60",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpn_ioss [15]",
+            "type": "vmess",
+            "server": "57.129.59.199",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kampong.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "kampong.org"
+                }
+            }
         },
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",

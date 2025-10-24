@@ -92,7 +92,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -125,13 +124,14 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [150]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -168,7 +168,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -201,13 +200,14 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [150]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -593,29 +593,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "."
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [6]",
-            "type": "vless",
-            "server": "91.98.86.118",
-            "server_port": 443,
-            "uuid": "0c0b6d4a-0811-460f-d4b0-dd982a911240",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1383,6 +1360,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "de.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
+                    "short_id": "89dbda1a1c9369"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -1533,7 +1533,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [150]",
             "type": "vless",
             "server": "auto.quattro-tech.ru",
             "server_port": 8443,
