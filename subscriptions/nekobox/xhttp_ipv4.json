@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -142,7 +142,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -153,8 +153,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -215,7 +215,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -306,50 +306,36 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "91.98.81.150",
-            "server_port": 443,
-            "uuid": "60f5612f-4861-4162-eaba-fd1c178437e0",
+            "server": "91.99.115.171",
+            "server_port": 8080,
+            "uuid": "f33f8f0b-e520-4212-9c9b-aeefcdcc62af",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "cp7.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "NRYJKm0tRL9L2JLo070iTZg-SU6DT318gVLsm5tJUWw",
-                    "short_id": ""
+                    "public_key": "T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8",
+                    "short_id": "a6df009b"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "91.99.112.241",
-            "server_port": 443,
-            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
-                    "short_id": "f8f87a"
-                }
-            }
+            "server": "151.101.70.85",
+            "server_port": 80,
+            "uuid": "f2a9f728-9487-4a64-ac53-f409f64466e1",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
@@ -1419,7 +1405,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
