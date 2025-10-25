@@ -105,7 +105,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [25]",
-                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
+                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [19]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -144,6 +144,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -151,7 +152,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [3]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -207,7 +207,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [25]",
-                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
+                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [19]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -246,6 +246,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -253,7 +254,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [3]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -699,7 +699,7 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
+            "tag": "🇮🇱 IL | 🔒 VLESS | @free4allvpn [19]",
             "type": "vless",
             "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
             "server_port": 443,
@@ -1663,6 +1663,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "nl01.pickvpn.live",
+            "server_port": 443,
+            "uuid": "afe821e2-75a2-4b94-8960-c3f180c24d3e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
@@ -1820,29 +1843,6 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "d3b13f31"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [3]",
-            "type": "vless",
-            "server": "de.pickvpn.live",
-            "server_port": 443,
-            "uuid": "afe821e2-75a2-4b94-8960-c3f180c24d3e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "github.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg",
-                    "short_id": ""
                 }
             }
         },
