@@ -92,7 +92,6 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔓 VMESS | @config_proxy [75]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -328,11 +327,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "🇮🇷 IR | 🔓 VMESS | @xsv2ray [2]",
-                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [1]",
-                "🚩 CF | 🔓 VMESS | @zerobaipiao [2]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [3]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [8]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [9]"
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
+                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [7]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -355,7 +353,6 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔓 VMESS | @config_proxy [75]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -591,11 +588,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "🇮🇷 IR | 🔓 VMESS | @xsv2ray [2]",
-                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [1]",
-                "🚩 CF | 🔓 VMESS | @zerobaipiao [2]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [3]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [8]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [9]"
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
+                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [7]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -877,15 +873,6 @@
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
                 }
             }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @config_proxy [75]",
-            "type": "vmess",
-            "server": "46.29.166.237",
-            "server_port": 47555,
-            "uuid": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
@@ -4872,7 +4859,39 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [1]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
+            "type": "vmess",
+            "server": "v10.heduian.link",
+            "server_port": 30807,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": "v10.heduian.link"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
+            "type": "vmess",
+            "server": "v10.heduian.link",
+            "server_port": 30807,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": "v10.heduian.link"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [7]",
             "type": "vmess",
             "server": "v9.heduian.link",
             "server_port": 30809,
@@ -4888,64 +4907,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @zerobaipiao [2]",
-            "type": "vmess",
-            "server": "sy4.620720.xyz",
-            "server_port": 443,
-            "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "sy4.620720.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "sy4.620720.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [3]",
-            "type": "vmess",
-            "server": "v10.heduian.link",
-            "server_port": 30807,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2,
-            "transport": {
-                "type": "ws",
-                "path": "/oooo",
-                "headers": {
-                    "Host": "v10.heduian.link"
-                }
-            }
-        },
-        {
             "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [8]",
-            "type": "vmess",
-            "server": "v10.heduian.link",
-            "server_port": 30807,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2,
-            "transport": {
-                "type": "ws",
-                "path": "/oooo",
-                "headers": {
-                    "Host": "v10.heduian.link"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [9]",
             "type": "vmess",
             "server": "47.242.90.210",
             "server_port": 31212,
