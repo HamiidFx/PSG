@@ -86,6 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔒 VMESS | @config_proxy [57]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -102,7 +103,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔒 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -188,6 +188,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔒 VMESS | @config_proxy [57]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -204,7 +205,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔒 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -460,6 +460,31 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @config_proxy [57]",
+            "type": "vmess",
+            "server": "gt021.bestforxray.buzz",
+            "server_port": 443,
+            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "ausgt02.bestforxray.buzz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkws",
+                "headers": {
+                    "Host": "ausgt02.bestforxray.buzz"
                 }
             }
         },
@@ -723,31 +748,6 @@
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "104.21.74.239",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
