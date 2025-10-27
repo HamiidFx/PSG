@@ -10,6 +10,7 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔ XX | 🔓 TROJAN | @armodchannel [61] = trojan, asia.artunnel57.host, 80, password = fa9b326c-ca6f-4bb2-88f5-a163b404fcf8, skip-cert-verify = false
+🇰🇷 KR | 🔓 TROJAN | @hope_net [20] = trojan, ent1.imyourdaddy.top, 20985, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @maradona_vpn [7] = trojan, maradona_vpn14.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @maradona_vpn [8] = trojan, maradona_vpn10.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @maradona_vpn [9] = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
@@ -17,9 +18,9 @@ DIRECT = direct
 ❔ XX | 🔒 TROJAN | @xrayzxn [5] = trojan, amin.karkas1.ir, 443, password = 11ae0edd-2f63-4495-8683-037abbda9986, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 TROJAN | @armodchannel [61], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
-PSG-AUTO = url-test, ❔ XX | 🔓 TROJAN | @armodchannel [61], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
-PSG-FALLBACK = fallback, ❔ XX | 🔓 TROJAN | @armodchannel [61], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🇰🇷 KR | 🔓 TROJAN | @hope_net [20], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
+PSG-AUTO = url-test, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🇰🇷 KR | 🔓 TROJAN | @hope_net [20], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
+PSG-FALLBACK = fallback, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🇰🇷 KR | 🔓 TROJAN | @hope_net [20], ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7], ❔ XX | 🔒 TROJAN | @xrayzxn [5]
 
 [Rule]
 GEOIP,IR,DIRECT

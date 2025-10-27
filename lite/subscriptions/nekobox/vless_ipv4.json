@@ -86,7 +86,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇷🇴 RO | 🔒 VLESS | @config_proxy [61]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -129,6 +130,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -264,7 +266,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇷🇴 RO | 🔒 VLESS | @config_proxy [61]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -307,6 +310,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -609,25 +613,45 @@
             }
         },
         {
-            "tag": "🇷🇴 RO | 🔒 VLESS | @config_proxy [61]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [62]",
             "type": "vless",
-            "server": "31.6.1.187",
-            "server_port": 25607,
-            "uuid": "c8451b58-6337-4294-ba28-1a33731331a1",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.36.57",
+            "server_port": 443,
+            "uuid": "4d89daf8-83c1-497d-af73-0d0033daadd8",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "psto.fullmargintraders.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wsv/4d89daf8-83c1-497d-af73-0d0033daadd8",
+                "headers": {
+                    "Host": "psto.fullmargintraders.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "91.98.79.239",
+            "server_port": 443,
+            "uuid": "f599eb06-508a-4e24-9d59-4c50bf0332b7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "plaza.ir",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE",
-                    "short_id": "84"
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1381,6 +1405,22 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "151.101.130.228",
+            "server_port": 80,
+            "uuid": "b7dc61b1-5ff2-429b-a02e-08f178bc5eeb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "151.101.130.228"
                 }
             }
         },

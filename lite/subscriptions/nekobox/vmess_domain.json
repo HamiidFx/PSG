@@ -86,7 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [63]",
+                "🇵🇱 PL | 🔒 VMESS | @config_proxy [64]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -103,8 +103,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -187,7 +185,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [63]",
+                "🇵🇱 PL | 🔒 VMESS | @config_proxy [64]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -204,8 +202,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -462,13 +458,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [63]",
+            "tag": "🇵🇱 PL | 🔒 VMESS | @config_proxy [64]",
             "type": "vmess",
-            "server": "103.124.107.144",
-            "server_port": 29800,
-            "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
+            "server": "146.59.70.146",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "yichueng.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "yichueng.org"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -730,56 +742,6 @@
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
-            "type": "vmess",
-            "server": "beyonddsz.cfd",
-            "server_port": 443,
-            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "69.50.93.90",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
