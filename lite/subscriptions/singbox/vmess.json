@@ -98,7 +98,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [64]",
+                "🇨🇳 CN | 🔓 VMESS | @config_proxy [65]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [66]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -200,7 +201,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [64]",
+                "🇨🇳 CN | 🔓 VMESS | @config_proxy [65]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [66]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -472,13 +474,38 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @config_proxy [64]",
+            "tag": "🇨🇳 CN | 🔓 VMESS | @config_proxy [65]",
             "type": "vmess",
-            "server": "78.110.114.229",
-            "server_port": 18420,
-            "uuid": "bdc7cfc0-46da-4de3-c04c-d1e1ba4bd50e",
+            "server": "120.198.71.219",
+            "server_port": 44014,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [66]",
+            "type": "vmess",
+            "server": "104.25.227.40",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vus3.0bad.com/chat",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
