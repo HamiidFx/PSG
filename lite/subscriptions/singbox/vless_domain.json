@@ -102,7 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -314,7 +314,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -776,13 +776,31 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "m46a.vip784.com",
-            "server_port": 33801,
-            "uuid": "66cb0bf2-1413-4dcb-9cbb-d94e4df45f72",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "mariz.kuckenpq.ir",
+            "server_port": 32135,
+            "uuid": "c8b6a94f-eb38-4b68-9ae7-fadc7d690e16",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0nV4IrMDDWiuFhntmuTBnQT3Q2uPagsRV1p4KXRnzCk",
+                    "short_id": "085753500f657097"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
