@@ -94,6 +94,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -110,10 +112,10 @@
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [15]",
                 "🇵🇰 PK | 🔒 VLESS | @filtershekan_channel [6]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [11]",
-                "🇺🇸 US | 🔒 VLESS | @free4allvpn [14]",
-                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [15]",
-                "🇹🇷 TR | 🔒 VLESS | @free4allvpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [10]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [14]",
+                "🇹🇷 TR | 🔒 VLESS | @free4allvpn [16]",
                 "🇦🇷 AR | 🔒 VLESS | @freevpn3327 [1]",
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -220,6 +222,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -236,10 +240,10 @@
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [15]",
                 "🇵🇰 PK | 🔒 VLESS | @filtershekan_channel [6]",
                 "🇫🇮 FI | 🔒 VLESS | @free1_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [11]",
-                "🇺🇸 US | 🔒 VLESS | @free4allvpn [14]",
-                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [15]",
-                "🇹🇷 TR | 🔒 VLESS | @free4allvpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [10]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [14]",
+                "🇹🇷 TR | 🔒 VLESS | @free4allvpn [16]",
                 "🇦🇷 AR | 🔒 VLESS | @freevpn3327 [1]",
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -462,6 +466,52 @@
                     "enabled": true,
                     "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
                     "short_id": "b359bc5c70c21d55"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "151.80.254.250",
+            "server_port": 16361,
+            "uuid": "ee65638d-6be2-40a1-bb5b-03f03c83f7f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2L8Ldgec-DpR_3CcvFqNF8CP5vBUNtlA31oaMgbUP1Q",
+                    "short_id": "8e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "81.19.141.190",
+            "server_port": 55885,
+            "uuid": "dd050eb9-bcf8-4e8e-b30e-3bb94e0c46cb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y-XS7D8QuxFKaaOmJHjAmMEhSTSDbKeZxbJBXU0MqUQ",
+                    "short_id": "3fac56aa61181168"
                 }
             }
         },
@@ -866,7 +916,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free4allvpn [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free4allvpn [10]",
             "type": "vless",
             "server": "91.98.87.4",
             "server_port": 443,
@@ -889,7 +939,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
             "type": "vless",
             "server": "15.204.12.101",
             "server_port": 443,
@@ -912,7 +962,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @free4allvpn [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free4allvpn [14]",
             "type": "vless",
             "server": "45.128.232.102",
             "server_port": 16798,
@@ -935,7 +985,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @free4allvpn [17]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @free4allvpn [16]",
             "type": "vless",
             "server": "45.12.143.191",
             "server_port": 20329,

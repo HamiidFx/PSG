@@ -90,6 +90,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -200,7 +202,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [3]",
-                "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [2]",
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -301,6 +303,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -411,7 +415,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [3]",
-                "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [2]",
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -763,6 +767,40 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "luckyping.bikofile.com",
+            "server_port": 43381,
+            "uuid": "2ecc1c66-0808-174c-e51a-5274c1428b3c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2087,
+            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Cfn13.aLAnhIahO.COM",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Cfn13.aLAnhIahO.COM"
+                }
             }
         },
         {
@@ -2655,7 +2693,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
             "type": "vless",
             "server": "bia2.outline-vpn.cloud",
             "server_port": 443,
