@@ -99,6 +99,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -270,6 +271,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -612,14 +614,14 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "172.66.146.26",
             "server_port": 443,
-            "uuid": "8c77668c-7b44-4595-b683-522fdcd3481b",
+            "uuid": "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "q.dioxv001.workers.dev",
+                "server_name": "privasi.turah.my.id",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -628,11 +630,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2560",
+                "path": "/Free-CF-Proxy-AD192.3.113.4-19318?ed=2048@v2ray_configs_pools",
                 "headers": {
-                    "Host": "q.dioxv001.workers.dev"
+                    "Host": "privasi.turah.my.id"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "172.66.156.81",
+            "server_port": 80,
+            "uuid": "0f02ba17-0125-4356-98a8-710d9be08bce",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
