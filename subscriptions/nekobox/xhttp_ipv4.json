@@ -87,8 +87,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -168,8 +170,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -385,20 +389,52 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "185.254.220.229",
+            "server_port": 1002,
+            "uuid": "65b71cc5-a34d-4efa-8af8-7a0d9bedd240",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "bd6476d4-9924-4828-b558-f76ce7226d42",
+            "uuid": "526eb6e2-c506-4b9e-9860-d321acbf9ba0",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [40]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "d003e0ca-a0ea-4a7e-e838-6f8d19a6ded2",
+            "uuid": "cbab27ae-0a43-4ceb-93ee-4b3e032a0213",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "45b92835-3783-40bd-b9df-7aabd0cfa135",
             "flow": "",
             "packet_encoding": "xudp"
         },
