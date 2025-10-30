@@ -288,7 +288,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🇦🇹 AT | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -329,7 +330,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -667,7 +668,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🇦🇹 AT | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -708,7 +710,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -4523,16 +4525,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🇦🇹 AT | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "190.93.247.155",
+            "server": "212.183.88.242",
             "server_port": 443,
-            "uuid": "a194cf71-ac0f-429f-9ade-c859441e05e0",
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hu2.v2vless.site",
+                "server_name": "lv.kpcloud.eu.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4541,9 +4543,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/vless",
+                "path": "/freecodes",
                 "headers": {
-                    "Host": "hu2.v2vless.site"
+                    "Host": "lv.kpcloud.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "190.93.246.60",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lv.kpcloud.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "lv.kpcloud.eu.org"
                 }
             }
         },
@@ -5262,7 +5289,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "151.101.130.228",
             "server_port": 80,
