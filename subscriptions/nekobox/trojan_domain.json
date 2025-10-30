@@ -100,7 +100,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [15]",
-                "❔ XX | 🔒 TROJAN | @v2raych [13]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [15]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -112,7 +112,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [42]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
-                "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
+                "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -143,7 +144,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [15]",
-                "❔ XX | 🔒 TROJAN | @v2raych [13]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [15]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -155,7 +156,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [42]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
-                "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
+                "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -626,11 +628,20 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @v2raych [13]",
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2raych [15]",
             "type": "trojan",
-            "server": "re.iranfastfod.ir",
-            "server_port": 8443,
-            "password": "telegram-Afv2Ray"
+            "server": "v3-ali99.93451forest.cn",
+            "server_port": 12522,
+            "password": "63c2d73d-c2aa-4229-aade-f78abbffbb31",
+            "tls": {
+                "enabled": true,
+                "server_name": "m.ctrip.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
@@ -838,6 +849,13 @@
                     "Host": "amin.karkas1.ir"
                 }
             }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [10]",
+            "type": "trojan",
+            "server": "oss-cn-shanghai.letssepub.com",
+            "server_port": 20021,
+            "password": "adbac894-90b9-4913-b77e-a715a8d4ebc8"
         }
     ],
     "route": {
