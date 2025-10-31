@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -109,7 +110,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -123,6 +124,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -150,7 +152,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -289,6 +291,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "fin.monkeyisland.life",
+            "server_port": 443,
+            "uuid": "74c0af7c-8482-4b4e-b067-ea456a80cdb7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fin.monkeyisland.life",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE",
+                    "short_id": "08aa0813199a4c38"
+                }
             }
         },
         {
@@ -945,7 +970,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
