@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
@@ -128,6 +129,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
@@ -245,6 +247,24 @@
             "uuid": "45b92835-3783-40bd-b9df-7aabd0cfa135",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "91.99.7.237",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.7.237",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
