@@ -84,8 +84,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [56]",
                 "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -254,8 +254,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [56]",
                 "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -575,20 +575,11 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "185.226.116.208",
-            "server_port": 8080,
-            "uuid": "56208991-3b3e-46ad-ad30-5861ae2c3dbf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
             "server": "151.101.194.228",
             "server_port": 443,
-            "uuid": "ab272356-8700-479d-8105-691540e892ff",
+            "uuid": "943b9b16-cbb1-4097-be31-6ac827fa1d80",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -602,9 +593,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048",
+                "path": "/de?ed=1048",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "199.34.228.181",
+            "server_port": 8443,
+            "uuid": "cc3a15eb-0a63-486c-8e12-c7be717ebcd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bPb005.paGes.DEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560",
+                "headers": {
+                    "Host": "bPb005.paGes.DEV"
                 }
             }
         },

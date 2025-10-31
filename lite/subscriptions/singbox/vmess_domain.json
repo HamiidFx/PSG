@@ -98,7 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [58]",
+                "🇷🇺 RU | 🔒 VMESS | @config_proxy [59]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -115,7 +115,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -174,8 +174,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -197,7 +197,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [58]",
+                "🇷🇺 RU | 🔒 VMESS | @config_proxy [59]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -214,7 +214,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -273,8 +273,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -466,18 +466,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [58]",
+            "tag": "🇷🇺 RU | 🔒 VMESS | @config_proxy [59]",
             "type": "vmess",
-            "server": "104.21.113.128",
-            "server_port": 2052,
-            "uuid": "1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34",
+            "server": "45.67.32.147",
+            "server_port": 40413,
+            "uuid": "2967ff7a-1ef0-4f7b-a023-e1e3c599ec9b",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "free.hardtofind.42web.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/video/u4eCZTxW",
+                "path": "/makeacall",
                 "headers": {
-                    "Host": ""
+                    "Host": "free.hardtofind.42web.io"
                 }
             }
         },
@@ -743,18 +752,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
             "type": "vmess",
-            "server": "104.19.45.13",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "104.16.120.250",
+            "server_port": 443,
+            "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "104.16.120.250",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/github.com/Alvin9999",
+                "path": "/eisasqa",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.16.120.250"
                 }
             }
         },
@@ -1648,48 +1666,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-            "type": "vmess",
-            "server": "47.244.120.197",
-            "server_port": 44867,
-            "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
-            "type": "vmess",
-            "server": "15.235.85.147",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "57.129.28.65",
             "server_port": 443,
@@ -1710,6 +1687,47 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "kapelleng.com"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
+            "type": "vmess",
+            "server": "8.217.159.96",
+            "server_port": 47872,
+            "uuid": "23ea0b75-206b-4e3b-b624-e093d5808bf8",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "57.129.24.130",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "serkat.org"
                 }
             }
         },
