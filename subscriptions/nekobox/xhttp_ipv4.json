@@ -90,6 +90,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -105,7 +106,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
-                "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @mehrosaboran [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -171,6 +171,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -186,7 +187,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
-                "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @mehrosaboran [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -410,6 +410,24 @@
             "uuid": "47343fd4-0a14-439c-ff20-d95d83f5bd84",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "91.99.91.136",
+            "server_port": 443,
+            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.91.136",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
@@ -716,24 +734,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.221.2",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
-            "type": "vless",
-            "server": "91.99.91.136",
-            "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.91.136",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
