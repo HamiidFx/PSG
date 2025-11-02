@@ -81,8 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -129,7 +129,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇮🇷 IR | 🔓 VLESS | @hope_net [19]",
+                "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -252,8 +252,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -300,7 +300,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇮🇷 IR | 🔓 VLESS | @hope_net [19]",
+                "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -518,7 +518,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -527,7 +527,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -1387,18 +1387,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @hope_net [19]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "81.12.32.27",
-            "server_port": 8080,
-            "uuid": "5030a0d8-e904-4589-afcc-4c05bc0b99b9",
+            "server": "45.67.215.6",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dp.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/blue",
                 "headers": {
-                    "Host": "81.12.32.27"
+                    "Host": "dp.ylks.xyz"
                 }
             }
         },
