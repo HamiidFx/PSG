@@ -343,8 +343,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [16]",
+                "🇭🇰 HK | 🔒 VLESS | @hope_net [17]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -727,8 +727,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [16]",
+                "🇭🇰 HK | 🔒 VLESS | @hope_net [17]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -5336,23 +5336,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "151.101.66.216",
-            "server_port": 80,
-            "uuid": "76c6da0c-0b97-4b96-abf2-dd935b399dd3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420--Join--@EXPRESSVPN_420?ed=2048",
-                "headers": {
-                    "Host": "151.101.66.216"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [16]",
             "type": "vless",
             "server": "172.67.132.209",
             "server_port": 2095,
@@ -5364,6 +5348,31 @@
                 "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048",
                 "headers": {
                     "Host": "172.67.132.209"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @hope_net [17]",
+            "type": "vless",
+            "server": "221.124.240.28",
+            "server_port": 10332,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lm.ylks.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "lm.ylks.us.kg"
                 }
             }
         },
