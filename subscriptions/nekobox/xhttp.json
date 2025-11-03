@@ -85,6 +85,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -178,6 +179,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -389,6 +391,24 @@
             "uuid": "3b0c38e2-0bfd-44ce-9e91-89d996202d5d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "joinmychannel.revolution-time.sbs",
+            "server_port": 443,
+            "uuid": "b6b59d7b-193b-4080-b678-c9daab267060",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "joinmychannel.revolution-time.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
