@@ -443,8 +443,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @vipv2rey [39]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -823,8 +824,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @vipv2rey [39]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -7029,31 +7031,6 @@
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
             "type": "vless",
-            "server": "63.180.126.249",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [17]",
-            "type": "vless",
             "server": "3.77.188.51",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -7077,7 +7054,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
             "type": "vless",
             "server": "13.36.97.169",
             "server_port": 22224,
@@ -7102,7 +7079,32 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
+            "type": "vless",
+            "server": "51.45.27.83",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "166.1.131.6",
             "server_port": 993,
@@ -7120,6 +7122,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "_KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "166.1.131.3",
+            "server_port": 993,
+            "uuid": "40730d97-ffa7-1108-2c53-761516eb5fda",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU",
                     "short_id": ""
                 }
             }
