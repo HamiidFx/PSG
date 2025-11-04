@@ -114,8 +114,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇵🇱 PL | 🔓 VMESS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
+                "❔ XX | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -213,8 +213,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇵🇱 PL | 🔓 VMESS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
+                "❔ XX | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -727,23 +727,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "70.34.252.176",
-            "server_port": 8081,
-            "uuid": "984ff24e-2bbb-4461-a761-bf8ccb77b80d",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "70.34.252.176"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "cacerts.digicert.com",
             "server_port": 443,
@@ -764,6 +748,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "cacerts.digicert.com"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [19]",
+            "type": "vmess",
+            "server": "cf-lt.sharecentre.online",
+            "server_port": 443,
+            "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-lt.sharecentre.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cf-lt.sharecentre.online"
                 }
             }
         },
