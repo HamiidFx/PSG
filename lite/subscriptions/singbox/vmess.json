@@ -158,6 +158,9 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+                "🇺🇦 UA | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -172,8 +175,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [18]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -255,6 +257,9 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+                "🇺🇦 UA | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -269,8 +274,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [18]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -1387,6 +1391,81 @@
             "alter_id": 0
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+            "type": "vmess",
+            "server": "57.129.28.213",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "fapeng.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "fapeng.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇦 UA | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "185.126.255.78",
+            "server_port": 39171,
+            "uuid": "3786e67a-41eb-4b92-b31e-417e89493b93",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "57.129.28.64",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws#TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)TM (@AZARBAYJAB1)TM (@AZARBAYJAB1)",
+                "headers": {
+                    "Host": "serkat.org"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
             "type": "vmess",
             "server": "ii.USA02.ml",
@@ -1619,48 +1698,25 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
-            "server": "8.218.140.27",
-            "server_port": 39174,
-            "uuid": "5854b877-2b30-457a-b730-837aa5976279",
+            "server": "38.12.83.217",
+            "server_port": 30002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
-            "type": "vmess",
-            "server": "8.218.26.234",
-            "server_port": 55566,
-            "uuid": "520a5072-76ec-4c37-8e25-02cf61b04889",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
             "type": "vmess",
-            "server": "47.239.141.74",
-            "server_port": 11886,
-            "uuid": "0d36b017-6d7c-493d-bb12-55c34faf6efc",
+            "server": "8.218.26.234",
+            "server_port": 21502,
+            "uuid": "e711fa61-ab3e-471d-b660-6d9cbcd4f15e",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/arki?ed=2048",
                 "headers": {
                     "Host": ""
                 }
