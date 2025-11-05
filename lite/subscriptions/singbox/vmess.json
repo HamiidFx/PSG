@@ -114,8 +114,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇹🇷 TR | 🔓 VMESS | @hope_net [19]",
-                "🇷🇺 RU | 🔓 VMESS | @hope_net [20]",
+                "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -176,6 +175,7 @@
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -212,8 +212,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇹🇷 TR | 🔓 VMESS | @hope_net [19]",
-                "🇷🇺 RU | 🔓 VMESS | @hope_net [20]",
+                "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -274,6 +273,7 @@
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -725,23 +725,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "185.242.161.206",
-            "server_port": 25212,
-            "uuid": "43a988d1-8c8c-4303-9e03-8d651de6f376",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "185.242.161.206"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @hope_net [20]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "91.193.181.192",
             "server_port": 8090,
@@ -1655,9 +1639,9 @@
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
-            "server": "47.244.120.197",
-            "server_port": 44867,
-            "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+            "server": "8.218.140.27",
+            "server_port": 39174,
+            "uuid": "5854b877-2b30-457a-b730-837aa5976279",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -1671,14 +1655,30 @@
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
-            "server": "47.243.39.20",
-            "server_port": 36512,
-            "uuid": "cc13ac4b-d38f-4ebb-8a2a-73cf3aff5650",
+            "server": "8.218.26.234",
+            "server_port": 55566,
+            "uuid": "520a5072-76ec-4c37-8e25-02cf61b04889",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "47.239.141.74",
+            "server_port": 11886,
+            "uuid": "0d36b017-6d7c-493d-bb12-55c34faf6efc",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
                 "headers": {
                     "Host": ""
                 }
