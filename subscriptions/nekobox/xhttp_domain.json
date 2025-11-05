@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -112,6 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -250,6 +252,29 @@
             "uuid": "3604197f-3bca-44cb-f834-7c5d3efe4835",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "V2ngFast.huqpmfood.ir",
+            "server_port": 1146,
+            "uuid": "2eadb4d6-2b9a-4f7a-86b0-cfce53e24bcd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
