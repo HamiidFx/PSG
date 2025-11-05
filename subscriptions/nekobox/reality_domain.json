@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -113,7 +114,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -184,6 +185,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -213,7 +215,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -457,6 +459,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "greenwolf.fonixapp.org",
+            "server_port": 12901,
+            "uuid": "d2bcb15b-8cf0-402c-af32-6b04615144c9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UIgzNUpO2PvGIgjtIK1GEikBFRVvfA1jm7bfor0HlAM",
+                    "short_id": "b538b3"
+                }
             }
         },
         {
@@ -1202,7 +1227,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "s5.cloudconvert.top",
             "server_port": 443,
