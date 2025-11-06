@@ -85,7 +85,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -95,6 +94,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
@@ -115,7 +115,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -125,6 +124,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
@@ -265,24 +265,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
-            "server_port": 443,
-            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -376,6 +358,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
+            "type": "vless",
+            "server": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
