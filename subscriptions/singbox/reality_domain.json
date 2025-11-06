@@ -96,9 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [54]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -195,9 +195,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [54]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -466,57 +466,11 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "world-of.ru",
-            "server_port": 443,
-            "uuid": "cc850147-2fb2-4c1c-a1e6-660556b8aba8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y",
-                    "short_id": "785be44fdf"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 443,
-            "uuid": "dbf135fe-6343-40b7-a295-e2e69eb2ded4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs",
-                    "short_id": "0f1d6a"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "legendary.zooboming.com",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
+            "server": "2.realitysec1.ir",
+            "server_port": 2689,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -525,17 +479,63 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Ba97uzN0QXVRj8ARchY_Z2kbiB3mRF8mSaNLNADISCc",
-                    "short_id": ""
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
                 }
             },
             "transport": {
                 "type": "grpc",
                 "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "nodade1.phantombot.ru",
+            "server_port": 443,
+            "uuid": "15b4c759-cd1f-4ded-9561-5825fa12550d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nodade1.phantombot.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wW4tZPP96i1H0NB4Ql1Qvqepf2ClQ9IsNhcxVdOVWkY",
+                    "short_id": "326e1983846eeab7"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "nodafl2.phantombot.ru",
+            "server_port": 443,
+            "uuid": "15b4c759-cd1f-4ded-9561-5825fa12550d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nodafl2.phantombot.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wW4tZPP96i1H0NB4Ql1Qvqepf2ClQ9IsNhcxVdOVWkY",
+                    "short_id": "98c637e074b03225"
+                }
             }
         },
         {
