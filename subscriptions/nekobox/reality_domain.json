@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -165,9 +166,9 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [5]",
-                "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [6]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -183,6 +184,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -264,9 +266,9 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [5]",
-                "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [6]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -455,6 +457,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "realdom-fr.serverfreedom.com",
+            "server_port": 20810,
+            "uuid": "1eb347c0-e97b-46e9-8d05-7b6ed5c6db00",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -2456,7 +2481,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [4]",
             "type": "vless",
             "server": "usa32.clearorbitllc.com",
             "server_port": 443,
@@ -2479,7 +2504,7 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [6]",
+            "tag": "🇮🇳 IN | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "india2.clearorbitllc.com",
             "server_port": 443,
@@ -2502,7 +2527,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "sv2.utsteam2.top",
             "server_port": 40002,

@@ -97,8 +97,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
+                "🇨🇦 CA | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
@@ -106,11 +107,10 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -127,8 +127,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
+                "🇨🇦 CA | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
@@ -136,11 +137,10 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -273,6 +273,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "HqV2Ray.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "c45fb8d1-635c-417a-9a91-a9fe8f25543a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -282,7 +291,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @ehsawn8 [7]",
             "type": "vless",
             "server": "vpconnect.ahadbala.ir",
             "server_port": 80,
@@ -368,24 +377,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
-            "type": "vless",
-            "server": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
-            "server_port": 443,
-            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "NL-RAIV2MMR-TELEGRAM-JOIN.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
             "type": "vless",
             "server": "sss51210.tas-bazi.com",
@@ -422,7 +413,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "sv2.utsteam2.top",
             "server_port": 40002,
@@ -445,7 +436,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "am288.amin-1.ir",
             "server_port": 2082,
