@@ -94,7 +94,11 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "❔ XX | 🔓 VLESS | @config_proxy [62]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -104,6 +108,9 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [137]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [14]",
+                "🚩 CF | 🔒 VLESS | @v2raych [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [7]",
@@ -120,7 +127,11 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "❔ XX | 🔓 VLESS | @config_proxy [62]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -130,6 +141,9 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [137]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [14]",
+                "🚩 CF | 🔒 VLESS | @v2raych [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [7]",
@@ -238,13 +252,85 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
             "type": "vless",
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "ceec287b-5bd4-4225-b511-9f2b256208e4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "host31.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vps38.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vps26.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "sss71706.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss71706.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -340,6 +426,60 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vps25.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [17]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "host29.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vps40.cgicgnhost.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
