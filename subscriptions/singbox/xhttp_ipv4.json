@@ -103,8 +103,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [39]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -188,8 +188,8 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [39]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -437,25 +437,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [39]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "ada8d5eb-28c9-495b-bca7-0410f9f67c45",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-302",
+            "server": "109.122.201.171",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "Google.com",
+                "server_name": "bimeh.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -463,8 +454,26 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "91.99.217.4",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.217.4",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
