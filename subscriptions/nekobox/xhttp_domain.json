@@ -84,13 +84,13 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [11]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
@@ -112,13 +112,13 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [11]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
@@ -252,13 +252,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "3ce96362-93d6-452b-a5b5-85c8432097b4",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -320,7 +329,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [9]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
