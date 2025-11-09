@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔒 VLESS | @config_proxy [29]","type":"vless","server":"[2400:8902::f03c:95ff:fe48:2433]","port":7001,"uuid":"b5826b46-3bc4-4e9c-88b8-d5e226dd3665","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.bing.com","reality-opts":{"public-key":"JY9uiVus5fHcZn_WzenI_1pRE-qLZpZrVm7g3LUbSn8","short-id":"98285ba8"}}
   - {"name":"❔ XX | 🔒 VLESS | @deli_servers [2]","type":"vless","server":"[2a01:4f8:c012:81c0::1]","port":1,"uuid":"d3927fcb-1dd4-4a84-af91-75196dcc0ee9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"4dsply.com","grpc-opts":{"grpc-service-name":"/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"},"reality-opts":{"public-key":"L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ","short-id":"bbcb1cf7"}}
   - {"name":"❔ XX | 🔓 VLESS | @freevv2rayng [2]","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"bd4de7ea-d6cc-492c-88a6-f1278b9210c3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔓 VLESS | @freevv2rayng [5]","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"0a29e0b5-c4ef-4992-ab0e-1d371dd8b3cd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -48,7 +47,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔒 VLESS | @config_proxy [29]'
       - '❔ XX | 🔒 VLESS | @deli_servers [2]'
       - '❔ XX | 🔓 VLESS | @freevv2rayng [2]'
       - '❔ XX | 🔓 VLESS | @freevv2rayng [5]'

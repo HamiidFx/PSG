@@ -87,7 +87,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -98,6 +97,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🇭🇰 HK | 🔓 TROJAN | @v2raych [10]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [13]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -138,7 +139,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -175,7 +175,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -186,6 +185,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🇭🇰 HK | 🔓 TROJAN | @v2raych [10]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [13]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -226,7 +227,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -458,13 +458,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "bgroup.node1.t.nodelist-airport.com",
-            "server_port": 50001,
-            "password": "2155145a-b1b5-443a-8977-670f6bd10f02"
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
             "type": "trojan",
             "server": "art1.history-paint.art",
@@ -664,6 +657,29 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 TROJAN | @v2raych [10]",
+            "type": "trojan",
+            "server": "naiu-sg.05vr9nyqg5.download",
+            "server_port": 13027,
+            "password": "c471ef32-798d-40a0-a57c-acf3475a204e"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "us-1.stunnel.cc",
+            "server_port": 8441,
+            "password": "tunnel-mobilesignal",
+            "tls": {
+                "enabled": true,
+                "server_name": "creativecommons.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1327,13 +1343,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
-            "type": "trojan",
-            "server": "54.86.248.206",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn"
         },
         {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
