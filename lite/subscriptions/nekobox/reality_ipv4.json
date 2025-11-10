@@ -91,7 +91,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
+                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
@@ -113,8 +113,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [9]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [10]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -136,7 +136,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
+                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
@@ -158,8 +158,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [9]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [10]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -507,7 +507,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kafing_2 [12]",
             "type": "vless",
             "server": "64.188.70.0",
             "server_port": 443,
@@ -1025,30 +1025,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [9]",
-            "type": "vless",
-            "server": "217.195.200.206",
-            "server_port": 53654,
-            "uuid": "cef4ee17-07fd-492f-921e-ddaa6294ba51",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk",
-                    "short_id": "f7"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [10]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [9]",
             "type": "vless",
             "server": "109.107.159.189",
             "server_port": 11133,
@@ -1068,6 +1045,33 @@
                     "public_key": "y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY",
                     "short_id": "d3e9"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
+            "type": "vless",
+            "server": "45.142.106.100",
+            "server_port": 443,
+            "uuid": "09200bb4-8673-4f30-824d-79f7554cccf4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
+                    "short_id": "7a28ae"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         }
     ],
