@@ -341,8 +341,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
-                "🇬🇧 GB | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🇪🇸 ES | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -727,8 +727,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
-                "🇬🇧 GB | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🇪🇸 ES | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -5292,25 +5292,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "080d0b89-697f-4de9-840f-67c2d400a6c7",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "18.133.130.9",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "151.101.2.228",
+            "server_port": 443,
+            "uuid": "9f9eb0b4-1978-4031-e519-9b32a0801da1",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -5319,9 +5310,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-channel-vlessconfig-ws",
+                "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "199.232.32.247",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "behdasht.hrtc.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/H?ed=2560",
+                "headers": {
+                    "Host": "behdasht.hrtc.ir"
                 }
             }
         },

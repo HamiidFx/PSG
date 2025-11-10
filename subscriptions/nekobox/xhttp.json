@@ -84,7 +84,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -155,6 +154,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -178,7 +178,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -249,6 +248,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -380,15 +380,6 @@
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-23",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1476,6 +1467,24 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "159.69.193.170",
+            "server_port": 443,
+            "uuid": "2ed34708-d10e-4e2f-adca-7e83754ac6a0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
