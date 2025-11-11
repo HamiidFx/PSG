@@ -122,9 +122,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -704,9 +705,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1877,50 +1879,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "add-1cv.pages.dev",
-            "server_port": 2087,
-            "uuid": "2836c061-ea09-45e5-a98e-4ca478e744b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adD-1CV.PAgES.DEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aVjUNYWPKNYqXf17/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw",
-                "headers": {
-                    "Host": "adD-1CV.PAgES.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "free-de.vpnkey.dev",
-            "server_port": 443,
-            "uuid": "77366551-f16b-42ca-ab24-c457634b8e34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "free-de.vpnkey.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [31]",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 8080,
@@ -1932,6 +1891,67 @@
                 "path": "/melo",
                 "headers": {
                     "Host": "chat.deepseek.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "27b55507-d87c-4cb1-bc28-453559acef91",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "bia-kanalemoon.vigilante.ir",
+            "server_port": 443,
+            "uuid": "dfe3cb81-2fa4-4bde-9378-8f3fd5311cf2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F4BXY-2ILJDpH9TJxX3Rd0KYYyhzW2DOG81f1LKOWkc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs?ed=2048"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "little-fog-5666.netmousavi.workers.dev",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lITTle-fog-5666.NETmoUsAvI.wOrKErS.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/RHZcln9v1mVzMwZ0?ed=2560",
+                "headers": {
+                    "Host": "lITTle-fog-5666.NETmoUsAvI.wOrKErS.DeV"
                 }
             }
         },

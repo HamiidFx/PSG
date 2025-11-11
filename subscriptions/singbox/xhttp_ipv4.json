@@ -97,9 +97,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [33]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -177,9 +178,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [33]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -373,52 +375,38 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [33]",
-            "type": "vless",
-            "server": "91.99.91.136",
-            "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.91.136",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "91.99.115.171",
-            "server_port": 8080,
-            "uuid": "f33f8f0b-e520-4212-9c9b-aeefcdcc62af",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cp7.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8",
-                    "short_id": "a6df009b"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "d688076d-5f93-408e-e778-bf25b20a70af",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "1cc17f5c-81d2-41e9-a8d3-295fc3f8350d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "104.21.2.155",
+            "server_port": 80,
+            "uuid": "27b55507-d87c-4cb1-bc28-453559acef91",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "172.67.223.232",
+            "server_port": 80,
+            "uuid": "27b55507-d87c-4cb1-bc28-453559acef91",
             "flow": "",
             "packet_encoding": "xudp"
         },
