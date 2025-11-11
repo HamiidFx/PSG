@@ -97,7 +97,9 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -149,7 +151,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -176,7 +177,9 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -228,7 +231,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -371,22 +373,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "91.99.211.213",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "7bb32ab6-9e1a-4874-ec44-cb14fd146418",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.211.213",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "b262dd90-97c5-4cf4-9910-c6ff2ac57c19",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "104.21.2.155",
+            "server_port": 80,
+            "uuid": "b6b23f9d-4300-4eb6-9275-5a331fe1ddd6",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
@@ -1278,29 +1289,6 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "138.201.147.124",
-            "server_port": 1331,
-            "uuid": "b776d2c6-dde7-433a-93fa-7c293af75b17",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
