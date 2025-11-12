@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -109,12 +110,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [11]"
+                "🇨🇭 CH | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,6 +128,7 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -154,12 +156,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [11]"
+                "🇨🇭 CH | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -296,7 +298,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
             "type": "vless",
             "server": "152.53.146.76",
             "server_port": 36659,
@@ -315,6 +317,29 @@
                     "enabled": true,
                     "public_key": "O9IS_8x48rpsn5YovE6lIaJzp_PtzKcyIyeCxPWdwnE",
                     "short_id": "6e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
+            "type": "vless",
+            "server": "152.53.132.153",
+            "server_port": 13718,
+            "uuid": "a5394554-6677-4922-b203-a539be9411c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "eightsleep.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw",
+                    "short_id": "96"
                 }
             }
         },
@@ -933,29 +958,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [16]",
-            "type": "vless",
-            "server": "91.98.224.242",
-            "server_port": 8443,
-            "uuid": "48d51674-9a5e-408d-975e-b2eb4f297c22",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
             "type": "vless",
             "server": "194.113.106.139",
@@ -1048,16 +1050,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [11]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @vpnplusee_free [10]",
             "type": "vless",
-            "server": "37.27.249.161",
-            "server_port": 2083,
-            "uuid": "39904219-c070-4a8f-a820-07406ff07538",
+            "server": "83.228.210.214",
+            "server_port": 443,
+            "uuid": "c5fdf480-3942-4fc9-9e73-f6899c24bda6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "ok.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1065,13 +1067,32 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "I5CKiks47aBxqcqrWOzHV-ejzg_6qTnjJsZMNBZ7UCY",
-                    "short_id": "50d6"
+                    "public_key": "NQtYh_DzWbKDGV3sOdYUbYS7OQqAF-lG42J-rOm_OH0",
+                    "short_id": "41f38b2355acf7bc"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "216.133.149.139",
+            "server_port": 23581,
+            "uuid": "b5471668-94dc-4ea5-ae97-3bb9dabcd2a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EOYTqph-go2SazIPcSDl5pJGNyOnrR0mWaL8Tc_paEM",
+                    "short_id": ""
+                }
             }
         }
     ],
