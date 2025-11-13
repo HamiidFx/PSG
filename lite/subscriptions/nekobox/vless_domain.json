@@ -207,6 +207,8 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [149]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [151]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -272,7 +274,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -417,6 +418,8 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [149]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [151]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -482,7 +485,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -2775,6 +2777,54 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [149]",
+            "type": "vless",
+            "server": "speedtest.org",
+            "server_port": 443,
+            "uuid": "c7158ca6-7c6c-4701-bf7d-df0f98a9ca33",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iwukb.ava-shabane.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/harman",
+                "headers": {
+                    "Host": "iwukb.ava-shabane.com"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [151]",
+            "type": "vless",
+            "server": "nls.jykvpn.com",
+            "server_port": 443,
+            "uuid": "5a1187c4-2718-4bce-9e24-6bd89ffa5e65",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "short_id": "c2a0b2d60a7fc300"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @public504 [10]",
             "type": "vless",
             "server": "cloud.ns.g01e.nochofscu.sbs",
@@ -3851,31 +3901,6 @@
             "uuid": "cde6146f-514f-403f-b36d-7f71514c0890",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "speedtest.org",
-            "server_port": 443,
-            "uuid": "c7158ca6-7c6c-4701-bf7d-df0f98a9ca33",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iwukb.ava-shabane.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/harman",
-                "headers": {
-                    "Host": "iwukb.ava-shabane.com"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
