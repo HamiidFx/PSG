@@ -159,7 +159,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -194,7 +194,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇫🇮 FI | 🔒 VLESS | @outline_ir [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -273,7 +272,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -369,7 +368,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -404,7 +403,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇫🇮 FI | 🔒 VLESS | @outline_ir [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -483,7 +481,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1952,13 +1950,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-37",
+            "uuid": "d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔓 VLESS | @luckyvpn [1]",
@@ -2510,31 +2515,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "upload.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @outline_ir [15]",
-            "type": "vless",
-            "server": "fl-3-direct.djarbnet.ru",
-            "server_port": 443,
-            "uuid": "cc67ca7f-064e-4117-ac31-a66d5728a11c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fl-3-direct.djarbnet.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/getupdates",
-                "headers": {
-                    "Host": "fl-3-direct.djarbnet.ru"
                 }
             }
         },
@@ -3878,7 +3858,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "test2.amin8263.ir",
             "server_port": 2095,

@@ -87,9 +87,9 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇭🇰 HK | 🔒 TROJAN | @netfreedom0 [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
@@ -97,8 +97,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
-                "🇸🇪 SE | 🔒 TROJAN | @vmesc [7]",
-                "🇵🇹 PT | 🔒 TROJAN | @vmesc [9]"
+                "🇵🇹 PT | 🔒 TROJAN | @vmesc [9]",
+                "🇭🇰 HK | 🔒 TROJAN | @vmesc [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,9 +116,9 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇭🇰 HK | 🔒 TROJAN | @netfreedom0 [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
@@ -126,8 +126,8 @@
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
-                "🇸🇪 SE | 🔒 TROJAN | @vmesc [7]",
-                "🇵🇹 PT | 🔒 TROJAN | @vmesc [9]"
+                "🇵🇹 PT | 🔒 TROJAN | @vmesc [9]",
+                "🇭🇰 HK | 🔒 TROJAN | @vmesc [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -353,23 +353,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-            "type": "trojan",
-            "server": "52.29.124.102",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
             "type": "trojan",
             "server": "13.37.94.36",
             "server_port": 22222,
@@ -385,9 +369,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
             "type": "trojan",
             "server": "51.45.19.81",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+            "type": "trojan",
+            "server": "63.178.207.130",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -513,29 +513,6 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @vmesc [7]",
-            "type": "trojan",
-            "server": "193.233.115.79",
-            "server_port": 8443,
-            "password": "0c7edd8f-96d8-4227-b086-1ffc3aeecc96",
-            "tls": {
-                "enabled": true,
-                "server_name": "joss.dus.biz.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Free-VPN-CF-Geo-Project/193.233.115.79=8443",
-                "headers": {
-                    "Host": "joss.dus.biz.id"
-                }
-            }
-        },
-        {
             "tag": "🇵🇹 PT | 🔒 TROJAN | @vmesc [9]",
             "type": "trojan",
             "server": "45.159.251.8",
@@ -555,6 +532,22 @@
                 "path": "/Free-VPN-CF-Geo-Project/45.159.251.8=81",
                 "headers": {
                     "Host": "joss.dus.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @vmesc [10]",
+            "type": "trojan",
+            "server": "58.152.110.25",
+            "server_port": 443,
+            "password": "1b57001bd214304027025a740b6cf1ac",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.nintendogames.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
