@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -145,7 +144,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -156,7 +155,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [8]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🚩 CF | 🔓 VLESS | @vmesskhodam [8]"
+                "🚩 CF | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -167,8 +166,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -220,7 +218,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -231,7 +229,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [8]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🚩 CF | 🔓 VLESS | @vmesskhodam [8]"
+                "🚩 CF | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -318,20 +316,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "7024fc2a-0202-4803-8d0e-0bbd0d14c29a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "eaf46bf4-2fae-4aad-8bea-1734df897848",
+            "uuid": "61c77e4e-8f54-4c6e-c3a7-809ca9c990df",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1229,13 +1218,22 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [9]",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "1d54f7bc-64c0-4547-989b-96f2f1aa4d09",
+            "server": "188.114.98.224",
+            "server_port": 443,
+            "uuid": "bae04bff-4d10-40df-b78a-33d026ed641a",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kingmethode.Blogmmd.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
@@ -1426,7 +1424,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesskhodam [8]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmesskhodam [7]",
             "type": "vless",
             "server": "104.16.1.106",
             "server_port": 8080,
