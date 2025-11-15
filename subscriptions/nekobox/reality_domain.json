@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -94,7 +96,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -184,6 +186,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -194,7 +198,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -460,6 +464,52 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "holang.kimjo.ir",
+            "server_port": 443,
+            "uuid": "e6b4d1ee-871c-4fab-8aae-5033093480b6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IqSKHvETwm15L1CW3JfEA052UrEaUakJEhyUKb_9kz4",
+                    "short_id": "87606ed6cdfaa532"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "Hetznear-de3.turkserver.ir",
+            "server_port": 8443,
+            "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cdZROd5jYaqrDcmZJUw_KSpfUusjrrKDgah8ZkOdF2E",
+                    "short_id": "b44cea83b91a143a"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -710,7 +760,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "V2ngnet.huqpmfood.ir",
             "server_port": 4455,
