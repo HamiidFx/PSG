@@ -90,12 +90,9 @@
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [5]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [10]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -152,6 +149,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2raying [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [8]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [16]",
@@ -178,12 +176,9 @@
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [5]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [10]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -240,6 +235,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2raying [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [8]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [16]",
@@ -440,15 +436,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "8df510c5-5267-4012-9da7-6ae0ea8d8416",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -483,47 +470,6 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "91.107.141.42",
-            "server_port": 443,
-            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.107.141.42",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "212.95.41.20",
-            "server_port": 900,
-            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
-                    "short_id": "2cc45a0088671249"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
@@ -1518,6 +1464,29 @@
             "uuid": "86ae2e85-949e-45d1-a162-cded972fc252",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+            "type": "vless",
+            "server": "212.95.41.20",
+            "server_port": 900,
+            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
+                    "short_id": "2cc45a0088671249"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
