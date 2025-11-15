@@ -116,8 +116,9 @@
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [28]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
+                "🇭🇰 HK | 🔒 VLESS | @flyv2ray [17]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
@@ -140,7 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -257,7 +258,6 @@
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔒 VLESS | @vpnowl [18]",
                 "🚩 CF | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇭🇺 HU | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
@@ -298,8 +298,9 @@
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [28]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
+                "🇭🇰 HK | 🔒 VLESS | @flyv2ray [17]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
@@ -322,7 +323,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -439,7 +440,6 @@
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🚩 CF | 🔒 VLESS | @vpnowl [18]",
                 "🚩 CF | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇭🇺 HU | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
@@ -979,7 +979,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
             "type": "vless",
             "server": "104.21.224.5",
             "server_port": 2096,
@@ -1023,6 +1023,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/snippets",
+                "headers": {
+                    "Host": "vless.hubp.de"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @flyv2ray [17]",
+            "type": "vless",
+            "server": "27.50.48.8",
+            "server_port": 443,
+            "uuid": "602b380a-9fdf-4425-bc07-aae9a95cfc4b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.hubp.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
                 "headers": {
                     "Host": "vless.hubp.de"
                 }
@@ -1447,28 +1472,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "104.19.54.50",
-            "server_port": 443,
-            "uuid": "e1d22a11-d2fa-4c95-b512-2f8bbc75f66c",
+            "server": "104.17.147.22",
+            "server_port": 8443,
+            "uuid": "3b5985aa-8133-43bb-b43d-639533a304de",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960006.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960006.workers.dev"
-                }
+                "type": "grpc",
+                "service_name": "Telegram"
             }
         },
         {
@@ -3587,29 +3600,6 @@
                 "path": "/random",
                 "headers": {
                     "Host": "adderall.adaspoloandco.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
-            "type": "vless",
-            "server": "93.114.56.178",
-            "server_port": 17715,
-            "uuid": "9627bc06-1a36-4674-aeb8-4e863b8bd979",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ilovepdf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "itR04_u2Xo8xZ4a9Kk2U-pul4hNXzZYskdHdx4rjO0s",
-                    "short_id": "0db891a2"
                 }
             }
         },
