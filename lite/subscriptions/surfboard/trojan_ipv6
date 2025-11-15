@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔓 TROJAN | @hope_net [21] = trojan, [2a01:4f8:c013:637f::1], 40346, password = 6e3acf13-788a-4de7-90f3-2887871bb42d, skip-cert-verify = false
+❔ XX | 🔓 TROJAN | @hope_net [18] = trojan, [2a01:4f8:c013:637f::1], 40346, password = 6e3acf13-788a-4de7-90f3-2887871bb42d, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 TROJAN | @hope_net [21]
-PSG-AUTO = url-test, ❔ XX | 🔓 TROJAN | @hope_net [21]
-PSG-FALLBACK = fallback, ❔ XX | 🔓 TROJAN | @hope_net [21]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 TROJAN | @hope_net [18]
+PSG-AUTO = url-test, ❔ XX | 🔓 TROJAN | @hope_net [18]
+PSG-FALLBACK = fallback, ❔ XX | 🔓 TROJAN | @hope_net [18]
 
 [Rule]
 GEOIP,IR,DIRECT
