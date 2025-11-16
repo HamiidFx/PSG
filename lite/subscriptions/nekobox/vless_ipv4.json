@@ -100,7 +100,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [6]",
+                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -132,8 +132,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -164,7 +165,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [6]",
+                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -196,8 +197,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -620,7 +622,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @mehrosaboran [6]",
+            "tag": "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
             "type": "vless",
             "server": "172.67.146.171",
             "server_port": 2095,
@@ -1141,7 +1143,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "172.67.71.48",
             "server_port": 443,
@@ -1166,7 +1168,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "152.53.84.101",
             "server_port": 20579,
@@ -1185,6 +1187,31 @@
                     "enabled": true,
                     "public_key": "mT6lh-gtbEuWk3Zk6XGF_hYvpLwxTyvwtH7F-_fRbxI",
                     "short_id": "89f1da93"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "173.245.58.113",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.nneko.netlib.re",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048Join---A",
+                "headers": {
+                    "Host": "snippets.nneko.netlib.re"
                 }
             }
         }

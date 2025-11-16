@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔒 VLESS | @config_proxy [67]","type":"vless","server":"[2a0b:4140:3342::2]","port":21748,"uuid":"2c3d6e6c-7302-4315-a12f-8376fd1fe674","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"tHP6jGA_Z1beKT6lu8to_-lOt5n04FoMA67yTv1cziM","short-id":"96cb7bc96dfe6a"}}
   - {"name":"❔ XX | 🔒 VLESS | @deli_servers [2]","type":"vless","server":"[2a01:4f8:c012:81c0::1]","port":1,"uuid":"d3927fcb-1dd4-4a84-af91-75196dcc0ee9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"4dsply.com","grpc-opts":{"grpc-service-name":"/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"},"reality-opts":{"public-key":"L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ","short-id":"bbcb1cf7"}}
   - {"name":"❔ XX | 🔒 VLESS | @kesslervpn [2]","type":"vless","server":"[2a03:b0c0:3:d0::10ad:7001]","port":29360,"uuid":"9e890db0-905d-41d2-8a69-0a35ff7d8ce3","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"reality-opts":{"public-key":"WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo"}}
+  - {"name":"❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [14]","type":"vless","server":"[2a0b:4140:3342::2]","port":21748,"uuid":"2c3d6e6c-7302-4315-a12f-8376fd1fe674","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"tHP6jGA_Z1beKT6lu8to_-lOt5n04FoMA67yTv1cziM","short-id":"96cb7bc96dfe6a"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔒 VLESS | @config_proxy [67]'
       - '❔ XX | 🔒 VLESS | @deli_servers [2]'
       - '❔ XX | 🔒 VLESS | @kesslervpn [2]'
+      - '❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [14]'
 
   - name: 🌍 Global Media
     type: select
