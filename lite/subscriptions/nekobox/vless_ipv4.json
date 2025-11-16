@@ -131,7 +131,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [17]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -193,7 +194,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [17]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1112,7 +1114,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "8.39.125.85",
             "server_port": 443,
@@ -1131,6 +1133,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/?ed",
+                "headers": {
+                    "Host": "snippets.nneko.netlib.re"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "173.245.58.113",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.nneko.netlib.re",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
                 "headers": {
                     "Host": "snippets.nneko.netlib.re"
                 }
