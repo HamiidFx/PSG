@@ -119,6 +119,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -161,6 +163,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -610,6 +614,40 @@
             "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "135.181.248.129",
+            "server_port": 443,
+            "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "77.37.33.77",
+            "server_port": 80,
+            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",

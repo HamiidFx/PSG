@@ -103,6 +103,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -111,7 +112,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -133,6 +134,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -141,7 +143,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -481,6 +483,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "91.132.160.165",
+            "server_port": 443,
+            "uuid": "b59a95d8-4f76-458f-b014-84610f7159f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YtCLxL-1VuXCKyMp2cnmEtxZH3cEtpZRtVLE3V__sjU",
+                    "short_id": "1f8ebe6e774e89"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -681,7 +706,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
