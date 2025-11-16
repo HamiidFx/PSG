@@ -230,7 +230,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -425,7 +427,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2832,12 +2836,53 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "45.87.175.10",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "57.129.59.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "fapeng.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "fapeng.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "104.17.223.18",
+            "server_port": 80,
+            "uuid": "ff2d17c6-0d96-4801-a270-9dba8334f8c6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.17.223.18"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
