@@ -94,12 +94,14 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
-                "🚩 CF | 🔓 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @free1_vpn [7]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [3]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [5]",
@@ -112,6 +114,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔓 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -127,12 +130,14 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
-                "🚩 CF | 🔓 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @free1_vpn [7]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [3]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [5]",
@@ -145,6 +150,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔓 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -252,6 +258,33 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "nl-new-raiv2mmr.up.railway.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl-new-raiv2mmr.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "84c33c10-ae6e-4fa3-a2e7-5e6995141117",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -302,7 +335,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
             "type": "vless",
             "server": "V2ngnet.huqpmfood.ir",
             "server_port": 4455,
@@ -325,7 +358,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @free1_vpn [5]",
+            "tag": "🚩 CF | 🔓 VLESS | @free1_vpn [7]",
             "type": "vless",
             "server": "deadseectelegram.slimshopboyss.ir",
             "server_port": 8080,
@@ -492,6 +525,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "84c33c10-ae6e-4fa3-a2e7-5e6995141117",
             "flow": "",
             "packet_encoding": "xudp"
         },
