@@ -120,7 +120,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -164,7 +165,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -632,29 +634,31 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "pelang.org",
+            "server": "38.60.199.177",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "81fd1594-a68e-4bf2-bd46-f8f9ed453db6",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "pelang.org",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "pelang.org"
-                }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "155.254.35.160",
+            "server_port": 29912,
+            "uuid": "bf0aea7b-fa11-47e2-8494-89a86761967d",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
