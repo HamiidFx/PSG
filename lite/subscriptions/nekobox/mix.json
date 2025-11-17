@@ -230,8 +230,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -427,8 +427,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2861,26 +2861,52 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "62.100.205.100",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "141.101.121.26",
-            "server_port": 80,
-            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "server": "45.85.118.48",
+            "server_port": 2053,
+            "uuid": "8002b022-c759-42cb-8ffb-c195483aaa79",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "webshecanir3.symodi.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
+                "path": "/aZfPZzbdJhEy",
                 "headers": {
-                    "Host": ""
+                    "Host": "webshecanir3.symodi.ml"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "pelang.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "pelang.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "pelang.org"
                 }
             }
         },

@@ -120,7 +120,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -164,7 +165,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -632,18 +634,52 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "141.101.121.26",
-            "server_port": 80,
-            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "server": "45.85.118.48",
+            "server_port": 2053,
+            "uuid": "8002b022-c759-42cb-8ffb-c195483aaa79",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "webshecanir3.symodi.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
+                "path": "/aZfPZzbdJhEy",
                 "headers": {
-                    "Host": ""
+                    "Host": "webshecanir3.symodi.ml"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "pelang.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "pelang.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "pelang.org"
                 }
             }
         },
