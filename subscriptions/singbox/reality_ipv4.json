@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "❔ XX | 🔒 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔒 VLESS | @config_proxy [15]",
+                "❔ XX | 🔒 VLESS | @config_proxy [28]",
+                "❔ XX | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
                 "❔ XX | 🔒 VLESS | @configasli [1]",
                 "❔ XX | 🔒 VLESS | @configasli [2]",
                 "❔ XX | 🔒 VLESS | @configasli [3]",
@@ -239,7 +241,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "❔ XX | 🔒 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔒 VLESS | @config_proxy [15]",
+                "❔ XX | 🔒 VLESS | @config_proxy [28]",
+                "❔ XX | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
                 "❔ XX | 🔒 VLESS | @configasli [1]",
                 "❔ XX | 🔒 VLESS | @configasli [2]",
                 "❔ XX | 🔒 VLESS | @configasli [3]",
@@ -504,16 +508,16 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [15]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
-            "server": "128.140.51.22",
-            "server_port": 1001,
-            "uuid": "2d2cf1dc-292c-4674-8011-63b7dc0101df",
+            "server": "137.184.126.94",
+            "server_port": 443,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ea.com",
+                "server_name": "www.gstatic.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -521,8 +525,54 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "2EZXYUFvq9YgSuJ_OFyrHw-8DcVhQQLPNazcF2be60Y",
-                    "short_id": "89d5cda1"
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "62.60.246.188",
+            "server_port": 443,
+            "uuid": "405ec164-7923-4d76-8be5-7ae96e444f4e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "web.max.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0",
+                    "short_id": "6104c5e9613ea56c"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "77.73.232.61",
+            "server_port": 19747,
+            "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
+                    "short_id": "2001"
                 }
             }
         },
