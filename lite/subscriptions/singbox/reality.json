@@ -112,7 +112,8 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -144,7 +145,8 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -708,7 +710,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "eng30.digitunnel.org",
             "server_port": 443,
@@ -727,6 +729,29 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
+            "type": "vless",
+            "server": "greenwolf.fonixapp.org",
+            "server_port": 30268,
+            "uuid": "f99cc0f1-d1a3-45f9-a13b-b33c8d3e0f10",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "indeed.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM",
+                    "short_id": "50bcccfb"
                 }
             }
         },

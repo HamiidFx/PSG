@@ -130,8 +130,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [14]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [16]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -192,8 +192,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [14]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [16]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1087,32 +1087,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [14]",
-            "type": "vless",
-            "server": "198.41.223.140",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048Join---",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "8.39.125.85",
             "server_port": 443,
@@ -1133,6 +1108,31 @@
                 "path": "/?ed=2048J--_T",
                 "headers": {
                     "Host": "snippets.nneko.netlib.re"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "104.18.82.55",
+            "server_port": 443,
+            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.hubp.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Join------Join------Join---_T",
+                "headers": {
+                    "Host": "vless.hubp.de"
                 }
             }
         }
