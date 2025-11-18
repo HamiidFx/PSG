@@ -122,6 +122,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -184,6 +186,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -950,6 +954,56 @@
             "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "173.245.58.113",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.nneko.netlib.re",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048Join",
+                "headers": {
+                    "Host": "snippets.nneko.netlib.re"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
+            "type": "vless",
+            "server": "37.221.125.227",
+            "server_port": 443,
+            "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "37.221.125.227",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "37.221.125.227"
+                }
+            }
         },
         {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
