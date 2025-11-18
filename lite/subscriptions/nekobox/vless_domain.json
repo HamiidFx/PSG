@@ -158,7 +158,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "❔ XX | 🔓 VLESS | @vmesc [16]",
+                "❔ XX | 🔓 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
@@ -253,7 +254,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "❔ XX | 🔓 VLESS | @vmesc [16]",
+                "❔ XX | 🔓 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
@@ -1694,7 +1696,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vmesc [16]",
+            "tag": "❔ XX | 🔓 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "vp15.myphotomoments.ir",
             "server_port": 443,
@@ -1708,6 +1710,31 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "holo.mrconfigur.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "holo.mrconfigur.site"
                 }
             }
         },
