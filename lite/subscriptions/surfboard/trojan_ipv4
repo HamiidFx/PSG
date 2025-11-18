@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19] = trojan, 202.181.103.235, 3169, password = 2274c52572e721086f8bd8f88984643c, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 3.77.167.140, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [15] = trojan, 3.72.127.134, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [16] = trojan, 35.181.137.169, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @netfreedom0 [18] = trojan, 202.181.103.235, 3169, password = 2274c52572e721086f8bd8f88984643c, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [12] = trojan, 3.72.127.134, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [13] = trojan, 35.181.137.169, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [14] = trojan, 15.236.59.28, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
-PSG-AUTO = url-test, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
-PSG-FALLBACK = fallback, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @netfreedom0 [18], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
+PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @netfreedom0 [18], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @netfreedom0 [18], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
 
 [Rule]
 GEOIP,IR,DIRECT
