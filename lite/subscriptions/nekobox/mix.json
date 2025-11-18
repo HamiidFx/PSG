@@ -226,14 +226,13 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇪🇪 EE | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -427,14 +426,13 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇪🇪 EE | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2780,7 +2778,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [3]",
             "type": "vless",
             "server": "173.245.58.113",
             "server_port": 443,
@@ -2805,7 +2803,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
             "type": "vless",
             "server": "37.221.125.227",
             "server_port": 443,
@@ -2830,7 +2828,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
             "type": "vmess",
             "server": "57.129.28.212",
             "server_port": 443,
@@ -2896,38 +2894,12 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "134.195.198.147",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "82.197.69.131",
-            "server_port": 39674,
-            "uuid": "5a89386a-827b-4f54-8778-2f1b5122c6ef",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇪🇪 EE | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "188.214.36.155",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
