@@ -153,7 +153,7 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
+                "🚩 CF | 🔓 VLESS | @mehrosaboran [5]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -231,8 +231,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇬🇷 GR | 🔒 SS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -353,7 +352,7 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
+                "🚩 CF | 🔓 VLESS | @mehrosaboran [5]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -431,8 +430,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇬🇷 GR | 🔒 SS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1724,7 +1722,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
+            "tag": "🚩 CF | 🔓 VLESS | @mehrosaboran [5]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -2898,38 +2896,12 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "radhan.configraybot.sbs",
-            "server_port": 11559,
-            "uuid": "f149b3b4-341d-4f8e-8775-552b86d7dc52",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "104.26.0.95",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
+            "tag": "🇬🇷 GR | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "192.71.166.102",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
