@@ -142,7 +142,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [14]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "proxy",
@@ -204,7 +204,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
+                "🚩 CF | 🔒 VLESS | @vmesc [14]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "auto",
@@ -455,7 +455,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "fee15267-4f05-4f6c-a346-e7fe02be0614",
+            "uuid": "a4082527-cc53-4595-8bdf-616cf1fa4162",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -1095,32 +1095,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
-            "type": "vless",
-            "server": "8.39.125.85",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048J--_T",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "104.18.82.55",
             "server_port": 443,
@@ -1141,6 +1116,31 @@
                 "path": "/Join------Join------Join---_T",
                 "headers": {
                     "Host": "vless.hubp.de"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "104.26.6.89",
+            "server_port": 443,
+            "uuid": "5ec3a039-ea63-4bf9-a848-a65c9bfa66f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gb-8981.shenzogmbh.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1",
+                "headers": {
+                    "Host": "gb-8981.shenzogmbh.com"
                 }
             }
         }
