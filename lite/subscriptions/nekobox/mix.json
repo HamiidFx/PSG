@@ -232,9 +232,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -434,9 +434,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2898,23 +2898,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "8.217.21.237",
-            "server_port": 26998,
-            "uuid": "248b7151-e940-4a68-b734-e206b0fa1d9a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "46.62.214.228",
             "server_port": 8081,
@@ -2923,13 +2907,38 @@
             "alter_id": 0
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "46.250.233.133",
             "server_port": 550,
             "uuid": "abdd76c7-116d-41f2-8538-11239dde5f43",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "254551f6-ec28-4938-ad0e-0aa4aa1965ec",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "Moscow.domain.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "Moscow.domain.com"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",

@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -178,7 +179,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -193,6 +194,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -276,7 +278,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -438,6 +440,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "bia-kanalemoon.vigilante.ir",
+            "server_port": 443,
+            "uuid": "d0609aaa-f49f-4a78-a2ae-e9d288ddc5c5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hHyUn-jkjkp4t0mEEukOeUbWgZNnavWXy01Nqax_ATk",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs?ed=2048"
             }
         },
         {
@@ -2481,7 +2510,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "eng30.digitunnel.org",
             "server_port": 443,
