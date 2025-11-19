@@ -83,7 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -135,6 +134,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @selinc [6]",
+                "🇨🇭 CH | 🔒 VLESS | @server_nekobox [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
@@ -182,7 +182,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -234,6 +233,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @selinc [6]",
+                "🇨🇭 CH | 🔒 VLESS | @server_nekobox [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
@@ -432,29 +432,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [67]",
-            "type": "vless",
-            "server": "dubaiiiia.vezze.lat",
-            "server_port": 34341,
-            "uuid": "b1a49664-1658-4801-8604-84f0c0d9d92f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1714,6 +1691,29 @@
                     "enabled": true,
                     "public_key": "ytFEE1Ae7cboXEsIhJt5ry8qv2hGZ41jAWyGhHjZXVo",
                     "short_id": "9d6aa524"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @server_nekobox [1]",
+            "type": "vless",
+            "server": "2margate.superip.ir",
+            "server_port": 3041,
+            "uuid": "3956e45d-e9fa-4f2a-a831-b7e8e5904692",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
             }
         },
