@@ -95,7 +95,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "❔ XX | 🔒 VLESS | @config_proxy [66]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -112,7 +112,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [7]",
@@ -135,7 +134,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "❔ XX | 🔒 VLESS | @config_proxy [66]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -152,7 +151,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [7]",
@@ -275,13 +273,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "77aad3ce-609e-4142-8e87-4b98d8b55b0a",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "ko1.xservers.ir",
+            "server_port": 81,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -492,15 +504,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "FASTLY.TORPROSPEED.IR",
-            "server_port": 80,
-            "uuid": "f7311881-7fda-4e5e-b748-ad845ffb41cc",
             "flow": "",
             "packet_encoding": "xudp"
         },
