@@ -99,6 +99,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [10]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
@@ -118,6 +119,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [10]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
@@ -318,6 +320,24 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [10]",
+            "type": "vless",
+            "server": "45.154.96.164",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
