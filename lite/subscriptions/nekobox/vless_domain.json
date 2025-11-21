@@ -158,6 +158,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -250,6 +251,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1655,6 +1657,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "fl.mizbanandata.com",
+            "server_port": 443,
+            "uuid": "b35e1a7b-1248-406c-a35c-d417cd6c830e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "fd1dff03520d8f56"
+                }
             }
         },
         {
