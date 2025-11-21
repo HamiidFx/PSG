@@ -107,7 +107,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -149,7 +151,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -604,13 +608,54 @@
             "alter_id": 0
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "164.138.202.55",
-            "server_port": 50475,
-            "uuid": "13037118-2bdb-4950-b879-c1c135d14370",
+            "server": "msiawdfgz.76898102.xyz",
+            "server_port": 11827,
+            "uuid": "5f9c7bda-33f9-3dd0-bcf5-aca324418e31",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/bvdfyueusf",
+                "headers": {
+                    "Host": "msiawdfgz.76898102.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "65.109.8.76",
+            "server_port": 38000,
+            "uuid": "105b7158-2977-4b5c-93ea-1fcf33c72c56",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "putihb.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "putihb.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "putihb.org"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
