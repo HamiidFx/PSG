@@ -121,7 +121,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
+                "🇵🇹 PT | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -182,7 +183,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
+                "🇵🇹 PT | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -763,7 +765,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [11]",
             "type": "trojan",
             "server": "138.124.30.8",
             "server_port": 443,
@@ -780,6 +782,29 @@
             "transport": {
                 "type": "ws",
                 "path": "/Free-VPN-CF-Geo-Project/138.124.30.8=443",
+                "headers": {
+                    "Host": "joss.gpj1.web.id"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇹 PT | 🔒 TROJAN | @v2raych [19]",
+            "type": "trojan",
+            "server": "45.159.251.8",
+            "server_port": 81,
+            "password": "6ead60c4-4321-45d5-81a9-ba4835f7c692",
+            "tls": {
+                "enabled": true,
+                "server_name": "joss.gpj1.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-CF-Geo-Project/45.159.251.8=81",
                 "headers": {
                     "Host": "joss.gpj1.web.id"
                 }
