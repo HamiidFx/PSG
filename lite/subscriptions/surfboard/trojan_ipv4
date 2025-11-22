@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [14] = trojan, 13.39.169.16, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [15] = trojan, 15.188.237.245, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [16] = trojan, 3.76.168.69, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [12] = trojan, 15.188.237.245, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [13] = trojan, 3.76.168.69, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 3.127.91.148, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3] = trojan, 162.19.246.187, 2053, password = 83794b09-d50a-4e6e-9559-1372b6299e89, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
-PSG-AUTO = url-test, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
+PSG-AUTO = url-test, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
+PSG-FALLBACK = fallback, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [3]
 
 [Rule]
 GEOIP,IR,DIRECT
