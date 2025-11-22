@@ -88,7 +88,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -108,7 +109,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -400,7 +402,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "fl.mizbanandata.com",
             "server_port": 443,
@@ -419,6 +421,29 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "kz.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "39b86671-bdb6-4493-9c5d-cd2e950a2297",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "elMH63logRDheIXkwxE7js7tpRFfJw0FHHlUSYpfPQU",
+                    "short_id": "2f95"
                 }
             }
         },
