@@ -124,6 +124,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -187,6 +188,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -988,6 +990,31 @@
             "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
+            "type": "vless",
+            "server": "172.67.166.211",
+            "server_port": 443,
+            "uuid": "c27bdfe9-929c-45cd-a917-aa47dae1cff7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "soft98m.dPdNS.OrG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "headers": {
+                    "Host": "soft98m.dPdNS.OrG"
+                }
+            }
         },
         {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",

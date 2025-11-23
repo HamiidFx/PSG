@@ -84,9 +84,9 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,9 +101,9 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -283,23 +283,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
-            "type": "trojan",
-            "server": "51.45.30.4",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
             "type": "trojan",
             "server": "35.159.144.1",
             "server_port": 22222,
@@ -315,9 +299,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
             "type": "trojan",
             "server": "52.57.38.0",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
+            "type": "trojan",
+            "server": "51.44.49.52",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {

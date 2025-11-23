@@ -124,6 +124,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -193,8 +194,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -270,6 +270,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -339,8 +340,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1154,6 +1154,31 @@
             "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
+            "type": "vless",
+            "server": "172.67.166.211",
+            "server_port": 443,
+            "uuid": "c27bdfe9-929c-45cd-a917-aa47dae1cff7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "soft98m.dPdNS.OrG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "headers": {
+                    "Host": "soft98m.dPdNS.OrG"
+                }
+            }
         },
         {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
@@ -2322,25 +2347,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2083,
-            "uuid": "1b36c512-7a15-49d3-9114-761ce636a0d0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ahwaz.infinitespd.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
             "type": "vless",
             "server": "necrolyte.fonixapp.org",
             "server_port": 25617,

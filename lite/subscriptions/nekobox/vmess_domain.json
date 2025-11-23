@@ -106,7 +106,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [23]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -148,7 +148,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [23]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -588,13 +588,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [23]",
             "type": "vmess",
-            "server": "91.107.177.175",
-            "server_port": 80,
-            "uuid": "80aa3258-6f10-4959-fdc9-90c2ae0402a5",
+            "server": "n1747969945.xlxzzx.com",
+            "server_port": 443,
+            "uuid": "192217b5-fd9f-4e08-9c74-1726f83af848",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "n1747969945.xlxzzx.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "n1747969945.xlxzzx.com"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
