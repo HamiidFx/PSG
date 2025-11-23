@@ -121,13 +121,13 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [10]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [17]",
                 "🇦🇷 AR | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [4]",
@@ -209,13 +209,13 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [10]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [17]",
                 "🇦🇷 AR | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [4]",
@@ -880,7 +880,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [6]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @free1_vpn [10]",
             "type": "trojan",
             "server": "162.19.246.187",
             "server_port": 2053,
@@ -942,30 +942,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "162.159.152.96",
-            "server_port": 443,
-            "password": "tg-dns68",
-            "tls": {
-                "enabled": true,
-                "server_name": "vip.putata.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "vip.putata.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "151.101.130.219",
             "server_port": 443,
@@ -988,7 +965,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "46.51.180.160",
             "server_port": 22222,
@@ -1000,6 +977,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "162.159.152.23",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },
