@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -108,8 +109,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
-                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -155,6 +156,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [1]",
@@ -199,6 +201,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -212,8 +215,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
-                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -259,6 +262,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [1]",
@@ -450,6 +454,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "32d9a448-fdfa-488f-90c2-7f383624ca12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Evay-vpn.octacityroleplay.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2N",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -772,7 +799,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
             "type": "vless",
             "server": "usa82.freednet.org",
             "server_port": 443,
@@ -795,7 +822,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
             "type": "vless",
             "server": "necrolyte.fonixapp.org",
             "server_port": 25617,
@@ -1912,6 +1939,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "32d9a448-fdfa-488f-90c2-7f383624ca12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Evay-vpn.octacityroleplay.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": ""
                 }
             }
         },
