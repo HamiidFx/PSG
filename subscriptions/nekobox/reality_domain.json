@@ -83,6 +83,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -149,7 +150,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [7]",
+                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [15]",
@@ -192,6 +193,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -258,7 +260,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [7]",
+                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [15]",
@@ -452,6 +454,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "fl.mizbanandata.com",
+            "server_port": 443,
+            "uuid": "b35e1a7b-1248-406c-a35c-d417cd6c830e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "fd1dff03520d8f56"
+                }
             }
         },
         {
@@ -2056,7 +2081,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [7]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2rayopen [7]",
             "type": "vless",
             "server": "ch.srv1.stargrian.com",
             "server_port": 3445,
