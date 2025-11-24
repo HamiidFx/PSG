@@ -12,11 +12,12 @@ DIRECT = direct
 ❔ XX | 🔒 SS | @freevv2rayng [6] = ss, [2a12:5940:1527::2], 80, encrypt-method = chacha20-ietf-poly1305, password = TItTywXQAj5+MCwRTh9nhxYw1TzJZRvQCwANErOIf5I=
 ❔ XX | 🔒 SS | @freevv2rayng [8] = ss, [2a12:5940:1527::2], 80, encrypt-method = chacha20-ietf-poly1305, password = SaV68PD8ace6lAZkvukLqX3G6xBJ/PwMCalr+h3uxSo=
 ❔ XX | 🔒 SS | @freevv2rayng [9] = ss, [2a12:5940:1527::2], 80, encrypt-method = chacha20-ietf-poly1305, password = T0fI0EdmSXqpdrFdsuW643yGO4MwlUBgQLfjhdRYWd4=
+❔ XX | 🔒 SS | @vpn_ioss [5] = ss, [2001:bc8:1203:106::300], 33333, encrypt-method = aes-256-gcm, password = dongtaiwang.com
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9]
-PSG-AUTO = url-test, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9]
-PSG-FALLBACK = fallback, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9], ❔ XX | 🔒 SS | @vpn_ioss [5]
+PSG-AUTO = url-test, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9], ❔ XX | 🔒 SS | @vpn_ioss [5]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 SS | @freevv2rayng [6], ❔ XX | 🔒 SS | @freevv2rayng [8], ❔ XX | 🔒 SS | @freevv2rayng [9], ❔ XX | 🔒 SS | @vpn_ioss [5]
 
 [Rule]
 GEOIP,IR,DIRECT

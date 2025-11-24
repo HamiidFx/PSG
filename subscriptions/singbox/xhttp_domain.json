@@ -95,6 +95,8 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [68]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -105,7 +107,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [147]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
@@ -114,9 +116,7 @@
                 "🚩 CF | 🔓 VLESS | @v2rayopen [2]",
                 "🚩 CF | 🔓 VLESS | @vmesc [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [6]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [3]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -131,6 +131,8 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [68]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -141,7 +143,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [147]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
@@ -150,9 +152,7 @@
                 "🚩 CF | 🔓 VLESS | @v2rayopen [2]",
                 "🚩 CF | 🔓 VLESS | @vmesc [12]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [6]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [3]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -265,6 +265,33 @@
             "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "fi.srv.happvpn.com",
+            "server_port": 8443,
+            "uuid": "9a12e2e5-7038-4ed8-91f3-a94d9b2d465f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
+            "type": "vless",
+            "server": "api.speedload.ru",
+            "server_port": 443,
+            "uuid": "b49821f8-a31f-428b-9586-1e94b21a1b74",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.speedload.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -427,7 +454,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [147]",
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
             "type": "vless",
             "server": "peaceful-basilisk-itwasmmr-76b04cc8.koyeb.app",
             "server_port": 443,
@@ -526,25 +553,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [6]",
-            "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "8c8e3d85-7263-438d-ae3c-55e51338911b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [3]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-69",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "am288.amin-1.ir",
             "server_port": 2082,

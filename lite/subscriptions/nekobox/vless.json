@@ -128,8 +128,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [1]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [3]",
-                "🚩 CF | 🔒 VLESS | @v2rayvpn2 [3]",
-                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]",
+                "🚩 CF | 🔒 VLESS | @v2rayvpn2 [2]",
+                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇮🇷 IR | 🔓 VLESS | @vmesc [17]",
@@ -211,7 +211,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [17]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -273,8 +273,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [1]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [3]",
-                "🚩 CF | 🔒 VLESS | @v2rayvpn2 [3]",
-                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]",
+                "🚩 CF | 🔒 VLESS | @v2rayvpn2 [2]",
+                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇮🇷 IR | 🔓 VLESS | @vmesc [17]",
@@ -356,7 +356,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [17]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1209,7 +1209,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2rayvpn2 [3]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2rayvpn2 [2]",
             "type": "vless",
             "server": "104.18.82.55",
             "server_port": 443,
@@ -1234,7 +1234,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [4]",
             "type": "vless",
             "server": "45.154.96.164",
             "server_port": 443,
@@ -2633,13 +2633,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
             "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "8c8e3d85-7263-438d-ae3c-55e51338911b",
+            "server": "betty.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "ad0a1c58-c267-405a-b7b6-f2c419f4010b",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "638991166348691947.corolla-amsia.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/uywlzkws",
+                "headers": {
+                    "Host": "638991166348691947.corolla-amsia.info"
+                }
+            }
         },
         {
             "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
