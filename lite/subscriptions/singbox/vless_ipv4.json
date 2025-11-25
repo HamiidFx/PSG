@@ -142,7 +142,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -203,7 +203,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1111,18 +1111,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
-            "server": "185.97.119.25",
-            "server_port": 80,
-            "uuid": "34155f4a-b42f-4961-9268-df5069fca1ff",
+            "server": "166.62.104.253",
+            "server_port": 2096,
+            "uuid": "7556317c-dff6-46e8-ad29-b408f2a6456e",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.muzheng.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "185.97.119.25"
+                    "Host": "vless.muzheng.top"
                 }
             }
         }

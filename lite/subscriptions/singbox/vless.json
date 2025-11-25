@@ -142,7 +142,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -219,7 +219,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -284,7 +283,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -361,7 +360,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1273,18 +1271,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
-            "server": "185.97.119.25",
-            "server_port": 80,
-            "uuid": "34155f4a-b42f-4961-9268-df5069fca1ff",
+            "server": "166.62.104.253",
+            "server_port": 2096,
+            "uuid": "7556317c-dff6-46e8-ad29-b408f2a6456e",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.muzheng.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "185.97.119.25"
+                    "Host": "vless.muzheng.top"
                 }
             }
         },
@@ -2566,29 +2573,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
-            "type": "vless",
-            "server": "wolfy.ufavpn.ru",
-            "server_port": 27121,
-            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ok.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
-                    "short_id": "fdc8125ea6f61323"
-                }
             }
         },
         {

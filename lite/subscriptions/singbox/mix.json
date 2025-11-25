@@ -241,8 +241,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [18]",
-                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [19]",
+                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -267,8 +266,7 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -435,8 +433,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [18]",
-                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [19]",
+                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -461,8 +458,7 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -2819,15 +2815,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "46.183.217.204",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-        },
-        {
-            "tag": "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [19]",
+            "tag": "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "185.192.124.188",
             "server_port": 990,
@@ -3265,41 +3253,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
-            "server": "185.97.119.25",
-            "server_port": 80,
-            "uuid": "34155f4a-b42f-4961-9268-df5069fca1ff",
+            "server": "166.62.104.253",
+            "server_port": 2096,
+            "uuid": "7556317c-dff6-46e8-ad29-b408f2a6456e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "185.97.119.25"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [15]",
-            "type": "vless",
-            "server": "wolfy.ufavpn.ru",
-            "server_port": 27121,
-            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
-            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.ok.ru",
+                "server_name": "vless.muzheng.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
-                    "short_id": "fdc8125ea6f61323"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vless.muzheng.top"
                 }
             }
         },
