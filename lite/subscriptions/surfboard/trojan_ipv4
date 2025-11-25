@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [13] = trojan, 13.37.97.170, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 18.184.205.81, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [15] = trojan, 3.65.119.240, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [13] = trojan, 18.184.205.81, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 3.65.119.240, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [15] = trojan, 15.188.206.228, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2] = trojan, 36.50.90.241, 35951, password = c6b96097-fe2d-487d-b9ef-60c994b90db2, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
-PSG-AUTO = url-test, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [2]
 
 [Rule]
 GEOIP,IR,DIRECT
