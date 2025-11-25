@@ -107,8 +107,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇮🇪 IE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -150,8 +151,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇮🇪 IE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -606,16 +608,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇪 IE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "54.171.214.245",
-            "server_port": 11111,
-            "uuid": "7cb72883-9635-46eb-8531-8d697927ff04",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "a3fyst.zeeoomboom.de",
             "server_port": 443,
@@ -636,6 +629,56 @@
                 "path": "/video/d4kapx2v.m3u8",
                 "headers": {
                     "Host": "a3fyst.zeeoomboom.de"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "141.94.155.229",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "65.109.217.125",
+            "server_port": 8443,
+            "uuid": "5a38afce-c5eb-4cb8-8e5e-bb4f03462b44",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "fl.v2bazzar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fl.v2bazzar.ir"
                 }
             }
         },

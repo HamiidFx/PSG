@@ -130,8 +130,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [13]",
-                "🇬🇧 GB | 🔓 VLESS | @vmesc [15]",
+                "🇬🇧 GB | 🔓 VLESS | @vmesc [14]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -209,6 +208,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -273,8 +273,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [13]",
-                "🇬🇧 GB | 🔓 VLESS | @vmesc [15]",
+                "🇬🇧 GB | 🔓 VLESS | @vmesc [14]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -352,6 +351,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1267,32 +1267,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [13]",
-            "type": "vless",
-            "server": "25.25.25.253",
-            "server_port": 2096,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @vmesc [15]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "51.68.198.51",
             "server_port": 8080,
@@ -2603,6 +2578,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "type": "vless",
+            "server": "de.monkeyisland.xyz",
+            "server_port": 443,
+            "uuid": "6184fcfb-52e0-40bb-a271-bbd097b70a8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de.monkeyisland.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4",
+                    "short_id": "0dd15ad462aad7fc"
+                }
             }
         },
         {

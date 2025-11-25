@@ -169,6 +169,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -260,6 +261,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1645,6 +1647,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "type": "vless",
+            "server": "de.monkeyisland.xyz",
+            "server_port": 443,
+            "uuid": "6184fcfb-52e0-40bb-a271-bbd097b70a8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de.monkeyisland.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4",
+                    "short_id": "0dd15ad462aad7fc"
+                }
             }
         },
         {
