@@ -83,8 +83,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [53]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [55]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [45]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [50]",
+                "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -180,8 +181,8 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [11]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
-                "❔ XX | 🔒 VLESS | @vpnplusee_free [11]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -196,8 +197,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [53]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [55]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [45]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [50]",
+                "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -293,8 +295,8 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [11]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
-                "❔ XX | 🔒 VLESS | @vpnplusee_free [11]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -463,16 +465,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [53]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "hield.ru",
-            "server_port": 4425,
-            "uuid": "d8dc0270-f06f-4431-9198-b389261689aa",
+            "server": "tr.spirako.com",
+            "server_port": 443,
+            "uuid": "2a30e90e-02be-4602-8c57-308eb4feff5b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -480,22 +482,45 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
-                    "short_id": "e8"
+                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "pn8rackapp.breaknet2.eu",
-            "server_port": 443,
-            "uuid": "6441b312-4bba-43ae-a2c1-afbf9e877683",
+            "server": "uae.phantompanel.shop",
+            "server_port": 2059,
+            "uuid": "3f21a953-919a-4504-b256-06890bb9a674",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pn8rackapp.breaknet2.eu",
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YtGcOiBF5xGcTEf4V58RMyImb_I-7Of3bWOUl3mEBBQ",
+                    "short_id": "6fe14a1f66f4bb82"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "al.spirako.com",
+            "server_port": 443,
+            "uuid": "2a30e90e-02be-4602-8c57-308eb4feff5b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "spirako.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -503,8 +528,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hW2w0MSQtSA5NOq9WteJo-MVg2XMh8UdSgbZ5xLLnHg",
-                    "short_id": "86f206ece9dc61c7"
+                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "short_id": ""
                 }
             }
         },
@@ -2817,7 +2842,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [11]",
+            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [10]",
             "type": "vless",
             "server": "s1.devstore",
             "server_port": 4450,
@@ -2840,7 +2865,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
