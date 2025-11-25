@@ -90,6 +90,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -98,7 +99,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -120,6 +121,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -128,7 +130,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -450,6 +452,33 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
+            "type": "vless",
+            "server": "46.8.231.189",
+            "server_port": 80,
+            "uuid": "779fb389-d65d-4f8b-887a-cc0b0581f34f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "auO272-_OexAycHNbiFJCPjdAiujfj2XgjqyAvL5ewo",
+                    "short_id": "7ace7f5f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ShikaVPN-@ShikaVPN-@ShikaVPN"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -650,7 +679,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "de.monkeyisland.xyz",
             "server_port": 443,
