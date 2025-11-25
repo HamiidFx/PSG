@@ -99,7 +99,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -126,6 +125,7 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇦🇷 AR | 🔒 TROJAN | @free4allvpn [17]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇻🇳 VN | 🔓 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -150,6 +150,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -186,7 +187,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -213,6 +213,7 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇦🇷 AR | 🔒 TROJAN | @free4allvpn [17]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇻🇳 VN | 🔓 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -237,6 +238,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -462,13 +464,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 TROJAN | @hope_net [8]",
-            "type": "trojan",
-            "server": "traus1.bitznet.one",
-            "server_port": 32001,
-            "password": "700f759e-6ecb-4632-861c-2c88b1ffc6c4"
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -947,6 +942,22 @@
             "password": "ziIjOlyGbM"
         },
         {
+            "tag": "🇻🇳 VN | 🔓 TROJAN | @hope_net [18]",
+            "type": "trojan",
+            "server": "103.231.248.2",
+            "server_port": 443,
+            "password": "2b106b5a-723a-472d-b97c-697086c06051",
+            "tls": {
+                "enabled": true,
+                "server_name": "103.231.248.2",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
             "type": "trojan",
             "server": "185.59.218.220",
@@ -1338,6 +1349,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "89.169.8.105",
+            "server_port": 443,
+            "password": "",
+            "tls": {
+                "enabled": true,
+                "server_name": "c03237cb.ba73fe85.netlib.re",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "c03237cb.ba73fe85.netlib.re"
                 }
             }
         },
