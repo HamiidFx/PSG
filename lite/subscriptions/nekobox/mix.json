@@ -124,7 +124,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
-                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [10]",
+                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @komail315 [3]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
@@ -229,7 +229,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -317,7 +319,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
-                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [10]",
+                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @komail315 [3]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
@@ -422,7 +424,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1267,7 +1271,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @kafing_2 [10]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @kafing_2 [9]",
             "type": "vless",
             "server": "51.68.198.51",
             "server_port": 8080,
@@ -2783,20 +2787,60 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "165.140.216.141",
-            "server_port": 443,
-            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "server": "185.248.33.173",
+            "server_port": 44749,
+            "uuid": "3786e67a-41eb-4b92-b31e-417e89493b93",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "imafake.locker",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "193.29.139.202",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "cf.fovi.tk",
+            "server_port": 443,
+            "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "cf.fovi.tk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eisasqa",
+                "headers": {
+                    "Host": "cf.fovi.tk"
                 }
             }
         },
