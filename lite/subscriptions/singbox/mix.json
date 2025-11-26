@@ -241,6 +241,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -433,6 +435,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2784,6 +2788,40 @@
                     "short_id": "16895459a2c7768d"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "mrvpn294.pocom3am.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/serkat.org/linkvws",
+                "headers": {
+                    "Host": "mrvpn294.pocom3am.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "104.238.133.112",
+            "server_port": 34120,
+            "uuid": "cf8de0e9-fc3c-46ab-eda1-b5b12913aa07",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
