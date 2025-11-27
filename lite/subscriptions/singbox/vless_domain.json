@@ -168,6 +168,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -258,6 +259,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1618,6 +1620,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "napanel.mreza1088.com",
+            "server_port": 31374,
+            "uuid": "8dca3cf6-0e6d-4ca3-a5e5-cdc2efa7e5a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "49JyOdKP7qgl4PRdrg7AASv1p8uvq5FDBywMYOV43QY",
+                    "short_id": "b6"
+                }
             }
         },
         {
