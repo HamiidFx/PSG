@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -103,6 +104,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -123,6 +125,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -142,6 +145,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -272,6 +276,24 @@
             "uuid": "f8c6860d-5b28-4e37-dead-a07ddd4647be",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "gr-raiv2mmr-free.sliplane.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gr-raiv2mmr-free.sliplane.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -559,6 +581,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "fi-raiv2mmr-free.sliplane.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fi-raiv2mmr-free.sliplane.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
