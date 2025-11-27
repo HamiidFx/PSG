@@ -122,9 +122,11 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
-                "🇷🇺 RU | 🔓 VLESS | @config_proxy [64]",
+                "❔ XX | 🔒 VLESS | @config_proxy [66]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+                "❔ XX | 🔒 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -562,7 +564,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -700,9 +701,11 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
-                "🇷🇺 RU | 🔓 VLESS | @config_proxy [64]",
+                "❔ XX | 🔒 VLESS | @config_proxy [66]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+                "❔ XX | 🔒 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1140,7 +1143,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -1855,16 +1857,84 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "ssssssss.zabc.net",
+            "server": "s2.sbarshia.ir",
             "server_port": 8443,
-            "uuid": "692ece70-c136-4f77-8921-1e99091b9987",
+            "uuid": "2be7495d-847b-40ea-a517-b5779effb7ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "divar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
+                    "short_id": "fdf18126a0768480"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "e02205ae-6909-474c-b245-1a6eee738fdb",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+            "type": "vless",
+            "server": "HqV2Ray.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "HqV2rayNG-Keyy",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "xspace.im345.vigilante.ir",
+            "server_port": 6236,
+            "uuid": "77b1763f-61ea-4393-b4da-b47622bc6727",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "akamki.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HqewcgI6nNnD9FW1LnPIKCyzmo0F_qjgxZ6fqZ1R3lE",
+                    "short_id": "f8707e72d194707a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "speedtest.org",
+            "server_port": 443,
+            "uuid": "c7158ca6-7c6c-4701-bf7d-df0f98a9ca33",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ssssssss.zabc.net",
+                "server_name": "osmip.noah-tasian.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1873,43 +1943,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/harman",
                 "headers": {
-                    "Host": "ssssssss.zabc.net"
+                    "Host": "osmip.noah-tasian.info"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "yofree.top",
-            "server_port": 443,
-            "uuid": "20955208-cbaa-11f0-91e7-52540015e6ea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yofree.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk",
-                    "short_id": "fa2f"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "ap.cinemaalilll.top",
-            "server_port": 2014,
-            "uuid": "f9039568-42b1-b291-abb8-65cbc1740dac",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -9424,29 +9462,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [20]",
-            "type": "vless",
-            "server": "napanel.mreza1088.com",
-            "server_port": 31374,
-            "uuid": "550b4671-3d65-45aa-ba55-a3b7089bfc54",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "49JyOdKP7qgl4PRdrg7AASv1p8uvq5FDBywMYOV43QY",
-                    "short_id": "b6"
                 }
             }
         },
