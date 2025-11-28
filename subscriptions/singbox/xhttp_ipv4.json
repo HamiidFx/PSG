@@ -93,7 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
+                "🇪🇪 EE | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -143,6 +144,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -159,7 +161,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [14]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -171,7 +173,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
+                "🇪🇪 EE | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -221,6 +224,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -237,7 +241,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [14]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -333,20 +337,48 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "185.40.155.13",
-            "server_port": 443,
-            "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
-            "flow": "",
+            "server": "45.129.199.184",
+            "server_port": 9443,
+            "uuid": "f3fb658c-6b0f-4ed3-a7fa-9bdd918d0d31",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "api.speedload.ru",
+                "server_name": "discordapp.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "157.230.124.155",
+            "server_port": 443,
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
                 }
             }
         },
@@ -1161,6 +1193,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "169.150.236.105",
+            "server_port": 443,
+            "uuid": "d2ba4c20-6223-4d8c-a1f8-b7e8923f977c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1412,7 +1462,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
