@@ -126,10 +126,11 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
-                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -186,10 +187,11 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
-                "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -998,24 +1000,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
-            "type": "vless",
-            "server": "45.154.96.164",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
             "type": "vless",
             "server": "172.67.166.211",
@@ -1039,6 +1023,15 @@
                     "Host": "soft98m.dPdNS.OrG"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
+            "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "ed5babbc-d3c1-48ce-a3a2-dc9ed74397e6",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -1083,6 +1076,29 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "212.233.75.107",
+            "server_port": 443,
+            "uuid": "bca5cfe1-3d2a-45dc-b66a-96298e0051f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bit-site.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k",
+                    "short_id": "e4"
                 }
             }
         }

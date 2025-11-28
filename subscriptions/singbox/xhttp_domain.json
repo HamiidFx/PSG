@@ -96,7 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -117,6 +117,8 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -135,7 +137,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -156,6 +158,8 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -282,13 +286,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
             "type": "vless",
-            "server": "a.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "d913751b-3ce4-493f-9adb-65bbfc02c991",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "V2ngFast.huqpmfood.ir",
+            "server_port": 1146,
+            "uuid": "2eadb4d6-2b9a-4f7a-86b0-cfce53e24bcd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -588,6 +606,38 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "serverfpwazz.irancpi.info",
+            "server_port": 443,
+            "uuid": "ae431007-4a30-4d16-bfc5-b11b0ab21da1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pvb813CmxlshvmwTJtY6IlcEXWDh4VUV2O01rz-YVSY",
+                    "short_id": "ec"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "7cb3c41d-c953-48bd-b16f-d45709f8b51a",
             "flow": "",
             "packet_encoding": "xudp"
         },
