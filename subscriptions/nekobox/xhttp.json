@@ -84,6 +84,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -111,8 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [75]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -194,6 +195,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -221,8 +224,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [75]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -414,6 +416,52 @@
             "uuid": "f8c6860d-5b28-4e37-dead-a07ddd4647be",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "b5585e5b-57ac-43e1-87f6-69a5d165d31f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQ",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "b5585e5b-57ac-43e1-87f6-69a5d165d31f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -808,40 +856,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [74]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
             "type": "vless",
-            "server": "185.253.21.13",
-            "server_port": 443,
-            "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "e27c9f94-c237-4b1c-bb80-d30902ffe844",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.furypay.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [75]",
-            "type": "vless",
-            "server": "194.67.192.10",
-            "server_port": 443,
-            "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.furypay.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
