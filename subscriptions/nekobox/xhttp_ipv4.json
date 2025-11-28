@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -131,7 +132,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [12]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -160,7 +161,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -210,7 +212,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [12]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -327,16 +329,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "217.16.26.35",
-            "server_port": 8443,
+            "server": "85.209.70.13",
+            "server_port": 443,
             "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "chat.speedload.ru",
+                "server_name": "api.speedload.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "169.150.236.107",
+            "server_port": 443,
+            "uuid": "d2ba4c20-6223-4d8c-a1f8-b7e8923f977c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1155,16 +1175,16 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [12]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [15]",
             "type": "vless",
-            "server": "185.40.155.13",
+            "server": "188.72.103.3",
             "server_port": 443,
-            "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
+            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "api.speedload.ru",
+                "server_name": "yandexcdn2.yandexdns.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

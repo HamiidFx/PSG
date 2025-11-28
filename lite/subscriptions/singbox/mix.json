@@ -242,8 +242,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇰🇿 KZ | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇧🇭 BH | 🔒 SS | @v2ray_free_conf [17]",
+                "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇧🇷 BR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -438,8 +439,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇰🇿 KZ | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇧🇭 BH | 🔒 SS | @v2ray_free_conf [17]",
+                "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇧🇷 BR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2792,11 +2794,44 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇧🇭 BH | 🔒 SS | @v2ray_free_conf [17]",
+            "type": "shadowsocks",
+            "server": "38.54.2.182",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "38.107.234.57",
+            "server": "23.162.200.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇧🇷 BR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "pq-brazil1.09vpn.com",
             "server_port": 80,
-            "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+            "uuid": "c04c3b34-70fd-4fec-963e-c12d09f36bef",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -2806,15 +2841,6 @@
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
