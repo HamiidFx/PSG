@@ -83,7 +83,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [59]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -182,7 +185,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [59]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -435,16 +441,16 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "poland.geodema.network",
+            "server": "tunnyl.ru",
             "server_port": 8443,
-            "uuid": "eb7c7631-6c7c-4f34-a65a-974b4565d01d",
+            "uuid": "2d67119c-b645-4a3c-b6f0-65aa75f3e7bb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "music.yandex.ru",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -452,8 +458,77 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
-                    "short_id": "5540e44a53c3d01c"
+                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
+                    "short_id": "b88841a3"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 4425,
+            "uuid": "6e340ea2-23ee-4859-b23e-6bf9b0416e2a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
+                    "short_id": "e8"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 45006,
+            "uuid": "ce2ae4a4-a42c-4c17-89e3-471cf1c31c8d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "odeg3o6NSJbdTwtXqd6QZvbkiX5COv1Q41a7ciVELio",
+                    "short_id": "0f704e"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "fn.sephost.de",
+            "server_port": 8023,
+            "uuid": "f8d8b893-12cc-431d-bad2-3ef70f4b1131",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs",
+                    "short_id": "0ae86db71378173b"
                 }
             }
         },
