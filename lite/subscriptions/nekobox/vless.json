@@ -95,7 +95,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
-                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [8]",
+                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
@@ -129,6 +129,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
                 "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -208,7 +209,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -237,7 +237,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
-                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [8]",
+                "🇬🇧 GB | 🔓 VLESS | @kafing_2 [7]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
@@ -271,6 +271,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
                 "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -350,7 +351,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -718,7 +718,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @kafing_2 [8]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @kafing_2 [7]",
             "type": "vless",
             "server": "51.68.198.51",
             "server_port": 8080,
@@ -1264,6 +1264,15 @@
                     "short_id": ""
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
+            "type": "vless",
+            "server": "190.93.246.89",
+            "server_port": 80,
+            "uuid": "fad329ac-313b-471c-8d94-a6e8f598990e",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @armod_iran [1]",
@@ -2577,31 +2586,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jnir-cdn.javidnaman.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
-                "headers": {
-                    "Host": "jnir-cdn.javidnaman.com"
-                }
             }
         },
         {
