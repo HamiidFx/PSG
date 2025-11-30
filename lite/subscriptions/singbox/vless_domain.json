@@ -154,8 +154,8 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -248,8 +248,8 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1387,15 +1387,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "fr.nextseesion.ir",
-            "server_port": 35789,
-            "uuid": "be72cd92-92d2-4543-9bef-1673fcd03b45",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
             "type": "vless",
             "server": "ns.cloudflare.com",
@@ -1403,6 +1394,29 @@
             "uuid": "01767b6d-03bb-4f29-87fc-d24307f97ba4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
+            "type": "vless",
+            "server": "shadowshaman.fonixapp.org",
+            "server_port": 39321,
+            "uuid": "b5c04d3f-9eff-4939-a1f8-7b045854fd68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "groww.in",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA",
+                    "short_id": "ecc1c4"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",

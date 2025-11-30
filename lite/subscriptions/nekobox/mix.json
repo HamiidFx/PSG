@@ -113,7 +113,7 @@
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [1]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [2]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
-                "🚩 CF | 🔓 VLESS | @ghalagyann [15]",
+                "🚩 CF | 🔓 VLESS | @ghalagyann [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
@@ -223,9 +223,9 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
                 "🇨🇾 CY | 🔒 SS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -309,7 +309,7 @@
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [1]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [2]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
-                "🚩 CF | 🔓 VLESS | @ghalagyann [15]",
+                "🚩 CF | 🔓 VLESS | @ghalagyann [16]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
@@ -419,9 +419,9 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
                 "🇨🇾 CY | 🔒 SS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -1039,7 +1039,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @ghalagyann [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @ghalagyann [16]",
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
@@ -2711,15 +2711,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "fr.nextseesion.ir",
-            "server_port": 35789,
-            "uuid": "be72cd92-92d2-4543-9bef-1673fcd03b45",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
             "type": "vless",
             "server": "ns.cloudflare.com",
@@ -2735,6 +2726,29 @@
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
+            "type": "vless",
+            "server": "shadowshaman.fonixapp.org",
+            "server_port": 39321,
+            "uuid": "b5c04d3f-9eff-4939-a1f8-7b045854fd68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "groww.in",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA",
+                    "short_id": "ecc1c4"
+                }
+            }
         },
         {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
