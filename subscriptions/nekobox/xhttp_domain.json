@@ -85,6 +85,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -98,7 +99,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔓 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [2]",
@@ -113,7 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [1]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
@@ -133,6 +133,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -146,7 +147,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔓 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [2]",
@@ -161,7 +161,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [1]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
@@ -299,6 +299,29 @@
             "uuid": "2d1d0b90-0b2f-406c-bae1-70cee22d728d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "309c80a1-0966-470b-892a-4b1a5bc56473",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -558,29 +581,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
-            "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "309c80a1-0966-470b-892a-4b1a5bc56473",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.slideshare.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [15]",
             "type": "vless",
             "server": "DEADSEECtelegram.slimshopboyss.ir",
@@ -730,7 +730,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,

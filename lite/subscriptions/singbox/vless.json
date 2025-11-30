@@ -137,9 +137,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
@@ -278,9 +278,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
@@ -1173,32 +1173,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "25.25.25.253",
-            "server_port": 2096,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "27.50.48.8",
             "server_port": 443,
@@ -1223,7 +1198,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "162.19.175.55",
             "server_port": 9954,
@@ -1242,6 +1217,22 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "37.120.186.241",
+            "server_port": 80,
+            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/news",
+                "headers": {
+                    "Host": "37.120.186.241"
                 }
             }
         },
