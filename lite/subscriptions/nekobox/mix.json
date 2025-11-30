@@ -229,9 +229,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -426,9 +424,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2764,16 +2760,16 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "7ai01q.zeeoomboom.de",
+            "server": "57.129.24.125",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "7ai01q.zeeoomboom.de",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2782,59 +2778,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/video/kijeo.m3u8",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "7ai01q.zeeoomboom.de"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "154.17.230.67",
-            "server_port": 33995,
-            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "us.nbee.pp.ua",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aa",
-                "headers": {
-                    "Host": "us.nbee.pp.ua"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔒 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "singapore02.zgjok.com",
-            "server_port": 443,
-            "uuid": "780c7671-e8c8-45ab-922b-4fdfc4310aa0",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "singapore02.zgjok.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "singapore02.zgjok.com"
+                    "Host": ""
                 }
             }
         },
