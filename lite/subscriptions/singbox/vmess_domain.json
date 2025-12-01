@@ -118,7 +118,11 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -159,7 +163,11 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -601,6 +609,31 @@
             "alter_id": 0
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
+            "type": "vmess",
+            "server": "57.129.28.212",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "fapeng.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "fapeng.org"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
             "type": "vmess",
             "server": "45.67.230.79",
@@ -608,6 +641,54 @@
             "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "5f091cbe-fb34-11ea-9777-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "broadcastlv.chat.bilibili.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "104.17.223.18",
+            "server_port": 80,
+            "uuid": "ff2d17c6-0d96-4801-a270-9dba8334f8c6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.17.223.18"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "c85c9054-t13gg0-t4ixjm-1hhyy.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "c594c7ec-8b10-11ef-a2b8-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "c85c9054-t13gg0-t4ixjm-1hhyy.hk3.p5pv.com"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
