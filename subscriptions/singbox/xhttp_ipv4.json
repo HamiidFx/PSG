@@ -93,6 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -173,6 +175,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -335,6 +339,33 @@
             "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "c64d5af0-83d2-4e30-8b5c-bf0293d97641",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "104.21.15.171",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fi-raiv2mmr-join-telegram.mmrdeath.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",

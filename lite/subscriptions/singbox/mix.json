@@ -202,9 +202,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -243,8 +243,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -400,9 +399,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -441,8 +440,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2266,23 +2264,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
-            "type": "trojan",
-            "server": "18.198.229.53",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
             "type": "trojan",
             "server": "51.45.30.223",
             "server_port": 22222,
@@ -2298,9 +2280,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
             "type": "trojan",
             "server": "15.237.240.140",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+            "type": "trojan",
+            "server": "18.196.204.73",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -2833,15 +2831,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "193.29.139.191",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "freev2ray.v2ray4.xyz",
             "server_port": 44720,
