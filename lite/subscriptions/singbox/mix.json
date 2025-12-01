@@ -240,9 +240,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -437,9 +436,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2832,33 +2830,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "www.infe.com.br.infe.com.br",
-            "server_port": 2096,
-            "uuid": "01TELEGRAM-ID-solavajavaab",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "146.19.49.251",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6"
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "baawftvbh.76898102.xyz",
             "server_port": 2052,
@@ -2870,6 +2842,22 @@
                 "path": "/bxqmiao",
                 "headers": {
                     "Host": "baawftvbh.76898102.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "141.101.121.26",
+            "server_port": 80,
+            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
