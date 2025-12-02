@@ -124,7 +124,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @komail315 [3]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
@@ -227,7 +227,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -318,7 +318,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇷🇺 RU | 🔓 VLESS | @iranbfilter [7]",
                 "🇮🇷 IR | 🔓 VMESS | @jetupnet [2]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @komail315 [3]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
@@ -421,7 +421,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -1030,7 +1030,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "71759df6-23a4-4db7-b986-1039b65eb433",
+            "uuid": "5f9917b6-cdba-4f17-8c90-a2a66d15668f",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -1280,7 +1280,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
+            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -2810,16 +2810,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "154.201.76.172",
-            "server_port": 20521,
-            "uuid": "496cec71-a0fd-4f25-bba1-cba9e9d5a52f",
+            "server": "51.77.200.137",
+            "server_port": 443,
+            "uuid": "b3db746a-c63a-4b57-9d61-9bdec6d08141",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vmess",
                 "headers": {
                     "Host": ""
                 }
