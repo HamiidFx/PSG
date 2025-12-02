@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [12] = trojan, 52.59.125.49, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [13] = trojan, 13.37.125.213, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [14] = trojan, 15.188.173.231, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [12] = trojan, 52.59.125.49, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [13] = trojan, 13.37.125.213, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [14] = trojan, 15.188.173.231, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
+PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
 
 [Rule]
 GEOIP,IR,DIRECT
