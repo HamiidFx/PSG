@@ -196,7 +196,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [15]",
                 "🇮🇷 IR | 🔓 VLESS | @orange_vpns [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [17]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -237,8 +237,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+                "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -388,7 +389,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [15]",
                 "🇮🇷 IR | 🔓 VLESS | @orange_vpns [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [17]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -429,8 +430,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+                "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2172,7 +2174,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [17]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "nl-3.atlanta-internet.ru",
             "server_port": 8443,
@@ -2753,32 +2755,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "51.79.102.253",
-            "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": "51.79.102.253"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "57.129.64.238",
+            "server": "38.99.82.193",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "kapelleng.com",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2789,9 +2775,26 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "kapelleng.com"
+                    "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "ltnl13.saint.ydns.eu",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
+        },
+        {
+            "tag": "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "152.69.197.60",
+            "server_port": 1069,
+            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
