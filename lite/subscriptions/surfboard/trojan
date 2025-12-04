@@ -13,14 +13,14 @@ DIRECT = direct
 ❔ XX | 🔒 TROJAN | @maradona_vpn [8] = trojan, maradona_vpn10.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @maradona_vpn [9] = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 ❔ XX | 🔒 TROJAN | @xrayzxn [5] = trojan, amin.karkas1.ir, 443, password = 11ae0edd-2f63-4495-8683-037abbda9986, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [12] = trojan, 15.236.162.5, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [13] = trojan, 63.181.49.45, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [14] = trojan, 63.180.93.12, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [12] = trojan, 63.181.49.45, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [13] = trojan, 63.180.93.12, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [14] = trojan, 13.39.61.165, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
-PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
-PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], ❔ XX | 🔒 TROJAN | @privatevpns [12], ❔ XX | 🔒 TROJAN | @privatevpns [13], ❔ XX | 🔒 TROJAN | @privatevpns [14]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
+PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @maradona_vpn [7], ❔ XX | 🔒 TROJAN | @maradona_vpn [8], ❔ XX | 🔒 TROJAN | @maradona_vpn [9], ❔ XX | 🔒 TROJAN | @xrayzxn [5], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
 
 [Rule]
 GEOIP,IR,DIRECT
