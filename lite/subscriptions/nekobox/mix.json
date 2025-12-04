@@ -82,8 +82,8 @@
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇫🇷 FR | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇫🇷 FR | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -227,8 +227,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -275,8 +276,8 @@
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇫🇷 FR | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇫🇷 FR | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -420,8 +421,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -555,7 +557,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
             "type": "vless",
             "server": "172.67.146.171",
             "server_port": 2095,
@@ -571,7 +573,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @bored_vpn [13]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @bored_vpn [12]",
             "type": "vless",
             "server": "141.227.132.7",
             "server_port": 21425,
@@ -2781,20 +2783,63 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "ltnl04.saint.ydns.eu",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "d7t3ny.keeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "d7t3ny.keeoomboom.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/video/1jcyq.m3u8",
+                "headers": {
+                    "Host": "d7t3ny.keeoomboom.de"
+                }
+            }
         },
         {
-            "tag": "🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]",
-            "type": "shadowsocks",
-            "server": "37.235.56.69",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "46.31.77.4",
+            "server_port": 49367,
+            "uuid": "f04ab089-0760-493e-b1cf-c5c4208cdd92",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "92.243.64.36",
+            "server_port": 443,
+            "uuid": "b04394ff-1a23-4a5a-d4d4-53f6007f84e1",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
