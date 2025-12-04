@@ -245,9 +245,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_collector [11]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [12]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [13]",
-                "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [11]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [12]",
+                "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -258,6 +259,7 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🚩 CF | 🔓 VMESS | @v2raych [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -471,9 +473,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_collector [11]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [12]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [13]",
-                "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [11]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [12]",
+                "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -484,6 +487,7 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🚩 CF | 🔓 VMESS | @v2raych [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -3394,7 +3398,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [12]",
+            "tag": "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [11]",
             "type": "vmess",
             "server": "45.89.107.51",
             "server_port": 20521,
@@ -3410,7 +3414,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [13]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [12]",
             "type": "vmess",
             "server": "23.162.200.227",
             "server_port": 443,
@@ -3435,13 +3439,31 @@
             }
         },
         {
-            "tag": "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇭🇺 HU | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "5.182.38.124",
             "server_port": 8000,
             "uuid": "5c1bb0f9-aabe-4e2d-9a5f-03c600eb2607",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "37-telegram-id---V2box-v2",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "z.looloolooloo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
@@ -3624,6 +3646,22 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "yichueng.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2raych [19]",
+            "type": "vmess",
+            "server": "104.19.45.47",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.19.45.47"
                 }
             }
         },
