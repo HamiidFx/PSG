@@ -137,7 +137,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [24]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -261,7 +261,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [24]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -1100,13 +1100,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [24]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [26]",
             "type": "vless",
-            "server": "91.107.244.167",
-            "server_port": 20569,
-            "uuid": "TelegramChannel",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "134.122.90.105",
+            "server_port": 443,
+            "uuid": "e4a4438f-585b-4555-b8e3-f032def5819c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
