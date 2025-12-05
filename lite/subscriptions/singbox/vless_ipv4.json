@@ -121,7 +121,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -139,8 +139,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2rayvpn2 [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]"
             ],
             "tag": "proxy",
@@ -181,7 +181,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -199,8 +199,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2rayvpn2 [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]"
             ],
             "tag": "auto",
@@ -782,11 +782,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
             "type": "vless",
             "server": "91.98.130.176",
             "server_port": 443,
-            "uuid": "Parsashonam-324",
+            "uuid": "Parsashonam-325",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1050,16 +1050,25 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
             "type": "vless",
-            "server": "51.250.28.39",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-75",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "179.61.251.78",
             "server_port": 443,
-            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
+            "uuid": "fabc8a38-76c5-48fe-ada7-a9e52dd16225",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1067,23 +1076,10 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
-                    "short_id": "123abc"
+                    "public_key": "esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw",
+                    "short_id": "0ff58d687a4c6c"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz"
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "151.101.0.0",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-75",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
