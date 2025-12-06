@@ -84,6 +84,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
@@ -143,7 +144,8 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔓 VLESS | @v2ray1_ng [3]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -177,6 +179,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
@@ -236,7 +239,8 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔓 VLESS | @v2ray1_ng [3]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -412,6 +416,22 @@
             "uuid": "1bde3678-c2e4-4e11-f42e-0dd45bf28cc0",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
+            "type": "vless",
+            "server": "test2.amin8263.ir",
+            "server_port": 2095,
+            "uuid": "904d6aa4-a648-4b3f-e7a4-fc8bdd58e3fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048@XpnTeam?ed=2048@XpnTeam?ed=2048",
+                "headers": {
+                    "Host": "test2.amin8263.ir"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1402,13 +1422,38 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
+            "tag": "🚩 CF | 🔓 VLESS | @v2ray1_ng [3]",
             "type": "vless",
             "server": "DEADSEECtelegram.slimshopboyss.ir",
             "server_port": 8080,
             "uuid": "021bb229-6306-40aa-e5f5-f752b73ed148",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+            "type": "vless",
+            "server": "brenna.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "terazhedi.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sghiyws",
+                "headers": {
+                    "Host": "terazhedi.info"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
