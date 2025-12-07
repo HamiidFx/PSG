@@ -118,7 +118,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -159,7 +160,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -594,7 +596,7 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "mtn.anahid.beauty",
             "server_port": 443,
@@ -615,6 +617,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "s1.mehrmah.shop"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "192.74.224.163",
+            "server_port": 37002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.68584158.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/path/1739973313415",
+                "headers": {
+                    "Host": "www.68584158.xyz"
                 }
             }
         },
