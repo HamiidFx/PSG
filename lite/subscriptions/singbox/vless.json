@@ -122,6 +122,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇩🇪 DE | 🔓 VLESS | @netfreedom0 [20]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -186,9 +187,8 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🚩 CF | 🔓 VLESS | @orange_vpns [14]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -207,7 +207,7 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -268,6 +268,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇩🇪 DE | 🔓 VLESS | @netfreedom0 [20]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -332,9 +333,8 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🚩 CF | 🔓 VLESS | @orange_vpns [14]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -353,7 +353,7 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -951,6 +951,29 @@
             "uuid": "4fbf976a-ecff-42e6-a100-0436ef96ee46",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "176.123.162.253",
+            "server_port": 8443,
+            "uuid": "2a2a6062-003c-0004-b293-ee0d0416afee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pimg.mycdn.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU",
+                    "short_id": "aea104e730"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
@@ -2040,16 +2063,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @orange_vpns [14]",
-            "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "9f79b942-753c-48f6-82d0-5575f03e7f32",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
             "type": "vless",
             "server": "mfa.gov.ua",
             "server_port": 443,
@@ -2074,7 +2088,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
             "type": "vless",
             "server": "star-logic-epsilon-nova-zone.dlcnamatike7.com",
             "server_port": 7071,
@@ -2356,7 +2370,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
