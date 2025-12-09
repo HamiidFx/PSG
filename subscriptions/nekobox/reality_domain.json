@@ -83,8 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -165,11 +163,11 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [4]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [7]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [8]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
@@ -194,8 +192,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -276,11 +272,11 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [4]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [7]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [8]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
@@ -456,52 +452,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "elementalss.fonixapp.org",
-            "server_port": 43573,
-            "uuid": "108b1e7f-eca6-42bb-9a94-72c7b734a729",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yelp.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J-XIJJEgRInlpiaAXZRWaeGNXRZG6mmanXm4VuJXjTc",
-                    "short_id": "6cbbec"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "msk.stat-ozon.ru",
-            "server_port": 8443,
-            "uuid": "09a8d899-6f08-4379-8270-f3834d91e358",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ozon.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4",
-                    "short_id": "6a3fcffa50bffa"
-                }
             }
         },
         {
@@ -2436,7 +2386,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [4]",
             "type": "vless",
             "server": "bloodseeker.fonixapp.org",
             "server_port": 443,
@@ -2459,7 +2409,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
             "type": "vless",
             "server": "facelessvoid.fonixapp.org",
             "server_port": 443,
@@ -2482,7 +2432,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [6]",
             "type": "vless",
             "server": "antimage.fonixapp.org",
             "server_port": 443,
@@ -2505,7 +2455,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [7]",
             "type": "vless",
             "server": "bonefletcher.fonixapp.org",
             "server_port": 443,
@@ -2528,7 +2478,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [8]",
             "type": "vless",
             "server": "dl.huskar.fonixapp.org",
             "server_port": 443,
