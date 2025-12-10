@@ -83,6 +83,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -106,7 +108,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -180,7 +182,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -195,6 +197,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -218,7 +222,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -292,7 +296,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -458,6 +462,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "de.u-team.ir",
+            "server_port": 5673,
+            "uuid": "db54c2ca-abe2-19ae-9abf-46a4aa1598f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mKzDPCMzVSSDRLoXQzPZ9bxWacxNKNj4UjRP1vXBCBA",
+                    "short_id": "d59f3cc6a68619e8"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "de.u-team.ir",
+            "server_port": 5676,
+            "uuid": "db54c2ca-abe2-19ae-9abf-46a4aa1598f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mKzDPCMzVSSDRLoXQzPZ9bxWacxNKNj4UjRP1vXBCBA",
+                    "short_id": "d59f3cc6a68619e8"
+                }
             }
         },
         {
@@ -1010,7 +1060,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "huskar.fonixapp.org",
             "server_port": 443,
@@ -2811,7 +2861,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
             "type": "vless",
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
