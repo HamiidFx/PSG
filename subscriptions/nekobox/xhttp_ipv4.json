@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -158,8 +157,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -316,22 +314,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "2459bb58-3a89-4c04-903e-851f589e4f5e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "151.101.195.8",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "65.108.15.234",
+            "server_port": 443,
+            "uuid": "1b87c0be-ecf7-4737-b986-bdf40c607869",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.selectel.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WthLzI3CLGdMEu9OHnpCSIflGpxt1ZhjALnMA9PucTE",
+                    "short_id": "44515e3ceda875ce"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
