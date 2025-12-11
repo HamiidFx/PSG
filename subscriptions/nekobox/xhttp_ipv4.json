@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -158,7 +158,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -316,13 +316,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "3e5ac711-09c1-4427-b6a5-fed95135181c",
+            "server": "151.101.195.6",
+            "server_port": 443,
+            "uuid": "b0a2afc8-e6eb-4f15-8a1f-c955e5efb195",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",

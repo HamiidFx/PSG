@@ -196,7 +196,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇫🇮 FI | 🔓 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -239,7 +239,6 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -391,7 +390,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇫🇮 FI | 🔓 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -434,7 +433,6 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2161,31 +2159,6 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
-            "server": "betty.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "94daa8ad-75ed-4dbf-a6de-d05036d98df5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tixvuws",
-                "headers": {
-                    "Host": "vangoghh.info"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-            "type": "vless",
             "server": "norman.ns.cloudflare.com",
             "server_port": 443,
             "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
@@ -2209,7 +2182,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "brenna.ns.cloudflare.com",
             "server_port": 443,
@@ -2232,6 +2205,15 @@
                     "Host": "terazhedi.info"
                 }
             }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "m57a.vip784.com",
+            "server_port": 33801,
+            "uuid": "f0ee92ea-68ac-4c13-8529-d302baaa9f0d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
@@ -2817,15 +2799,6 @@
                     "short_id": "16895459a2c7768d"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
