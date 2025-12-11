@@ -108,6 +108,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [16]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -151,6 +152,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [16]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -622,6 +624,31 @@
             "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [16]",
+            "type": "vmess",
+            "server": "ssssssssssssfffffffgh.2032.pp.ua",
+            "server_port": 443,
+            "uuid": "4174b95d-115e-4d39-add6-1f8db95bb860",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "ssssssssssssfffffffgh.2032.pp.ua",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6We3U9Df1WGxgFnoFPw1",
+                "headers": {
+                    "Host": "ssssssssssssfffffffgh.2032.pp.ua"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
