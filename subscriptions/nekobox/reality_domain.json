@@ -83,6 +83,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -153,11 +156,10 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [9]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
@@ -179,7 +181,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -194,6 +196,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -264,11 +269,10 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [9]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
@@ -290,7 +294,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -456,6 +460,75 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "dl75.sulduznet.ir",
+            "server_port": 35025,
+            "uuid": "15c296d0-9862-450e-9749-72b522a46026",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pS1czo_t8PCQta3IAKrIh-j2_NrOYtGRnoiPTD7ZL1M",
+                    "short_id": "9d0424d2"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "sweden.netninja.ru",
+            "server_port": 8444,
+            "uuid": "34101c6a-1da4-4ffd-af36-ca8134bd8f8b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qtqQVReOiQPUhSKBL8rZ9c921pk4Tr2UvponGFdEGQI",
+                    "short_id": "a71aaf4d2db3e06a"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "sweden.netninja.ru",
+            "server_port": 8444,
+            "uuid": "34101c6a-1da4-4ffd-af36-ca8134bd8f8b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qtqQVReOiQPUhSKBL8rZ9c921pk4Tr2UvponGFdEGQI",
+                    "short_id": "a71aaf4d2db3e06a"
+                }
             }
         },
         {
@@ -2156,29 +2229,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "deu519.globalunlock.org",
-            "server_port": 443,
-            "uuid": "da08440a-aa09-4a6f-a628-a490cd95922f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.t3n.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2raying [11]",
             "type": "vless",
             "server": "earthshaker.fonixapp.org",
@@ -2248,7 +2298,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [9]",
             "type": "vless",
             "server": "alchemistss.fonixapp.org",
             "server_port": 443,
@@ -2786,7 +2836,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
