@@ -97,8 +97,8 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -119,6 +119,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [20]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -155,8 +156,8 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -177,6 +178,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [20]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -359,7 +361,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [12]",
+            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [10]",
             "type": "trojan",
             "server": "52.212.172.123",
             "server_port": 22222,
@@ -375,7 +377,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "198.41.220.10",
             "server_port": 443,
@@ -725,6 +727,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [20]",
+            "type": "trojan",
+            "server": "162.159.152.39",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },

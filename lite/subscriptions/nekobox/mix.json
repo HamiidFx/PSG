@@ -222,14 +222,15 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [1]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
+                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -416,14 +417,15 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [1]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
+                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [6]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -1046,7 +1048,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "3f4d2d8c-6487-4748-a7e7-15215d4894de",
+            "uuid": "d512bf22-e4f5-46d6-b531-b398e25eef7e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -2725,7 +2727,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [1]",
+            "tag": "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [5]",
             "type": "vless",
             "server": "jrghxqxyoy-518237151-direct.bahame.co",
             "server_port": 443,
@@ -2743,7 +2745,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [6]",
             "type": "vmess",
             "server": "a.confignor.site",
             "server_port": 7443,
@@ -2793,6 +2795,31 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
+            "type": "vmess",
+            "server": "95.81.114.252",
+            "server_port": 44749,
+            "uuid": "e3cb685e-7840-45cb-9d64-b2028d9b635e",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
             "type": "vless",
             "server": "gr.liteingshop.com",
@@ -2818,7 +2845,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
