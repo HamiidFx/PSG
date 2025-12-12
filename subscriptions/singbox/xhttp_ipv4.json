@@ -92,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -127,6 +125,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [10]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [14]",
                 "🚩 CF | 🔒 VLESS | @proxie [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [10]",
@@ -144,7 +143,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [9]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -170,8 +168,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -205,6 +201,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [10]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [14]",
                 "🚩 CF | 🔒 VLESS | @proxie [8]",
                 "🚩 CF | 🔒 VLESS | @proxie [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [10]",
@@ -222,7 +219,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [9]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -322,24 +318,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "3ac5fa84-2633-4277-a6fa-64c564ffe0c0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [67]",
-            "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "2452faab-0dc6-470f-9518-28c963550451",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -867,6 +845,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [14]",
+            "type": "vless",
+            "server": "91.98.130.176",
+            "server_port": 443,
+            "uuid": "Parsashonam-326",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e9wxtm7Ei-jZn9k-OhlNhLI6CJwGQF9i_WpKrm81RVE",
+                    "short_id": "86c3ab8ae267e5"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [8]",
             "type": "vless",
             "server": "104.21.62.144",
@@ -1145,15 +1146,6 @@
                     "short_id": "5426024033df45"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "9fd3fa5c-5fa2-4e14-879c-c797d145f433",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
