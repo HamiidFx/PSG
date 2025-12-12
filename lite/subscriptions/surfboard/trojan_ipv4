@@ -10,14 +10,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19] = trojan, 160.16.229.223, 3093, password = 76d630f2af6619c4a5de0ef953df3c6a, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [12] = trojan, 3.126.180.133, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [13] = trojan, 15.237.68.204, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [14] = trojan, 51.44.139.53, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 3.126.180.133, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [15] = trojan, 15.237.68.204, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [16] = trojan, 51.44.139.53, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
-PSG-AUTO = url-test, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
-PSG-FALLBACK = fallback, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [12], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [13], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
+PSG-AUTO = url-test, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
+PSG-FALLBACK = fallback, 🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [19], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]
 
 [Rule]
 GEOIP,IR,DIRECT
