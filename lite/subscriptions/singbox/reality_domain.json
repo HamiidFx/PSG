@@ -98,7 +98,8 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
@@ -119,7 +120,8 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
@@ -364,7 +366,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -378,6 +380,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+                    "short_id": "7755e972daf8eec8"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "swiss.intfreed.ru",
+            "server_port": 443,
+            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "swiss.video.intfreed.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
