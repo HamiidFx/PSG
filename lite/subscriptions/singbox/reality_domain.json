@@ -103,8 +103,9 @@
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -127,8 +128,9 @@
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -493,6 +495,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
+            "type": "vless",
+            "server": "arcwarden.fonixapp.org",
+            "server_port": 2083,
+            "uuid": "d0a6999d-2849-4470-98f5-241b685f41b9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "update.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o3zpeJmn49sX_Vv50WgzxXcFetXiPfzxpdQ3gXKmJxA",
+                    "short_id": "04350b"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @v2rayza [19]",
             "type": "vless",
             "server": "ec20.kiava.fun",
@@ -516,7 +541,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
