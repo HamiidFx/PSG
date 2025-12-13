@@ -98,8 +98,9 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [17]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [17]",
+                "🇦🇪 AE | 🔒 VLESS | @orange_vpns [18]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [4]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -121,8 +122,9 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [17]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [17]",
+                "🇦🇪 AE | 🔒 VLESS | @orange_vpns [18]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [4]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -368,30 +370,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [17]",
-            "type": "vless",
-            "server": "test-pc.intfreed.ru",
-            "server_port": 443,
-            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "video.intfreed.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-                    "short_id": "7755e972daf8eec8"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "swiss.intfreed.ru",
             "server_port": 443,
@@ -411,6 +390,60 @@
                     "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
                     "short_id": "7755e972daf8eec8"
                 }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "uaeemar123.vtuix.ir",
+            "server_port": 7033,
+            "uuid": "2652fbc5-e1b1-691f-c9c7-11ad83e828a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
+                    "short_id": "16b6cda7ab793526"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "7034vless"
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "armania.vtuix.ir",
+            "server_port": 7033,
+            "uuid": "2652fbc5-e1b1-691f-c9c7-11ad83e828a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
+                    "short_id": "16b6cda7ab793526"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "7034vless"
             }
         },
         {

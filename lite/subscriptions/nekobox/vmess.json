@@ -107,7 +107,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -150,7 +150,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -615,13 +615,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "channel.proxyvpnvip.pvvip.top",
-            "server_port": 8443,
-            "uuid": "@ProxyVPNVip-ChannelTelegram",
+            "server": "74.117.196.232",
+            "server_port": 36861,
+            "uuid": "f1a513d2-c32a-49dc-8e64-d4f8a2f1e001",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
