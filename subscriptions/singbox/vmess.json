@@ -104,7 +104,7 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [50]",
+                "❔ XX | 🔓 VMESS | @config_proxy [56]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -145,9 +145,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "❔ XX | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [7]",
-                "🚩 CF | 🔒 VMESS | @hope_net [13]",
-                "🚩 CF | 🔒 VMESS | @hope_net [14]",
+                "🚩 CF | 🔒 VMESS | @hope_net [11]",
+                "🚩 CF | 🔒 VMESS | @hope_net [12]",
+                "🚩 CF | 🔓 VMESS | @hope_net [17]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -337,7 +337,7 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [50]",
+                "❔ XX | 🔓 VMESS | @config_proxy [56]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -378,9 +378,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "❔ XX | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [7]",
-                "🚩 CF | 🔒 VMESS | @hope_net [13]",
-                "🚩 CF | 🔒 VMESS | @hope_net [14]",
+                "🚩 CF | 🔒 VMESS | @hope_net [11]",
+                "🚩 CF | 🔒 VMESS | @hope_net [12]",
+                "🚩 CF | 🔓 VMESS | @hope_net [17]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -827,20 +827,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [50]",
+            "tag": "❔ XX | 🔓 VMESS | @config_proxy [56]",
             "type": "vmess",
-            "server": "104.19.45.83",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "server": "146.59.147.250",
+            "server_port": 29776,
+            "uuid": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
@@ -1643,23 +1636,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [7]",
-            "type": "vmess",
-            "server": "172.67.116.48",
-            "server_port": 80,
-            "uuid": "22a13aa2-4854-44cb-e090-ec71ab84b1ff",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "172.67.116.48"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [13]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [11]",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -1684,7 +1661,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [14]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [12]",
             "type": "vmess",
             "server": "104.21.61.246",
             "server_port": 443,
@@ -1705,6 +1682,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "kmz3.sassanidempire.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [17]",
+            "type": "vmess",
+            "server": "104.19.45.83",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
