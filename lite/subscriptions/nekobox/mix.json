@@ -229,15 +229,14 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "❔ XX | 🔓 VLESS | @v2raybe [6]",
                 "❔ XX | 🔒 SS | @v2raybe [7]",
-                "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "❔ XX | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
@@ -427,15 +426,14 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "❔ XX | 🔓 VLESS | @v2raybe [6]",
                 "❔ XX | 🔒 SS | @v2raybe [7]",
-                "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "❔ XX | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
@@ -2864,22 +2862,38 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "a.confignor.site",
             "server_port": 7443,
             "uuid": "42bda1b4-5b3c-419f-b69a-ba66243dbce2",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "172.67.81.238",
+            "server_port": 443,
+            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "franc.digires.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/11201",
+                "headers": {
+                    "Host": "franc.digires.shop"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
@@ -2956,31 +2970,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
-            "type": "vmess",
-            "server": "172.67.81.238",
-            "server_port": 443,
-            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "franc.digires.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/11201",
-                "headers": {
-                    "Host": "franc.digires.shop"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
