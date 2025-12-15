@@ -107,8 +107,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -151,8 +152,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -617,44 +619,41 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "95.81.114.252",
-            "server_port": 44749,
-            "uuid": "54a0bf6d-f2b5-4b2a-942c-798fb129527e",
+            "server": "104.26.8.44",
+            "server_port": 80,
+            "uuid": "5180444a-4756-43b4-960b-49eb9052e4e8",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "imafake.locker",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/speedtest",
+                "path": "/",
                 "headers": {
-                    "Host": "imafake.locker"
+                    "Host": "104.26.8.44"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "15.235.41.200",
-            "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "server": "a.confignor.site",
+            "server_port": 7443,
+            "uuid": "46ad5a4f-e3e6-4c4b-bf47-30c9c61598bd",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "s1.ghostrkr.sbs",
+            "server_port": 8880,
+            "uuid": "b541ce31-694f-4f37-a02c-2b72b2a67974",
             "security": "auto",
             "alter_id": 0,
             "transport": {
-                "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": "15.235.41.200"
-                }
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
             }
         },
         {
