@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -140,7 +141,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [16]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [17]",
@@ -167,6 +168,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -206,6 +208,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -251,7 +254,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [16]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [17]",
@@ -278,6 +281,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -464,6 +468,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "node5.telegavpn.org",
+            "server_port": 443,
+            "uuid": "bce1b15a-38b1-4154-8530-3b04cb5bd927",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "node5.telegavpn.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1581,7 +1608,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2214,6 +2241,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "nl-3.atlanta-internet.ru",
+            "server_port": 8443,
+            "uuid": "669be00c-67b4-4b87-b08f-311c45abced2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pingless.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
+                    "short_id": ""
                 }
             }
         },

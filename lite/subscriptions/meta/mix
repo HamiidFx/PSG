@@ -145,8 +145,9 @@ proxies:
   - {"name":"🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]","type":"vless","server":"45.88.183.158","port":44629,"uuid":"d3daa900-0377-4575-9ebc-c4d88cb8486c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]","type":"vless","server":"188.225.80.183","port":443,"uuid":"5475990d-e0ce-46ea-95e5-50f9e4879af9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ru.sfasti.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8","short-id":"16895459a2c7768d"}}
-  - {"name":"🇧🇷 BR | 🔓 VMESS | @v2ray_free_conf [19]","type":"vmess","server":"38.180.16.86","port":36236,"cipher":"auto","uuid":"a58bc1a5-8c18-49ff-9453-c331b52f45dc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"45.87.175.185","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"45.87.175.185","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]","type":"vmess","server":"chat.deepseek.com","port":8443,"cipher":"none","uuid":"35342035-3420-4130-b120-353620313032","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"nl-2.stunnel.cc"}}}
+  - {"name":"🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"172.236.150.129","port":8443,"password":"31761898-65ab-4ef4-956e-da7d978ebe2e","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]","type":"vless","server":"gr.liteingshop.com","port":2082,"uuid":"505953c2-071a-47a1-950d-4c8e7609992e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔓 VLESS | @v2ray_vmes [15]","type":"vless","server":"add.ski1plag.ir","port":80,"uuid":"7c9e3c1d-a360-4429-9189-e45a98de7fde","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/upload","headers":{"Host":"my.ski1plag.ir"}}}
   - {"name":"🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]","type":"vless","server":"viop.fast.hosting-ip.com","port":80,"uuid":"11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
@@ -311,8 +312,9 @@ proxy-groups:
       - '🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]'
       - '🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]'
       - '🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]'
-      - '🇧🇷 BR | 🔓 VMESS | @v2ray_free_conf [19]'
-      - '🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]'
+      - '🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]'
+      - '🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]'
+      - '🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]'
       - '🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]'
       - '❔ XX | 🔓 VLESS | @v2ray_vmes [15]'
       - '🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]'

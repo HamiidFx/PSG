@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔓 VLESS | @config_proxy [43]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -103,6 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔓 VLESS | @config_proxy [43]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -202,6 +204,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "[2a0e:d600:0:2f8::2]",
+            "server_port": 443,
+            "uuid": "d00d13b2-5cd3-4648-afa9-807983647ed8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2a0e:d600:0:2f8::2]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2a0e:d600:0:2f8::2]"
                 }
             }
         },
