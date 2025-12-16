@@ -95,9 +95,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [30]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [31]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -141,7 +138,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -209,9 +206,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [30]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [31]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -255,7 +249,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -470,75 +464,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [30]",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 8443,
-            "uuid": "80829f0d-226f-4042-b22f-12b67a93b14f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
-                    "short_id": "b88841a3"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 4425,
-            "uuid": "eabbac8d-bc20-4893-82ba-798c7c63b41d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
-                    "short_id": "e8"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "world-of.ru",
-            "server_port": 45006,
-            "uuid": "6be84905-e85d-49f5-9dbf-d0517455f85d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "odeg3o6NSJbdTwtXqd6QZvbkiX5COv1Q41a7ciVELio",
-                    "short_id": "0f704e"
-                }
             }
         },
         {
@@ -1606,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
