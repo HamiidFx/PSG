@@ -80,6 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [65]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [67]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -132,6 +136,12 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [11]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -139,7 +149,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]"
             ],
             "tag": "proxy",
@@ -151,6 +161,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [65]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [67]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -203,6 +217,12 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [11]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -210,7 +230,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]"
             ],
             "tag": "auto",
@@ -298,6 +318,98 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "144.126.231.78",
+            "server_port": 443,
+            "uuid": "c0dec94b-dce0-4396-b49e-27da70a2d980",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "65.109.221.167",
+            "server_port": 443,
+            "uuid": "fe449d30-e6ba-4787-97b3-bb3b84c8d120",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "46.101.2.180",
+            "server_port": 443,
+            "uuid": "7b9d5ddd-2457-4213-a97a-ab9890f0e0c5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "5.75.204.30",
+            "server_port": 443,
+            "uuid": "4e10e9fb-e4f3-4dbd-a504-7c31344ed536",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
                 }
             }
         },
@@ -1125,6 +1237,144 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
+            "type": "vless",
+            "server": "134.209.191.114",
+            "server_port": 443,
+            "uuid": "3a72f0fd-68c8-4089-8b02-36aa1da14e45",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "5.75.206.190",
+            "server_port": 443,
+            "uuid": "c9a0384f-5e3a-48ef-89bb-000f9d0eaf94",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "68.183.205.118",
+            "server_port": 443,
+            "uuid": "ad769f8d-9e20-45b7-9a8a-de11641b6590",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "5.75.199.130",
+            "server_port": 443,
+            "uuid": "70769976-947b-4c53-82a8-0de161e2f714",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "91.107.175.2",
+            "server_port": 443,
+            "uuid": "be0788d7-8c06-4ef2-9eca-809c6bd8e2b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "157.180.29.225",
+            "server_port": 443,
+            "uuid": "673bb129-29f7-4d22-b554-cb42ba6f9bfb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1272,7 +1522,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "151.101.25.242",
             "server_port": 80,
