@@ -84,7 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [18]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
@@ -96,10 +96,10 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -115,7 +115,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [18]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
@@ -127,10 +127,10 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -314,7 +314,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "84.201.173.57",
             "server_port": 443,
@@ -606,6 +606,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "fi4.srv.oplcdn.link",
+            "server_port": 7443,
+            "uuid": "3116cc23-0c39-4bb6-8154-d3f332e9017e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "77.88.8.8",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @savagenet [1]",
             "type": "vless",
             "server": "dash.svgspeedtest.net",
@@ -652,30 +675,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "meg3.horiono3.xyz",
-            "server_port": 443,
-            "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "io.ozone.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-                    "short_id": "cf4d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
