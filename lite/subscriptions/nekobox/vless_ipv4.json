@@ -106,8 +106,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🚩 CF | 🔒 VLESS | @mt_proxy [5]",
-                "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [14]",
-                "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [15]",
+                "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [13]",
+                "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
@@ -126,10 +126,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
-                "🚩 CF | 🔒 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -166,8 +167,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🚩 CF | 🔒 VLESS | @mt_proxy [5]",
-                "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [14]",
-                "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [15]",
+                "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [13]",
+                "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
@@ -186,10 +187,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
-                "🚩 CF | 🔒 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -737,7 +739,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [14]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @mtproxy22_v2ray [13]",
             "type": "vless",
             "server": "62.60.192.209",
             "server_port": 80,
@@ -753,7 +755,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [15]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
             "type": "vless",
             "server": "46.20.111.246",
             "server_port": 3035,
@@ -1018,6 +1020,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
+            "type": "vless",
+            "server": "66.90.90.10",
+            "server_port": 443,
+            "uuid": "fd84e1b2-b3f7-4d8a-bbff-fe2d9065d076",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
             "type": "vless",
             "server": "194.113.106.139",
@@ -1064,7 +1089,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "208.103.161.33",
             "server_port": 2053,
@@ -1089,7 +1114,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [20]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "173.245.58.220",
             "server_port": 443,

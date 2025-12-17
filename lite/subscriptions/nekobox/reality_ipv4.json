@@ -87,6 +87,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
             ],
@@ -106,6 +107,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
             ],
@@ -346,6 +348,29 @@
             "tls": {
                 "enabled": true,
                 "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
+            "type": "vless",
+            "server": "66.90.90.10",
+            "server_port": 443,
+            "uuid": "fd84e1b2-b3f7-4d8a-bbff-fe2d9065d076",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

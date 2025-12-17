@@ -99,6 +99,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -107,10 +108,10 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -129,6 +130,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -137,10 +139,10 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -389,6 +391,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
+            "type": "vless",
+            "server": "66.90.90.10",
+            "server_port": 443,
+            "uuid": "fd84e1b2-b3f7-4d8a-bbff-fe2d9065d076",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
             "type": "vless",
             "server": "194.113.106.139",
@@ -589,7 +614,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
             "type": "vless",
             "server": "fi4.srv.oplcdn.link",
             "server_port": 7443,
@@ -658,7 +683,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
