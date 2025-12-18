@@ -188,7 +188,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [17]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [18]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -221,10 +221,9 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -334,7 +333,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [17]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [18]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -367,10 +366,9 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -2087,7 +2085,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [18]",
             "type": "vless",
             "server": "fi4.srv.oplcdn.link",
             "server_port": 7443,
@@ -2625,13 +2623,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
-            "server": "ip.fastlynew.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-93",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "terazhedi.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sghiyws",
+                "headers": {
+                    "Host": "terazhedi.info"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
@@ -2659,32 +2673,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "terazhedi.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sghiyws",
-                "headers": {
-                    "Host": "terazhedi.info"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
