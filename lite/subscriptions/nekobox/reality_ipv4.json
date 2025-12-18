@@ -88,7 +88,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,7 +108,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -401,6 +403,29 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "49.13.203.113",
+            "server_port": 2050,
+            "uuid": "44dd59b7-a153-44de-8b62-c2affe0fff02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Tua_E2HKPrVU1Xikr5b0v0uKKUjpAnG5w8UjqfoEnkI",
+                    "short_id": "35d64c10241d8efc"
                 }
             }
         }
