@@ -80,8 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [52]",
-                "❔ XX | 🔓 VLESS | @config_proxy [58]",
                 "❔ XX | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔒 VLESS | @grizzlyvpn [3]",
@@ -136,6 +134,7 @@
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [15]",
                 "❔ XX | 🔒 VLESS | @v2ray_vmes [13]",
+                "❔ XX | 🔓 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [8]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [10]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [11]",
@@ -154,8 +153,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [52]",
-                "❔ XX | 🔓 VLESS | @config_proxy [58]",
                 "❔ XX | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @grizzlyvpn [2]",
                 "❔ XX | 🔒 VLESS | @grizzlyvpn [3]",
@@ -210,6 +207,7 @@
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [15]",
                 "❔ XX | 🔒 VLESS | @v2ray_vmes [13]",
+                "❔ XX | 🔓 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [8]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [10]",
                 "❔ XX | 🔒 VLESS | @v2rayexpress [11]",
@@ -306,24 +304,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "4e109848-c8bf-410a-9462-a6b1b01f602a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "4e109848-c8bf-410a-9462-a6b1b01f602a",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @configv2rayforfree [3]",
@@ -1163,6 +1143,24 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [17]",
+            "type": "vless",
+            "server": "135.125.143.200",
+            "server_port": 443,
+            "uuid": "109282ee-8e89-4879-8d94-cfefe654d625",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "135.125.143.200",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

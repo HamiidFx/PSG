@@ -82,8 +82,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "❔ XX | 🔒 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔒 VLESS | @config_proxy [46]",
-                "❔ XX | 🔒 VLESS | @config_proxy [57]",
+                "❔ XX | 🔒 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [43]",
+                "❔ XX | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔒 VLESS | @configasli [1]",
                 "❔ XX | 🔒 VLESS | @configasli [2]",
                 "❔ XX | 🔒 VLESS | @configasli [3]",
@@ -213,8 +214,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "❔ XX | 🔒 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔒 VLESS | @config_proxy [46]",
-                "❔ XX | 🔒 VLESS | @config_proxy [57]",
+                "❔ XX | 🔒 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [43]",
+                "❔ XX | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔒 VLESS | @configasli [1]",
                 "❔ XX | 🔒 VLESS | @configasli [2]",
                 "❔ XX | 🔒 VLESS | @configasli [3]",
@@ -468,16 +470,39 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [46]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "159.89.87.21",
-            "server_port": 28190,
-            "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
+            "server": "188.245.106.69",
+            "server_port": 43332,
+            "uuid": "8126bda8-eff1-4a2e-a597-a78631e1123b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "aws.amazon.com",
+                "server_name": "borna.news",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1Ad0csGmp3EoFiCIw6m1Oueb44cDuBtdDADijYt42n0",
+                    "short_id": "ec39cd"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "107.174.82.65",
+            "server_port": 32068,
+            "uuid": "bd7444d1-5f08-43bd-a332-f9058ad15010",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -485,31 +510,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
-                    "short_id": ""
+                    "public_key": "QNcdT48fsgPz6WLCLTUmfb2pGG_DYAYeYSVJ2Q4Erwc",
+                    "short_id": "684de91a"
                 }
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [57]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "103.109.234.2",
-            "server_port": 8443,
-            "uuid": "3116cc23-0c39-4bb6-8154-d3f332e9017e",
+            "server": "89.208.228.43",
+            "server_port": 5443,
+            "uuid": "614e9054-36cd-446d-88f0-b66d4524c18f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ign.com",
+                "server_name": "max.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
+                    "short_id": ""
                 }
             }
         },
