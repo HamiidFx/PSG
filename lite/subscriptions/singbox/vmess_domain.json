@@ -118,9 +118,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -162,9 +160,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -600,16 +596,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "www.sciencedirect.com",
-            "server_port": 443,
-            "uuid": "6f01cae8-c2c5-426d-87ef-a7929e9f1799",
+            "server": "95.81.114.252",
+            "server_port": 44749,
+            "uuid": "54a0bf6d-f2b5-4b2a-942c-798fb129527e",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "us-v.sshmax.xyz",
+                "server_name": "imafake.locker",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -618,36 +614,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/vmess",
+                "path": "/speedtest",
                 "headers": {
-                    "Host": "us-v.sshmax.xyz"
+                    "Host": "imafake.locker"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "ld2.shabijichang.com",
-            "server_port": 80,
-            "uuid": "c458695d-6908-45c3-9512-e0c46418454c",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ld2.shabijichang.com"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "freev2ray.v2ray4.xyz",
-            "server_port": 44710,
-            "uuid": "ed2d80c1-5e7e-4a13-8328-8dfe6dad5cfb",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
