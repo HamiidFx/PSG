@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔒 TROJAN | @privatevpns [15] = trojan, 3.73.148.183, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [16] = trojan, 15.188.211.210, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [17] = trojan, 15.236.119.43, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [15] = trojan, 3.73.148.183, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [16] = trojan, 15.188.211.210, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [17] = trojan, 15.236.119.43, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6] = trojan, 172.67.134.185, 443, password = POORIARED, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
-PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
-PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [6]
 
 [Rule]
 GEOIP,IR,DIRECT
