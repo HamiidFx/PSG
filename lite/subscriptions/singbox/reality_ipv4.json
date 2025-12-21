@@ -101,8 +101,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [19]"
+                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,8 +122,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [19]"
+                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -417,30 +417,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "67.159.56.108",
-            "server_port": 443,
-            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vk.sshield2.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
-                    "short_id": "7cad5040"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "185.177.238.57",
             "server_port": 443,
@@ -459,6 +436,29 @@
                     "enabled": true,
                     "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
                     "short_id": "0eccda18dcb95082"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "8.217.36.203",
+            "server_port": 443,
+            "uuid": "5c183802-747d-4d2f-a6f1-aff2d5d78401",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "j.6sc.co",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         }
