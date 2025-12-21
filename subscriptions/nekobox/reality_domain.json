@@ -83,11 +83,12 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
-                "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
+                "❔ XX | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
@@ -184,11 +185,12 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
-                "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
+                "❔ XX | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
@@ -439,6 +441,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "us.cdn.stun.su",
+            "server_port": 443,
+            "uuid": "9a5414b6-20b7-4313-8cd4-693d3c19ec05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "us.cdn.stun.su",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "u4S6MmhgEOkPjlLVZ6twDLy-V9JIpLtyj8vDobOVM0w",
+                    "short_id": "6ce8c7121382ad5b"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -543,7 +568,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
+            "tag": "❔ XX | 🔒 VLESS | @connectshu [9]",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
