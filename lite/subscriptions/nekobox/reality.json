@@ -89,7 +89,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇧🇬 BG | 🔒 VLESS | @vmesc [18]",
+                "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -118,7 +119,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇧🇬 BG | 🔒 VLESS | @vmesc [18]",
+                "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -425,7 +427,7 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "146.19.80.242",
             "server_port": 443,
@@ -445,6 +447,33 @@
                     "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
                     "short_id": "7cad5040"
                 }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "51.250.88.6",
+            "server_port": 446,
+            "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8",
+                    "short_id": "0512567389abcdef"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ads.x5.ru"
             }
         },
         {

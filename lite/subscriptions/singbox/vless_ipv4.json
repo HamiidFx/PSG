@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [14]",
+                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔒 VLESS | @bored_vpn [14]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔓 VLESS | @diamondproxytm [2]",
@@ -140,7 +140,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇧🇬 BG | 🔒 VLESS | @vmesc [18]"
+                "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -151,8 +152,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [14]",
+                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔒 VLESS | @bored_vpn [14]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔓 VLESS | @diamondproxytm [2]",
@@ -199,7 +200,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇧🇬 BG | 🔒 VLESS | @vmesc [18]"
+                "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -286,20 +288,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @bored_vpn [12]",
-            "type": "vless",
-            "server": "209.38.218.66",
-            "server_port": 45418,
-            "uuid": "357f5259-60dc-4caa-8852-52c99679dd19",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @bored_vpn [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @bored_vpn [13]",
             "type": "vless",
             "server": "209.38.218.66",
             "server_port": 45419,
@@ -309,6 +298,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @bored_vpn [14]",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "w.arfilter2.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "w.arfilter2.blog"
+                }
             }
         },
         {
@@ -1072,7 +1086,7 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇧🇬 BG | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "146.19.80.242",
             "server_port": 443,
@@ -1092,6 +1106,33 @@
                     "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
                     "short_id": "7cad5040"
                 }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "51.250.88.6",
+            "server_port": 446,
+            "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8",
+                    "short_id": "0512567389abcdef"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ads.x5.ru"
             }
         }
     ],
