@@ -101,7 +101,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇺 AU | 🔒 VLESS | @vmesc [18]",
+                "🇦🇺 AU | 🔒 VLESS | @vmesc [17]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -130,7 +131,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇺 AU | 🔒 VLESS | @vmesc [18]",
+                "🇦🇺 AU | 🔒 VLESS | @vmesc [17]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -433,7 +435,7 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇦🇺 AU | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "45.15.185.69",
             "server_port": 8443,
@@ -443,6 +445,29 @@
             "tls": {
                 "enabled": true,
                 "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "67.159.56.108",
+            "server_port": 443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.sshield2.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
