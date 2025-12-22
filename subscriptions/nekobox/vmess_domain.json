@@ -92,7 +92,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇹🇼 TW | 🔓 VMESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔒 VMESS | @config_proxy [54]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -132,7 +133,7 @@
                 "🇺🇸 US | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [17]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -248,6 +249,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [9]",
                 "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [10]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [15]",
+                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -320,7 +322,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇹🇼 TW | 🔓 VMESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔒 VMESS | @config_proxy [54]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -360,7 +363,7 @@
                 "🇺🇸 US | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [17]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -476,6 +479,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [9]",
                 "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [10]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [15]",
+                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -809,18 +813,43 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @config_proxy [39]",
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [51]",
             "type": "vmess",
-            "server": "103.61.139.137",
-            "server_port": 20521,
-            "uuid": "f8d93cfb-3d5d-447c-a697-16496dd74697",
+            "server": "172.67.131.245",
+            "server_port": 80,
+            "uuid": "0b65bb06-6b28-487a-8e3c-820dda51e977",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/dT9s3HqgZeD3eApzDAfhOHq",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @config_proxy [54]",
+            "type": "vmess",
+            "server": "5.83.150.108",
+            "server_port": 29196,
+            "uuid": "9631096d-3032-4942-9446-bdf12665682b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
                 }
             }
         },
@@ -1600,7 +1629,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [17]",
             "type": "vmess",
             "server": "104.21.8.157",
             "server_port": 2082,
@@ -3444,6 +3473,22 @@
                 "path": "/vc",
                 "headers": {
                     "Host": "vc.fly.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "103.61.139.137",
+            "server_port": 20521,
+            "uuid": "f8d93cfb-3d5d-447c-a697-16496dd74697",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
