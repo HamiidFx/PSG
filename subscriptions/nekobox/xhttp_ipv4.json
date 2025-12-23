@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -153,6 +154,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -311,6 +313,29 @@
             "uuid": "c24a614c-a28b-4beb-b984-41e77f4d552f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "45.84.222.208",
+            "server_port": 8443,
+            "uuid": "764b963e-0b82-4171-b52c-f37b311bcf4c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Sbbk728P3ROgfMrRvkRKs_7-3rzqpAKoBZsXdrZIE0U",
+                    "short_id": "ae369502a4"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
