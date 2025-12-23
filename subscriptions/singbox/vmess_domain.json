@@ -104,7 +104,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [47]",
+                "🇹🇷 TR | 🔓 VMESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [55]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -144,8 +145,8 @@
                 "🇺🇸 US | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
-                "🚩 CF | 🔓 VMESS | @hope_net [12]",
+                "❔ XX | 🔓 VMESS | @hope_net [6]",
+                "🚩 CF | 🔓 VMESS | @hope_net [8]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -263,6 +264,7 @@
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [15]",
                 "🇳🇿 NZ | 🔓 VMESS | @v2ray_free_conf [16]",
                 "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -335,7 +337,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [47]",
+                "🇹🇷 TR | 🔓 VMESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [55]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -375,8 +378,8 @@
                 "🇺🇸 US | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
-                "🚩 CF | 🔓 VMESS | @hope_net [12]",
+                "❔ XX | 🔓 VMESS | @hope_net [6]",
+                "🚩 CF | 🔓 VMESS | @hope_net [8]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -494,6 +497,7 @@
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [15]",
                 "🇳🇿 NZ | 🔓 VMESS | @v2ray_free_conf [16]",
                 "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -823,22 +827,38 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [47]",
+            "tag": "🇹🇷 TR | 🔓 VMESS | @config_proxy [49]",
             "type": "vmess",
-            "server": "172.66.40.99",
+            "server": "94.131.108.36",
             "server_port": 443,
-            "uuid": "30-telegram-id---V2box-v2",
+            "uuid": "9855f1f0-a800-40d4-8b38-c7d3eb79302d",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "z.looloolooloo.com",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [55]",
+            "type": "vmess",
+            "server": "142.0.134.243",
+            "server_port": 45017,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
@@ -1616,7 +1636,7 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [10]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [6]",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1625,7 +1645,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [12]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [8]",
             "type": "vmess",
             "server": "172.64.167.5",
             "server_port": 2086,
@@ -3487,6 +3507,24 @@
                 "path": "/mawduvgddg",
                 "headers": {
                     "Host": "bawfewbwagr.76898102.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "30-telegram-id---V2box-v2",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "z.looloolooloo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

@@ -80,10 +80,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 TROJAN | @config_proxy [41]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔒 TROJAN | @hope_net [14]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -107,7 +109,9 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [2]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇭🇰 HK | 🔒 TROJAN | @v2raych [8]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [9]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+                "🇩🇪 DE | 🔓 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -138,10 +142,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 TROJAN | @config_proxy [41]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔒 TROJAN | @hope_net [14]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -165,7 +171,9 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [2]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇭🇰 HK | 🔒 TROJAN | @v2raych [8]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [9]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+                "🇩🇪 DE | 🔓 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -276,6 +284,13 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @config_proxy [41]",
+            "type": "trojan",
+            "server": "45.76.94.79",
+            "server_port": 13448,
+            "password": "9BbIGN.nF=gztO-iq7ETmxdJ"
+        },
+        {
             "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
             "type": "trojan",
             "server": "160.16.150.76",
@@ -315,7 +330,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [14]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [10]",
             "type": "trojan",
             "server": "18.135.201.47",
             "server_port": 22222,
@@ -327,6 +342,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "162.159.153.32",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
                 }
             }
         },
@@ -717,20 +755,57 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2raych [8]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [9]",
             "type": "trojan",
-            "server": "58.152.26.107",
+            "server": "173.245.59.100",
             "server_port": 443,
-            "password": "BxceQaOe",
+            "password": "951bbbc9-c5fd-441e-ac3d-c7fcfbf4a751",
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "se1.trojanvpn.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/websocket",
+                "headers": {
+                    "Host": "se1.trojanvpn.de"
+                }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+            "type": "trojan",
+            "server": "104.16.159.112",
+            "server_port": 443,
+            "password": "4aec4e7f8cf8454ea4613659822e1a61",
+            "tls": {
+                "enabled": true,
+                "server_name": "jobscareertoday.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "jobscareertoday.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "3.73.224.140",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns"
         },
         {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",

@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [46]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -178,6 +180,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [15]",
+                "🇨🇱 CL | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -210,7 +214,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇦🇱 AL | 🔒 VLESS | @vmesc [6]",
                 "🇭🇰 HK | 🔒 VLESS | @vmesc [7]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [8]",
                 "🇦🇱 AL | 🔒 VLESS | @vmesc [10]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
@@ -232,7 +235,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [46]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -316,6 +321,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [15]",
+                "🇨🇱 CL | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -348,7 +355,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇦🇱 AL | 🔒 VLESS | @vmesc [6]",
                 "🇭🇰 HK | 🔒 VLESS | @vmesc [7]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [8]",
                 "🇦🇱 AL | 🔒 VLESS | @vmesc [10]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
@@ -490,10 +496,56 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "109.248.203.71",
+            "server_port": 443,
+            "uuid": "6142e134-346a-4ffe-bf5b-c3fb7e3c9dfb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PfxP7-Pvot9Y8z5boZwuG3Afyb_zdm0C2HCZezNMTiQ",
+                    "short_id": "85225c27630d023f"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "5.253.41.52",
+            "server_port": 8443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
             "server": "51.250.66.217",
-            "server_port": 446,
+            "server_port": 444,
             "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -507,8 +559,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8",
-                    "short_id": "0512567389abcdef"
+                    "public_key": "L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM",
+                    "short_id": "0614386789abcdef"
                 }
             },
             "transport": {
@@ -2513,6 +2565,52 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "45.12.133.61",
+            "server_port": 8443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇱 CL | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "45.82.249.129",
+            "server_port": 8443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -3267,29 +3365,6 @@
                     "enabled": true,
                     "public_key": "DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw",
                     "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [8]",
-            "type": "vless",
-            "server": "5.253.41.52",
-            "server_port": 8443,
-            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
-                    "short_id": "7cad5040"
                 }
             }
         },
