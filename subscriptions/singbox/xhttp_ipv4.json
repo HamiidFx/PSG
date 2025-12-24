@@ -147,6 +147,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🚩 CF | 🔒 VLESS | @v2raych [5]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -155,7 +156,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [11]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [11]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -221,6 +222,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🚩 CF | 🔒 VLESS | @v2raych [5]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -229,7 +231,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [11]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [11]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1175,6 +1177,24 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [5]",
+            "type": "vless",
+            "server": "190.93.247.124",
+            "server_port": 443,
+            "uuid": "cf031b16-35d3-45b9-81cf-27722cd1f53a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chde428.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1331,7 +1351,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
             "type": "vless",
             "server": "151.101.25.242",
             "server_port": 80,
