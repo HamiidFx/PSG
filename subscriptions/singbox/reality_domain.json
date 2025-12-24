@@ -95,7 +95,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [46]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [47]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -134,7 +138,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [7]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [7]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -190,7 +194,11 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [46]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [47]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -229,7 +237,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [7]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [7]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -435,16 +443,108 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [46]",
             "type": "vless",
-            "server": "nl5.tunnely.ru",
+            "server": "tunnyl.ru",
             "server_port": 443,
-            "uuid": "c42e4667-ca09-4769-b544-89a8da730daf",
+            "uuid": "f9ce977c-6941-4f1b-a92e-dc11f84a6772",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nl5.tunnely.ru",
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs",
+                    "short_id": "0f1d6a"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 54746,
+            "uuid": "8ebc74ea-fec3-447b-b352-5c54c29e8b1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "t9Eutf6lPyexq26i2xtD-SCkmnxo8kesCEv6zkrKd2U",
+                    "short_id": "0c2a093291fab91a"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 3389,
+            "uuid": "0e38d492-a595-4d02-aef1-8eed6aea12a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "brMfFpfxMeNeqGqG0ZmWdwlnvZBfBTY92Jjyfz8Qyz4",
+                    "short_id": "0274c94d298e"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "1b9d43df-65f0-4737-abb7-c65227d2eccd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y",
+                    "short_id": "785be44fdf"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "deusup.dashping1.ir",
+            "server_port": 8101,
+            "uuid": "a4d73ad4-fde4-4c50-84bd-ab7d773f9dc2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "preview.redd.it",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -452,8 +552,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM",
-                    "short_id": "2e40144ddc07e8e1"
+                    "public_key": "DG2WqjfT9HFqCfHzaYAVNEayiJN8yGQ64YT9-9eV5Fs",
+                    "short_id": "bbddcffa7270"
                 }
             }
         },
@@ -1407,7 +1507,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [7]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [7]",
             "type": "vless",
             "server": "fi4.srv.oplcdn.link",
             "server_port": 7443,
