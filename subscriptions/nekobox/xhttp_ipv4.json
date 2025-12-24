@@ -81,10 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -111,7 +114,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [16]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [18]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [20]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
@@ -157,10 +159,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -187,7 +192,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [16]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [18]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [20]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
@@ -321,11 +325,38 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "104.16.1.106",
-            "server_port": 8080,
-            "uuid": "212456b7-a367-4a75-fbc9-2be616d39aee",
+            "server": "64.188.64.234",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "151.101.205.194",
+            "server_port": 80,
+            "uuid": "2e9e96b1-b0e7-4f90-a3f0-9e8b393a9d65",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "151.101.205.194",
+            "server_port": 80,
+            "uuid": "01d2ad73-3e89-4b0a-8743-69c33b1504b3",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -383,6 +414,15 @@
                     "short_id": "aabbccdd"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
+            "type": "vless",
+            "server": "151.101.25.242",
+            "server_port": 80,
+            "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -754,15 +794,6 @@
             "server": "151.101.205.194",
             "server_port": 80,
             "uuid": "3b1af81c-9c09-46fd-bcfb-1fa7bd73fe5f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
-            "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
             "flow": "",
             "packet_encoding": "xudp"
         },
