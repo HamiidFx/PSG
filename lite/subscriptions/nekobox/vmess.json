@@ -106,7 +106,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -148,7 +150,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -588,11 +592,61 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "95.81.114.252",
-            "server_port": 44749,
-            "uuid": "c6e0562f-7ad1-40fb-a255-26194b2de84a",
+            "server": "x1.arvandserver.fun",
+            "server_port": 443,
+            "uuid": "9800f5c5-f77f-4b2c-bc90-d91e19dde022",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "bmw.arvandserver.fun",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "bmw.arvandserver.fun"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "x2.arvandserver.fun",
+            "server_port": 443,
+            "uuid": "9800f5c5-f77f-4b2c-bc90-d91e19dde022",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "bmw.arvandserver.fun",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "bmw.arvandserver.fun"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [21]",
+            "type": "vmess",
+            "server": "5.83.150.108",
+            "server_port": 21939,
+            "uuid": "27104fae-f047-4993-902a-9368d8a3e9bc",
             "security": "auto",
             "alter_id": 0,
             "tls": {
