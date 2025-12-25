@@ -90,7 +90,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,7 +112,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -455,6 +457,29 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "185.130.114.219",
+            "server_port": 443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
                 }
             }
         }

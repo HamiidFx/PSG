@@ -83,8 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
-                "🇱🇺 LU | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -143,7 +141,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [2]",
@@ -162,7 +159,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -177,8 +174,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
-                "🇱🇺 LU | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -237,7 +232,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [2]",
@@ -256,7 +250,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -422,52 +416,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "tr.locations-sub.com",
-            "server_port": 5056,
-            "uuid": "c550dc26-4fee-4672-b2c4-1bffd1ce9dc9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇱🇺 LU | 🔒 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "lu.locations-sub.com",
-            "server_port": 5062,
-            "uuid": "c550dc26-4fee-4672-b2c4-1bffd1ce9dc9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1896,29 +1844,6 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [17]",
-            "type": "vless",
-            "server": "tr.gpairnetwork369.de",
-            "server_port": 3060,
-            "uuid": "50897f87-f946-41f8-a709-48c3e588686f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NVjEaDFrdzaFQHvMt8BPORsLFR3iD8NA31Dpn-1HRFk",
-                    "short_id": "ecd8d10c1518fb7b"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
@@ -2357,7 +2282,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
             "type": "vless",
             "server": "GERMANY.TORPROSPEED.IR",
             "server_port": 5890,

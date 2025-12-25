@@ -143,9 +143,9 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
-                "🇨🇦 CA | 🔓 VLESS | @vmesc [18]",
-                "🇸🇬 SG | 🔓 VLESS | @vmesc [19]",
+                "🇨🇦 CA | 🔓 VLESS | @vmesc [17]",
+                "🇸🇬 SG | 🔓 VLESS | @vmesc [18]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
@@ -285,9 +285,9 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
-                "🇨🇦 CA | 🔓 VLESS | @vmesc [18]",
-                "🇸🇬 SG | 🔓 VLESS | @vmesc [19]",
+                "🇨🇦 CA | 🔓 VLESS | @vmesc [17]",
+                "🇸🇬 SG | 🔓 VLESS | @vmesc [18]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
@@ -1297,16 +1297,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "85.9.205.54",
-            "server_port": 4655,
-            "uuid": "2668fdee-331d-4770-8244-d2a4efbf6ef8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @vmesc [18]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "198.50.119.86",
             "server_port": 8080,
@@ -1322,7 +1313,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇸🇬 SG | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "152.42.185.230",
             "server_port": 23675,
@@ -1334,6 +1325,29 @@
                 "path": "/FREE By Tharuwa (0767597317)",
                 "headers": {
                     "Host": "152.42.185.230"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "185.130.114.219",
+            "server_port": 443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
                 }
             }
         },
