@@ -9,16 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔒 TROJAN | @privatevpns [14] = trojan, 18.194.50.87, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [15] = trojan, 52.47.66.171, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-❔ XX | 🔒 TROJAN | @privatevpns [16] = trojan, 51.44.113.247, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [14] = trojan, 18.194.50.87, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [15] = trojan, 52.47.66.171, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [16] = trojan, 51.44.113.247, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2] = trojan, 172.67.134.185, 443, password = POORIARED, skip-cert-verify = false
 🚩 CF | 🔒 TROJAN | @vpn_ioss [13] = trojan, 172.67.134.185, 443, password = POORIARED, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
-PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
-PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [14], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [15], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [16], 🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2], 🚩 CF | 🔒 TROJAN | @vpn_ioss [13]
 
 [Rule]
 GEOIP,IR,DIRECT
