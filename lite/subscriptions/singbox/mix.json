@@ -93,8 +93,7 @@
                 "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [10]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [11]",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
                 "🇵🇱 PL | 🔓 VLESS | @bored_vpn [12]",
                 "🇦🇪 AE | 🔒 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
@@ -238,10 +237,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -286,8 +286,7 @@
                 "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [10]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [11]",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
                 "🇵🇱 PL | 🔓 VLESS | @bored_vpn [12]",
                 "🇦🇪 AE | 🔒 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
@@ -431,10 +430,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -522,31 +522,6 @@
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "i.arfilter2.blog",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "i.arfilter2.blog"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @arv2ray [11]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
                 "server_name": "u.arfilter2.blog",
                 "insecure": true,
                 "utls": {
@@ -563,7 +538,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
             "type": "vless",
             "server": "31.222.238.127",
             "server_port": 8043,
@@ -2818,20 +2793,21 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "185.146.173.25",
-            "server_port": 80,
-            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "server": "51.158.239.83",
+            "server_port": 598,
+            "uuid": "eda13c48-f1fb-4f9c-e813-da54010a4472",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [18]",
+            "type": "shadowsocks",
+            "server": "103.106.228.247",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -2859,7 +2835,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
