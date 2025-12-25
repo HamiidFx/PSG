@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
@@ -113,6 +112,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [4]",
@@ -123,7 +123,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [16]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [18]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
@@ -169,7 +169,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
@@ -189,6 +188,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [4]",
@@ -199,7 +199,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [16]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [18]",
                 "🇳🇱 NL | 🔓 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
@@ -325,15 +325,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "c24a614c-a28b-4beb-b984-41e77f4d552f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -676,6 +667,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @nofiltering2 [1]",
             "type": "vless",
             "server": "146.75.119.82",
@@ -766,30 +766,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
-            "type": "vless",
-            "server": "157.90.114.255",
-            "server_port": 443,
-            "uuid": "Parsashonam-323",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Jn4o_Z04hFKbSObmrHi3rGiPXLpSNFjmSjEGOGFN_FY",
-                    "short_id": "09373829"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
             "type": "vless",
             "server": "91.98.130.176",
             "server_port": 443,
@@ -812,7 +789,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
             "type": "vless",
             "server": "91.98.130.176",
             "server_port": 443,
@@ -835,7 +812,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
             "type": "vless",
             "server": "91.98.130.176",
             "server_port": 443,
@@ -858,7 +835,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [8]",
             "type": "vless",
             "server": "46.224.126.160",
             "server_port": 443,
@@ -881,11 +858,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [10]",
             "type": "vless",
             "server": "46.224.126.160",
             "server_port": 443,
             "uuid": "Parsashonam-328",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e9wxtm7Ei-jZn9k-OhlNhLI6CJwGQF9i_WpKrm81RVE",
+                    "short_id": "86c3ab8ae267e5"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
+            "type": "vless",
+            "server": "46.224.126.160",
+            "server_port": 443,
+            "uuid": "Parsashonam-329",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
