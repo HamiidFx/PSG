@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [9]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [12]",
                 "🇵🇱 PL | 🔓 VLESS | @bored_vpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @bored_vpn [14]",
@@ -129,7 +129,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -140,7 +141,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [9]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [12]",
                 "🇵🇱 PL | 🔓 VLESS | @bored_vpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @bored_vpn [14]",
@@ -189,7 +190,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -280,7 +282,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [9]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [12]",
             "type": "vless",
             "server": "31.222.238.127",
             "server_port": 8043,
@@ -1098,6 +1100,31 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "208.103.161.33",
+            "server_port": 2053,
+            "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.111000.dynv6.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sni.111000.dynv6.net"
                 }
             }
         }

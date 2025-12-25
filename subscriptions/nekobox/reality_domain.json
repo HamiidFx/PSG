@@ -83,8 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -144,10 +142,11 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+                "🇪🇸 ES | 🔒 VLESS | @v2raych [3]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [2]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -163,7 +162,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -178,8 +176,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -239,10 +235,11 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+                "🇪🇸 ES | 🔒 VLESS | @v2raych [3]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [2]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -258,7 +255,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -424,56 +420,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "a.confignor.site",
-            "server_port": 35493,
-            "uuid": "bc8c26a3-3a36-4598-871c-bafcdd632dac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
-                    "short_id": "9c24"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
-            "type": "vless",
-            "server": "static.cdn-assets-v3.fonts.googleapis-com.edge-cache.deepcloudview.com",
-            "server_port": 443,
-            "uuid": "30837eab-df8b-404e-bee7-02c9c0c971b3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fonts.googleapis.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oB-k13V7puuNgwAmA7Ol-TGIVOkU1vJEnXs8CBjXtnk",
-                    "short_id": "42843d2219"
-                }
             }
         },
         {
@@ -1925,30 +1871,49 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @v2raych [3]",
             "type": "vless",
-            "server": "a.confignor.site",
-            "server_port": 35493,
-            "uuid": "16d42e49-1e43-4f76-8186-22d5b5d2c977",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "7a700278-a03d-498e-98d5-09ab2da8b9dc",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
-                    "short_id": "9c24"
+                    "public_key": "llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs",
+                    "short_id": "0f1d6a"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "1.pandaserver654.ir",
+            "server_port": 3696,
+            "uuid": "6f858ab4-56a6-45bd-90aa-84d1e2e3063a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Jsvqk8hSyL-JT5-sasABrFsbQmafOp-wMy85Y8Xm1T0",
+                    "short_id": "33552dae47b33e54"
+                }
             }
         },
         {
@@ -1998,7 +1963,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [2]",
             "type": "vless",
             "server": "de2.srv.oplcdn.link",
             "server_port": 8443,
@@ -2387,29 +2352,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
-            "type": "vless",
-            "server": "pfwie.marfanet.com",
-            "server_port": 2087,
-            "uuid": "56bd2496-0391-4efc-990e-566d5a641944",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tagesschau.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "F1v3AIUGrEMJrwY20K_iYJqAZEMzmjEs_84rzqDonhQ",
-                    "short_id": "abf8bb6e6ccb007e"
-                }
             }
         },
         {
