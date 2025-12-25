@@ -119,7 +119,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -162,7 +162,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -607,18 +607,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "XXXccFrt.922922.ShOP",
-            "server_port": 80,
-            "uuid": "bce0c7cb-08d1-46a7-b77b-7bff8b46252f",
+            "server": "ace06-1.meiziba5566.com",
+            "server_port": 443,
+            "uuid": "081db274-313b-46d3-8c0a-197834208eec",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "ace06-1.meiziba5566.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/RkUUbqhA9GJZBROjL3Q5vTymr",
+                "path": "/081db274",
                 "headers": {
-                    "Host": ""
+                    "Host": "ace06-1.meiziba5566.com"
                 }
             }
         },
