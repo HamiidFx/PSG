@@ -92,11 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [58]",
                 "🇭🇰 HK | 🔒 TROJAN | @free4allvpn [18]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -151,11 +151,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [58]",
                 "🇭🇰 HK | 🔒 TROJAN | @free4allvpn [18]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -286,6 +286,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [58]",
+            "type": "trojan",
+            "server": "162.159.153.13",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇭🇰 HK | 🔒 TROJAN | @free4allvpn [18]",
             "type": "trojan",
             "server": "219.79.214.159",
@@ -325,30 +348,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "162.159.152.101",
-            "server_port": 443,
-            "password": "auto",
-            "tls": {
-                "enabled": true,
-                "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "172.67.68.157",
             "server_port": 443,
