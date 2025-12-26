@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [8]",
-                "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇦🇪 AE | 🔒 VLESS | @iran_access [14]"
+                "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
+                "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [8]",
-                "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇦🇪 AE | 🔒 VLESS | @iran_access [14]"
+                "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
+                "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,30 +192,26 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [8]",
+            "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
             "type": "vless",
-            "server": "31.222.238.127",
-            "server_port": 8043,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "uae.kitten-tube.com",
+            "server_port": 443,
+            "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "maps.google.com",
+                "server_name": "adobe.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uXUe3HEy4MjZ2nqFa8eMxxB24AxQEbxGdEAbdjxEMgQ",
-                    "short_id": "7a0bea4731381dda"
+                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
+                    "short_id": "4048A3da"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray"
             }
         },
         {
@@ -240,29 +234,6 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
-            "type": "vless",
-            "server": "uae.kitten-tube.com",
-            "server_port": 443,
-            "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adobe.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
-                    "short_id": "4048A3da"
                 }
             }
         }
