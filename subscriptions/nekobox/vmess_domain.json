@@ -95,7 +95,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
-                "❔ XX | 🔓 VMESS | @hope_net [6]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -130,6 +129,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_fark [4]",
+                "🇹🇷 TR | 🔓 VMESS | @v2raych [20]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "🇮🇳 IN | 🔓 VMESS | @v2rayng3 [6]",
                 "🇫🇮 FI | 🔒 VMESS | @v2rayng3 [8]",
@@ -169,7 +169,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
-                "❔ XX | 🔓 VMESS | @hope_net [6]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -204,6 +203,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_fark [4]",
+                "🇹🇷 TR | 🔓 VMESS | @v2raych [20]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "🇮🇳 IN | 🔓 VMESS | @v2rayng3 [6]",
                 "🇫🇮 FI | 🔒 VMESS | @v2rayng3 [8]",
@@ -577,22 +577,6 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "fapeng.org"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [6]",
-            "type": "vmess",
-            "server": "hanoi05.vifast.net",
-            "server_port": 80,
-            "uuid": "4c2d3f00-8f9b-49c2-a43b-10f022b2fde5",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hanoi05.vifast.net"
                 }
             }
         },
@@ -1074,6 +1058,31 @@
             "uuid": "943961b8-4e27-4bdf-a048-c2f724f542fb",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VMESS | @v2raych [20]",
+            "type": "vmess",
+            "server": "94.131.108.36",
+            "server_port": 443,
+            "uuid": "9855f1f0-a800-40d4-8b38-c7d3eb79302d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
