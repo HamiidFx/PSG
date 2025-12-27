@@ -87,18 +87,18 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [13]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2raych [18]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇮🇪 IE | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @flyv2ray [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [8]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [6]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
-                "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]"
+                "🇮🇹 IT | 🔓 VLESS | @v2raytg [7]",
+                "🇮🇹 IT | 🔓 VLESS | @v2raytg [9]",
+                "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [1]",
+                "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [3]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,18 +116,18 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [13]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2raych [18]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇮🇪 IE | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @flyv2ray [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [8]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [6]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
-                "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]"
+                "🇮🇹 IT | 🔓 VLESS | @v2raytg [7]",
+                "🇮🇹 IT | 🔓 VLESS | @v2raytg [9]",
+                "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [1]",
+                "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [3]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -355,13 +355,50 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [13]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "74e7a4bc-2519-46fb-9ed0-aefa9b475656",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "178.130.46.148",
+            "server_port": 8443,
+            "uuid": "7a7201190766443f83a2ee01cbae701e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0N7NEw6-WBs5hN6bUwPuCNEoHj4Q8U8F-uQT5eXEFzE",
+                    "short_id": "aabbccdd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "79.141.174.148",
+            "server_port": 8443,
+            "uuid": "642c8b3122424e2b9c14f252d3f5e49c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CII8qTx-cNDEjvAqdmLhjJKMHP3QFDLtR5bRhzPvels",
+                    "short_id": "aabbccdd"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -382,7 +419,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+            "tag": "🇮🇪 IE | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
             "server_port": 80,
@@ -409,7 +446,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [8]",
+            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [6]",
             "type": "vless",
             "server": "rf4.sernett.ir",
             "server_port": 80,
@@ -427,16 +464,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
-            "type": "vless",
-            "server": "ip.fastlynew.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-108",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raytg [7]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -445,7 +473,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raytg [9]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -454,7 +482,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [1]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -463,7 +491,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @vpn_ioss [3]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,

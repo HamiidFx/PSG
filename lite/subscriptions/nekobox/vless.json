@@ -123,9 +123,9 @@
                 "❔ XX | 🔓 VLESS | @red2ray [14]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
-                "🇵🇱 PL | 🔓 VLESS | @turboo_server [6]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [7]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [8]",
+                "🇨🇭 CH | 🔓 VLESS | @turboo_server [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -187,9 +187,9 @@
                 "❔ XX | 🔓 VLESS | @red2ray [14]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
-                "🇵🇱 PL | 🔓 VLESS | @turboo_server [6]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [7]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [8]",
+                "🇨🇭 CH | 🔓 VLESS | @turboo_server [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -935,22 +935,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @turboo_server [6]",
-            "type": "vless",
-            "server": "jone1.fast-turbooserver.com",
-            "server_port": 8880,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Turboo-Server",
-                "headers": {
-                    "Host": "jone1.fast-turbooserver.com"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @turboo_server [7]",
             "type": "vless",
             "server": "abc.turboo-server.com",
@@ -979,6 +963,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "sub.turboo-server.com.co"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔓 VLESS | @turboo_server [9]",
+            "type": "vless",
+            "server": "pro.turbooserver.com",
+            "server_port": 80,
+            "uuid": "8dcbc92f-5c77-42a8-8d35-064e14c55f6e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/ed=2560",
+                "headers": {
+                    "Host": "pro.turbooserver.com"
                 }
             }
         },

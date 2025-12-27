@@ -99,7 +99,8 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [13]"
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2raych [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -117,7 +118,8 @@
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [13]"
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
+                "🇸🇪 SE | 🔒 VLESS | @v2raych [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -341,13 +343,50 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [13]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "74e7a4bc-2519-46fb-9ed0-aefa9b475656",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "178.130.46.148",
+            "server_port": 8443,
+            "uuid": "7a7201190766443f83a2ee01cbae701e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0N7NEw6-WBs5hN6bUwPuCNEoHj4Q8U8F-uQT5eXEFzE",
+                    "short_id": "aabbccdd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "79.141.174.148",
+            "server_port": 8443,
+            "uuid": "642c8b3122424e2b9c14f252d3f5e49c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CII8qTx-cNDEjvAqdmLhjJKMHP3QFDLtR5bRhzPvels",
+                    "short_id": "aabbccdd"
+                }
+            }
         }
     ],
     "route": {
