@@ -86,6 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "🇰🇷 KR | 🔓 VMESS | @config_proxy [59]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -95,8 +96,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
-                "🚩 CF | 🔒 VMESS | @hope_net [8]",
-                "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔒 VMESS | @hope_net [6]",
+                "🇨🇦 CA | 🔓 VMESS | @hope_net [17]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -161,6 +162,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "🇰🇷 KR | 🔓 VMESS | @config_proxy [59]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -170,8 +172,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
-                "🚩 CF | 🔒 VMESS | @hope_net [8]",
-                "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔒 VMESS | @hope_net [6]",
+                "🇨🇦 CA | 🔓 VMESS | @hope_net [17]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -417,6 +419,31 @@
             }
         },
         {
+            "tag": "🇰🇷 KR | 🔓 VMESS | @config_proxy [59]",
+            "type": "vmess",
+            "server": "seoul03.zgjok.com",
+            "server_port": 443,
+            "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "seoul03.zgjok.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "seoul03.zgjok.com"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
             "type": "vmess",
             "server": "best.configforvpn.fun",
@@ -583,7 +610,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [8]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [6]",
             "type": "vmess",
             "server": "172.67.192.57",
             "server_port": 443,
@@ -608,7 +635,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @hope_net [17]",
             "type": "vmess",
             "server": "23.227.38.6",
             "server_port": 2086,
