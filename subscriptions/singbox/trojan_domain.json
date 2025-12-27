@@ -98,6 +98,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔓 TROJAN | @config_proxy [67]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -123,6 +124,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🚩 CF | 🔓 TROJAN | @config_proxy [67]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -320,6 +322,29 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @config_proxy [67]",
+            "type": "trojan",
+            "server": "store.ubi.com",
+            "server_port": 443,
+            "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
+            "tls": {
+                "enabled": true,
+                "server_name": "_acme-challenge.2go.cloudns.be",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "_acme-challenge.2go.cloudns.be"
                 }
             }
         },
