@@ -92,15 +92,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
-                "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
-                "❔ XX | 🔒 VLESS | @flyv2ray [9]",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
-                "❔ XX | 🔓 VLESS | @v2raytg [7]",
-                "❔ XX | 🔓 VLESS | @v2raytg [9]",
-                "❔ XX | 🔓 VLESS | @vpn_ioss [1]",
-                "❔ XX | 🔓 VLESS | @vpn_ioss [3]"
+                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
+                "🇸🇪 SE | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @flyv2ray [9]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
+                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
+                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,15 +112,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
-                "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
-                "❔ XX | 🔒 VLESS | @flyv2ray [9]",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
-                "❔ XX | 🔓 VLESS | @v2raytg [7]",
-                "❔ XX | 🔓 VLESS | @v2raytg [9]",
-                "❔ XX | 🔓 VLESS | @vpn_ioss [1]",
-                "❔ XX | 🔓 VLESS | @vpn_ioss [3]"
+                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
+                "🇸🇪 SE | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @flyv2ray [9]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
+                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
+                "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -206,6 +208,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "nl.stepson.ir",
+            "server_port": 2053,
+            "uuid": "e91fef62-b99c-4211-9501-4ecc830ae349",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ham.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -215,7 +235,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "vpconnect.ahadbala.ir",
             "server_port": 80,
@@ -224,7 +244,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
             "server_port": 80,
@@ -233,7 +253,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @flyv2ray [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @flyv2ray [9]",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
@@ -251,7 +271,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -260,7 +280,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2raytg [7]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [7]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -269,7 +289,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2raytg [9]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [9]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -278,7 +298,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vpn_ioss [1]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpn_ioss [1]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -287,7 +307,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vpn_ioss [3]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpn_ioss [3]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
