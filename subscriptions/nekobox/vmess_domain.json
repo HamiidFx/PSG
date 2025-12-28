@@ -81,11 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VMESS | @NamiraConfigs [69]",
-                "❔ XX | 🔓 VMESS | @NamiraConfigs [70]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VMESS | @armodchannel [55]",
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "❔ XX | 🔓 VMESS | @config_proxy [63]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [65]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -94,6 +96,7 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -153,11 +156,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VMESS | @NamiraConfigs [69]",
-                "❔ XX | 🔓 VMESS | @NamiraConfigs [70]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VMESS | @armodchannel [55]",
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "❔ XX | 🔓 VMESS | @config_proxy [63]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [65]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -166,6 +171,7 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -320,7 +326,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @NamiraConfigs [70]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
             "type": "vmess",
             "server": "45.67.230.79",
             "server_port": 11052,
@@ -407,6 +413,47 @@
                 "path": "/vmess-ntls",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @config_proxy [63]",
+            "type": "vmess",
+            "server": "23.162.200.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [65]",
+            "type": "vmess",
+            "server": "104.19.21.230",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.19.21.230"
                 }
             }
         },
@@ -548,6 +595,31 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "104.21.8.4",
+            "server_port": 2083,
+            "uuid": "ac679897-af78-4197-9bf3-a2afe972a383",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "rbv2.frtm99d.cyou",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "rbv2.frtm99d.cyou"
                 }
             }
         },
