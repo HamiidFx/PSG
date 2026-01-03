@@ -95,6 +95,15 @@
         .tab-content { display: none; }
         .tab-content.active { display: block; animation: fadeIn 0.4s ease-out; }
 
+        /* Settings Toggle */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #239e4f;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #239e4f;
+        }
+        
         /* Scrollbar */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
@@ -325,15 +334,98 @@
                 </div>
             </div>
 
-            <!-- TAB 3: SETTINGS (Placeholder) -->
+            <!-- TAB 3: SETTINGS -->
             <div id="content-settings" class="tab-content">
-                <div class="royal-card rounded-3xl p-10 text-center animate-slide-up">
-                    <div class="w-20 h-20 bg-slate-50 dark:bg-imperial-green-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i data-lucide="cog" class="w-10 h-10 text-slate-300"></i>
+                <div class="max-w-3xl mx-auto animate-slide-up space-y-6">
+                    
+                    <!-- Appearance Card -->
+                    <div class="royal-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-imperial-green-800">
+                        <div class="flex items-center gap-3 mb-6 border-b border-slate-100 dark:border-imperial-green-800 pb-4">
+                            <div class="p-2 bg-blue-100 dark:bg-blue-900/20 rounded-lg text-blue-600 dark:text-blue-400">
+                                <i data-lucide="palette" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-800 dark:text-white">ظاهر</h3>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">شخصی‌سازی تم برنامه</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="p-2 bg-slate-100 dark:bg-imperial-green-900 rounded-full flex items-center gap-2">
+                                    <i data-lucide="sun" class="w-4 h-4 text-amber-500"></i>
+                                    <div class="w-px h-4 bg-slate-300 dark:bg-imperial-green-700"></div>
+                                    <i data-lucide="moon" class="w-4 h-4 text-slate-600 dark:text-royal-gold-400"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-sm text-slate-700 dark:text-slate-200">حالت تاریک</p>
+                                    <p class="text-[10px] text-slate-500">سوئیچ به تم شبانه</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Theme Toggle Switch -->
+                            <div class="relative inline-block w-12 mr-2 align-middle select-none transition duration-200 ease-in">
+                                <input type="checkbox" name="toggle" id="settings-theme-toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer border-slate-300 left-0 transition-all duration-300"/>
+                                <label for="settings-theme-toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-slate-300 cursor-pointer transition-colors duration-300"></label>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-800 dark:text-white mb-2">تنظیمات</h3>
-                    <p class="text-slate-600 dark:text-slate-400 mb-6">بخش تنظیمات در نسخه بعدی اضافه خواهد شد.</p>
-                    <button onclick="switchTab('home')" class="px-6 py-2 bg-imperial-green-600 hover:bg-imperial-green-700 text-white rounded-lg transition-colors">بازگشت به خانه</button>
+
+                    <!-- Data Card -->
+                    <div class="royal-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-imperial-green-800">
+                        <div class="flex items-center gap-3 mb-6 border-b border-slate-100 dark:border-imperial-green-800 pb-4">
+                            <div class="p-2 bg-red-100 dark:bg-red-900/20 rounded-lg text-red-600 dark:text-red-400">
+                                <i data-lucide="database" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-800 dark:text-white">داده‌ها</h3>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">مدیریت حافظه موقت و کش</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="font-bold text-sm text-slate-700 dark:text-slate-200">پاک کردن کش</p>
+                                    <p class="text-[10px] text-slate-500 mb-2">حذف اطلاعات آرشیو ذخیره شده و بارگذاری مجدد</p>
+                                    <div id="cache-size-display" class="text-[10px] font-mono text-slate-400">محاسبه حجم...</div>
+                                </div>
+                                <button onclick="clearCache()" class="px-4 py-2 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/40 border border-red-200 dark:border-red-900/50 rounded-lg text-xs font-bold transition-colors flex items-center gap-2">
+                                    <i data-lucide="trash-2" class="w-3 h-3"></i> پاکسازی
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Card -->
+                    <div class="royal-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-imperial-green-800">
+                        <div class="flex items-center gap-3 mb-6 border-b border-slate-100 dark:border-imperial-green-800 pb-4">
+                            <div class="p-2 bg-purple-100 dark:bg-purple-900/20 rounded-lg text-purple-600 dark:text-purple-400">
+                                <i data-lucide="info" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-800 dark:text-white">درباره سرویس</h3>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">اطلاعات نسخه و پشتیبانی</p>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="flex justify-between items-center text-sm py-2 border-b border-slate-50 dark:border-imperial-green-900/50">
+                                <span class="text-slate-500">نسخه</span>
+                                <span class="font-mono font-bold text-slate-700 dark:text-slate-300">v2.0.0 (Aryamehr)</span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm py-2 border-b border-slate-50 dark:border-imperial-green-900/50">
+                                <span class="text-slate-500">وضعیت سرور</span>
+                                <span class="flex items-center gap-1.5 text-green-600 font-bold">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> آنلاین
+                                </span>
+                            </div>
+                            <a href="https://github.com/itsyebekhe/PSG" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-slate-800 dark:bg-slate-700 text-white rounded-lg hover:bg-slate-700 dark:hover:bg-slate-600 transition-colors mt-2 text-sm font-bold">
+                                <i data-lucide="github" class="w-4 h-4"></i> مشاهده در گیت‌هاب
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -351,7 +443,7 @@
         </footer>
     </div>
 
-    <!-- Upcoming Feature Modal -->
+    <!-- Upcoming Feature Modal (Reused) -->
     <div id="upcomingModal" class="fixed inset-0 z-[100] bg-slate-900/50 backdrop-blur-sm hidden flex items-center justify-center">
         <div class="bg-white dark:bg-imperial-green-900 rounded-2xl shadow-2xl p-6 max-w-sm w-full mx-4 border border-slate-200 dark:border-imperial-green-700 animate-slide-up relative">
             <button onclick="closeModal()" class="absolute left-4 top-4 text-slate-400 hover:text-slate-600 dark:hover:text-white transition-colors">
@@ -387,7 +479,6 @@
             "clash": { "windows": [{"name": "Clash Verge", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "icon": "monitor"}], "android": [{"name": "Clash Android", "url": "https://github.com/Kr328/ClashForAndroid/releases", "icon": "smartphone"}], "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349", "icon": "smartphone"}] },
             "singbox": { "windows": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases", "icon": "monitor"}], "android": [{"name": "Hiddify Android", "url": "https://play.google.com/store/apps/details?id=app.hiddify.com", "icon": "smartphone"}], "ios": [{"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064", "icon": "smartphone"}] },
             "xray": { "windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases", "icon": "monitor"}], "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases", "icon": "smartphone"}], "ios": [{"name": "OneClick", "url": "https://apps.apple.com/app/id1464440275", "icon": "smartphone"}] },
-            // Fallbacks for other location types
             "nekobox": { "android": [{"name": "NekoBox", "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases", "icon": "smartphone"}] },
             "surfboard": { "ios": [{"name": "Surfboard", "url": "https://apps.apple.com/us/app/surfboard/id1438682616", "icon": "smartphone"}] },
             "meta": { "windows": [{"name": "Clash Verge Meta", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "icon": "monitor"}], "android": [{"name": "Clash Meta Android", "url": "https://github.com/MetaCubeX/mihomo/releases", "icon": "smartphone"}] }
@@ -419,23 +510,22 @@
             step2Title: document.getElementById('step2-title'),
             step2Subtitle: document.getElementById('step2-subtitle'),
             step3Title: document.getElementById('step3-title'),
-            step3Subtitle: document.getElementById('step3-subtitle')
+            step3Subtitle: document.getElementById('step3-subtitle'),
+            cacheSizeDisplay: document.getElementById('cache-size-display'),
+            settingsThemeToggle: document.getElementById('settings-theme-toggle')
         };
 
         // --- INIT ---
         document.addEventListener('DOMContentLoaded', async () => {
             lucide.createIcons();
             initTheme();
+            updateCacheSize();
             await fetchRepositoryData();
         });
 
         // --- TABS LOGIC ---
         window.switchTab = (tabName) => {
-            if(tabName === 'settings') {
-                openModal(); 
-                return;
-            }
-
+            // Removed modal trigger for 'settings', now it shows the content
             ui.tabs.forEach(btn => {
                 btn.classList.remove('active');
                 if(btn.id === `tab-${tabName}`) btn.classList.add('active');
@@ -450,6 +540,29 @@
         // --- MODAL LOGIC ---
         window.openModal = () => { ui.modal.classList.remove('hidden'); };
         window.closeModal = () => { ui.modal.classList.add('hidden'); };
+
+        // --- SETTINGS LOGIC ---
+        function updateCacheSize() {
+            const cachedData = localStorage.getItem('psg_tree_cache');
+            if(cachedData) {
+                const sizeInBytes = new Blob([cachedData]).size;
+                const sizeInKB = (sizeInBytes / 1024).toFixed(2);
+                ui.cacheSizeDisplay.textContent = `${sizeInKB} KB`;
+            } else {
+                ui.cacheSizeDisplay.textContent = '0 KB';
+            }
+        }
+
+        window.clearCache = () => {
+            if(confirm('آیا مطمئن هستید که می‌خواهید کش را پاک کنید؟')) {
+                localStorage.removeItem('psg_tree_cache');
+                localStorage.removeItem('psg_tree_time');
+                updateCacheSize();
+                showToast('کش با موفقیت پاک شد');
+                // Reload page to re-fetch data clean
+                setTimeout(() => location.reload(), 1000);
+            }
+        }
 
         // --- REST OF THE LOGIC ---
         async function fetchRepositoryData() {
@@ -468,6 +581,7 @@
                     tree = (await response.json()).tree;
                     localStorage.setItem('psg_tree_cache', JSON.stringify(tree));
                     localStorage.setItem('psg_tree_time', now);
+                    updateCacheSize();
                 }
                 processTree(tree);
                 ui.loaders.overlay.classList.add('opacity-0', 'pointer-events-none');
@@ -510,10 +624,7 @@
 
                 const parts = cleanPath.split("/");
                 
-                // --- UPDATED LOCATIONS LOGIC ---
                 if (category === "Locations") {
-                    // Structure: subscriptions/locations/[client_type]/[country_code].txt
-                    // parts = ["client_type", "country_code.txt"]
                     if (parts.length === 2) {
                         const clientType = parts[0];
                         const fileName = parts[1];
@@ -522,7 +633,6 @@
                     return;
                 }
                 
-                // --- STANDARD LOGIC ---
                 if (parts.length < 2) return;
                 const typeKey = parts[0];
 
@@ -546,7 +656,6 @@
         }
 
         function formatName(name) {
-            // If name is a country code (2-3 chars), keep it uppercase
             if (name.length <= 3) return name.toUpperCase();
             return name.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
         }
@@ -562,12 +671,10 @@
             });
         }
 
-        // --- UPDATED DYNAMIC TITLE & LABEL LOGIC ---
         ui.configType.addEventListener('change', () => {
             const cat = ui.configType.value;
             ui.ipType.innerHTML = '<option value="" disabled selected>انتخاب کنید...</option>';
             
-            // Dynamic Titles & Subtitles
             if (cat === 'Channels') {
                 ui.step2Title.textContent = "فهرست کانال‌ها";
                 ui.step2Subtitle.textContent = "انتخاب کانال تلگرامی";
@@ -586,10 +693,8 @@
             }
 
             if (cat && structuredData[cat]) {
-                // Populate Step 2 Dropdown
                 Object.keys(structuredData[cat]).sort().forEach(k => {
                     const opt = document.createElement('option');
-                    // For Locations, k is the folder name (client type). For others, it's the client type.
                     opt.value = k; 
                     opt.textContent = k.toUpperCase();
                     ui.ipType.appendChild(opt);
@@ -619,9 +724,6 @@
                     ui.otherElement.appendChild(opt);
                 });
                 activateStep(3); 
-                // If it's Locations, we render specific clients based on the type selected in step 2
-                // If not Locations, we render clients based on the type selected in step 2 (standard logic)
-                // Note: renderClients uses a mapping. For 'base64' we might map to xray, etc.
                 renderClients(type); 
             } else { resetStep3(); }
         });
@@ -683,7 +785,6 @@
             ui.steps.s2.querySelector('.lock-icon').classList.remove('hidden');
             ui.steps.s2.querySelector('.chevron-icon').classList.add('hidden');
             
-            // Reset Titles
             ui.step2Title.textContent = "کلاینت";
             ui.step2Subtitle.textContent = "انتخاب نرم‌افزار";
             ui.step3Title.textContent = "تنظیمات";
@@ -705,15 +806,12 @@
 
         function renderClients(type) {
             let key = 'xray';
-            
-            // Map location specific types to generic client keys
             if (type.includes('base64')) key = 'xray';
             else if (type.includes('clash')) key = 'clash';
             else if (type.includes('meta')) key = 'meta';
             else if (type.includes('singbox')) key = 'singbox';
             else if (type.includes('surfboard')) key = 'surfboard';
             else if (type.includes('nekobox')) key = 'nekobox';
-            // Fallback
             else if (type === 'xray') key = 'xray';
             else if (type === 'clash') key = 'clash';
             else if (type === 'singbox') key = 'singbox';
@@ -758,15 +856,36 @@
             const html = document.documentElement;
             const themeBtn = document.getElementById('theme-toggle');
             const themeIcon = document.getElementById('theme-icon');
+            const settingsToggle = document.getElementById('settings-theme-toggle');
             
             function setTheme(isDark) {
-                if(isDark) { html.classList.add('dark'); localStorage.setItem('theme', 'dark'); themeIcon.setAttribute('data-lucide', 'sun'); }
-                else { html.classList.remove('dark'); localStorage.setItem('theme', 'light'); themeIcon.setAttribute('data-lucide', 'moon'); }
+                if(isDark) { 
+                    html.classList.add('dark'); 
+                    localStorage.setItem('theme', 'dark'); 
+                    themeIcon.setAttribute('data-lucide', 'sun');
+                    if(settingsToggle) settingsToggle.checked = true;
+                } else { 
+                    html.classList.remove('dark'); 
+                    localStorage.setItem('theme', 'light'); 
+                    themeIcon.setAttribute('data-lucide', 'moon');
+                    if(settingsToggle) settingsToggle.checked = false;
+                }
                 lucide.createIcons();
             }
-            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) setTheme(true); 
-            else setTheme(false);
+
+            // Initialize from storage
+            const isDark = localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            setTheme(isDark);
+
+            // Header Button Event
             themeBtn.addEventListener('click', () => setTheme(!html.classList.contains('dark')));
+
+            // Settings Toggle Event
+            if(settingsToggle) {
+                settingsToggle.addEventListener('change', (e) => {
+                    setTheme(e.target.checked);
+                });
+            }
         }
     </script>
 </body>
