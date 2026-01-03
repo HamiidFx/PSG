@@ -1,0 +1,1363 @@
+//profile-title: base64:UFNHIHwgVFJPSkFO
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/yebekhe
+//profile-web-page-url: https://github.com/itsyebekhe/PSG
+
+{
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
+        ]
+      },
+      {
+        "action": "route",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
+        ]
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "type": "mixed",
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇯🇵 JP | TROJAN | @free4allvpn",
+        "🇽🇽 XX | TROJAN | @goldenshiinevpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @orange_vpns",
+        "🇽🇽 XX | TROJAN | @public504",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇩🇪 DE | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇩🇪 DE | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @vmesc",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇩🇪 DE | TROJAN | @freev2raym",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇲🇩 MD | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇳🇱 NL | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇫🇷 FR | TROJAN | @manstervpn",
+        "🇷🇺 RU | TROJAN | @maradona_vpn",
+        "🇷🇺 RU | TROJAN | @maradona_vpn",
+        "🇩🇪 DE | TROJAN | @mt_proxy",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇷 FR | TROJAN | @v2rayngconfig",
+        "🇺🇸 US | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇽🇽 XX | TROJAN | @vpn_ioss"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇽🇽 XX | TROJAN | @armodchannel",
+        "🇯🇵 JP | TROJAN | @free4allvpn",
+        "🇽🇽 XX | TROJAN | @goldenshiinevpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @maradona_vpn",
+        "🇽🇽 XX | TROJAN | @orange_vpns",
+        "🇽🇽 XX | TROJAN | @public504",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇩🇪 DE | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇩🇪 DE | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @vmesc",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇩🇪 DE | TROJAN | @freev2raym",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇲🇩 MD | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇳🇱 NL | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇽🇽 XX | TROJAN | @hope_net",
+        "🇫🇷 FR | TROJAN | @manstervpn",
+        "🇷🇺 RU | TROJAN | @maradona_vpn",
+        "🇷🇺 RU | TROJAN | @maradona_vpn",
+        "🇩🇪 DE | TROJAN | @mt_proxy",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇷 FR | TROJAN | @v2rayngconfig",
+        "🇺🇸 US | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇽🇽 XX | TROJAN | @vpn_ioss"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "همکاری_ملی",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @armodchannel",
+      "type": "trojan",
+      "server": "sg.multiport1.artunnel57.host",
+      "server_port": 443,
+      "password": "3b9a4b93-88d6-467c-9a0c-de2faece9c1a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @armodchannel",
+      "type": "trojan",
+      "server": "sg.multiport1.artunnel57.host",
+      "server_port": 443,
+      "password": "f8a37993-ea4c-4ab6-bddb-5dfebb8e26d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @armodchannel",
+      "type": "trojan",
+      "server": "sg.multiport1.artunnel57.host",
+      "server_port": 80,
+      "password": "f8a37993-ea4c-4ab6-bddb-5dfebb8e26d8"
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @free4allvpn",
+      "type": "trojan",
+      "server": "kuame.missionsec.us",
+      "server_port": 443,
+      "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @goldenshiinevpn",
+      "type": "trojan",
+      "server": "us2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen",
+      "server_port": 443,
+      "password": "ad8bab9c-f5e2-4957-96fa-3f59e7e4007b",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "art1.history-paint.art",
+      "server_port": 443,
+      "password": "saMgiangGt",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "maradona_vpn.history-paint.art",
+      "server_port": 443,
+      "password": "maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "maradona_vpn1.history…<",
+      "server_port": null,
+      "password": "maradona_vpn"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "maradona_vpn14.history-paint.art",
+      "server_port": 443,
+      "password": "maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "maradona_vpn10.history-paint.art",
+      "server_port": 443,
+      "password": "maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "maradona_vpn.history-paint.art",
+      "server_port": 443,
+      "password": "Maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @orange_vpns",
+      "type": "trojan",
+      "server": "tunel.amirspacee.top",
+      "server_port": 443,
+      "password": "ignHF1x8Gp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @public504",
+      "type": "trojan",
+      "server": "pouriya.cf",
+      "server_port": 443,
+      "password": "22dxmxezsm",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @teamvpnpro",
+      "type": "trojan",
+      "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+      "server_port": 443,
+      "password": "22f86840-bcac-11ee-abea-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @teamvpnpro",
+      "type": "trojan",
+      "server": "de1.test3.net",
+      "server_port": 443,
+      "password": "78f9bf50-bce8-11ee-8913-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @teamvpnpro",
+      "type": "trojan",
+      "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+      "server_port": 443,
+      "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @teamvpnpro",
+      "type": "trojan",
+      "server": "de1.test3.net",
+      "server_port": 443,
+      "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "upload.soft98.download",
+      "server_port": 443,
+      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "ccfr1.cutcloudjd.site",
+      "server_port": 458,
+      "password": "2380f07e-e54c-4645-8abe-50575b31f45f",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "18-222-63-50.ipv4.rush.ml",
+      "server_port": 8443,
+      "password": "cf4295378e209e70d12c5bdd017144dfd1c772d3",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "170-187-134-190.ipv4.rush.ml",
+      "server_port": 8443,
+      "password": "cf4295378e209e70d12c5bdd017144dfd1c772d3",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vmesc",
+      "type": "trojan",
+      "server": "bisque.qzz.io",
+      "server_port": 443,
+      "password": "e86364fb-a5e3-42c3-b7fa-6ce8097fe19f",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @xrayzxn",
+      "type": "trojan",
+      "server": "amin.karkas1.ir",
+      "server_port": 443,
+      "password": "e6b506e9-2d37-40cb-aff9-35678d0e6c69",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @xrayzxn",
+      "type": "trojan",
+      "server": "amin.karkas1.ir",
+      "server_port": 443,
+      "password": "db19fc68-c027-4641-a8eb-eed3e1065c8a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @xrayzxn",
+      "type": "trojan",
+      "server": "amin.karkas1.ir",
+      "server_port": 443,
+      "password": "11ae0edd-2f63-4495-8683-037abbda9986",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @freev2raym",
+      "type": "trojan",
+      "server": "91.107.141.0",
+      "server_port": 23825,
+      "password": "ziIjOlyGbM"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "198.41.220.18",
+      "server_port": 443,
+      "password": "2cba4104747d49d18319e5ade1b93ab5",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "185.234.64.146",
+      "server_port": 2053,
+      "password": "5c7941b5-c393-4eea-a76d-d44b59baf8a0"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "104.17.61.7",
+      "server_port": 443,
+      "password": "4732adfa16c6450bbef87264e41332db",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "162.159.152.150",
+      "server_port": 443,
+      "password": "tg-dns68",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "162.159.152.145",
+      "server_port": 443,
+      "password": "tg-dns68",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "136.244.101.16",
+      "server_port": 48163,
+      "password": "KsAG60yhjU",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "162.159.152.227",
+      "server_port": 443,
+      "password": "tg-dns68",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "password": "E-Graphic",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @manstervpn",
+      "type": "trojan",
+      "server": "15.188.242.55",
+      "server_port": 22222,
+      "password": "telegram-id-directvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "185.59.218.220",
+      "server_port": 443,
+      "password": "Maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | TROJAN | @maradona_vpn",
+      "type": "trojan",
+      "server": "185.174.138.209",
+      "server_port": 443,
+      "password": "maradona_vpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @mt_proxy",
+      "type": "trojan",
+      "server": "3.70.33.164",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "35.181.149.131",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "63.179.21.238",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "18.158.6.166",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "15.236.199.98",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "13.39.97.24",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "18.156.186.196",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "3.125.182.174",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "15.224.12.68",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "35.180.15.180",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "63.181.90.241",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | TROJAN | @v2ray_n",
+      "type": "trojan",
+      "server": "135.181.253.237",
+      "server_port": 443,
+      "password": "cba32ac1-abbb-4371-ba50-19eb5c38748c",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "51.91.11.29",
+      "server_port": 80,
+      "password": "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2rayngconfig",
+      "type": "trojan",
+      "server": "104.149.155.13",
+      "server_port": 443,
+      "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+      "type": "trojan",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "password": "Xa4%5El%28%3B.%3BB%23a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "13.37.129.152",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "18.158.46.209",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "18.159.71.29",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "35.181.163.12",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "35.181.149.131",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "63.179.21.238",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "18.158.6.166",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "15.236.199.98",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "13.39.97.24",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "18.156.186.196",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss",
+      "type": "trojan",
+      "server": "172.67.134.185",
+      "server_port": 443,
+      "password": "POORIARED",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rule_set": [
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ads",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+      }
+    ],
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "route",
+        "outbound": "direct",
+        "rule_set": [
+          "geoip-private",
+          "geosite-private",
+          "geosite-ir",
+          "geoip-ir"
+        ]
+      },
+      {
+        "action": "reject",
+        "rule_set": [
+          "geosite-ads"
+        ]
+      }
+    ]
+  }
+}
