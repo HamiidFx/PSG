@@ -631,6 +631,9 @@ async def main():
     fakes = [create_fake_config(n) for n in FAKE_CONFIG_NAMES]
     for chan, confs in channel_groups.items():
         if not confs: continue
+        channel_dir = os.path.join(CHANNELS_SUBS_DIR, chan)
+        os.makedirs(channel_dir, exist_ok=True)
+        
         merged = fakes + confs
         content = hiddify_header(f"PSG | @{chan}") + '\n'.join(merged)
         b64 = base64.b64encode(content.encode()).decode()
