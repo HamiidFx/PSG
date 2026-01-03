@@ -27,6 +27,7 @@ API_DIR = os.path.join(BASE_DIR, 'api')
 SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'xray')
 LITE_DIR = os.path.join(BASE_DIR, 'lite', 'subscriptions', 'xray')
 CHANNELS_SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'channels')
+LOCATIONS_SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'locations')
 
 GEOIP_DB_PATH = os.path.join(BASE_DIR, 'Country.mmdb')
 
@@ -46,6 +47,18 @@ FAKE_CONFIG_NAMES = ['#همکاری_ملی', '#جاویدشاه', '#KingRezaPahl
 
 # Regex
 PROTOCOL_REGEX = r'(?:vmess|vless|trojan|ss|tuic|hy2|hysteria2?):\/\/[^\s"\']+(?=\s|<|>|$)'
+
+# Cloudflare CIDRs
+CLOUDFLARE_CIDR_STRINGS = [
+    "173.245.48.0/20","103.21.244.0/22","103.22.200.0/22","103.31.4.0/22",
+    "141.101.64.0/18","108.162.192.0/18","190.93.240.0/20","188.114.96.0/20",
+    "197.234.240.0/22","198.41.128.0/17","162.158.0.0/15","104.16.0.0/13",
+    "104.24.0.0/14","172.64.0.0/13","131.0.72.0/22","2400:cb00::/32",
+    "2606:4700::/32","2803:f800::/32","2405:b500::/32","2405:8100::/32",
+    "2a06:98c0::/29","2c0f:f248::/32"
+]
+# Pre-compile networks for performance
+CLOUDFLARE_NETWORKS = [ipaddress.ip_network(cidr) for cidr in CLOUDFLARE_CIDR_STRINGS]
 
 # --- Helper Functions ---
 
@@ -76,6 +89,17 @@ def get_address_type(host):
         return 'ipv6' if isinstance(ip, ipaddress.IPv6Address) else 'ipv4'
     except ValueError:
         return 'domain'
+
+def is_cloudflare(ip_str):
+    if not ip_str: return False
+    try:
+        ip_obj = ipaddress.ip_address(ip_str.strip('[]'))
+        for net in CLOUDFLARE_NETWORKS:
+            if ip_obj in net:
+                return True
+    except:
+        pass
+    return False
 
 def is_reality(config):
     return 'security=reality' in config and config.startswith('vless://')
@@ -427,6 +451,7 @@ async def main():
     lite_list = [] 
     api_list = []
     channel_groups = defaultdict(list)
+    location_groups = defaultdict(list) # Stores configs by Country Code and 'CF'
     
     geo_reader = None
     try:
@@ -441,7 +466,7 @@ async def main():
     processed_count = 0
     bar_width = 30 # Length of the visual bar
 
-    print(f"   Tagging {total_configs} configs with GeoIP...")
+    print(f"   Tagging {total_configs} configs with GeoIP and Cloudflare check...")
     
     for _, (orig, parsed, chan) in unique_map.items():
         # --- Progress Bar Update ---
@@ -467,6 +492,10 @@ async def main():
                 except: dns_cache[host] = None
 
         code = get_geo_info(geo_reader, ip)
+        
+        # Check Cloudflare
+        is_cf = is_cloudflare(ip)
+        
         flag = get_flag_emoji(code)
         
         ctype_up = parsed.get('type', 'UNK').upper()
@@ -478,6 +507,11 @@ async def main():
 
         final_list.append(final_str)
         channel_groups[clean_chan].append(final_str)
+        
+        # Location grouping
+        location_groups[code].append(final_str)
+        if is_cf:
+            location_groups['CF'].append(final_str)
 
         if channel_counts[clean_chan] < LITE_LIMIT:
             lite_list.append(final_str)
@@ -488,7 +522,7 @@ async def main():
         if eff_type == 'vless' and is_reality(final_str): eff_type = 'reality'
         api_list.append({
             'channel': {'username': clean_chan, 'title': assets.get('title', ''), 'logo': assets.get('logo', '')},
-            'country': code, 'flag': flag, 'type': eff_type, 'config': final_str
+            'country': code, 'flag': flag, 'type': eff_type, 'config': final_str, 'is_cf': is_cf
         })
     
     print() # New line after progress bar finishes
@@ -556,6 +590,34 @@ async def main():
     write_groups(final_list, SUBS_DIR)
     write_groups(lite_list, LITE_DIR)
 
+    # --- Write Location Based Configs ---
+    print("   Generating Location-based subscriptions (including Cloudflare)...")
+    LOC_NORMAL_DIR = os.path.join(LOCATIONS_SUBS_DIR, 'normal')
+    LOC_BASE64_DIR = os.path.join(LOCATIONS_SUBS_DIR, 'base64')
+    
+    if os.path.exists(LOCATIONS_SUBS_DIR): shutil.rmtree(LOCATIONS_SUBS_DIR)
+    os.makedirs(LOC_NORMAL_DIR, exist_ok=True)
+    os.makedirs(LOC_BASE64_DIR, exist_ok=True)
+    
+    fakes = [create_fake_config(n) for n in FAKE_CONFIG_NAMES]
+    
+    for loc_code, confs in location_groups.items():
+        if not confs: continue
+        # Normalize code for filename (CF, US, DE, etc.)
+        safe_code = re.sub(r'[^a-zA-Z0-9]', '', loc_code)
+        if not safe_code: safe_code = "XX"
+        
+        merged = fakes + confs
+        header_title = f"PSG | Cloudflare" if loc_code == 'CF' else f"PSG | Location {loc_code}"
+        content = hiddify_header(header_title) + '\n'.join(merged)
+        b64 = base64.b64encode(content.encode()).decode()
+        
+        try:
+            with open(os.path.join(LOC_NORMAL_DIR, safe_code), 'w', encoding='utf-8') as f: f.write(content)
+            with open(os.path.join(LOC_BASE64_DIR, safe_code), 'w', encoding='utf-8') as f: f.write(b64)
+        except: pass
+    # ------------------------------------
+
     print("   Generating Per-Channel subscriptions...")
     if os.path.exists(CHANNELS_SUBS_DIR): shutil.rmtree(CHANNELS_SUBS_DIR)
     os.makedirs(CHANNELS_SUBS_DIR, exist_ok=True)
@@ -575,7 +637,7 @@ async def main():
     os.makedirs(API_DIR, exist_ok=True)
     with open(API_OUTPUT_FILE, 'w', encoding='utf-8') as f: json.dump(api_list, f, indent=4, ensure_ascii=False)
 
-    print(f"\n--- DONE! Main, Lite, and Channel versions generated. ---")
+    print(f"\n--- DONE! Main, Lite, Channel, and Location versions generated. ---")
 
 if __name__ == "__main__":
     if os.name == 'nt': asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
