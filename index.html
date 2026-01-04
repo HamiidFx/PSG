@@ -1212,9 +1212,8 @@
 
         // --- TUTORIALS SYSTEM ---
         
-        // Example Markdown Data (Normally this comes from a file)
-        // Format: Use '---' to separate posts. First H1 (# Title) is the title.
-        const SAMPLE_MD = fetch('https://raw.githubusercontent.com/itsyebekhe/PSG/refs/heads/main/blog.md').then(r => r.text());
+        // FIX: Define the URL string instead of a hanging Promise
+        const BLOG_URL = 'https://raw.githubusercontent.com/itsyebekhe/PSG/refs/heads/main/blog.md';
 
         const tutorialsUI = {
             listContainer: document.getElementById('blog-grid'),
@@ -1230,17 +1229,41 @@
 
         let blogPosts = [];
 
-        // 1. Fetch & Parse
+        // 1. Fetch & Parse (FIXED FUNCTION)
         async function initTutorials() {
-            // In production, use: const response = await fetch('tutorials.md'); const text = await response.text();
-            // Here we simulate it:
-            setTimeout(() => {
-                const posts = parseMarkdownFile(SAMPLE_MD);
-                renderBlogList(posts);
-            }, 800);
+            try {
+                // 1. Perform the fetch
+                const response = await fetch(BLOG_URL);
+                
+                if (!response.ok) {
+                    throw new Error("Failed to fetch blog data");
+                }
+
+                // 2. Await the text conversion (this converts the Promise to a String)
+                const text = await response.text();
+
+                // 3. Process the string
+                setTimeout(() => {
+                    // Now 'text' is a genuine string, so .split() will work
+                    const posts = parseMarkdownFile(text);
+                    renderBlogList(posts);
+                }, 800);
+
+            } catch (error) {
+                console.error("Tutorials Error:", error);
+                if(tutorialsUI.loader) {
+                    tutorialsUI.loader.innerHTML = '<p class="text-xs text-red-500 mt-4">خطا در بارگذاری آموزش‌ها</p>';
+                }
+            }
         }
 
         function parseMarkdownFile(text) {
+            // Safety check: Ensure text is a string before splitting
+            if (typeof text !== 'string') {
+                console.error("Expected string but got:", typeof text);
+                return [];
+            }
+
             // Split by '---'
             const rawPosts = text.split('---').map(p => p.trim()).filter(p => p.length > 0);
             
