@@ -81,10 +81,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
+        "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
@@ -93,9 +93,9 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
-        "🇫🇮 FI | VLESS | @v2raytg",
         "🇫🇮 FI | VLESS | @vmesc",
         "🇫🇮 FI | VLESS | @vpn_ocean"
       ],
@@ -109,10 +109,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
+        "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
@@ -121,9 +121,9 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
-        "🇫🇮 FI | VLESS | @v2raytg",
         "🇫🇮 FI | VLESS | @vmesc",
         "🇫🇮 FI | VLESS | @vpn_ocean"
       ],
@@ -215,9 +215,9 @@
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "fi72.skytunnel.pw",
-      "server_port": 8443,
-      "uuid": "51c89ac3-ea33-4832-9a59-2505d33f4c84",
+      "server": "46.62.239.121",
+      "server_port": 443,
+      "uuid": "959b912b-0443-4031-be6f-535ad56bdd12",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -233,14 +233,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "grok.zarlyt-ok3.ir",
-      "server_port": 9828,
-      "uuid": "529c787c-46ee-4360-87ad-b9fdfab69e1e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @custom_14",
@@ -352,6 +344,14 @@
     {
       "tag": "🇫🇮 FI | VLESS | @prrofile_purple",
       "type": "vless",
+      "server": "sv1.avaaal.ir",
+      "server_port": 12559,
+      "uuid": "f1ea701d-e33b-4606-955b-3d788b8b8860",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "77.42.16.205",
       "server_port": 443,
       "uuid": "6a35ac5c-12cb-4719-86f8-3334cb5970e4",
@@ -424,6 +424,28 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "46.62.239.121",
+      "server_port": 443,
+      "uuid": "959b912b-0443-4031-be6f-535ad56bdd12",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayng3",
       "type": "vless",
       "server": "65.109.8.76",
@@ -459,14 +481,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "77.42.77.66",
-      "server_port": 40200,
-      "uuid": "80c19783-5c4f-4794-ae0b-6efd11fd27ab",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesc",

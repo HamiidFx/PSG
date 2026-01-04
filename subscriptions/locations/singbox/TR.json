@@ -95,32 +95,6 @@
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
         "🇹🇷 TR | VLESS | @config_proxy",
-        "🇹🇷 TR | VLESS | @dailyv2ray",
-        "🇹🇷 TR | VLESS | @drvpn_net",
-        "🇹🇷 TR | VLESS | @filterk0sh",
-        "🇹🇷 TR | VLESS | @filterk0sh",
-        "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
-        "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
-        "🇹🇷 TR | SS | @manstervpn",
-        "🇹🇷 TR | SS | @manstervpn",
-        "🇹🇷 TR | VLESS | @netmellianti",
-        "🇹🇷 TR | VLESS | @proxyfn",
-        "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen"
-      ],
-      "tag": "proxy",
-      "type": "selector"
-    },
-    {
-      "interval": "10m",
-      "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇹🇷 TR | SS | @NamiraConfigs",
         "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
@@ -135,8 +109,42 @@
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen"
+        "🇹🇷 TR | SS | @v2rayopen",
+        "🇹🇷 TR | VLESS | @v2raytg",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇹🇷 TR | SS | @NamiraConfigs",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @dailyv2ray",
+        "🇹🇷 TR | VLESS | @drvpn_net",
+        "🇹🇷 TR | VLESS | @filterk0sh",
+        "🇹🇷 TR | VLESS | @filterk0sh",
+        "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
+        "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
+        "🇹🇷 TR | SS | @manstervpn",
+        "🇹🇷 TR | SS | @manstervpn",
+        "🇹🇷 TR | VLESS | @netmellianti",
+        "🇹🇷 TR | VLESS | @proxyfn",
+        "🇹🇷 TR | VLESS | @prrofile_purple",
+        "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | SS | @v2rayopen",
+        "🇹🇷 TR | VLESS | @v2raytg",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -230,9 +238,17 @@
     {
       "tag": "🇹🇷 TR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "quarenty.site",
-      "server_port": 8443,
-      "uuid": "6257bd0f-18d6-41cc-8e41-fe183cf63881",
+      "server": "45.12.143.191",
+      "server_port": 20329,
+      "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tr.nicren.com",
+      "server_port": 5678,
+      "uuid": "c3c134db-ef8f-4591-9535-e087b057a13b",
       "packet_encoding": "xudp"
     },
     {
@@ -368,6 +384,14 @@
       "password": null
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "tr.tesla-team.sbs",
+      "server_port": 2053,
+      "uuid": "d69fa8ac-a3a1-4f7d-8eb1-f6a5d800eb9a",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "194.146.26.40",
@@ -390,6 +414,36 @@
       "server_port": 31348,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWVJoVENaZFFMRXhLNmV3VkhnSFMybWx2NEZDeXNLeWV5VFRmaFJkRWdkZWVSTjA=",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raytg",
+      "type": "vless",
+      "server": "198.105.123.152",
+      "server_port": 51065,
+      "uuid": "5695e906-fd40-45e7-b261-7bc605af614c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "198.105.123.152",
+      "server_port": 51065,
+      "uuid": "5695e906-fd40-45e7-b261-7bc605af614c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

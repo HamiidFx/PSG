@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | TROJAN | @config_proxy", "server": "212.192.14.227", "port": 9443, "type": "trojan", "skip-cert-verify": false, "password": "1e32fe52198848788f029c2ec244f347"}
   - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.59.218.220", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Maradona_vpn"}
   - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.174.138.209", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "maradona_vpn"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | TROJAN | @config_proxy'
       - '🇷🇺 RU | TROJAN | @maradona_vpn'
       - '🇷🇺 RU | TROJAN | @maradona_vpn'
       - '🇷🇺 RU | VMESS | @prooxyk'

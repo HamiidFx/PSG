@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇯🇵 JP | TROJAN | @config_proxy", "server": "160.16.138.24", "port": 2890, "type": "trojan", "skip-cert-verify": false, "password": "dd2f25b4c70689de8bc0f7fa9d6591cb"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "160.16.107.37", "port": 3169, "type": "trojan", "skip-cert-verify": false, "password": "44e660b0ee21cf3ac66aee2c08af85d2"}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇯🇵 JP | TROJAN | @config_proxy'
       - '🇯🇵 JP | TROJAN | @free4allvpn'
       - '🇯🇵 JP | TROJAN | @free4allvpn'
 

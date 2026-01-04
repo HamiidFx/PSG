@@ -10,13 +10,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇦🇺 AU | VMESS | @dailyv2ray = vmess, 104.31.16.104, 80, username = 12c25b50-f6c7-11ed-b230-205c6d5f5d78, ws = true, tls = false, ws-path = /qmbdkyzn, ws-headers = Host:"us-4.0rd.net"
+🇦🇺 AU | VMESS | @v2rayngconfig = vmess, vde2.0bad.com, 443, username = 927094d3-d678-4763-8591-e240d0bcae87, ws = true, tls = true, ws-path = /chat, ws-headers = Host:"vde2.0bad.com"
 🇦🇺 AU | VMESS | @v2rayngconfig = vmess, vin1.0bad.com, 443, username = 927094d3-d678-4763-8591-e240d0bcae87, ws = true, tls = true, ws-path = /chat, ws-headers = Host:"vin1.0bad.com"
 🇦🇺 AU | VMESS | @v2rayngconfig = vmess, vau1.0bad.com, 443, username = 927094d3-d678-4763-8591-e240d0bcae87, ws = true, tls = true, ws-path = /chat, ws-headers = Host:"vau1.0bad.com"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
-PSG-AUTO = url-test, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
-PSG-FALLBACK = fallback, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
+PSG-AUTO = url-test, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
+PSG-FALLBACK = fallback, 🇦🇺 AU | VMESS | @dailyv2ray, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇦🇺 AU | VMESS | @v2rayngconfig
 
 [Rule]
 GEOIP,IR,DIRECT

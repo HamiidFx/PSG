@@ -95,8 +95,8 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | SS | @outlinereleasedkey",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @hope_net",
+        "🇰🇿 KZ | SS | @outlinereleasedkey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,8 +109,8 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | SS | @outlinereleasedkey",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @hope_net",
+        "🇰🇿 KZ | SS | @outlinereleasedkey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -199,14 +199,7 @@
       "server": "31.43.179.138",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",
@@ -231,19 +224,11 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | SS | @outlinereleasedkey",
-      "type": "shadowsocks",
-      "server": "38.107.234.38",
-      "server_port": 57456,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm",
-      "password": null
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2raych",
+      "tag": "🇰🇿 KZ | VLESS | @hope_net",
       "type": "vless",
-      "server": "kz.svdualvpn.ru",
-      "server_port": 8443,
-      "uuid": "a6bdce65-2ec9-47e3-9814-bc281cffadcd",
+      "server": "194.76.18.189",
+      "server_port": 443,
+      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -252,13 +237,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇰🇿 KZ | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
+      "server": "38.107.234.38",
+      "server_port": 57456,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm",
+      "password": null
     }
   ],
   "route": {
