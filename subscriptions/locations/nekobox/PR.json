@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇦🇲 AM | VLESS | @config_proxy"
+        "🇵🇷 PR | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,7 +91,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇦🇲 AM | VLESS | @config_proxy"
+        "🇵🇷 PR | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -179,26 +179,12 @@
       }
     },
     {
-      "tag": "🇦🇲 AM | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "arm-0001-xr.packet-drop-society.net",
-      "server_port": 443,
-      "uuid": "94e25e2b-ffc8-453d-a08c-1f5c3c249755",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇵🇷 PR | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "185.47.255.22",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {
