@@ -80,12 +80,16 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VMESS | @Fr33C0nfig",
+        "🇽🇽 XX | VMESS | @Fr33C0nfig",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇮🇷 IR | VMESS | @buffalo_vpn",
         "🇽🇽 XX | VMESS | @buffalo_vpn",
         "🇽🇽 XX | VMESS | @bypass_filter",
+        "🇽🇽 XX | VMESS | @config_proxy",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @configforvpn01",
         "🇽🇽 XX | VMESS | @custom_14",
         "🇽🇽 XX | VMESS | @dailyv2ray",
@@ -167,8 +171,6 @@
         "🇽🇽 XX | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
@@ -209,12 +211,16 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VMESS | @Fr33C0nfig",
+        "🇽🇽 XX | VMESS | @Fr33C0nfig",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇽🇽 XX | VMESS | @armodchannel",
         "🇮🇷 IR | VMESS | @buffalo_vpn",
         "🇽🇽 XX | VMESS | @buffalo_vpn",
         "🇽🇽 XX | VMESS | @bypass_filter",
+        "🇽🇽 XX | VMESS | @config_proxy",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @configforvpn01",
         "🇽🇽 XX | VMESS | @custom_14",
         "🇽🇽 XX | VMESS | @dailyv2ray",
@@ -296,8 +302,6 @@
         "🇽🇽 XX | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
@@ -415,6 +419,24 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @Fr33C0nfig",
+      "type": "vmess",
+      "server": "pl37.salar4040.com",
+      "server_port": 44701,
+      "uuid": "a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @Fr33C0nfig",
+      "type": "vmess",
+      "server": "172.234.132.232",
+      "server_port": 10001,
+      "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @armodchannel",
       "type": "vmess",
       "server": "sg.multiport1.artunnel57.host",
@@ -524,6 +546,40 @@
         "path": "/4fc128ce-4845-11f0-a948-6a75f667b472?ed=2365",
         "headers": {
           "Host": "4fc128ce-4845-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "46.224.110.179",
+      "server_port": 20363,
+      "uuid": "480ea1e1-f109-402f-b763-cc6fdd4e9d16",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "527hk1.fans8.xyz",
+      "server_port": 80,
+      "uuid": "7f4ff2e1-c08f-35bd-afe7-4a6a386907aa",
+      "security": "auto",
+      "alter_id": 2,
+      "tls": {
+        "enabled": true,
+        "server_name": "527hk1.fans8.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "527hk1.fans8.xyz"
         }
       }
     },
@@ -1965,75 +2021,16 @@
     {
       "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
       "type": "vmess",
-      "server": "172.66.40.99",
-      "server_port": 443,
-      "uuid": "41-telegram-id---V2box-v2",
+      "server": "usshsaba.114514782.xyz",
+      "server_port": 2095,
+      "uuid": "5f9c7bda-33f9-3dd0-bcf5-aca324418e31",
       "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "z.looloolooloo.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
       "transport": {
         "type": "ws",
-        "path": "/telegram-id---v2box-v2/www.speedtest.net:443?ed=2048",
+        "path": "/usshsa",
         "headers": {
-          "Host": "z.looloolooloo.com"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "se-ls03.nb1.fr",
-      "server_port": 64443,
-      "uuid": "cb7001c7-e495-41ac-b942-f25f60523414",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "se-ls03.nb1.fr",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/clientarea",
-        "headers": {
-          "Host": "se-ls03.nb1.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "95.81.114.252",
-      "server_port": 44749,
-      "uuid": "e1cc26b3-df0b-477b-afb0-53659a25e978",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "imafake.locker",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "imafake.locker"
+          "Host": ""
         }
       }
     },

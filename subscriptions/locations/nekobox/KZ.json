@@ -187,10 +187,19 @@
     {
       "tag": "🇰🇿 KZ | VLESS | @config_proxy",
       "type": "vless",
-      "server": "31.43.179.138",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
+      "server": "77.91.75.113",
+      "server_port": 443,
+      "uuid": "06a3c194-1c1d-4a4f-8297-1d648de0a958",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",

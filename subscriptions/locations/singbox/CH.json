@@ -95,6 +95,7 @@
         "KingRezaPahlavi",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
         "🇨🇭 CH | VLESS | @oonfig",
@@ -102,8 +103,8 @@
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
         "🇨🇭 CH | VLESS | @turboo_server",
+        "🇨🇭 CH | VLESS | @v2raych",
         "🇨🇭 CH | VLESS | @v2rayopen",
         "🇨🇭 CH | VLESS | @v2rayopen",
         "🇨🇭 CH | VLESS | @v2raytg"
@@ -119,6 +120,7 @@
         "KingRezaPahlavi",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
         "🇨🇭 CH | VLESS | @oonfig",
@@ -126,8 +128,8 @@
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
         "🇨🇭 CH | VLESS | @turboo_server",
+        "🇨🇭 CH | VLESS | @v2raych",
         "🇨🇭 CH | VLESS | @v2rayopen",
         "🇨🇭 CH | VLESS | @v2rayopen",
         "🇨🇭 CH | VLESS | @v2raytg"
@@ -230,6 +232,14 @@
       "password": null
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "83.228.225.98",
+      "server_port": 24472,
+      "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇭 CH | SS | @freeconfigsplus",
       "type": "shadowsocks",
       "server": "45.95.232.236",
@@ -295,20 +305,29 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "83.228.225.98",
-      "server_port": 24472,
-      "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @turboo_server",
       "type": "vless",
       "server": "pro.turbooserver.com",
       "server_port": 80,
       "uuid": "8dcbc92f-5c77-42a8-8d35-064e14c55f6e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych",
+      "type": "vless",
+      "server": "185.18.250.52",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @v2rayopen",

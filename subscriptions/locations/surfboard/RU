@@ -9,15 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺 RU | TROJAN | @config_proxy = trojan, 212.192.14.227, 9443, password = 1e32fe52198848788f029c2ec244f347, skip-cert-verify = true
 🇷🇺 RU | TROJAN | @maradona_vpn = trojan, 185.59.218.220, 443, password = Maradona_vpn, skip-cert-verify = true
 🇷🇺 RU | TROJAN | @maradona_vpn = trojan, 185.174.138.209, 443, password = maradona_vpn, skip-cert-verify = true
 🇷🇺 RU | VMESS | @prooxyk = vmess, 77.v2ray1.xyz, 443, username = 17b2a313-37a0-4945-a8e4-e63375506b4a, ws = true, tls = true, ws-path = /A2DJOPFT, ws-headers = Host:"77.v2ray1.xyz"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | TROJAN | @config_proxy, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
-PSG-AUTO = url-test, 🇷🇺 RU | TROJAN | @config_proxy, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
-PSG-FALLBACK = fallback, 🇷🇺 RU | TROJAN | @config_proxy, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
+PSG-AUTO = url-test, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
+PSG-FALLBACK = fallback, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | TROJAN | @maradona_vpn, 🇷🇺 RU | VMESS | @prooxyk
 
 [Rule]
 GEOIP,IR,DIRECT

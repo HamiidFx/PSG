@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇺🇸 US | VMESS | @config_proxy", "server": "527hk1.fans8.xyz", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f4ff2e1-c08f-35bd-afe7-4a6a386907aa", "alterId": 2, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "527hk1.fans8.xyz"}}}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf029.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "9ce4526a-c500-4c66-99b0-048e4b6b5663", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/9ce4526a", "headers": {"Host": "xcf029.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xc125-1.meiziba5566.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b95d340-30a5-47bd-ac53-49584e5d4ddf", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/6b95d340", "headers": {"Host": "xc125-1.meiziba5566.com"}}}
@@ -59,6 +60,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | VMESS | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇺🇸 US | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @freev2rays'
