@@ -93,6 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @Fr33C0nfig",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
@@ -104,9 +106,10 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
-        "🇫🇮 FI | VLESS | @vmesc",
+        "🇫🇮 FI | VLESS | @v2raytg",
         "🇫🇮 FI | VLESS | @vpn_ocean"
       ],
       "tag": "proxy",
@@ -118,6 +121,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @Fr33C0nfig",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
@@ -129,9 +134,10 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
+        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
-        "🇫🇮 FI | VLESS | @vmesc",
+        "🇫🇮 FI | VLESS | @v2raytg",
         "🇫🇮 FI | VLESS | @vpn_ocean"
       ],
       "tag": "auto",
@@ -212,6 +218,36 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @Fr33C0nfig",
+      "type": "vless",
+      "server": "pysrvip.glovesstore1.ir",
+      "server_port": 3101,
+      "uuid": "8b31b301-5770-4b71-b1a9-8a9546e4fd12",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -383,6 +419,14 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "62.60.229.31",
+      "server_port": 8880,
+      "uuid": "7508df45-196f-436c-a0f0-d11918566456",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayng3",
       "type": "vless",
       "server": "65.109.8.76",
@@ -420,21 +464,12 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesc",
+      "tag": "🇫🇮 FI | VLESS | @v2raytg",
       "type": "vless",
-      "server": "65.108.231.185",
-      "server_port": 443,
-      "uuid": "440766d1-858f-4719-84f5-c2de6f6227b2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "pysrvip.glovesstore1.ir",
+      "server_port": 3101,
+      "uuid": "8b31b301-5770-4b71-b1a9-8a9546e4fd12",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vpn_ocean",

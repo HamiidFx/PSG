@@ -26,9 +26,12 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy", "server": "japan.geodema.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
   - {"name": "🇯🇵 JP | VLESS | @free4allvpn", "server": "15.168.173.144", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "160.16.107.37", "port": 3169, "type": "trojan", "skip-cert-verify": false, "password": "44e660b0ee21cf3ac66aee2c08af85d2"}
+  - {"name": "🇯🇵 JP | VLESS | @outline_ir", "server": "116.80.44.144", "port": 27724, "type": "vless", "skip-cert-verify": true, "uuid": "ebd8539d-e249-4a39-8f90-e8585e8cc35e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych", "server": "japan.geodema.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,9 +48,12 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇯🇵 JP | VLESS | @config_proxy'
       - '🇯🇵 JP | TROJAN | @free4allvpn'
       - '🇯🇵 JP | VLESS | @free4allvpn'
       - '🇯🇵 JP | TROJAN | @free4allvpn'
+      - '🇯🇵 JP | VLESS | @outline_ir'
+      - '🇯🇵 JP | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

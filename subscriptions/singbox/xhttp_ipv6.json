@@ -93,7 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @kafing_2"
+        "🇽🇽 XX | VLESS | @kafing_2",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +105,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @kafing_2"
+        "🇽🇽 XX | VLESS | @kafing_2",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,6 +196,23 @@
       "server_port": 2083,
       "uuid": "b91ee079-fa44-49ee-832d-aa4d44033330",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych",
+      "type": "vless",
+      "server": "2001:41d0:404:200::2891",
+      "server_port": 443,
+      "uuid": "5afa022f-599e-4392-a4b5-02bc0f868d0d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -94,6 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
+        "🇹🇷 TR | SS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -106,8 +109,9 @@
         "🇹🇷 TR | VLESS | @proxyfn",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @server_nekobox",
+        "🇹🇷 TR | VLESS | @server_nekobox",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen",
         "🇹🇷 TR | VLESS | @v2raytg",
         "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
@@ -121,6 +125,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
+        "🇹🇷 TR | SS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -133,8 +140,9 @@
         "🇹🇷 TR | VLESS | @proxyfn",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @server_nekobox",
+        "🇹🇷 TR | VLESS | @server_nekobox",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen",
         "🇹🇷 TR | VLESS | @v2raytg",
         "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
@@ -226,6 +234,53 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "5.188.36.93",
+      "server_port": 31348,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWVJoVENaZFFMRXhLNmV3VkhnSFMybWx2NEZDeXNLeWV5VFRmaFJkRWdkZWVSTjA=",
+      "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tr.zenxnet.com",
+      "server_port": 443,
+      "uuid": "987c44fb-0072-4c43-b790-4a05c2f97e2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "node-tr-gecore.stealthmode.space",
+      "server_port": 2000,
+      "uuid": "55677a28-7650-fc5a-c61b-78a0e5ac15b3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @dailyv2ray",
@@ -352,6 +407,40 @@
       "password": null
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @server_nekobox",
+      "type": "vless",
+      "server": "tr.zenxnet.com",
+      "server_port": 443,
+      "uuid": "987c44fb-0072-4c43-b790-4a05c2f97e2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @server_nekobox",
+      "type": "vless",
+      "server": "tr.zenxnet.com",
+      "server_port": 443,
+      "uuid": "987c44fb-0072-4c43-b790-4a05c2f97e2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "194.146.26.40",
@@ -366,14 +455,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @v2rayopen",
-      "type": "shadowsocks",
-      "server": "5.188.36.93",
-      "server_port": 31348,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWVJoVENaZFFMRXhLNmV3VkhnSFMybWx2NEZDeXNLeWV5VFRmaFJkRWdkZWVSTjA=",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2raytg",

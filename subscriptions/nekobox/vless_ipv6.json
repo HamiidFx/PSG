@@ -88,16 +88,18 @@
         "🇽🇽 XX | VLESS | @freevv2rayng",
         "🇽🇽 XX | VLESS | @freevv2rayng",
         "🇽🇽 XX | VLESS | @freevv2rayng",
+        "🇽🇽 XX | VLESS | @hope_net",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @kafing_2",
         "🇽🇽 XX | VLESS | @kesslervpn",
         "🇽🇽 XX | VLESS | @manstervpn",
-        "🇩🇪 DE | VLESS | @outline_ir",
         "🇽🇽 XX | VLESS | @prrofile_purple",
         "🇽🇽 XX | VLESS | @prrofile_purple",
-        "🇽🇽 XX | VLESS | @prrofile_purple"
+        "🇽🇽 XX | VLESS | @prrofile_purple",
+        "🇽🇽 XX | VLESS | @server_nekobox",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,16 +118,18 @@
         "🇽🇽 XX | VLESS | @freevv2rayng",
         "🇽🇽 XX | VLESS | @freevv2rayng",
         "🇽🇽 XX | VLESS | @freevv2rayng",
+        "🇽🇽 XX | VLESS | @hope_net",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @kafing_2",
         "🇽🇽 XX | VLESS | @kesslervpn",
         "🇽🇽 XX | VLESS | @manstervpn",
-        "🇩🇪 DE | VLESS | @outline_ir",
         "🇽🇽 XX | VLESS | @prrofile_purple",
         "🇽🇽 XX | VLESS | @prrofile_purple",
-        "🇽🇽 XX | VLESS | @prrofile_purple"
+        "🇽🇽 XX | VLESS | @prrofile_purple",
+        "🇽🇽 XX | VLESS | @server_nekobox",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -324,6 +328,14 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @hope_net",
+      "type": "vless",
+      "server": "2a01:4f8:c012:9907::1",
+      "server_port": 44929,
+      "uuid": "TELEGRAM-ServerNett",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @internet_nor",
       "type": "vless",
       "server": "2a01:4f9:c010:1ac8::1",
@@ -381,14 +393,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir",
-      "type": "vless",
-      "server": "::ffff:9872:c066",
-      "server_port": 80,
-      "uuid": "rootface-%40pwn1337-telegram",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple",
       "type": "vless",
       "server": "2001:41d0:701:1000::72a",
@@ -411,6 +415,31 @@
       "server_port": 20449,
       "uuid": "06485c7c-f938-4282-814a-f58534612add",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @server_nekobox",
+      "type": "vless",
+      "server": "2001:41d0:404:200::2891",
+      "server_port": 2083,
+      "uuid": "b91ee079-fa44-49ee-832d-aa4d44033330",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych",
+      "type": "vless",
+      "server": "2001:41d0:404:200::2891",
+      "server_port": 443,
+      "uuid": "5afa022f-599e-4392-a4b5-02bc0f868d0d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

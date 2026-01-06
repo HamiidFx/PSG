@@ -92,7 +92,8 @@
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @kesslervpn",
         "🇽🇽 XX | VLESS | @manstervpn",
-        "🇩🇪 DE | VLESS | @outline_ir"
+        "🇽🇽 XX | VLESS | @server_nekobox",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,7 +116,8 @@
         "🇽🇽 XX | VLESS | @internet_nor",
         "🇽🇽 XX | VLESS | @kesslervpn",
         "🇽🇽 XX | VLESS | @manstervpn",
-        "🇩🇪 DE | VLESS | @outline_ir"
+        "🇽🇽 XX | VLESS | @server_nekobox",
+        "🇽🇽 XX | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -346,12 +348,29 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir",
+      "tag": "🇽🇽 XX | VLESS | @server_nekobox",
       "type": "vless",
-      "server": "::ffff:9872:c066",
-      "server_port": 80,
-      "uuid": "rootface-%40pwn1337-telegram",
+      "server": "2001:41d0:404:200::2891",
+      "server_port": 2083,
+      "uuid": "b91ee079-fa44-49ee-832d-aa4d44033330",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych",
+      "type": "vless",
+      "server": "2001:41d0:404:200::2891",
+      "server_port": 443,
+      "uuid": "5afa022f-599e-4392-a4b5-02bc0f868d0d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
