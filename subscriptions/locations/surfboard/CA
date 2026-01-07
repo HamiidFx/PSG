@@ -9,13 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | TROJAN | @v2rayngconfig = trojan, 15.222.9.61, 22222, password = telegram-id-directvpn, skip-cert-verify = true
 🇨🇦 CA | VMESS | @NamiraConfigs = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"51.79.102.253"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | TROJAN | @v2rayngconfig, 🇨🇦 CA | VMESS | @NamiraConfigs
-PSG-AUTO = url-test, 🇨🇦 CA | TROJAN | @v2rayngconfig, 🇨🇦 CA | VMESS | @NamiraConfigs
-PSG-FALLBACK = fallback, 🇨🇦 CA | TROJAN | @v2rayngconfig, 🇨🇦 CA | VMESS | @NamiraConfigs
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | VMESS | @NamiraConfigs
+PSG-AUTO = url-test, 🇨🇦 CA | VMESS | @NamiraConfigs
+PSG-FALLBACK = fallback, 🇨🇦 CA | VMESS | @NamiraConfigs
 
 [Rule]
 GEOIP,IR,DIRECT
