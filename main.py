@@ -58,7 +58,7 @@ CONSTANTS = {
 PROTOCOL_REGEX = re.compile(r'(?:vmess|vless|trojan|ss|tuic|hy2|hysteria2?):\/\/[^\s"\']+(?=\s|<|>|$)', re.IGNORECASE)
 CLOUDFLARE_NETWORKS = [ipaddress.ip_network(cidr) for cidr in CONSTANTS['CLOUDFLARE_CIDRS']]
 
-# --- Utility Class ---
+# --- Fixed ConfigUtils & ConfigParser ---
 
 class ConfigUtils:
     @staticmethod
@@ -75,18 +75,17 @@ class ConfigUtils:
         except Exception:
             return ""
 
-    # Alias for compatibility with older parts of the code if any
-    safe_base64_decode = decode_base64
-
     @staticmethod
     def detect_type(config: str) -> Optional[str]:
-        if config.startswith('vmess://'): return 'vmess'
-        if config.startswith('vless://'): return 'vless'
-        if config.startswith('trojan://'): return 'trojan'
-        if config.startswith('ss://'): return 'ss'
-        if config.startswith('tuic://'): return 'tuic'
-        if config.startswith(('hy2://', 'hysteria2://')): return 'hy2'
-        if config.startswith('hysteria://'): return 'hysteria'
+        # FIX: Case insensitive check
+        lower = config[:20].lower()
+        if lower.startswith('vmess://'): return 'vmess'
+        if lower.startswith('vless://'): return 'vless'
+        if lower.startswith('trojan://'): return 'trojan'
+        if lower.startswith('ss://'): return 'ss'
+        if lower.startswith('tuic://'): return 'tuic'
+        if lower.startswith(('hy2://', 'hysteria2://')): return 'hy2'
+        if lower.startswith('hysteria://'): return 'hysteria'
         return None
 
     @staticmethod
@@ -108,19 +107,17 @@ class ConfigUtils:
 
     @staticmethod
     def is_cloudflare(ip_str: str) -> bool:
-        """Checks if the IP belongs to Cloudflare."""
         if not ip_str: return False
         try:
             clean_ip = ip_str.strip('[]')
             ip_obj = ipaddress.ip_address(clean_ip)
-            # CLOUDFLARE_NETWORKS must be defined in the global scope (CONSTANTS)
             return any(ip_obj in net for net in CLOUDFLARE_NETWORKS)
         except ValueError:
             return False
 
     @staticmethod
     def is_reality(config: str) -> bool:
-        return 'security=reality' in config and config.startswith('vless://')
+        return 'security=reality' in config and config.lower().startswith('vless://')
 
     @staticmethod
     def is_xhttp(config: str) -> bool:
@@ -142,7 +139,6 @@ class ConfigUtils:
             "#profile-web-page-url: https://github.com/itsyebekhe/PSG\n\n"
         )
 
-# --- Advanced Config Parser ---
 
 class ConfigParser:
     @staticmethod
@@ -158,59 +154,60 @@ class ConfigParser:
             else:
                 return ConfigParser._parse_generic(config_str, ctype)
         except Exception:
-            # Silently fail on bad configs to keep the loop running
             return None
 
     @staticmethod
     def _parse_vmess(config_str: str) -> Optional[Dict]:
-        """Parses VMess JSON payload."""
         try:
-            b64 = config_str[8:]
+            # FIX: Handle "VMESS://" vs "vmess://" string slicing
+            prefix_len = 8 # vmess://
+            b64 = config_str[prefix_len:]
             json_str = ConfigUtils.decode_base64(b64)
             if not json_str: return None
             
             data = json.loads(json_str)
             
-            # Standardization
             return {
                 'type': 'vmess',
                 'ps': data.get('ps', ''),
-                'add': data.get('add', ''), # Primary Host
+                'add': data.get('add', ''),
                 'port': str(data.get('port', '')),
                 'id': data.get('id', ''),
                 'net': data.get('net', 'tcp'),
                 'type_transport': data.get('type', 'none'),
-                'host': data.get('host', ''), # Masquerade Host
+                'host': data.get('host', ''),
                 'path': data.get('path', ''),
                 'tls': data.get('tls', ''),
                 'sni': data.get('sni', ''),
-                'full_data': data # Keep original for perfect reconstruction
+                'full_data': data
             }
         except json.JSONDecodeError:
             return None
 
     @staticmethod
     def _parse_ss(config_str: str) -> Optional[Dict]:
-        """Parses Shadowsocks (SIP002 & Legacy)."""
         parsed = urlparse(config_str)
         user_info = parsed.netloc
         host_port = ""
         
-        # Logic to handle ss://BASE64_USER_PASS@host:port
+        # Handle ss://BASE64@host:port
         if '@' in user_info:
             user_pass_b64, host_port = user_info.rsplit('@', 1)
             try:
-                # Try decoding the user part
                 decoded = ConfigUtils.decode_base64(user_pass_b64)
                 if ':' in decoded:
                     method, password = decoded.split(':', 1)
                 else:
-                    # Fallback for plain text (rare but valid in some clients)
-                    method, password = user_pass_b64.split(':', 1) if ':' in user_pass_b64 else ("auto", user_pass_b64)
+                    method = "auto"
+                    password = decoded
             except:
-                return None
+                # Fallback: maybe it wasn't base64?
+                if ':' in user_pass_b64:
+                    method, password = user_pass_b64.split(':', 1)
+                else:
+                    return None
         else:
-            # Logic to handle ss://BASE64_FULL_LINK (Legacy)
+            # Handle ss://BASE64_FULL_LINK
             decoded_full = ConfigUtils.decode_base64(user_info)
             if '@' in decoded_full:
                 method_pass, host_port = decoded_full.rsplit('@', 1)
@@ -224,8 +221,6 @@ class ConfigParser:
         # Parse Host and Port
         host = ""
         port = ""
-        
-        # Handle IPv6 [::1]:443
         if ']:' in host_port:
             host_part, port_part = host_port.rsplit(':', 1)
             host = host_part.strip('[]')
@@ -246,11 +241,8 @@ class ConfigParser:
 
     @staticmethod
     def _parse_generic(config_str: str, ctype: str) -> Dict:
-        """Parses VLESS, Trojan, Tuic, Hysteria."""
         parsed = urlparse(config_str)
         params = parse_qs(parsed.query)
-        
-        # Flatten params (parse_qs returns lists)
         clean_params = {k: v[0] for k, v in params.items() if v}
 
         return {
@@ -261,36 +253,30 @@ class ConfigParser:
             'host': parsed.hostname if parsed.hostname else '',
             'port': str(parsed.port) if parsed.port else '',
             'params': clean_params,
-            'path': parsed.path # Might be empty or /
+            'path': parsed.path
         }
 
     @staticmethod
     def reassemble(parsed: Dict, new_tag: str = None) -> Optional[str]:
-        """Reconstructs the config URL from the dictionary."""
         if not parsed: return None
         ctype = parsed.get('type')
 
         if ctype == 'vmess':
             data = parsed.get('full_data', {}).copy()
             if new_tag: data['ps'] = new_tag
-            
-            # Ensure essential fields
             if not data.get('add'): data['add'] = '127.0.0.1'
             if not data.get('port'): data['port'] = 443
-            if not data.get('id'): data['id'] = 'uuid-placeholder'
-
+            if not data.get('id'): data['id'] = 'uuid'
             json_str = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
             return 'vmess://' + base64.b64encode(json_str.encode()).decode()
 
         elif ctype == 'ss':
-            # SS Format: ss://base64(method:password)@host:port#name
             method = parsed.get('method', 'chacha20-ietf-poly1305')
             password = parsed.get('password', '')
             user_pass = f"{method}:{password}"
             b64_user = base64.b64encode(user_pass.encode()).decode()
             
             host = parsed.get('host', '')
-            # Wrap IPv6 in brackets
             if ConfigUtils.is_ipv6(host): host = f"[{host}]"
             
             uri = f"ss://{b64_user}@{host}:{parsed.get('port', '')}"
@@ -298,65 +284,45 @@ class ConfigParser:
             return f"{uri}#{quote(name)}"
 
         else:
-            # Generic Format: protocol://user@host:port?params#name
             user = parsed.get('user', '')
             password = parsed.get('password', '') 
-            
-            # Build User Info
             userinfo = quote(user)
-            if password: 
-                userinfo += f":{quote(password)}"
+            if password: userinfo += f":{quote(password)}"
             
-            # Build Host
             host = parsed.get('host', '')
             if ConfigUtils.is_ipv6(host): host = f"[{host}]"
             
             netloc = f"{userinfo}@{host}:{parsed.get('port', '')}"
-            
-            # Build Params & Path
             query_params = parsed.get('params', {}).copy()
             path = parsed.get('path', '')
             
-            # Special handling for path mapping
             full_path_str = ""
-            
             if ctype in ['vless', 'trojan']:
-                 # VLESS/Trojan usually put path in the 'path' param, not the URI path
-                 # But we respect the 'path' key from the parsed dict
                  full_path_str = path
-                 if query_params:
-                     # Sort params for consistency (helps deduplication)
-                     full_path_str += "?" + urlencode(query_params, doseq=True, safe='/')
+                 if query_params: full_path_str += "?" + urlencode(query_params, doseq=True, safe='/')
             else:
-                 # Hysteria/Tuic logic
                  if path and path != '/': query_params['path'] = path
-                 if query_params: 
-                     full_path_str = "?" + urlencode(query_params, doseq=True, safe='/')
+                 if query_params: full_path_str = "?" + urlencode(query_params, doseq=True, safe='/')
 
             name = new_tag if new_tag else parsed.get('hash', '')
             return f"{ctype}://{netloc}{full_path_str}#{quote(name)}"
 
     @staticmethod
     def get_fingerprint(parsed: Dict) -> str:
-        """Generates a unique signature for deduplication."""
         ctype = parsed['type']
         def norm(s): return str(s).strip().lower()
 
         components = [ctype]
         if ctype == 'vmess':
-            # Critical fields for uniqueness
-            keys = ['add', 'port', 'id', 'net', 'path', 'host', 'sni', 'tls']
+            keys = ['add', 'port', 'id', 'net', 'path', 'host', 'sni']
             components.extend(norm(parsed.get(k, '')) for k in keys)
         elif ctype == 'ss':
             keys = ['host', 'port', 'method', 'password']
             components.extend(norm(parsed.get(k, '')) for k in keys)
         else:
-            # Generic: host, port, user (or uuid), and sorted query params
             params = parsed.get('params', {})
-            # Exclude variable params like 'fp' (fingerprint) or names if we want strict uniqueness?
-            # For now, include everything except descriptive tags.
+            # We must ignore the 'name' or 'fp' if we want real duplicates
             param_str = "&".join(f"{k}={v}" for k, v in sorted(params.items()) if k not in ['remarks', 'name'])
-            
             components.extend([
                 norm(parsed.get('user', '')),
                 norm(parsed.get('host', '')),
@@ -364,7 +330,6 @@ class ConfigParser:
                 norm(parsed.get('path', '')),
                 norm(param_str)
             ])
-            
         return "|".join(components)
 
 # --- Main Processor ---
