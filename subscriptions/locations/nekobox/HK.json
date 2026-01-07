@@ -80,11 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | TROJAN | @free4allvpn",
+        "🇭🇰 HK | VLESS | @hope_net",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
         "🇭🇰 HK | VLESS | @server_nekobox",
+        "🇭🇰 HK | SS | @v2ray_free_conf",
         "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
@@ -96,11 +100,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | TROJAN | @free4allvpn",
+        "🇭🇰 HK | VLESS | @hope_net",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
         "🇭🇰 HK | VLESS | @server_nekobox",
+        "🇭🇰 HK | SS | @v2ray_free_conf",
         "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
@@ -189,11 +197,66 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "336501b6-51d2-11ee-a993-f23c9164ca5d",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkt.gotochinatown.net"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hk01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "e9dbc178-3656-40f8-8833-5023f306ef1d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇭🇰 HK | TROJAN | @free4allvpn",
       "type": "trojan",
       "server": "219.79.214.159",
       "server_port": 443,
       "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @hope_net",
+      "type": "vless",
+      "server": "47.76.178.146",
+      "server_port": 8443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -244,6 +307,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "203.23.128.33",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     },
     {
       "tag": "🇭🇰 HK | VLESS | @vmesskhodam",

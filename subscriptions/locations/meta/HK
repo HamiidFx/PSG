@@ -26,7 +26,10 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇭🇰 HK | VMESS | @config_proxy", "server": "hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "336501b6-51d2-11ee-a993-f23c9164ca5d", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "hkt.gotochinatown.net"}}}
+  - {"name": "🇭🇰 HK | VLESS | @config_proxy", "server": "hk01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e9dbc178-3656-40f8-8833-5023f306ef1d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇭🇰 HK | TROJAN | @free4allvpn", "server": "219.79.214.159", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "BxceQaOe"}
+  - {"name": "🇭🇰 HK | VLESS | @hope_net", "server": "47.76.178.146", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VLESS | @server_nekobox", "server": "46.8.226.192", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1e0f493a-6251-4436-b986-2a76da21d4d6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VLESS | @vmesskhodam", "server": "1-hk.ap.ku-ke.cc", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ee9a3e22-f97b-4e9a-9a75-52151a5d0b2d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
@@ -45,7 +48,10 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇭🇰 HK | VMESS | @config_proxy'
+      - '🇭🇰 HK | VLESS | @config_proxy'
       - '🇭🇰 HK | TROJAN | @free4allvpn'
+      - '🇭🇰 HK | VLESS | @hope_net'
       - '🇭🇰 HK | VLESS | @server_nekobox'
       - '🇭🇰 HK | VLESS | @vmesskhodam'
 

@@ -95,7 +95,9 @@
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @Fr33C0nfig",
         "🇽🇽 XX | VLESS | @buffalo_vpn",
-        "🇨🇭 CH | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -182,8 +184,7 @@
         "🇽🇽 XX | VLESS | @v2rayza",
         "🇩🇪 DE | VLESS | @v_2rayng0",
         "🇭🇰 HK | VLESS | @vmesskhodam",
-        "🇽🇽 XX | VLESS | @vpnowl",
-        "🇺🇸 US | VLESS | @vpnplusee_free",
+        "🇺🇸 US | VLESS | @vpnowl",
         "🇽🇽 XX | VLESS | @xsv2ray"
       ],
       "tag": "proxy",
@@ -197,7 +198,9 @@
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @Fr33C0nfig",
         "🇽🇽 XX | VLESS | @buffalo_vpn",
-        "🇨🇭 CH | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -284,8 +287,7 @@
         "🇽🇽 XX | VLESS | @v2rayza",
         "🇩🇪 DE | VLESS | @v_2rayng0",
         "🇭🇰 HK | VLESS | @vmesskhodam",
-        "🇽🇽 XX | VLESS | @vpnowl",
-        "🇺🇸 US | VLESS | @vpnplusee_free",
+        "🇺🇸 US | VLESS | @vpnowl",
         "🇽🇽 XX | VLESS | @xsv2ray"
       ],
       "tag": "auto",
@@ -404,11 +406,11 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "xz.mobile-nik.ir",
+      "server": "tr.zenxnet.com",
       "server_port": 443,
-      "uuid": "9ff84522-edc4-4d54-936d-acf6c69982cd",
+      "uuid": "987c44fb-0072-4c43-b790-4a05c2f97e2e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -417,6 +419,40 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "bshs-187271-isbshs-18181717.bawqrataaui.ir",
+      "server_port": 1501,
+      "uuid": "0725684a-bc4d-413b-8a98-0d2dd36753b3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hk01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "e9dbc178-3656-40f8-8833-5023f306ef1d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -1624,7 +1660,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vpnowl",
+      "tag": "🇺🇸 US | VLESS | @vpnowl",
       "type": "vless",
       "server": "wndisdkvwmqyod.curfuffled.com",
       "server_port": 443,
@@ -1642,28 +1678,6 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "free1.barayekhudam.ir",
-      "server_port": 2255,
-      "uuid": "02b320ce-09f8-4cb5-9c46-9024f5585881",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
       }
     },
     {

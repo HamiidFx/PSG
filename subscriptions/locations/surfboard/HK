@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇭🇰 HK | VMESS | @config_proxy = vmess, hkt.gotochinatown.net, 80, username = 336501b6-51d2-11ee-a993-f23c9164ca5d, ws = true, tls = false, ws-path = /, ws-headers = Host:"hkt.gotochinatown.net"
 🇭🇰 HK | TROJAN | @free4allvpn = trojan, 219.79.214.159, 443, password = BxceQaOe, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @free4allvpn
-PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @free4allvpn
-PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
 
 [Rule]
 GEOIP,IR,DIRECT

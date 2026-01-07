@@ -1,0 +1,23 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/SE interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇸🇪 SE | TROJAN | @hope_net = trojan, 16.171.157.77, 22222, password = telegram-id-directvpn, skip-cert-verify = true
+🇸🇪 SE | TROJAN | @v2raych = trojan, 16.171.157.77, 22222, password = telegram-id-directvpn, skip-cert-verify = true
+🇸🇪 SE | TROJAN | @v2raych = trojan, 13.60.0.173, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
+PSG-AUTO = url-test, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
+PSG-FALLBACK = fallback, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

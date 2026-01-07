@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @Fr33C0nfig",
+        "🇦🇪 AE | SS | @config_proxy",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
@@ -106,7 +107,8 @@
         "🇦🇪 AE | VLESS | @pusyvpn",
         "🇦🇪 AE | VLESS | @v2ray_vmes",
         "🇦🇪 AE | VLESS | @v2raying",
-        "🇦🇪 AE | VLESS | @vpn_ioss"
+        "🇦🇪 AE | VLESS | @vpn_ioss",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,6 +120,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @Fr33C0nfig",
+        "🇦🇪 AE | SS | @config_proxy",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
@@ -143,7 +146,8 @@
         "🇦🇪 AE | VLESS | @pusyvpn",
         "🇦🇪 AE | VLESS | @v2ray_vmes",
         "🇦🇪 AE | VLESS | @v2raying",
-        "🇦🇪 AE | VLESS | @vpn_ioss"
+        "🇦🇪 AE | VLESS | @vpn_ioss",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -237,6 +241,14 @@
       "server_port": 1884,
       "uuid": "cb555a11-14da-4861-88b2-0d0507262b7d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "151.242.251.137",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvNW9zWmcyNjl2NXpIcFlqcjF4WTlz",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @filterk0sh",
@@ -459,6 +471,28 @@
       "server_port": 1884,
       "uuid": "cb555a11-14da-4861-88b2-0d0507262b7d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "212.192.2.218",
+      "server_port": 443,
+      "uuid": "e7d37edf-2c57-4047-8cdd-33ffc8324235",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

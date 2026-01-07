@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇿🇦 ZA | SS | @v2ray_free_conf"
+        "🇿🇦 ZA | VLESS | @hope_net"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +104,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇿🇦 ZA | SS | @v2ray_free_conf"
+        "🇿🇦 ZA | VLESS | @hope_net"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,12 +188,21 @@
       }
     },
     {
-      "tag": "🇿🇦 ZA | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "156.38.168.58",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
+      "tag": "🇿🇦 ZA | VLESS | @hope_net",
+      "type": "vless",
+      "server": "160.123.255.213",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
