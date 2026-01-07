@@ -129,169 +129,137 @@ class ConfigUtils:
         return 'type=xhttp' in config
 
 class ConfigParser:
-    """Handles parsing and reassembling of configuration strings safely."""
-    
+    """
+    Handles parsing for analysis (GeoIP) and safely renaming configs 
+    without losing data (Non-destructive reassembly).
+    """
+
     @staticmethod
     def parse(config_str: str) -> Optional[Dict]:
+        """
+        Parses the config ONLY to extract Host/IP and Type for classification.
+        Returns a dict containing the 'original_config' to ensure no data loss.
+        """
         ctype = ConfigUtils.detect_type(config_str)
         if not ctype: return None
-        
+
+        host = ""
+        # 1. Parse VMess
+        if ctype == 'vmess':
+            try:
+                b64 = config_str[8:]
+                # Fix padding if necessary
+                missing_padding = len(b64) % 4
+                if missing_padding: b64 += '=' * (4 - missing_padding)
+                
+                json_str = base64.b64decode(b64).decode('utf-8', errors='ignore')
+                data = json.loads(json_str)
+                host = data.get('host') or data.get('add') or data.get('sni') or ""
+                return {
+                    'type': 'vmess',
+                    'host': host,
+                    'original_config': config_str,
+                    # We store the JSON data to update the name later safely
+                    'vmess_json': data 
+                }
+            except Exception:
+                return None
+
+        # 2. Parse URI Schemes (ss, vless, trojan, tuic, hy2, etc.)
         try:
-            if ctype == 'vmess':
-                return ConfigParser._parse_vmess(config_str)
-            elif ctype == 'ss':
-                return ConfigParser._parse_ss(config_str)
+            parsed = urlparse(config_str)
+            
+            # Extract Host
+            # Handle [IPv6] brackets
+            netloc = parsed.netloc
+            if '@' in netloc:
+                _, host_port = netloc.rsplit('@', 1)
             else:
-                return ConfigParser._parse_generic(config_str, ctype)
+                host_port = netloc
+                
+            if host_port.startswith('['):
+                # IPv6
+                host = host_port.split(']')[0].strip('[')
+            elif ':' in host_port:
+                # IPv4 or Domain with port
+                host = host_port.split(':')[0]
+            else:
+                host = host_port
+
+            return {
+                'type': ctype,
+                'host': host,
+                'original_config': config_str,
+                'uri_parsed': parsed # Store the parsed object for safe fragment replacement
+            }
         except Exception:
-            # Log valid parsing errors for debugging
-            # logger.debug(f"Failed to parse {ctype}: {config_str[:20]}...")
             return None
 
     @staticmethod
-    def _parse_vmess(config_str: str) -> Dict:
-        b64 = config_str[8:]
-        data = json.loads(ConfigUtils.safe_base64_decode(b64))
-        return {
-            'type': 'vmess',
-            'ps': data.get('ps', ''),
-            'add': data.get('add', ''),
-            'port': str(data.get('port', '')),
-            'id': data.get('id', ''),
-            'net': data.get('net', ''),
-            'type_transport': data.get('type', ''),
-            'host': data.get('host', ''),
-            'path': data.get('path', ''),
-            'tls': data.get('tls', ''),
-            'sni': data.get('sni', ''),
-            'full_data': data
-        }
-
-    @staticmethod
-    def _parse_ss(config_str: str) -> Dict:
-        parsed = urlparse(config_str)
-        # Handle cases where user info is base64 encoded
-        if '@' in parsed.netloc:
-            user_info_raw, host_port = parsed.netloc.split('@', 1)
-        else:
-            user_info_raw, host_port = parsed.netloc, ""
-
-        method, password = "auto", ""
-        try:
-            # Attempt decode, but handle failures gracefully
-            decoded = ConfigUtils.safe_base64_decode(user_info_raw)
-            if ':' in decoded:
-                method, password = decoded.split(':', 1)
-            else:
-                method = "auto"
-                password = decoded # Fallback
-        except:
-            pass
-            
-        host, _, port = host_port.partition(':')
+    def reassemble(parsed_data: Dict, new_tag: str) -> Optional[str]:
+        """
+        Updates the name/tag of the config WITHOUT reconstructing the whole string.
+        This prevents missing fields (plugins, flow, allowInsecure, etc.).
+        """
+        if not parsed_data: return None
         
-        return {
-            'type': 'ss',
-            'name': unquote(parsed.fragment),
-            'host': host,
-            'port': port,
-            'method': method,
-            'password': password
-        }
-
-    @staticmethod
-    def _parse_generic(config_str: str, ctype: str) -> Dict:
-        parsed = urlparse(config_str)
-        params = parse_qs(parsed.query)
-        clean_params = {k: v[0] for k, v in params.items() if v}
-
-        return {
-            'type': ctype,
-            'hash': unquote(parsed.fragment),
-            'user': parsed.username or '',
-            'password': parsed.password or '',
-            'host': parsed.hostname or '',
-            'port': str(parsed.port) if parsed.port else '',
-            'params': clean_params,
-            'path': parsed.path
-        }
-
-    @staticmethod
-    def reassemble(parsed: Dict, new_tag: str = None) -> Optional[str]:
-        if not parsed: return None
-        try:
-            ctype = parsed.get('type')
-            if ctype == 'vmess':
-                data = parsed.get('full_data', {}).copy()
-                if new_tag: data['ps'] = new_tag
-                # Ensure critical fields exist
-                data.setdefault('add', '127.0.0.1')
-                data.setdefault('port', 443)
+        ctype = parsed_data.get('type')
+        
+        # --- Case 1: VMess (JSON inside Base64) ---
+        if ctype == 'vmess':
+            try:
+                # Get the original JSON we saved
+                data = parsed_data.get('vmess_json', {}).copy()
+                
+                # Update only the Name
+                data['ps'] = new_tag
+                
+                # Re-encode strictly
                 json_str = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
                 return 'vmess://' + base64.b64encode(json_str.encode()).decode()
+            except Exception:
+                # Fallback: return original if we can't rename
+                return parsed_data.get('original_config')
 
-            elif ctype == 'ss':
-                user_pass = f"{parsed.get('method')}:{parsed.get('password')}"
-                b64_user = base64.b64encode(user_pass.encode()).decode()
-                host = parsed.get('host', '')
-                if ':' in host and not host.startswith('['): host = f"[{host}]"
-                uri = f"ss://{b64_user}@{host}:{parsed.get('port', '')}"
-                name = new_tag if new_tag else parsed.get('name', '')
-                return f"{uri}#{quote(name)}"
-
-            else:
-                # Generic reassembly for vless, trojan, etc.
-                user = parsed.get('user', '')
-                password = parsed.get('password', '') 
-                userinfo = f"{user}:{password}" if password else user
-                
-                host = parsed.get('host', '')
-                if ':' in host and not host.startswith('['): host = f"[{host}]"
-                
-                netloc = f"{userinfo}@{host}:{parsed.get('port', '')}"
-                
-                query_params = parsed.get('params', {}).copy()
-                path = parsed.get('path', '')
-                
-                # Logic to handle path inside params vs URI path
-                full_path = ""
-                if ctype in ['vless', 'trojan']:
-                    full_path = path
-                    if query_params: full_path += "?" + urlencode(query_params, doseq=True)
-                else:
-                    if path and path != '/': query_params['path'] = path
-                    if query_params: full_path = "?" + urlencode(query_params, doseq=True)
-                
-                name = new_tag if new_tag else parsed.get('hash', '')
-                return f"{ctype}://{netloc}{full_path}#{quote(name)}"
-        except Exception as e:
-            logger.error(f"Reassembly error: {e}")
-            return None
+        # --- Case 2: URI Schemes (SS, Vless, etc.) ---
+        try:
+            # We use the original parsed object
+            original_parsed = parsed_data.get('uri_parsed')
+            if not original_parsed: return parsed_data.get('original_config')
+            
+            # Safely replace ONLY the fragment (the part after #)
+            # quote() ensures emojis and spaces in the tag don't break the URL
+            new_parsed = original_parsed._replace(fragment=quote(new_tag))
+            
+            return new_parsed.geturl()
+        except Exception:
+             return parsed_data.get('original_config')
 
     @staticmethod
-    def get_fingerprint(parsed: Dict) -> str:
-        """Generates a unique signature for deduplication."""
-        ctype = parsed['type']
-        def norm(s): return str(s).strip().lower()
-
-        components = [ctype]
-        if ctype == 'vmess':
-            keys = ['add', 'port', 'id', 'net', 'path', 'host', 'sni']
-            components.extend(norm(parsed.get(k, '')) for k in keys)
-        elif ctype == 'ss':
-            keys = ['host', 'port', 'method', 'password']
-            components.extend(norm(parsed.get(k, '')) for k in keys)
-        else:
-            params = parsed.get('params', {})
-            param_str = "&".join(f"{k}={v}" for k, v in sorted(params.items()))
-            components.extend([
-                norm(parsed.get('user', '')),
-                norm(parsed.get('host', '')),
-                norm(parsed.get('port', '')),
-                norm(parsed.get('path', '')),
-                norm(param_str)
-            ])
-        return "|".join(components)
+    def get_fingerprint(parsed_data: Dict) -> str:
+        """
+        Generates a unique signature. 
+        For non-destructive parsing, we use the 'host' and 'port' and 'path' 
+        from the string, or just the raw string minus the hash.
+        """
+        try:
+            ctype = parsed_data['type']
+            
+            if ctype == 'vmess':
+                d = parsed_data.get('vmess_json', {})
+                # Unique ID + Addr + Port
+                return f"vmess|{d.get('id')}|{d.get('add')}|{d.get('port')}"
+            
+            else:
+                # For URIs, the unique part is everything BEFORE the fragment (#)
+                # This treats 'vless://...@host?key=1#nameA' and '...#nameB' as duplicates
+                orig = parsed_data.get('original_config', '')
+                if '#' in orig:
+                    return orig.split('#')[0]
+                return orig
+        except:
+            # Fallback to random to avoid deletion if fingerprinting fails
+            return parsed_data.get('original_config', '')
 
 # --- Main Processor ---
 
