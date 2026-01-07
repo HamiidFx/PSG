@@ -61,27 +61,20 @@ CLOUDFLARE_NETWORKS = [ipaddress.ip_network(cidr) for cidr in CONSTANTS['CLOUDFL
 class ConfigUtils:
     @staticmethod
     def decode_base64(s: str) -> str:
-        """
-        Robust Base64 decoder. Handles:
-        1. URL-Safe chars (-_) vs Standard (+/)
-        2. Missing padding (=)
-        3. Whitespace cleanup
-        """
+        """Robust Base64 decoder."""
         if not s: return ""
-        s = s.strip().replace(' ', '+') # Fix common copy-paste error
-        
-        # Normalize to Standard Base64 for decoding
+        s = s.strip().replace(' ', '+')
         s = s.replace('-', '+').replace('_', '/')
-        
-        # Fix Padding
         padding = len(s) % 4
         if padding:
             s += '=' * (4 - padding)
-            
         try:
             return base64.b64decode(s).decode('utf-8', errors='ignore')
         except Exception:
             return ""
+
+    # Alias for compatibility with older parts of the code if any
+    safe_base64_decode = decode_base64
 
     @staticmethod
     def detect_type(config: str) -> Optional[str]:
@@ -96,7 +89,6 @@ class ConfigUtils:
 
     @staticmethod
     def is_ipv6(host: str) -> bool:
-        """Checks if a host string is an IPv6 address."""
         host = host.strip('[]')
         try:
             return isinstance(ipaddress.ip_address(host), ipaddress.IPv6Address)
@@ -111,6 +103,18 @@ class ConfigUtils:
             return 'ipv6' if isinstance(ip, ipaddress.IPv6Address) else 'ipv4'
         except ValueError:
             return 'domain'
+
+    @staticmethod
+    def is_cloudflare(ip_str: str) -> bool:
+        """Checks if the IP belongs to Cloudflare."""
+        if not ip_str: return False
+        try:
+            clean_ip = ip_str.strip('[]')
+            ip_obj = ipaddress.ip_address(clean_ip)
+            # CLOUDFLARE_NETWORKS must be defined in the global scope (CONSTANTS)
+            return any(ip_obj in net for net in CLOUDFLARE_NETWORKS)
+        except ValueError:
+            return False
 
     @staticmethod
     def is_reality(config: str) -> bool:
@@ -135,7 +139,6 @@ class ConfigUtils:
             "#support-url: https://t.me/yebekhe\n"
             "#profile-web-page-url: https://github.com/itsyebekhe/PSG\n\n"
         )
-
 
 # --- Advanced Config Parser ---
 
