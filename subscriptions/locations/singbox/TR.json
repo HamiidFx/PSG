@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
         "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
@@ -102,9 +104,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
         "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
@@ -116,6 +120,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tr.thepon.xyz",
+      "server_port": 443,
+      "uuid": "46221cac-0d9f-4280-8d6b-12e7f3e58b0c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt",
@@ -168,6 +194,28 @@
       "server_port": 25232,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZ3ZMWlVmczhzaXZvQjlBN3drWWRt",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "tr.thepon.xyz",
+      "server_port": 443,
+      "uuid": "46221cac-0d9f-4280-8d6b-12e7f3e58b0c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",

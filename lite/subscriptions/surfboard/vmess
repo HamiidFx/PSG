@@ -9,15 +9,6 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | VMESS | @Fr33C0nfig = vmess, 172.234.132.232, 10001, username = a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589, ws = false, tls = false
-🇩🇪 DE | VMESS | @khoneproxy = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
-🇩🇪 DE | VMESS | @khoneproxy = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
-🇩🇪 DE | VMESS | @magickey_shop = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = 6734be04-d4d0-4495-a9ac-899bd83c3e0b, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = c26c9663-a72d-489f-a7da-7a482b876c1c, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxy48 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
-🇫🇷 FR | VMESS | @selinc = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
 🇭🇰 HK | VMESS | @freev2rays = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 🇺🇸 US | VMESS | @freev2rays = vmess, xcf037.facai2024.com, 443, username = d9863037-0463-4615-e972-36ba9662d1e9, ws = true, tls = true, ws-path = /d9863037, ws-headers = Host:"xcf037.facai2024.com"
 🇧🇾 BY | VMESS | @ir_netproxy = vmess, 5.161.156.196, 443, username = d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, ws = false, tls = false
@@ -31,11 +22,19 @@ DIRECT = direct
 🇦🇺 AU | VMESS | @v2rayngconfig = vmess, vde2.0bad.com, 443, username = 927094d3-d678-4763-8591-e240d0bcae87, ws = true, tls = true, ws-path = /chat, ws-headers = Host:"vde2.0bad.com"
 🇺🇸 US | VMESS | @v2rayngconfig = vmess, new6.hucloud-dns.xyz, 443, username = 0a5dc877-0211-4352-f73a-8fbdae81d673, ws = true, tls = true, ws-path = /, ws-headers = Host:"new6.hucloud-dns.xyz"
 🇺🇸 US | VMESS | @vpngate_config = vmess, cold-dawn-9246.fly.dev, 443, username = ea4909ef-7ca6-4b46-bf2e-6c07896ef338, ws = true, tls = true, ws-path = /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, ws-headers = Host:"cold-dawn-9246.fly.dev"
+🇩🇪 DE | VMESS | @khoneproxy = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
+🇩🇪 DE | VMESS | @khoneproxy = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
+🇩🇪 DE | VMESS | @magickey_shop = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
+🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = 6734be04-d4d0-4495-a9ac-899bd83c3e0b, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = c26c9663-a72d-489f-a7da-7a482b876c1c, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxy48 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
+🇫🇷 FR | VMESS | @selinc = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | VMESS | @Fr33C0nfig, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config
-PSG-AUTO = url-test, 🇺🇸 US | VMESS | @Fr33C0nfig, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config
-PSG-FALLBACK = fallback, 🇺🇸 US | VMESS | @Fr33C0nfig, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @freev2rays, 🇺🇸 US | VMESS | @freev2rays, 🇧🇾 BY | VMESS | @ir_netproxy, 🇺🇸 US | VMESS | @ir_netproxy, 🇽🇽 XX | VMESS | @iranvpnet, 🇦🇺 AU | VMESS | @khoneproxy, 🇺🇸 US | VMESS | @mi_pn_official, 🇷🇺 RU | VMESS | @prooxyk, 🇺🇸 US | VMESS | @serverv2ray00, 🇺🇸 US | VMESS | @v2ray4win, 🇦🇺 AU | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @v2rayngconfig, 🇺🇸 US | VMESS | @vpngate_config, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
 
 [Rule]
 GEOIP,IR,DIRECT

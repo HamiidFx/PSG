@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @prrofile_purple", "server": "ns.piche.pw", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7d591a13-9828-417c-aef9-63859280bb16", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "subscription.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "bfc1104e-5616-4f0f-8112-324d1ddd149d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @v2raych", "server": "subscription.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "bfc1104e-5616-4f0f-8112-324d1ddd149d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇸 ES | VLESS | @prrofile_purple'
+      - '🇪🇸 ES | VLESS | @config_proxy'
+      - '🇪🇸 ES | VLESS | @v2raych'
       - '🇪🇸 ES | VLESS | @v2raytg'
 
   - name: 🌍 Global Media

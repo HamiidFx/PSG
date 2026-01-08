@@ -79,6 +79,12 @@
         "direct",
         "🇮🇷 IR | VLESS | @Fr33C0nfig",
         "🇮🇷 IR | VLESS | @Fr33C0nfig",
+        "🇮🇷 IR | VLESS | @Fr33C0nfig",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
@@ -105,16 +111,16 @@
         "🇮🇷 IR | VLESS | @megavpn_link",
         "🇮🇷 IR | VLESS | @mpproxy",
         "🇮🇷 IR | VLESS | @mpproxy",
-        "🇮🇷 IR | VLESS | @orange_vpns",
-        "🇮🇷 IR | VLESS | @orange_vpns",
         "🇮🇷 IR | VLESS | @outline_ir",
         "🇮🇷 IR | VLESS | @prrofile_purple",
+        "🇮🇷 IR | VLESS | @satellitenewspersian",
         "🇮🇷 IR | VLESS | @tobevasl",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
         "🇮🇷 IR | VLESS | @v2ray_youtube",
-        "🇮🇷 IR | VLESS | @v2ray_youtube",
         "🇮🇷 IR | VLESS | @v2raych",
         "🇮🇷 IR | VLESS | @v2raych",
+        "🇮🇷 IR | VLESS | @v2raytg",
+        "🇮🇷 IR | VLESS | @vmesskhodam",
         "🇮🇷 IR | VLESS | @vpnfastservice",
         "🇮🇷 IR | VLESS | @vpnfastservice",
         "🇮🇷 IR | VLESS | @vpnfastservice",
@@ -129,6 +135,12 @@
       "outbounds": [
         "🇮🇷 IR | VLESS | @Fr33C0nfig",
         "🇮🇷 IR | VLESS | @Fr33C0nfig",
+        "🇮🇷 IR | VLESS | @Fr33C0nfig",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @config_proxy",
@@ -155,16 +167,16 @@
         "🇮🇷 IR | VLESS | @megavpn_link",
         "🇮🇷 IR | VLESS | @mpproxy",
         "🇮🇷 IR | VLESS | @mpproxy",
-        "🇮🇷 IR | VLESS | @orange_vpns",
-        "🇮🇷 IR | VLESS | @orange_vpns",
         "🇮🇷 IR | VLESS | @outline_ir",
         "🇮🇷 IR | VLESS | @prrofile_purple",
+        "🇮🇷 IR | VLESS | @satellitenewspersian",
         "🇮🇷 IR | VLESS | @tobevasl",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
         "🇮🇷 IR | VLESS | @v2ray_youtube",
-        "🇮🇷 IR | VLESS | @v2ray_youtube",
         "🇮🇷 IR | VLESS | @v2raych",
         "🇮🇷 IR | VLESS | @v2raych",
+        "🇮🇷 IR | VLESS | @v2raytg",
+        "🇮🇷 IR | VLESS | @vmesskhodam",
         "🇮🇷 IR | VLESS | @vpnfastservice",
         "🇮🇷 IR | VLESS | @vpnfastservice",
         "🇮🇷 IR | VLESS | @vpnfastservice",
@@ -201,35 +213,97 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @Fr33C0nfig",
+      "type": "vless",
+      "server": "iran.zanbor.de",
+      "server_port": 8066,
+      "uuid": "7b9fdcf7-3702-40f7-91a3-58801b885324",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "92k.shirim.top",
-      "server_port": 8989,
+      "server": "89.44.242.255",
+      "server_port": 8443,
+      "uuid": "2d35f5d5-00f3-4011-a3a2-ac456c1c58bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "90k.shirim.top",
+      "server_port": 4881,
       "uuid": "72d71a79-8412-4f22-8320-e2b78075d95e",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "g1.sinapp1.com",
-      "server_port": 2099,
-      "uuid": "e4987084-86c4-428f-82f5-a0516b30a978",
+      "server": "ts.bestcoffeshop.top",
+      "server_port": 15300,
+      "uuid": "9b1dcc79-b20e-488b-b2e1-caaa99007fdb",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "en.sardarr.top",
-      "server_port": 2035,
-      "uuid": "c78e34bb-4840-443f-8e9b-c400c2043530",
+      "server": "ts.bestcoffeshop.top",
+      "server_port": 2070,
+      "uuid": "d086e17a-f09e-4860-89a4-5624d4309b5a",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "panel-germany-9.subcenter.net",
-      "server_port": 1009,
-      "uuid": "ae7fc3d8-0e6a-4d51-b53c-91f7f7f2f4d8",
+      "server": "ts.bestcoffeshop.top",
+      "server_port": 15300,
+      "uuid": "9b1dcc79-b20e-488b-b2e1-caaa99007fdb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "nl-meli2.nexavps.ir",
+      "server_port": 4589,
+      "uuid": "369de0f8-d5a3-40f7-b64f-cb86b6943908",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.139.10.151",
+      "server_port": 7443,
+      "uuid": "3d7a21ea-cad3-4196-afd4-418d13990b93",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "90k.shirim.top",
+      "server_port": 4881,
+      "uuid": "72d71a79-8412-4f22-8320-e2b78075d95e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "193.151.134.126",
+      "server_port": 9000,
+      "uuid": "749bd876-bbe6-46ce-b482-c5e8622d01fc",
       "packet_encoding": "xudp"
     },
     {
@@ -243,17 +317,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @freeconfigsplus",
       "type": "vless",
-      "server": "nl.vipeagle.space",
-      "server_port": 42521,
-      "uuid": "869843b1-10d7-49de-85ae-46ee593468af",
+      "server": "85.133.245.15",
+      "server_port": 6642,
+      "uuid": "a70d24ce-4dcc-860f-e016-79b06c700ef2",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @freeconfigsplus",
       "type": "vless",
-      "server": "185.232.155.79",
-      "server_port": 7166,
-      "uuid": "a70d24ce-4dcc-860f-e016-79b06c700ef2",
+      "server": "nl.vipeagle.space",
+      "server_port": 42521,
+      "uuid": "869843b1-10d7-49de-85ae-46ee593468af",
       "packet_encoding": "xudp"
     },
     {
@@ -511,22 +585,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @orange_vpns",
-      "type": "vless",
-      "server": "ee1vip.vnet214.xyz",
-      "server_port": 24012,
-      "uuid": "b312ca01-7436-45db-9d50-360402f0c496",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @orange_vpns",
-      "type": "vless",
-      "server": "fr1vip.vnet210.xyz",
-      "server_port": 19155,
-      "uuid": "21f29843-1e97-4bd6-a129-13cfc8edd463",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @outline_ir",
       "type": "vless",
       "server": "300.shecanmarket.com",
@@ -537,9 +595,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "95k.bestusers.ir",
-      "server_port": 8989,
-      "uuid": "72d71a79-8412-4f22-8320-e2b78075d95e",
+      "server": "us.sepshoping.de",
+      "server_port": 1121,
+      "uuid": "f90b7a19-0b71-44b6-b95b-baab85af4d51",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @satellitenewspersian",
+      "type": "vless",
+      "server": "lovetea.parsianboton.ir",
+      "server_port": 3002,
+      "uuid": "c257c4fd-149b-492f-9861-50f034779dd4",
       "packet_encoding": "xudp"
     },
     {
@@ -567,28 +633,54 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube",
+      "tag": "🇮🇷 IR | VLESS | @v2raych",
       "type": "vless",
-      "server": "94k.bestusers.ir",
+      "server": "90k.shirim.top",
       "server_port": 4881,
-      "uuid": "7f186e6b-6c4a-4b18-8bb1-152192c0f46c",
+      "uuid": "72d71a79-8412-4f22-8320-e2b78075d95e",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2raych",
       "type": "vless",
-      "server": "panel-germany-9.subcenter.net",
-      "server_port": 1009,
-      "uuid": "ae7fc3d8-0e6a-4d51-b53c-91f7f7f2f4d8",
+      "server": "85.133.204.144",
+      "server_port": 443,
+      "uuid": "028641d6-fe6d-48e8-a444-40c5ee9926c8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raytg",
+      "type": "vless",
+      "server": "87.236.38.210",
+      "server_port": 8016,
+      "uuid": "f90b7a19-0b71-44b6-b95b-baab85af4d51",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych",
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam",
       "type": "vless",
-      "server": "mar.gafe-mgoh.ir",
-      "server_port": 7580,
-      "uuid": "5d96ae5c-baaa-4ec2-8c86-2aa3c4590ce4",
-      "packet_encoding": "xudp"
+      "server": "l88.magicnetwork.info",
+      "server_port": 443,
+      "uuid": "227ce18e-fe75-ecf1-d193-dea805d76bf2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vpnfastservice",
@@ -617,17 +709,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @vpnplusee_free",
       "type": "vless",
-      "server": "support.azadsv.sbs",
-      "server_port": 7856,
-      "uuid": "95104afa-182c-46cf-9742-22d4d120458c",
+      "server": "fi.sepshoping.de",
+      "server_port": 8016,
+      "uuid": "f90b7a19-0b71-44b6-b95b-baab85af4d51",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vpnplusee_free",
       "type": "vless",
-      "server": "germanyaram.stealthmode.space",
-      "server_port": 9682,
-      "uuid": "391118de-596c-4b79-a519-7b44e9efc92a",
+      "server": "victory.hamrahconfig.com",
+      "server_port": 4319,
+      "uuid": "8d4040e7-fcca-47d0-9ed2-ee4d16675224",
       "packet_encoding": "xudp"
     }
   ],

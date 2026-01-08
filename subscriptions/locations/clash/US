@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇸 US | VMESS | @Fr33C0nfig", "server": "172.234.132.232", "port": 10001, "type": "vmess", "skip-cert-verify": true, "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
@@ -51,7 +50,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | VMESS | @Fr33C0nfig'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇺🇸 US | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @ir_netproxy'

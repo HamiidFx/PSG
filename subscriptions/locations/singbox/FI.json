@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @Fr33C0nfig",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
@@ -106,9 +104,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @Fr33C0nfig",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
@@ -126,42 +122,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @Fr33C0nfig",
-      "type": "vless",
-      "server": "pysrvip.glovesstore1.ir",
-      "server_port": 3101,
-      "uuid": "8b31b301-5770-4b71-b1a9-8a9546e4fd12",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "total.soreanapanel.com",
-      "server_port": 443,
-      "uuid": "fb7d781d-4750-41ce-b88c-99e705d52a9d",
+      "server": "95.216.155.193",
+      "server_port": 2053,
+      "uuid": "b01672fa-f586-41a7-be01-bde3fc3c1ad1",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "37.27.89.117",
-      "server_port": 32323,
-      "uuid": "015e6f7b-c6df-470a-a22d-62b8b9947a4d",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @iranbfilter",

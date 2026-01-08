@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @flyv2ray",
         "🇳🇱 NL | VLESS | @free4allvpn",
@@ -119,14 +119,13 @@
         "🇳🇱 NL | SS | @outline_ir",
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
+        "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
-        "🇳🇱 NL | VLESS | @server_nekobox",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
+        "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -135,10 +134,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @flyv2ray",
         "🇳🇱 NL | VLESS | @free4allvpn",
@@ -164,14 +163,13 @@
         "🇳🇱 NL | SS | @outline_ir",
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
+        "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
-        "🇳🇱 NL | VLESS | @server_nekobox",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
+        "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -182,6 +180,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @Fr33C0nfig",
+      "type": "vless",
+      "server": "209.38.52.51",
+      "server_port": 4655,
+      "uuid": "1602a406-a38e-4211-bbdc-3f75c890303d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @bored_vpn",
@@ -208,49 +214,18 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "us.svnmobile.com",
-      "server_port": 443,
-      "uuid": "ce7a4abb-07be-48c7-97f2-1be3744bc2eb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "91.84.110.45",
+      "server_port": 8443,
+      "uuid": "a307515b-bfac-4dfb-a5ac-0dd5596e76f2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "37.16.74.124",
-      "server_port": 443,
-      "uuid": "854eea7a-c834-4f62-9e17-ae63d1086f36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @father_vpn",
-      "type": "shadowsocks",
-      "server": "193.29.139.240",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
+      "server": "s9.vless-balancer.ru",
+      "server_port": 4443,
+      "uuid": "96605f21-f706-45ae-8eeb-ec71efbca6a2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
@@ -483,6 +458,14 @@
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey",
       "type": "shadowsocks",
+      "server": "193.29.139.240",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
       "server": "193.29.139.188",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
@@ -523,28 +506,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @server_nekobox",
-      "type": "vless",
-      "server": "node.idealvpn.site",
-      "server_port": 443,
-      "uuid": "a5426375-3592-4e0c-9c17-1007e7b92660",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @sobi_vpn",
       "type": "vless",
       "server": "45.131.4.5",
@@ -561,11 +522,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_collector",
+      "tag": "🇳🇱 NL | VLESS | @v2aryng_vpn",
       "type": "vless",
-      "server": "208.67.105.196",
+      "server": "146.103.119.122",
       "server_port": 443,
-      "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f",
+      "uuid": "f2f81e0d-9486-493a-b207-248fd797c10b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -583,19 +544,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "77.238.224.29",
-      "server_port": 55702,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTMlF1ZEJ4aTB2UnlTdzRZUkxsb1Bx",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_collector",
       "type": "vless",
-      "server": "us.svnmobile.com",
+      "server": "208.67.105.196",
       "server_port": 443,
-      "uuid": "ce7a4abb-07be-48c7-97f2-1be3744bc2eb",
+      "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

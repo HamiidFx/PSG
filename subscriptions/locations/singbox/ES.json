@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @prrofile_purple",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @v2raych",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -99,7 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @prrofile_purple",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @v2raych",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
       "tag": "auto",
@@ -112,11 +114,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @prrofile_purple",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
-      "server": "ns.piche.pw",
-      "server_port": 8080,
-      "uuid": "7d591a13-9828-417c-aef9-63859280bb16",
+      "server": "subscription.lormarb.ir",
+      "server_port": 53762,
+      "uuid": "bfc1104e-5616-4f0f-8112-324d1ddd149d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @v2raych",
+      "type": "vless",
+      "server": "subscription.lormarb.ir",
+      "server_port": 53762,
+      "uuid": "bfc1104e-5616-4f0f-8112-324d1ddd149d",
       "packet_encoding": "xudp"
     },
     {

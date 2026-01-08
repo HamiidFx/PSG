@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy", "server": "tr.thepon.xyz", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "46221cac-0d9f-4280-8d6b-12e7f3e58b0c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt", "server": "188.132.141.49", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2b868940-71ca-41ed-833c-4657e8fd981b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt", "server": "188.132.141.49", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2b868940-71ca-41ed-833c-4657e8fd981b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych", "server": "tr.thepon.xyz", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "46221cac-0d9f-4280-8d6b-12e7f3e58b0c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam", "server": "tr.nicren.com", "port": 5678, "type": "vless", "skip-cert-verify": true, "uuid": "c4aac235-d112-4f6d-974c-70ae852093e1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -40,8 +42,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @config_proxy'
       - '🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt'
       - '🇹🇷 TR | VLESS | @kurdistan_vpn_perfectt'
+      - '🇹🇷 TR | VLESS | @v2raych'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig'
       - '🇹🇷 TR | VLESS | @vmesskhodam'
 
