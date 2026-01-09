@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray",
+        "🇦🇺 AU | VLESS | @hope_net",
         "🇦🇺 AU | VMESS | @khoneproxy",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -104,6 +105,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray",
+        "🇦🇺 AU | VLESS | @hope_net",
         "🇦🇺 AU | VMESS | @khoneproxy",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -132,6 +134,23 @@
         "path": "/qmbdkyzn",
         "headers": {
           "Host": "us-4.0rd.net"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @hope_net",
+      "type": "vless",
+      "server": "103.169.142.199",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇫🇷 FR | SS | @Fr33C0nfig",
-        "🇫🇷 FR | SS | @config_proxy",
+        "🇫🇷 FR | TROJAN | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -126,7 +126,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | SS | @Fr33C0nfig",
-        "🇫🇷 FR | SS | @config_proxy",
+        "🇫🇷 FR | TROJAN | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -172,12 +172,20 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "57.128.190.212",
-      "server_port": 10013,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkYTA2MGE4ZGUzNDY3MTc0",
-      "password": null
+      "tag": "🇫🇷 FR | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "13.39.131.176",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @kafing_2",
@@ -309,7 +317,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns",
       "type": "trojan",
-      "server": "13.37.94.158",
+      "server": "13.39.131.176",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -468,7 +476,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
       "type": "trojan",
-      "server": "13.37.94.158",
+      "server": "13.39.131.176",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -484,7 +492,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig",
       "type": "vless",
-      "server": "13.37.94.158",
+      "server": "13.39.131.176",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

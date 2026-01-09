@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
+        "🇮🇹 IT | VLESS | @turboo_server",
         "🇮🇹 IT | VLESS | @turboo_server"
       ],
       "tag": "proxy",
@@ -100,8 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
+        "🇮🇹 IT | VLESS | @turboo_server",
         "🇮🇹 IT | VLESS | @turboo_server"
       ],
       "tag": "auto",
@@ -112,14 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "server.ultra-irancell.com",
-      "server_port": 80,
-      "uuid": "turboo-server",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇹 IT | VLESS | @flyv2ray",
@@ -135,6 +127,14 @@
       "server": "server.ultra-irancell.com",
       "server_port": 80,
       "uuid": "telegram-turboo-server",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @turboo_server",
+      "type": "vless",
+      "server": "server.ultra-irancell.com",
+      "server_port": 80,
+      "uuid": "turboo-server",
       "packet_encoding": "xudp"
     }
   ],

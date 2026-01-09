@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @filterk0sh", "server": "93.127.180.123", "port": 3030, "type": "vless", "skip-cert-verify": true, "uuid": "ed82ccaa-4924-41a6-90a1-8facadf38841", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @iran_access", "server": "uae.kitten-tube.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "414df689-dc19-418b-849c-f0f15967d71e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @filterk0sh'
       - '🇦🇪 AE | VLESS | @iran_access'
 
   - name: 🌍 Global Media

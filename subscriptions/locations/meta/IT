@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇹 IT | VLESS | @config_proxy", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @flyv2ray", "server": "146.75.55.82", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f78e701b-dd93-49ce-94a0-706df52094db", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @turboo_server", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @turboo_server", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | VLESS | @config_proxy'
       - '🇮🇹 IT | VLESS | @flyv2ray'
+      - '🇮🇹 IT | VLESS | @turboo_server'
       - '🇮🇹 IT | VLESS | @turboo_server'
 
   - name: 🌍 Global Media

@@ -77,6 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -86,6 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -101,6 +107,48 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
+      "server_port": 54746,
+      "uuid": "f216d282-5d00-4f2b-85ea-7c7d2ffd20b2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "world-of.ru",
+      "server_port": 443,
+      "uuid": "f599f347-1579-4477-b9f9-d77c2bedb40a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
+      "server_port": 443,
+      "uuid": "a854e450-56f0-42a2-adcf-21fb44055d0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @freeconfigsplus",

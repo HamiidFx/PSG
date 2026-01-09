@@ -80,13 +80,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇯🇵 JP | VLESS | @config_proxy",
-        "🇩🇪 DE | VLESS | @config_proxy",
-        "🇬🇧 GB | VLESS | @config_proxy",
-        "🇺🇸 US | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
+        "🇯🇵 JP | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
@@ -128,13 +129,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇯🇵 JP | VLESS | @config_proxy",
-        "🇩🇪 DE | VLESS | @config_proxy",
-        "🇬🇧 GB | VLESS | @config_proxy",
-        "🇺🇸 US | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
+        "🇯🇵 JP | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
@@ -253,11 +255,27 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy",
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "japan.geodema.network",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "02c0e5f5-dee7-42b2-8864-6df6b86ba3d5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
+      "server_port": 54746,
+      "uuid": "f216d282-5d00-4f2b-85ea-7c7d2ffd20b2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
+      "uuid": "f599f347-1579-4477-b9f9-d77c2bedb40a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -266,20 +284,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
-      "server": "german.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "server": "tunnyl.ru",
+      "server_port": 443,
+      "uuid": "a854e450-56f0-42a2-adcf-21fb44055d0a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -288,55 +301,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "england.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "usa.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -378,6 +342,28 @@
       "server_port": 56222,
       "uuid": "427621be-1ecd-4e71-ac64-8e7ed635ef34",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @free1_vpn",
+      "type": "vless",
+      "server": "japan.geodema.network",
+      "server_port": 443,
+      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @freeconfigsplus",

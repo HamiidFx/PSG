@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | TROJAN | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @mftizi",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf"
+        "🇭🇰 HK | SS | @netfreedom0"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | TROJAN | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @mftizi",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf"
+        "🇭🇰 HK | SS | @netfreedom0"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +105,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "58.152.110.104",
+      "server_port": 443,
+      "password": "381f2e86233720eacda26d50e9aa26da",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nintendogames.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
@@ -146,22 +162,6 @@
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "0ca4305f-t6r5s0-thv9l4-1jbj0.hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "0ca4305f-t6r5s0-thv9l4-1jbj0.hkt.gotochinatown.net"
-        }
-      }
     }
   ],
   "route": {
