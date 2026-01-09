@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
-  - {"name": "🇦🇺 AU | VLESS | @hope_net", "server": "103.169.142.199", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇺 AU | VMESS | @khoneproxy", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
   - {"name": "🇦🇺 AU | VLESS | @nofilter_v2rayng", "server": "45.15.185.69", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇦🇺 AU | VMESS | @v2rayngconfig", "server": "vde2.0bad.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "927094d3-d678-4763-8591-e240d0bcae87", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/chat", "headers": {"Host": "vde2.0bad.com"}}}
@@ -44,7 +43,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇺 AU | VMESS | @dailyv2ray'
-      - '🇦🇺 AU | VLESS | @hope_net'
       - '🇦🇺 AU | VMESS | @khoneproxy'
       - '🇦🇺 AU | VLESS | @nofilter_v2rayng'
       - '🇦🇺 AU | VMESS | @v2rayngconfig'

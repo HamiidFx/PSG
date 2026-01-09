@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
+        "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -124,6 +125,7 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
@@ -149,7 +151,8 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
+        "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -182,6 +185,7 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
@@ -218,12 +222,34 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
       "type": "vless",
-      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
-      "packet_encoding": "xudp"
+      "server": "5.181.21.101",
+      "server_port": 4443,
+      "uuid": "146ea0d5-f02d-4f72-9665-04be2df345d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "141.98.101.179",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
@@ -527,6 +553,14 @@
       "server": "146.70.61.37",
       "server_port": 8080,
       "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "82.38.31.187",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
