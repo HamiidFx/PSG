@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @config_proxy",
+        "🇦🇹 AT | VLESS | @configv2rayforfree",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -99,6 +101,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @config_proxy",
+        "🇦🇹 AT | VLESS | @configv2rayforfree",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -110,6 +114,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "212.183.88.146",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @configv2rayforfree",
+      "type": "vless",
+      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇹 AT | VLESS | @orange_vpns",

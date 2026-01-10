@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @configv2rayforfree", "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy", "server": "217.163.76.97", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -50,7 +50,6 @@ proxies:
   - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpn_ioss", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpnowl", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vpnplusee_free", "server": "25.25.25.25", "port": 2082, "type": "vless", "skip-cert-verify": true, "uuid": "49dc83cd-26bb-497b-b395-d00bcca54b24", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpnplusee_free", "server": "25.26.27.28", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "011551f8-584f-4745-9aa3-c76e0c827940", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -65,7 +64,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VLESS | @configv2rayforfree'
+      - '🇬🇧 GB | VLESS | @config_proxy'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'
@@ -92,7 +91,6 @@ proxy-groups:
       - '🇬🇧 GB | VLESS | @vmesc'
       - '🇬🇧 GB | VLESS | @vpn_ioss'
       - '🇬🇧 GB | VLESS | @vpnowl'
-      - '🇬🇧 GB | VLESS | @vpnplusee_free'
       - '🇬🇧 GB | VLESS | @vpnplusee_free'
 
   - name: 🌍 Global Media

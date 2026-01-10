@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +130,21 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych",
+      "type": "vless",
+      "server": "31.43.179.138",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     }

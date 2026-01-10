@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -122,7 +122,6 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
         "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free",
         "🇬🇧 GB | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
@@ -132,8 +131,8 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -176,7 +175,6 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
         "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free",
         "🇬🇧 GB | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
@@ -201,20 +199,29 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "217.163.76.97",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | SS | @config_proxy",
       "type": "shadowsocks",
       "server": "141.98.101.179",
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
-      "type": "vless",
-      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
@@ -600,14 +607,6 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "25.25.25.25",
-      "server_port": 2082,
-      "uuid": "49dc83cd-26bb-497b-b395-d00bcca54b24",
       "packet_encoding": "xudp"
     },
     {

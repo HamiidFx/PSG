@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -114,9 +115,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -127,6 +126,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -161,9 +161,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -249,6 +247,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "yellowbluegreenred.worldwebhunter.com",
+      "server_port": 2083,
+      "uuid": "bdcd3f0e-7aac-407b-a968-53444c2f2499",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
@@ -1003,40 +1010,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "217.69.5.32",
-      "server_port": 443,
-      "uuid": "ec4c349c-b3c6-4cff-be63-01eaad1dc098",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
         }
       }
     }
