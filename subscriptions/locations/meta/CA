@@ -28,6 +28,7 @@ proxies:
   - {"name": "🇨🇦 CA | VLESS | @lemonshopvpn", "server": "ubia2-join.outline-vpn.cloud", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @serverv2ray00", "server": "23.227.60.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @vpnowl", "server": "198.50.119.86", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇦 CA | VMESS | @NamiraConfigs", "server": "51.79.102.253", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "58fe1542-5290-40ad-815a-77707a81afe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/IOebhLMhl1CTbFHbL95myfRX2", "headers": {"Host": "51.79.102.253"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -46,6 +47,7 @@ proxy-groups:
       - '🇨🇦 CA | VLESS | @lemonshopvpn'
       - '🇨🇦 CA | VLESS | @serverv2ray00'
       - '🇨🇦 CA | VLESS | @vpnowl'
+      - '🇨🇦 CA | VMESS | @NamiraConfigs'
 
   - name: 🌍 Global Media
     type: select

@@ -107,7 +107,7 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VLESS | @v2raych",
+        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -146,7 +146,7 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VLESS | @v2raych",
+        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -217,9 +217,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "yofree.top",
+      "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "e3b0b0e6-ee1b-11f0-85a4-52540015e6ea",
+      "uuid": "58163454-49f2-412a-8c2b-5c4a9d8bd3ce",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -508,21 +508,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
-      "type": "vless",
-      "server": "nl01-vlr01.tcp-reset-club.net",
-      "server_port": 443,
-      "uuid": "cf93275f-9805-4a4c-a5f7-ac0423b92d02",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "213.176.16.71",
+      "server_port": 4966,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWE9WakVNc3gwMGplT1F6SHNRcmtM",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

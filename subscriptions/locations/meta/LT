@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇱🇹 LT | VLESS | @oonfig", "server": "lpersianvpnl.salehpersian.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce5c2b77-919b-438f-b10c-a55dd9990f49", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "lpersianvpnl.salehpersian.com"}}}
-  - {"name": "🇱🇹 LT | VLESS | @prrofile_purple", "server": "ns.piche.pw", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7d591a13-9828-417c-aef9-63859280bb16", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇹 LT | VLESS | @v2ray_collector", "server": "89.116.180.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -40,7 +39,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇱🇹 LT | VLESS | @oonfig'
-      - '🇱🇹 LT | VLESS | @prrofile_purple'
       - '🇱🇹 LT | VLESS | @v2ray_collector'
 
   - name: 🌍 Global Media

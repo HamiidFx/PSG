@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "hield.ru", "port": 3389, "type": "vless", "skip-cert-verify": true, "uuid": "8535e890-5d40-472d-bf10-cc90432d1136", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "65.109.178.83", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "finland.aparat-movies-download.ir", "port": 42538, "type": "vless", "skip-cert-verify": true, "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus", "server": "grok.zarlyt-ok3.ir", "port": 9828, "type": "vless", "skip-cert-verify": true, "uuid": "28ef7769-b7a8-478f-bac7-052494312c01", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -42,6 +43,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @config_proxy'
       - '🇫🇮 FI | VLESS | @flyv2ray'
       - '🇫🇮 FI | VLESS | @flyv2ray'
       - '🇫🇮 FI | VLESS | @freeconfigsplus'

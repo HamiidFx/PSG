@@ -9,15 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | TROJAN | @config_proxy = trojan, 58.152.46.60, 443, password = BxceQaOe, skip-cert-verify = true
-🇭🇰 HK | TROJAN | @config_proxy = trojan, 58.152.46.60, 443, password = BxceQaOe, skip-cert-verify = true
-🇭🇰 HK | TROJAN | @config_proxy = trojan, 58.152.46.60, 443, password = BxceQaOe, skip-cert-verify = true
 🇭🇰 HK | VMESS | @freev2rays = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
-PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
-PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | TROJAN | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @freev2rays
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @freev2rays
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @freev2rays
 
 [Rule]
 GEOIP,IR,DIRECT
