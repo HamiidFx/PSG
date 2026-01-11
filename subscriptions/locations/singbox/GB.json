@@ -91,10 +91,9 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @frev2rayng",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -106,6 +105,7 @@
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | VLESS | @komail315",
+        "🇬🇧 GB | VLESS | @miov2ray",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
@@ -119,7 +119,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
@@ -135,8 +134,7 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
-        "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇬🇧 GB | VLESS | @vpnowl"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -145,10 +143,9 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @frev2rayng",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -160,6 +157,7 @@
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | VLESS | @komail315",
+        "🇬🇧 GB | VLESS | @miov2ray",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
@@ -173,7 +171,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
@@ -189,8 +186,7 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
-        "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇬🇧 GB | VLESS | @vpnowl"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -210,31 +206,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "141.98.101.179",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "uk1.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "582f44d4-4511-402c-a0b7-b5771a2a5c9d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
       "type": "shadowsocks",
       "server": "141.98.101.182",
@@ -249,6 +220,14 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @frev2rayng",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 80,
+      "uuid": "815724d3-0d61-4761-be07-471441d42be5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @kafing_2",
@@ -346,6 +325,23 @@
       "server_port": 8880,
       "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @miov2ray",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0",
@@ -474,14 +470,6 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "api-saronet.sarhadpirani.ir",
-      "server_port": 2052,
-      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
       "packet_encoding": "xudp"
     },
     {
@@ -626,14 +614,6 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "25.26.27.28",
-      "server_port": 2086,
-      "uuid": "011551f8-584f-4745-9aa3-c76e0c827940",
       "packet_encoding": "xudp"
     }
   ],

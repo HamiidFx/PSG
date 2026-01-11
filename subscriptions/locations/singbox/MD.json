@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | TROJAN | @orange_vpns",
+        "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "proxy",
@@ -99,7 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | TROJAN | @orange_vpns",
+        "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "auto",
@@ -112,11 +112,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | TROJAN | @orange_vpns",
-      "type": "trojan",
-      "server": "trunker.cc",
-      "server_port": 8080,
-      "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
+      "tag": "🇲🇩 MD | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "213.159.76.21",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTnFuWWYza0hlc09wQ2NoUnZVWnhmd1RhZlJzT2o3Zw==",
+      "password": null
     },
     {
       "tag": "🇲🇩 MD | SS | @vmesc",

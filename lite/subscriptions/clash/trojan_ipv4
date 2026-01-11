@@ -24,11 +24,12 @@ dns:
 
 proxies: 
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.67.203.189", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "e53ecb38-1974-4cca-b640-039e1f310710"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns", "server": "15.236.102.248", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇩🇪 DE | TROJAN | @privatevpns", "server": "18.195.170.99", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns", "server": "52.47.67.33", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @v2rayngconfig", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad"}
   - {"name": "🇽🇽 XX | TROJAN | @v2rayngconfiig", "server": "104.18.26.90", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Xa4%5El%28%3B.%3BB%23a"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel", "server": "15.236.102.248", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel", "server": "18.195.170.99", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel", "server": "52.47.67.33", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇫🇷 FR | TROJAN | @vpn_ioss", "server": "88.214.24.235", "port": 9443, "type": "trojan", "skip-cert-verify": false, "password": "02948bde80594712b974368035f294dd"}
 
 proxy-groups:
@@ -44,11 +45,12 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇽🇽 XX | TROJAN | @config_proxy'
+      - '🇩🇪 DE | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @v2rayngconfig'
       - '🇽🇽 XX | TROJAN | @v2rayngconfiig'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel'
       - '🇩🇪 DE | TROJAN | @v2rayvpnchannel'
+      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel'
       - '🇫🇷 FR | TROJAN | @vpn_ioss'
 
   - name: 🌍 Global Media
