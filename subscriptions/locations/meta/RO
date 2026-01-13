@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇴 RO | VLESS | @v2raych", "server": "rou01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇴 RO | VLESS | @vpnplusee_free", "server": "45.85.118.241", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fa91291a-7234-49fd-be27-34141258b159", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇴 RO | VLESS | @vpnplusee_free", "server": "45.85.118.241", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fa91291a-7234-49fd-be27-34141258b159", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇴 RO | VLESS | @vpnplusee_free", "server": "45.85.119.44", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "01973bf7-048a-4dc6-a82b-2fa3be7046a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇴 RO | VLESS | @v2raych'
       - '🇷🇴 RO | VLESS | @vpnplusee_free'
       - '🇷🇴 RO | VLESS | @vpnplusee_free'
       - '🇷🇴 RO | VLESS | @vpnplusee_free'

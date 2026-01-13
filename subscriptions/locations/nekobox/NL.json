@@ -79,9 +79,10 @@
         "direct",
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
-        "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
@@ -106,6 +107,7 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -116,9 +118,10 @@
       "outbounds": [
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
-        "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
@@ -143,6 +146,7 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -183,9 +187,17 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "world-of.ru",
+      "server": "144.124.240.217",
+      "server_port": 4443,
+      "uuid": "d5d5b641-dd56-4f39-9754-8d3c45cc2c5e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "nl03-vlr01.tcp-reset-club.net",
       "server_port": 443,
-      "uuid": "689679c6-e9db-486a-8b24-88bd1bb82b14",
+      "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -194,6 +206,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.131.4.246",
+      "server_port": 2082,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -226,23 +253,6 @@
       "server_port": 3001,
       "uuid": "61757901-3818-46c7-8482-683fa7f6ba10",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "trial.axo.foundation",
-      "server_port": 443,
-      "uuid": "8f9ef160-7a47-4bde-918a-7ef36d4f2579",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | TROJAN | @manstervpn",
@@ -487,6 +497,21 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "45.131.4.246",
+      "server_port": 2082,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

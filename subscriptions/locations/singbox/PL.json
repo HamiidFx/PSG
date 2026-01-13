@@ -90,8 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy",
         "🇵🇱 PL | VLESS | @kafing_2",
-        "🇵🇱 PL | SS | @outlinereleasedkey"
+        "🇵🇱 PL | SS | @outlinereleasedkey",
+        "🇵🇱 PL | SS | @v2ray_free_conf",
+        "🇵🇱 PL | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy",
         "🇵🇱 PL | VLESS | @kafing_2",
-        "🇵🇱 PL | SS | @outlinereleasedkey"
+        "🇵🇱 PL | SS | @outlinereleasedkey",
+        "🇵🇱 PL | SS | @v2ray_free_conf",
+        "🇵🇱 PL | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "pl.skytunnel.pw",
+      "server_port": 8443,
+      "uuid": "a0f8bf0f-4cf0-4848-aa0c-032a1a47012e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇵🇱 PL | VLESS | @kafing_2",
@@ -126,6 +140,26 @@
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9003,
+      "method": "YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "144.31.0.65",
+      "server_port": 8443,
+      "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {

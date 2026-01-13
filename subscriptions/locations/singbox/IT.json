@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
-        "🇮🇹 IT | VLESS | @prrofile_purple",
-        "🇮🇹 IT | VLESS | @prrofile_purple"
+        "🇮🇹 IT | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
-        "🇮🇹 IT | VLESS | @prrofile_purple",
-        "🇮🇹 IT | VLESS | @prrofile_purple"
+        "🇮🇹 IT | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +114,23 @@
       "type": "direct"
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "217.12.219.51",
+      "server_port": 443,
+      "uuid": "34ef4875-477f-4b8d-8e60-e230379f21ef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇹 IT | VLESS | @flyv2ray",
       "type": "vless",
       "server": "146.75.55.82",
@@ -122,20 +139,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @prrofile_purple",
+      "tag": "🇮🇹 IT | VLESS | @v2raych",
       "type": "vless",
-      "server": "ip.fastlynew.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-86",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ip.fastlynew.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-87",
-      "packet_encoding": "xudp"
+      "server": "217.12.219.51",
+      "server_port": 443,
+      "uuid": "34ef4875-477f-4b8d-8e60-e230379f21ef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

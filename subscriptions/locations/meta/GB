@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @config_proxy", "server": "194.36.55.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @config_proxy", "server": "api-saronet.zirakomamle.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @configv2rayforfree", "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -67,8 +65,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇬🇧 GB | VLESS | @config_proxy'
-      - '🇬🇧 GB | VLESS | @config_proxy'
-      - '🇬🇧 GB | VLESS | @configv2rayforfree'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'

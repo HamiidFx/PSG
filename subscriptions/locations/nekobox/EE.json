@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @v2raych",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @v2raych",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "auto",
@@ -99,6 +101,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2raych",
+      "type": "vless",
+      "server": "ee.rakslinevpn.su",
+      "server_port": 443,
+      "uuid": "b75e183a-03cf-4dd9-a171-1f71c07e8fef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇪 EE | VLESS | @vip_vpn_2022",

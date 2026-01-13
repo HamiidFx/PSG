@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "pl.skytunnel.pw", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a0f8bf0f-4cf0-4848-aa0c-032a1a47012e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @kafing_2", "server": "poland.4uvpn1.us", "port": 52361, "type": "vless", "skip-cert-verify": true, "uuid": "9c0857dc-2900-4038-ac5e-c0bc189405d7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych", "server": "144.31.0.65", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇵🇱 PL | VLESS | @config_proxy'
       - '🇵🇱 PL | VLESS | @kafing_2'
+      - '🇵🇱 PL | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

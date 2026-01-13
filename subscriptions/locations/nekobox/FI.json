@@ -77,13 +77,15 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | SS | @v2ray_free_conf"
+        "🇫🇮 FI | VLESS | @v2raych",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,13 +93,15 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | SS | @v2ray_free_conf"
+        "🇫🇮 FI | VLESS | @v2raych",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,6 +115,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "144.31.66.240",
+      "server_port": 443,
+      "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @flyv2ray",
@@ -209,12 +230,29 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "45.15.127.49",
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "37.27.89.117",
+      "server_port": 13212,
+      "uuid": "552ec06f-7cd9-4c5e-ae5a-e00944e397fc",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "144.31.66.240",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5WG9pRURGTVZvckdVZUtsYTc3azdzRVhDZVNFNXIyQQ==",
-      "password": null
+      "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

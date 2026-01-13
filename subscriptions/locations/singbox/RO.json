@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇴 RO | SS | @config_proxy",
+        "🇷🇴 RO | VLESS | @v2raych",
         "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free"
@@ -102,6 +103,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇴 RO | SS | @config_proxy",
+        "🇷🇴 RO | VLESS | @v2raych",
         "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free"
@@ -122,6 +124,23 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2raych",
+      "type": "vless",
+      "server": "rou01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇴 RO | VLESS | @vpnplusee_free",
