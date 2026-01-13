@@ -94,38 +94,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @config_proxy",
-        "🇺🇸 US | TROJAN | @free4allvpn",
-        "🇳🇱 NL | TROJAN | @manstervpn",
-        "🇽🇽 XX | TROJAN | @manstervpn",
-        "🇽🇽 XX | TROJAN | @manstervpn",
-        "🇩🇪 DE | TROJAN | @privatevpns",
-        "🇫🇷 FR | TROJAN | @privatevpns",
-        "🇫🇷 FR | TROJAN | @proxyfn",
-        "🇺🇸 US | TROJAN | @v2ray_collector",
-        "🇫🇷 FR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇫🇷 FR | TROJAN | @v2rayngconfig",
-        "🇩🇪 DE | TROJAN | @v2rayngconfig",
-        "🇽🇽 XX | TROJAN | @v2rayngconfiig",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | TROJAN | @vpn_ioss",
-        "🇯🇵 JP | TROJAN | @free4allvpn",
-        "🇲🇩 MD | TROJAN | @orange_vpns",
-        "🇽🇽 XX | TROJAN | @satellitenewspersian",
-        "🇽🇽 XX | TROJAN | @teamvpnpro",
-        "🇽🇽 XX | TROJAN | @teamvpnpro",
-        "🇽🇽 XX | TROJAN | @vpn_ioss"
-      ],
-      "tag": "proxy",
-      "type": "selector"
-    },
-    {
-      "interval": "10m",
-      "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @config_proxy",
         "🇺🇸 US | TROJAN | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -143,8 +111,40 @@
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss",
-        "🇯🇵 JP | TROJAN | @free4allvpn",
-        "🇲🇩 MD | TROJAN | @orange_vpns",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
+        "🇽🇽 XX | TROJAN | @satellitenewspersian",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @teamvpnpro",
+        "🇽🇽 XX | TROJAN | @vpn_ioss"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | TROJAN | @config_proxy",
+        "🇽🇽 XX | TROJAN | @config_proxy",
+        "🇺🇸 US | TROJAN | @free4allvpn",
+        "🇳🇱 NL | TROJAN | @manstervpn",
+        "🇽🇽 XX | TROJAN | @manstervpn",
+        "🇽🇽 XX | TROJAN | @manstervpn",
+        "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @proxyfn",
+        "🇺🇸 US | TROJAN | @v2ray_collector",
+        "🇫🇷 FR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇫🇷 FR | TROJAN | @v2rayngconfig",
+        "🇩🇪 DE | TROJAN | @v2rayngconfig",
+        "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @vpn_ioss",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇽🇽 XX | TROJAN | @satellitenewspersian",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
@@ -237,6 +237,22 @@
       "server": "104.18.42.163",
       "server_port": 2096,
       "password": "f52d0a04-94ad-4f9e-9945-4c3d43374e36"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "172.67.203.189",
+      "server_port": 443,
+      "password": "e53ecb38-1974-4cca-b640-039e1f310710",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | TROJAN | @free4allvpn",
@@ -477,23 +493,7 @@
       "password": "02948bde80594712b974368035f294dd"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @free4allvpn",
-      "type": "trojan",
-      "server": "kuame.missionsec.us",
-      "server_port": 443,
-      "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | TROJAN | @orange_vpns",
+      "tag": "🇨🇾 CY | TROJAN | @orange_vpns",
       "type": "trojan",
       "server": "trunker.cc",
       "server_port": 8080,

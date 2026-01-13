@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "104.18.42.163", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "f52d0a04-94ad-4f9e-9945-4c3d43374e36"}
+  - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.67.203.189", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "e53ecb38-1974-4cca-b640-039e1f310710"}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇳🇱 NL | TROJAN | @manstervpn", "server": "185.176.24.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "172.66.44.141", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
@@ -53,6 +54,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇳🇱 NL | TROJAN | @manstervpn'

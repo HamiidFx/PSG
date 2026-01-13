@@ -90,13 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple"
+        "🇫🇮 FI | VLESS | @prrofile_purple",
+        "🇫🇮 FI | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,13 +104,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple"
+        "🇫🇮 FI | VLESS | @prrofile_purple",
+        "🇫🇮 FI | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,14 +120,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "455e89e0-db5f-4cba-80a4-ae4114ca3263",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @flyv2ray",
@@ -224,6 +216,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "45.15.127.49",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5WG9pRURGTVZvckdVZUtsYTc3azdzRVhDZVNFNXIyQQ==",
+      "password": null
     }
   ],
   "route": {

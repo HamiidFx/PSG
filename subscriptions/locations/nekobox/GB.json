@@ -78,6 +78,8 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -104,7 +106,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
@@ -130,6 +131,8 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -156,7 +159,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
@@ -195,6 +197,31 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "194.36.55.180",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "api-saronet.zirakomamle.com",
+      "server_port": 2052,
+      "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
@@ -444,14 +471,6 @@
       "server": "api-saronet.zirakomamle.com",
       "server_port": 2082,
       "uuid": "5e182110-8d13-4aa4-abf6-f3081628e1d0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "api-saronet.zirakomamle.com",
-      "server_port": 2052,
-      "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2",
       "packet_encoding": "xudp"
     },
     {
