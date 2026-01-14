@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @free1_vpn",
+        "🇯🇵 JP | VLESS | @hope_net",
         "🇯🇵 JP | VLESS | @kafing_2",
         "🇯🇵 JP | SS | @outlinereleasedkey"
       ],
@@ -88,8 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @free1_vpn",
+        "🇯🇵 JP | VLESS | @hope_net",
         "🇯🇵 JP | VLESS | @kafing_2",
         "🇯🇵 JP | SS | @outlinereleasedkey"
       ],
@@ -107,12 +109,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "172.105.199.111",
-      "server_port": 8080,
-      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
-      "password": null
+      "tag": "🇯🇵 JP | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "141.147.144.109",
+      "server_port": 443,
+      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @free1_vpn",
@@ -133,6 +144,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @hope_net",
+      "type": "vless",
+      "server": "158.101.154.245",
+      "server_port": 47001,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

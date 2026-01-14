@@ -23,13 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VMESS | @config_proxy", "server": "yellowbluegreenred.worldwebhunter.com", "port": 2083, "type": "vmess", "skip-cert-verify": true, "uuid": "bdcd3f0e-7aac-407b-a968-53444c2f2499", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": false}
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy", "server": "188.253.17.126", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "b82d5a1d-88be-47ea-b59d-2eb0a36b3922", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @filtershekan_channel", "server": "lv.rush-server.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cb495349-f0c5-464d-89a3-6f162c04b906", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇻 LV | VLESS | @free4allvpn", "server": "195.135.252.28", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @prrofile_purple", "server": "gos9.portal-guard.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "805b52df-0581-495b-b8b5-b99594424053", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @prrofile_purple", "server": "104.165.205.172", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "805b52df-0581-495b-b8b5-b99594424053", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇻 LV | VLESS | @v2raych", "server": "188.253.17.126", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "b82d5a1d-88be-47ea-b59d-2eb0a36b3922", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @vpnowl", "server": "213.165.63.67", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "843a1bd1-d63b-4b54-ba31-4803ac40f527", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -44,13 +41,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VMESS | @config_proxy'
-      - '🇱🇻 LV | VLESS | @config_proxy'
       - '🇱🇻 LV | VLESS | @filtershekan_channel'
       - '🇱🇻 LV | VLESS | @free4allvpn'
       - '🇱🇻 LV | VLESS | @prrofile_purple'
       - '🇱🇻 LV | VLESS | @prrofile_purple'
-      - '🇱🇻 LV | VLESS | @v2raych'
       - '🇱🇻 LV | VLESS | @vpnowl'
 
   - name: 🌍 Global Media

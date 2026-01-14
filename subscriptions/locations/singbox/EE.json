@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @config_proxy",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @config_proxy",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "23.230.179.116",
+      "server_port": 443,
+      "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇪 EE | VLESS | @vip_vpn_2022",

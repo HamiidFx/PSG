@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | VLESS | @config_proxy", "server": "212.183.88.103", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @hope_net", "server": "212.183.88.103", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @hope_net", "server": "212.183.88.142", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇹 AT | VLESS | @orange_vpns", "server": "212.183.88.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | VLESS | @config_proxy'
+      - '🇦🇹 AT | VLESS | @hope_net'
+      - '🇦🇹 AT | VLESS | @hope_net'
       - '🇦🇹 AT | VLESS | @orange_vpns'
 
   - name: 🌍 Global Media

@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇱 AL | VLESS | @config_proxy", "server": "45.15.170.217", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "b82d5a1d-88be-47ea-b59d-2eb0a36b3922", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇱 AL | VLESS | @netmellianti", "server": "185.177.238.18", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4d388def-074d-4cf6-997d-6144c75a6da8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇱 AL | VLESS | @config_proxy'
       - '🇦🇱 AL | VLESS | @netmellianti'
 
   - name: 🌍 Global Media
