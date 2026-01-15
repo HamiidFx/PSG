@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇾 CY | VLESS | @config_proxy", "server": "171.22.114.248", "port": 27394, "type": "vless", "skip-cert-verify": true, "uuid": "00b0d4de-b126-4511-87c1-8f1feb462fa6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇾 CY | VLESS | @free4allvpn", "server": "171.22.114.248", "port": 27394, "type": "vless", "skip-cert-verify": true, "uuid": "00b0d4de-b126-4511-87c1-8f1feb462fa6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇾 CY | TROJAN | @orange_vpns", "server": "trunker.cc", "port": 8080, "type": "trojan", "skip-cert-verify": false, "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"}
   - {"name": "🇨🇾 CY | VLESS | @v2ray_collector", "server": "45.82.251.63", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "e4824193-4f54-453b-d037-88368e85ef0e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -45,7 +44,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇾 CY | VLESS | @config_proxy'
       - '🇨🇾 CY | VLESS | @free4allvpn'
       - '🇨🇾 CY | TROJAN | @orange_vpns'
       - '🇨🇾 CY | VLESS | @v2ray_collector'

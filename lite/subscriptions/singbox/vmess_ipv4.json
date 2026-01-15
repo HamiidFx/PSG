@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -101,7 +100,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc"
+        "🇫🇷 FR | VMESS | @selinc",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +112,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -120,7 +119,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc"
+        "🇫🇷 FR | VMESS | @selinc",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,22 +195,6 @@
           "fingerprint": "chrome"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "104.19.46.36",
-      "server_port": 2086,
-      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-      "security": "auto",
-      "alter_id": 0,
       "transport": {
         "type": "ws",
         "path": "",
@@ -355,6 +339,31 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "91.134.8.101",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

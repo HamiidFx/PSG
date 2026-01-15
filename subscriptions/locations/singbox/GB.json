@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -120,9 +121,7 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
-        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
@@ -143,6 +142,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -173,9 +173,7 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
-        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
@@ -198,6 +196,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "api-saronet.zirakomamle.com",
+      "server_port": 2052,
+      "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @config_proxy",
@@ -458,14 +464,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "api-saronet.zirakomamle.com",
-      "server_port": 2052,
-      "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @satellitenewspersian",
       "type": "vless",
       "server": "23.81.33.188",
@@ -486,14 +484,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2ray_vmes",

@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇱🇻 LV | VLESS | @filtershekan_channel",
         "🇱🇻 LV | VLESS | @free4allvpn",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -89,6 +90,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇱🇻 LV | VLESS | @filtershekan_channel",
         "🇱🇻 LV | VLESS | @free4allvpn",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -107,6 +109,15 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇻 LV | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "yellowbluegreenred.worldwebhunter.com",
+      "server_port": 2083,
+      "uuid": "bdcd3f0e-7aac-407b-a968-53444c2f2499",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇱🇻 LV | VLESS | @filtershekan_channel",

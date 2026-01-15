@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | SS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -112,9 +112,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
-        "🇷🇺 RU | SS | @v2raych",
-        "🇷🇺 RU | SS | @v2raych",
-        "🇷🇺 RU | SS | @v2raych",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc"
       ],
@@ -124,7 +121,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | SS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -146,9 +143,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
-        "🇷🇺 RU | SS | @v2raych",
-        "🇷🇺 RU | SS | @v2raych",
-        "🇷🇺 RU | SS | @v2raych",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc"
       ],
@@ -162,21 +156,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "217.198.13.50",
-      "server_port": 443,
-      "uuid": "d684cb56-e4b8-4453-8a7b-a1ad8c81935a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇷🇺 RU | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "178.130.46.148",
+      "server_port": 47345,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuR1NSdlo1SXNZY1JORHBEdE5WcmtW",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -543,30 +528,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2raych",
-      "type": "shadowsocks",
-      "server": "195.58.49.100",
-      "server_port": 30312,
-      "method": "YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ==",
-      "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2raych",
-      "type": "shadowsocks",
-      "server": "195.133.5.213",
-      "server_port": 20219,
-      "method": "YWVzLTI1Ni1nY206OWNhMjgwM2MxNmRlNzJjZA==",
-      "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2raych",
-      "type": "shadowsocks",
-      "server": "46.17.44.76",
-      "server_port": 1012,
-      "method": "YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ==",
-      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg",

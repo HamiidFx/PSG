@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy", "server": "api-saronet.zirakomamle.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -37,7 +38,6 @@ proxies:
   - {"name": "🇬🇧 GB | VLESS | @prrofile_purple", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @prrofile_purple", "server": "api-saronet.zirakomamle.com", "port": 2082, "type": "vless", "skip-cert-verify": true, "uuid": "5e182110-8d13-4aa4-abf6-f3081628e1d0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @prrofile_purple", "server": "api-saronet.sarhadpirani.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @prrofile_purple", "server": "api-saronet.zirakomamle.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8b3a519e-6977-4b9d-96d6-ee42490c7fc2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @satellitenewspersian", "server": "23.81.33.188", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @v2ray_vmes", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @v2ray_vmes", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -65,6 +65,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @config_proxy'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'
       - '🇬🇧 GB | VLESS | @kafing_2'
@@ -72,7 +73,6 @@ proxy-groups:
       - '🇬🇧 GB | VLESS | @komail315'
       - '🇬🇧 GB | VLESS | @orange_vpns'
       - '🇬🇧 GB | VLESS | @orange_vpns'
-      - '🇬🇧 GB | VLESS | @prrofile_purple'
       - '🇬🇧 GB | VLESS | @prrofile_purple'
       - '🇬🇧 GB | VLESS | @prrofile_purple'
       - '🇬🇧 GB | VLESS | @prrofile_purple'

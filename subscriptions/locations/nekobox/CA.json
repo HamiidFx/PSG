@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VLESS | @hope_net",
+        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
@@ -92,7 +92,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VLESS | @hope_net",
+        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
@@ -115,21 +115,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @hope_net",
-      "type": "vless",
-      "server": "23.227.38.145",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇨🇦 CA | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "79.127.233.170",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",

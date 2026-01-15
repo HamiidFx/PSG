@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇱🇻 LV | VMESS | @config_proxy", "server": "yellowbluegreenred.worldwebhunter.com", "port": 2083, "type": "vmess", "skip-cert-verify": true, "uuid": "bdcd3f0e-7aac-407b-a968-53444c2f2499", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": false}
   - {"name": "🇱🇻 LV | VLESS | @filtershekan_channel", "server": "lv.rush-server.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cb495349-f0c5-464d-89a3-6f162c04b906", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇻 LV | VLESS | @free4allvpn", "server": "195.135.252.28", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @prrofile_purple", "server": "gos9.portal-guard.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "805b52df-0581-495b-b8b5-b99594424053", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -41,6 +42,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇱🇻 LV | VMESS | @config_proxy'
       - '🇱🇻 LV | VLESS | @filtershekan_channel'
       - '🇱🇻 LV | VLESS | @free4allvpn'
       - '🇱🇻 LV | VLESS | @prrofile_purple'

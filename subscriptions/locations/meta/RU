@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "217.198.13.50", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d684cb56-e4b8-4453-8a7b-a1ad8c81935a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "84.201.130.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @flyv2ray", "server": "45.159.249.242", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "ecd373ac-8cc8-407d-9600-896d6296320c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -59,7 +58,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @config_proxy'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @flyv2ray'

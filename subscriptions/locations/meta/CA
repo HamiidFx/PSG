@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇦 CA | VLESS | @hope_net", "server": "23.227.38.145", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
   - {"name": "🇨🇦 CA | VLESS | @serverv2ray00", "server": "23.227.60.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -42,7 +41,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | VLESS | @hope_net'
       - '🇨🇦 CA | VLESS | @jokerv2ray'
       - '🇨🇦 CA | VLESS | @jokerv2ray'
       - '🇨🇦 CA | VLESS | @serverv2ray00'
