@@ -105,6 +105,8 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇺🇸 US | VMESS | @vpngate_config",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -135,6 +137,8 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇺🇸 US | VMESS | @vpngate_config",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -515,6 +519,47 @@
         "path": "/",
         "headers": {
           "Host": "new6.hucloud-dns.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config",
+      "type": "vmess",
+      "server": "cold-dawn-9246.fly.dev",
+      "server_port": 443,
+      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cold-dawn-9246.fly.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+        "headers": {
+          "Host": "cold-dawn-9246.fly.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @hope_net",
+      "type": "vmess",
+      "server": "104.19.46.36",
+      "server_port": 2086,
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },

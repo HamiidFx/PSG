@@ -80,8 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy",
-        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -89,6 +87,7 @@
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
         "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇺🇸 US | VMESS | @manstervpn",
         "🇽🇽 XX | VMESS | @manstervpn",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
@@ -100,7 +99,8 @@
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇺🇸 US | VMESS | @v2rayngconfig"
+        "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,8 +111,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy",
-        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -120,6 +118,7 @@
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
         "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇺🇸 US | VMESS | @manstervpn",
         "🇽🇽 XX | VMESS | @manstervpn",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
@@ -131,7 +130,8 @@
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇺🇸 US | VMESS | @v2rayngconfig"
+        "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,56 +215,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "172.67.71.160",
-      "server_port": 443,
-      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "obdii.cfd",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "obdii.cfd"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "cold-dawn-9246.fly.dev",
-      "server_port": 443,
-      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "cold-dawn-9246.fly.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
-        "headers": {
-          "Host": "cold-dawn-9246.fly.dev"
         }
       }
     },
@@ -424,6 +374,31 @@
         "path": "/tq98e0yk",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @manstervpn",
+      "type": "vmess",
+      "server": "172.67.71.160",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
         }
       }
     },
@@ -715,6 +690,31 @@
         "path": "/chat",
         "headers": {
           "Host": "vau1.0bad.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config",
+      "type": "vmess",
+      "server": "cold-dawn-9246.fly.dev",
+      "server_port": 443,
+      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cold-dawn-9246.fly.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+        "headers": {
+          "Host": "cold-dawn-9246.fly.dev"
         }
       }
     }

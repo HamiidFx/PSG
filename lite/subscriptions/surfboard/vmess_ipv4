@@ -9,6 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇽🇽 XX | VMESS | @hope_net = vmess, 104.19.46.36, 2086, username = e9e3cc13-db48-4cc1-8c24-7626439a5339, ws = true, tls = false, ws-path = , ws-headers = Host:"104.19.46.36"
 🇩🇪 DE | VMESS | @khoneproxy = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
 🇩🇪 DE | VMESS | @khoneproxy = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
 🇩🇪 DE | VMESS | @magickey_shop = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
@@ -19,9 +20,9 @@ DIRECT = direct
 🇫🇷 FR | VMESS | @selinc = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
-PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
-PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | VMESS | @hope_net, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
+PSG-AUTO = url-test, 🇽🇽 XX | VMESS | @hope_net, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
+PSG-FALLBACK = fallback, 🇽🇽 XX | VMESS | @hope_net, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @selinc
 
 [Rule]
 GEOIP,IR,DIRECT

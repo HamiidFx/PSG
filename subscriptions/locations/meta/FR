@@ -28,16 +28,18 @@ proxies:
   - {"name": "🇫🇷 FR | VLESS | @minovpnch", "server": "199.232.169.135", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch", "server": "199.232.169.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @netmellianti", "server": "135.125.191.180", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "57e590ec-cb21-4721-ad19-de28afca601e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns", "server": "35.181.131.135", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @proxyfn", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
   - {"name": "🇫🇷 FR | VLESS | @prrofile_purple", "server": "fr.atlanta-internet.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "669be00c-67b4-4b87-b08f-311c45abced2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇷 FR | VLESS | @qeshmserver", "server": "140.82.54.120", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "baadf496-921b-41b1-a7ae-fde0ddc6793d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VMESS | @selinc", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_collector", "server": "141.11.203.139", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | VMESS | @v2ray_free_conf", "server": "91.134.8.101", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "91.134.8.101"}}}
   - {"name": "🇫🇷 FR | TROJAN | @v2rayngconfig", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad"}
   - {"name": "🇫🇷 FR | TROJAN | @v2rayngconfig", "server": "217.182.76.235", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "05003b7a-8f03-41d5-b696-0119e8376a20"}
   - {"name": "🇫🇷 FR | VLESS | @v2rayopen", "server": "maxb17.musicdoon.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel", "server": "13.36.96.120", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇫🇷 FR | VLESS | @vlessconfig", "server": "13.36.96.120", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.36.96.120"}}}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel", "server": "35.181.131.135", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | VLESS | @vlessconfig", "server": "35.181.131.135", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "35.181.131.135"}}}
   - {"name": "🇫🇷 FR | TROJAN | @vpn_ioss", "server": "88.214.24.235", "port": 9443, "type": "trojan", "skip-cert-verify": false, "password": "02948bde80594712b974368035f294dd"}
 
 proxy-groups:
@@ -57,11 +59,13 @@ proxy-groups:
       - '🇫🇷 FR | VLESS | @minovpnch'
       - '🇫🇷 FR | VLESS | @minovpnch'
       - '🇫🇷 FR | VLESS | @netmellianti'
+      - '🇫🇷 FR | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @proxyfn'
       - '🇫🇷 FR | VLESS | @prrofile_purple'
       - '🇫🇷 FR | VLESS | @qeshmserver'
       - '🇫🇷 FR | VMESS | @selinc'
       - '🇫🇷 FR | VLESS | @v2ray_collector'
+      - '🇫🇷 FR | VMESS | @v2ray_free_conf'
       - '🇫🇷 FR | TROJAN | @v2rayngconfig'
       - '🇫🇷 FR | TROJAN | @v2rayngconfig'
       - '🇫🇷 FR | VLESS | @v2rayopen'

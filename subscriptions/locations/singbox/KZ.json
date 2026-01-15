@@ -90,10 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | SS | @v2ray_free_conf",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @filterk0sh"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | SS | @v2ray_free_conf",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @filterk0sh"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,23 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "185.176.26.87",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",
@@ -151,31 +128,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "109.61.39.28",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2raych",
-      "type": "vless",
-      "server": "185.176.26.87",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

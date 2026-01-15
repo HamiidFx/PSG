@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @free4allvpn",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2raymelliii",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
@@ -106,7 +108,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @free4allvpn",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2raymelliii",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
@@ -132,6 +136,28 @@
       "password": null
     },
     {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "171.22.114.248",
+      "server_port": 27394,
+      "uuid": "00b0d4de-b126-4511-87c1-8f1feb462fa6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇾 CY | VLESS | @free4allvpn",
       "type": "vless",
       "server": "171.22.114.248",
@@ -152,6 +178,13 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇨🇾 CY | TROJAN | @orange_vpns",
+      "type": "trojan",
+      "server": "trunker.cc",
+      "server_port": 8080,
+      "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2ray_collector",

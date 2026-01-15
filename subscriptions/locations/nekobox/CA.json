@@ -77,14 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VLESS | @config_proxy",
+        "🇨🇦 CA | VLESS | @hope_net",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | SS | @v2ray_free_conf",
-        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
+        "🇨🇦 CA | SS | @NamiraConfigs",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -93,14 +92,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VLESS | @config_proxy",
+        "🇨🇦 CA | VLESS | @hope_net",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | SS | @v2ray_free_conf",
-        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
+        "🇨🇦 CA | SS | @NamiraConfigs",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -117,7 +115,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @config_proxy",
+      "tag": "🇨🇦 CA | VLESS | @hope_net",
       "type": "vless",
       "server": "23.227.38.145",
       "server_port": 443,
@@ -174,31 +172,6 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "142.4.216.225",
-      "server_port": 80,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx",
-      "password": null
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2raych",
-      "type": "vless",
-      "server": "23.227.38.145",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇦 CA | SS | @v2raytg",
       "type": "shadowsocks",
       "server": "51.161.80.138",
@@ -213,6 +186,14 @@
       "server_port": 8080,
       "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "142.4.216.225",
+      "server_port": 80,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
