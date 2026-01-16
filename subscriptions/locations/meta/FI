@@ -23,11 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "hield.ru", "port": 3389, "type": "vless", "skip-cert-verify": true, "uuid": "67e0525f-412e-4a30-b344-92dc527388ff", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "hield.ru", "port": 3389, "type": "vless", "skip-cert-verify": true, "uuid": "ec0fc653-5248-45b9-b0e3-58286d047bb7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "65.109.178.83", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "finland.aparat-movies-download.ir", "port": 42538, "type": "vless", "skip-cert-verify": true, "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus", "server": "grok.zarlyt-ok3.ir", "port": 9828, "type": "vless", "skip-cert-verify": true, "uuid": "28ef7769-b7a8-478f-bac7-052494312c01", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @iranbfilter", "server": "65.109.182.239", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ae21b3e7-1694-4efe-bb21-69497843142f", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "65.109.182.239"}}}
+  - {"name": "🇫🇮 FI | VLESS | @kafing_2", "server": "new.pvnoco.ir", "port": 558, "type": "vless", "skip-cert-verify": true, "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @prrofile_purple", "server": "77.42.16.205", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6a35ac5c-12cb-4719-86f8-3334cb5970e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -47,6 +48,7 @@ proxy-groups:
       - '🇫🇮 FI | VLESS | @flyv2ray'
       - '🇫🇮 FI | VLESS | @freeconfigsplus'
       - '🇫🇮 FI | VLESS | @iranbfilter'
+      - '🇫🇮 FI | VLESS | @kafing_2'
       - '🇫🇮 FI | VLESS | @prrofile_purple'
 
   - name: 🌍 Global Media

@@ -77,6 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -97,9 +100,7 @@
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
-        "🇷🇺 RU | VLESS | @v2raych",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc"
       ],
@@ -109,6 +110,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -129,9 +133,7 @@
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
-        "🇷🇺 RU | VLESS | @v2raych",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc"
       ],
@@ -147,6 +149,62 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "217.198.13.50",
+      "server_port": 443,
+      "uuid": "d684cb56-e4b8-4453-8a7b-a1ad8c81935a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "130.193.35.232",
+      "server_port": 443,
+      "uuid": "97dd83ab-b3b7-43e4-9002-c6bdcae0729d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "109.71.245.198",
+      "server_port": 443,
+      "uuid": "d684cb56-e4b8-4453-8a7b-a1ad8c81935a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -402,28 +460,6 @@
     {
       "tag": "🇷🇺 RU | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "130.193.35.232",
-      "server_port": 443,
-      "uuid": "97dd83ab-b3b7-43e4-9002-c6bdcae0729d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple",
-      "type": "vless",
       "server": "51.250.73.31",
       "server_port": 443,
       "uuid": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
@@ -528,23 +564,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych",
-      "type": "vless",
-      "server": "45.67.215.41",
-      "server_port": 443,
-      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

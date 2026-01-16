@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇺🇸 US | TROJAN | @config_proxy", "server": "167.68.4.199", "port": 2053, "type": "trojan", "skip-cert-verify": false, "password": "Aimer"}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
-  - {"name": "🇺🇸 US | VMESS | @hope_net", "server": "172.67.183.220", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "jahfkjha.cfd"}}}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇺🇸 US | VMESS | @manstervpn", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
   - {"name": "🇺🇸 US | VMESS | @mi_pn_official", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
@@ -54,9 +54,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | TROJAN | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇺🇸 US | VMESS | @freev2rays'
-      - '🇺🇸 US | VMESS | @hope_net'
       - '🇺🇸 US | VMESS | @ir_netproxy'
       - '🇺🇸 US | VMESS | @manstervpn'
       - '🇺🇸 US | VMESS | @mi_pn_official'

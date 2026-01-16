@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/MY interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇲🇾 MY | VMESS | @config_proxy = vmess, 47.250.45.234, 8613, username = 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, ws = true, tls = false, ws-path = /arki?ed=2048, ws-headers = Host:"47.250.45.234"
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | VMESS | @config_proxy
+PSG-AUTO = url-test, 🇲🇾 MY | VMESS | @config_proxy
+PSG-FALLBACK = fallback, 🇲🇾 MY | VMESS | @config_proxy
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

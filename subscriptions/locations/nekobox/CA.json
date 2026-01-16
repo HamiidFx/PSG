@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
@@ -91,6 +92,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
@@ -111,6 +113,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "79.127.233.170",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",

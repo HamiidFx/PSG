@@ -23,10 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @config_proxy", "server": "57.129.25.20", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "57.129.25.20"}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
-  - {"name": "🇺🇸 US | VMESS | @hope_net", "server": "172.67.183.220", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "jahfkjha.cfd"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇽🇽 XX | VMESS | @iranvpnet", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
@@ -35,7 +33,7 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @mi_pn_official", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
-  - {"name": "🇲🇩 MD | TROJAN | @orange_vpns", "server": "trunker.cc", "port": 8080, "type": "trojan", "skip-cert-verify": false, "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"}
+  - {"name": "🇨🇾 CY | TROJAN | @orange_vpns", "server": "trunker.cc", "port": 8080, "type": "trojan", "skip-cert-verify": false, "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"}
   - {"name": "🇩🇪 DE | TROJAN | @privatevpns", "server": "35.158.18.102", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @privatevpns", "server": "35.181.111.41", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
@@ -70,10 +68,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | VMESS | @config_proxy'
       - '🇭🇰 HK | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @freev2rays'
-      - '🇺🇸 US | VMESS | @hope_net'
       - '🇧🇾 BY | VMESS | @ir_netproxy'
       - '🇺🇸 US | VMESS | @ir_netproxy'
       - '🇽🇽 XX | VMESS | @iranvpnet'
@@ -82,7 +78,7 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @magickey_shop'
       - '🇺🇸 US | VMESS | @mi_pn_official'
-      - '🇲🇩 MD | TROJAN | @orange_vpns'
+      - '🇨🇾 CY | TROJAN | @orange_vpns'
       - '🇩🇪 DE | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @privatevpns'
       - '🇷🇺 RU | VMESS | @prooxyk'
