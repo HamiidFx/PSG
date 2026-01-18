@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
@@ -100,6 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
@@ -112,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tr.iranfreedomserver.com",
+      "server_port": 7005,
+      "uuid": "9273eeed-bc0a-463a-9556-54d50674c91a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | SS | @outline_ir",

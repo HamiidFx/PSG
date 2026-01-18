@@ -92,10 +92,11 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
+        "🇨🇦 CA | VLESS | @proxycrone",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇨🇦 CA | VLESS | @vpnowl"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,10 +106,11 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
+        "🇨🇦 CA | VLESS | @proxycrone",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇨🇦 CA | VLESS | @vpnowl"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,14 @@
       }
     },
     {
+      "tag": "🇨🇦 CA | VLESS | @proxycrone",
+      "type": "vless",
+      "server": "ca.novaads.shop",
+      "server_port": 42537,
+      "uuid": "3132610b-d68d-421e-b9a7-8dbe0bad1961",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00",
       "type": "vless",
       "server": "23.227.60.7",
@@ -156,6 +166,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -174,22 +200,6 @@
       "server_port": 8080,
       "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
-        }
-      }
     }
   ],
   "route": {

@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇳 IN | TROJAN | @config_proxy", "server": "98.70.26.236", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "5a2c16f9"}
   - {"name": "🇮🇳 IN | VLESS | @prrofile_purple", "server": "103.111.115.161", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "adab9268-f742-407b-8cbc-cf0b643c5e9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇮🇳 IN | VLESS | @v2raytg", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -39,7 +38,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇳 IN | TROJAN | @config_proxy'
       - '🇮🇳 IN | VLESS | @prrofile_purple'
       - '🇮🇳 IN | VLESS | @v2raytg'
 

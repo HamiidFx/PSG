@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
@@ -102,6 +103,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @freeconfigsplus",
@@ -116,6 +118,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "d509ef13-9fef-4c3d-90f8-24d73785906c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @flyv2ray",

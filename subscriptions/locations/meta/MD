@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇩 MD | VLESS | @config_proxy", "server": "176.120.67.43", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "d0dea598-9047-4567-a934-84c2797c0978", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇩 MD | TROJAN | @orange_vpns", "server": "trunker.cc", "port": 8080, "type": "trojan", "skip-cert-verify": false, "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇩 MD | VLESS | @config_proxy'
+      - '🇲🇩 MD | TROJAN | @orange_vpns'
 
   - name: 🌍 Global Media
     type: select

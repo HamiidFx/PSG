@@ -9,30 +9,23 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇳 IN | TROJAN | @config_proxy = trojan, 98.70.26.236, 443, password = 5a2c16f9, skip-cert-verify = true
 🇺🇸 US | TROJAN | @free4allvpn = trojan, 23.247.137.64, 443, password = 3c4e10af98c30972, skip-cert-verify = true
 🇳🇱 NL | TROJAN | @manstervpn = trojan, 185.176.24.2, 443, password = bpb-trojan, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @manstervpn = trojan, 172.66.44.141, 2083, password = bpb-trojan, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @manstervpn = trojan, 104.18.37.111, 443, password = bpb-trojan, skip-cert-verify = true
-🇩🇪 DE | TROJAN | @privatevpns = trojan, 3.120.80.249, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @privatevpns = trojan, 15.236.223.157, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @proxyfn = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = true
 🇺🇸 US | TROJAN | @v2ray_collector = trojan, 198.23.229.250, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @v2raych = trojan, 15.236.223.157, 22223, password = telegram-id-directvpn, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @v2raych = trojan, 15.236.223.157, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2rayngconfig = trojan, 51.91.11.29, 80, password = e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify = true
 🇹🇷 TR | TROJAN | @v2rayngconfig = trojan, 194.146.26.40, 443, password = 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2rayngconfig = trojan, 217.182.76.235, 443, password = 05003b7a-8f03-41d5-b696-0119e8376a20, skip-cert-verify = true
 🇩🇪 DE | TROJAN | @v2rayngconfig = trojan, 146.19.215.81, 443, password = 769c2da7-add3-42e8-a03c-07be9fcf483c, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @v2rayngconfiig = trojan, 104.18.26.90, 443, password = Xa4%5El%28%3B.%3BB%23a, skip-cert-verify = true
-🇩🇪 DE | TROJAN | @v2rayvpnchannel = trojan, 3.120.80.249, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @v2rayvpnchannel = trojan, 15.236.223.157, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @vpn_ioss = trojan, 88.214.24.235, 9443, password = 02948bde80594712b974368035f294dd, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇳 IN | TROJAN | @config_proxy, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇮🇳 IN | TROJAN | @config_proxy, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇮🇳 IN | TROJAN | @config_proxy, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2raych, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇺🇸 US | TROJAN | @free4allvpn, 🇳🇱 NL | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇽🇽 XX | TROJAN | @manstervpn, 🇫🇷 FR | TROJAN | @proxyfn, 🇺🇸 US | TROJAN | @v2ray_collector, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇹🇷 TR | TROJAN | @v2rayngconfig, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇩🇪 DE | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT
