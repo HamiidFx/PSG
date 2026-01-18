@@ -91,41 +91,6 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @filterk0sh",
-        "🇳🇱 NL | VLESS | @free4allvpn",
-        "🇳🇱 NL | TROJAN | @manstervpn",
-        "🇳🇱 NL | SS | @manstervpn",
-        "🇳🇱 NL | VLESS | @minovpnch",
-        "🇳🇱 NL | SS | @netfreedom0",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @orange_vpns",
-        "🇳🇱 NL | VLESS | @orange_vpns",
-        "🇳🇱 NL | SS | @outline_ir",
-        "🇳🇱 NL | SS | @outlinereleasedkey",
-        "🇳🇱 NL | SS | @outlinereleasedkey",
-        "🇳🇱 NL | SS | @outlinereleasedkey",
-        "🇳🇱 NL | VLESS | @prrofile_purple",
-        "🇳🇱 NL | VLESS | @qeshmserver",
-        "🇳🇱 NL | VLESS | @sobi_vpn",
-        "🇳🇱 NL | VLESS | @v2aryng_vpn",
-        "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
-        "🇳🇱 NL | SS | @NamiraConfigs"
-      ],
-      "tag": "proxy",
-      "type": "selector"
-    },
-    {
-      "interval": "10m",
-      "outbounds": [
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
@@ -153,7 +118,42 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
+        "🇳🇱 NL | SS | @NamiraConfigs"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @filterk0sh",
+        "🇳🇱 NL | VLESS | @free4allvpn",
+        "🇳🇱 NL | TROJAN | @manstervpn",
+        "🇳🇱 NL | SS | @manstervpn",
+        "🇳🇱 NL | VLESS | @minovpnch",
+        "🇳🇱 NL | SS | @netfreedom0",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @nofiltering2",
+        "🇳🇱 NL | VLESS | @orange_vpns",
+        "🇳🇱 NL | VLESS | @orange_vpns",
+        "🇳🇱 NL | SS | @outline_ir",
+        "🇳🇱 NL | SS | @outlinereleasedkey",
+        "🇳🇱 NL | SS | @outlinereleasedkey",
+        "🇳🇱 NL | SS | @outlinereleasedkey",
+        "🇳🇱 NL | VLESS | @prrofile_purple",
+        "🇳🇱 NL | VLESS | @qeshmserver",
+        "🇳🇱 NL | VLESS | @sobi_vpn",
+        "🇳🇱 NL | VLESS | @v2aryng_vpn",
+        "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -170,7 +170,7 @@
       "type": "vless",
       "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "f02d69dc-5383-4409-b158-85b4ef8a248d",
+      "uuid": "63327a48-f884-4335-b760-2186be65df3f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -179,6 +179,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "213.155.28.92",
+      "server_port": 16140,
+      "uuid": "a489c356-a51f-4da9-ae2b-87460e01d4f4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -471,14 +493,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "136.244.100.113",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt",
-      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

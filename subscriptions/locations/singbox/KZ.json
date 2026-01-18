@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "91.217.10.166",
+      "server_port": 9443,
+      "uuid": "7f2a80e2-a132-497a-94ff-0eaa83833702",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",

@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇴 RO | SS | @config_proxy",
+        "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇴 RO | SS | @config_proxy",
+        "🇷🇴 RO | VLESS | @vpnplusee_free",
         "🇷🇴 RO | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
@@ -135,6 +137,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "45.85.119.44",
+      "server_port": 2083,
+      "uuid": "01973bf7-048a-4dc6-a82b-2fa3be7046a5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

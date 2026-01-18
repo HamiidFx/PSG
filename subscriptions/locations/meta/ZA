@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @config_proxy", "server": "160.16.87.174", "port": 1933, "type": "trojan", "skip-cert-verify": false, "password": "4843e94d205f3893f588255a591abe94", "sni": "www.nintendogames.net"}
+  - {"name": "🇿🇦 ZA | VLESS | @config_proxy", "server": "160.123.255.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇿🇦 ZA | VLESS | @v2raych", "server": "160.123.255.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @config_proxy'
+      - '🇿🇦 ZA | VLESS | @config_proxy'
+      - '🇿🇦 ZA | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

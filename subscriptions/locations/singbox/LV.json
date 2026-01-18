@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇻 LV | VLESS | @config_proxy",
         "🇱🇻 LV | VLESS | @filtershekan_channel",
         "🇱🇻 LV | VLESS | @free4allvpn",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -101,6 +102,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇻 LV | VLESS | @config_proxy",
         "🇱🇻 LV | VLESS | @filtershekan_channel",
         "🇱🇻 LV | VLESS | @free4allvpn",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -114,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "62.192.174.198",
+      "server_port": 47256,
+      "uuid": "06babfd1-1af2-4db4-a485-cdf404ce80a9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇱🇻 LV | VLESS | @filtershekan_channel",
