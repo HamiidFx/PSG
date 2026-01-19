@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "world-of.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ef9e2ff4-b9cb-49e6-bceb-1334a7c093a1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "89.124.66.89", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a2afaf73-dc35-45a0-95e1-ba754d710c8d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "world-of.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bd03758f-61b1-4e3f-8307-b9610a8c9389", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @free4allvpn", "server": "103.90.75.252", "port": 3001, "type": "vless", "skip-cert-verify": true, "uuid": "61757901-3818-46c7-8482-683fa7f6ba10", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @freeconfigsplus", "server": "trial.axo.foundation", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8f9ef160-7a47-4bde-918a-7ef36d4f2579", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | TROJAN | @manstervpn", "server": "185.176.24.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇳🇱 NL | VLESS | @minovpnch", "server": "151.101.204.190", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @nofiltering2", "server": "151.101.205.194", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6789b923-e583-42cc-9487-9cdf5393ba97", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -58,9 +58,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇱 NL | VLESS | @config_proxy'
-      - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @filterk0sh'
       - '🇳🇱 NL | VLESS | @free4allvpn'
+      - '🇳🇱 NL | VLESS | @freeconfigsplus'
       - '🇳🇱 NL | TROJAN | @manstervpn'
       - '🇳🇱 NL | VLESS | @minovpnch'
       - '🇳🇱 NL | VLESS | @nofiltering2'

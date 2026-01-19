@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇧🇷 BR | VLESS | @connectshu",
-        "🇧🇷 BR | VLESS | @connectshu"
+        "🇧🇷 BR | VLESS | @connectshu",
+        "🇧🇷 BR | VLESS | @hope_net"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇷 BR | VLESS | @connectshu",
-        "🇧🇷 BR | VLESS | @connectshu"
+        "🇧🇷 BR | VLESS | @connectshu",
+        "🇧🇷 BR | VLESS | @hope_net"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +119,23 @@
       "server_port": 80,
       "uuid": "03517ec0-976e-4cac-b84b-146fc4c7b023",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇷 BR | VLESS | @hope_net",
+      "type": "vless",
+      "server": "185.133.35.99",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

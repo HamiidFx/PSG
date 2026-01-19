@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇸🇮 SI | VLESS | @filterk0sh",
+        "🇸🇮 SI | VLESS | @v2aryng_vpn",
         "🇸🇮 SI | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇮 SI | VLESS | @filterk0sh",
+        "🇸🇮 SI | VLESS | @v2aryng_vpn",
         "🇸🇮 SI | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -104,6 +106,28 @@
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh",
+      "type": "vless",
+      "server": "92.60.78.221",
+      "server_port": 443,
+      "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇮 SI | VLESS | @v2aryng_vpn",
       "type": "vless",
       "server": "92.60.78.221",
       "server_port": 443,

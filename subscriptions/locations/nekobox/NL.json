@@ -78,9 +78,9 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
+        "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
@@ -113,9 +113,9 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
+        "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
@@ -159,7 +159,7 @@
       "type": "vless",
       "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "ef9e2ff4-b9cb-49e6-bceb-1334a7c093a1",
+      "uuid": "bd03758f-61b1-4e3f-8307-b9610a8c9389",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -168,28 +168,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "89.124.66.89",
-      "server_port": 443,
-      "uuid": "a2afaf73-dc35-45a0-95e1-ba754d710c8d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -222,6 +200,23 @@
       "server_port": 3001,
       "uuid": "61757901-3818-46c7-8482-683fa7f6ba10",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @freeconfigsplus",
+      "type": "vless",
+      "server": "trial.axo.foundation",
+      "server_port": 443,
+      "uuid": "8f9ef160-7a47-4bde-918a-7ef36d4f2579",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | TROJAN | @manstervpn",

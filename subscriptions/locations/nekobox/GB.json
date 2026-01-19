@@ -79,6 +79,7 @@
         "direct",
         "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -106,10 +107,9 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
-        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
@@ -130,6 +130,7 @@
       "outbounds": [
         "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
+        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
@@ -157,10 +158,9 @@
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
-        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
@@ -189,7 +189,7 @@
     {
       "tag": "🇬🇧 GB | VLESS | @config_proxy",
       "type": "vless",
-      "server": "217.163.76.11",
+      "server": "217.163.76.55",
       "server_port": 443,
       "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "packet_encoding": "xudp",
@@ -206,9 +206,26 @@
     {
       "tag": "🇬🇧 GB | VLESS | @config_proxy",
       "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2095,
-      "uuid": "f39c206d-8acc-4304-95cc-afe234a2f6f8",
+      "server": "217.163.76.11",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
+      "type": "vless",
+      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
       "packet_encoding": "xudp"
     },
     {
@@ -432,14 +449,6 @@
     {
       "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "api-saronet.zirakomamle.com",
-      "server_port": 2082,
-      "uuid": "5e182110-8d13-4aa4-abf6-f3081628e1d0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
       "server": "api-saronet.sarhadpirani.ir",
       "server_port": 2052,
       "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
@@ -476,19 +485,19 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "5.181.21.246",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnS1l5Z1RjUlloYzNza2MyeDZ0WjA3M2xZejBEbmllWA==",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @v2ray_vmes",
       "type": "vless",
       "server": "25.25.25.25",
       "server_port": 2082,
       "uuid": "05084096-5d03-4d63-8a7a-db17db9935b0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2raych",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2095,
-      "uuid": "f39c206d-8acc-4304-95cc-afe234a2f6f8",
       "packet_encoding": "xudp"
     },
     {
