@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇦🇹 AT | VLESS | @orange_vpns", "server": "212.183.88.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇹 AT | VLESS | @v2raych", "server": "212.183.88.100", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇹 AT | VLESS | @orange_vpns'
-      - '🇦🇹 AT | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

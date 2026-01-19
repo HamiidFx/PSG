@@ -32,6 +32,7 @@ proxies:
   - {"name": "🇽🇽 XX | VMESS | @proxie", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c26c9663-a72d-489f-a7da-7a482b876c1c", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxy48", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇫🇷 FR | VMESS | @selinc", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "a892fed1-3409-4349-a56d-493727550057", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560", "headers": {"Host": "newtest32.ultimateman.ir"}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -67,6 +68,7 @@ proxy-groups:
       - '🇽🇽 XX | VMESS | @proxie'
       - '🇽🇽 XX | VMESS | @proxy48'
       - '🇫🇷 FR | VMESS | @selinc'
+      - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇭🇰 HK | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @freev2rays'
       - '🇧🇾 BY | VMESS | @ir_netproxy'
