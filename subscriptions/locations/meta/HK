@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @config_proxy", "server": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "167db97c-ee01-11ef-b737-f23c91cfbbc9", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net"}}}
+  - {"name": "🇭🇰 HK | VLESS | @config_proxy", "server": "149.104.29.219", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
 
 proxy-groups:
@@ -38,7 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VMESS | @config_proxy'
+      - '🇭🇰 HK | VLESS | @config_proxy'
       - '🇭🇰 HK | VMESS | @freev2rays'
 
   - name: 🌍 Global Media

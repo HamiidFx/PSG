@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0"
       ],
@@ -100,7 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0"
       ],
@@ -114,18 +114,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "167db97c-ee01-11ef-b737-f23c91cfbbc9",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net"
+      "tag": "🇭🇰 HK | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "149.104.29.219",
+      "server_port": 443,
+      "uuid": "b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

@@ -12,8 +12,6 @@ DIRECT = direct
 🇲🇩 MD | TROJAN | @orange_vpns = trojan, trunker.cc, 8080, password = nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = 22f86840-bcac-11ee-abea-1239d0255272, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = c7f9b8f0-bfdb-11ee-a15c-1239d0255272, skip-cert-verify = true
-🇽🇽 XX | TROJAN | @vpn_ioss = trojan, www.calmlunch.com, 443, password = humanity, skip-cert-verify = true
-🇩🇪 DE | TROJAN | @privatevpns = trojan, 3.121.254.171, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @privatevpns = trojan, 15.188.182.161, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2rayngconfig = trojan, 51.91.11.29, 80, password = e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @v2rayngconfiig = trojan, 104.18.26.90, 443, password = Xa4%5El%28%3B.%3BB%23a, skip-cert-verify = true
@@ -22,9 +20,9 @@ DIRECT = direct
 🇫🇷 FR | TROJAN | @vpn_ioss = trojan, 88.214.24.235, 9443, password = 02948bde80594712b974368035f294dd, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇲🇩 MD | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT

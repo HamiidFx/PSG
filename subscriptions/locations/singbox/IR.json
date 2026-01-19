@@ -91,12 +91,12 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet",
-        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @frev2rayng",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @miov2ray",
         "🇮🇷 IR | VLESS | @server_nekobox",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
+        "🇮🇷 IR | VLESS | @v2raych",
         "🇮🇷 IR | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
@@ -106,12 +106,12 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet",
-        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @frev2rayng",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @miov2ray",
         "🇮🇷 IR | VLESS | @server_nekobox",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
+        "🇮🇷 IR | VLESS | @v2raych",
         "🇮🇷 IR | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
@@ -139,14 +139,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "eng.dodbib.ir",
-      "server_port": 1024,
-      "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @frev2rayng",
@@ -205,6 +197,28 @@
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "185.113.10.120",
+      "server_port": 3443,
+      "uuid": "1cd1ee2f-0b12-46ce-917d-228dd22284ed",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam",

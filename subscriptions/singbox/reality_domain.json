@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -118,6 +118,7 @@
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇩🇪 DE | VLESS | @v2raymelliii",
         "🇫🇷 FR | VLESS | @v2rayopen"
       ],
@@ -130,7 +131,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -155,6 +156,7 @@
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇩🇪 DE | VLESS | @v2raymelliii",
         "🇫🇷 FR | VLESS | @v2rayopen"
       ],
@@ -240,19 +242,28 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "eng.dodbib.ir",
-      "server_port": 1024,
-      "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
-      "packet_encoding": "xudp"
+      "server": "world-of.ru",
+      "server_port": 443,
+      "uuid": "ef9e2ff4-b9cb-49e6-bceb-1334a7c093a1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
       "server": "hield.ru",
       "server_port": 3389,
-      "uuid": "910e79eb-4269-4e22-8156-a0d3a77ad3dd",
+      "uuid": "84c18609-dea3-4f20-bb46-f6ee4e86d256",
       "packet_encoding": "xudp"
     },
     {
@@ -606,6 +617,28 @@
       "server": "portal.ofmdirect.com",
       "server_port": 23200,
       "uuid": "69a397ac-1a30-455f-a0ad-7c45c4c8ad16",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "turkiye.torprospeed.ir",
+      "server_port": 587,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

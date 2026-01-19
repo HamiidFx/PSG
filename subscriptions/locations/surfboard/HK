@@ -9,13 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | VMESS | @config_proxy = vmess, 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net, 80, username = 167db97c-ee01-11ef-b737-f23c91cfbbc9, ws = true, tls = false, ws-path = /, ws-headers = Host:"5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net"
 🇭🇰 HK | VMESS | @freev2rays = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
-PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
-PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @freev2rays
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @freev2rays
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @freev2rays
 
 [Rule]
 GEOIP,IR,DIRECT

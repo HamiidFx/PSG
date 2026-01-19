@@ -93,9 +93,10 @@
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf",
+        "🇨🇦 CA | SS | @v2ray_free_conf",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @vpnowl"
+        "🇨🇦 CA | VLESS | @vpnowl",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,9 +107,10 @@
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf",
+        "🇨🇦 CA | SS | @v2ray_free_conf",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @vpnowl"
+        "🇨🇦 CA | VLESS | @vpnowl",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -160,20 +162,12 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "tag": "🇨🇦 CA | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "23.95.76.147",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | SS | @v2raytg",
@@ -190,6 +184,22 @@
       "server_port": 8080,
       "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

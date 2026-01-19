@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | VLESS | @free1_vpn", "server": "japan.geodema.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych", "server": "160.16.116.227", "port": 1281, "type": "trojan", "skip-cert-verify": false, "password": "381f2e86233720eacda26d50e9aa26da"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | VLESS | @free1_vpn'
+      - '🇯🇵 JP | TROJAN | @v2raych'
 
   - name: 🌍 Global Media
     type: select
