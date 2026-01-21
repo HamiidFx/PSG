@@ -98,9 +98,11 @@
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
+        "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @drvpn_net",
-        "🇺🇸 US | VLESS | @eliteproxyv2",
-        "🇩🇪 DE | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @flyv2ray",
+        "🇺🇸 US | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇽🇽 XX | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @komail315",
@@ -110,6 +112,7 @@
         "🇩🇪 DE | VLESS | @orange_vpns",
         "🇽🇽 XX | VLESS | @outline_ir",
         "🇽🇽 XX | VLESS | @v2ray_vmes",
+        "🇽🇽 XX | VLESS | @v2raych",
         "🇩🇪 DE | VLESS | @v2rayngconfiig",
         "🇽🇽 XX | VLESS | @vmesskhodam",
         "🇽🇽 XX | VLESS | @vpnplusee_free"
@@ -128,9 +131,11 @@
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
+        "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @drvpn_net",
-        "🇺🇸 US | VLESS | @eliteproxyv2",
-        "🇩🇪 DE | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @flyv2ray",
+        "🇺🇸 US | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇽🇽 XX | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @komail315",
@@ -140,6 +145,7 @@
         "🇩🇪 DE | VLESS | @orange_vpns",
         "🇽🇽 XX | VLESS | @outline_ir",
         "🇽🇽 XX | VLESS | @v2ray_vmes",
+        "🇽🇽 XX | VLESS | @v2raych",
         "🇩🇪 DE | VLESS | @v2rayngconfiig",
         "🇽🇽 XX | VLESS | @vmesskhodam",
         "🇽🇽 XX | VLESS | @vpnplusee_free"
@@ -244,10 +250,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
       "type": "vless",
-      "server": "cdn.halazzon.ir",
-      "server_port": 2083,
-      "uuid": "33f2f3cd-0d71-4ab2-b81a-39daeeaeb919",
-      "packet_encoding": "xudp"
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "3b228dd8-302a-4985-9e71-7e6881072dfd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
@@ -269,9 +284,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
       "type": "vless",
-      "server": "chatgpt.com",
+      "server": "top.imlast2.com",
+      "server_port": 8443,
+      "uuid": "fb4dfdff-2308-4f77-c769-751b2357f815",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "pic2.lordofring.ir",
       "server_port": 443,
-      "uuid": "3b228dd8-302a-4985-9e71-7e6881072dfd",
+      "uuid": "4791f365-bc82-480e-be81-9eca8b3636c6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -301,7 +324,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -309,7 +332,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @kafing_2",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "cdn.halazzon.ir",
+      "server_port": 2083,
+      "uuid": "33f2f3cd-0d71-4ab2-b81a-39daeeaeb919",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2",
       "type": "vless",
       "server": "deadseectelegram.fast.hosting-ip.com",
       "server_port": 80,
@@ -413,6 +444,23 @@
       "server": "chatgpt.com",
       "server_port": 443,
       "uuid": "6e8d6b76-c3ff-4cdc-aa9c-be6731789b76",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych",
+      "type": "vless",
+      "server": "pic2.lordofring.ir",
+      "server_port": 443,
+      "uuid": "4791f365-bc82-480e-be81-9eca8b3636c6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

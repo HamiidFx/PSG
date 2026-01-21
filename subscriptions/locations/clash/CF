@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "104.18.32.47", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "52c7f779-2cbc-4ec9-d4eb-7f62964e4a4e", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ABC", "headers": {"Host": "dump.nootkasound7.com"}}}
   - {"name": "🇽🇽 XX | VMESS | @father_vpn", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2048", "headers": {"Host": "dl3.hupcloud.com"}}}
   - {"name": "🇽🇽 XX | VMESS | @frev2rayng", "server": "104.21.25.65", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "864112a6-ceeb-4126-b7e2-509c2a203d20", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇽🇽 XX | TROJAN | @grizzlyvpn", "server": "104.18.32.47", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff"}
@@ -61,7 +60,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇽🇽 XX | VMESS | @father_vpn'
       - '🇽🇽 XX | VMESS | @frev2rayng'
       - '🇽🇽 XX | TROJAN | @grizzlyvpn'

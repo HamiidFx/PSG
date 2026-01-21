@@ -78,11 +78,9 @@
         "auto",
         "direct",
         "🇺🇸 US | VLESS | @buffalo_vpn",
+        "🇺🇸 US | VLESS | @config_proxy",
         "🇺🇸 US | VLESS | @connectshu",
         "🇺🇸 US | VLESS | @deli_servers",
-        "🇺🇸 US | VLESS | @eliteproxyv2",
-        "🇺🇸 US | VLESS | @evay_vpn",
-        "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @filterk0sh",
@@ -104,6 +102,9 @@
         "🇺🇸 US | VLESS | @iranvipnet",
         "🇺🇸 US | VLESS | @jokerv2ray",
         "🇺🇸 US | VLESS | @jokerv2ray",
+        "🇺🇸 US | VLESS | @kafing_2",
+        "🇺🇸 US | VLESS | @kafing_2",
+        "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
@@ -139,7 +140,6 @@
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
         "🇺🇸 US | VLESS | @narcod_ping",
         "🇺🇸 US | VLESS | @narcod_ping",
-        "🇺🇸 US | VLESS | @orange_vpns",
         "🇺🇸 US | SS | @proxy_confiingir",
         "🇺🇸 US | VLESS | @public504",
         "🇺🇸 US | VLESS | @qeshmserver",
@@ -168,6 +168,7 @@
         "🇺🇸 US | VLESS | @v2raytg",
         "🇺🇸 US | VLESS | @v2raytg",
         "🇺🇸 US | VLESS | @v_2rayng0",
+        "🇺🇸 US | VLESS | @v_2rayng0",
         "🇺🇸 US | VLESS | @vip_vpn_2022",
         "🇺🇸 US | VLESS | @vmessiranproxy",
         "🇺🇸 US | VMESS | @vpngate_config",
@@ -180,11 +181,9 @@
       "interval": "10m",
       "outbounds": [
         "🇺🇸 US | VLESS | @buffalo_vpn",
+        "🇺🇸 US | VLESS | @config_proxy",
         "🇺🇸 US | VLESS | @connectshu",
         "🇺🇸 US | VLESS | @deli_servers",
-        "🇺🇸 US | VLESS | @eliteproxyv2",
-        "🇺🇸 US | VLESS | @evay_vpn",
-        "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇺🇸 US | VLESS | @filterk0sh",
@@ -206,6 +205,9 @@
         "🇺🇸 US | VLESS | @iranvipnet",
         "🇺🇸 US | VLESS | @jokerv2ray",
         "🇺🇸 US | VLESS | @jokerv2ray",
+        "🇺🇸 US | VLESS | @kafing_2",
+        "🇺🇸 US | VLESS | @kafing_2",
+        "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
         "🇺🇸 US | VLESS | @kafing_2",
@@ -241,7 +243,6 @@
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
         "🇺🇸 US | VLESS | @narcod_ping",
         "🇺🇸 US | VLESS | @narcod_ping",
-        "🇺🇸 US | VLESS | @orange_vpns",
         "🇺🇸 US | SS | @proxy_confiingir",
         "🇺🇸 US | VLESS | @public504",
         "🇺🇸 US | VLESS | @qeshmserver",
@@ -269,6 +270,7 @@
         "🇺🇸 US | VLESS | @v2rayopen",
         "🇺🇸 US | VLESS | @v2raytg",
         "🇺🇸 US | VLESS | @v2raytg",
+        "🇺🇸 US | VLESS | @v_2rayng0",
         "🇺🇸 US | VLESS | @v_2rayng0",
         "🇺🇸 US | VLESS | @vip_vpn_2022",
         "🇺🇸 US | VLESS | @vmessiranproxy",
@@ -313,6 +315,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "205.233.181.41",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @connectshu",
       "type": "vless",
       "server": "hajlab.ucdavis.edu",
@@ -329,35 +348,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @evay_vpn",
       "type": "vless",
       "server": "151.101.25.242",
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @evay_vpn",
-      "type": "vless",
-      "server": "evay_vpn.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "86c2b667-4fc8-4a56-af4a-38b9e9e84610",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @evay_vpn",
-      "type": "vless",
-      "server": "evay_vpn.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
       "packet_encoding": "xudp"
     },
     {
@@ -656,6 +651,30 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "deadseectelegram.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "70557107-0ca9-4c37-f02c-09c333a3d219",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "ir.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-NUFiLTER-7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "ir.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-NUFiLTER-8",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @kafing_2",
@@ -1003,14 +1022,6 @@
       "server": "141.193.213.31",
       "server_port": 8443,
       "uuid": "8ccf9188-925e-4287-efd2-04002478ddb5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @orange_vpns",
-      "type": "vless",
-      "server": "evay_vpn.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
       "packet_encoding": "xudp"
     },
     {
@@ -1449,6 +1460,14 @@
       "server": "151.101.169.242",
       "server_port": 80,
       "uuid": "TELEGRAM-CONFiGLiNE-125",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v_2rayng0",
+      "type": "vless",
+      "server": "ir.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-NUFiLTER-10",
       "packet_encoding": "xudp"
     },
     {
