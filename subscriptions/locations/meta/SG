@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇸🇬 SG | VLESS | @hope_net", "server": "206.238.237.175", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇬 SG | VLESS | @vmessiranproxy", "server": "52.77.208.165", "port": 39801, "type": "vless", "skip-cert-verify": true, "uuid": "c9f044aa-7ec0-4510-b39b-a90357856cf2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇸🇬 SG | VLESS | @hope_net'
       - '🇸🇬 SG | VLESS | @vmessiranproxy'
 
   - name: 🌍 Global Media

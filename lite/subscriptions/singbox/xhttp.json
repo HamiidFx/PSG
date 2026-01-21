@@ -112,10 +112,12 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @drvpn_net",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇬🇧 GB | VLESS | @komail315",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
-        "🇽🇽 XX | VLESS | @v2raych",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇽🇽 XX | VLESS | @oonfig",
+        "🇽🇽 XX | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -145,10 +147,12 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @drvpn_net",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇬🇧 GB | VLESS | @komail315",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
-        "🇽🇽 XX | VLESS | @v2raych",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇽🇽 XX | VLESS | @oonfig",
+        "🇽🇽 XX | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -402,11 +406,36 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2",
+      "tag": "🇽🇽 XX | VLESS | @drvpn_net",
+      "type": "vless",
+      "server": "www.arvancloudstatus.ir",
+      "server_port": 443,
+      "uuid": "a0e2bbf8-fa37-4f41-b6e2-26a855a71fa8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @komail315",
+      "type": "vless",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
     },
     {
@@ -418,19 +447,28 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych",
+      "tag": "🇽🇽 XX | VLESS | @oonfig",
       "type": "vless",
       "server": "chatgpt.com",
-      "server_port": 2053,
-      "uuid": "082dddd1-a684-4817-b1e6-207e88e16ee9",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "6e8d6b76-c3ff-4cdc-aa9c-be6731789b76",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam",
       "type": "vless",
-      "server": "www.google.com.googleasiaotoppricechinaforallgooglecomyahoo.digital",
-      "server_port": 2052,
-      "uuid": "728cd436-7d2b-4ed3-add5-da5a41a7ba22",
+      "server": "www.zzula.ir",
+      "server_port": 2053,
+      "uuid": "846e4fd7-b335-498b-898f-5f1c04e5d65b",
       "packet_encoding": "xudp"
     }
   ],

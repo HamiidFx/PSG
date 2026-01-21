@@ -78,6 +78,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @kafing_2",
+        "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "proxy",
@@ -87,6 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @kafing_2",
+        "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "auto",
@@ -105,6 +109,45 @@
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
+      "server": "85.192.48.50",
+      "server_port": 443,
+      "uuid": "02fb468f-21f2-460e-bfa1-ef52ae5e627f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "135.181.251.219",
       "server_port": 17071,
       "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b",
@@ -113,9 +156,9 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych",
       "type": "vless",
-      "server": "135.181.251.219",
-      "server_port": 17071,
-      "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b",
+      "server": "65.109.189.215",
+      "server_port": 45602,
+      "uuid": "dcd2ba2f-6d88-4379-b2f8-a12a9ed8441f",
       "packet_encoding": "xudp"
     }
   ],

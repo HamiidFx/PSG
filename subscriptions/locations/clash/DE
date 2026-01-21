@@ -23,14 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @config_proxy", "server": "openai.com", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "19868730-275b-4396-9dce-a6d8bdf4672d", "alterId": 0, "cipher": "auto", "network": "xhttp", "tls": true}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns", "server": "63.179.77.17", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇩🇪 DE | TROJAN | @privatevpns", "server": "18.196.155.223", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇩🇪 DE | VMESS | @prrofile_purple", "server": "openai.com", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "19868730-275b-4396-9dce-a6d8bdf4672d", "alterId": 0, "cipher": "auto", "network": "xhttp", "tls": true}
   - {"name": "🇩🇪 DE | VMESS | @v2ray_free_conf", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | TROJAN | @v2rayngconfig", "server": "146.19.215.81", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "769c2da7-add3-42e8-a03c-07be9fcf483c"}
-  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel", "server": "63.179.77.17", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -44,14 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | VMESS | @config_proxy'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @magickey_shop'
       - '🇩🇪 DE | TROJAN | @privatevpns'
+      - '🇩🇪 DE | VMESS | @prrofile_purple'
       - '🇩🇪 DE | VMESS | @v2ray_free_conf'
       - '🇩🇪 DE | TROJAN | @v2rayngconfig'
-      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel'
 
   - name: 🌍 Global Media
     type: select
