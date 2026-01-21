@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -106,6 +107,7 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "proxy",
@@ -117,6 +119,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -130,6 +133,7 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "auto",
@@ -210,6 +214,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @father_vpn",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "dl3.hupcloud.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2048",
+        "headers": {
+          "Host": "dl3.hupcloud.com"
         }
       }
     },
@@ -528,6 +557,31 @@
         "path": "/",
         "headers": {
           "Host": "new6.hucloud-dns.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @vmesskhodam",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 2083,
+      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hgtrojan.zabc.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/e6395c20",
+        "headers": {
+          "Host": "hgtrojan.zabc.net"
         }
       }
     },

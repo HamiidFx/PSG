@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy"
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy"
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,9 +114,17 @@
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "718fa946-c3e8-4e98-a35b-52c0e5897568",
+      "server": "135.181.251.219",
+      "server_port": 17071,
+      "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "135.181.251.219",
+      "server_port": 17071,
+      "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b",
       "packet_encoding": "xudp"
     }
   ],

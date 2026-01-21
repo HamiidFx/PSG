@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -105,7 +104,6 @@
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @orange_vpns",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇳🇱 NL | SS | @outline_ir",
         "🇳🇱 NL | SS | @outlinereleasedkey",
@@ -123,7 +121,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -138,7 +135,6 @@
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @orange_vpns",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇳🇱 NL | SS | @outline_ir",
         "🇳🇱 NL | SS | @outlinereleasedkey",
@@ -158,23 +154,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "world-of.ru",
-      "server_port": 443,
-      "uuid": "a3bfb107-ae1b-487e-9064-c067ac9dfaac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
@@ -309,28 +288,6 @@
       "server_port": 80,
       "uuid": "e578e519-d95c-41ff-aaaa-1b17be64ee22",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns",
-      "type": "vless",
-      "server": "72.56.92.27",
-      "server_port": 4443,
-      "uuid": "ddffda27-8c5f-4f53-8450-4d11a1e0b368",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns",

@@ -77,15 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
-        "🇷🇺 RU | SS | @v2ray_free_conf",
         "🇷🇺 RU | VLESS | @v2ray_youtube",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
@@ -97,15 +96,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
-        "🇷🇺 RU | SS | @v2ray_free_conf",
         "🇷🇺 RU | VLESS | @v2ray_youtube",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
@@ -123,6 +121,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "51.250.99.190",
+      "server_port": 1488,
+      "uuid": "00c49863-6d15-4289-9229-841ee5f7868c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -147,14 +153,6 @@
       "server": "51.250.75.169",
       "server_port": 444,
       "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray",
-      "type": "vless",
-      "server": "digishop.ruxsias.ramvadminshop.com",
-      "server_port": 56222,
-      "uuid": "427621be-1ecd-4e71-ac64-8e7ed635ef34",
       "packet_encoding": "xudp"
     },
     {
@@ -250,14 +248,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "clr.ducks.tel",
-      "server_port": 17846,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDc1NjAyMzA=",
-      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_youtube",

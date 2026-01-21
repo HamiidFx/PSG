@@ -81,19 +81,20 @@
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @frev2rayng",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | VLESS | @miov2ray",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
-        "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
         "🇬🇧 GB | VLESS | @v2rayopen",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -103,7 +104,8 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
         "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇬🇧 GB | VLESS | @vpnplusee_free",
+        "🇬🇧 GB | VLESS | @xsv2ray"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,19 +117,20 @@
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @frev2rayng",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | VLESS | @miov2ray",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
-        "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
         "🇬🇧 GB | VLESS | @v2rayopen",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -137,7 +140,8 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vpn_ioss",
         "🇬🇧 GB | VLESS | @vpnowl",
-        "🇬🇧 GB | VLESS | @vpnplusee_free"
+        "🇬🇧 GB | VLESS | @vpnplusee_free",
+        "🇬🇧 GB | VLESS | @xsv2ray"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,6 +206,14 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @frev2rayng",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 80,
+      "uuid": "815724d3-0d61-4761-be07-471441d42be5",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @kafing_2",
       "type": "vless",
       "server": "25.26.27.158",
@@ -257,6 +269,23 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5M1Nvd3FVa3J0MWNibTQ4N2c3NEFj",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @miov2ray",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0",
@@ -319,14 +348,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2rayfast_7",
-      "type": "vless",
-      "server": "clean.photoggenic.ir",
-      "server_port": 8880,
-      "uuid": "8e997404-cb62-4fa1-a8c9-c77a32f10153",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2raymelliii",
@@ -425,6 +446,23 @@
       "server_port": 2052,
       "uuid": "728cd436-7d2b-4ed3-add5-da5a41a7ba22",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @xsv2ray",
+      "type": "vless",
+      "server": "nv73.momdping.com",
+      "server_port": 443,
+      "uuid": "959eb33c-43f8-4f45-9de6-3ffd13319a79",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

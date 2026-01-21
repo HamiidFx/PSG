@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "hield.ru", "port": 3389, "type": "vless", "skip-cert-verify": true, "uuid": "718fa946-c3e8-4e98-a35b-52c0e5897568", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "135.181.251.219", "port": 17071, "type": "vless", "skip-cert-verify": true, "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2raych", "server": "135.181.251.219", "port": 17071, "type": "vless", "skip-cert-verify": true, "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @config_proxy'
+      - '🇫🇮 FI | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

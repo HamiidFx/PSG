@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇺🇸 US | VMESS | @config_proxy",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
@@ -113,6 +113,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -130,7 +131,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇺🇸 US | VMESS | @config_proxy",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
@@ -149,6 +150,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -263,18 +265,20 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "tag": "🇩🇪 DE | VMESS | @config_proxy",
       "type": "vmess",
-      "server": "uicdn.cf",
-      "server_port": 80,
-      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
+      "server": "openai.com",
+      "server_port": 8443,
+      "uuid": "19868730-275b-4396-9dce-a6d8bdf4672d",
       "security": "auto",
       "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/sshkit/fdfadsfa/63848bfe228fd/",
-        "headers": {
-          "Host": "us-lb.sshkit.org"
+      "tls": {
+        "enabled": true,
+        "server_name": "dead.imsoon.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -702,6 +706,15 @@
           "Host": "scherehtzflk01.schere.net"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "v30.hdacd.com",
+      "server_port": 30830,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig",
