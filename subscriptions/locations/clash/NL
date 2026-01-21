@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇳🇱 NL | TROJAN | @manstervpn", "server": "185.176.24.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
-  - {"name": "🇳🇱 NL | VMESS | @v2ray_free_conf", "server": "45.90.106.24", "port": 1234, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "aes-128-gcm", "network": "tcp", "tls": true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇱 NL | TROJAN | @manstervpn'
-      - '🇳🇱 NL | VMESS | @v2ray_free_conf'
 
   - name: 🌍 Global Media
     type: select

@@ -80,15 +80,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇦🇪 AE | VLESS | @iran_access",
+        "🇫🇷 FR | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @kafing_2",
+        "🇫🇮 FI | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇯🇵 JP | VLESS | @v2aryng_vpn"
+        "🇯🇵 JP | VLESS | @v2aryng_vpn",
+        "🇩🇪 DE | VLESS | @v2raymelliii",
+        "🇫🇷 FR | VLESS | @v2rayopen"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,15 +102,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇦🇪 AE | VLESS | @iran_access",
+        "🇫🇷 FR | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @kafing_2",
+        "🇫🇮 FI | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇯🇵 JP | VLESS | @v2aryng_vpn"
+        "🇯🇵 JP | VLESS | @v2aryng_vpn",
+        "🇩🇪 DE | VLESS | @v2raymelliii",
+        "🇫🇷 FR | VLESS | @v2rayopen"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,6 +201,15 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @configasli",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -225,30 +240,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "ip.aiteamplus.ir",
-      "server_port": 444,
-      "uuid": "9da4ff55-440a-4b6e-9a3c-540beda258a1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "ip.aiteamplus.ir",
-      "server_port": 6007,
-      "uuid": "9da4ff55-440a-4b6e-9a3c-540beda258a1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "ip.aiteamplus.ir",
-      "server_port": 6012,
-      "uuid": "9da4ff55-440a-4b6e-9a3c-540beda258a1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇦🇪 AE | VLESS | @iran_access",
       "type": "vless",
       "server": "uae.kitten-tube.com",
@@ -271,11 +262,77 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @kafing_2",
       "type": "vless",
       "server": "nl.shopforkids.ir",
       "server_port": 2247,
       "uuid": "b8570c14-9063-461d-8cab-4389fce4d36c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "fr.shopforkids.ir",
+      "server_port": 2251,
+      "uuid": "b8570c14-9063-461d-8cab-4389fce4d36c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -320,6 +377,50 @@
       "server": "japan.geodema.network",
       "server_port": 443,
       "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raymelliii",
+      "type": "vless",
+      "server": "ipv.aiteamplus.ir",
+      "server_port": 20400,
+      "uuid": "e728ebb5-fc0d-4feb-ad44-dfaea0d01dcd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2rayopen",
+      "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

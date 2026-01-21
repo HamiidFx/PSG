@@ -88,8 +88,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf"
+        "🇫🇷 FR | VMESS | @v2raytg"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,8 +107,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf"
+        "🇫🇷 FR | VMESS | @v2raytg"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -334,31 +332,13 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VMESS | @selinc",
+      "tag": "🇫🇷 FR | VMESS | @v2raytg",
       "type": "vmess",
       "server": "162.19.248.238",
       "server_port": 550,
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "45.90.106.24",
-      "server_port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "supervpn.super.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

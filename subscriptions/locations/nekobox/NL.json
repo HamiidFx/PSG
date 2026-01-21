@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -101,7 +102,8 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf",
+        "🇳🇱 NL | VLESS | @v2raych",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -110,6 +112,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -134,7 +137,8 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf",
+        "🇳🇱 NL | VLESS | @v2raych",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -149,6 +153,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.131.208.37",
+      "server_port": 8880,
+      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
@@ -416,16 +428,23 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "45.90.106.24",
-      "server_port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "45.131.208.37",
+      "server_port": 8880,
+      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "194.5.97.158",
+      "server_port": 443,
+      "uuid": "e48bd3bf-b241-4d18-8b10-743154b05882",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "supervpn.super.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

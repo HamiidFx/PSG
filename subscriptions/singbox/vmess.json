@@ -106,9 +106,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf",
+        "🇫🇷 FR | VMESS | @v2raytg",
         "🇨🇦 CA | VMESS | @NamiraConfigs",
         "🇬🇧 GB | VMESS | @bored_vpn",
         "🇽🇽 XX | VMESS | @config_proxy",
@@ -128,13 +127,15 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
+        "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇺🇸 US | VMESS | @v2ray_free_conf",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam"
+        "🇽🇽 XX | VMESS | @vmesskhodam",
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -158,9 +159,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf",
+        "🇫🇷 FR | VMESS | @v2raytg",
         "🇨🇦 CA | VMESS | @NamiraConfigs",
         "🇬🇧 GB | VMESS | @bored_vpn",
         "🇽🇽 XX | VMESS | @config_proxy",
@@ -180,13 +180,15 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
+        "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇺🇸 US | VMESS | @v2ray_free_conf",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam"
+        "🇽🇽 XX | VMESS | @vmesskhodam",
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -501,15 +503,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VMESS | @selinc",
-      "type": "vmess",
-      "server": "162.19.248.238",
-      "server_port": 550,
-      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector",
       "type": "vmess",
       "server": "209.126.84.189",
@@ -535,22 +528,13 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf",
+      "tag": "🇫🇷 FR | VMESS | @v2raytg",
       "type": "vmess",
-      "server": "45.90.106.24",
-      "server_port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "server": "162.19.248.238",
+      "server_port": 550,
+      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "supervpn.super.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "alter_id": 0
     },
     {
       "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
@@ -597,13 +581,13 @@
       "tag": "🇽🇽 XX | VMESS | @config_proxy",
       "type": "vmess",
       "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "235a5c32-da94-4b9e-ace1-91e5c0ee9dda",
+      "server_port": 2053,
+      "uuid": "87a7d54e-c9c5-4f25-842e-4ffadb6ec429",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "S1.shahanpanel.link",
+        "server_name": "aliyedast.gwkaqq.lol",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -946,6 +930,31 @@
     {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00",
       "type": "vmess",
+      "server": "172.67.196.112",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kellie.makeup",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "kellie.makeup"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @serverv2ray00",
+      "type": "vmess",
       "server": "172.67.152.214",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -1019,27 +1028,18 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf",
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf",
       "type": "vmess",
-      "server": "cold-dawn-9246.fly.dev",
-      "server_port": 443,
-      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+      "server": "010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "40e084d6-0316-11f0-90e2-f23c913c8d2b",
       "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "cold-dawn-9246.fly.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "alter_id": 2,
       "transport": {
         "type": "ws",
-        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+        "path": "/",
         "headers": {
-          "Host": "cold-dawn-9246.fly.dev"
+          "Host": "010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net"
         }
       }
     },
@@ -1165,6 +1165,31 @@
         "path": "/e6395c20",
         "headers": {
           "Host": "hgtrojan.zabc.net"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config",
+      "type": "vmess",
+      "server": "cold-dawn-9246.fly.dev",
+      "server_port": 443,
+      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cold-dawn-9246.fly.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+        "headers": {
+          "Host": "cold-dawn-9246.fly.dev"
         }
       }
     }

@@ -93,13 +93,13 @@
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
         "🇷🇺 RU | VLESS | @nofilter_v2rayng",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
+        "🇷🇺 RU | SS | @v2ray_free_conf",
         "🇷🇺 RU | VLESS | @v2ray_youtube",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
@@ -114,13 +114,13 @@
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
         "🇷🇺 RU | VLESS | @nofilter_v2rayng",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
+        "🇷🇺 RU | SS | @v2ray_free_conf",
         "🇷🇺 RU | VLESS | @v2ray_youtube",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
@@ -159,28 +159,6 @@
       "server_port": 444,
       "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray",
-      "type": "vless",
-      "server": "45.159.249.242",
-      "server_port": 8443,
-      "uuid": "ecd373ac-8cc8-407d-9600-896d6296320c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @flyv2ray",
@@ -305,6 +283,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "clr.ducks.tel",
+      "server_port": 17846,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDc1NjAyMzA=",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_youtube",

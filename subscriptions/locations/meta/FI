@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "65.109.178.83", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @flyv2ray", "server": "finland.aparat-movies-download.ir", "port": 42538, "type": "vless", "skip-cert-verify": true, "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @kafing_2", "server": "new.pvnoco.ir", "port": 558, "type": "vless", "skip-cert-verify": true, "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @flyv2ray'
+      - '🇫🇮 FI | VLESS | @flyv2ray'
+      - '🇫🇮 FI | VLESS | @kafing_2'
 
   - name: 🌍 Global Media
     type: select

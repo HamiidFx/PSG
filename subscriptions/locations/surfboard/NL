@@ -10,12 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇳🇱 NL | TROJAN | @manstervpn = trojan, 185.176.24.2, 443, password = bpb-trojan, skip-cert-verify = true
-🇳🇱 NL | VMESS | @v2ray_free_conf = vmess, 45.90.106.24, 1234, username = 5c040f1d-45db-43bd-8d46-e4950e433735, ws = false, tls = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @manstervpn, 🇳🇱 NL | VMESS | @v2ray_free_conf
-PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @manstervpn, 🇳🇱 NL | VMESS | @v2ray_free_conf
-PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @manstervpn, 🇳🇱 NL | VMESS | @v2ray_free_conf
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @manstervpn
+PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @manstervpn
+PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @manstervpn
 
 [Rule]
 GEOIP,IR,DIRECT

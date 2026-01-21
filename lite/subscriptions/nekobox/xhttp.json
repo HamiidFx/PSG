@@ -80,14 +80,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @bored_vpn",
+        "🇽🇽 XX | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
         "🇬🇧 GB | VLESS | @father_vpn",
-        "🇩🇪 DE | VLESS | @ghalagyann2",
-        "🇩🇪 DE | VLESS | @ghalagyann2",
         "🇺🇸 US | VLESS | @mpproxy",
+        "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇳🇱 NL | VLESS | @nofiltering2",
@@ -101,7 +100,10 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @dargiiriis",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇺🇸 US | VLESS | @flyv2ray",
+        "🇬🇧 GB | VLESS | @komail315",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
         "🇺🇸 US | VLESS | @parsashonam",
         "🇬🇧 GB | VLESS | @vpnplusee_free"
@@ -115,14 +117,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @bored_vpn",
+        "🇽🇽 XX | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
         "🇬🇧 GB | VLESS | @father_vpn",
-        "🇩🇪 DE | VLESS | @ghalagyann2",
-        "🇩🇪 DE | VLESS | @ghalagyann2",
         "🇺🇸 US | VLESS | @mpproxy",
+        "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇳🇱 NL | VLESS | @nofiltering2",
@@ -136,7 +137,10 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @dargiiriis",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇺🇸 US | VLESS | @flyv2ray",
+        "🇬🇧 GB | VLESS | @komail315",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray",
         "🇺🇸 US | VLESS | @parsashonam",
         "🇬🇧 GB | VLESS | @vpnplusee_free"
@@ -227,12 +231,21 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @bored_vpn",
+      "tag": "🇽🇽 XX | VLESS | @config_proxy",
       "type": "vless",
-      "server": "146.75.119.82",
-      "server_port": 80,
-      "uuid": "ba031344-70cf-466b-e566-c505f6908f70",
-      "packet_encoding": "xudp"
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "f6c21820-f1b0-4bf2-9f47-cf2ad5fc0712",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @dargiiriis",
@@ -267,22 +280,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @ghalagyann2",
-      "type": "vless",
-      "server": "146.75.119.82",
-      "server_port": 80,
-      "uuid": "ba031344-70cf-466b-e566-c505f6908f70",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @ghalagyann2",
-      "type": "vless",
-      "server": "146.75.119.82",
-      "server_port": 80,
-      "uuid": "a9e23a88-35e6-457a-f5ae-3321a747ff9b",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @mpproxy",
       "type": "vless",
       "server": "151.101.3.8",
@@ -304,6 +301,14 @@
       "server": "191.96.94.33",
       "server_port": 8080,
       "uuid": "f31ec3e2-6fc7-4044-bfbd-7fd74fa5648f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @mtpv2ray",
+      "type": "vless",
+      "server": "191.96.94.33",
+      "server_port": 8080,
+      "uuid": "22a5ae0c-17a5-418e-83e6-a0ca556c04a4",
       "packet_encoding": "xudp"
     },
     {
@@ -395,11 +400,35 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2",
+      "tag": "🇽🇽 XX | VLESS | @dargiiriis",
+      "type": "vless",
+      "server": "cdn.halazzon.ir",
+      "server_port": 2083,
+      "uuid": "33f2f3cd-0d71-4ab2-b81a-39daeeaeb919",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "vox.map.fastly.net",
+      "server_port": 80,
+      "uuid": "427621be-1ecd-4e71-ac64-8e7ed635ef34",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @komail315",
+      "type": "vless",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
     },
     {

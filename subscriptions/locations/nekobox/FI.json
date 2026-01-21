@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @flyv2ray"
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @kafing_2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @flyv2ray"
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @kafing_2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +118,36 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "finland.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
