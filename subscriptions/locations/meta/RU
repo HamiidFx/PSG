@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "90.156.150.229", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a97ee459-1c1b-4136-87ee-f6a73f987227", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "158.160.198.23", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3b7ad1b7-e85a-46d3-ad4e-0943bd4c9d42", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "158.160.182.134", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "3b7ad1b7-e85a-46d3-ad4e-0943bd4c9d42", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "84.201.130.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @iranbfilter", "server": "benefits.by", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -34,7 +31,7 @@ proxies:
   - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @satellitenewspersian", "server": "45.8.145.61", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @v2aryng_vpn", "server": "5.188.141.21", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eea43678-4d58-42c5-9f39-3a36ecc849ad", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube", "server": "193.160.209.95", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "3f688b2a-373a-4be1-846d-b159404b73b2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2aryng_vpn", "server": "84.201.164.23", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8a993afa-0f5e-4de8-a2d6-1d850fd52dcc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @v2raytg", "server": "83.166.236.201", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "329bd550-a8f8-4157-b2df-dc4503097a27", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc", "server": "109.248.222.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc", "server": "176.109.109.58", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "bc32639e-100a-40ad-b064-b0829a0bd197", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -51,9 +48,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @config_proxy'
-      - '🇷🇺 RU | VLESS | @config_proxy'
-      - '🇷🇺 RU | VLESS | @config_proxy'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @iranbfilter'
@@ -62,7 +56,7 @@ proxy-groups:
       - '🇷🇺 RU | VMESS | @prooxyk'
       - '🇷🇺 RU | VLESS | @satellitenewspersian'
       - '🇷🇺 RU | VLESS | @v2aryng_vpn'
-      - '🇷🇺 RU | VLESS | @v2ray_youtube'
+      - '🇷🇺 RU | VLESS | @v2aryng_vpn'
       - '🇷🇺 RU | VLESS | @v2raytg'
       - '🇷🇺 RU | VLESS | @vmesc'
       - '🇷🇺 RU | VLESS | @vmesc'

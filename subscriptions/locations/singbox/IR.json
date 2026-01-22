@@ -91,10 +91,10 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet",
-        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @prooxyk",
-        "🇮🇷 IR | VLESS | @v2ray_iran88"
+        "🇮🇷 IR | VLESS | @v2ray_iran88",
+        "🇮🇷 IR | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet",
-        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @prooxyk",
-        "🇮🇷 IR | VLESS | @v2ray_iran88"
+        "🇮🇷 IR | VLESS | @v2ray_iran88",
+        "🇮🇷 IR | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,14 +133,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "185.231.114.218",
-      "server_port": 80,
-      "uuid": "81ea895f-0c0d-4018-b712-75dd08a29b26",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn",
@@ -173,6 +165,14 @@
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "arzdigital.com",
+      "server_port": 80,
+      "uuid": "f4f18ac0-cfc3-427a-af8c-a847bc516cca",
       "packet_encoding": "xudp"
     }
   ],

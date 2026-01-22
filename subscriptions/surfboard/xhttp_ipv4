@@ -1,0 +1,22 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/xhttp_ipv4 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇽🇽 XX | TROJAN | @v2ray_youtube = trojan, 162.159.152.4, 8443, password = DPaEhASbrF, skip-cert-verify = true
+🇽🇽 XX | TROJAN | @v2ray_youtube = trojan, 8.6.112.0, 8443, password = DPaEhASbrF, skip-cert-verify = true
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | TROJAN | @v2ray_youtube, 🇽🇽 XX | TROJAN | @v2ray_youtube
+PSG-AUTO = url-test, 🇽🇽 XX | TROJAN | @v2ray_youtube, 🇽🇽 XX | TROJAN | @v2ray_youtube
+PSG-FALLBACK = fallback, 🇽🇽 XX | TROJAN | @v2ray_youtube, 🇽🇽 XX | TROJAN | @v2ray_youtube
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

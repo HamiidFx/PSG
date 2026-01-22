@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy", "server": "85.192.48.50", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "02fb468f-21f2-460e-bfa1-ef52ae5e627f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @kafing_2", "server": "new.pvnoco.ir", "port": 558, "type": "vless", "skip-cert-verify": true, "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @prrofile_purple", "server": "135.181.251.219", "port": 17071, "type": "vless", "skip-cert-verify": true, "uuid": "d54c5b74-b789-4a58-a705-40f8a2d7051b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @config_proxy'
       - '🇫🇮 FI | VLESS | @kafing_2'
-      - '🇫🇮 FI | VLESS | @prrofile_purple'
 
   - name: 🌍 Global Media
     type: select

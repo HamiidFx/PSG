@@ -96,6 +96,7 @@
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -107,7 +108,6 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -116,7 +116,6 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf",
         "🇫🇷 FR | VMESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -131,6 +130,7 @@
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -142,7 +142,6 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -151,7 +150,6 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf",
         "🇫🇷 FR | VMESS | @v2raytg"
       ],
       "tag": "auto",
@@ -308,6 +306,28 @@
         "headers": {
           "Host": "xcf037.facai2024.com"
         }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @hope_net",
+      "type": "vmess",
+      "server": "www.speedtest.net",
+      "server_port": 2053,
+      "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "1S0tbpcysTVzKnnfkbaxK8mykaiYYhDrH2jYGrv2q5zbCzAjl.protonix.ir.",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
@@ -579,31 +599,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @vmesskhodam",
-      "type": "vmess",
-      "server": "chatgpt.com",
-      "server_port": 2083,
-      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hgtrojan.zabc.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e6395c20",
-        "headers": {
-          "Host": "hgtrojan.zabc.net"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -755,15 +750,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇫🇷 FR | VMESS | @v2raytg",

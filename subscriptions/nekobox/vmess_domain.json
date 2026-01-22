@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇫🇷 FR | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
@@ -95,17 +96,18 @@
         "🇫🇷 FR | VMESS | @mehrosaboran",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
-        "🇩🇪 DE | VMESS | @prrofile_purple",
+        "🇽🇽 XX | VMESS | @prrofile_purple",
+        "🇺🇸 US | VMESS | @prrofile_purple",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇽🇽 XX | VMESS | @v2ray_youtube",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "proxy",
@@ -118,6 +120,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇫🇷 FR | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
@@ -132,17 +135,18 @@
         "🇫🇷 FR | VMESS | @mehrosaboran",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
-        "🇩🇪 DE | VMESS | @prrofile_purple",
+        "🇽🇽 XX | VMESS | @prrofile_purple",
+        "🇺🇸 US | VMESS | @prrofile_purple",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇽🇽 XX | VMESS | @v2ray_youtube",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇽🇽 XX | VMESS | @vmesskhodam",
         "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "auto",
@@ -252,6 +256,31 @@
         "path": "/?ed=2048",
         "headers": {
           "Host": "gptai.asrenet.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "162.159.152.4",
+      "server_port": 443,
+      "uuid": "e510d718-26b8-4b0e-e768-600dd8db7321",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "amirzaplus.alsahoarvi.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "amirzaplus.alsahoarvi.cfd"
         }
       }
     },
@@ -578,20 +607,52 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @prrofile_purple",
+      "tag": "🇽🇽 XX | VMESS | @prrofile_purple",
       "type": "vmess",
-      "server": "openai.com",
-      "server_port": 8443,
-      "uuid": "19868730-275b-4396-9dce-a6d8bdf4672d",
+      "server": "8.6.112.0",
+      "server_port": 443,
+      "uuid": "4bf075f5-4d5e-4d39-f5ab-b32a86250f0e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "dead.imsoon.net",
+        "server_name": "hk.nbee.pp.ua",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aa",
+        "headers": {
+          "Host": "hk.nbee.pp.ua"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @prrofile_purple",
+      "type": "vmess",
+      "server": "162.159.152.4",
+      "server_port": 443,
+      "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.codefyinc.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmessws",
+        "headers": {
+          "Host": "v2ray.codefyinc.com"
         }
       }
     },
@@ -721,6 +782,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_youtube",
+      "type": "vmess",
+      "server": "rav2fa.noytads.ir",
+      "server_port": 443,
+      "uuid": "3fe9c0fe-bc34-45a7-9d39-b9e84d3e06e2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "netmeli.noytads.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2052/@RaV2Fa",
+        "headers": {
+          "Host": "netmeli.noytads.ir"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig",
       "type": "vmess",
       "server": "vde2.0bad.com",
@@ -817,31 +903,6 @@
         "path": "/chat",
         "headers": {
           "Host": "vau1.0bad.com"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @vmesskhodam",
-      "type": "vmess",
-      "server": "chatgpt.com",
-      "server_port": 2083,
-      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hgtrojan.zabc.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e6395c20",
-        "headers": {
-          "Host": "hgtrojan.zabc.net"
         }
       }
     },
