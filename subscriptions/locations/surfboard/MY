@@ -1,0 +1,23 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/MY interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇲🇾 MY | TROJAN | @v2raych #1 = trojan, xiaozhu1.kkieo555.cn, 41275, password = 0b78da11-9e69-4bd6-a95f-27ca81c43d0d, skip-cert-verify = true
+🇲🇾 MY | TROJAN | @v2raych #2 = trojan, xiaozhu1.kkieo555.cn, 41277, password = 7bdf5985-65ff-4f56-935a-2ff73cf4bf11, skip-cert-verify = true
+🇲🇾 MY | TROJAN | @v2raych #3 = trojan, xiaozhu1.kkieo555.cn, 41274, password = f40d74b6-6092-4a32-bde1-0eec5db90de0, skip-cert-verify = true
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | TROJAN | @v2raych #1, 🇲🇾 MY | TROJAN | @v2raych #2, 🇲🇾 MY | TROJAN | @v2raych #3
+PSG-AUTO = url-test, 🇲🇾 MY | TROJAN | @v2raych #1, 🇲🇾 MY | TROJAN | @v2raych #2, 🇲🇾 MY | TROJAN | @v2raych #3
+PSG-FALLBACK = fallback, 🇲🇾 MY | TROJAN | @v2raych #1, 🇲🇾 MY | TROJAN | @v2raych #2, 🇲🇾 MY | TROJAN | @v2raych #3
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

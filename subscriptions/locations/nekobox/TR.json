@@ -77,10 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @prrofile_purple #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | TROJAN | @v2rayngconfig #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @prrofile_purple #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | TROJAN | @v2rayngconfig #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,19 +109,33 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "tr.phoenixcloud.com.tr",
+      "server_port": 8443,
+      "uuid": "68d1553a-9cec-46cc-9583-841d6153ec94",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "t.ariyanln.com",
       "server_port": 5448,
       "uuid": "0c06cea4-5d42-4697-9be0-b92d45be3c3f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "trfastgateway.amirconfigpaanelllll.com",
-      "server_port": 2126,
-      "uuid": "e093e5fe-ccc1-47e4-851b-8d37453d2900",
       "packet_encoding": "xudp"
     },
     {
@@ -145,6 +161,23 @@
       "server_port": 2096,
       "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "trk.asreabi.ir",
+      "server_port": 443,
+      "uuid": "d7c89dff-38c1-4206-8101-15cc5bb4ca6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -23,16 +23,15 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @Fr33C0nfig #1", "server": "spb.jojack.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e8cba8f5-b824-4f56-8d91-9164fac200ce", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn #1", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @filtershekan_channel #1", "server": "84.201.167.199", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fa-8031206539-1766312475386029", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @iranbfilter #1", "server": "benefits.by", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1", "server": "109.120.188.30", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "d6b1327d-2bec-4366-a3a1-9b1284f95841", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @mtpv2ray #1", "server": "194.113.106.4", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "449a95b6-8ab1-4fe3-a59b-64b3341f2d12", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @nofilter_v2rayng #1", "server": "185.130.114.253", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @satellitenewspersian #1", "server": "45.8.145.61", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1", "server": "31.184.215.117", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f531f3b9-48b7-42df-8795-c1aa33be7941", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc #1", "server": "109.248.222.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "194.113.106.4", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "449a95b6-8ab1-4fe3-a59b-64b3341f2d12", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -46,16 +45,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @Fr33C0nfig #1'
       - '🇷🇺 RU | VLESS | @evay_vpn #1'
+      - '🇷🇺 RU | VLESS | @filtershekan_channel #1'
       - '🇷🇺 RU | VLESS | @iranbfilter #1'
-      - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #1'
       - '🇷🇺 RU | VLESS | @mtpv2ray #1'
       - '🇷🇺 RU | VLESS | @nofilter_v2rayng #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @satellitenewspersian #1'
+      - '🇷🇺 RU | VLESS | @vip_vpn_2022 #1'
       - '🇷🇺 RU | VLESS | @vmesc #1'
-      - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

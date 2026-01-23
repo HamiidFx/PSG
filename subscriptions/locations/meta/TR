@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "tr.phoenixcloud.com.tr", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "68d1553a-9cec-46cc-9583-841d6153ec94", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @prrofile_purple #1", "server": "t.ariyanln.com", "port": 5448, "type": "vless", "skip-cert-verify": true, "uuid": "0c06cea4-5d42-4697-9be0-b92d45be3c3f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "trfastgateway.amirconfigpaanelllll.com", "port": 2126, "type": "vless", "skip-cert-verify": true, "uuid": "e093e5fe-ccc1-47e4-851b-8d37453d2900", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig #1", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "tk.napsternetx.ir", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #2", "server": "trk.asreabi.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d7c89dff-38c1-4206-8101-15cc5bb4ca6f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
       - '🇹🇷 TR | VLESS | @prrofile_purple #1'
-      - '🇹🇷 TR | VLESS | @v2raych #1'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
+      - '🇹🇷 TR | VLESS | @vmesskhodam #2'
 
   - name: 🌍 Global Media
     type: select

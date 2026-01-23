@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VMESS | @v2aryng_vpn #1", "server": "45.252.182.137", "port": 21500, "type": "vmess", "skip-cert-verify": true, "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "45.252.182.137"}}}
-  - {"name": "🇳🇱 NL | TROJAN | @v2raych #1", "server": "45.63.40.126", "port": 13345, "type": "trojan", "skip-cert-verify": false, "password": "Szb%3D-Zguo53QhmivcJqEAWtpdPX6Y"}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #1", "server": "xiaozhu1.kkieo555.cn", "port": 41275, "type": "trojan", "skip-cert-verify": false, "password": "0b78da11-9e69-4bd6-a95f-27ca81c43d0d"}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #2", "server": "xiaozhu1.kkieo555.cn", "port": 41277, "type": "trojan", "skip-cert-verify": false, "password": "7bdf5985-65ff-4f56-935a-2ff73cf4bf11"}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #3", "server": "xiaozhu1.kkieo555.cn", "port": 41274, "type": "trojan", "skip-cert-verify": false, "password": "f40d74b6-6092-4a32-bde1-0eec5db90de0"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VMESS | @v2aryng_vpn #1'
-      - '🇳🇱 NL | TROJAN | @v2raych #1'
+      - '🇲🇾 MY | TROJAN | @v2raych #1'
+      - '🇲🇾 MY | TROJAN | @v2raych #2'
+      - '🇲🇾 MY | TROJAN | @v2raych #3'
 
   - name: 🌍 Global Media
     type: select

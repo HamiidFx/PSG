@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @netmellianti #1", "server": "45.144.51.22", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6c49485f-843c-4e96-abfe-046bc473c7b0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #1", "server": "xiaozhu1.kkieo555.cn", "port": 41275, "type": "trojan", "skip-cert-verify": false, "password": "0b78da11-9e69-4bd6-a95f-27ca81c43d0d"}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #2", "server": "xiaozhu1.kkieo555.cn", "port": 41277, "type": "trojan", "skip-cert-verify": false, "password": "7bdf5985-65ff-4f56-935a-2ff73cf4bf11"}
+  - {"name": "🇲🇾 MY | TROJAN | @v2raych #3", "server": "xiaozhu1.kkieo555.cn", "port": 41274, "type": "trojan", "skip-cert-verify": false, "password": "f40d74b6-6092-4a32-bde1-0eec5db90de0"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @netmellianti #1'
+      - '🇲🇾 MY | TROJAN | @v2raych #1'
+      - '🇲🇾 MY | TROJAN | @v2raych #2'
+      - '🇲🇾 MY | TROJAN | @v2raych #3'
 
   - name: 🌍 Global Media
     type: select

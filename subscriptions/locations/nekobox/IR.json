@@ -78,13 +78,12 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet #1",
-        "🇮🇷 IR | SS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,13 +92,12 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet #1",
-        "🇮🇷 IR | SS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -132,12 +130,12 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "fin.zerosulution.com",
-      "server_port": 2000,
-      "method": "R9Wndh5Pd1ZteV46",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "yerevan.onecloudai.top",
+      "server_port": 8440,
+      "uuid": "ef7a7152-5ff0-4273-91fe-19915c2c569d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -173,14 +171,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "yerevan.onecloudai.top",
-      "server_port": 8440,
-      "uuid": "ef7a7152-5ff0-4273-91fe-19915c2c569d",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @vmesc #1",
       "type": "vless",
       "server": "300.shecanmarket.com",
@@ -189,26 +179,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "uk.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "4eaa7aaa-47b4-4660-841a-4c5f0e39332c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "de.ariaanet.ir",
+      "server_port": 19887,
+      "uuid": "2d9befbf-25a8-4e39-a8c6-e15d5e80635f",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
