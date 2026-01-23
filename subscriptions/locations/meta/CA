@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇦 CA | VMESS | @config_proxy", "server": "134.195.198.147", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "134.195.198.147"}}}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
   - {"name": "🇨🇦 CA | VLESS | @netmellianti", "server": "172.105.105.182", "port": 2023, "type": "vless", "skip-cert-verify": true, "uuid": "97d0961f-7f44-40cf-a0c7-3d77722e3a51", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -43,7 +42,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | VMESS | @config_proxy'
       - '🇨🇦 CA | VLESS | @jokerv2ray'
       - '🇨🇦 CA | VLESS | @jokerv2ray'
       - '🇨🇦 CA | VLESS | @netmellianti'

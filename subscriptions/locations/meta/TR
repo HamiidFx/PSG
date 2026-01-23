@@ -23,12 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy", "server": "v2shop-tr1.bing-net.com", "port": 3040, "type": "vless", "skip-cert-verify": true, "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @prrofile_purple", "server": "107.161.174.155", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "48845b16-2920-467d-ad47-cb897df93e76", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @prrofile_purple", "server": "87.249.139.231", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych", "server": "v2shop-tr1.bing-net.com", "port": 3040, "type": "vless", "skip-cert-verify": true, "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
-  - {"name": "🇹🇷 TR | VLESS | @vpnplusee_free", "server": "156.146.52.113", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy'
       - '🇹🇷 TR | VLESS | @prrofile_purple'
       - '🇹🇷 TR | VLESS | @prrofile_purple'
-      - '🇹🇷 TR | VLESS | @v2raych'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig'
-      - '🇹🇷 TR | VLESS | @vpnplusee_free'
 
   - name: 🌍 Global Media
     type: select

@@ -9,18 +9,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮 FI | TROJAN | @config_proxy = trojan, fi2.nnvpn.io, 443, password = Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr, skip-cert-verify = true
 🇯🇵 JP | TROJAN | @free4allvpn = trojan, kuame.missionsec.us, 443, password = FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @mtproxy22_v2ray = trojan, zzula.ir, 443, password = df371b78-abfe-43b0-865a-a0e640e0ca0c, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @satellitenewspersian = trojan, saas.sin.fan, 443, password = 87d1bfd4-574e-4c96-ad42-0426f27461ff, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = 22f86840-bcac-11ee-abea-1239d0255272, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = c7f9b8f0-bfdb-11ee-a15c-1239d0255272, skip-cert-verify = true
+🇺🇸 US | TROJAN | @turboo_server = trojan, cdn.turbooserver.com, 80, password = TurbooServer, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vpn_ioss = trojan, www.calmlunch.com, 443, password = humanity, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | TROJAN | @config_proxy, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇫🇮 FI | TROJAN | @config_proxy, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇫🇮 FI | TROJAN | @config_proxy, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇺🇸 US | TROJAN | @turboo_server, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇺🇸 US | TROJAN | @turboo_server, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @free4allvpn, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇺🇸 US | TROJAN | @turboo_server, 🇽🇽 XX | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT

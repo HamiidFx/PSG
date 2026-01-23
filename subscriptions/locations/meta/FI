@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | TROJAN | @config_proxy", "server": "fi2.nnvpn.io", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr"}
   - {"name": "🇫🇮 FI | VLESS | @kafing_2", "server": "new.pvnoco.ir", "port": 558, "type": "vless", "skip-cert-verify": true, "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @orange_vpns", "server": "finland.aparat-movies-download.ir", "port": 42538, "type": "vless", "skip-cert-verify": true, "uuid": "962575c4-26de-4bd5-bac2-59b863dcdca3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @orange_vpns", "server": "65.109.178.83", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -40,7 +39,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | TROJAN | @config_proxy'
       - '🇫🇮 FI | VLESS | @kafing_2'
       - '🇫🇮 FI | VLESS | @orange_vpns'
       - '🇫🇮 FI | VLESS | @orange_vpns'

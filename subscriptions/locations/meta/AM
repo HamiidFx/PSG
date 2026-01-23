@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇲 AM | VLESS | @outline_ir", "server": "am2.speeditest.ir", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇲 AM | VLESS | @config_proxy", "server": "92.223.2.31", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇲 AM | VLESS | @config_proxy", "server": "92.223.2.31", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇲 AM | VLESS | @outline_ir'
+      - '🇦🇲 AM | VLESS | @config_proxy'
+      - '🇦🇲 AM | VLESS | @config_proxy'
 
   - name: 🌍 Global Media
     type: select

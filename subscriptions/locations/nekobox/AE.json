@@ -78,13 +78,13 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @config_proxy",
-        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
         "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @v2raych"
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,13 +93,13 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @config_proxy",
-        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
         "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @v2raych"
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,31 +117,9 @@
     {
       "tag": "🇦🇪 AE | VLESS | @config_proxy",
       "type": "vless",
-      "server": "dubai.torprospeed.ir",
-      "server_port": 223,
-      "uuid": "27528d1a-9ef9-42df-86f3-00b4e1b09169",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "v2shop-dubai1.bing-net.com",
-      "server_port": 3038,
-      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
+      "server": "goth.hellpresso.ir",
+      "server_port": 10684,
+      "uuid": "16899fd6-6ca0-4400-805d-9b891885bd69",
       "packet_encoding": "xudp"
     },
     {
@@ -193,18 +171,40 @@
     {
       "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
       "type": "vless",
+      "server": "217.195.200.233",
+      "server_port": 35177,
+      "uuid": "8d51e92a-7f6f-433c-b946-1ec411e7a759",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "dubai.torprospeed.ir",
       "server_port": 2023,
       "uuid": "27528d1a-9ef9-42df-86f3-00b4e1b09169",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @v2raych",
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
       "type": "vless",
-      "server": "v2shop-dubai1.bing-net.com",
-      "server_port": 3038,
-      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
-      "packet_encoding": "xudp"
+      "server": "goth.hellpresso.ir",
+      "server_port": 10684,
+      "uuid": "16899fd6-6ca0-4400-805d-9b891885bd69",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

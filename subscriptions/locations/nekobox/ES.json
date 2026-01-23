@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @netmellianti",
-        "🇪🇸 ES | VLESS | @netmellianti",
-        "🇪🇸 ES | VLESS | @v2raytg"
+        "🇪🇸 ES | VLESS | @netmellianti"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @netmellianti",
-        "🇪🇸 ES | VLESS | @netmellianti",
-        "🇪🇸 ES | VLESS | @v2raytg"
+        "🇪🇸 ES | VLESS | @netmellianti"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @netmellianti",
-      "type": "vless",
-      "server": "172.233.116.229",
-      "server_port": 223,
-      "uuid": "97d0961f-7f44-40cf-a0c7-3d77722e3a51",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @netmellianti",
@@ -147,14 +121,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "p1anel.lormarb.ir",
-      "server_port": 53762,
-      "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

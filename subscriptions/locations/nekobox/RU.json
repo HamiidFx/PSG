@@ -78,12 +78,11 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | SS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @filtershekan_channel",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray",
         "🇷🇺 RU | VLESS | @netmellianti",
         "🇷🇺 RU | VLESS | @nofilter_v2rayng",
         "🇷🇺 RU | VMESS | @prooxyk",
@@ -91,6 +90,7 @@
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
         "🇷🇺 RU | VLESS | @vmesc",
+        "🇷🇺 RU | VLESS | @vpnplusee_free",
         "🇷🇺 RU | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
@@ -100,12 +100,11 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | SS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @filtershekan_channel",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray",
         "🇷🇺 RU | VLESS | @netmellianti",
         "🇷🇺 RU | VLESS | @nofilter_v2rayng",
         "🇷🇺 RU | VMESS | @prooxyk",
@@ -113,6 +112,7 @@
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
         "🇷🇺 RU | VLESS | @vmesc",
+        "🇷🇺 RU | VLESS | @vpnplusee_free",
         "🇷🇺 RU | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
@@ -131,41 +131,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy",
       "type": "vless",
-      "server": "5.182.36.56",
-      "server_port": 45886,
-      "uuid": "8338171d-2ea7-4015-bdea-492f3d5d4e60",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "5.182.37.87",
+      "server": "ru.sfasti.ru",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPeTRUc3J4ZmFKRXhVSWhsY1NxSHBWUUlXSUZNMmpaUg==",
-      "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "146.185.241.5",
-      "server_port": 52006,
-      "uuid": "62770d79-dc4d-07d0-b01c-ea30399725aa",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @evay_vpn",
-      "type": "vless",
-      "server": "51.250.75.169",
-      "server_port": 444,
-      "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @filtershekan_channel",
-      "type": "vless",
-      "server": "84.201.167.199",
-      "server_port": 443,
-      "uuid": "fa-8031206539-1766312475386029",
+      "uuid": "e868f411-f454-4a87-8e04-8ad0d905d4d7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -181,6 +149,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "legionshopp1.ir",
+      "server_port": 8080,
+      "uuid": "535d61ac-c7fa-4f92-bb3a-80281ce4eabe",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @evay_vpn",
+      "type": "vless",
+      "server": "51.250.75.169",
+      "server_port": 444,
+      "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @iranbfilter",
@@ -204,6 +188,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray",
+      "type": "vless",
+      "server": "109.120.188.30",
+      "server_port": 1488,
+      "uuid": "d6b1327d-2bec-4366-a3a1-9b1284f95841",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -385,6 +391,15 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "146.185.241.5",
+      "server_port": 52006,
+      "uuid": "62770d79-dc4d-07d0-b01c-ea30399725aa",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

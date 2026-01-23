@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @Fr33C0nfig",
+        "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
         "🇰🇿 KZ | SS | @v2ray_free_conf"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @Fr33C0nfig",
+        "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
         "🇰🇿 KZ | SS | @v2ray_free_conf"
       ],
@@ -119,6 +121,23 @@
       "server": "mci2.atliehsafa.ir",
       "server_port": 443,
       "uuid": "5985deab-e8cf-4228-af5f-a3ebcf648b23",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "194.76.18.222",
+      "server_port": 443,
+      "uuid": "fccdaaae-af39-41a7-9fde-fd32a48278cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -10,17 +10,15 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇽🇽 XX | TROJAN | @grizzlyvpn = trojan, 104.18.32.47, 443, password = 87d1bfd4-574e-4c96-ad42-0426f27461ff, skip-cert-verify = true
-🇩🇪 DE | TROJAN | @privatevpns = trojan, 3.65.79.146, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @privatevpns = trojan, 13.39.200.50, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2rayngconfig = trojan, 51.91.11.29, 80, password = e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @v2rayngconfiig = trojan, 104.18.26.90, 443, password = Xa4%5El%28%3B.%3BB%23a, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @v2rayvpnchannel = trojan, 13.39.200.50, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
+🇩🇪 DE | TROJAN | @v2rayvpnchannel = trojan, 3.65.79.146, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @vpn_ioss = trojan, 88.214.24.235, 9443, password = 02948bde80594712b974368035f294dd, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇽🇽 XX | TROJAN | @grizzlyvpn, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇩🇪 DE | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT

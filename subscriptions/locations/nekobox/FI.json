@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | TROJAN | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @orange_vpns",
         "🇫🇮 FI | VLESS | @orange_vpns"
@@ -88,7 +87,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | TROJAN | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @orange_vpns",
         "🇫🇮 FI | VLESS | @orange_vpns"
@@ -105,22 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | TROJAN | @config_proxy",
-      "type": "trojan",
-      "server": "fi2.nnvpn.io",
-      "server_port": 443,
-      "password": "Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @kafing_2",

@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇲 AM | VLESS | @outline_ir"
+        "🇦🇲 AM | VLESS | @config_proxy",
+        "🇦🇲 AM | VLESS | @config_proxy"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇲 AM | VLESS | @outline_ir"
+        "🇦🇲 AM | VLESS | @config_proxy",
+        "🇦🇲 AM | VLESS | @config_proxy"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,9 +112,17 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇲 AM | VLESS | @outline_ir",
+      "tag": "🇦🇲 AM | VLESS | @config_proxy",
       "type": "vless",
-      "server": "am2.speeditest.ir",
+      "server": "92.223.2.31",
+      "server_port": 81,
+      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇲 AM | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "92.223.2.31",
       "server_port": 81,
       "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
       "packet_encoding": "xudp"

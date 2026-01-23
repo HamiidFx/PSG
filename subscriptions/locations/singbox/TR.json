@@ -90,12 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | VLESS | @vpnplusee_free"
+        "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | VLESS | @vpnplusee_free"
+        "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,14 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "v2shop-tr1.bing-net.com",
-      "server_port": 3040,
-      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
@@ -172,14 +158,6 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych",
-      "type": "vless",
-      "server": "v2shop-tr1.bing-net.com",
-      "server_port": 3040,
-      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "194.146.26.40",
@@ -192,28 +170,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "156.146.52.113",
-      "server_port": 8443,
-      "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

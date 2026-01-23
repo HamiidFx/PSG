@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VMESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
@@ -103,11 +101,12 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | SS | @v2ray_free_conf",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2rayvpn2",
         "🇳🇱 NL | VLESS | @vip_vpn_2022",
         "🇳🇱 NL | VLESS | @vip_vpn_2022",
         "🇳🇱 NL | VLESS | @vmesskhodam",
+        "🇳🇱 NL | VLESS | @vpnplusee_free",
+        "🇳🇱 NL | VLESS | @vpnplusee_free",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -116,8 +115,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VMESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
@@ -142,11 +139,12 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | SS | @v2ray_free_conf",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2rayvpn2",
         "🇳🇱 NL | VLESS | @vip_vpn_2022",
         "🇳🇱 NL | VLESS | @vip_vpn_2022",
         "🇳🇱 NL | VLESS | @vmesskhodam",
+        "🇳🇱 NL | VLESS | @vpnplusee_free",
+        "🇳🇱 NL | VLESS | @vpnplusee_free",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -163,35 +161,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "vmgr7-multi.multiserver-adelshoop.com",
-      "server_port": 80,
-      "uuid": "2a473732-dd90-4833-84f2-3f3aefee9345",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "88.210.10.54",
-      "server_port": 8080,
-      "uuid": "cdbd621e-fd96-46c2-8b26-0ce577ed7ed9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "88.210.10.54",
-      "server_port": 8080,
-      "uuid": "cdbd621e-fd96-46c2-8b26-0ce577ed7ed9",
+      "server": "subscribe.getvlessvpn.com",
+      "server_port": 49000,
+      "uuid": "160e9c18-c548-42bf-9c00-905aed8ef96f",
       "packet_encoding": "xudp"
     },
     {
@@ -446,14 +420,6 @@
       "password": null
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
-      "type": "vless",
-      "server": "88.210.10.54",
-      "server_port": 8080,
-      "uuid": "cdbd621e-fd96-46c2-8b26-0ce577ed7ed9",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2rayvpn2",
       "type": "vless",
       "server": "88.210.10.54",
@@ -498,6 +464,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "88.210.10.54",
+      "server_port": 8080,
+      "uuid": "cdbd621e-fd96-46c2-8b26-0ce577ed7ed9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "146.103.97.186",
+      "server_port": 8443,
+      "uuid": "4c148f59-9b4b-4a9c-9c24-33e0099c7524",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

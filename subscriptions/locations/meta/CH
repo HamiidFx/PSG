@@ -23,12 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @config_proxy", "server": "83.228.225.9", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "31f106fe-8b04-4676-9061-d6a3dbc60f6e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇭 CH | VLESS | @config_proxy", "server": "ali.solnetseven.top", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "ac26aac6-9833-46e3-9629-ec2a87db2355", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @minovpnch", "server": "185.18.250.67", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @proxyfn", "server": "193.168.144.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @prrofile_purple", "server": "213.176.18.39", "port": 3445, "type": "vless", "skip-cert-verify": true, "uuid": "ca8d5058-2365-4e07-8231-4fda963006ad", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇨🇭 CH | VLESS | @v2raych", "server": "ali.solnetseven.top", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "ac26aac6-9833-46e3-9629-ec2a87db2355", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @v2raymelliii", "server": "api2.farzadyek.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "82286d07-bf84-4e6a-a813-4c866849800f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -43,12 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @config_proxy'
-      - '🇨🇭 CH | VLESS | @config_proxy'
       - '🇨🇭 CH | VLESS | @minovpnch'
       - '🇨🇭 CH | VLESS | @proxyfn'
       - '🇨🇭 CH | VLESS | @prrofile_purple'
-      - '🇨🇭 CH | VLESS | @v2raych'
       - '🇨🇭 CH | VLESS | @v2raymelliii'
 
   - name: 🌍 Global Media

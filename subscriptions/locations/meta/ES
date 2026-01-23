@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @netmellianti", "server": "172.233.116.229", "port": 223, "type": "vless", "skip-cert-verify": true, "uuid": "97d0961f-7f44-40cf-a0c7-3d77722e3a51", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇪🇸 ES | VLESS | @netmellianti", "server": "84.17.62.67", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "146e8a2b-283d-4f06-86ec-0608e2478265", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇪🇸 ES | VLESS | @netmellianti'
-      - '🇪🇸 ES | VLESS | @netmellianti'
-      - '🇪🇸 ES | VLESS | @v2raytg'
 
   - name: 🌍 Global Media
     type: select

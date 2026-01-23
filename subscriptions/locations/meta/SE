@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | VMESS | @config_proxy", "server": "46.246.126.154", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fd0786-1059-4f64-d54e-3f3a568c6c68", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "46.246.126.154"}}}
+  - {"name": "🇸🇪 SE | VLESS | @config_proxy", "server": "snapp.shop.two.ahellservice.ir", "port": 1818, "type": "vless", "skip-cert-verify": true, "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇪 SE | VLESS | @deli_servers", "server": "185.146.173.59", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-deli-servers", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "89f86124-a711-4751-9363-4083834dabf5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
@@ -74,7 +74,8 @@ proxies:
   - {"name": "🇸🇪 SE | VLESS | @v2logy", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy", "server": "185.146.173.158", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇪 SE | VLESS | @vpnplusee_free", "server": "109.120.157.130", "port": 8934, "type": "vless", "skip-cert-verify": true, "uuid": "f38adb05-5177-4aee-9a2a-38be8e2f83a7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇪 SE | VLESS | @v2ray_vmes", "server": "snapp.shop.two.ahellservice.ir", "port": 1818, "type": "vless", "skip-cert-verify": true, "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇪 SE | VLESS | @v2raych", "server": "snapp.shop.two.ahellservice.ir", "port": 1818, "type": "vless", "skip-cert-verify": true, "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -88,7 +89,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | VMESS | @config_proxy'
+      - '🇸🇪 SE | VLESS | @config_proxy'
       - '🇸🇪 SE | VLESS | @deli_servers'
       - '🇸🇪 SE | VLESS | @free_vip3'
       - '🇸🇪 SE | VLESS | @free_vip3'
@@ -139,7 +140,8 @@ proxy-groups:
       - '🇸🇪 SE | VLESS | @v2logy'
       - '🇸🇪 SE | VLESS | @v2logy'
       - '🇸🇪 SE | VLESS | @v2logy'
-      - '🇸🇪 SE | VLESS | @vpnplusee_free'
+      - '🇸🇪 SE | VLESS | @v2ray_vmes'
+      - '🇸🇪 SE | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

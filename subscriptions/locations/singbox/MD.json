@@ -90,9 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | VLESS | @v2raych",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "proxy",
@@ -101,9 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | VLESS | @v2raych",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "auto",
@@ -114,58 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "russialocationssub.iranfreemarz.com",
-      "server_port": 7005,
-      "uuid": "42265481-5774-4f8d-9bcb-8c183f484c01",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "russialocationssub.iranfreemarz.com",
-      "server_port": 7005,
-      "uuid": "42265481-5774-4f8d-9bcb-8c183f484c01",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @v2raych",
-      "type": "vless",
-      "server": "russialocationssub.iranfreemarz.com",
-      "server_port": 7005,
-      "uuid": "42265481-5774-4f8d-9bcb-8c183f484c01",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇲🇩 MD | SS | @vmesc",

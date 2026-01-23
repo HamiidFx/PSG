@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇰🇿 KZ | VLESS | @Fr33C0nfig", "server": "mci2.atliehsafa.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5985deab-e8cf-4228-af5f-a3ebcf648b23", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy", "server": "194.76.18.222", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fccdaaae-af39-41a7-9fde-fd32a48278cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -39,6 +40,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇰🇿 KZ | VLESS | @Fr33C0nfig'
+      - '🇰🇿 KZ | VLESS | @config_proxy'
       - '🇰🇿 KZ | VLESS | @filterk0sh'
 
   - name: 🌍 Global Media

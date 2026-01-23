@@ -9,15 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | VMESS | @config_proxy = vmess, faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net, 80, username = 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, ws = true, tls = false, ws-path = /, ws-headers = Host:"faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net"
-🇭🇰 HK | VMESS | @config_proxy = vmess, n1761214919.mv7wh.tech, 443, username = c592f040-faff-47dc-a464-9bccf2dd4e7b, ws = true, tls = true, ws-path = /, ws-headers = Host:"n1761214919.mv7wh.tech"
 🇭🇰 HK | VMESS | @freev2rays = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 🇭🇰 HK | TROJAN | @v2ray_youtube = trojan, 58.152.25.236, 443, password = BxceQaOe, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
-PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
-PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @freev2rays, 🇭🇰 HK | TROJAN | @v2ray_youtube
 
 [Rule]
 GEOIP,IR,DIRECT

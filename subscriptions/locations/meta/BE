@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇪 BE | VLESS | @config_proxy", "server": "45.154.96.51", "port": 2222, "type": "vless", "skip-cert-verify": true, "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇧🇪 BE | VLESS | @config_proxy", "server": "plan1.rtpxc.com", "port": 9676, "type": "vless", "skip-cert-verify": true, "uuid": "b8ef01a8-e1a1-d4e5-064d-82186b83f8a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇧🇪 BE | VLESS | @flyv2ray", "server": "45.154.96.51", "port": 2222, "type": "vless", "skip-cert-verify": true, "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇧🇪 BE | VLESS | @prrofile_purple", "server": "45.154.96.51", "port": 2222, "type": "vless", "skip-cert-verify": true, "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇧🇪 BE | VLESS | @v2raych", "server": "plan1.rtpxc.com", "port": 9676, "type": "vless", "skip-cert-verify": true, "uuid": "b8ef01a8-e1a1-d4e5-064d-82186b83f8a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇪 BE | VLESS | @vpnplusee_free", "server": "plan1.rtpxc.com", "port": 3414, "type": "vless", "skip-cert-verify": true, "uuid": "32ffe501-eeee-ddd3-ae2f-4a5353f145c9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇪 BE | VLESS | @config_proxy'
-      - '🇧🇪 BE | VLESS | @config_proxy'
-      - '🇧🇪 BE | VLESS | @flyv2ray'
       - '🇧🇪 BE | VLESS | @prrofile_purple'
-      - '🇧🇪 BE | VLESS | @v2raych'
+      - '🇧🇪 BE | VLESS | @vpnplusee_free'
 
   - name: 🌍 Global Media
     type: select

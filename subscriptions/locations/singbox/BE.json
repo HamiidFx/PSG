@@ -90,11 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @config_proxy",
-        "🇧🇪 BE | VLESS | @config_proxy",
-        "🇧🇪 BE | VLESS | @flyv2ray",
         "🇧🇪 BE | VLESS | @prrofile_purple",
-        "🇧🇪 BE | VLESS | @v2raych"
+        "🇧🇪 BE | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @config_proxy",
-        "🇧🇪 BE | VLESS | @config_proxy",
-        "🇧🇪 BE | VLESS | @flyv2ray",
         "🇧🇪 BE | VLESS | @prrofile_purple",
-        "🇧🇪 BE | VLESS | @v2raych"
+        "🇧🇪 BE | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,48 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇧🇪 BE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "45.154.96.51",
-      "server_port": 2222,
-      "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇪 BE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "plan1.rtpxc.com",
-      "server_port": 9676,
-      "uuid": "b8ef01a8-e1a1-d4e5-064d-82186b83f8a3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇧🇪 BE | VLESS | @flyv2ray",
-      "type": "vless",
-      "server": "45.154.96.51",
-      "server_port": 2222,
-      "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇧🇪 BE | VLESS | @prrofile_purple",
@@ -177,11 +129,11 @@
       }
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @v2raych",
+      "tag": "🇧🇪 BE | VLESS | @vpnplusee_free",
       "type": "vless",
       "server": "plan1.rtpxc.com",
-      "server_port": 9676,
-      "uuid": "b8ef01a8-e1a1-d4e5-064d-82186b83f8a3",
+      "server_port": 3414,
+      "uuid": "32ffe501-eeee-ddd3-ae2f-4a5353f145c9",
       "packet_encoding": "xudp"
     }
   ],

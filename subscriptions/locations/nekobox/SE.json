@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VMESS | @config_proxy",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -128,9 +128,10 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
+        "🇸🇪 SE | VLESS | @v2ray_vmes",
+        "🇸🇪 SE | VLESS | @v2raych",
         "🇸🇪 SE | TUIC | @vipv2rey",
-        "🇸🇪 SE | TUIC | @vipv2rey",
-        "🇸🇪 SE | VLESS | @vpnplusee_free"
+        "🇸🇪 SE | TUIC | @vipv2rey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -138,7 +139,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VMESS | @config_proxy",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -189,9 +190,10 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
+        "🇸🇪 SE | VLESS | @v2ray_vmes",
+        "🇸🇪 SE | VLESS | @v2raych",
         "🇸🇪 SE | TUIC | @vipv2rey",
-        "🇸🇪 SE | TUIC | @vipv2rey",
-        "🇸🇪 SE | VLESS | @vpnplusee_free"
+        "🇸🇪 SE | TUIC | @vipv2rey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,13 +209,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇪 SE | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "46.246.126.154",
-      "server_port": 443,
-      "uuid": "f2fd0786-1059-4f64-d54e-3f3a568c6c68",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇸🇪 SE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "snapp.shop.two.ahellservice.ir",
+      "server_port": 1818,
+      "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -221,13 +222,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -765,6 +764,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_vmes",
+      "type": "vless",
+      "server": "snapp.shop.two.ahellservice.ir",
+      "server_port": 1818,
+      "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych",
+      "type": "vless",
+      "server": "snapp.shop.two.ahellservice.ir",
+      "server_port": 1818,
+      "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -795,14 +824,6 @@
         "insecure": false,
         "alpn": null
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "109.120.157.130",
-      "server_port": 8934,
-      "uuid": "f38adb05-5177-4aee-9a2a-38be8e2f83a7",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
