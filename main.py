@@ -38,8 +38,8 @@ URLS = {
 }
 
 CONSTANTS = {
-    'LITE_LIMIT': 3,
-    'NORMAL_LIMIT': 6, # <--- NEW: Limit for the main subscription per channel
+    'LITE_LIMIT': 2,
+    'NORMAL_LIMIT': 4, # <--- NEW: Limit for the main subscription per channel
     'TIMEOUT': 15,
     'DNS_WORKERS': 50,
     'TCP_WORKERS': 100,
