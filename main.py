@@ -39,6 +39,7 @@ URLS = {
 
 CONSTANTS = {
     'LITE_LIMIT': 3,
+    'NORMAL_LIMIT': 6, # <--- NEW: Limit for the main subscription per channel
     'TIMEOUT': 15,
     'DNS_WORKERS': 50,
     'TCP_WORKERS': 100,
@@ -52,7 +53,6 @@ CONSTANTS = {
         "2606:4700::/32", "2803:f800::/32", "2405:b500::/32", "2405:8100::/32",
         "2a06:98c0::/29", "2c0f:f248::/32"
     ],
-    # NEW: Domains to filter for the AI group
     'AI_DOMAINS': ['openai.com', 'chatgpt.com', 'claude.com', 'claude.ai']
 }
 
@@ -186,6 +186,7 @@ class ConfigParser:
                 'path': data.get('path', ''),
                 'tls': data.get('tls', ''),
                 'sni': data.get('sni', ''),
+                'scy': data.get('scy', 'auto'),
                 'full_data': data
             }
         except json.JSONDecodeError:
@@ -246,6 +247,7 @@ class ConfigParser:
     def _parse_generic(config_str: str, ctype: str) -> Dict:
         parsed = urlparse(config_str)
         params = parse_qs(parsed.query)
+        # Flatten params: get only first value, ignore empty
         clean_params = {k: v[0] for k, v in params.items() if v}
 
         return {
@@ -312,26 +314,48 @@ class ConfigParser:
 
     @staticmethod
     def get_fingerprint(parsed: Dict) -> str:
-        ctype = parsed['type']
+        """
+        Generates a unique signature for the config based ONLY on technical parameters.
+        Ignores: Names, Channel IDs, Remarks.
+        Includes: IPs, Ports, UUIDs/Passwords, Security types, Paths, SNIs, Fingerprints.
+        """
+        ctype = parsed.get('type')
+        if not ctype: return "invalid"
+        
         def norm(s): return str(s).strip().lower()
 
         components = [ctype]
+
         if ctype == 'vmess':
-            keys = ['add', 'port', 'id', 'net', 'path', 'host', 'sni']
-            components.extend(norm(parsed.get(k, '')) for k in keys)
+            # VMess JSON keys that matter for connection
+            keys = ['add', 'port', 'id', 'net', 'type_transport', 'path', 'host', 'sni', 'tls', 'scy']
+            for k in keys:
+                components.append(norm(parsed.get(k, '')))
+
         elif ctype == 'ss':
             keys = ['host', 'port', 'method', 'password']
-            components.extend(norm(parsed.get(k, '')) for k in keys)
+            for k in keys:
+                components.append(norm(parsed.get(k, '')))
+        
         else:
+            # Generic URI types (VLESS, Trojan, Tuic, Hysteria)
+            # Core credentials
+            components.append(norm(parsed.get('user', '')))
+            components.append(norm(parsed.get('host', '')))
+            components.append(norm(parsed.get('port', '')))
+            components.append(norm(parsed.get('path', '')))
+            
+            # Param Handling:
+            # We must sort keys to ensure order doesn't matter (a=1&b=2 vs b=2&a=1)
+            # We must exclude irrelevant keys used by scrapers/clients for display only.
+            ignored_params = ['name', 'remarks', 'ps', 'plugin', 'spiders', 'hash']
             params = parsed.get('params', {})
-            param_str = "&".join(f"{k}={v}" for k, v in sorted(params.items()) if k not in ['remarks', 'name'])
-            components.extend([
-                norm(parsed.get('user', '')),
-                norm(parsed.get('host', '')),
-                norm(parsed.get('port', '')),
-                norm(parsed.get('path', '')),
-                norm(param_str)
-            ])
+            
+            sorted_keys = sorted(params.keys())
+            for k in sorted_keys:
+                if k.lower() in ignored_params: continue
+                components.append(f"{k.lower()}={norm(params[k])}")
+
         return "|".join(components)
 
 # --- Main Processor ---
@@ -550,9 +574,12 @@ class SubscriptionProcessor:
             parsed = ConfigParser.parse(conf_str)
             if not parsed: continue
             
+            # Use strict technical fingerprint.
+            # Does NOT contain Channel Name.
             fp = ConfigParser.get_fingerprint(parsed)
             orig_name = parsed.get('ps') or parsed.get('name') or parsed.get('hash', '')
             
+            # First come, first served for channel attribution
             if fp not in unique_map:
                 unique_map[fp] = (orig_name, parsed, chan)
         return unique_map
@@ -561,9 +588,14 @@ class SubscriptionProcessor:
         final_list = []
         lite_list = []
         api_data = []
-        # Added 'ai' group to store filtered AI configs
         groups = {'channels': defaultdict(list), 'locations': defaultdict(list), 'ai': []}
-        channel_counts = defaultdict(int)
+        
+        # Track counts for BOTH normal and lite to limit spam
+        lite_channel_counts = defaultdict(int)
+        normal_channel_counts = defaultdict(int)
+        
+        # Track duplicate names per channel to append numbers (e.g., @Channel #2)
+        channel_name_counter = defaultdict(lambda: defaultdict(int))
         
         total = len(unique_map)
         logger.info(f"Processing {total} configs (Checking TCP + GeoIP)...")
@@ -586,46 +618,63 @@ class SubscriptionProcessor:
             
             ctype_disp = parsed.get('type', 'UNK').upper()
             
-            new_tag = f"{flag} {country_code} | {ctype_disp} | @{clean_chan}"
-            final_str = ConfigParser.reassemble(parsed, new_tag)
+            # --- UNIQUE NAME GENERATION ---
+            # Instead of using the random name provided by the link,
+            # we generate a standard name: Flag Country | Type | @Channel
+            # We append a number if multiple configs exist for this specific combination.
             
+            # Increment counter for this specific channel + country + type combo
+            combo_key = f"{country_code}_{ctype_disp}"
+            channel_name_counter[clean_chan][combo_key] += 1
+            count_idx = channel_name_counter[clean_chan][combo_key]
+            
+            # Format: 🇺🇸 US | VLESS | @Channel #1
+            new_tag = f"{flag} {country_code} | {ctype_disp} | @{clean_chan} #{count_idx}"
+            
+            final_str = ConfigParser.reassemble(parsed, new_tag)
             if not final_str: continue
             
-            final_list.append(final_str)
-            
-            groups['channels'][clean_chan].append(final_str)
-            groups['locations'][country_code].append(final_str)
-            if is_cf:
-                groups['locations']['CF'].append(final_str)
-            
-            # --- NEW: Cloudflare + VLESS + AI Domain Logic ---
-            # Checks if IP is CF, Type is VLESS, and SNI/Host contains openai/chatgpt/claude
-            if is_cf and parsed['type'] == 'vless':
-                sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or ''
-                check_host = parsed.get('host') or parsed.get('add') or ''
+            # --- LOGIC TO REDUCE NON-LITE CONFIGS ---
+            # Only add to final_list if under NORMAL_LIMIT
+            if normal_channel_counts[clean_chan] < CONSTANTS['NORMAL_LIMIT']:
+                final_list.append(final_str)
                 
-                is_ai_config = False
-                for domain in CONSTANTS['AI_DOMAINS']:
-                    if domain in sni or domain in check_host:
-                        is_ai_config = True
-                        break
+                # Update Groups only for valid configs
+                groups['channels'][clean_chan].append(final_str)
+                groups['locations'][country_code].append(final_str)
+                if is_cf:
+                    groups['locations']['CF'].append(final_str)
                 
-                if is_ai_config:
-                    groups['ai'].append(final_str)
-            # --------------------------------------------------
+                # Check for AI (only if it passed normal check)
+                if is_cf and parsed['type'] == 'vless':
+                    sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or ''
+                    check_host = parsed.get('host') or parsed.get('add') or ''
+                    is_ai_config = False
+                    for domain in CONSTANTS['AI_DOMAINS']:
+                        if domain in sni or domain in check_host:
+                            is_ai_config = True
+                            break
+                    if is_ai_config:
+                        groups['ai'].append(final_str)
+                
+                normal_channel_counts[clean_chan] += 1
 
-            if channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
+            # --- LOGIC FOR LITE CONFIGS ---
+            if lite_channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
                 lite_list.append(final_str)
-                channel_counts[clean_chan] += 1
+                lite_channel_counts[clean_chan] += 1
                 
             eff_type = parsed['type']
             if eff_type == 'vless' and 'security=reality' in final_str: eff_type = 'reality'
             assets = self.channel_assets.get(clean_chan, {})
             
-            api_data.append({
-                'channel': {'username': clean_chan, 'title': assets.get('title', ''), 'logo': assets.get('logo', '')},
-                'country': country_code, 'flag': flag, 'type': eff_type, 'config': final_str, 'is_cf': is_cf
-            })
+            # Note: API data might include configs that were skipped in final_list 
+            # due to limits, or we can restrict it. Here strict mapping to 'normal' limit.
+            if normal_channel_counts[clean_chan] <= CONSTANTS['NORMAL_LIMIT']:
+                api_data.append({
+                    'channel': {'username': clean_chan, 'title': assets.get('title', ''), 'logo': assets.get('logo', '')},
+                    'country': country_code, 'flag': flag, 'type': eff_type, 'config': final_str, 'is_cf': is_cf
+                })
             
         print("\nProcessing complete.")
         return final_list, lite_list, groups, api_data
@@ -657,7 +706,6 @@ class SubscriptionProcessor:
 
             self._write_files(base_dir, 'mix', configs, f"{title_prefix} | MIX", fake_configs)
 
-            # Write specific AI config file if provided
             if ai_configs:
                 self._write_files(base_dir, 'openai', ai_configs, f"{title_prefix} | OpenAI/Claude", fake_configs)
 
@@ -674,9 +722,7 @@ class SubscriptionProcessor:
                     self._write_files(base_dir, proto, all_proto_configs, header_title, fake_configs)
 
         logger.info("Writing files...")
-        # Pass the AI group to the writer
         write_subscription_package(final_list, os.path.join(PATHS['OUTPUT_SUBS'], 'xray'), "PSG", groups['ai'])
-        # Lite version gets the same AI configs (or filtered if you prefer, currently sending all detected)
         write_subscription_package(lite_list, os.path.join(PATHS['OUTPUT_LITE'], 'xray'), "PSG Lite", groups['ai'])
         
         for loc, confs in groups['locations'].items():
