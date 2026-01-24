@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,26 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "155.254.35.175.ns342.funymans.ir",
-      "server_port": 7458,
-      "uuid": "0311aeda-efd4-4477-91eb-e2a8b19e5df2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "s2.alphaspeed2.ir",
+      "server_port": 55641,
+      "uuid": "1bcc4b3d-f3a1-419f-8e67-97fa2ac82409",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "tk.napsternetx.ir",
+      "server_port": 2096,
+      "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

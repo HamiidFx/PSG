@@ -15,11 +15,12 @@ DIRECT = direct
 🇽🇽 XX | VMESS | @proxie #2 = vmess, 104.21.62.144, 443, username = e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f, ws = false, tls = true
 🇽🇽 XX | VMESS | @proxy48 #1 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
 🇳🇱 NL | VMESS | @v2aryng_vpn #1 = vmess, 45.252.182.137, 21500, username = f81274ed-878f-4a97-9372-e3099e8dea3c, ws = true, tls = false, ws-path = /, ws-headers = Host:"45.252.182.137"
+🇽🇽 XX | VMESS | @v2ray_free_conf #1 = vmess, 8.6.112.0, 2053, username = 8b23a6c9-0ca6-4134-83f2-39d42da0d648, ws = true, tls = true, ws-path = /, ws-headers = Host:"8.6.112.0"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1
-PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1
-PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇽🇽 XX | VMESS | @v2ray_free_conf #1
+PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇽🇽 XX | VMESS | @v2ray_free_conf #1
+PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇽🇽 XX | VMESS | @v2ray_free_conf #1
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @filtershekan_channel #1"
+        "🇪🇸 ES | VLESS | @filtershekan_channel #1",
+        "🇪🇸 ES | VLESS | @flyv2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @filtershekan_channel #1"
+        "🇪🇸 ES | VLESS | @filtershekan_channel #1",
+        "🇪🇸 ES | VLESS | @flyv2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "5.22.219.57",
+      "server_port": 30704,
+      "uuid": "8658dc4f-2b4e-46d7-831d-17a3def93c00",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

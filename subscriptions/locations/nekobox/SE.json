@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -91,6 +90,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1",
+        "🇸🇪 SE | VLESS | @netmellianti #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
@@ -103,6 +103,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -111,7 +112,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -125,6 +125,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1",
+        "🇸🇪 SE | VLESS | @netmellianti #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
@@ -137,6 +138,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -151,14 +153,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "62.60.251.110",
-      "server_port": 8443,
-      "uuid": "e641284d-2e22-4278-81ba-d8b3d5ae42e7",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -316,6 +310,28 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "fro.izumii.ir",
+      "server_port": 8080,
+      "uuid": "7938581a-83fa-4d66-bab8-6077a94da389",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @proxyfn #1",
       "type": "vless",
       "server": "16.170.148.222",
@@ -438,6 +454,28 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "s7.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "709bb7c8-583f-419c-9cf0-f2ce45fc833d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",

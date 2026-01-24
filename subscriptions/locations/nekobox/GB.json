@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VMESS | @bored_vpn #1",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | SS | @key_outline #1",
@@ -97,7 +96,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VMESS | @bored_vpn #1",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | SS | @key_outline #1",
@@ -123,31 +121,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @bored_vpn #1",
-      "type": "vmess",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "gptai.asrenet.ru",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "gptai.asrenet.ru"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @kafing_2 #1",

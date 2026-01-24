@@ -102,6 +102,7 @@
         "🇽🇽 XX | VMESS | @proxie #4",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇳🇱 NL | VMESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -122,6 +123,7 @@
         "🇽🇽 XX | VMESS | @proxie #4",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇳🇱 NL | VMESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -359,6 +361,31 @@
       "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c",
       "security": "auto",
       "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "8.6.112.0",
+      "server_port": 2053,
+      "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aliyedast.gwkaqq.lol",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/",

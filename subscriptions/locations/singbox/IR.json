@@ -90,14 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +105,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +122,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "85.133.204.89",
+      "server_port": 1313,
+      "uuid": "b7d92a57-de53-4488-924f-4970e3d21dfa",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -176,24 +184,10 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fin.zerosulution.com",
-      "server_port": 2000,
-      "uuid": "709bb7c8-583f-419c-9cf0-f2ce45fc833d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "185.143.233.120",
+      "server_port": 2086,
+      "uuid": "5fb0ceea-0d24-4917-df95-48a30163ef39",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesc #1",
@@ -224,14 +218,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "usa.ariaanet.ir",
-      "server_port": 39666,
-      "uuid": "2603737a-ffea-4f47-87b1-553c824852a3",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -29,6 +29,7 @@ proxies:
   - {"name": "🇽🇽 XX | VMESS | @proxie #2", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇳🇱 NL | VMESS | @v2aryng_vpn #1", "server": "45.252.182.137", "port": 21500, "type": "vmess", "skip-cert-verify": true, "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "45.252.182.137"}}}
+  - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf #1", "server": "8.6.112.0", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "8.6.112.0"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -48,6 +49,7 @@ proxy-groups:
       - '🇽🇽 XX | VMESS | @proxie #2'
       - '🇽🇽 XX | VMESS | @proxy48 #1'
       - '🇳🇱 NL | VMESS | @v2aryng_vpn #1'
+      - '🇽🇽 XX | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkc=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @netmellianti #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @netmellianti #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,43 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @netmellianti #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "club.cocomelon.org",
-      "server_port": 443,
-      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "s2.alphaspeed2.ir",
+      "server_port": 55641,
+      "uuid": "1bcc4b3d-f3a1-419f-8e67-97fa2ac82409",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "club.cocomelon.org",
-      "server_port": 443,
-      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "tk.napsternetx.ir",
+      "server_port": 2096,
+      "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

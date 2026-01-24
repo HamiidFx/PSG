@@ -102,7 +102,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -110,7 +109,8 @@
         "🇽🇽 XX | VMESS | @proxie #1",
         "🇽🇽 XX | VMESS | @proxie #2",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2aryng_vpn #1"
+        "🇳🇱 NL | VMESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,7 +130,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -138,7 +137,8 @@
         "🇽🇽 XX | VMESS | @proxie #1",
         "🇽🇽 XX | VMESS | @proxie #2",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2aryng_vpn #1"
+        "🇳🇱 NL | VMESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -440,31 +440,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "chatgpt.com",
-      "server_port": 2083,
-      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hgtrojan.zabc.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e6395c20",
-        "headers": {
-          "Host": "hgtrojan.zabc.net"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #1",
       "type": "vmess",
       "server": "vde2.0bad.com",
@@ -614,6 +589,31 @@
       "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c",
       "security": "auto",
       "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "8.6.112.0",
+      "server_port": 2053,
+      "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aliyedast.gwkaqq.lol",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/",

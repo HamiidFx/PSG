@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VMESS | @bored_vpn #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2048", "headers": {"Host": "gptai.asrenet.ru"}}}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2 #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2 #2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,7 +45,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VMESS | @bored_vpn #1'
       - '🇬🇧 GB | VLESS | @kafing_2 #1'
       - '🇬🇧 GB | VLESS | @kafing_2 #2'
       - '🇬🇧 GB | VLESS | @komail315 #1'
