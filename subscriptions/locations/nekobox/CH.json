@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @mtpv2ray #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v2ray_youtube #1"
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @mtpv2ray #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v2ray_youtube #1"
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +103,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @mtpv2ray #1",
+      "type": "vless",
+      "server": "83.228.195.57",
+      "server_port": 98,
+      "uuid": "b0dcb060-607e-491a-83a7-03473a0ea658",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -120,12 +130,21 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_youtube #1",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "swit.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "b2db346c-b24f-4ec4-876a-0c7fb490584c",
-      "packet_encoding": "xudp"
+      "server": "query2048-deadline-rightaqata-chatgpt-digikala-kala45-torob.wrongguy.top",
+      "server_port": 443,
+      "uuid": "2df9d13f-207d-4889-af62-c9e57fa8a8ae",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

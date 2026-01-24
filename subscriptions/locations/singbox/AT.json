@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @v2raych #1"
+        "🇦🇹 AT | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @v2raych #1"
+        "🇦🇹 AT | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @v2raych #1",
+      "tag": "🇦🇹 AT | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "t61617.skytunnel.ir",
-      "server_port": 8800,
-      "uuid": "9eedc58e-47e4-44e1-8200-91f89f3bce41",
-      "packet_encoding": "xudp"
+      "server": "155.254.35.175.ns342.funymans.ir",
+      "server_port": 7458,
+      "uuid": "0311aeda-efd4-4477-91eb-e2a8b19e5df2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇭 CH | VLESS | @mtpv2ray #1", "server": "83.228.195.57", "port": 98, "type": "vless", "skip-cert-verify": true, "uuid": "b0dcb060-607e-491a-83a7-03473a0ea658", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @proxyfn #1", "server": "193.168.144.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇭 CH | VLESS | @v2ray_youtube #1", "server": "swit.zerosulution.com", "port": 7567, "type": "vless", "skip-cert-verify": true, "uuid": "b2db346c-b24f-4ec4-876a-0c7fb490584c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @v2raych #1", "server": "query2048-deadline-rightaqata-chatgpt-digikala-kala45-torob.wrongguy.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2df9d13f-207d-4889-af62-c9e57fa8a8ae", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇭 CH | VLESS | @mtpv2ray #1'
       - '🇨🇭 CH | VLESS | @proxyfn #1'
-      - '🇨🇭 CH | VLESS | @v2ray_youtube #1'
+      - '🇨🇭 CH | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

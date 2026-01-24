@@ -23,6 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "62.133.63.176", "port": 20908, "type": "vless", "skip-cert-verify": true, "uuid": "47cb652e-d31f-4951-87bf-184305c8d964", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @prrofile_purple #1", "server": "classic.amki.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "7c00a46c-aec5-46fa-b36f-28b8cfe1ca2f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_youtube #1", "server": "45.141.148.251", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "tk.napsternetx.ir", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @netmellianti #1'
+      - '🇹🇷 TR | VLESS | @prrofile_purple #1'
+      - '🇹🇷 TR | VLESS | @v2ray_youtube #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media

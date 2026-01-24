@@ -85,13 +85,13 @@
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇽🇽 XX | VLESS | @dargiiriis #1",
         "🇽🇽 XX | VLESS | @drvpn_net #2",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,13 +107,13 @@
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇽🇽 XX | VLESS | @dargiiriis #1",
         "🇽🇽 XX | VLESS | @drvpn_net #2",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -228,9 +228,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @mtpv2ray #1",
       "type": "vless",
-      "server": "191.96.94.33",
-      "server_port": 8080,
-      "uuid": "ae39b0b3-aa9d-46ca-b3db-65f6c2e12653",
+      "server": "45.145.41.181",
+      "server_port": 98,
+      "uuid": "66247b1e-053a-44bf-ae3c-06437b87b3e6",
       "packet_encoding": "xudp"
     },
     {
@@ -248,23 +248,6 @@
       "server_port": 80,
       "uuid": "18ee1094-fc1a-4b8c-942b-1d8da3db6ca6",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @dargiiriis #1",
-      "type": "vless",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "6e8d6b76-c3ff-4cdc-aa9c-be6731789b76",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @drvpn_net #2",
@@ -325,7 +308,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "a.login.walkerpubg.ir",
+      "server_port": 443,
+      "uuid": "5e8962d1-abce-4566-ad56-737fc94e0290",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "club.cocomelon.org",
       "server_port": 443,

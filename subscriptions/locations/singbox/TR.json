@@ -90,6 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -98,6 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +114,44 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "62.133.63.176",
+      "server_port": 20908,
+      "uuid": "47cb652e-d31f-4951-87bf-184305c8d964",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "classic.amki.ir",
+      "server_port": 2052,
+      "uuid": "7c00a46c-aec5-46fa-b36f-28b8cfe1ca2f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "45.141.148.251",
+      "server_port": 2083,
+      "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",

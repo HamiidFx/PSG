@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇿 KZ | VLESS | @ai_duet #1", "server": "cdn.halazzon.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e83a655f-0249-4583-b14c-adbd2d6687e6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇿 KZ | VLESS | @ai_duet #1'
       - '🇰🇿 KZ | VLESS | @filterk0sh #1'
 
   - name: 🌍 Global Media

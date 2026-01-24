@@ -78,13 +78,13 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
+        "🇫🇷 FR | VLESS | @config_proxy #2",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
-        "🇫🇷 FR | VLESS | @netmellianti #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -101,13 +101,13 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
+        "🇫🇷 FR | VLESS | @config_proxy #2",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
-        "🇫🇷 FR | VLESS | @netmellianti #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -136,6 +136,22 @@
       "server": "sktr.berkeart.ir",
       "server_port": 19702,
       "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "dashboard-trx.netbazshop.ir",
+      "server_port": 2095,
+      "uuid": "ada8cafa-e207-425f-85ef-eef32faf6f4d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "usa.lucypro.ir",
+      "server_port": 2095,
+      "uuid": "ada8cafa-e207-425f-85ef-eef32faf6f4d",
       "packet_encoding": "xudp"
     },
     {
@@ -205,30 +221,6 @@
       "server_port": 80,
       "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "keshvar.france.iranesfahan.com",
-      "server_port": 8080,
-      "uuid": "7a8ae7a2-d22a-4fa1-a903-69a7a907baf8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
-      "type": "trojan",
-      "server": "15.236.111.194",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @proxyfn #1",
@@ -316,7 +308,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "15.236.111.194",
+      "server": "13.39.197.201",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
