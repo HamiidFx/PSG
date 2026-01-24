@@ -2,16 +2,15 @@ name: Auto Update Subscriptions
 
 on:
   schedule:
-    # This runs the bot every 6 hours. 
-    # You can change the timing here (UTC time)
+    # Runs every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows you to run it manually from the "Actions" tab
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Allows the bot to push changes back to your repo
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -27,6 +26,9 @@ jobs:
           pip install aiohttp geoip2 pytz
 
       - name: Run Main Bot (Fetch & Deduplicate)
+        env: 
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: python main.py
 
       - name: Run Converter (Clash, Singbox, etc.)
