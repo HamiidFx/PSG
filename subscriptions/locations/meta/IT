@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇹 IT | VLESS | @Fr33C0nfig #1", "server": "it.digitstocks.ir", "port": 6030, "type": "vless", "skip-cert-verify": true, "uuid": "66c67c20-f8e8-4f42-9376-a7a9111421a0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @prrofile_purple #1", "server": "it.digitstocks.ir", "port": 6030, "type": "vless", "skip-cert-verify": true, "uuid": "66c67c20-f8e8-4f42-9376-a7a9111421a0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇹 IT | VLESS | @Fr33C0nfig #1'
       - '🇮🇹 IT | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media

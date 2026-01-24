@@ -82,11 +82,14 @@
         "KingRezaPahlavi",
         "🇺🇸 US | TROJAN | @ehsawn8 #1",
         "🇺🇸 US | TROJAN | @ehsawn8 #2",
+        "🇲🇾 MY | TROJAN | @flyv2ray #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @satellitenewspersian #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @turboo_server #1"
+        "🇺🇸 US | TROJAN | @turboo_server #1",
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,11 +102,14 @@
         "KingRezaPahlavi",
         "🇺🇸 US | TROJAN | @ehsawn8 #1",
         "🇺🇸 US | TROJAN | @ehsawn8 #2",
+        "🇲🇾 MY | TROJAN | @flyv2ray #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @satellitenewspersian #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @turboo_server #1"
+        "🇺🇸 US | TROJAN | @turboo_server #1",
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +211,22 @@
       "password": "vpn_connects"
     },
     {
+      "tag": "🇲🇾 MY | TROJAN | @flyv2ray #1",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 41275,
+      "password": "0b78da11-9e69-4bd6-a95f-27ca81c43d0d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",
       "type": "trojan",
       "server": "kuame.missionsec.us",
@@ -274,6 +296,38 @@
       "server": "cdn1.turbooserver.com",
       "server_port": 80,
       "password": "TurbooServer"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+      "type": "trojan",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

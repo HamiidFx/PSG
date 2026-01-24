@@ -90,16 +90,20 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
+        "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
+        "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
@@ -118,16 +122,20 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
+        "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
+        "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
@@ -148,6 +156,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "fr-1-direct.healingfluence.com",
+      "server_port": 8000,
+      "uuid": "54424df8-aee6-4d2d-8006-4f91e5183544",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @ai_duet #1",
@@ -178,6 +194,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @grizzlyvpn #1",
+      "type": "vless",
+      "server": "72.61.161.219",
+      "server_port": 80,
+      "uuid": "b5920b52-504c-4835-978c-fbc4110d5840",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @kafing_2 #1",
@@ -226,6 +250,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @minovpnch #2",
+      "type": "vless",
+      "server": "199.232.169.135",
+      "server_port": 443,
+      "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | SS | @outline_ir #1",
       "type": "shadowsocks",
       "server": "135.125.10.106",
@@ -271,6 +312,23 @@
       "server": "51.91.11.29",
       "server_port": 80,
       "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "fr-1-direct.healingfluence.com",
+      "server_port": 8000,
+      "uuid": "54424df8-aee6-4d2d-8006-4f91e5183544",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
