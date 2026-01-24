@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @ai_duet #1",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @ai_duet #1",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,6 +140,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "chatgpt.yoloperps.fun",
+      "server_port": 8443,
+      "uuid": "844e0f15-6ea4-4dd7-8f08-11311c9c23e8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

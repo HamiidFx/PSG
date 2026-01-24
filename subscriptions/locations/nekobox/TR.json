@@ -77,10 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | TROJAN | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2",
+        "🇹🇷 TR | VLESS | @config_proxy #3",
         "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇹🇷 TR | VLESS | @server_nekobox #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
-        "🇹🇷 TR | TROJAN | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -89,10 +93,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | TROJAN | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2",
+        "🇹🇷 TR | VLESS | @config_proxy #3",
         "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇹🇷 TR | VLESS | @server_nekobox #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
-        "🇹🇷 TR | TROJAN | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -107,6 +115,88 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "62.133.63.21",
+      "server_port": 2083,
+      "password": "qHmYAcJH01McOqgsMUuQjg",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "gozarfreebot.niniweblog.org",
+      "server_port": 2087,
+      "uuid": "71e2e145-cd42-4801-9b32-14dc74adf17f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "62.133.63.21",
+      "server_port": 1001,
+      "uuid": "70023c2f-857a-45a1-aa0e-9c1f70795cf6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "gozarfreebot.niniweblog.org",
+      "server_port": 2087,
+      "uuid": "71e2e145-cd42-4801-9b32-14dc74adf17f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -131,6 +221,14 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "tr.speeditest.ir",
+      "server_port": 81,
+      "uuid": "9e3d1839-9d6f-45ac-971a-d0f8365a75eb",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @server_nekobox #1",
       "type": "vless",
       "server": "trfastgateway.amirconfigpaanelllll.com",
@@ -139,19 +237,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "45.141.148.251",
-      "server_port": 2083,
-      "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "62.133.63.21",
-      "server_port": 2083,
-      "password": "qHmYAcJH01McOqgsMUuQjg"
+      "server": "185.226.92.188",
+      "server_port": 443,
+      "uuid": "04d03542-5d95-49de-a2f5-0f65a6b79e46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",

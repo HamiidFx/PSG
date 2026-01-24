@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @filtershekan_channel #1", "server": "185.96.80.253", "port": 8000, "type": "vless", "skip-cert-verify": true, "uuid": "b6313472-0baa-7f65-7b62-363e25c121c4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1", "server": "ss.02020.sbs", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c19fb567-74a9-454f-9757-e612fc4be371", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #1", "server": "dawn.wenllies.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "185.96.80.253", "port": 8000, "type": "vless", "skip-cert-verify": true, "uuid": "b6313472-0baa-7f65-7b62-363e25c121c4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @vmesc #1", "server": "109.248.222.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -41,10 +41,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @filtershekan_channel #1'
       - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media

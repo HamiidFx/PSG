@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | TROJAN | @config_proxy #1", "server": "62.133.63.21", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "qHmYAcJH01McOqgsMUuQjg"}
   - {"name": "🇽🇽 XX | VMESS | @configv2rayforfree #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "0757c6cf-815c-444f-8ea7-5a70c07a1a73", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": true}
   - {"name": "🇺🇸 US | TROJAN | @ehsawn8 #1", "server": "comando.fisifisi.com", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "vpn_connects"}
   - {"name": "🇺🇸 US | TROJAN | @ehsawn8 #2", "server": "comando.fisifisi.com", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "vpn_connects"}
@@ -37,8 +38,8 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @mi_pn_official #1", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
   - {"name": "🇽🇽 XX | VMESS | @nofilter_v2rayng #1", "server": "104.18.24.232", "port": 2083, "type": "vmess", "skip-cert-verify": true, "uuid": "f07f8891-8ade-4d5d-d78e-68460d3954c5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "ajyhgfjayetriuwygcinyuwegiywefgbcifsfgs.vajiko.ir"}}}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "3.123.120.25", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.39.197.201", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "15.236.72.233", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇽🇽 XX | VMESS | @proxie #1", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6734be04-d4d0-4495-a9ac-899bd83c3e0b", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxie #2", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
@@ -68,6 +69,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | TROJAN | @config_proxy #1'
       - '🇽🇽 XX | VMESS | @configv2rayforfree #1'
       - '🇺🇸 US | TROJAN | @ehsawn8 #1'
       - '🇺🇸 US | TROJAN | @ehsawn8 #2'
@@ -82,8 +84,8 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
       - '🇺🇸 US | VMESS | @mi_pn_official #1'
       - '🇽🇽 XX | VMESS | @nofilter_v2rayng #1'
-      - '🇩🇪 DE | TROJAN | @privatevpns #1'
       - '🇫🇷 FR | TROJAN | @privatevpns #1'
+      - '🇫🇷 FR | TROJAN | @privatevpns #2'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇽🇽 XX | VMESS | @proxie #1'
       - '🇽🇽 XX | VMESS | @proxie #2'

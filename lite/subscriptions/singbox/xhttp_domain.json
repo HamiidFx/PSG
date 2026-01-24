@@ -97,6 +97,7 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -112,6 +113,7 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -244,6 +246,23 @@
       "server_port": 80,
       "uuid": "cbadfd29-8352-46e5-8baa-0010b43d1059",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "6e8d6b76-c3ff-4cdc-aa9c-be6731789b76",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",

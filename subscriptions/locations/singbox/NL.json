@@ -92,11 +92,10 @@
         "direct",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #2",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
@@ -105,6 +104,7 @@
         "🇳🇱 NL | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #2",
+        "🇳🇱 NL | VLESS | @vip_vpn_2022 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -115,11 +115,10 @@
       "outbounds": [
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #2",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
@@ -128,6 +127,7 @@
         "🇳🇱 NL | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #2",
+        "🇳🇱 NL | VLESS | @vip_vpn_2022 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -170,14 +170,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "51.158.206.19",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -196,23 +188,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @filtershekan_channel #1",
-      "type": "vless",
-      "server": "217.18.90.145",
-      "server_port": 443,
-      "uuid": "781113ed-e92e-487a-9093-305cec564297",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -245,6 +220,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.173",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -339,6 +322,14 @@
       "server": "88.210.10.54",
       "server_port": 8081,
       "uuid": "6ee350f0-84a6-40ef-80ab-99485c90fd84",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "84.32.231.133",
+      "server_port": 80,
+      "uuid": "e820d8f6-1bb6-4f23-aead-11544349fa6a",
       "packet_encoding": "xudp"
     },
     {

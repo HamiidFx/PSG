@@ -77,11 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @filtershekan_channel #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | SS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -90,11 +90,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @filtershekan_channel #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | SS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -109,6 +109,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "185.96.80.253",
+      "server_port": 8000,
+      "uuid": "b6313472-0baa-7f65-7b62-363e25c121c4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
@@ -181,14 +189,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "185.96.80.253",
-      "server_port": 8000,
-      "uuid": "b6313472-0baa-7f65-7b62-363e25c121c4",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vmesc #1",
