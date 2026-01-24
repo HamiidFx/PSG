@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇪 AE | VLESS | @flyv2ray #1", "server": "217.195.200.233", "port": 35177, "type": "vless", "skip-cert-verify": true, "uuid": "8d51e92a-7f6f-433c-b946-1ec411e7a759", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @netmellianti #1", "server": "db.minoosell.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "efd90743-5f99-4c63-b0c8-8ee84cf30150", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "db.minoosell.ir"}}}
   - {"name": "🇦🇪 AE | VLESS | @netmellianti #2", "server": "dl-uae.iranfastfod.ir", "port": 20908, "type": "vless", "skip-cert-verify": true, "uuid": "47cb652e-d31f-4951-87bf-184305c8d964", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @vip_vpn_2022 #1", "server": "dnn.zerosulution.com", "port": 7567, "type": "vless", "skip-cert-verify": true, "uuid": "32e1e3bf-54eb-4cdb-822a-ef66fb24a13d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇪 AE | VLESS | @flyv2ray #1'
       - '🇦🇪 AE | VLESS | @netmellianti #1'
       - '🇦🇪 AE | VLESS | @netmellianti #2'
+      - '🇦🇪 AE | VLESS | @vip_vpn_2022 #1'
 
   - name: 🌍 Global Media
     type: select

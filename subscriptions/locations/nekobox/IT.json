@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @Fr33C0nfig #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @prrofile_purple #1",
+        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @Fr33C0nfig #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @prrofile_purple #1",
+        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,28 @@
       "server": "it.digitstocks.ir",
       "server_port": 6030,
       "uuid": "66c67c20-f8e8-4f42-9376-a7a9111421a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "itw.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "32e1e3bf-54eb-4cdb-822a-ef66fb24a13d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

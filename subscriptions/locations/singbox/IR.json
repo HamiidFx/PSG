@@ -91,13 +91,11 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet #1",
-        "🇮🇷 IR | VLESS | @ai_duet #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,13 +104,11 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet #1",
-        "🇮🇷 IR | VLESS | @ai_duet #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,14 +135,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ai_duet #2",
-      "type": "vless",
-      "server": "niimb.aparat-movies-download.ir",
-      "server_port": 42555,
-      "uuid": "9b7ff7a4-7437-4688-9063-3d73ca4f8498",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -205,28 +193,6 @@
       "server_port": 8443,
       "uuid": "77371595-b7aa-472a-9d61-e9731861af07",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "uk.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "4eaa7aaa-47b4-4660-841a-4c5f0e39332c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

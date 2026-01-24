@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇺 LU | VLESS | @Fr33C0nfig #1", "server": "kesvar.englistan.iranesfahan.com", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7a8ae7a2-d22a-4fa1-a903-69a7a907baf8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇪 BE | VLESS | @mtproxy22_v2ray #1", "server": "45.154.96.51", "port": 2222, "type": "vless", "skip-cert-verify": true, "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇪 BE | VLESS | @v2ray_youtube #1", "server": "plan2.rtpxc.com", "port": 3414, "type": "vless", "skip-cert-verify": true, "uuid": "4af95bc6-adf5-e399-35c0-913e8d8522a4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇺 LU | VLESS | @Fr33C0nfig #1'
+      - '🇧🇪 BE | VLESS | @mtproxy22_v2ray #1'
+      - '🇧🇪 BE | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

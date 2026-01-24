@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @prrofile_purple #1",
-        "🇷🇴 RO | VLESS | @vpnplusee_free #1"
+        "🇷🇴 RO | VLESS | @vpnplusee_free #1",
+        "🇷🇴 RO | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @prrofile_purple #1",
-        "🇷🇴 RO | VLESS | @vpnplusee_free #1"
+        "🇷🇴 RO | VLESS | @vpnplusee_free #1",
+        "🇷🇴 RO | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @prrofile_purple #1",
+      "tag": "🇷🇴 RO | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "ro.marzxo.biz",
-      "server_port": 8081,
-      "uuid": "887c4487-5a14-426c-9c1b-f0b857d6ae06",
+      "server": "45.85.118.241",
+      "server_port": 443,
+      "uuid": "fa91291a-7234-49fd-be27-34141258b159",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,16 +125,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @vpnplusee_free #1",
+      "tag": "🇷🇴 RO | VLESS | @vpnplusee_free #2",
       "type": "vless",
       "server": "45.85.118.241",
       "server_port": 443,

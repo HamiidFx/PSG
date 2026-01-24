@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -90,9 +89,13 @@
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2raych #3",
+        "🇫🇷 FR | VLESS | @v2raych #4",
+        "🇫🇷 FR | VLESS | @v2raych #5",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | TROJAN | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
@@ -100,8 +103,7 @@
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | TROJAN | @vpn_ioss #1",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,7 +111,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -122,9 +123,13 @@
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2raych #3",
+        "🇫🇷 FR | VLESS | @v2raych #4",
+        "🇫🇷 FR | VLESS | @v2raych #5",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | TROJAN | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
@@ -132,8 +137,7 @@
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | TROJAN | @vpn_ioss #1",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -147,14 +151,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "fr-1-direct.healingfluence.com",
-      "server_port": 8000,
-      "uuid": "54424df8-aee6-4d2d-8006-4f91e5183544",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @ai_duet #1",
@@ -314,23 +310,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "fr-1-direct.healingfluence.com",
-      "server_port": 8000,
-      "uuid": "54424df8-aee6-4d2d-8006-4f91e5183544",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "140.82.54.120",
@@ -361,6 +340,103 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "maxb10.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #5",
+      "type": "vless",
+      "server": "maxb01.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -465,14 +541,6 @@
       "server": "88.214.24.235",
       "server_port": 9443,
       "password": "02948bde80594712b974368035f294dd"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "sktr.berkeart.ir",
-      "server_port": 19702,
-      "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

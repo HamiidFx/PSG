@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @netmellianti #1"
+        "🇧🇪 BE | VLESS | @mtproxy22_v2ray #1",
+        "🇧🇪 BE | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @netmellianti #1"
+        "🇧🇪 BE | VLESS | @mtproxy22_v2ray #1",
+        "🇧🇪 BE | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @netmellianti #1",
+      "tag": "🇧🇪 BE | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "155.254.35.175.ns342.funymans.ir",
-      "server_port": 7458,
-      "uuid": "0311aeda-efd4-4477-91eb-e2a8b19e5df2",
+      "server": "45.154.96.51",
+      "server_port": 2222,
+      "uuid": "a37f349e-04b0-4967-a9e5-fb35083fa353",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,13 +116,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇧🇪 BE | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "plan2.rtpxc.com",
+      "server_port": 3414,
+      "uuid": "4af95bc6-adf5-e399-35c0-913e8d8522a4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

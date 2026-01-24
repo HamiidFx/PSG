@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇱🇹 LT | VLESS | @outline_ir #1", "server": "tiuvanm.amki.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "73130c36-8b0a-4f5a-865c-bf92c182c1a7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇹 LT | VLESS | @v2ray_collector #1", "server": "89.116.180.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇱🇹 LT | VLESS | @v2ray_youtube #1", "server": "tiuvanm.amki.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "73130c36-8b0a-4f5a-865c-bf92c182c1a7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇱🇹 LT | VLESS | @outline_ir #1'
       - '🇱🇹 LT | VLESS | @v2ray_collector #1'
-      - '🇱🇹 LT | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select
