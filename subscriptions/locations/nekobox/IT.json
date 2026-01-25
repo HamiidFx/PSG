@@ -78,8 +78,9 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @Fr33C0nfig #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1",
-        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1"
+        "🇮🇹 IT | VLESS | @config_proxy #1",
+        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @Fr33C0nfig #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1",
-        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1"
+        "🇮🇹 IT | VLESS | @config_proxy #1",
+        "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,11 +115,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @prrofile_purple #1",
+      "tag": "🇮🇹 IT | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "it.digitstocks.ir",
-      "server_port": 6030,
-      "uuid": "66c67c20-f8e8-4f42-9376-a7a9111421a0",
+      "server": "italy.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "a521dba4-8894-4caa-bdf6-15b013489fbd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "itw.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "be12c60d-1d80-480f-bdd8-960a89d41c85",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -135,12 +145,13 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
+      "tag": "🇮🇹 IT | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "itw.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "32e1e3bf-54eb-4cdb-822a-ef66fb24a13d",
+      "server": "83.136.107.171",
+      "server_port": 443,
+      "uuid": "1cc1fa50-ad16-4e22-81a0-e416f7a35f60",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -148,11 +159,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

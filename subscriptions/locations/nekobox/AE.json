@@ -77,14 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @flyv2ray #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1",
-        "🇦🇪 AE | VLESS | @netmellianti #2",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @vip_vpn_2022 #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,14 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @flyv2ray #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1",
-        "🇦🇪 AE | VLESS | @netmellianti #2",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @vip_vpn_2022 #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,22 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
-      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @flyv2ray #1",
@@ -147,71 +121,12 @@
       "password": null
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "db.minoosell.ir",
-      "server_port": 80,
-      "uuid": "efd90743-5f99-4c63-b0c8-8ee84cf30150",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @netmellianti #2",
-      "type": "vless",
-      "server": "dl-uae.iranfastfod.ir",
-      "server_port": 20908,
-      "uuid": "47cb652e-d31f-4951-87bf-184305c8d964",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "151.242.251.153",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vip_vpn_2022 #1",
-      "type": "vless",
-      "server": "dnn.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "32e1e3bf-54eb-4cdb-822a-ef66fb24a13d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

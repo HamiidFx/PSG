@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
@@ -84,7 +86,6 @@
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | VLESS | @satellitenewspersian #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #2",
@@ -97,6 +98,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
@@ -104,7 +107,6 @@
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | VLESS | @satellitenewspersian #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #2",
@@ -123,6 +125,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "mza2.lizardshop.org",
+      "server_port": 4545,
+      "uuid": "a1c459eb-888c-46f1-815f-a88330167418",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "uk.aparat-movies-download.ir",
+      "server_port": 42536,
+      "uuid": "a521dba4-8894-4caa-bdf6-15b013489fbd",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @kafing_2 #1",
@@ -197,28 +215,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @satellitenewspersian #1",
-      "type": "vless",
-      "server": "23.81.33.188",
-      "server_port": 443,
-      "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesc #1",

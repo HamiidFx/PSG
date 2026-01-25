@@ -90,11 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @server_nekobox #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @v2raymelliii #1",
         "🇹🇷 TR | TROJAN | @v2rayngconfig #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @server_nekobox #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @v2raymelliii #1",
         "🇹🇷 TR | TROJAN | @v2rayngconfig #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,11 +118,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "62.133.63.176",
-      "server_port": 20908,
-      "uuid": "47cb652e-d31f-4951-87bf-184305c8d964",
+      "server": "france.specialmajor2.com",
+      "server_port": 5489,
+      "uuid": "2c118006-a825-416a-9622-740769ca1a11",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @server_nekobox #1",
+      "type": "vless",
+      "server": "trfastgateway.amirconfigpaanelllll.com",
+      "server_port": 2126,
+      "uuid": "ffabe614-3bc8-4676-b8d3-c015ba274cc2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "armania.mrvpvn.com",
+      "server_port": 9002,
+      "uuid": "18228710-dfd0-4bca-8425-4abff39843a4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -138,22 +154,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @server_nekobox #1",
-      "type": "vless",
-      "server": "trfastgateway.amirconfigpaanelllll.com",
-      "server_port": 2126,
-      "uuid": "ffabe614-3bc8-4676-b8d3-c015ba274cc2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "m-tr.leperfume.ir",
-      "server_port": 1443,
-      "uuid": "7ca25829-0b15-48d5-b4cc-2fe2affc108b",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig #1",
@@ -172,12 +172,21 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "tk.napsternetx.ir",
-      "server_port": 2096,
-      "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3",
-      "packet_encoding": "xudp"
+      "server": "185.226.92.188",
+      "server_port": 443,
+      "uuid": "04d03542-5d95-49de-a2f5-0f65a6b79e46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

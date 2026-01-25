@@ -78,7 +78,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @orange_vpns #1"
+        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @orange_vpns #1"
+        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +124,42 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "64.188.73.65",
+      "server_port": 20150,
+      "uuid": "98d80dd4-86bc-419c-8b3d-4d5f2423f4b1",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "finland.aparat-movies-download.ir",
       "server_port": 42538,
       "uuid": "962575c4-26de-4bd5-bac2-59b863dcdca3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "fi4.srv.cdnopl.link",
+      "server_port": 6443,
+      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

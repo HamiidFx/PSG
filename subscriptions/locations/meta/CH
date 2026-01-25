@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇨🇭 CH | VLESS | @proxyfn #1", "server": "193.168.144.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @vip_vpn_2022 #1", "server": "swit.zerosulution.com", "port": 903, "type": "vless", "skip-cert-verify": true, "uuid": "be12c60d-1d80-480f-bdd8-960a89d41c85", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇭 CH | VLESS | @proxyfn #1'
+      - '🇨🇭 CH | VLESS | @vip_vpn_2022 #1'
 
   - name: 🌍 Global Media
     type: select

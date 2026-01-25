@@ -23,11 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "mza2.lizardshop.org", "port": 4545, "type": "vless", "skip-cert-verify": true, "uuid": "a1c459eb-888c-46f1-815f-a88330167418", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #2", "server": "uk.aparat-movies-download.ir", "port": 42536, "type": "vless", "skip-cert-verify": true, "uuid": "a521dba4-8894-4caa-bdf6-15b013489fbd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2 #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @kafing_2 #2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @miov2ray #1", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @satellitenewspersian #1", "server": "23.81.33.188", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @vmesc #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,11 +47,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @config_proxy #1'
+      - '🇬🇧 GB | VLESS | @config_proxy #2'
       - '🇬🇧 GB | VLESS | @kafing_2 #1'
       - '🇬🇧 GB | VLESS | @kafing_2 #2'
       - '🇬🇧 GB | VLESS | @komail315 #1'
       - '🇬🇧 GB | VLESS | @miov2ray #1'
-      - '🇬🇧 GB | VLESS | @satellitenewspersian #1'
       - '🇬🇧 GB | VLESS | @vmesc #1'
       - '🇬🇧 GB | VLESS | @vpn_ioss #1'
       - '🇬🇧 GB | VLESS | @vpn_ioss #2'

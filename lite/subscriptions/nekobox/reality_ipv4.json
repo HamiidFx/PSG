@@ -84,16 +84,16 @@
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
+        "🇩🇪 DE | VLESS | @mtpv2ray #2",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
-        "🇬🇧 GB | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,16 +108,16 @@
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
+        "🇩🇪 DE | VLESS | @mtpv2ray #2",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
-        "🇬🇧 GB | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -279,6 +279,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @mtpv2ray #2",
+      "type": "vless",
+      "server": "178.162.241.240",
+      "server_port": 8080,
+      "uuid": "87f6d03e-4e3f-47b7-a847-bd8ab4f18874",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇦🇺 AU | VLESS | @nofilter_v2rayng #1",
       "type": "vless",
       "server": "45.15.185.69",
@@ -374,28 +382,6 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @satellitenewspersian #1",
-      "type": "vless",
-      "server": "23.81.33.188",
-      "server_port": 443,
-      "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "208.67.105.196",
@@ -414,6 +400,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "146.103.105.233",
+      "server_port": 443,
+      "uuid": "osVPN_3111052",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -445,28 +448,6 @@
       "server": "109.248.222.151",
       "server_port": 443,
       "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "45.151.136.70",
-      "server_port": 443,
-      "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
