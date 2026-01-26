@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇿 KZ | VLESS | @Fr33C0nfig #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @outline_ir #1"
+        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇿 KZ | VLESS | @Fr33C0nfig #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @outline_ir #1"
+        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +103,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "ert-7.v-sub.site",
+      "server_port": 8880,
+      "uuid": "27132599-27db-4089-8238-4b7b94de500e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -125,21 +135,12 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @outline_ir #1",
+      "tag": "🇰🇿 KZ | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "api.dark-coffe.com",
-      "server_port": 443,
-      "uuid": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "ipo.mastermarly.ir",
+      "server_port": 2086,
+      "uuid": "060f9c49-a5cf-45c2-927d-67e3e9429e5e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

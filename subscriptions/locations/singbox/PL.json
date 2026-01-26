@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFJPSkFOX0lQVjQ=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,11 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,108 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9018,
+      "method": "YWVzLTI1Ni1jZmI6ZkcyYXJ0VW1IZk5UMmNYNw==",
+      "password": null
     },
     {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
-      "type": "trojan",
-      "server": "18.194.66.185",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
-      "type": "trojan",
-      "server": "18.194.66.185",
-      "server_port": 22223,
-      "password": "telegram-id-v2rayvpnchannel",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9003,
+      "method": "YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA==",
+      "password": null
     }
   ],
   "route": {

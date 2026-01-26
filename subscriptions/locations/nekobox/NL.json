@@ -93,10 +93,9 @@
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VMESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2rayng3 #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2rayng3 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,10 +119,9 @@
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VMESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2rayng3 #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2rayng3 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -275,9 +273,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "test.country-8.eu-ffast.com",
+      "server": "neth.pingxbaz.com",
       "server_port": 443,
-      "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+      "uuid": "b3176e0b-ffaf-4e1b-fd8a-c073bcc4272d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -286,11 +284,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -388,22 +381,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_vmes #1",
-      "type": "vmess",
-      "server": "45.252.182.137",
-      "server_port": 21500,
-      "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "nerd.zerosulution.com",
@@ -412,19 +389,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "test.country-8.eu-ffast.com",
+      "server_port": 443,
+      "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2rayng3 #1",
       "type": "vless",
       "server": "gcways.moderplus.com",
       "server_port": 80,
       "uuid": "9e4d8ebd-7952-4c6d-b18c-6300f3513fb6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nt13.abcdefiran.ir",
-      "server_port": 558,
-      "uuid": "4274a43c-a727-400a-97ee-3665f990b03b",
       "packet_encoding": "xudp"
     }
   ],
