@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | TROJAN | @free4allvpn #1"
+        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | TROJAN | @free4allvpn #1"
+        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
     }
   ],
   "route": {

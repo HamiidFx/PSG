@@ -80,18 +80,18 @@
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #2",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #3",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | TROJAN | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
-        "🇷🇺 RU | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @proxycrone #1",
+        "🇷🇺 RU | VLESS | @turboo_server #1",
+        "🇷🇺 RU | VLESS | @turboo_server #2",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
-        "🇷🇺 RU | VLESS | @v2rayvpn2 #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,18 +102,18 @@
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #2",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #3",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | TROJAN | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
-        "🇷🇺 RU | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @proxycrone #1",
+        "🇷🇺 RU | VLESS | @turboo_server #1",
+        "🇷🇺 RU | VLESS | @turboo_server #2",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
-        "🇷🇺 RU | VLESS | @v2rayvpn2 #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -167,26 +167,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "109.248.222.151",
-      "server_port": 443,
-      "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇷🇺 RU | SS | @ai_duet #1",
+      "type": "shadowsocks",
+      "server": "90.156.203.62",
+      "server_port": 5112,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | TROJAN | @configv2rayforfree #1",
@@ -221,31 +207,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "cf.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "1a69dc19-2245-46ff-b7ee-7715520edad6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "45.67.215.233",
-      "server_port": 443,
-      "uuid": "%E2%9D%A4%EF%B8%8F%F0%9F%91%89%40ConfigFast%F0%9F%91%88",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -271,12 +232,46 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "tag": "🇷🇺 RU | VLESS | @proxycrone #1",
       "type": "vless",
-      "server": "cf.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
+      "server": "dns1.turboo-server.space",
+      "server_port": 8880,
+      "uuid": "turboo-server",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @turboo_server #1",
+      "type": "vless",
+      "server": "dns.turboo-server.space",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @turboo_server #2",
+      "type": "vless",
+      "server": "dns.turboo-server.space",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
@@ -299,17 +294,18 @@
       "tag": "🇷🇺 RU | VLESS | @v2raying #1",
       "type": "vless",
       "server": "iran.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2rayvpn2 #1",
-      "type": "vless",
-      "server": "cf.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
@@ -318,6 +314,23 @@
       "server_port": 2053,
       "uuid": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

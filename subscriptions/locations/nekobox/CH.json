@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +120,26 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "tag": "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
       "type": "vless",
-      "server": "ivar.ivarshop.ir",
-      "server_port": 44521,
-      "uuid": "7a55b2ba-f03e-4473-843a-15f9e5e097a2",
-      "packet_encoding": "xudp"
+      "server": "ch-1.bot-iphone.ru",
+      "server_port": 8443,
+      "uuid": "123d4832-db2b-4376-be63-f60858cc328e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

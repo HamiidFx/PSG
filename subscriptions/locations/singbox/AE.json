@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
+        "🇦🇪 AE | VLESS | @configv2rayforfree #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
@@ -101,8 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
+        "🇦🇪 AE | VLESS | @configv2rayforfree #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
@@ -116,20 +114,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
-      "password": null
+      "tag": "🇦🇪 AE | VLESS | @configv2rayforfree #1",
+      "type": "vless",
+      "server": "fin.1mrsub.site",
+      "server_port": 9001,
+      "uuid": "c5afb2cd-5978-46ae-a30e-81c9485abf2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | SS | @netfreedom0 #1",
