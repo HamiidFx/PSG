@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFU=
+//profile-title: base64:UFNHIHwgTUs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1"
+        "🇲🇰 MK | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1"
+        "🇲🇰 MK | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
-      "type": "vless",
-      "server": "kyv.love-speed.sbs",
-      "server_port": 903,
-      "uuid": "87854451-898e-4bc7-84af-c3f07aef092a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇲🇰 MK | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "46.183.185.37",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

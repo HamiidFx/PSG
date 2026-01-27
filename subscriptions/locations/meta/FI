@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @vpnplusee_free #1", "server": "zibupcloud.infospeedtest.com", "port": 37221, "type": "vless", "skip-cert-verify": true, "uuid": "77c4d443-1af5-42f2-8037-b68dbadaf325", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
-      - '🇫🇮 FI | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

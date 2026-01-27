@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇿 KZ | VLESS | @easy_free_vpn #1", "server": "clfconnect.pishipishi.pro", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "vpn_connects", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @ehsawn8 #1", "server": "clfconnect.pishipishi.pro", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "vpn_connects", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇰🇿 KZ | VLESS | @v2ray_youtube #1", "server": "dns1.turboo-server.space", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇿 KZ | VLESS | @easy_free_vpn #1'
+      - '🇰🇿 KZ | VLESS | @ehsawn8 #1'
       - '🇰🇿 KZ | VLESS | @filterk0sh #1'
-      - '🇰🇿 KZ | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

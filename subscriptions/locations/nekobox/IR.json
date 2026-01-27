@@ -77,10 +77,15 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @megavpn_link #1",
+        "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +93,15 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @megavpn_link #1",
+        "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,11 +117,60 @@
       "type": "direct"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "ov3.liiliil.ir",
+      "server_port": 11486,
+      "uuid": "626ace4d-2a01-47cf-8cee-866e72fb3c59",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ov3.liiliil.ir",
+      "server_port": 11486,
+      "uuid": "626ace4d-2a01-47cf-8cee-866e72fb3c59",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "max.wirosild.ir",
+      "server_port": 2095,
+      "uuid": "3ef0b795-f7a8-4ee8-8233-90c3c50cc208",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn #1",
       "type": "vless",
       "server": "s19.speedyconnect.pro",
       "server_port": 443,
       "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @megavpn_link #1",
+      "type": "vless",
+      "server": "am.citymobileshop.top",
+      "server_port": 1433,
+      "uuid": "12486672-3116-48b2-8495-2d7223874a7b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "85.198.12.25",
+      "server_port": 443,
+      "uuid": "000dec39-61ac-4ff2-97e1-5f7c003cf2e5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -140,11 +199,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "300.shecanmarket.com",
-      "server_port": 8443,
-      "uuid": "77371595-b7aa-472a-9d61-e9731861af07",
+      "server": "ge.nanaopano.com",
+      "server_port": 20464,
+      "uuid": "3732ee3b-33d1-4371-9482-6bff9d5ab17e",
       "packet_encoding": "xudp"
     }
   ],
