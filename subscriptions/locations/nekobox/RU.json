@@ -77,12 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -92,12 +90,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -113,14 +109,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @ai_duet #1",
-      "type": "shadowsocks",
-      "server": "90.156.203.62",
-      "server_port": 5112,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ",
-      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @father_vpn #1",
@@ -177,28 +165,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "ss.02020.sbs",
-      "server_port": 8443,
-      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇫🇷 FR | VLESS | @ai_duet #1", "server": "sktr.berkeart.ir", "port": 19702, "type": "vless", "skip-cert-verify": true, "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | VLESS | @config_proxy #1", "server": "dl-01.restrain.com.tr", "port": 42541, "type": "vless", "skip-cert-verify": true, "uuid": "ed000fff-7c09-783e-9428-49f328388fb1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | TROJAN | @configv2rayforfree #1", "server": "88.214.24.235", "port": 9443, "type": "trojan", "skip-cert-verify": false, "password": "02948bde80594712b974368035f294dd"}
   - {"name": "🇫🇷 FR | VLESS | @grizzlyvpn #1", "server": "72.61.161.219", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b5920b52-504c-4835-978c-fbc4110d5840", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @merdesert #1", "server": "51.75.30.8", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -35,6 +36,7 @@ proxies:
   - {"name": "🇫🇷 FR | VLESS | @qeshmserver #1", "server": "140.82.54.120", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "baadf496-921b-41b1-a7ae-fde0ddc6793d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "141.11.203.139", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VMESS | @v2raytg #1", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "15.188.224.186", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇫🇷 FR | VLESS | @vlessconfig #1", "server": "15.188.224.186", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "15.188.224.186"}}}
 
 proxy-groups:
@@ -50,6 +52,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇷 FR | VLESS | @ai_duet #1'
+      - '🇫🇷 FR | VLESS | @config_proxy #1'
       - '🇫🇷 FR | TROJAN | @configv2rayforfree #1'
       - '🇫🇷 FR | VLESS | @grizzlyvpn #1'
       - '🇫🇷 FR | VLESS | @merdesert #1'
@@ -61,6 +64,7 @@ proxy-groups:
       - '🇫🇷 FR | VLESS | @qeshmserver #1'
       - '🇫🇷 FR | VLESS | @v2ray_collector #1'
       - '🇫🇷 FR | VMESS | @v2raytg #1'
+      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
       - '🇫🇷 FR | VLESS | @vlessconfig #1'
 
   - name: 🌍 Global Media

@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @configv2rayforfree #1",
         "🇫🇷 FR | TROJAN | @configv2rayforfree #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -104,6 +105,7 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
@@ -113,6 +115,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @configv2rayforfree #1",
         "🇫🇷 FR | TROJAN | @configv2rayforfree #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -126,6 +129,7 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
@@ -143,6 +147,14 @@
       "server": "sktr.berkeart.ir",
       "server_port": 19702,
       "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "dl-01.restrain.com.tr",
+      "server_port": 42541,
+      "uuid": "ed000fff-7c09-783e-9428-49f328388fb1",
       "packet_encoding": "xudp"
     },
     {
@@ -291,6 +303,22 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+      "type": "trojan",
+      "server": "15.188.224.186",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",

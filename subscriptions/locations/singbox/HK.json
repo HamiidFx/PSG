@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,20 +137,12 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "v10.heduian.link",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/oooo",
-        "headers": {
-          "Host": "v10.heduian.link"
-        }
-      }
+      "tag": "🇭🇰 HK | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "216.250.97.82",
+      "server_port": 38388,
+      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
+      "password": null
     }
   ],
   "route": {
