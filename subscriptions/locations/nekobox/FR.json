@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @configv2rayforfree #1",
         "🇫🇷 FR | TROJAN | @configv2rayforfree #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -93,7 +92,8 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,6 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @configv2rayforfree #1",
         "🇫🇷 FR | TROJAN | @configv2rayforfree #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -117,7 +116,8 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,14 +138,6 @@
       "server": "sktr.berkeart.ir",
       "server_port": 19702,
       "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "dl-01.restrain.com.tr",
-      "server_port": 42541,
-      "uuid": "ed000fff-7c09-783e-9428-49f328388fb1",
       "packet_encoding": "xudp"
     },
     {
@@ -215,7 +207,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "15.188.224.186",
+      "server": "15.236.15.89",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -298,7 +290,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
-      "server": "15.188.224.186",
+      "server": "15.236.15.89",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -314,7 +306,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "15.188.224.186",
+      "server": "15.236.15.89",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -325,6 +317,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "frr.largesite.ir",
+      "server_port": 48185,
+      "uuid": "7de0dc62-e19d-41b2-93d5-1f65356fcd03",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

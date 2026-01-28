@@ -91,12 +91,16 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-        "🇦🇪 AE | VLESS | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VLESS | @kafing_2 #2",
         "🇦🇪 AE | SS | @netfreedom0 #1",
+        "🇦🇪 AE | VLESS | @netmellianti #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v_2rayng0 #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @v_2rayng0 #1",
+        "🇦🇪 AE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,12 +109,16 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-        "🇦🇪 AE | VLESS | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VLESS | @kafing_2 #2",
         "🇦🇪 AE | SS | @netfreedom0 #1",
+        "🇦🇪 AE | VLESS | @netmellianti #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v_2rayng0 #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @v_2rayng0 #1",
+        "🇦🇪 AE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,12 +147,21 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @flyv2ray #1",
+      "tag": "🇦🇪 AE | VLESS | @connectshu #1",
       "type": "vless",
-      "server": "irani.vidboxco.ir",
-      "server_port": 2053,
-      "uuid": "79df85dd-cb40-4b32-828e-f38d918d85e3",
-      "packet_encoding": "xudp"
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "bbbddf3f-a747-47a9-b37f-30a2dd2dcf2f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
@@ -155,12 +172,37 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇦🇪 AE | VLESS | @kafing_2 #2",
+      "type": "vless",
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "bbbddf3f-a747-47a9-b37f-30a2dd2dcf2f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇦🇪 AE | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "151.242.251.142",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "irani.vidboxco.ir",
+      "server_port": 2053,
+      "uuid": "79df85dd-cb40-4b32-828e-f38d918d85e3",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @orange_vpns #1",
@@ -179,11 +221,36 @@
       "password": null
     },
     {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "1.clloudflare.ir",
+      "server_port": 443,
+      "uuid": "81039c91-36e5-4110-800a-039677802815",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇦🇪 AE | VLESS | @v_2rayng0 #1",
       "type": "vless",
       "server": "iran.zone-server-irani.ir",
       "server_port": 2053,
       "uuid": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "cdn4.eswap.ir",
+      "server_port": 2087,
+      "uuid": "0a229011-1db0-4dd5-916e-e18c668b4e9e",
       "packet_encoding": "xudp"
     }
   ],

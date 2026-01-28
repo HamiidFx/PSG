@@ -83,7 +83,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -109,7 +109,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -275,18 +275,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
+      "tag": "🇺🇸 US | VMESS | @hope_net #1",
       "type": "vmess",
-      "server": "104.19.33.86",
-      "server_port": 80,
-      "uuid": "596cf967-3824-4a7c-a008-d65b5f9b5382",
+      "server": "185.146.173.59",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/ws?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "path": "/linkws",
         "headers": {
-          "Host": "m2-sg3.m2network.icu"
+          "Host": "obdii.cfd"
         }
       }
     },

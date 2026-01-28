@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @config_proxy #1",
-        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @satellitenewspersian #1"
+        "🇨🇭 CH | VLESS | @satellitenewspersian #1",
+        "🇨🇭 CH | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @config_proxy #1",
-        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @satellitenewspersian #1"
+        "🇨🇭 CH | VLESS | @satellitenewspersian #1",
+        "🇨🇭 CH | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,22 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "cn1.site.asan-ps.ir",
-      "server_port": 2052,
-      "uuid": "aaf011fc-e27b-458a-8a71-8e3b39e11f33",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
-      "type": "vless",
-      "server": "195.15.240.204",
-      "server_port": 8880,
-      "uuid": "fc872856-d6fb-486e-8388-1082f7cdb469",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -145,6 +127,23 @@
       "server": "185.18.250.252",
       "server_port": 443,
       "uuid": "ea1dc99b-4adc-4485-852e-f21483bf8beb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "185.18.250.252",
+      "server_port": 443,
+      "uuid": "22e7f0d3-8d3b-40c7-a1c5-8a912f6a16b3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
