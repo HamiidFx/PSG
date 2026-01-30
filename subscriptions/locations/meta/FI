@@ -24,10 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "finland.aparat-movies-download.ir", "port": 42538, "type": "vless", "skip-cert-verify": true, "uuid": "962575c4-26de-4bd5-bac2-59b863dcdca3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "138.124.75.116", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "f4fec1b0-a67e-4967-b9ea-0bd832b57a4d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @netmellianti #1", "server": "65.108.108.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayvpn2 #1", "server": "finland.vpn-mtk.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @v2rayvpn2 #2", "server": "finland.vpn-mtk.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,10 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
-      - '🇫🇮 FI | VLESS | @orange_vpns #1'
-      - '🇫🇮 FI | VLESS | @v2raych #1'
+      - '🇫🇮 FI | VLESS | @netmellianti #1'
       - '🇫🇮 FI | VLESS | @v2rayvpn2 #1'
-      - '🇫🇮 FI | VLESS | @v2rayvpn2 #2'
 
   - name: 🌍 Global Media
     type: select
