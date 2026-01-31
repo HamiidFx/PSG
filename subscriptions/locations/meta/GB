@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "18.170.128.127", "port": 52979, "type": "vless", "skip-cert-verify": true, "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @kurdistan_vpn_perfectt #1", "server": "140.238.100.35", "port": 40721, "type": "vless", "skip-cert-verify": true, "uuid": "bf3e8944-8d26-47de-8748-b9aa74cce974", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @miov2ray #1", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @orange_vpns #1", "server": "uk.aparat-movies-download.ir", "port": 42536, "type": "vless", "skip-cert-verify": true, "uuid": "76aa0ce6-04df-4b40-9642-a9bdb3efc38d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpnplusee_free #1", "server": "18.170.128.127", "port": 52979, "type": "vless", "skip-cert-verify": true, "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @config_proxy #1'
       - '🇬🇧 GB | VLESS | @komail315 #1'
-      - '🇬🇧 GB | VLESS | @kurdistan_vpn_perfectt #1'
       - '🇬🇧 GB | VLESS | @miov2ray #1'
       - '🇬🇧 GB | VLESS | @orange_vpns #1'
+      - '🇬🇧 GB | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

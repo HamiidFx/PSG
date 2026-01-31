@@ -78,11 +78,12 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | TROJAN | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @mtpv2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
-        "🇦🇪 AE | TROJAN | @v2rayngconfig #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,11 +92,12 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | TROJAN | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @mtpv2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
-        "🇦🇪 AE | TROJAN | @v2rayngconfig #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,39 @@
       "server": "api.steamsale.ir",
       "server_port": 443,
       "uuid": "3a4ddfac-e7da-48c9-9648-4a366109fc3a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | TROJAN | @flyv2ray #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @mtpv2ray #1",
+      "type": "vless",
+      "server": "185.225.195.23",
+      "server_port": 443,
+      "uuid": "aad4e4f8-82cd-4585-866c-3693c660ddfe",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -161,22 +196,6 @@
     },
     {
       "tag": "🇦🇪 AE | TROJAN | @v2raymelliii #1",
-      "type": "trojan",
-      "server": "94.140.0.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | TROJAN | @v2rayngconfig #1",
       "type": "trojan",
       "server": "94.140.0.1",
       "server_port": 443,

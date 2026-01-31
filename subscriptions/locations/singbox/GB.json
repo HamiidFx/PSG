@@ -90,17 +90,17 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇬🇧 GB | VLESS | @kurdistan_vpn_perfectt #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,17 +108,17 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇬🇧 GB | VLESS | @kurdistan_vpn_perfectt #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,34 +130,20 @@
       "type": "direct"
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "18.170.128.127",
+      "server_port": 52979,
+      "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
       "type": "vless",
       "server": "cr7.zx-shop.ir",
       "server_port": 8880,
       "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @kurdistan_vpn_perfectt #1",
-      "type": "vless",
-      "server": "140.238.100.35",
-      "server_port": 40721,
-      "uuid": "bf3e8944-8d26-47de-8748-b9aa74cce974",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -187,21 +173,13 @@
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
       "type": "shadowsocks",
-      "server": "82.38.31.179",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #2",
-      "type": "shadowsocks",
       "server": "82.38.31.210",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #3",
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #2",
       "type": "shadowsocks",
       "server": "82.38.31.176",
       "server_port": 8080,
@@ -239,6 +217,14 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "18.170.128.127",
+      "server_port": 52979,
+      "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

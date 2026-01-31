@@ -10,11 +10,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇯🇵 JP | TROJAN | @free4allvpn #1 = trojan, kuame.missionsec.us, 443, password = FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @netfreedom0 #1 = trojan, 160.16.89.176, 5076, password = 869e9086806483ca4744a4cb0f3d6e16, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @v2ray_youtube #1 = trojan, 160.16.72.33, 3901, password = 869e9086806483ca4744a4cb0f3d6e16, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @v2ray_youtube #2 = trojan, 57.180.246.207, 491, password = c1d83c0c7d57cead4379ba14a82df69b, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @free4allvpn #1
-PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @free4allvpn #1
-PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @free4allvpn #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @free4allvpn #1, 🇯🇵 JP | TROJAN | @netfreedom0 #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #2
+PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @free4allvpn #1, 🇯🇵 JP | TROJAN | @netfreedom0 #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #2
+PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @free4allvpn #1, 🇯🇵 JP | TROJAN | @netfreedom0 #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #1, 🇯🇵 JP | TROJAN | @v2ray_youtube #2
 
 [Rule]
 GEOIP,IR,DIRECT

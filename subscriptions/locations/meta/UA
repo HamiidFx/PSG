@@ -24,8 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇺🇦 UA | VLESS | @iranbfilter #1", "server": "grpc1.caseshop.website", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3a26be3c-ac0c-4180-a123-1d3772f21b9f", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
-  - {"name": "🇺🇦 UA | VLESS | @netmellianti #1", "server": "cl6-ndl.privetnet.ru", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇺🇦 UA | VLESS | @v2ray_youtube #1", "server": "cl6-ndl.privetnet.ru", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇺🇦 UA | VLESS | @iranbfilter #1'
-      - '🇺🇦 UA | VLESS | @netmellianti #1'
-      - '🇺🇦 UA | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "proxy",
@@ -87,8 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "auto",
@@ -105,11 +105,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+      "tag": "🇫🇮 FI | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "fi4.srv.cdnopl.link",
-      "server_port": 6443,
-      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "server": "65.108.108.151",
+      "server_port": 443,
+      "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,11 +127,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "65.108.108.151",
-      "server_port": 443,
-      "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0",
+      "server": "fi4.srv.cdnopl.link",
+      "server_port": 6443,
+      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
