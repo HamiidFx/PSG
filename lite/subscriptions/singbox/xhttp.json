@@ -93,15 +93,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @Fr33C0nfig #2",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,15 +112,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @Fr33C0nfig #2",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -204,6 +204,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "a26bbed7-a286-4840-84bc-dc102c526777",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @Fr33C0nfig #2",
       "type": "vless",
       "server": "speedtest.net",
@@ -212,19 +220,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @komail315 #1",
-      "type": "vless",
-      "server": "cr7.zx-shop.ir",
-      "server_port": 8880,
-      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
     },
     {
@@ -242,6 +242,23 @@
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "8196d16d-855b-42bc-80f4-b5db138c5572",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
@@ -283,14 +300,6 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "qeshmserver",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "199.232.11.238",
-      "server_port": 80,
-      "uuid": "8edaa2ae-7c08-4370-93b5-a3c2637bad9d",
       "packet_encoding": "xudp"
     }
   ],

@@ -93,15 +93,14 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇳🇱 NL | VLESS | @hope_net #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
-        "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @sobi_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,15 +111,14 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇳🇱 NL | VLESS | @hope_net #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
-        "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @sobi_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -179,19 +177,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @oonfig #1",
+      "tag": "🇳🇱 NL | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "51.158.206.19",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "server": "45.131.211.210",
+      "server_port": 443,
+      "uuid": "05214830-5d65-4ee1-a3d4-68f36cbea637",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -200,13 +190,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
@@ -264,14 +257,6 @@
       "server_port": 2052,
       "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "193.29.139.251",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
     }
   ],
   "route": {

@@ -91,11 +91,14 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | TROJAN | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @prrofile_purple #1",
+        "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @v2rayngconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +107,14 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | TROJAN | @flyv2ray #1",
+        "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @prrofile_purple #1",
+        "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @v2rayngconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,20 +143,12 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | TROJAN | @flyv2ray #1",
-      "type": "trojan",
-      "server": "94.140.0.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇦🇪 AE | VLESS | @connectshu #1",
+      "type": "vless",
+      "server": "my.golam.mehromahtel.com",
+      "server_port": 15000,
+      "uuid": "9af2dfc2-c7ad-425f-a534-7a1fada8f4e9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @orange_vpns #1",
@@ -185,7 +183,55 @@
       "password": null
     },
     {
+      "tag": "🇦🇪 AE | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | TROJAN | @v2rayngconfig #1",
       "type": "trojan",
       "server": "94.140.0.1",
       "server_port": 443,
