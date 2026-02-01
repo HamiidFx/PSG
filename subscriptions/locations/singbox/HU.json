@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQlI=
+//profile-title: base64:UFNHIHwgSFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | VLESS | @connectshu #1",
-        "🇧🇷 BR | VLESS | @connectshu #2"
+        "🇭🇺 HU | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | VLESS | @connectshu #1",
-        "🇧🇷 BR | VLESS | @connectshu #2"
+        "🇭🇺 HU | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | VLESS | @connectshu #1",
+      "tag": "🇭🇺 HU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "199.232.13.32",
-      "server_port": 80,
-      "uuid": "269c963f-6021-4547-8303-cc764085603b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇧🇷 BR | VLESS | @connectshu #2",
-      "type": "vless",
-      "server": "199.232.13.32",
-      "server_port": 80,
-      "uuid": "03517ec0-976e-4cac-b84b-146fc4c7b023",
-      "packet_encoding": "xudp"
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
