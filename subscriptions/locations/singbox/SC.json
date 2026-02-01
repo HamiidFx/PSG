@@ -92,8 +92,12 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @v2aryng_vpn #1"
+        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
+        "🇸🇨 SC | VLESS | @v2aryng_vpn #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +107,12 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @v2aryng_vpn #1"
+        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
+        "🇸🇨 SC | VLESS | @v2aryng_vpn #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -150,6 +158,23 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "srv.warningbase.com",
+      "server_port": 2096,
+      "uuid": "78e2fe10-0dd6-47e2-92e0-c0da19eca87a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @flyv2ray #1",
       "type": "vless",
       "server": "ip.notomarosww.com",
@@ -158,7 +183,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @freeconfigsplus #1",
+      "type": "vless",
+      "server": "api-saronet.sarhadpirani.ir",
+      "server_port": 2052,
+      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @v2aryng_vpn #1",
+      "type": "vless",
+      "server": "ip.notomarosww.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "ip.notomarosww.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #2",
       "type": "vless",
       "server": "ip.notomarosww.com",
       "server_port": 8443,

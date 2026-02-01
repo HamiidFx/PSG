@@ -91,13 +91,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | SS | @ai_duet #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #2",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -108,13 +104,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | SS | @ai_duet #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #2",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -134,35 +126,6 @@
       "server_port": 5112,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ",
       "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "185.40.152.181",
-      "server_port": 443,
-      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "51.250.91.154",
-      "server_port": 8443,
-      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @father_vpn #1",
@@ -211,31 +174,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "5.182.36.251",
-      "server_port": 16331,
-      "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #2",
-      "type": "vless",
-      "server": "russia7.yourbot.me",
-      "server_port": 443,
-      "uuid": "15d5ef21-f4cd-4812-bb30-f998051c5dc1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

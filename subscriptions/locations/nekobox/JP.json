@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | TROJAN | @config_proxy #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
-        "🇯🇵 JP | TROJAN | @netfreedom0 #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #2"
+        "🇯🇵 JP | TROJAN | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | TROJAN | @config_proxy #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
-        "🇯🇵 JP | TROJAN | @netfreedom0 #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #2"
+        "🇯🇵 JP | TROJAN | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +103,13 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "57.180.246.207",
+      "server_port": 491,
+      "password": "c1d83c0c7d57cead4379ba14a82df69b"
     },
     {
       "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",
@@ -128,38 +133,6 @@
       "server": "160.16.89.176",
       "server_port": 5076,
       "password": "869e9086806483ca4744a4cb0f3d6e16"
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2ray_youtube #1",
-      "type": "trojan",
-      "server": "160.16.72.33",
-      "server_port": 3901,
-      "password": "869e9086806483ca4744a4cb0f3d6e16",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2ray_youtube #2",
-      "type": "trojan",
-      "server": "57.180.246.207",
-      "server_port": 491,
-      "password": "c1d83c0c7d57cead4379ba14a82df69b",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
@@ -99,8 +99,7 @@
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,7 +107,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
@@ -117,8 +116,7 @@
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,12 +128,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "18.170.128.127",
-      "server_port": 52979,
-      "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7",
-      "packet_encoding": "xudp"
+      "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
@@ -217,14 +215,6 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "18.170.128.127",
-      "server_port": 52979,
-      "uuid": "d6d31a68-fe7f-494d-91ce-28f173ac63d7",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

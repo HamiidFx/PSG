@@ -95,7 +95,8 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VMESS | @v2ray_youtube #1",
+        "🇽🇽 XX | VMESS | @v2ray_youtube #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -122,7 +123,8 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VMESS | @v2ray_youtube #1",
+        "🇽🇽 XX | VMESS | @v2ray_youtube #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -554,18 +556,36 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VMESS | @v2ray_youtube #1",
       "type": "vmess",
-      "server": "ZzXxdE.922922.sHOp",
-      "server_port": 80,
-      "uuid": "bce0c7cb-08d1-46a7-b77b-7bff8b46252f",
+      "server": "cloud.nexun.ir",
+      "server_port": 443,
+      "uuid": "cf000403-1a6b-43c5-b07f-5e7c7949b4dc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "ars.nexun.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_youtube #1",
+      "type": "vmess",
+      "server": "tgju.org",
+      "server_port": 8080,
+      "uuid": "nasnet",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/RkUUbqhA9GJZBROjL3Q5vTymr",
+        "path": "/nasnet/cdn?ed=2560",
         "headers": {
-          "Host": "ZzXxdE.922922.sHOp"
+          "Host": "nasnet-571296497.iranpress.co"
         }
       }
     },
