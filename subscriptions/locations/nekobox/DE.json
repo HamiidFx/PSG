@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @goldenshiinevpn #1",
@@ -94,6 +96,7 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #2",
         "🇩🇪 DE | VLESS | @netmellianti #3",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
@@ -103,7 +106,6 @@
         "🇩🇪 DE | VMESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -116,7 +118,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @goldenshiinevpn #1",
@@ -133,6 +137,7 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #2",
         "🇩🇪 DE | VLESS | @netmellianti #3",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
@@ -142,7 +147,6 @@
         "🇩🇪 DE | VMESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -163,13 +167,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @evay_vpn #1",
+      "type": "vless",
+      "server": "evay_vpn.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "86c2b667-4fc8-4a56-af4a-38b9e9e84610",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @evay_vpn #2",
+      "type": "vless",
+      "server": "evay_vpn.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -392,6 +411,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "18.198.44.254",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @proxy48 #1",
       "type": "vless",
       "server": "82.165.77.122",
@@ -518,17 +553,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "amir.ancvp.ancvpp.shop",
-      "server_port": 110,
-      "uuid": "5119e3ee-a889-4c86-b092-3f9258fca2e5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "server": "3.123.0.186",
+      "server_port": 27775,
+      "uuid": "309c4bd0-7430-b8aa-2238-1075e9e29370",
       "packet_encoding": "xudp"
     },
     {

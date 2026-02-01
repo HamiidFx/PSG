@@ -44,6 +44,7 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @v2ray_youtube #1", "server": "cloud.nexun.ir", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "cf000403-1a6b-43c5-b07f-5e7c7949b4dc", "alterId": 0, "cipher": "auto", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @v2ray_youtube #1", "server": "tgju.org", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "nasnet", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/nasnet/cdn?ed=2560", "headers": {"Host": "nasnet-571296497.iranpress.co"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
+  - {"name": "🇮🇷 IR | VMESS | @xsv2ray #1", "server": "tehran-sms.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/connect/de/?ed=1024/?JOKERRVPN", "headers": {"Host": "tehran-sms.xyz"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -78,6 +79,7 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @v2ray_youtube #1'
       - '🇽🇽 XX | VMESS | @v2ray_youtube #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
+      - '🇮🇷 IR | VMESS | @xsv2ray #1'
 
   - name: 🌍 Global Media
     type: select

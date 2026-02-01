@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "185.214.74.184", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2275661d-a9b7-522d-99e6-a4d42cb04fa0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @father_vpn #1", "server": "u1.mizulina.top", "port": 22231, "type": "vless", "skip-cert-verify": true, "uuid": "2ad04efa-d18a-442b-875f-48d12e11d822", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @oonfig #1", "server": "51.158.206.19", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -42,6 +43,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @config_proxy #1'
       - '🇳🇱 NL | VLESS | @father_vpn #1'
       - '🇳🇱 NL | VLESS | @filterk0sh #1'
       - '🇳🇱 NL | VLESS | @oonfig #1'

@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
@@ -87,8 +88,7 @@
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,6 +99,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
@@ -106,8 +107,7 @@
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -191,6 +191,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "86.54.30.51",
+      "server_port": 443,
+      "uuid": "5bb062fe-4bd8-4783-814b-d9a15435e2df",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -317,14 +339,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "144.31.166.141",
-      "server_port": 7443,
-      "uuid": "c4bfda4b-0652-45a2-86ee-d627e5a2d4a5",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
