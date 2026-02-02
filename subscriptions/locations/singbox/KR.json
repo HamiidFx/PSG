@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | SS | @v2ray_free_conf #1",
+        "🇰🇷 KR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | SS | @v2ray_free_conf #1",
+        "🇰🇷 KR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +120,39 @@
       "server_port": 4652,
       "method": "YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==",
       "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "154.90.63.177",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "seoul03.zgjok.com",
+      "server_port": 443,
+      "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "seoul03.zgjok.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "seoul03.zgjok.com"
+        }
+      }
     }
   ],
   "route": {

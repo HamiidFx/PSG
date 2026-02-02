@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgUEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @hope_net #1",
-        "🇸🇬 SG | SS | @v2ray_free_conf #1"
+        "🇵🇰 PK | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @hope_net #1",
-        "🇸🇬 SG | SS | @v2ray_free_conf #1"
+        "🇵🇰 PK | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
+      "tag": "🇵🇰 PK | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "13.67.9.5",
+      "server": "103.175.79.2",
       "server_port": 443,
-      "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f",
+      "uuid": "7244a576-0680-ee46-acd8-55809ee12479",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,14 +125,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇬 SG | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "68.183.235.122",
-      "server_port": 8080,
-      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
-      "password": null
     }
   ],
   "route": {
