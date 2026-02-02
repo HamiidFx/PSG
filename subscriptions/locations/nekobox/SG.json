@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @hope_net #1"
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @hope_net #1"
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "68.183.235.122",
+      "server_port": 8080,
+      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
+      "password": null
     }
   ],
   "route": {
