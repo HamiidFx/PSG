@@ -1,0 +1,298 @@
+{
+  "dns": {
+    "independent_cache": true,
+    "rules": [
+      {
+        "domain": [
+          "dns.google"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "outbound": [
+          "any"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ]
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "../cache/clash.db",
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "../files/yacd"
+    }
+  },
+  "inbounds": [
+    {
+      "domain_strategy": "",
+      "endpoint_independent_nat": true,
+      "inet4_address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "stack": "mixed",
+      "tag": "tun-in",
+      "type": "tun"
+    },
+    {
+      "domain_strategy": "",
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "🇸🇬 SG | VLESS | @bored_vpn #1",
+        "🇸🇬 SG | VLESS | @bored_vpn #2",
+        "🇸🇬 SG | VLESS | @itv2ray #1",
+        "🇸🇬 SG | VLESS | @mehrosaboran #1",
+        "🇸🇬 SG | VLESS | @outline_ir #1",
+        "🇸🇬 SG | VLESS | @outline_ir #2",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+        "🇸🇬 SG | VLESS | @v2raying #1",
+        "🇸🇬 SG | VLESS | @v2raying #2",
+        "🇸🇬 SG | VLESS | @v2rayopen #1",
+        "🇸🇬 SG | VLESS | @v2rayopen #2",
+        "🇸🇬 SG | VLESS | @vmesc #1",
+        "🇸🇬 SG | VLESS | @vmesc #2",
+        "🇸🇬 SG | VLESS | @vmesc #3"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇸🇬 SG | VLESS | @bored_vpn #1",
+        "🇸🇬 SG | VLESS | @bored_vpn #2",
+        "🇸🇬 SG | VLESS | @itv2ray #1",
+        "🇸🇬 SG | VLESS | @mehrosaboran #1",
+        "🇸🇬 SG | VLESS | @outline_ir #1",
+        "🇸🇬 SG | VLESS | @outline_ir #2",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+        "🇸🇬 SG | VLESS | @v2raying #1",
+        "🇸🇬 SG | VLESS | @v2raying #2",
+        "🇸🇬 SG | VLESS | @v2rayopen #1",
+        "🇸🇬 SG | VLESS | @v2rayopen #2",
+        "🇸🇬 SG | VLESS | @vmesc #1",
+        "🇸🇬 SG | VLESS | @vmesc #2",
+        "🇸🇬 SG | VLESS | @vmesc #3"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @itv2ray #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 443,
+      "uuid": "e765eb5b-8442-40e3-9532-857ba5ececa7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "b56472a0-a042-4d68-872b-b7b4388fd82f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raying #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raying #2",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2rayopen #2",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 443,
+      "uuid": "21f9985c-d363-4eee-957f-720e9e9f9b8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "b56472a0-a042-4d68-872b-b7b4388fd82f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vmesc #3",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rule_set": [],
+    "rules": [
+      {
+        "action": "hijack-dns",
+        "port": [
+          53
+        ]
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": [
+          "dns"
+        ]
+      },
+      {
+        "action": "reject",
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}

@@ -99,7 +99,9 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2ray_collector #1"
+        "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,7 +118,9 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2ray_collector #1"
+        "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -252,6 +256,36 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "dlc-nl1.persianpinggame.ir",
+      "server_port": 443,
+      "uuid": "34dae96c-1a41-434f-94b6-5507c3a6d318",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "fast.swetofor.com",
+      "server_port": 80,
+      "uuid": "048e1f57-7fb0-4d02-b0d1-45c13bd84a84",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

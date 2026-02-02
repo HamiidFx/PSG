@@ -84,7 +84,8 @@
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,7 +100,8 @@
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -254,6 +256,22 @@
       "tag": "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
       "type": "trojan",
       "server": "chatgpt.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "www.calmlunch.com",
       "server_port": 443,
       "password": "humanity",
       "tls": {

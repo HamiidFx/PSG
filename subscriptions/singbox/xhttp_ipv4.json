@@ -102,9 +102,11 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #4",
+        "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
@@ -125,9 +127,11 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #4",
+        "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
@@ -338,6 +342,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "23.235.37.79",
+      "server_port": 80,
+      "uuid": "c1a0341e-ae00-44f8-8033-6bcab44fc357",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -354,11 +366,28 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vmesc #1",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #4",
       "type": "vless",
-      "server": "162.159.152.4",
-      "server_port": 2096,
-      "uuid": "da406588-095f-4683-acc2-a3aa3aab68d6",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "437e28a3-22b5-1684-c608-36461660c988",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "172.66.40.99",
+      "server_port": 8080,
+      "uuid": "32ee6cfa-a6c2-48ec-b833-b072975c7177",
       "packet_encoding": "xudp"
     },
     {
