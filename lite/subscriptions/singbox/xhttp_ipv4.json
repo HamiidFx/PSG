@@ -96,7 +96,8 @@
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +111,8 @@
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -242,6 +244,23 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "437e28a3-22b5-1684-c608-36461660c988",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

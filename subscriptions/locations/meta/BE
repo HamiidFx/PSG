@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇷 KR | VMESS | @v2ray_free_conf #1", "server": "seoul03.zgjok.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "seoul03.zgjok.com"}}}
+  - {"name": "🇧🇪 BE | VLESS | @vmesskhodam #1", "server": "ip1-fast.tyryqyserver.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "85df0ad4-8818-4aa5-9799-4bb7232de9e0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇷 KR | VMESS | @v2ray_free_conf #1'
+      - '🇧🇪 BE | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select
