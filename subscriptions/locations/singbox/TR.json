@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk4=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇳 VN | SS | @v2ray_free_conf #1",
-        "🇻🇳 VN | SS | @v2ray_free_conf #2"
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇳 VN | SS | @v2ray_free_conf #1",
-        "🇻🇳 VN | SS | @v2ray_free_conf #2"
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇳 VN | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "103.186.154.229",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
-    },
-    {
-      "tag": "🇻🇳 VN | SS | @v2ray_free_conf #2",
-      "type": "shadowsocks",
-      "server": "103.186.154.177",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "test.country-17.eu-ffast.com",
+      "server_port": 443,
+      "uuid": "a23ebab9-6158-4c98-a1eb-267428894f1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

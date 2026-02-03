@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇺🇸 US | VMESS | @config_proxy #1", "server": "hms082.gwdef.sbs", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "gwdef.sbs"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy #1", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇺🇸 US | VMESS | @manstervpn #1", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
@@ -31,7 +32,6 @@ proxies:
   - {"name": "🇺🇸 US | VMESS | @serverv2ray00 #2", "server": "172.67.196.112", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "kellie.makeup"}}}
   - {"name": "🇺🇸 US | VMESS | @v2ray_collector #1", "server": "209.126.84.189", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmessws", "headers": {"Host": "209.126.84.189"}}}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector #1", "server": "198.23.229.250", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ee85121-31de-4581-a492-eb00f606e392"}
-  - {"name": "🇺🇸 US | VMESS | @v2ray_free_conf #1", "server": "id-lb.vhax.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "6fea1649-425b-4092-bf53-29792152c925", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/sshkit/Arsham85231/6347d08022b91/", "headers": {"Host": "zoom.us"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
 
 proxy-groups:
@@ -46,6 +46,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | VMESS | @config_proxy #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @ir_netproxy #1'
       - '🇺🇸 US | VMESS | @manstervpn #1'
@@ -54,7 +55,6 @@ proxy-groups:
       - '🇺🇸 US | VMESS | @serverv2ray00 #2'
       - '🇺🇸 US | VMESS | @v2ray_collector #1'
       - '🇺🇸 US | TROJAN | @v2ray_collector #1'
-      - '🇺🇸 US | VMESS | @v2ray_free_conf #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
 
   - name: 🌍 Global Media

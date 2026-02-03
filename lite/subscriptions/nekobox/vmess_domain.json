@@ -80,7 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -91,6 +90,7 @@
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇽🇽 XX | VMESS | @qrv2ray #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -102,7 +102,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -113,6 +112,7 @@
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇽🇽 XX | VMESS | @qrv2ray #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -197,24 +197,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "45.159.148.28",
-      "server_port": 443,
-      "uuid": "8b543cf1-64ee-4126-988a-593b9ac4e1df",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "varzesh3.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -458,6 +440,22 @@
         "path": "/",
         "headers": {
           "Host": "jffghsdufhgsduhfglskdufhgiruygfhddjfh.vajiko.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "172.64.149.182",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn?ed=2560",
+        "headers": {
+          "Host": "nasnet-5712964102.sharghdaily.co"
         }
       }
     },
