@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "45.144.48.54", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "666250e3-362e-440a-b9e3-2b7794c02af8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇾 MY | TROJAN | @Fr33C0nfig #1", "server": "xiaozhu1.kkieo555.cn", "port": 11278, "type": "trojan", "skip-cert-verify": false, "password": "d03e1173-3109-43c0-a5dd-e2b56916c540"}
+  - {"name": "🇲🇾 MY | TROJAN | @Fr33C0nfig #2", "server": "xiaozhu1.kkieo555.cn", "port": 11278, "type": "trojan", "skip-cert-verify": false, "password": "66037360-50d4-49c3-b3e7-810de84917e9"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @v2raych #1'
+      - '🇲🇾 MY | TROJAN | @Fr33C0nfig #1'
+      - '🇲🇾 MY | TROJAN | @Fr33C0nfig #2'
 
   - name: 🌍 Global Media
     type: select

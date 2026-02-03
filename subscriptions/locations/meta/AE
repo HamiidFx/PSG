@@ -27,9 +27,8 @@ proxies:
   - {"name": "🇦🇪 AE | VLESS | @connectshu #1", "server": "my.golam.mehromahtel.com", "port": 15000, "type": "vless", "skip-cert-verify": true, "uuid": "9af2dfc2-c7ad-425f-a534-7a1fada8f4e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @orange_vpns #1", "server": "78.40.194.14", "port": 19465, "type": "vless", "skip-cert-verify": true, "uuid": "a6690136-c109-45e6-be13-a45f7cb9eb2a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | TROJAN | @outline_ir #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
-  - {"name": "🇦🇪 AE | TROJAN | @v2raymelliii #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
-  - {"name": "🇦🇪 AE | TROJAN | @vmesc #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
-  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "blog.zanbori.ir", "port": 4220, "type": "vless", "skip-cert-verify": true, "uuid": "51d7e784-d531-4756-a887-cb60b3069aa3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VMESS | @v2ray_free_conf #1", "server": "89.31.120.192", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "44537595-9ccc-4b83-8936-5f9ad3229019", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇦🇪 AE | TROJAN | @v2ray_youtube #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -47,9 +46,8 @@ proxy-groups:
       - '🇦🇪 AE | VLESS | @connectshu #1'
       - '🇦🇪 AE | VLESS | @orange_vpns #1'
       - '🇦🇪 AE | TROJAN | @outline_ir #1'
-      - '🇦🇪 AE | TROJAN | @v2raymelliii #1'
-      - '🇦🇪 AE | TROJAN | @vmesc #1'
-      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
+      - '🇦🇪 AE | VMESS | @v2ray_free_conf #1'
+      - '🇦🇪 AE | TROJAN | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

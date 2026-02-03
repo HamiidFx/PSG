@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇦 BA | VLESS | @hope_net #1", "server": "77.74.228.181", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy #1", "server": "fra-0001-xr.packet-drop-society.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ba77276e-9939-4c6c-a73e-90e02b6faf13", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇩 MD | VLESS | @v2ray_youtube #1", "server": "94.131.101.203", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇦 BA | VLESS | @hope_net #1'
+      - '🇲🇩 MD | VLESS | @config_proxy #1'
+      - '🇲🇩 MD | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

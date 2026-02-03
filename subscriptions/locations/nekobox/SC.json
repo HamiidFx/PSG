@@ -79,9 +79,7 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @easy_free_vpn #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #2"
+        "🇸🇨 SC | VLESS | @easy_free_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,9 +89,7 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @easy_free_vpn #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #2"
+        "🇸🇨 SC | VLESS | @easy_free_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,40 +145,6 @@
       "server_port": 8880,
       "uuid": "vpn_connects",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "ea33fc71-2ce3-48e1-93fb-e36142c1e1ee",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @flyv2ray #2",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "ea33fc71-2ce3-48e1-93fb-e36142c1e1ee",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

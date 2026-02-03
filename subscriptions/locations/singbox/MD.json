@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇲🇩 MD | VLESS | @config_proxy #1",
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇲🇩 MD | VLESS | @config_proxy #1",
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "45.144.48.54",
+      "server": "fra-0001-xr.packet-drop-society.net",
       "server_port": 443,
-      "uuid": "666250e3-362e-440a-b9e3-2b7794c02af8",
+      "uuid": "ba77276e-9939-4c6c-a73e-90e02b6faf13",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "94.131.101.203",
+      "server_port": 8443,
+      "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

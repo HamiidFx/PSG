@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "90.156.214.24", "port": 4241, "type": "vless", "skip-cert-verify": true, "uuid": "ef35bc72-e360-499d-8dd2-2aa5e5b60dd0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "217.16.23.232", "port": 3443, "type": "vless", "skip-cert-verify": true, "uuid": "231cd1b7-d0b0-49a7-ab7a-19aab29d036f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "147.45.246.124", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1335908d-f1de-4b9c-84f8-4dd76d7290ef", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "dawn.wenllies.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -40,9 +41,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
       - '🇷🇺 RU | VLESS | @connectshu #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
 
   - name: 🌍 Global Media

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.144.48.54",
-      "server_port": 443,
-      "uuid": "666250e3-362e-440a-b9e3-2b7794c02af8",
-      "packet_encoding": "xudp",
+      "tag": "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 11278,
+      "password": "d03e1173-3109-43c0-a5dd-e2b56916c540",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -114,11 +115,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇾 MY | TROJAN | @Fr33C0nfig #2",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 11278,
+      "password": "66037360-50d4-49c3-b3e7-810de84917e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
