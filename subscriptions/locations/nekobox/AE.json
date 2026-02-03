@@ -77,14 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | VLESS | @config_proxy #1",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,14 +92,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | VLESS | @config_proxy #1",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,22 +113,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
-      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @ai_duet #1",
@@ -146,6 +130,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "94.183.162.68",
+      "server_port": 9828,
+      "uuid": "68a9cce7-2923-4ff4-832f-3c3d8800009e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @connectshu #1",
@@ -189,6 +181,22 @@
     },
     {
       "tag": "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | TROJAN | @vmesc #1",
       "type": "trojan",
       "server": "94.140.0.1",
       "server_port": 443,

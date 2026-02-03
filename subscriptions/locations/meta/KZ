@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇦 BA | VLESS | @hope_net #1", "server": "77.74.228.96", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇰🇿 KZ | VLESS | @free1_vpn #1", "server": "212.111.85.1", "port": 51102, "type": "vless", "skip-cert-verify": true, "uuid": "d4d031ec-0ba6-486a-aa0c-dce2b7cb8933", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇦 BA | VLESS | @hope_net #1'
+      - '🇰🇿 KZ | VLESS | @filterk0sh #1'
+      - '🇰🇿 KZ | VLESS | @free1_vpn #1'
 
   - name: 🌍 Global Media
     type: select
