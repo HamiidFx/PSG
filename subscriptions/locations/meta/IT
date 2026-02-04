@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇹 IT | VLESS | @config_proxy #1", "server": "85.235.149.184", "port": 500, "type": "vless", "skip-cert-verify": true, "uuid": "e6af2417-0a79-4521-aa2a-de1c2f105188", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @netmellianti #1", "server": "ov-italy1.09vpn.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b3051b10-716d-455b-9811-aefcce3d633e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | VLESS | @config_proxy #1'
+      - '🇮🇹 IT | VLESS | @netmellianti #1'
 
   - name: 🌍 Global Media
     type: select

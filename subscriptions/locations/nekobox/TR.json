@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -102,6 +106,30 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "194.113.226.197",
+      "server_port": 55555,
+      "uuid": "49d97f86-4589-4570-8e4b-794b49556e42",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "68c8f462-8468-4931-90a8-680c3d6cb3c1",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "194.113.226.197",
       "server_port": 55555,

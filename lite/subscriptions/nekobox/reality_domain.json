@@ -80,14 +80,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇫🇷 FR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,14 +97,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇫🇷 FR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,6 +187,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "nl2.harknmav.fun",
+      "server_port": 443,
+      "uuid": "6af855da-2bf4-4b0a-9d84-9941a8115b54",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -290,11 +305,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "uk.spectrum.vu",
-      "server_port": 443,
-      "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
+      "server": "se.locations-service.com",
+      "server_port": 3039,
+      "uuid": "d73a9db0-24b5-4592-8ff0-4f0b5329b39f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -303,33 +318,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "dostupbypass4.suio.me",
-      "server_port": 443,
-      "uuid": "745d8b0e-1bf2-4921-8058-4d67dd3dbc13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ednew.echosphere.ir",
-      "server_port": 2082,
-      "uuid": "f0c18378-ce18-44c5-8f60-e1c635ffa0b3",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

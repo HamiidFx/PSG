@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "64.188.73.31",
-      "server_port": 443,
-      "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
