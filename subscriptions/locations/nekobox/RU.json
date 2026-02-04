@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
@@ -88,6 +89,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
@@ -118,6 +120,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "test.country-17.eu-ffast.com",
+      "server_port": 443,
+      "uuid": "a23ebab9-6158-4c98-a1eb-267428894f1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

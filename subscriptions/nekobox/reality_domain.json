@@ -80,21 +80,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @connectshu #2",
         "🇺🇸 US | VLESS | @connectshu #2",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @flyv2ray #1",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
+        "🇭🇺 HU | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #3",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇽🇽 XX | VLESS | @v_2rayng0 #4",
+        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2"
@@ -108,21 +109,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @connectshu #2",
         "🇺🇸 US | VLESS | @connectshu #2",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @flyv2ray #1",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
+        "🇭🇺 HU | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #3",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇽🇽 XX | VLESS | @v_2rayng0 #4",
+        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2"
@@ -213,14 +215,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "voip.khakshouri.ir",
-      "server_port": 56734,
-      "uuid": "e076e2c6-bb55-4830-a514-d89f60f550d8",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -299,11 +293,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "mg2.yuanbaojc.site",
-      "server_port": 13000,
-      "uuid": "35089253-e128-482f-90d6-7231e28c774e",
+      "server": "mskhost.outlinekeys.net",
+      "server_port": 443,
+      "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -365,11 +359,33 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "test.country-17.eu-ffast.com",
       "server_port": 443,
       "uuid": "a23ebab9-6158-4c98-a1eb-267428894f1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "api-r1.wiki-mobile-two.com",
+      "server_port": 5443,
+      "uuid": "030fa0bd-c76d-4b2e-9c49-fe4355bf1c04",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -470,6 +486,28 @@
       "server": "iranlease.com",
       "server_port": 443,
       "uuid": "a4dab647-8eee-469a-ba12-549e8d849d86",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "voip.khakshouri.ir",
+      "server_port": 56734,
+      "uuid": "e076e2c6-bb55-4830-a514-d89f60f550d8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

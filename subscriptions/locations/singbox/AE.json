@@ -91,15 +91,10 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @config_proxy #1",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
-        "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2raych #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #2",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #3"
+        "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,15 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @config_proxy #1",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
-        "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2raych #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #2",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #3"
+        "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -145,14 +135,6 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "ir2.webira.net",
-      "server_port": 19204,
-      "uuid": "8e2fdcff-0280-4070-8385-77e40a92798e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇦🇪 AE | VLESS | @connectshu #1",
       "type": "vless",
       "server": "my.golam.mehromahtel.com",
@@ -169,11 +151,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇦🇪 AE | TROJAN | @outline_ir #1",
-      "type": "trojan",
-      "server": "94.140.0.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
+      "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "151.242.251.153",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
+      "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2rayngconfig #1",
+      "type": "vless",
+      "server": "s2.ihigkgloybfhygkih.pw",
+      "server_port": 8443,
+      "uuid": "1408e7de-a086-41e9-997d-06612883f3ae",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -183,46 +174,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "151.242.251.153",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ir2.webira.net",
-      "server_port": 19204,
-      "uuid": "e40cfaf8-72d6-43f0-9481-432398e66ce3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ir2.webira.net",
-      "server_port": 19204,
-      "uuid": "2900a45d-74c5-4d4b-a860-d0dae69c8ffa",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "ir2.webira.net",
-      "server_port": 19204,
-      "uuid": "abc81271-0365-43a8-8099-abfaeb514fed",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #3",
-      "type": "vless",
-      "server": "ir2.webira.net",
-      "server_port": 19204,
-      "uuid": "829228f6-2f2d-4123-ac3b-6a7ac5782692",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
