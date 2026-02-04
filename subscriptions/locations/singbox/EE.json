@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFU=
+//profile-title: base64:UFNHIHwgRUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @netmellianti #1"
+        "🇪🇪 EE | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @netmellianti #1"
+        "🇪🇪 EE | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇺 HU | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "api-r1.wiki-mobile-two.com",
-      "server_port": 5443,
-      "uuid": "030fa0bd-c76d-4b2e-9c49-fe4355bf1c04",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇪🇪 EE | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "185.193.49.88",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

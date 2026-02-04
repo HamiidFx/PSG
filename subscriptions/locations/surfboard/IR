@@ -10,13 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇷 IR | VMESS | @khoneproxy #1 = vmess, 78.47.131.39, 8443, username = 4d598e48-234f-4c60-fdd3-fa90e084770d, ws = false, tls = false
-🇮🇷 IR | VMESS | @prrofile_purple #1 = vmess, sr2.qirvo.fun, 8880, username = cfa412e5-de75-4408-8089-d3d1b42b1c91, ws = false, tls = false
-🇮🇷 IR | VMESS | @prrofile_purple #2 = vmess, sr6.vopnik.fun, 8080, username = 677ca848-ab69-487e-91bf-111c5113735a, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @prrofile_purple #1, 🇮🇷 IR | VMESS | @prrofile_purple #2
-PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @prrofile_purple #1, 🇮🇷 IR | VMESS | @prrofile_purple #2
-PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @prrofile_purple #1, 🇮🇷 IR | VMESS | @prrofile_purple #2
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @khoneproxy #1
 
 [Rule]
 GEOIP,IR,DIRECT

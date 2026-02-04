@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "65.108.108.151",
+      "server": "64.188.73.31",
       "server_port": 443,
-      "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0",
+      "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -118,11 +116,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -132,28 +125,6 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
-      "type": "vless",
-      "server": "market.chepschasb.shop",
-      "server_port": 2052,
-      "uuid": "chanel%3BV2ray_fa3t",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
