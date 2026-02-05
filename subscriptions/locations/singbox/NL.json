@@ -96,9 +96,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
+        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2aryng_vpn #1"
+        "🇳🇱 NL | VLESS | @v2aryng_vpn #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,9 +115,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
+        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2aryng_vpn #1"
+        "🇳🇱 NL | VLESS | @v2aryng_vpn #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,6 +194,14 @@
       "password": null
     },
     {
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #3",
+      "type": "shadowsocks",
+      "server": "193.29.139.188",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "95.179.138.190",
@@ -201,6 +215,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "85.17.145.174",
+      "server_port": 443,
+      "uuid": "580fb199-f2a1-40f2-b48b-da5d83521b60",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -226,6 +262,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "77.239.124.88",
+      "server_port": 443,
+      "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

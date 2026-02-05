@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | SS | @outline_ir #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @outline_ir #2",
+        "🇸🇬 SG | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | SS | @outline_ir #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @outline_ir #2",
+        "🇸🇬 SG | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,9 +127,25 @@
       "tag": "🇸🇬 SG | SS | @outline_ir #1",
       "type": "shadowsocks",
       "server": "3.1.195.148",
+      "server_port": 8319,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @outline_ir #2",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
       "server_port": 8316,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
       "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "206.238.237.211",
+      "server_port": 2083,
+      "uuid": "844e0f15-6ea4-4dd7-8f08-11311c9c23e8",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

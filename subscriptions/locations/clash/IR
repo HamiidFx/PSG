@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇷 IR | VMESS | @config_proxy #1", "server": "gold6.goldspeed.org", "port": 40973, "type": "vmess", "skip-cert-verify": true, "uuid": "a7918501-9245-42f5-9393-f6e84bda9497", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @config_proxy #2", "server": "dl01.armd.fun", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "02f2e9ff-025c-456e-9400-4f07e0806dd6", "alterId": 0, "cipher": "", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇮🇷 IR | VMESS | @v2ray_free_conf #1", "server": "cip.ertebatgoostar.ir", "port": 2020, "type": "vmess", "skip-cert-verify": true, "uuid": "076928f9-8df8-4a71-9e1c-c75658fe3140", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @v2ray_free_conf #1", "server": "159.69.102.131", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "3c67bb79-8b96-43d1-c576-c01dff9178ff", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "Bmi.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇷 IR | VMESS | @config_proxy #1'
+      - '🇮🇷 IR | VMESS | @config_proxy #2'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
       - '🇮🇷 IR | VMESS | @v2ray_free_conf #1'
 
