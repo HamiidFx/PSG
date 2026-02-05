@@ -90,10 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
         "🇦🇪 AE | VLESS | @mtproxy22_v2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
@@ -102,10 +105,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
         "🇦🇪 AE | VLESS | @mtproxy22_v2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
@@ -116,6 +122,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @ai_duet #1",
@@ -157,6 +179,23 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "146.75.65.194",
+      "server_port": 443,
+      "uuid": "3dc86e4c-331f-4d8e-8408-d035d51f877c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @v2rayngconfig #1",

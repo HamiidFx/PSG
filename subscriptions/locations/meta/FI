@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @configv2rayforfree #1", "server": "fl-2.bot-iphone.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "9c42819a-67a6-4742-9c6d-64900ba62160", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "5.61.89.225", "port": 32061, "type": "vless", "skip-cert-verify": true, "uuid": "0df23c07-b289-4d65-822a-228478ca73bd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @configv2rayforfree #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
-      - '🇫🇮 FI | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

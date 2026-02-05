@@ -98,7 +98,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2raymelliii #1"
+        "🇳🇱 NL | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,7 +114,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2raymelliii #1"
+        "🇳🇱 NL | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -213,12 +213,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raymelliii #1",
+      "tag": "🇳🇱 NL | VLESS | @v2aryng_vpn #1",
       "type": "vless",
-      "server": "fast.swetofor.com",
-      "server_port": 80,
-      "uuid": "048e1f57-7fb0-4d02-b0d1-45c13bd84a84",
-      "packet_encoding": "xudp"
+      "server": "89.149.242.24",
+      "server_port": 1990,
+      "uuid": "48490509-9672-4ddb-b44f-bbfd7560d614",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

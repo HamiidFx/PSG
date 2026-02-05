@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | SS | @mtproxy22_v2ray #1"
+        "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | SS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | SS | @mtproxy22_v2ray #1"
+        "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | SS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,18 +112,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-      "type": "vless",
-      "server": "api-saronet.sarhadpirani.ir",
-      "server_port": 2052,
-      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
       "type": "shadowsocks",
       "server": "3.1.195.148",
       "server_port": 8313,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
+      "server_port": 8316,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
       "password": null
     }

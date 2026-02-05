@@ -95,6 +95,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -121,6 +123,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -541,6 +545,40 @@
           "Host": "kellie.makeup"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cg1c01.waimaojd.com",
+      "server_port": 443,
+      "uuid": "be8e3136-b874-4085-bd23-ec3699300490",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cg1c01.waimaojd.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql",
+        "headers": {
+          "Host": "cg1c01.waimaojd.com"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cip.ertebatgoostar.ir",
+      "server_port": 2020,
+      "uuid": "076928f9-8df8-4a71-9e1c-c75658fe3140",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",

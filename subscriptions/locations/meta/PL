@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @freeconfigsplus #1", "server": "api-saronet.sarhadpirani.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @prrofile_purple #1", "server": "144.31.2.86", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ca569d6c-d206-4709-9ed9-8dda73932c22", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @freeconfigsplus #1'
+      - '🇵🇱 PL | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,17 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,17 +92,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,23 +113,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "57.129.137.56",
-      "server_port": 443,
-      "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @flyv2ray #1",
@@ -187,14 +164,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "media.mothyleela.cfd",
@@ -217,23 +186,6 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "api.dark-coffe.com",
-      "server_port": 443,
-      "uuid": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

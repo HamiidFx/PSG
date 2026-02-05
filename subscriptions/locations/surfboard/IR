@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇷 IR | VMESS | @khoneproxy #1 = vmess, 78.47.131.39, 8443, username = 4d598e48-234f-4c60-fdd3-fa90e084770d, ws = false, tls = false
+🇮🇷 IR | VMESS | @v2ray_free_conf #1 = vmess, cip.ertebatgoostar.ir, 2020, username = 076928f9-8df8-4a71-9e1c-c75658fe3140, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @khoneproxy #1
-PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @khoneproxy #1
-PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
+PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
+PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
 
 [Rule]
 GEOIP,IR,DIRECT
