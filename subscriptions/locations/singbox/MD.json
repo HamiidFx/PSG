@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @Fr33C0nfig #1"
+        "🇲🇩 MD | VLESS | @Fr33C0nfig #1",
+        "🇲🇩 MD | VLESS | @netmellianti #1",
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @Fr33C0nfig #1"
+        "🇲🇩 MD | VLESS | @Fr33C0nfig #1",
+        "🇲🇩 MD | VLESS | @netmellianti #1",
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +132,45 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "93.185.165.50",
+      "server_port": 55211,
+      "uuid": "333c9768-1ce8-4008-990e-ad1a22c6ee27",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "62.3.12.197",
+      "server_port": 443,
+      "uuid": "fa-7802655683-1770060873553089",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

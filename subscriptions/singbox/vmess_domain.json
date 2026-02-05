@@ -108,7 +108,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -135,7 +135,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -554,18 +554,27 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "tr1-smart.adelping.com",
-      "server_port": 80,
-      "uuid": "68c8f462-8468-4931-90a8-680c3d6cb3c1",
+      "server": "cdn-nightgemshop.sep-vpn.site",
+      "server_port": 443,
+      "uuid": "9c668def-56ac-42eb-a400-501d2079a405",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "nightgemshop.sep-vpn.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/JOIN:@NIGHTGEMSHOP",
         "headers": {
-          "Host": ""
+          "Host": "nightgemshop.sep-vpn.site"
         }
       }
     },

@@ -23,11 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "5.188.141.69", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7bc30425-1c2f-4823-b629-90f599a4cbfe", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "5.188.143.115", "port": 10443, "type": "vless", "skip-cert-verify": true, "uuid": "6af855da-2bf4-4b0a-9d84-9941a8115b54", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "95.163.209.52", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "745d8b0e-1bf2-4921-8058-4d67dd3dbc13", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @hope_net #1", "server": "46.254.92.226", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @netmellianti #1", "server": "31.129.55.179", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "93100196-7f5a-496e-9b74-2d02f134b2bb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "dawn.wenllies.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -44,11 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @config_proxy #1'
-      - '🇷🇺 RU | VLESS | @config_proxy #2'
-      - '🇷🇺 RU | VLESS | @config_proxy #3'
       - '🇷🇺 RU | VLESS | @connectshu #1'
-      - '🇷🇺 RU | VLESS | @hope_net #1'
       - '🇷🇺 RU | VLESS | @netmellianti #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
