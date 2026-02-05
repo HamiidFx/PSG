@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @evay_vpn #1",
         "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | SS | @free4allvpn #1",
@@ -92,6 +93,7 @@
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | SS | @netfreedom0 #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -100,8 +102,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #2",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
@@ -113,8 +115,7 @@
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,6 +124,7 @@
       "interval": "10m",
       "outbounds": [
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @evay_vpn #1",
         "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | SS | @free4allvpn #1",
@@ -137,6 +139,7 @@
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | SS | @netfreedom0 #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -145,8 +148,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #2",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
@@ -158,8 +161,7 @@
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -182,6 +184,14 @@
       "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @evay_vpn #1",
@@ -379,9 +389,17 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "141.95.106.127",
+      "server_port": 11201,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NGFhZTA1MTAxODhlOGM1",
+      "password": null
+    },
+    {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "3.77.16.196",
+      "server": "3.66.146.229",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -397,7 +415,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #2",
       "type": "trojan",
-      "server": "3.66.146.229",
+      "server": "3.77.143.62",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -502,6 +520,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "iar.blackhoster.com",
+      "server_port": 350,
+      "uuid": "79a48cba-4a44-4a5c-bfa9-64a53379df2c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "vip-80.f-sub.cfd",
@@ -510,17 +536,9 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
-      "server": "3.77.16.196",
+      "server": "3.66.146.229",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -536,7 +554,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #2",
       "type": "trojan",
-      "server": "3.66.146.229",
+      "server": "3.77.143.62",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -596,7 +614,7 @@
     {
       "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "3.77.16.196",
+      "server": "3.66.146.229",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -611,7 +629,7 @@
     {
       "tag": "🇩🇪 DE | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "3.66.146.229",
+      "server": "3.77.143.62",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -702,14 +720,6 @@
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "vip-80.f-sub.cfd",
-      "server_port": 1517,
-      "uuid": "4392faa3-1e7b-4c8e-819c-94e433c4d9f9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
       "type": "vless",
       "server": "vip-80.f-sub.cfd",
       "server_port": 1517,

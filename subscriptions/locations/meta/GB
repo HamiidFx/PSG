@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "57.129.137.56", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @miov2ray #1", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #1", "server": "api.dark-coffe.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @config_proxy #1'
       - '🇬🇧 GB | VLESS | @komail315 #1'
       - '🇬🇧 GB | VLESS | @miov2ray #1'
       - '🇬🇧 GB | VLESS | @vpn_ioss #1'

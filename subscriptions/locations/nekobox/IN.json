@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇳 IN | VLESS | @config_proxy #1",
         "🇮🇳 IN | VLESS | @kafing_2 #1",
         "🇮🇳 IN | VLESS | @v2raytg #1"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇳 IN | VLESS | @config_proxy #1",
         "🇮🇳 IN | VLESS | @kafing_2 #1",
         "🇮🇳 IN | VLESS | @v2raytg #1"
       ],
@@ -103,23 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇳 IN | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "151.101.210.64",
-      "server_port": 443,
-      "uuid": "6ff8c019-9abc-465a-a8cc-92cde57514d0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇮🇳 IN | VLESS | @kafing_2 #1",
