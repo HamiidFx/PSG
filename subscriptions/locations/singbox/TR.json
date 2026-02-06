@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @armod_iran #1"
+        "🇹🇷 TR | VLESS | @armod_iran #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @armod_iran #1"
+        "🇹🇷 TR | VLESS | @armod_iran #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,28 @@
       "server_port": 2052,
       "uuid": "94697419-f8c4-4a38-9aa9-9e9f7d7c03f9",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "185.227.137.167",
+      "server_port": 23,
+      "uuid": "470f745e-0d5a-49ed-b387-abdde2fafe83",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

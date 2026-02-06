@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇬🇧 GB | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1"
@@ -106,6 +107,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇬🇧 GB | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1"
@@ -186,6 +188,22 @@
       "transport": {
         "type": "ws",
         "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "18.168.124.58",
+      "server_port": 80,
+      "uuid": "ff7be42d-7d09-445e-b89f-96d7712eb4bf",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
         "headers": {
           "Host": ""
         }

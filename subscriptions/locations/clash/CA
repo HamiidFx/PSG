@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇪 BE | VLESS | @v2ray_youtube #1", "server": "ip1-fast.tyryqyserver.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "c30da8f2-29f1-4bb6-8cbb-1d23331f7033", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇦 CA | VMESS | @v2ray_free_conf #1", "server": "15.235.83.228", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "15.235.83.228"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇪 BE | VLESS | @v2ray_youtube #1'
+      - '🇨🇦 CA | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

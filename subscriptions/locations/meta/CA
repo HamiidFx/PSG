@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
+  - {"name": "🇨🇦 CA | VMESS | @v2ray_free_conf #1", "server": "15.235.83.228", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "15.235.83.228"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇨🇦 CA | VLESS | @jokerv2ray #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2'
+      - '🇨🇦 CA | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

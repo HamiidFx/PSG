@@ -77,9 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @red2ray #1"
+        "🇫🇮 FI | SS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @red2ray #1"
+        "🇫🇮 FI | SS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,11 +109,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
+      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "fl-2.bot-iphone.ru",
-      "server_port": 8443,
-      "uuid": "9c42819a-67a6-4742-9c6d-64900ba62160",
+      "server": "fi4.srv.cdnopl.link",
+      "server_port": 6443,
+      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,11 +131,19 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+      "tag": "🇫🇮 FI | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "38.244.137.202",
+      "server_port": 45380,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0M2ZYZjF1TUtiSUtreG9OWUdRTXR0",
+      "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "fi4.srv.cdnopl.link",
-      "server_port": 6443,
-      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "server": "45.15.127.107",
+      "server_port": 443,
+      "uuid": "id8114764549",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -169,6 +181,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "s3-d8.hmvpa.ir",
+      "server_port": 2082,
+      "uuid": "f67ba568-cfb8-4763-8c7b-bf367e01c442",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
