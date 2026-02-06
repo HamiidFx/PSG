@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -110,7 +110,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -122,8 +121,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -139,7 +138,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -224,6 +222,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "YyYYuUI.iRAn1912.dpDNs.oRG",
+      "server_port": 443,
+      "uuid": "4a7baca1-8048-4a91-8316-595b36657a54",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "YyYYuUI.iRAn1912.dpDNs.oRG",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TaBvkrUbsyvsvinsGGg",
+        "headers": {
+          "Host": "YYyYUui.iran1912.dpdNS.OrG"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
       "type": "vmess",
       "server": "gold6.goldspeed.org",
@@ -231,24 +254,6 @@
       "uuid": "a7918501-9245-42f5-9393-f6e84bda9497",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "dl01.armd.fun",
-      "server_port": 443,
-      "uuid": "02f2e9ff-025c-456e-9400-4f07e0806dd6",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -581,22 +586,6 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "159.69.102.131",
-      "server_port": 8080,
-      "uuid": "3c67bb79-8b96-43d1-c576-c01dff9178ff",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Bmi.ir"
         }
       }
     },

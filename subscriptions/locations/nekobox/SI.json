@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇾 MY | SS | @v2ray_youtube #1"
+        "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇾 MY | SS | @v2ray_youtube #1"
+        "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇾 MY | SS | @v2ray_youtube #1",
+      "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
+      "type": "vless",
+      "server": "92.60.78.221",
+      "server_port": 443,
+      "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇮 SI | SS | @NamiraConfigs #1",
       "type": "shadowsocks",
-      "server": "38.54.97.247",
-      "server_port": 28026,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmIwODIwNWNiNmM4YWYw",
+      "server": "192.71.244.150",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
     }
   ],

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQlI=
+//profile-title: base64:UFNHIHwgTFY=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | SS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | SS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "5.188.4.103",
-      "server_port": 11203,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2MyMDU2NDJiMzAyYzIw",
-      "password": null
+      "tag": "🇱🇻 LV | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "lv.matevps.ru",
+      "server_port": 443,
+      "uuid": "a4bb211e-39fd-41df-8c34-3d2672b5cd8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -10,14 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇷 IR | VMESS | @config_proxy #1 = vmess, gold6.goldspeed.org, 40973, username = a7918501-9245-42f5-9393-f6e84bda9497, ws = false, tls = false
-🇮🇷 IR | VMESS | @config_proxy #2 = vmess, dl01.armd.fun, 443, username = 02f2e9ff-025c-456e-9400-4f07e0806dd6, ws = false, tls = false
 🇮🇷 IR | VMESS | @khoneproxy #1 = vmess, 78.47.131.39, 8443, username = 4d598e48-234f-4c60-fdd3-fa90e084770d, ws = false, tls = false
-🇮🇷 IR | VMESS | @v2ray_free_conf #1 = vmess, 159.69.102.131, 8080, username = 3c67bb79-8b96-43d1-c576-c01dff9178ff, ws = true, tls = false, ws-path = /, ws-headers = Host:"Bmi.ir"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @config_proxy #2, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
-PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @config_proxy #2, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
-PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @config_proxy #2, 🇮🇷 IR | VMESS | @khoneproxy #1, 🇮🇷 IR | VMESS | @v2ray_free_conf #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
 
 [Rule]
 GEOIP,IR,DIRECT
