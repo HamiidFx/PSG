@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | SS | @free1_vpn #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | TROJAN | @netfreedom0 #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
@@ -100,6 +102,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | SS | @free1_vpn #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | TROJAN | @netfreedom0 #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
@@ -112,6 +116,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "158.101.131.94",
+      "server_port": 2083,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "3.112.130.53",
+      "server_port": 8316,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
     },
     {
       "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",

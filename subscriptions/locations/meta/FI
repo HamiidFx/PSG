@@ -23,10 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @configv2rayforfree #1", "server": "fl-2.bot-iphone.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "9c42819a-67a6-4742-9c6d-64900ba62160", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @outline_ir #1", "server": "45.15.127.107", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "id8114764549", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "65.108.108.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @vpnplusee_free #1", "server": "s3-d8.hmvpa.ir", "port": 2082, "type": "vless", "skip-cert-verify": true, "uuid": "f67ba568-cfb8-4763-8c7b-bf367e01c442", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @outline_ir #1", "server": "45.15.127.107", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8df8d701-38b4-5175-89ef-7447a1250e67", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @configv2rayforfree #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
       - '🇫🇮 FI | VLESS | @outline_ir #1'
-      - '🇫🇮 FI | VLESS | @red2ray #1'
-      - '🇫🇮 FI | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

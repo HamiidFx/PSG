@@ -92,6 +92,7 @@
         "direct",
         "🇦🇪 AE | VLESS | @ai_duet #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
+        "🇦🇪 AE | VLESS | @v2ray_youtube #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇦🇪 AE | VLESS | @ai_duet #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
+        "🇦🇪 AE | VLESS | @v2ray_youtube #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
@@ -137,6 +139,23 @@
       "server_port": 19465,
       "uuid": "a6690136-c109-45e6-be13-a45f7cb9eb2a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "uuid": "73f15c26-5545-492f-bb67-a4ef3737a060",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @v2rayngconfig #1",

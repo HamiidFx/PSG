@@ -24,11 +24,10 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @hope_net #1", "server": "45.67.215.220", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "217.12.40.76", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6416708c-eaa5-4ec5-b652-a2db2feab875", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #2", "server": "158.160.221.132", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4603e54d-b023-4947-83e7-70025416f306", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #3", "server": "130.193.59.133", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "08d6280b-90c8-41e1-a809-3132cfb706f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "dawn.wenllies.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "185.247.185.6", "port": 5443, "type": "vless", "skip-cert-verify": true, "uuid": "cd0aba07-3b28-48a2-8cbb-49be72420089", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,11 +42,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @connectshu #1'
+      - '🇷🇺 RU | VLESS | @hope_net #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
-      - '🇷🇺 RU | VLESS | @v2raych #2'
-      - '🇷🇺 RU | VLESS | @v2raych #3'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
+      - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

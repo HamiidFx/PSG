@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v2rayopen #1"
+        "🇰🇿 KZ | VLESS | @v2rayopen #1",
+        "🇰🇿 KZ | SS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v2rayopen #1"
+        "🇰🇿 KZ | VLESS | @v2rayopen #1",
+        "🇰🇿 KZ | SS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,34 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
-      "type": "vless",
-      "server": "77.73.232.61",
-      "server_port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇰🇿 KZ | VLESS | @v2rayopen #1",
       "type": "vless",
       "server": "1.kkcweb.ir",
       "server_port": 2083,
       "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | SS | @vmesc #1",
+      "type": "shadowsocks",
+      "server": "213.156.137.142",
+      "server_port": 43660,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzI3YTMwMTJkODFhNDRj",
+      "password": null
     }
   ],
   "route": {
