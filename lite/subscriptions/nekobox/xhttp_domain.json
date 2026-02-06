@@ -80,10 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +95,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,7 +187,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -201,6 +203,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "ch-alien.khodeimobile.com",
+      "server_port": 8880,
+      "uuid": "5172cc59-7949-4cb9-88d2-b5ed823d39ff",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
       "type": "vless",
       "server": "fast4.zone-server-irani.ir",
@@ -209,12 +219,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #2",
       "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "abc88d28-653c-4478-a49a-e95b35b974bb",
-      "packet_encoding": "xudp"
+      "server": "jolbon4.mojtabajeab.ir",
+      "server_port": 443,
+      "uuid": "dabf1935-1ccd-41ca-b411-341ea674d8ef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

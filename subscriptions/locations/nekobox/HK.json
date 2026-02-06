@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VMESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VMESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @prrofile_purple #1",
+      "type": "vmess",
+      "server": "8.217.13.74",
+      "server_port": 31769,
+      "uuid": "cf1ad6c7-5987-4314-82bb-b4399040d047",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
