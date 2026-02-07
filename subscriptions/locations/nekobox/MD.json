@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @Fr33C0nfig #1"
+        "🇲🇩 MD | VLESS | @Fr33C0nfig #1",
+        "🇲🇩 MD | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @Fr33C0nfig #1"
+        "🇲🇩 MD | VLESS | @Fr33C0nfig #1",
+        "🇲🇩 MD | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -104,6 +106,28 @@
       "tag": "🇲🇩 MD | VLESS | @Fr33C0nfig #1",
       "type": "vless",
       "server": "94.131.101.203",
+      "server_port": 8443,
+      "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "103.35.191.224",
       "server_port": 8443,
       "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
       "packet_encoding": "xudp",

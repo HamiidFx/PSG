@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @v2raych #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @v2raych #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,23 +122,6 @@
         "path": "/register",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "n1761184273.mv7wh.tech",
-      "server_port": 443,
-      "uuid": "a4c6bbd7-6ea5-44b2-9829-08f5ae615d49",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

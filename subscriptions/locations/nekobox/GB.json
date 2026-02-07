@@ -77,12 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2ray_youtube #1",
@@ -96,12 +96,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2ray_youtube #1",
@@ -121,6 +121,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "209.97.183.113",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
@@ -169,14 +186,6 @@
       "server": "82.38.31.210",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "57.129.129.139",
-      "server_port": 29183,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYjBiODFhNWJmZjdkZGVh",
       "password": null
     },
     {

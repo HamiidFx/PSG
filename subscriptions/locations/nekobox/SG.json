@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
         "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
         "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "free.cloakzone.org",
-      "server_port": 443,
-      "uuid": "f291de93-b084-40b3-b4da-af90cd99de46",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @hope_net #1",
