@@ -79,8 +79,10 @@
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
+        "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇨🇾 CY | VLESS | @v2ray_collector #1",
         "🇨🇾 CY | VLESS | @v2ray_youtube #1",
+        "🇨🇾 CY | VLESS | @v2raych #1",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇨🇾 CY | VLESS | @vmesc #1",
@@ -94,8 +96,10 @@
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
+        "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇨🇾 CY | VLESS | @v2ray_collector #1",
         "🇨🇾 CY | VLESS | @v2ray_youtube #1",
+        "🇨🇾 CY | VLESS | @v2raych #1",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇨🇾 CY | VLESS | @vmesc #1",
@@ -131,6 +135,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇨🇾 CY | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.82.251.208",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇾 CY | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "45.82.251.63",
@@ -145,6 +157,28 @@
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "5.180.24.11",
+      "server_port": 4443,
+      "uuid": "c7c1ecce-0055-4ec8-b1db-4ebd9861ee33",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2rayprotocol #1",

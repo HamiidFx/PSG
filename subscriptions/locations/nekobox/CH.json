@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
@@ -103,23 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "185.18.250.252",
-      "server_port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @netfreedom0 #1",
