@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | SS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | SS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "103.253.74.94",
-      "server_port": 31348,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyTmE3NTNCY1V1UEJMOFl4WHg5Qng1YjRkZlZGdTQ1UWt6b3J3cVppelRsNkFmM04=",
-      "password": null
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "free.cloakzone.org",
+      "server_port": 443,
+      "uuid": "f291de93-b084-40b3-b4da-af90cd99de46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "206.238.236.185",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

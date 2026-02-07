@@ -94,7 +94,8 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @easy_free_vpn #1",
         "🇸🇨 SC | VLESS | @free1_vpn #1",
-        "🇸🇨 SC | VLESS | @v2rayngconfig #1"
+        "🇸🇨 SC | VLESS | @v2rayngconfig #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +107,8 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @easy_free_vpn #1",
         "🇸🇨 SC | VLESS | @free1_vpn #1",
-        "🇸🇨 SC | VLESS | @v2rayngconfig #1"
+        "🇸🇨 SC | VLESS | @v2rayngconfig #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -182,6 +184,23 @@
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "ea33fc71-2ce3-48e1-93fb-e36142c1e1ee",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "45.130.125.63",
+      "server_port": 443,
+      "uuid": "7827a28b-9f7a-4463-be59-95030c736cef",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VMESS | @v2ray_free_conf #1", "server": "tr1-smart.adelping.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "68c8f462-8468-4931-90a8-680c3d6cb3c1", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "tr1-smart.adelping.com"}}}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "free.cloakzone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f291de93-b084-40b3-b4da-af90cd99de46", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @hope_net #1", "server": "206.238.236.185", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VMESS | @v2ray_free_conf #1'
+      - '🇸🇬 SG | VLESS | @config_proxy #1'
+      - '🇸🇬 SG | VLESS | @hope_net #1'
 
   - name: 🌍 Global Media
     type: select
