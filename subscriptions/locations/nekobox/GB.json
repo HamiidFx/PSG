@@ -77,16 +77,16 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | SS | @vmesskhodam #1",
         "🇬🇧 GB | SS | @vmesskhodam #2"
       ],
@@ -96,16 +96,16 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | SS | @vmesskhodam #1",
         "🇬🇧 GB | SS | @vmesskhodam #2"
       ],
@@ -123,11 +123,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "209.97.183.113",
+      "server": "146.185.208.206",
       "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "914b0493-7094-4840-b94d-8ec3e92e9c43",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -136,16 +136,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
-      "type": "shadowsocks",
-      "server": "series-a2-mec.varzesh360.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
@@ -197,19 +194,19 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.124",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
       "type": "shadowsocks",
       "server": "series-a2-me.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtcG9seTEzMDU6Qm9nMEVMbU1NOURTeERkUQ==",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2ray_youtube #1",
-      "type": "shadowsocks",
-      "server": "107.181.147.235",
-      "server_port": 40521,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaOTRGb00xeHBXM0NKeml4TUU4Q2pKRUZCaUNGaEtTV2ZMelQ2RTkyUGpoN3k3M1lmTnJ3UGp1NDZHZDRIRTg1ZVhTak5pVHRpQVljNldUc2t1aHhaWkZlYmQ0cmNYZnA=",
       "password": null
     },
     {
@@ -219,6 +216,28 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "91.107.121.223",
+      "server_port": 443,
+      "uuid": "49aabf68-e986-4722-8fd1-1702ce996bb6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @vmesskhodam #1",

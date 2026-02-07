@@ -80,11 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,11 +95,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -187,6 +187,14 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "195.26.224.112",
+      "server_port": 8443,
+      "uuid": "db444bee-8212-5ff5-be40-47e1a7509eb8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @evay_vpn #1",
       "type": "vless",
       "server": "151.101.25.242",
@@ -235,23 +243,6 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "45.130.125.63",
-      "server_port": 443,
-      "uuid": "7827a28b-9f7a-4463-be59-95030c736cef",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

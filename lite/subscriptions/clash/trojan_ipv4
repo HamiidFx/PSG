@@ -23,12 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @netfreedom0 #1", "server": "160.16.89.176", "port": 5076, "type": "trojan", "skip-cert-verify": false, "password": "869e9086806483ca4744a4cb0f3d6e16"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.39.246.81", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "63.182.112.185", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.39.246.81", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.39.127.100", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1", "server": "63.182.112.185", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇽🇽 XX | TROJAN | @v_2rayng0 #1", "server": "104.18.32.47", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "104.21.40.34", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @netfreedom0 #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
       - '🇩🇪 DE | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
+      - '🇫🇷 FR | TROJAN | @privatevpns #1'
+      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel #1'
       - '🇽🇽 XX | TROJAN | @v_2rayng0 #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

@@ -80,13 +80,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @Fr33C0nfig #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,13 +98,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @Fr33C0nfig #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @qeshmserver #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -191,7 +193,15 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇺🇸 US | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "fast.swetofor.com",
+      "server_port": 80,
+      "uuid": "048e1f57-7fb0-4d02-b0d1-45c13bd84a84",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -204,6 +214,14 @@
       "server": "fast4.zone-server-irani.ir",
       "server_port": 80,
       "uuid": "79df85dd-cb40-4b32-828e-f38d918d85e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "195.26.224.112",
+      "server_port": 8443,
+      "uuid": "db444bee-8212-5ff5-be40-47e1a7509eb8",
       "packet_encoding": "xudp"
     },
     {
@@ -255,23 +273,6 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "45.130.125.63",
-      "server_port": 443,
-      "uuid": "7827a28b-9f7a-4463-be59-95030c736cef",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

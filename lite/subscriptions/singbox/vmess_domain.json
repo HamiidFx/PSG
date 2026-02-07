@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -103,7 +104,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -115,6 +115,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -125,7 +126,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -206,6 +206,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "vc.fly.dev",
+      "server_port": 443,
+      "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+      "security": "auto",
+      "alter_id": 32,
+      "tls": {
+        "enabled": true,
+        "server_name": "vc.fly.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vc",
+        "headers": {
+          "Host": "vc.fly.dev"
         }
       }
     },
@@ -433,31 +458,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "YyYYuUI.iRAn1912.dpDNs.oRG",
-      "server_port": 443,
-      "uuid": "4a7baca1-8048-4a91-8316-595b36657a54",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "YYyYUui.iran1912.dpdNS.OrG",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TaBvkrUbsyvsvinsGGg",
-        "headers": {
-          "Host": "YYyYUui.iran1912.dpdNS.OrG"
         }
       }
     },

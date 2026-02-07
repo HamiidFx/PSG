@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +105,28 @@
       "type": "direct"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "pl.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇵🇱 PL | VLESS | @komail315 #1",
       "type": "vless",
       "server": "poland.a1mshop2.xyz",
@@ -111,11 +135,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "server": "217.30.10.70",
+      "server_port": 9033,
+      "method": "YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ==",
       "password": null
     }
   ],

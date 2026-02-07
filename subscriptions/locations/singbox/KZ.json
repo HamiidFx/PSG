@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @vmesc #1"
+        "🇰🇿 KZ | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @vmesc #1"
+        "🇰🇿 KZ | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,12 +134,26 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | SS | @vmesc #1",
-      "type": "shadowsocks",
-      "server": "213.156.137.142",
-      "server_port": 43660,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzI3YTMwMTJkODFhNDRj",
-      "password": null
+      "tag": "🇰🇿 KZ | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "212.111.84.187",
+      "server_port": 51102,
+      "uuid": "4603e54d-b023-4947-83e7-70025416f306",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
