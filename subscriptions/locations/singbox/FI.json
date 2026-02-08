@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | SS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | SS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +114,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "finn.solonettochka.ru",
+      "server_port": 443,
+      "uuid": "be22c5d2-6fa7-4033-906b-89f7201ef3ff",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
@@ -154,6 +180,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "38.244.137.202",
+      "server_port": 45380,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0M2ZYZjF1TUtiSUtreG9OWUdRTXR0",
+      "password": null
     }
   ],
   "route": {

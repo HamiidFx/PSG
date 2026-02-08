@@ -87,7 +87,7 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,7 +105,7 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -224,26 +224,12 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "91.107.121.223",
-      "server_port": 443,
-      "uuid": "49aabf68-e986-4722-8fd1-1702ce996bb6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "57.129.129.139",
+      "server_port": 29183,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYjBiODFhNWJmZjdkZGVh",
+      "password": null
     }
   ],
   "route": {

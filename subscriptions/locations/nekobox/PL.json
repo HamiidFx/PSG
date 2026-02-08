@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
-        "🇵🇱 PL | VLESS | @komail315 #1"
+        "🇵🇱 PL | VLESS | @komail315 #1",
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
-        "🇵🇱 PL | VLESS | @komail315 #1"
+        "🇵🇱 PL | VLESS | @komail315 #1",
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +103,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @flyv2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @komail315 #1",
       "type": "vless",
-      "server": "pl.griffon-guard.com",
+      "server": "poland.a1mshop2.xyz",
+      "server_port": 49894,
+      "uuid": "29a6f284-dd9f-48be-9c26-7fea94064322",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "144.31.0.177",
       "server_port": 443,
-      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,21 +124,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @komail315 #1",
-      "type": "vless",
-      "server": "poland.a1mshop2.xyz",
-      "server_port": 49894,
-      "uuid": "29a6f284-dd9f-48be-9c26-7fea94064322",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
