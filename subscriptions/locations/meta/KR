@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇱 AL | VLESS | @flyv2ray #1", "server": "45.15.170.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8910cbb3-33b1-4266-a243-ac780ac63394", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych #1", "server": "3.34.45.78", "port": 12345, "type": "vless", "skip-cert-verify": true, "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych #2", "server": "124.53.232.44", "port": 50001, "type": "vless", "skip-cert-verify": true, "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇱 AL | VLESS | @flyv2ray #1'
+      - '🇰🇷 KR | VLESS | @v2raych #1'
+      - '🇰🇷 KR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

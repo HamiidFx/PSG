@@ -92,7 +92,10 @@
         "direct",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | SS | @outline_ir #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
+        "🇯🇵 JP | VLESS | @v2raych #2",
+        "🇯🇵 JP | VLESS | @v2raych #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +105,10 @@
       "outbounds": [
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | SS | @outline_ir #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
+        "🇯🇵 JP | VLESS | @v2raych #2",
+        "🇯🇵 JP | VLESS | @v2raych #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +150,39 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "43.128.249.230",
+      "server_port": 8443,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "47.74.59.31",
+      "server_port": 8443,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "8.221.138.35",
+      "server_port": 443,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

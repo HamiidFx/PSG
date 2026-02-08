@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @flyv2ray #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @flyv2ray #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @flyv2ray #1",
+      "tag": "🇰🇷 KR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "45.15.170.237",
-      "server_port": 80,
-      "uuid": "8910cbb3-33b1-4266-a243-ac780ac63394",
+      "server": "3.34.45.78",
+      "server_port": 12345,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "124.53.232.44",
+      "server_port": 50001,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
       "packet_encoding": "xudp"
     }
   ],

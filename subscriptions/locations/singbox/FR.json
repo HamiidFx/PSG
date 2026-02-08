@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -99,7 +98,7 @@
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2raych #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
@@ -115,7 +114,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -124,7 +122,7 @@
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2raych #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
@@ -142,23 +140,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "162.19.10.94",
-      "server_port": 443,
-      "uuid": "nasnet",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | SS | @free1_vpn #1",
@@ -267,11 +248,29 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "141.94.68.216",
-      "server_port": 2053,
-      "password": "iwangjie"
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | SS | @v2rayng3 #1",

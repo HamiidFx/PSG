@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @flyv2ray #1", "server": "146.185.240.23", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7e2b2894-3b5c-4b65-acc5-e1784f4047f2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @red2ray #1", "server": "5.129.217.197", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @red2ray #2", "server": "45.144.31.45", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -47,6 +48,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @connectshu #1'
+      - '🇷🇺 RU | VLESS | @flyv2ray #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @red2ray #1'
       - '🇷🇺 RU | VLESS | @red2ray #2'

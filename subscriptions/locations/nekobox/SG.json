@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
@@ -99,6 +101,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "8.219.195.31",
+      "server_port": 443,
+      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayngconfig #1",

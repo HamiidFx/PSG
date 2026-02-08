@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
@@ -108,6 +109,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
@@ -141,6 +143,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "146.185.240.23",
+      "server_port": 443,
+      "uuid": "7e2b2894-3b5c-4b65-acc5-e1784f4047f2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

@@ -24,6 +24,9 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych #1", "server": "43.128.249.230", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych #2", "server": "47.74.59.31", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych #3", "server": "8.221.138.35", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
+      - '🇯🇵 JP | VLESS | @v2raych #1'
+      - '🇯🇵 JP | VLESS | @v2raych #2'
+      - '🇯🇵 JP | VLESS | @v2raych #3'
 
   - name: 🌍 Global Media
     type: select
