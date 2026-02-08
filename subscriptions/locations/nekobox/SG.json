@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayngconfig #1"
+        "🇸🇬 SG | TROJAN | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayngconfig #1"
+        "🇸🇬 SG | TROJAN | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,29 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "8.219.195.31",
+      "tag": "🇸🇬 SG | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "vpn.qinfen180.cn",
       "server_port": 443,
-      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2rayngconfig #1",
-      "type": "vless",
-      "server": "cp.so.rezzip.com",
-      "server_port": 443,
-      "uuid": "486169a3-ce5f-4d93-8d01-f619d4443e5d",
-      "packet_encoding": "xudp",
+      "password": "aZsk43TyWBpjt%40A",
       "tls": {
         "enabled": true,
         "server_name": "",

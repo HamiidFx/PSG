@@ -103,7 +103,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @red2ray #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -125,7 +125,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @red2ray #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -437,18 +437,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @red2ray #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "ccddfvgb.un2027.indevs.in",
-      "server_port": 80,
-      "uuid": "827beb2a-f97a-4b23-b733-adef30c98e17",
+      "server": "8.6.112.0",
+      "server_port": 2083,
+      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hgtrojan.zabc.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/HISLfofvqzd3a3izxYyZXOF",
+        "path": "/e6395c20",
         "headers": {
-          "Host": "ccddfvgb.un2027.indevs.in"
+          "Host": "hgtrojan.zabc.net"
         }
       }
     },

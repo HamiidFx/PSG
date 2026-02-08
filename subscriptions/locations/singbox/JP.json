@@ -90,12 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | SS | @free1_vpn #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
-        "🇯🇵 JP | SS | @outline_ir #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
-        "🇯🇵 JP | VLESS | @v2raych #2",
-        "🇯🇵 JP | VLESS | @v2raych #3"
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | SS | @free1_vpn #1",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
-        "🇯🇵 JP | SS | @outline_ir #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
-        "🇯🇵 JP | VLESS | @v2raych #2",
-        "🇯🇵 JP | VLESS | @v2raych #3"
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "3.112.130.53",
+      "server_port": 8316,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
     },
     {
       "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",
@@ -136,14 +140,6 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "3.112.130.53",
-      "server_port": 8319,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
-      "password": null
-    },
-    {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "149.22.87.240",
@@ -152,28 +148,11 @@
       "password": null
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "43.128.249.230",
-      "server_port": 8443,
-      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "47.74.59.31",
-      "server_port": 8443,
-      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "8.221.138.35",
-      "server_port": 443,
-      "uuid": "69872d60-7cc2-c421-47ea-e2733c39bab0",
-      "packet_encoding": "xudp",
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "54.95.118.21",
+      "server_port": 3373,
+      "password": "5fb072e0ddd631cf66cf752b09210480",
       "tls": {
         "enabled": true,
         "server_name": "",
