@@ -84,7 +84,9 @@
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇭🇰 HK | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
@@ -112,7 +114,9 @@
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇭🇰 HK | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
@@ -288,11 +292,55 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "hk.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "ak2.vpnfreedom.tech",
+      "server_port": 443,
+      "uuid": "4af37467-bf79-4630-98d5-73e7dad60e90",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -372,7 +420,7 @@
     {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "51.158.206.93",
+      "server": "51.158.206.80",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -394,9 +442,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #2",
       "type": "vless",
-      "server": "51.158.206.80",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "server": "185.21.14.122",
+      "server_port": 443,
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
