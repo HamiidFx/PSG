@@ -111,12 +111,13 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇮🇷 IR | VMESS | @xsv2ray #1",
+        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -146,12 +147,13 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇮🇷 IR | VMESS | @xsv2ray #1",
+        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -622,6 +624,56 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @xsv2ray #1",
+      "type": "vmess",
+      "server": "tehran-sms.xyz",
+      "server_port": 443,
+      "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pkgbuild.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/connect/de/?ed=1024/?JOKERRVPN",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "57.129.24.124",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aveiror.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "142.132.163.200",
@@ -717,31 +769,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "23.162.200.227",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": ""
         }
       }
     },
