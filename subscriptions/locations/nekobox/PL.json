@@ -77,10 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @outline_ir #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @outline_ir #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,22 +101,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "95.135.60.13",
-      "server_port": 4646,
-      "uuid": "c72ad53d-02e9-45a8-bb28-cee88f384fdd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @komail315 #1",
-      "type": "vless",
-      "server": "poland.a1mshop2.xyz",
-      "server_port": 49894,
-      "uuid": "29a6f284-dd9f-48be-9c26-7fea94064322",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "144.31.0.177",
@@ -136,28 +114,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "pl.griffon-guard.com",
-      "server_port": 443,
-      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

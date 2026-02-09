@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @outline_ir #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @outline_ir #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "152.53.51.199",
+      "server_port": 443,
+      "uuid": "e4f5077b-3628-450c-92f9-b129b8a641a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
