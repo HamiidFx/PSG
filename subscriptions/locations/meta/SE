@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | VLESS | @config_proxy #1", "server": "dd.openaccessnode.com", "port": 50, "type": "vless", "skip-cert-verify": true, "uuid": "31701b5d-ca95-92f9-d684-dae3706161ea", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @deli_servers #1", "server": "185.146.173.59", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-deli-servers", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #1", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #2", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "89f86124-a711-4751-9363-4083834dabf5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
@@ -51,6 +50,7 @@ proxies:
   - {"name": "🇸🇪 SE | VLESS | @v2logy #1", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #2", "server": "185.146.173.158", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #3", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇪 SE | VLESS | @v2raych #1", "server": "185.146.173.95", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "391c3f25-b29e-46df-aea3-5246f1c59162", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.95"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -64,7 +64,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | VLESS | @config_proxy #1'
       - '🇸🇪 SE | VLESS | @deli_servers #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #2'
@@ -92,6 +91,7 @@ proxy-groups:
       - '🇸🇪 SE | VLESS | @v2logy #1'
       - '🇸🇪 SE | VLESS | @v2logy #2'
       - '🇸🇪 SE | VLESS | @v2logy #3'
+      - '🇸🇪 SE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

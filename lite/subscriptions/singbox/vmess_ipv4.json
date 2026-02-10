@@ -95,7 +95,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇸🇬 SG | VMESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,7 +109,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇸🇬 SG | VMESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -245,6 +247,22 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "217.217.255.99",
+      "server_port": 8443,
+      "uuid": "83049bda-8d53-44bc-f71c-f6b03c1ca482",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
       }
     }
   ],

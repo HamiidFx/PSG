@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
@@ -92,14 +92,11 @@
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2",
-        "🇩🇪 DE | VLESS | @vpnowl #3",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnowl #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +107,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
@@ -122,14 +119,11 @@
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2",
-        "🇩🇪 DE | VLESS | @vpnowl #3",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnowl #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,11 +211,11 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hk.griffon-guard.com",
-      "server_port": 443,
-      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "server": "fr.locations-service.com",
+      "server_port": 3032,
+      "uuid": "e59083aa-d933-4952-8cf0-eec74f718705",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -230,6 +224,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -439,22 +438,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "wolfa21.timevip.ir",
-      "server_port": 8080,
-      "uuid": "639355ae-d9ef-4470-aa8a-8154f637cf52",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com",
-      "server_port": 33431,
-      "uuid": "718ec467-5844-4edf-887f-de54679e8178",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "deu659.webunlocked.org",
@@ -521,28 +504,6 @@
       "server_port": 2025,
       "uuid": "86adcc4e-e0de-4226-b055-d90e3a5ff34a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "7fra.solonettochka.ru",
-      "server_port": 443,
-      "uuid": "c544111e-cb4d-48c1-b05e-1a7c4b0a5000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {
