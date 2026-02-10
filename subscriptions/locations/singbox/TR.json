@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @filtershekan_channel #1"
+        "🇹🇷 TR | VLESS | @filtershekan_channel #1",
+        "🇹🇷 TR | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @filtershekan_channel #1"
+        "🇹🇷 TR | VLESS | @filtershekan_channel #1",
+        "🇹🇷 TR | SS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "62.133.63.21",
+      "server_port": 65262,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVblVVR1owQTRpaFdGaURqcDhYOE9O",
+      "password": null
     }
   ],
   "route": {

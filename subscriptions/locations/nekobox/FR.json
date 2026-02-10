@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
+        "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
@@ -90,7 +90,8 @@
         "🇫🇷 FR | VLESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2"
+        "🇫🇷 FR | VLESS | @vlessconfig #2",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,10 +99,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
+        "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
@@ -111,7 +112,8 @@
         "🇫🇷 FR | VLESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2"
+        "🇫🇷 FR | VLESS | @vlessconfig #2",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,14 +127,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "54.36.174.140",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx",
-      "password": null
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -168,9 +162,17 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | SS | @mt_proxy #1",
+      "type": "shadowsocks",
+      "server": "54.36.174.140",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx",
+      "password": null
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "13.37.8.196",
+      "server": "15.224.3.139",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -186,7 +188,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
       "type": "trojan",
-      "server": "35.181.136.255",
+      "server": "51.45.13.145",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -235,9 +237,9 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "172.232.34.177",
-      "server_port": 46565,
-      "uuid": "d8fe32ae-82a1-4605-a9d6-81c089ca3846",
+      "server": "wolfa21.timevip.ir",
+      "server_port": 8080,
+      "uuid": "639355ae-d9ef-4470-aa8a-8154f637cf52",
       "packet_encoding": "xudp"
     },
     {
@@ -268,7 +270,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.37.8.196",
+      "server": "15.224.3.139",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -283,7 +285,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "35.181.136.255",
+      "server": "51.45.13.145",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -292,6 +294,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "7fra.solonettochka.ru",
+      "server_port": 443,
+      "uuid": "c544111e-cb4d-48c1-b05e-1a7c4b0a5000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
