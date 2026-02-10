@@ -83,9 +83,11 @@
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
+        "🇽🇽 XX | TROJAN | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #2",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,9 +101,11 @@
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
+        "🇽🇽 XX | TROJAN | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #2",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -237,9 +241,25 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
+      "tag": "🇽🇽 XX | TROJAN | @outline_ir #1",
       "type": "trojan",
-      "server": "18.195.91.205",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "35.181.88.119",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -253,9 +273,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns #2",
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "3.77.68.129",
+      "server": "3.69.95.50",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -272,6 +292,22 @@
       "tag": "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
       "type": "trojan",
       "server": "104.18.32.47",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "104.18.32.37",
       "server_port": 443,
       "password": "humanity",
       "tls": {

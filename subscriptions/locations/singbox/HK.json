@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @flyv2ray #1",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @flyv2ray #1",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,28 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "hk.griffon-guard.com",
-      "server_port": 443,
-      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -155,6 +133,28 @@
         "path": "/register",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "hk.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

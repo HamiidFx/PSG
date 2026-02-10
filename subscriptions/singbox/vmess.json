@@ -109,13 +109,12 @@
         "🇽🇽 XX | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇷 IR | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -144,13 +143,12 @@
         "🇽🇽 XX | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇷 IR | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -572,31 +570,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "sy4.620720.xyz",
-      "server_port": 443,
-      "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "sy4.620720.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sy4.620720.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -620,15 +593,6 @@
           "Host": "cold-dawn-9246.fly.dev"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "157.173.206.47",
-      "server_port": 57449,
-      "uuid": "4f6d0ce6-0406-447c-f307-21a6aa7fe6b2",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -703,6 +667,15 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "217.60.247.108",
+      "server_port": 8080,
+      "uuid": "4ab0e496-3ef5-43fd-9886-12434541fa42",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
