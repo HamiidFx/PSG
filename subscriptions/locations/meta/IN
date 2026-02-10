@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇳 IN | VMESS | @v2ray_free_conf #1", "server": "20.193.153.19", "port": 15834, "type": "vmess", "skip-cert-verify": true, "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇳 IN | VLESS | @kafing_2 #1", "server": "in.direct.aabbccdde.org", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "58c9cbd0-7f3c-4b75-ad46-6b5f1c5d9d18", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇳 IN | VLESS | @v2raytg #1", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -38,7 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇳 IN | VMESS | @v2ray_free_conf #1'
+      - '🇮🇳 IN | VLESS | @kafing_2 #1'
       - '🇮🇳 IN | VLESS | @v2raytg #1'
 
   - name: 🌍 Global Media

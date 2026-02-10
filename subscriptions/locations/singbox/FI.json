@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
+        "🇫🇮 FI | VLESS | @connectshu #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
@@ -101,7 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
+        "🇫🇮 FI | VLESS | @connectshu #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
@@ -136,11 +140,41 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @connectshu #1",
+      "type": "vless",
+      "server": "my.golam.mehromahtel.com",
+      "server_port": 15000,
+      "uuid": "9af2dfc2-c7ad-425f-a534-7a1fada8f4e9",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "38.244.137.198",
+      "server_port": 443,
+      "uuid": "09748875-9da3-440e-9809-9752e1dda1e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
