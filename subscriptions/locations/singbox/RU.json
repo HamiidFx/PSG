@@ -90,9 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #2",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -101,9 +104,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #2",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -114,6 +120,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.148.104.238",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
@@ -176,6 +190,50 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "37.139.33.57",
+      "server_port": 8443,
+      "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "37.139.33.57",
+      "server_port": 51101,
+      "uuid": "52005493-6deb-4953-b63c-ffc719cb7ab7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

@@ -23,9 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "185.148.104.238", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @netmellianti #1", "server": "meow-msc.nethcloud.top", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
+  - {"name": "🇷🇺 RU | VLESS | @red2ray #1", "server": "37.139.33.57", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @red2ray #2", "server": "37.139.33.57", "port": 51101, "type": "vless", "skip-cert-verify": true, "uuid": "52005493-6deb-4953-b63c-ffc719cb7ab7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc #1", "server": "89.169.128.105", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3c5c4ccc-b502-42cb-8c42-cfa714db4767", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -40,9 +43,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
       - '🇷🇺 RU | VLESS | @connectshu #1'
       - '🇷🇺 RU | VLESS | @netmellianti #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
+      - '🇷🇺 RU | VLESS | @red2ray #1'
+      - '🇷🇺 RU | VLESS | @red2ray #2'
       - '🇷🇺 RU | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media

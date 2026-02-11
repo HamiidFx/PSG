@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @ai_duet #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @ai_duet #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,36 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "94.183.150.122",
-      "server_port": 2002,
-      "uuid": "c72394e4-cca9-4e1d-9887-54ace82923b2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ae.sarzamin.lat",
-      "server_port": 443,
-      "uuid": "43c56c9f-240a-4fb5-8475-613cdf1b47ca",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

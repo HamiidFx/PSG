@@ -90,9 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @flyv2ray #1",
+        "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | SS | @v2rayopen #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @flyv2ray #1",
+        "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | SS | @v2rayopen #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,11 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @flyv2ray #1",
+      "tag": "🇰🇿 KZ | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "212.111.84.187",
-      "server_port": 51102,
-      "uuid": "c9246b70-3eca-4825-84b0-16c32e3124a7",
+      "server": "212.111.84.82",
+      "server_port": 8443,
+      "uuid": "3c5c4ccc-b502-42cb-8c42-cfa714db4767",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -150,6 +152,28 @@
       "server_port": 8080,
       "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "212.111.84.187",
+      "server_port": 51102,
+      "uuid": "c9246b70-3eca-4825-84b0-16c32e3124a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
