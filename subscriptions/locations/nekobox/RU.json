@@ -77,12 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | SS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,12 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | SS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,14 +107,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "158.160.221.132",
-      "server_port": 51102,
-      "method": "e8accTp1Nn1vN1rGtQ==",
-      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
@@ -200,26 +190,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "37.139.33.57",
-      "server_port": 8443,
-      "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇷🇺 RU | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "145.249.109.108",
+      "server_port": 18740,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZSGFsRHZQMXo1UnJpVTZsNExuZ0tp",
+      "password": null
     }
   ],
   "route": {

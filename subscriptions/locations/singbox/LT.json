@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1",
-        "🇱🇹 LT | SS | @v2ray_free_conf #1"
+        "🇱🇹 LT | VLESS | @config_proxy #1",
+        "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @v2ray_collector #1",
-        "🇱🇹 LT | SS | @v2ray_free_conf #1"
+        "🇱🇹 LT | VLESS | @config_proxy #1",
+        "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ai.boostplayer.goodofwar.4b3app.com",
+      "server_port": 2096,
+      "uuid": "caa4bb32-8ea3-adb0-d37d-b02e893161df",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",
@@ -127,14 +135,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇱🇹 LT | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "185.237.185.89",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
     }
   ],
   "route": {

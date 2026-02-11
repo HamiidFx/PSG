@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @flyv2ray #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @flyv2ray #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "jp.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VMESS | @v2ray_free_conf #1", "server": "147.135.211.61", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "cdc27880-ac2b-591f-b677-fcb02fcb428a", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
+  - {"name": "🇮🇪 IE | VLESS | @config_proxy #1", "server": "clash.of.danloaddns.com.lornanet.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "caa4bb32-8ea3-adb0-d37d-b02e893161df", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VMESS | @v2ray_free_conf #1'
+      - '🇮🇪 IE | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

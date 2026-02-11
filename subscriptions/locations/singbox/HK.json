@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,21 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "151.101.76.254",
-      "server_port": 80,
-      "uuid": "5a1d2c0c-abfa-4050-918f-bfab3eaee62a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -172,6 +157,31 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "n1761214919.mv7wh.tech",
+      "server_port": 443,
+      "uuid": "c592f040-faff-47dc-a464-9bccf2dd4e7b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761214919.mv7wh.tech",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761214919.mv7wh.tech"
         }
       }
     }

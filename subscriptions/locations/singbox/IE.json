@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVI=
+//profile-title: base64:UFNHIHwgSUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇷 AR | SS | @v2ray_free_conf #1"
+        "🇮🇪 IE | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇷 AR | SS | @v2ray_free_conf #1"
+        "🇮🇪 IE | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇷 AR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "190.103.176.32",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
+      "tag": "🇮🇪 IE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "clash.of.danloaddns.com.lornanet.ir",
+      "server_port": 8880,
+      "uuid": "caa4bb32-8ea3-adb0-d37d-b02e893161df",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

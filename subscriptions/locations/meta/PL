@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #1", "server": "144.31.0.177", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VMESS | @v2ray_free_conf #1", "server": "147.135.211.61", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "cdc27880-ac2b-591f-b677-fcb02fcb428a", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @netfreedom0 #1'
-      - '🇵🇱 PL | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

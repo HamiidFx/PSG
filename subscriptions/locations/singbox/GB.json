@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @flyv2ray #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -109,7 +109,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @flyv2ray #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -132,12 +132,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | SS | @flyv2ray #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.101",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "146.185.208.206",
+      "server_port": 443,
+      "uuid": "914b0493-7094-4840-b94d-8ec3e92e9c43",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",

@@ -86,6 +86,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -95,7 +96,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2rayngconfig #2",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -113,6 +116,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -122,7 +126,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2rayngconfig #2",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -309,6 +315,31 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @hope_net #1",
+      "type": "vmess",
+      "server": "beyonddsz.cfd",
+      "server_port": 443,
+      "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "beyonddsz.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "beyonddsz.cfd"
         }
       }
     },
@@ -531,11 +562,52 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "116.203.1.197",
-      "server_port": 8443,
-      "uuid": "1842b696-fb79-4d74-94b8-8faf537d7ecb",
+      "server": "n1761214919.mv7wh.tech",
+      "server_port": 443,
+      "uuid": "c592f040-faff-47dc-a464-9bccf2dd4e7b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761214919.mv7wh.tech",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761214919.mv7wh.tech"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
+      "type": "vmess",
+      "server": "id-lb.vhax.net",
+      "server_port": 80,
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/sshkit/Arsham85231/6347d08022b91/",
+        "headers": {
+          "Host": "zoom.us"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "sr6.vopnik.fun",
+      "server_port": 8080,
+      "uuid": "677ca848-ab69-487e-91bf-111c5113735a",
       "security": "auto",
       "alter_id": 0
     },
