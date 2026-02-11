@@ -77,9 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | SS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1"
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | SS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1"
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +111,14 @@
       "type": "direct"
     },
     {
+      "tag": "🇷🇺 RU | SS | @config_proxy #1",
+      "type": "shadowsocks",
+      "server": "158.160.221.132",
+      "server_port": 51102,
+      "method": "e8accTp1Nn1vN1rGtQ==",
+      "password": null
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
       "type": "vless",
       "server": "45.67.215.233",
@@ -118,6 +132,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "meow-msc.nethcloud.top",
+      "server_port": 8443,
+      "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -149,9 +185,26 @@
     {
       "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "37.139.34.145",
+      "server": "5.129.217.197",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "37.139.33.57",
       "server_port": 8443,
-      "uuid": "8009bc13-0c64-4ae9-9a74-24ce12cc71e8",
+      "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

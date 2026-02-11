@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @v_2rayng0 #1", "server": "77.73.132.193", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @vpnplusee_free #1", "server": "212.111.84.82", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "3c5c4ccc-b502-42cb-8c42-cfa714db4767", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇿 KZ | VLESS | @filterk0sh #1'
       - '🇰🇿 KZ | VLESS | @v_2rayng0 #1'
+      - '🇰🇿 KZ | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

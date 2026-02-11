@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1"
       ],
@@ -110,6 +112,21 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "151.101.76.254",
+      "server_port": 80,
+      "uuid": "5a1d2c0c-abfa-4050-918f-bfab3eaee62a",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
