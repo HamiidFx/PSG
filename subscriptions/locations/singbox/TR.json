@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
+        "🇹🇷 TR | VMESS | @red2ray #1",
         "🇹🇷 TR | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
+        "🇹🇷 TR | VMESS | @red2ray #1",
         "🇹🇷 TR | SS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -130,6 +132,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },

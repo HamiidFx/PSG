@@ -79,7 +79,8 @@
         "direct",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -155,6 +157,28 @@
       "server_port": 6664,
       "uuid": "812bafa1-2d7a-4a65-bfc3-91f484418fd9",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "de.atlaso.ir",
+      "server_port": 443,
+      "uuid": "43c56c9f-240a-4fb5-8475-613cdf1b47ca",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "iu.euro2nova.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "329cc5b8-c5a1-4613-862f-2922a7ae0502", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #2", "server": "bg.euro2nova.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "db26f4a3-0b3b-470a-89b8-3257a594e8e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #3", "server": "t14.euro2nova.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "db26f4a3-0b3b-470a-89b8-3257a594e8e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @ai_duet #1", "server": "api.steamsale.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3a4ddfac-e7da-48c9-9648-4a366109fc3a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @v2raymelliii #1", "server": "94.183.150.122", "port": 2002, "type": "vless", "skip-cert-verify": true, "uuid": "c72394e4-cca9-4e1d-9887-54ace82923b2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "ae.sarzamin.lat", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "43c56c9f-240a-4fb5-8475-613cdf1b47ca", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇪 AE | VLESS | @ai_duet #1'
+      - '🇦🇪 AE | VLESS | @v2raymelliii #1'
       - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
-      - '🇦🇪 AE | VLESS | @vpnplusee_free #2'
-      - '🇦🇪 AE | VLESS | @vpnplusee_free #3'
 
   - name: 🌍 Global Media
     type: select

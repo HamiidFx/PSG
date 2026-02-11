@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | VLESS | @config_proxy #1"
+        "🇸🇬 SG | SS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | VLESS | @config_proxy #1"
+        "🇸🇬 SG | SS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,26 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "clash.of.danloaddns.com.lornanet.ir",
-      "server_port": 8880,
-      "uuid": "caa4bb32-8ea3-adb0-d37d-b02e893161df",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇸🇬 SG | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
+      "server_port": 8316,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
     }
   ],
   "route": {
