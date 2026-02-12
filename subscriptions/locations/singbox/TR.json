@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
-        "🇹🇷 TR | SS | @flyv2ray #1",
         "🇹🇷 TR | SS | @mtproxy22_v2ray #1",
         "🇹🇷 TR | SS | @v2rayopen #1"
       ],
@@ -101,8 +101,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
-        "🇹🇷 TR | SS | @flyv2ray #1",
         "🇹🇷 TR | SS | @mtproxy22_v2ray #1",
         "🇹🇷 TR | SS | @v2rayopen #1"
       ],
@@ -114,6 +114,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @filtershekan_channel #1",
@@ -136,14 +152,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @flyv2ray #1",
-      "type": "shadowsocks",
-      "server": "62.60.233.226",
-      "server_port": 62763,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5UmR4dkszMmdjS3E4eHhOZ3V3VTk5",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | SS | @mtproxy22_v2ray #1",

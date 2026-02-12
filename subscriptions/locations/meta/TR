@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VMESS | @config_proxy #1", "server": "turk1.net.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560", "headers": {"Host": "tr1-smart.adelping.com."}}}
   - {"name": "🇹🇷 TR | VLESS | @filtershekan_channel #1", "server": "94.131.123.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a44e0875-210f-4941-9062-89b6361a14c6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VMESS | @config_proxy #1'
       - '🇹🇷 TR | VLESS | @filtershekan_channel #1'
 
   - name: 🌍 Global Media

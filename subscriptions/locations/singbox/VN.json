@@ -90,11 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇳 VN | SS | @config_proxy #1",
         "🇻🇳 VN | SS | @mtproxy22_v2ray #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #2",
-        "🇻🇳 VN | SS | @v2ray_free_conf #3"
+        "🇻🇳 VN | SS | @v2ray_free_conf #3",
+        "🇻🇳 VN | SS | @v2ray_free_conf #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇳 VN | SS | @config_proxy #1",
         "🇻🇳 VN | SS | @mtproxy22_v2ray #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #2",
-        "🇻🇳 VN | SS | @v2ray_free_conf #3"
+        "🇻🇳 VN | SS | @v2ray_free_conf #3",
+        "🇻🇳 VN | SS | @v2ray_free_conf #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,14 +116,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇻🇳 VN | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "103.186.155.231",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
     },
     {
       "tag": "🇻🇳 VN | SS | @mtproxy22_v2ray #1",
@@ -136,7 +128,7 @@
     {
       "tag": "🇻🇳 VN | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "103.186.154.244",
+      "server": "103.186.154.177",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
@@ -144,7 +136,7 @@
     {
       "tag": "🇻🇳 VN | SS | @v2ray_free_conf #2",
       "type": "shadowsocks",
-      "server": "103.186.154.210",
+      "server": "103.186.154.140",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
@@ -152,7 +144,15 @@
     {
       "tag": "🇻🇳 VN | SS | @v2ray_free_conf #3",
       "type": "shadowsocks",
-      "server": "103.186.154.177",
+      "server": "103.186.154.222",
+      "server_port": 38388,
+      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
+      "password": null
+    },
+    {
+      "tag": "🇻🇳 VN | SS | @v2ray_free_conf #4",
+      "type": "shadowsocks",
+      "server": "103.186.154.179",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
