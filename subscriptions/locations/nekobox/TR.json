@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
-        "🇹🇷 TR | SS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | SS | @v2rayopen #1"
+        "🇹🇷 TR | SS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @filtershekan_channel #1",
-        "🇹🇷 TR | SS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | SS | @v2rayopen #1"
+        "🇹🇷 TR | SS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,18 +105,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "turk1.net.net",
-      "server_port": 80,
-      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
-        "headers": {
-          "Host": "tr1-smart.adelping.com."
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "77.83.245.220",
+      "server_port": 443,
+      "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -150,14 +149,6 @@
       "server": "62.133.63.21",
       "server_port": 65262,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUUGhPODE3bkZYa3ozb2V3ZjZ3Zk5p",
-      "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "62.133.63.21",
-      "server_port": 65262,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVblVVR1owQTRpaFdGaURqcDhYOE9O",
       "password": null
     }
   ],

@@ -23,13 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "ru.connectv.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea808221-bb62-4a92-a6a9-f1941fe5d2d1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @connectshu #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @flyv2ray #1", "server": "37.139.33.57", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1", "server": "146.185.240.23", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "0a9fe7e0-e02d-42ca-bebd-ecb4292f180c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @netmellianti #1", "server": "meow-msc.nethcloud.top", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc #1", "server": "89.169.128.105", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3c5c4ccc-b502-42cb-8c42-cfa714db4767", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @vpn_ioss #1", "server": "45.145.163.115", "port": 39771, "type": "vless", "skip-cert-verify": true, "uuid": "e5bd3d75-06b3-490e-9651-930b1dc29cdb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @vmesc #2", "server": "109.120.188.14", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "7bc30425-1c2f-4823-b629-90f599a4cbfe", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
       - '🇷🇺 RU | VLESS | @connectshu #1'
       - '🇷🇺 RU | VLESS | @flyv2ray #1'
       - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #1'
-      - '🇷🇺 RU | VLESS | @netmellianti #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @vmesc #1'
-      - '🇷🇺 RU | VLESS | @vpn_ioss #1'
+      - '🇷🇺 RU | VLESS | @vmesc #2'
 
   - name: 🌍 Global Media
     type: select

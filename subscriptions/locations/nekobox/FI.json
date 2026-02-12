@@ -77,9 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +107,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "65.109.203.5",
+      "server_port": 18521,
+      "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
@@ -155,6 +167,28 @@
       "server_port": 6664,
       "uuid": "812bafa1-2d7a-4a65-bfc3-91f484418fd9",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fi.zeepo.ir",
+      "server_port": 443,
+      "uuid": "637040f2-c38a-c83d-2291-3778b5d8ec11",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

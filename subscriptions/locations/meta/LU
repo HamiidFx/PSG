@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇱🇺 LU | VLESS | @flyv2ray #1", "server": "188.42.89.138", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇺 LU | VLESS | @v2ray_youtube #1", "server": "188.42.89.138", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇱🇺 LU | VLESS | @flyv2ray #1'
+      - '🇱🇺 LU | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select
