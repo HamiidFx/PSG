@@ -107,10 +107,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -118,8 +116,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -146,10 +144,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -157,8 +153,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -523,22 +519,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @prrofile_purple #1",
-      "type": "vmess",
-      "server": "57.129.132.223",
-      "server_port": 80,
-      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "google.com"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -585,22 +565,6 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "pq-Hungary1.09vpn.com",
-      "server_port": 80,
-      "uuid": "703f722a-4bdf-4e9d-9afd-a681fdf87c74",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": ""
         }
       }
     },
@@ -729,15 +693,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @prrofile_purple #2",
-      "type": "vmess",
-      "server": "172.233.229.91",
-      "server_port": 14102,
-      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "209.126.84.189",
@@ -759,6 +714,24 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "5.75.246.162",
+      "server_port": 443,
+      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

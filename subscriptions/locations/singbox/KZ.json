@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
-        "🇰🇿 KZ | SS | @v2rayopen #1",
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1",
+        "🇰🇿 KZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @red2ray #1",
-        "🇰🇿 KZ | SS | @v2rayopen #1",
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1",
+        "🇰🇿 KZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,11 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @red2ray #1",
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "212.111.84.82",
-      "server_port": 8443,
-      "uuid": "3c5c4ccc-b502-42cb-8c42-cfa714db4767",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -138,14 +138,6 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "31.3.209.106",
-      "server_port": 46551,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJbnYxMTRkcDJ6azlaYllGUHBkUWY0",
-      "password": null
-    },
-    {
       "tag": "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
       "type": "vless",
       "server": "77.73.132.193",
@@ -159,6 +151,28 @@
       "server": "212.111.84.187",
       "server_port": 51102,
       "uuid": "c9246b70-3eca-4825-84b0-16c32e3124a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
