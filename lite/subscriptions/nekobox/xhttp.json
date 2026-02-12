@@ -83,13 +83,15 @@
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇧🇪 BE | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇽🇽 XX | VLESS | @v2aryng_vpn #2"
+        "🇽🇽 XX | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,13 +105,15 @@
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇧🇪 BE | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇽🇽 XX | VLESS | @v2aryng_vpn #2"
+        "🇽🇽 XX | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -221,6 +225,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇧🇪 BE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "cdn1.sohacase.ir",
+      "server_port": 80,
+      "uuid": "2056aaf3-7e69-41fa-b43d-b658d789d2cf",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
       "type": "vless",
       "server": "fast4.zone-server-irani.ir",
@@ -279,6 +291,23 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "108.162.193.173",
+      "server_port": 443,
+      "uuid": "bac628dc-cd64-460c-8657-8128c9d6d7b7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -287,7 +316,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2aryng_vpn #2",
+      "tag": "🇽🇽 XX | VLESS | @v2aryng_vpn #1",
       "type": "vless",
       "server": "188.114.99.160",
       "server_port": 443,

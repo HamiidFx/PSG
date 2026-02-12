@@ -23,11 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @bored_vpn #1", "server": "65.109.203.5", "port": 18521, "type": "vless", "skip-cert-verify": true, "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @configv2rayforfree #1", "server": "fl-2.bot-iphone.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "9c42819a-67a6-4742-9c6d-64900ba62160", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VMESS | @v2ray_free_conf #1", "server": "95.217.25.69", "port": 42152, "type": "vmess", "skip-cert-verify": true, "uuid": "018f4459-056e-4c41-90ce-12cbc2c670b2", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇫🇮 FI | VLESS | @v2ray_youtube #1", "server": "my.kiomars.shop", "port": 6664, "type": "vless", "skip-cert-verify": true, "uuid": "812bafa1-2d7a-4a65-bfc3-91f484418fd9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "fi.zeepo.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "637040f2-c38a-c83d-2291-3778b5d8ec11", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @bored_vpn #1'
       - '🇫🇮 FI | VLESS | @configv2rayforfree #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
+      - '🇫🇮 FI | VMESS | @v2ray_free_conf #1'
       - '🇫🇮 FI | VLESS | @v2ray_youtube #1'
-      - '🇫🇮 FI | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
