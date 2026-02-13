@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1I=
+//profile-title: base64:UFNHIHwgQlI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | VLESS | @v2raych #1",
+        "🇧🇷 BR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | VLESS | @v2raych #1",
+        "🇧🇷 BR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "115.161.136.145",
-      "server_port": 10099,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==",
-      "password": null
+      "tag": "🇧🇷 BR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "br.pineappled.org",
+      "server_port": 443,
+      "uuid": "8a77b19a-36be-43ff-ace0-bc322aa4f1e3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "br-m247-01.com",
+      "server_port": 8443,
+      "uuid": "03ea79e8-3e62-4fb0-9947-b64286e6b26d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

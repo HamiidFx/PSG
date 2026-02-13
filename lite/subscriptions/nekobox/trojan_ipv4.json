@@ -81,10 +81,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @armod_iran #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇽🇽 XX | TROJAN | @flyv2ray #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | TROJAN | @v2rayngconfig #1",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,10 +98,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @armod_iran #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇽🇽 XX | TROJAN | @flyv2ray #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | TROJAN | @v2rayngconfig #1",
-        "🇽🇽 XX | TROJAN | @v_2rayng0 #1"
+        "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -203,11 +207,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
+      "tag": "🇽🇽 XX | TROJAN | @flyv2ray #1",
       "type": "trojan",
-      "server": "35.157.96.104",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -221,7 +225,23 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "35.181.253.201",
+      "server": "15.188.225.111",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "52.59.144.4",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -254,6 +274,22 @@
       "tag": "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
       "type": "trojan",
       "server": "104.18.32.47",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "172.64.152.23",
       "server_port": 443,
       "password": "humanity",
       "tls": {

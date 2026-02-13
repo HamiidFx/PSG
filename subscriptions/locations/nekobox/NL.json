@@ -77,19 +77,16 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
-        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #1",
+        "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,19 +94,16 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
-        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #1",
+        "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,23 +117,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "s725.ccgfw.top",
-      "server_port": 443,
-      "uuid": "c2b6ef4f-58b5-34df-a9b2-b9423df641d9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -172,50 +149,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "155.212.37.10",
-      "server_port": 993,
-      "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "91.84.102.30",
       "server_port": 443,
       "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "t2.cesar2.click",
-      "server_port": 443,
-      "uuid": "05bf8722-42e1-4fd5-8db7-bc7ad9912b21",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -283,11 +221,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2rayopen #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "av.nexconnx.com",
-      "server_port": 8080,
-      "uuid": "19a1e5b1-6289-4fe6-9aad-be285510942d",
+      "server": "deu153.worldunbarred.org",
+      "server_port": 8443,
+      "uuid": "4d3b4e0b-9fa4-4bc7-a0fd-99a8d34a12e2",
       "packet_encoding": "xudp"
     },
     {
@@ -299,12 +237,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
+      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "nl-78w-c.southnetworks.cloud",
-      "server_port": 80,
-      "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa",
-      "packet_encoding": "xudp"
+      "server": "51.158.206.98",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

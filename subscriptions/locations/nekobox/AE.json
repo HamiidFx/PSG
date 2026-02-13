@@ -78,9 +78,9 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @mpproxy #1",
         "🇦🇪 AE | VLESS | @netfreedom0 #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #2"
+        "🇦🇪 AE | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @mpproxy #1",
         "🇦🇪 AE | VLESS | @netfreedom0 #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #1",
-        "🇦🇪 AE | VLESS | @v2raymelliii #2"
+        "🇦🇪 AE | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +115,14 @@
       "password": null
     },
     {
+      "tag": "🇦🇪 AE | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "free2.lithub.ir",
+      "server_port": 200,
+      "uuid": "a15ecaa3-1f71-491a-83db-faa289d50486",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇦🇪 AE | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "94.183.150.59",
@@ -124,14 +132,6 @@
     },
     {
       "tag": "🇦🇪 AE | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "94.183.150.122",
-      "server_port": 2002,
-      "uuid": "c72394e4-cca9-4e1d-9887-54ace82923b2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "ip3.kakeroo.ir",
       "server_port": 80,

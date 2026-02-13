@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @filtershekan_channel #1", "server": "94.131.123.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a44e0875-210f-4941-9062-89b6361a14c6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇧🇪 BE | VLESS | @outline_ir #1", "server": "cdn1.sohacase.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2056aaf3-7e69-41fa-b43d-b658d789d2cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇪 BE | VLESS | @vpnplusee_free #1", "server": "151.101.9.80", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "c175eeab-3bbd-eb23-28cf-5ddcf424b261", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @filtershekan_channel #1'
+      - '🇧🇪 BE | VLESS | @outline_ir #1'
+      - '🇧🇪 BE | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

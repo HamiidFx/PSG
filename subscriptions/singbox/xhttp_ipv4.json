@@ -95,7 +95,6 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -106,7 +105,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2aryng_vpn #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
+        "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,7 +119,6 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -130,7 +129,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2aryng_vpn #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
+        "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -228,23 +228,6 @@
       "server_port": 80,
       "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "18bf6157-206c-4813-8f78-e7b83f9b8feb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -395,6 +378,14 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇪 BE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "151.101.9.80",
+      "server_port": 80,
+      "uuid": "c175eeab-3bbd-eb23-28cf-5ddcf424b261",
       "packet_encoding": "xudp"
     }
   ],

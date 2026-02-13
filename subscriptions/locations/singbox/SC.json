@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
-        "🇸🇨 SC | VLESS | @arv2ray #2"
+        "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
-        "🇸🇨 SC | VLESS | @arv2ray #2"
+        "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "f1.hamrahconf.ir",
+      "server_port": 8443,
+      "uuid": "8d5e0c57-ac14-4031-83f2-6b1b54372621",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

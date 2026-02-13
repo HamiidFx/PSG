@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇩 MD | VLESS | @config_proxy #1", "server": "94.131.122.145", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇲🇩 MD | VLESS | @vmesc #1", "server": "md-alex-01.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e9000d6b-2cb8-46b0-96c8-751a7abd54f2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇩 MD | VLESS | @config_proxy #1'
       - '🇲🇩 MD | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
