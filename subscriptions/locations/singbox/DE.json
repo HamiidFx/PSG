@@ -92,14 +92,13 @@
         "direct",
         "🇩🇪 DE | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @imhdiyvp #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
@@ -114,7 +113,6 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
@@ -123,7 +121,9 @@
         "🇩🇪 DE | VLESS | @vlessconfig #2",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -133,14 +133,13 @@
       "outbounds": [
         "🇩🇪 DE | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #1",
+        "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @imhdiyvp #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
@@ -155,7 +154,6 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
@@ -164,7 +162,9 @@
         "🇩🇪 DE | VLESS | @vlessconfig #2",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -193,11 +193,19 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @evay_vpn #1",
       "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
+      "server": "evay_vpn.fast.hosting-ip.com",
       "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "uuid": "86c2b667-4fc8-4a56-af4a-38b9e9e84610",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @evay_vpn #2",
+      "type": "vless",
+      "server": "evay_vpn.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
       "packet_encoding": "xudp"
     },
     {
@@ -264,50 +272,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #1",
-      "type": "vless",
-      "server": "46.225.66.56",
-      "server_port": 2002,
-      "uuid": "077dca1a-97ba-4ad8-a9ca-aa06a97fa0a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @kurdistan_vpn_perfectt #2",
-      "type": "vless",
-      "server": "46.225.82.185",
-      "server_port": 2002,
-      "uuid": "077dca1a-97ba-4ad8-a9ca-aa06a97fa0a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -530,24 +494,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "49.12.102.240",
-      "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "159.223.24.65",
@@ -701,6 +647,36 @@
       "server_port": 2026,
       "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "185.158.133.138",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "57.129.53.182",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

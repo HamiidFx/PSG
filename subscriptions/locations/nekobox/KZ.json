@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vpn_ioss #1"
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vpn_ioss #1"
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,23 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "185.176.26.2",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -152,28 +131,6 @@
       "server_port": 8080,
       "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "77.73.232.61",
-      "server_port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

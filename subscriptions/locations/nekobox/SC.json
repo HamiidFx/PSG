@@ -79,9 +79,11 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @config_proxy #1",
+        "🇸🇨 SC | VLESS | @config_proxy #2",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇸🇨 SC | VLESS | @netmellianti #1"
+        "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,9 +93,11 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @config_proxy #1",
+        "🇸🇨 SC | VLESS | @config_proxy #2",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇸🇨 SC | VLESS | @netmellianti #1"
+        "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,11 +147,19 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @bored_vpn #1",
+      "tag": "🇸🇨 SC | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 2087,
-      "uuid": "7ab6e0c3-4869-4a0e-8fe0-852a58a28bfb",
+      "server": "f3.hamrahconf.ir",
+      "server_port": 2053,
+      "uuid": "94f9b278-46f3-4738-8e9b-08f783ba58fd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "f1.hamrahconf.ir",
+      "server_port": 8443,
+      "uuid": "4381323e-7538-4bc2-b053-db302f8a12ac",
       "packet_encoding": "xudp"
     },
     {
@@ -174,6 +186,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "2sudo.winapp3.ir",
+      "server_port": 8443,
+      "uuid": "1f70e732-e72d-4535-b494-a595d4df4b0b",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
