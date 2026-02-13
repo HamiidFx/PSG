@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @armod_iran #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @armod_iran #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @armod_iran #1",
+      "type": "vless",
+      "server": "at.jojack.ru",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",

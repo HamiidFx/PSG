@@ -104,11 +104,11 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇮 FI | VMESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,11 +130,11 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇮 FI | VMESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -445,22 +445,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "nmj.wc8.ccwu.cc",
-      "server_port": 80,
-      "uuid": "1798b14b-aee0-4008-ba9a-2e53877761b4",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/kFK9O5cl8ZycyrxcJWNVFC21",
-        "headers": {
-          "Host": "nmj.wc8.ccwu.cc"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -540,6 +524,15 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "95.216.183.113",
+      "server_port": 42152,
+      "uuid": "018f4459-056e-4c41-90ce-12cbc2c670b2",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

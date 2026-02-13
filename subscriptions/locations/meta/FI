@@ -27,6 +27,7 @@ proxies:
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray #1", "server": "144.31.7.199", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "b0d1a683-c4df-423a-8428-9493f027e3ef", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VMESS | @red2ray #1", "server": "95.216.183.113", "port": 42152, "type": "vmess", "skip-cert-verify": true, "uuid": "018f4459-056e-4c41-90ce-12cbc2c670b2", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇫🇮 FI | VLESS | @v2rayopen #1", "server": "65.109.221.182", "port": 46000, "type": "vless", "skip-cert-verify": true, "uuid": "b8773ac0-5d39-455d-a05b-a5f14d194049", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -44,6 +45,7 @@ proxy-groups:
       - '🇫🇮 FI | VLESS | @flyv2ray #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
       - '🇫🇮 FI | VMESS | @red2ray #1'
+      - '🇫🇮 FI | VLESS | @v2rayopen #1'
 
   - name: 🌍 Global Media
     type: select
