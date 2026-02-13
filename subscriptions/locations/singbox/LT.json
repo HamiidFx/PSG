@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "lt-cherry-01.com",
+      "server_port": 8443,
+      "uuid": "ff6fb512-147d-419a-9672-e131133f7189",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
