@@ -80,7 +80,9 @@
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @v2rayvpn2 #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1",
         "🇸🇨 SC | VLESS | @vpnv2raytop #1"
       ],
       "tag": "proxy",
@@ -92,7 +94,9 @@
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @v2rayvpn2 #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #1",
         "🇸🇨 SC | VLESS | @vpnv2raytop #1"
       ],
       "tag": "auto",
@@ -151,11 +155,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "c2.s-sub.org",
+      "server_port": 8443,
+      "uuid": "991519c1-3680-49b7-bb9f-9029a7a39067",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "f3.hamrahconf.ir",
       "server_port": 8443,
       "uuid": "71748f9d-4b73-4621-845b-07dd4bcbc051",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "45.130.125.160",
+      "server_port": 443,
+      "uuid": "ea33fc71-2ce3-48e1-93fb-e36142c1e1ee",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

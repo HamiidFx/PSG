@@ -23,17 +23,20 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇷 FR | VLESS | @config_proxy #1", "server": "51.91.248.218", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | VLESS | @config_proxy #2", "server": "162.19.254.52", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @filtershekan_channel #1", "server": "141.95.161.241", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @free1_vpn #1", "server": "wolfb03.serverp1anel.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇷 FR | VLESS | @merdesert #1", "server": "51.75.30.8", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #1", "server": "199.232.169.135", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #2", "server": "199.232.169.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇷 FR | VLESS | @netfreedom0 #1", "server": "z1.n1server.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "52.47.88.193", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.36.58.242", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "13.37.147.199", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @proxyfn #1", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "141.11.203.139", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VMESS | @v2raytg #1", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #1", "server": "52.47.88.193", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "52.47.88.193"}}}
+  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #1", "server": "13.36.58.242", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.36.58.242"}}}
+  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #2", "server": "13.37.147.199", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.37.147.199"}}}
   - {"name": "🇫🇷 FR | VLESS | @vmesc #1", "server": "wolfb17.serverp1anel.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -48,17 +51,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇷 FR | VLESS | @config_proxy #1'
+      - '🇫🇷 FR | VLESS | @config_proxy #2'
       - '🇫🇷 FR | VLESS | @filtershekan_channel #1'
       - '🇫🇷 FR | VLESS | @free1_vpn #1'
       - '🇫🇷 FR | VLESS | @merdesert #1'
       - '🇫🇷 FR | VLESS | @minovpnch #1'
       - '🇫🇷 FR | VLESS | @minovpnch #2'
-      - '🇫🇷 FR | VLESS | @netfreedom0 #1'
       - '🇫🇷 FR | TROJAN | @privatevpns #1'
+      - '🇫🇷 FR | TROJAN | @privatevpns #2'
       - '🇫🇷 FR | TROJAN | @proxyfn #1'
       - '🇫🇷 FR | VLESS | @v2ray_collector #1'
       - '🇫🇷 FR | VMESS | @v2raytg #1'
       - '🇫🇷 FR | VLESS | @vlessconfig #1'
+      - '🇫🇷 FR | VLESS | @vlessconfig #2'
       - '🇫🇷 FR | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media

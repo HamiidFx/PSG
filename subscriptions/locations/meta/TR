@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @outline_ir #1", "server": "sad24.ahg6k.1k3dv.carvan3.mimkiscx.ir", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇴 RO | VLESS | @v2raych #1", "server": "45.12.30.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇴 RO | VLESS | @vmesskhodam #1", "server": "jadf1.sfew1.sfh5.carvan2.mimkiscx.ir", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "e8ac7995-8d90-4ad1-9dc5-3f6aa6ea5da0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "80.253.255.10", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @outline_ir #1'
-      - '🇷🇴 RO | VLESS | @v2raych #1'
-      - '🇷🇴 RO | VLESS | @vmesskhodam #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
