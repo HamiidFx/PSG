@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v2raych #1",
-        "🇰🇿 KZ | VLESS | @v2raych #2"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @v2raych #1",
-        "🇰🇿 KZ | VLESS | @v2raych #2"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,40 +119,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "kz.fasti.win",
-      "server_port": 443,
-      "uuid": "5757c746-9878-4cfd-874a-edd95485f26d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "pvl.cdn.stun.su",
-      "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

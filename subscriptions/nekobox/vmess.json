@@ -86,6 +86,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇽🇽 XX | VMESS | @hope_net #2",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -98,6 +99,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -107,6 +109,8 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -125,6 +129,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇽🇽 XX | VMESS | @hope_net #2",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -137,6 +142,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -146,6 +152,8 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -333,6 +341,31 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @hope_net #2",
+      "type": "vmess",
+      "server": "zula.ir",
+      "server_port": 2096,
+      "uuid": "2f86e97a-1ea0-4221-96cc-12210730e0c9",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kingo.hightechservice.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kingo.hightechservice.ir"
         }
       }
     },
@@ -605,6 +638,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tgju.org",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn?ed=2560",
+        "headers": {
+          "Host": "nasnet-571296497.iranpress.co"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -768,6 +817,33 @@
           "Host": "209.126.84.189"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "85.17.192.110",
+      "server_port": 16623,
+      "uuid": "ef984d19-4df7-4592-8ca8-a3f658b78c0a",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #1",
