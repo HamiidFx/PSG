@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇦 UA | VLESS | @armod_iran #1", "server": "91.218.122.10", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇦 CA | VMESS | @NamiraConfigs #1", "server": "51.79.102.253", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "58fe1542-5290-40ad-815a-77707a81afe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/IOebhLMhl1CTbFHbL95myfRX2", "headers": {"Host": "51.79.102.253"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇦 UA | VLESS | @armod_iran #1'
+      - '🇨🇦 CA | VMESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | VLESS | @armod_iran #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -89,12 +90,18 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @netfreedom0 #1",
+        "🇸🇪 SE | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇵🇱 PL | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,6 +113,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | VLESS | @armod_iran #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -114,12 +122,18 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @netfreedom0 #1",
+        "🇸🇪 SE | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇵🇱 PL | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -225,6 +239,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "be.nerpvpn.net",
+      "server_port": 443,
+      "uuid": "cf7a95b3-6c97-4945-b848-7d0cb12c2ab5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -373,6 +404,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "borik-crash.org",
+      "server_port": 443,
+      "uuid": "891300bc-11b2-4b24-8056-b329b098888b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
@@ -386,6 +439,67 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "email.swiftraci.org",
+      "server_port": 443,
+      "uuid": "f9830277-753f-481b-bb35-15e15a92acb0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de.shopforkids.ir",
+      "server_port": 2246,
+      "uuid": "bbedba46-b4e6-4b0e-9e4a-3cdf75438be9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "fr.shopforkids.ir",
+      "server_port": 2251,
+      "uuid": "bbedba46-b4e6-4b0e-9e4a-3cdf75438be9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -434,11 +548,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "nimbus.isgately.dev",
-      "server_port": 11004,
-      "uuid": "785caed1-8972-430e-9ad2-a08fbbe98db0",
+      "server": "nl.mobilezahra.lat",
+      "server_port": 443,
+      "uuid": "4cea5089-fb93-311e-25f3-01a93031bcf8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -456,11 +570,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
+      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "nl.mobilezahra.lat",
+      "server": "pl.jojack.ru",
       "server_port": 443,
-      "uuid": "4cea5089-fb93-311e-25f3-01a93031bcf8",
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -484,6 +598,50 @@
       "server_port": 2026,
       "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "alb.shopforkids.ir",
+      "server_port": 2252,
+      "uuid": "c81567a3-6fa4-4f7f-9658-34977f611fe8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #3",
+      "type": "vless",
+      "server": "alb.shopforkids.ir",
+      "server_port": 2252,
+      "uuid": "7bbae845-a902-4186-86e3-e45171d13f8b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

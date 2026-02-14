@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,28 @@
       "server": "poland-meow.nethcloud.top",
       "server_port": 8443,
       "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "pl.jojack.ru",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
