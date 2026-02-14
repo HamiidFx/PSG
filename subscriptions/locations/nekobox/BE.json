@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇧🇪 BE | VLESS | @config_proxy #1",
         "🇧🇪 BE | VLESS | @outline_ir #1",
-        "🇧🇪 BE | VLESS | @outline_ir #2"
+        "🇧🇪 BE | VLESS | @outline_ir #2",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇧🇪 BE | VLESS | @config_proxy #1",
         "🇧🇪 BE | VLESS | @outline_ir #1",
-        "🇧🇪 BE | VLESS | @outline_ir #2"
+        "🇧🇪 BE | VLESS | @outline_ir #2",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +107,14 @@
       "type": "direct"
     },
     {
+      "tag": "🇧🇪 BE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "151.101.9.80",
+      "server_port": 80,
+      "uuid": "3d2b28ec-e2f5-4edd-a95c-18d8ea828022",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇧🇪 BE | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "cdn1.sohacase.ir",
@@ -116,6 +128,14 @@
       "server": "151.101.8.79",
       "server_port": 80,
       "uuid": "1b771dab-e581-4457-b1d9-416d48ea5d8c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇪 BE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "151.101.9.79",
+      "server_port": 80,
+      "uuid": "b5c3f136-f635-4d9f-ab18-6c775697f0d9",
       "packet_encoding": "xudp"
     }
   ],
