@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇹 LT | VLESS | @red2ray #1",
+        "🇱🇹 LT | VLESS | @red2ray #2",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -85,6 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇹 LT | VLESS | @red2ray #1",
+        "🇱🇹 LT | VLESS | @red2ray #2",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -99,6 +103,50 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "lt-cherry-01.com",
+      "server_port": 8443,
+      "uuid": "ff6fb512-147d-419a-9672-e131133f7189",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "5.199.163.42",
+      "server_port": 8443,
+      "uuid": "ff6fb512-147d-419a-9672-e131133f7189",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",

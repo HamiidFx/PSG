@@ -80,9 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -91,8 +91,8 @@
         "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -104,9 +104,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -115,8 +115,8 @@
         "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -205,22 +205,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "172.67.73.163",
-      "server_port": 8080,
-      "uuid": "nasnet",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/nasnet/cdn?ed=2560",
-        "headers": {
-          "Host": "nasnet-571296497.iranpress.co"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VMESS | @dargiiriis #1",
       "type": "vmess",
       "server": "homeyra.taz-min.com",
@@ -237,6 +221,22 @@
       "uuid": "de6241b0-ee2d-431e-b7e5-2853b4d0fb26",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -423,6 +423,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "57.128.216.125",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kampong.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws#TM (@AZARBAYJAB1)TM (@AZARBAYJAB1)TM (@AZARBAYJAB1)",
+        "headers": {
+          "Host": "kampong.org"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -444,31 +469,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "8.6.112.0",
-      "server_port": 2083,
-      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hgtrojan.zabc.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e6395c20",
-        "headers": {
-          "Host": "hgtrojan.zabc.net"
         }
       }
     },

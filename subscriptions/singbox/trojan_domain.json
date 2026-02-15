@@ -97,7 +97,8 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇩🇪 DE | TROJAN | @teamvpnpro #2"
+        "🇩🇪 DE | TROJAN | @teamvpnpro #2",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +113,8 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇩🇪 DE | TROJAN | @teamvpnpro #2"
+        "🇩🇪 DE | TROJAN | @teamvpnpro #2",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -268,6 +270,22 @@
       "tls": {
         "enabled": true,
         "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "v1.dabache.top",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
