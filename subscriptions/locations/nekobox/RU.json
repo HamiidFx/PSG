@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @armod_iran #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
@@ -91,8 +91,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @armod_iran #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
@@ -133,14 +133,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "45.145.163.115",
-      "server_port": 39771,
-      "uuid": "e5bd3d75-06b3-490e-9651-930b1dc29cdb",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
       "type": "vless",
       "server": "45.67.215.233",
@@ -155,6 +147,27 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "z1.n1server.org",
+      "server_port": 443,
+      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {

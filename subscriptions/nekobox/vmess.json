@@ -84,6 +84,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @hope_net #1",
@@ -99,9 +100,8 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
-        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -126,6 +126,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @hope_net #1",
@@ -141,9 +142,8 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
-        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -291,6 +291,22 @@
       "uuid": "de6241b0-ee2d-431e-b7e5-2853b4d0fb26",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -613,32 +629,34 @@
     {
       "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "v10.heduian.link",
+      "server": "v10.hdacd.com",
       "server_port": 30807,
       "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
       "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/oooo",
-        "headers": {
-          "Host": "v10.heduian.link"
-        }
-      }
+      "alter_id": 0
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "tr1-smart.adelping.com",
-      "server_port": 80,
-      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "server": "dll.avaaaal.ir",
+      "server_port": 8443,
+      "uuid": "725f5fcd-721d-40a0-ba6b-3c7477633110",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cdge.avaaaal.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/",
         "headers": {
-          "Host": ""
+          "Host": "cdge.avaaaal.ir"
         }
       }
     },
@@ -657,15 +675,6 @@
           "Host": "zoom.us"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @v2rayngconfig #1",
-      "type": "vmess",
-      "server": "sr6.vopnik.fun",
-      "server_port": 8080,
-      "uuid": "677ca848-ab69-487e-91bf-111c5113735a",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
