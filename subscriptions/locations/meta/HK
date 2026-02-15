@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
+  - {"name": "🇭🇰 HK | VMESS | @v2ray_free_conf #1", "server": "v10.heduian.link", "port": 30807, "type": "vmess", "skip-cert-verify": true, "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/oooo", "headers": {"Host": "v10.heduian.link"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | VMESS | @freev2rays #1'
+      - '🇭🇰 HK | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

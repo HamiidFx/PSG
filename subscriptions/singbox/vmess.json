@@ -99,6 +99,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -110,13 +111,17 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -136,6 +141,7 @@
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -147,13 +153,17 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -338,6 +348,31 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @hope_net #1",
+      "type": "vmess",
+      "server": "172.67.71.160",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
         }
       }
     },
@@ -585,6 +620,38 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "v10.heduian.link",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/oooo",
+        "headers": {
+          "Host": "v10.heduian.link"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -599,6 +666,15 @@
           "Host": "zoom.us"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "sr6.vopnik.fun",
+      "server_port": 8080,
+      "uuid": "677ca848-ab69-487e-91bf-111c5113735a",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -723,6 +799,15 @@
           "Host": "209.126.84.189"
         }
       }
+    },
+    {
+      "tag": "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "94.232.247.165",
+      "server_port": 45653,
+      "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #1",

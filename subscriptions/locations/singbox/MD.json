@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | SS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | SS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "89.221.225.15",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5Q2JRNGJyeTRvdGZpZks3b2VsNzFOYVhwUEw5cFlKYg==",
-      "password": null
+      "tag": "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "94.232.247.165",
+      "server_port": 45653,
+      "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

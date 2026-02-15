@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @armod_iran #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | SS | @outline_ir #1",
@@ -105,6 +106,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @armod_iran #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | SS | @outline_ir #1",
@@ -122,6 +124,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @armod_iran #1",
+      "type": "vless",
+      "server": "51.158.206.103",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -219,9 +243,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "nl.mobilezahra.lat",
+      "server": "38.150.114.98",
       "server_port": 443,
-      "uuid": "4cea5089-fb93-311e-25f3-01a93031bcf8",
+      "uuid": "6ab80df3-5f07-4aa7-9aed-44d6db54aa3f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

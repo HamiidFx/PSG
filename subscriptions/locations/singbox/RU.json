@@ -91,10 +91,10 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @armod_iran #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
@@ -104,10 +104,10 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @armod_iran #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
@@ -140,6 +140,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "45.145.163.115",
+      "server_port": 39771,
+      "uuid": "e5bd3d75-06b3-490e-9651-930b1dc29cdb",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
@@ -202,28 +210,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "37.139.33.57",
-      "server_port": 8443,
-      "uuid": "eb4234b2-8083-4038-af1d-ae752b4ad6d4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
