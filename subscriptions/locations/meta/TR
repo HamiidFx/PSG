@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "77.83.245.28", "port": 38761, "type": "vless", "skip-cert-verify": true, "uuid": "3d39a3e5-c953-4767-8400-1409e3e108c2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VMESS | @free1_vpn #1", "server": "chatgpt.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "tr1-smart.adelping.com."}}}
-  - {"name": "🇹🇷 TR | VLESS | @vpnplusee_free #1", "server": "animallzoo-love-zoo-tr.giggoopanel.ir", "port": 9090, "type": "vless", "skip-cert-verify": true, "uuid": "02b69374-2cf3-d2bf-5e95-9162abe70dac", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @outline_ir #1", "server": "155.212.110.2", "port": 993, "type": "vless", "skip-cert-verify": true, "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VMESS | @v2ray_free_conf #1", "server": "tr1-smart.adelping.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "tr1-smart.adelping.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy #1'
       - '🇹🇷 TR | VMESS | @free1_vpn #1'
-      - '🇹🇷 TR | VLESS | @vpnplusee_free #1'
+      - '🇹🇷 TR | VLESS | @outline_ir #1'
+      - '🇹🇷 TR | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

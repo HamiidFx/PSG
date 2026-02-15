@@ -78,9 +78,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | SS | @outline_ir #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | SS | @outline_ir #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,14 +111,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3443,
-      "uuid": "b50a92f1-a9f3-421d-b8e2-30fd9b58c9f5",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
       "server": "fi4.srv.cdnopl.link",
@@ -143,14 +131,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "38.244.137.202",
-      "server_port": 45380,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFNkdialczSVo0V29rdno0VllMajRv",
-      "password": null
     }
   ],
   "route": {

@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇧🇷 BR | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇧🇷 BR | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
+      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "poland-meow.nethcloud.top",
-      "server_port": 8443,
-      "uuid": "bf9931be-a7fd-46b3-9919-b858299e9f65",
+      "server": "z1.n1server.org",
+      "server_port": 443,
+      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,12 +114,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     }
   ],

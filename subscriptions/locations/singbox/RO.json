@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇴 RO | VLESS | @bored_vpn #1",
         "🇷🇴 RO | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇴 RO | VLESS | @bored_vpn #1",
         "🇷🇴 RO | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "f84ab055-3ffe-4a90-aad3-30596550b03c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇴 RO | VLESS | @outline_ir #1",

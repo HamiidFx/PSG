@@ -78,16 +78,15 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @armod_iran #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | SS | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @ghalagyann #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -97,16 +96,15 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @armod_iran #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | SS | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @ghalagyann #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -145,14 +143,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "world-of.ru",
-      "server_port": 3443,
-      "uuid": "c6692116-35bc-480d-9c47-d3c4b16a2f18",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
       "type": "shadowsocks",
       "server": "193.29.139.151",
@@ -183,12 +173,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "89.110.70.175",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoXzMwd0VvaU9nbFBtVUs4NzYtUk9R",
-      "password": null
+      "tag": "🇳🇱 NL | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "45.131.7.238",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -268,12 +258,26 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raymelliii #1",
+      "tag": "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
       "type": "vless",
-      "server": "deu153.worldunbarred.org",
-      "server_port": 8443,
-      "uuid": "4d3b4e0b-9fa4-4bc7-a0fd-99a8d34a12e2",
-      "packet_encoding": "xudp"
+      "server": "fi.podpiska.vip",
+      "server_port": 443,
+      "uuid": "fc363de7-5d11-42e0-b9c0-79d59274882a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",

@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @config_proxy #1", "server": "tunnyl.ru", "port": 3443, "type": "vless", "skip-cert-verify": true, "uuid": "755aed05-3cc9-48d5-abc7-9b9e92d89727", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇸 ES | VLESS | @config_proxy #2", "server": "tunnyl.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12ee88-ac1e-4d3a-be69-cf4a2b52a302", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1", "server": "185.238.228.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a992c7a6-832b-4243-a294-d34783d0294c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇷 BR | VLESS | @netfreedom0 #1", "server": "z1.n1server.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇸 ES | VLESS | @config_proxy #1'
-      - '🇪🇸 ES | VLESS | @config_proxy #2'
-      - '🇪🇸 ES | VLESS | @mtproxy22_v2ray #1'
+      - '🇧🇷 BR | VLESS | @netfreedom0 #1'
 
   - name: 🌍 Global Media
     type: select
