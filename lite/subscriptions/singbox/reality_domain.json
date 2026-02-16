@@ -97,9 +97,10 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,9 +115,10 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -270,28 +272,6 @@
       }
     },
     {
-      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "lt-cherry-01.com",
-      "server_port": 8443,
-      "uuid": "ff6fb512-147d-419a-9672-e131133f7189",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
@@ -315,6 +295,50 @@
       "server_port": 2026,
       "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "sw.shopforkids.ir",
+      "server_port": 2245,
+      "uuid": "dd98ec41-bd36-4317-b8ab-29a14c5be29e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "cy.shopforkids.ir",
+      "server_port": 2256,
+      "uuid": "dd98ec41-bd36-4317-b8ab-29a14c5be29e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
