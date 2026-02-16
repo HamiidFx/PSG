@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgRVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | SS | @prrofile_purple #1",
-        "🇸🇬 SG | SS | @prrofile_purple #2",
-        "🇸🇬 SG | SS | @prrofile_purple #3"
+        "🇪🇸 ES | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | SS | @prrofile_purple #1",
-        "🇸🇬 SG | SS | @prrofile_purple #2",
-        "🇸🇬 SG | SS | @prrofile_purple #3"
+        "🇪🇸 ES | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,28 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "46.250.234.115",
-      "server_port": 80,
-      "method": "YWVzLTI1Ni1nY206ak1vZ05YWGswOGwySkswTg==",
-      "password": null
-    },
-    {
-      "tag": "🇸🇬 SG | SS | @prrofile_purple #2",
-      "type": "shadowsocks",
-      "server": "45.77.253.107",
-      "server_port": 80,
-      "method": "YWVzLTI1Ni1nY206endqbFU5N3RCS3RQSlBCNQ==",
-      "password": null
-    },
-    {
-      "tag": "🇸🇬 SG | SS | @prrofile_purple #3",
-      "type": "shadowsocks",
-      "server": "194.233.94.119",
-      "server_port": 80,
-      "method": "YWVzLTI1Ni1nY206OHQyeGVlbVV0eXVpNHpBdg==",
-      "password": null
+      "tag": "🇪🇸 ES | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "185.251.81.238",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

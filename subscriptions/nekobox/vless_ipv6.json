@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | VLESS | @netfreedom0 #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | VLESS | @netfreedom0 #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +107,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "z1.n1server.org",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -117,9 +123,68 @@
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": ""
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
       }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "::ffff:26f2:eae4",
+      "server_port": 80,
+      "uuid": "4c765647-bc2e-456c-8ac0-47a5e45c9fad",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

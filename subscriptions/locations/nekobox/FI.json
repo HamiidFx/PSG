@@ -79,7 +79,8 @@
         "direct",
         "🇫🇮 FI | VLESS | @armod_iran #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @armod_iran #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +142,28 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "92.63.224.18",
+      "server_port": 443,
+      "uuid": "b823aaa4-7b6f-49cb-98e4-ffc0a1fb19ee",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

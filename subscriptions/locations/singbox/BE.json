@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVUE=
+//profile-title: base64:UFNHIHwgQkU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇦 UA | VLESS | @prrofile_purple #1"
+        "🇧🇪 BE | VLESS | @prrofile_purple #1",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇦 UA | VLESS | @prrofile_purple #1"
+        "🇧🇪 BE | VLESS | @prrofile_purple #1",
+        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇦 UA | VLESS | @prrofile_purple #1",
+      "tag": "🇧🇪 BE | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "91.218.122.10",
-      "server_port": 8443,
-      "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2",
+      "server": "cdn1.sohacase.ir",
+      "server_port": 80,
+      "uuid": "2056aaf3-7e69-41fa-b43d-b658d789d2cf",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇪 BE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "eece40082acf744f.fast2.viperping.ir",
+      "server_port": 80,
+      "uuid": "4d666564-0414-439d-ba51-8e8156014abe",
       "packet_encoding": "xudp"
     }
   ],
