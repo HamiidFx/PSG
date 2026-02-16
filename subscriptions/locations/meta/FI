@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @armod_iran #1", "server": "45.144.53.77", "port": 8104, "type": "vless", "skip-cert-verify": true, "uuid": "db27262a-4151-4c36-8e5f-2cf7fd387a0f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @bored_vpn #1", "server": "65.109.203.5", "port": 18521, "type": "vless", "skip-cert-verify": true, "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @armod_iran #1'
       - '🇫🇮 FI | VLESS | @bored_vpn #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
 

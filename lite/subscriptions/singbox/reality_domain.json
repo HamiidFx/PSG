@@ -97,9 +97,9 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇨🇭 CH | VLESS | @outline_ir #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,9 +114,9 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇨🇭 CH | VLESS | @outline_ir #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -270,11 +270,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "tag": "🇨🇭 CH | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "gee.jykvpn.com",
-      "server_port": 443,
-      "uuid": "268f9be4-4e80-48ac-a0b8-f2d79d21f0a8",
+      "server": "ch-gt-01.com",
+      "server_port": 8443,
+      "uuid": "9eac77f6-7813-45ab-9a5f-39d7e7d153c1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -292,7 +292,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
@@ -309,12 +309,16 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vpnowl #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "prime.dissertationhelpspecialist.com",
-      "server_port": 2026,
-      "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
-      "packet_encoding": "xudp"
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 2083,
+      "uuid": "183b52f7-af12-4eab-9e4e-29b9283fc3e1",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {

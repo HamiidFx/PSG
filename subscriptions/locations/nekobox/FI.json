@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @armod_iran #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | SS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "proxy",
@@ -87,8 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @armod_iran #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | SS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "auto",
@@ -105,20 +105,34 @@
       "type": "direct"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @armod_iran #1",
+      "type": "vless",
+      "server": "45.144.53.77",
+      "server_port": 8104,
+      "uuid": "db27262a-4151-4c36-8e5f-2cf7fd387a0f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @bored_vpn #1",
       "type": "vless",
       "server": "65.109.203.5",
       "server_port": 18521,
       "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "yxv0bzrzt04037",
-      "server_port": null,
-      "method": null,
-      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",

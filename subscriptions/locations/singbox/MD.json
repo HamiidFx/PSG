@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | SS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | SS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "89.221.225.15",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5Q2JRNGJyeTRvdGZpZks3b2VsNzFOYVhwUEw5cFlKYg==",
-      "password": null
+      "tag": "🇲🇩 MD | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "93.185.165.50",
+      "server_port": 55211,
+      "uuid": "8832cbf9-324d-457a-8452-8f1d14e9640f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

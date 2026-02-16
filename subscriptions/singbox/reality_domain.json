@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @armod_iran #2",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -101,12 +101,10 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇨🇭 CH | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇩🇪 DE | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,7 +115,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @armod_iran #2",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -125,12 +123,10 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇨🇭 CH | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇩🇪 DE | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -214,11 +210,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @armod_iran #2",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "access-de4.agveit.pro",
-      "server_port": 443,
-      "uuid": "637bd1f3-f097-4fa2-a62d-322f1aede2fe",
+      "server": "ip.speedcheck.mobileemdad.top",
+      "server_port": 4450,
+      "uuid": "1de0d320-1b0e-4410-8e71-29d293a08bb3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -372,51 +368,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "gee.jykvpn.com",
-      "server_port": 443,
-      "uuid": "268f9be4-4e80-48ac-a0b8-f2d79d21f0a8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "lt-cherry-01.com",
-      "server_port": 8443,
-      "uuid": "ff6fb512-147d-419a-9672-e131133f7189",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
@@ -477,12 +429,16 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vpnowl #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "prime.dissertationhelpspecialist.com",
-      "server_port": 2026,
-      "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
-      "packet_encoding": "xudp"
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 2083,
+      "uuid": "183b52f7-af12-4eab-9e4e-29b9283fc3e1",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {
