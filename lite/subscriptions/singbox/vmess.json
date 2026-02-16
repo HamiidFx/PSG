@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
@@ -120,6 +121,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
@@ -216,6 +218,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "nextmi.hajmyab.ir",
+      "server_port": 2053,
+      "uuid": "9585636a-54bc-419a-90a1-76c5c6ec74df",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "app.hajmyab.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "app.hajmyab.ir"
         }
       }
     },

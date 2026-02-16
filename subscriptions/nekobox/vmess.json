@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
@@ -100,8 +101,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #2",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -123,6 +122,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
@@ -142,8 +142,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #2",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -255,6 +253,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "nextmi.hajmyab.ir",
+      "server_port": 2053,
+      "uuid": "9585636a-54bc-419a-90a1-76c5c6ec74df",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "app.hajmyab.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "app.hajmyab.ir"
         }
       }
     },
@@ -648,47 +671,6 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "support.zoom.us",
-      "server_port": 8080,
-      "uuid": "44e57485-eccc-46ef-808f-cd17ac810018",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/@Malinda6104",
-        "headers": {
-          "Host": "support.zoom.us"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #2",
-      "type": "vmess",
-      "server": "15.235.85.156",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "kampong.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "kampong.org"
         }
       }
     },

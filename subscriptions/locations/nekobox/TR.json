@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @flyv2ray #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @outline_ir #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @flyv2ray #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @outline_ir #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,14 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @flyv2ray #1",
-      "type": "shadowsocks",
-      "server": "94.131.123.86",
-      "server_port": 35361,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnMFVnZnNkWE9objhNY3BkSHBXY21v",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
@@ -134,6 +126,28 @@
       "server": "155.212.110.2",
       "server_port": 993,
       "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "31.14.10.214",
+      "server_port": 8610,
+      "uuid": "40842354-ecd2-47ce-9ac0-dd3fc4e0a614",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

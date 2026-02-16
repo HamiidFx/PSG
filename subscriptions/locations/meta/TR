@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VMESS | @free1_vpn #1", "server": "chatgpt.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "tr1-smart.adelping.com."}}}
   - {"name": "🇹🇷 TR | VLESS | @outline_ir #1", "server": "155.212.110.2", "port": 993, "type": "vless", "skip-cert-verify": true, "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @vpnplusee_free #1", "server": "31.14.10.214", "port": 8610, "type": "vless", "skip-cert-verify": true, "uuid": "40842354-ecd2-47ce-9ac0-dd3fc4e0a614", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VMESS | @free1_vpn #1'
       - '🇹🇷 TR | VLESS | @outline_ir #1'
+      - '🇹🇷 TR | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

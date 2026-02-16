@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @filtershekan_channel #2",
         "🇬🇧 GB | SS | @flyv2ray #1",
@@ -89,6 +88,7 @@
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
+        "🇬🇧 GB | SS | @v2raych #1",
         "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇬🇧 GB | SS | @vpn_ioss #2"
       ],
@@ -99,7 +99,6 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @filtershekan_channel #2",
         "🇬🇧 GB | SS | @flyv2ray #1",
@@ -110,6 +109,7 @@
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
+        "🇬🇧 GB | SS | @v2raych #1",
         "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇬🇧 GB | SS | @vpn_ioss #2"
       ],
@@ -133,23 +133,6 @@
       "server_port": 80,
       "method": "YXV0bzo=",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "178.128.45.156",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @filtershekan_channel #1",
@@ -248,6 +231,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.35",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
