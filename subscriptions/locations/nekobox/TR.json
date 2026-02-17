@@ -77,9 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @filtershekan_channel #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @filtershekan_channel #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @v2ray_youtube #1"
+        "🇹🇷 TR | VLESS | @v2ray_youtube #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +107,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "77.83.245.192",
+      "server_port": 43502,
+      "uuid": "98aa2a93-a29b-4074-aa3b-d48483cbb735",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
@@ -149,6 +175,28 @@
       "server_port": 27414,
       "uuid": "94712dd9-17d8-4813-a118-cc487fadd137",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "77.83.245.192",
+      "server_port": 43502,
+      "uuid": "98aa2a93-a29b-4074-aa3b-d48483cbb735",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇷 IR | VMESS | @dargiiriis #1", "server": "homeyra.taz-min.com", "port": 33221, "type": "vmess", "skip-cert-verify": true, "uuid": "fbdcae66-c997-49ce-9a18-a155fb7ec781", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @dargiiriis #2", "server": "homeyra.taz-min.com", "port": 33221, "type": "vmess", "skip-cert-verify": true, "uuid": "de6241b0-ee2d-431e-b7e5-2853b4d0fb26", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇹🇷 TR | VMESS | @free1_vpn #1", "server": "chatgpt.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "tr1-smart.adelping.com."}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
@@ -37,7 +39,7 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
-  - {"name": "🇭🇰 HK | VMESS | @red2ray #1", "server": "8.217.13.74", "port": 31769, "type": "vmess", "skip-cert-verify": true, "uuid": "cf1ad6c7-5987-4314-82bb-b4399040d047", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇳 IN | VMESS | @red2ray #1", "server": "20.193.153.19", "port": 15834, "type": "vmess", "skip-cert-verify": true, "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -51,6 +53,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇷 IR | VMESS | @dargiiriis #1'
+      - '🇮🇷 IR | VMESS | @dargiiriis #2'
       - '🇹🇷 TR | VMESS | @free1_vpn #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
@@ -65,7 +69,7 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
       - '🇽🇽 XX | VMESS | @proxy48 #1'
-      - '🇭🇰 HK | VMESS | @red2ray #1'
+      - '🇮🇳 IN | VMESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

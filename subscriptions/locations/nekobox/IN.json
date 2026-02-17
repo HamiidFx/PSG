@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇳 IN | VMESS | @red2ray #1",
+        "🇮🇳 IN | VLESS | @selinc #1",
         "🇮🇳 IN | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -85,6 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇳 IN | VMESS | @red2ray #1",
+        "🇮🇳 IN | VLESS | @selinc #1",
         "🇮🇳 IN | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -99,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇳 IN | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "20.193.153.19",
+      "server_port": 15834,
+      "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇮🇳 IN | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "64.227.174.213",
+      "server_port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇳 IN | VLESS | @v2raytg #1",

@@ -93,16 +93,19 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇧🇪 BE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @vpnowl #2",
-        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
+        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,16 +116,19 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇧🇪 BE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @vpnowl #2",
-        "🇧🇪 BE | VLESS | @vpnplusee_free #1"
+        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -206,24 +212,15 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "3.salemibuy.ir",
-      "server_port": 443,
-      "uuid": "a171c02d-4009-4136-98b1-ec339255d3d6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "fastly.cdn.steampipe.steamcontent.com",
+      "server_port": 80,
+      "uuid": "dc0fa266-ad3a-4bfa-9671-69917911cbf1",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -247,11 +244,27 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @nofiltering2 #3",
+      "type": "vless",
+      "server": "84bf6a263638e546.fast1.viperping.ir",
+      "server_port": 80,
+      "uuid": "d787c7d5-46c1-4434-869e-76cddd3e2e50",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "no.tan3.ir",
       "server_port": 2053,
       "uuid": "1621caa6-2a23-4364-919b-1276ab6ca81a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @parsashonam #1",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 2096,
+      "uuid": "Parsashonam",
       "packet_encoding": "xudp"
     },
     {
@@ -287,11 +300,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @vpnplusee_free #1",
+      "tag": "🇨🇭 CH | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "eece40082acf744f.fast2.viperping.ir",
-      "server_port": 80,
-      "uuid": "4d666564-0414-439d-ba51-8e8156014abe",
+      "server": "ir.grbr.private-link.lornanet.ir",
+      "server_port": 9174,
+      "uuid": "5808fea7-745a-fbd4-eb1e-616b1123c14f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "pkg.zaracloudcenter.ir",
+      "server_port": 8443,
+      "uuid": "e88807d6-5789-41bf-ba33-5393f8d84fae",
       "packet_encoding": "xudp"
     }
   ],
