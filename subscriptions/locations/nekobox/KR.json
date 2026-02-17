@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @v2raych #1",
-        "🇪🇪 EE | VLESS | @v2raych #2"
+        "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @v2raych #1",
-        "🇪🇪 EE | VLESS | @v2raych #2"
+        "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,38 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "92.61.71.167",
-      "server_port": 443,
-      "uuid": "063f7847-1945-4e05-8a77-958643625a6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "ndt.fasti.win",
-      "server_port": 443,
-      "uuid": "54a41073-e798-488b-af16-28533e612ec1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇰🇷 KR | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "154.90.62.168",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

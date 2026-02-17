@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVQ=
+//profile-title: base64:UFNHIHwgQ04=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @vmesc #1"
+        "🇨🇳 CN | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @vmesc #1"
+        "🇨🇳 CN | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "telegram-g0dv2ray.fastlynew.hosting-ip.com",
+      "tag": "🇨🇳 CN | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com",
       "server_port": 80,
-      "uuid": "e4a6331b-e3e7-4f4e-b46a-8c31bf44bf83",
-      "packet_encoding": "xudp"
+      "uuid": "990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "broadcastlv.chat.bilibili.com"
+        }
+      }
     }
   ],
   "route": {

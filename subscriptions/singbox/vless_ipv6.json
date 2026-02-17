@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +104,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,12 +188,21 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "::ffff:26f2:eae4",
-      "server_port": 80,
-      "uuid": "4c765647-bc2e-456c-8ac0-47a5e45c9fad",
-      "packet_encoding": "xudp"
+      "server": "::ffff:104.21.69.164",
+      "server_port": 2087,
+      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @v2raych #1",
-        "🇪🇪 EE | VLESS | @v2raych #2"
+        "🇲🇩 MD | VMESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @v2raych #1",
-        "🇪🇪 EE | VLESS | @v2raych #2"
+        "🇲🇩 MD | VMESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,38 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "92.61.71.167",
-      "server_port": 443,
-      "uuid": "063f7847-1945-4e05-8a77-958643625a6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "ndt.fasti.win",
-      "server_port": 443,
-      "uuid": "54a41073-e798-488b-af16-28533e612ec1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇲🇩 MD | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "94.232.247.165",
+      "server_port": 45653,
+      "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

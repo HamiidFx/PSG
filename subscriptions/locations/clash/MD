@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇹 IT | VLESS | @vmesc #1", "server": "telegram-g0dv2ray.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e4a6331b-e3e7-4f4e-b46a-8c31bf44bf83", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VMESS | @config_proxy #1", "server": "94.232.247.165", "port": 45653, "type": "vmess", "skip-cert-verify": true, "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | VLESS | @vmesc #1'
+      - '🇲🇩 MD | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -88,8 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -105,28 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "37.139.34.145",
-      "server_port": 443,
-      "uuid": "72fb3bd4-75dd-488a-9af7-c391321ecfcc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -152,6 +130,14 @@
           "Host": "77.v2ray1.xyz"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "g18.prodnsspeed10.ir",
+      "server_port": 8443,
+      "uuid": "7f382331-f6c9-4ebc-9725-308ee1a8f798",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",

@@ -107,9 +107,10 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2aryng_vpn #2",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
-        "🇪🇪 EE | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇽🇽 XX | VLESS | @vmesc #4",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -134,9 +135,10 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2aryng_vpn #2",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
-        "🇪🇪 EE | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇽🇽 XX | VLESS | @vmesc #4",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -395,23 +397,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "92.61.71.167",
-      "server_port": 443,
-      "uuid": "063f7847-1945-4e05-8a77-958643625a6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -425,6 +410,22 @@
       "server": "172.64.152.23",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #4",
+      "type": "vless",
+      "server": "172.64.152.170",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #4",
+      "type": "vless",
+      "server": "104.19.148.67",
+      "server_port": 2052,
+      "uuid": "a831cb09-8a28-4d45-93e7-ba8efb41e185",
       "packet_encoding": "xudp"
     }
   ],
