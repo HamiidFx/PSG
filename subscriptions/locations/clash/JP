@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
+  - {"name": "🇯🇵 JP | TROJAN | @config_proxy #1", "server": "160.16.117.182", "port": 193, "type": "trojan", "skip-cert-verify": false, "password": "9372cb81c7b0ad903f91f2f8a4d3f02b", "sni": "www.nintendogames.net"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2ray_youtube #1", "server": "160.16.117.182", "port": 193, "type": "trojan", "skip-cert-verify": false, "password": "9372cb81c7b0ad903f91f2f8a4d3f02b"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @free4allvpn #1'
+      - '🇯🇵 JP | TROJAN | @config_proxy #1'
+      - '🇯🇵 JP | TROJAN | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select
