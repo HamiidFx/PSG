@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1"
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
+        "🇲🇩 MD | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1"
+        "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
+        "🇲🇩 MD | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇲🇩 MD | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "94.232.247.165",
+      "server_port": 45653,
+      "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "s3.plan-vpn.ru",
-      "server_port": 443,
-      "uuid": "7d22cf6b-2d14-455c-bd9e-e0b24f286e8f",
+      "server": "93.185.165.50",
+      "server_port": 55211,
+      "uuid": "8ffb8934-97ed-4e97-bd56-333121bd7777",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

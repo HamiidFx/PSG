@@ -90,8 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @bored_vpn #1",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -101,8 +105,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @bored_vpn #1",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -116,11 +124,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @bored_vpn #1",
       "type": "vless",
-      "server": "free.joserv.online",
+      "server": "51.250.86.102",
       "server_port": 443,
-      "uuid": "a88ea8bf-7001-4e29-a9bb-379f6778195c",
+      "uuid": "64a3a23c-363a-4bee-9401-f5c42eea5a27",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "spb.roblugo.su",
+      "server_port": 443,
+      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -163,6 +193,58 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "151.236.114.162",
+      "server_port": 6443,
+      "uuid": "65704afe-e26a-4266-9ff3-4d09c0f04c14",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "185.130.115.55",
+      "server_port": 443,
+      "uuid": "7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "51.250.83.255",
+      "server_port": 443,
+      "uuid": "7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
       "type": "vless",
       "server": "ru.cheburnetnastalgia1998.com",
@@ -182,10 +264,11 @@
     {
       "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "ru.jinnie.lol",
+      "server": "spb.roblugo.su",
       "server_port": 443,
-      "uuid": "53d37ac8-efc2-492c-b6c6-a864dfebbbff",
+      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -193,11 +276,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
