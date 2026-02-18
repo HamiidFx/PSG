@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +116,49 @@
       "type": "direct"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "pol2.linkey37.ru",
+      "server_port": 443,
+      "uuid": "41666e59-9e5c-45fb-b083-fa34a5b62a05",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "217.30.10.18",
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9003,
+      "method": "YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "89.223.93.176",
+      "server_port": 41348,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWbXNmMDZZVE1xdEFZZGh3TXFkU3VHcWdkVmttMHlkZGk0a1lhQUVWUVdZajlpSEE=",
       "password": null
     }
   ],

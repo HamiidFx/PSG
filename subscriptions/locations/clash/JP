@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇯🇵 JP | TROJAN | @config_proxy #1", "server": "160.16.117.182", "port": 193, "type": "trojan", "skip-cert-verify": false, "password": "9372cb81c7b0ad903f91f2f8a4d3f02b", "sni": "www.nintendogames.net"}
   - {"name": "🇯🇵 JP | TROJAN | @v2ray_youtube #1", "server": "160.16.117.182", "port": 193, "type": "trojan", "skip-cert-verify": false, "password": "9372cb81c7b0ad903f91f2f8a4d3f02b"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇯🇵 JP | TROJAN | @config_proxy #1'
       - '🇯🇵 JP | TROJAN | @v2ray_youtube #1'
 
   - name: 🌍 Global Media

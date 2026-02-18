@@ -14,14 +14,13 @@ DIRECT = direct
 🇩🇪 DE | VMESS | @magickey_shop #1 = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
 🇽🇽 XX | VMESS | @proxy48 #1 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
 🇺🇸 US | VMESS | @v2ray_collector #1 = vmess, 209.126.84.189, 443, username = 2c981164-9b93-4bca-94ff-b78d3f8498d7, ws = true, tls = false, ws-path = /vmessws, ws-headers = Host:"209.126.84.189"
-🇲🇩 MD | VMESS | @v2ray_free_conf #1 = vmess, 94.232.247.165, 45653, username = 9e91d19a-c73f-4276-adbc-b337c374259c, ws = false, tls = false
 🇺🇸 US | VMESS | @v2rayngconfig #1 = vmess, 68.167.181.220, 10010, username = b4f7c326-5c4f-4e19-83d5-bfa43b461002, ws = false, tls = false
 🇫🇷 FR | VMESS | @v2raytg #1 = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇲🇩 MD | VMESS | @v2ray_free_conf #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
-PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇲🇩 MD | VMESS | @v2ray_free_conf #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
-PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇲🇩 MD | VMESS | @v2ray_free_conf #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
+PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
+PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇺🇸 US | VMESS | @v2ray_collector #1, 🇺🇸 US | VMESS | @v2rayngconfig #1, 🇫🇷 FR | VMESS | @v2raytg #1
 
 [Rule]
 GEOIP,IR,DIRECT
