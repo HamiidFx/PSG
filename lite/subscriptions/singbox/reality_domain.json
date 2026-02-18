@@ -98,7 +98,7 @@
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,7 +114,7 @@
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -285,13 +285,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "spb.roblugo.su",
+      "server": "nl04-vlr01.tcp-reset-club.net",
       "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
+      "uuid": "9fdd70da-b710-48b7-945a-642fe8937861",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -299,6 +298,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -115,18 +115,19 @@
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
         "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇭🇺 HU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -159,18 +160,19 @@
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
         "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇭🇺 HU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -672,7 +674,29 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
+      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "146.185.208.206",
+      "server_port": 4443,
+      "uuid": "1dd94d15-8f73-4152-814b-d74cd11c54c9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "94.75.223.65",
       "server_port": 443,
@@ -694,11 +718,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
+      "tag": "🇭🇺 HU | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "146.185.208.206",
-      "server_port": 4443,
-      "uuid": "1dd94d15-8f73-4152-814b-d74cd11c54c9",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -830,6 +854,28 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "tr2node.lalash-server.click",
+      "server_port": 8080,
+      "uuid": "8d5395b3-eb4a-45d3-93cf-d3da236e07ac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
@@ -869,25 +915,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "spb.roblugo.su",
-      "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #2",
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "nl04-vlr01.tcp-reset-club.net",
       "server_port": 443,

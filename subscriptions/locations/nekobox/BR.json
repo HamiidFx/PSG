@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | SS | @v2ray_free_conf #1",
+        "🇧🇷 BR | SS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | SS | @v2ray_free_conf #1",
+        "🇧🇷 BR | SS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | SS | @v2ray_free_conf #1",
+      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "119.59.98.58",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "server": "157.185.173.60",
+      "server_port": 18424,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5N2ZlNmIwN2NiZmFmN2U3",
+      "password": null
+    },
+    {
+      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "5.188.4.103",
+      "server_port": 11203,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2MyMDU2NDJiMzAyYzIw",
       "password": null
     }
   ],

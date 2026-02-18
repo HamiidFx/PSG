@@ -86,10 +86,10 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,10 +106,10 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @v2ray_vmes #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -311,6 +311,28 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "tr2node.lalash-server.click",
+      "server_port": 8080,
+      "uuid": "8d5395b3-eb4a-45d3-93cf-d3da236e07ac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
@@ -350,25 +372,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "spb.roblugo.su",
-      "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #2",
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "nl04-vlr01.tcp-reset-club.net",
       "server_port": 443,
