@@ -94,11 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @netmellianti #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,11 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @netmellianti #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,23 +203,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @connectshu #1",
-      "type": "vless",
-      "server": "mouse5.1lil1.de",
-      "server_port": 443,
-      "uuid": "191ee2c8-e3e3-09a1-a4a5-c9e8323c6f3d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -246,9 +225,9 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "spb.roblugo.su",
+      "server": "nl.roblugo.su",
       "server_port": 443,
       "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
       "packet_encoding": "xudp",
@@ -268,7 +247,7 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_vmes #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
@@ -281,28 +260,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nl04-vlr01.tcp-reset-club.net",
-      "server_port": 443,
-      "uuid": "9fdd70da-b710-48b7-945a-642fe8937861",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

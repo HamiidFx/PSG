@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #1"
+        "🇯🇵 JP | TROJAN | @config_proxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @v2ray_youtube #1"
+        "🇯🇵 JP | TROJAN | @config_proxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,28 +112,19 @@
       "type": "direct"
     },
     {
+      "tag": "🇯🇵 JP | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "160.16.117.182",
+      "server_port": 193,
+      "password": "9372cb81c7b0ad903f91f2f8a4d3f02b"
+    },
+    {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2ray_youtube #1",
-      "type": "trojan",
-      "server": "160.16.117.182",
-      "server_port": 193,
-      "password": "9372cb81c7b0ad903f91f2f8a4d3f02b",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
