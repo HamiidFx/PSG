@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "148.113.139.160",
+      "server_port": 46534,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YTEwNmFmYzMzZWFhMjYx",
+      "password": null
     }
   ],
   "route": {

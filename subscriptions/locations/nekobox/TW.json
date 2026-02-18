@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | SS | @v2ray_free_conf #1",
-        "🇧🇷 BR | SS | @v2ray_free_conf #2"
+        "🇹🇼 TW | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | SS | @v2ray_free_conf #1",
-        "🇧🇷 BR | SS | @v2ray_free_conf #2"
+        "🇹🇼 TW | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "157.185.173.60",
-      "server_port": 18424,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5N2ZlNmIwN2NiZmFmN2U3",
-      "password": null
-    },
-    {
-      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #2",
-      "type": "shadowsocks",
-      "server": "5.188.4.103",
-      "server_port": 11203,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2MyMDU2NDJiMzAyYzIw",
-      "password": null
+      "tag": "🇹🇼 TW | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "220.130.58.136",
+      "server_port": 31102,
+      "password": "4250b3bb-d1ae-4e77-bf71-4069e0d2c383",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUQ=
+//profile-title: base64:UFNHIHwgUEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @netmellianti #1"
+        "🇵🇰 PK | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @netmellianti #1"
+        "🇵🇰 PK | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "93.185.165.50",
-      "server_port": 55211,
-      "uuid": "1a9b771a-b717-49c8-9e93-f6b3d508d637",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇵🇰 PK | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "154.205.145.37",
+      "server_port": 11201,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NzUwOWJhMzY3OWI5ZGY5",
+      "password": null
     }
   ],
   "route": {

@@ -108,10 +108,10 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇲🇾 MY | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -144,10 +144,10 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇲🇾 MY | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -565,22 +565,6 @@
       }
     },
     {
-      "tag": "🇲🇾 MY | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "gtm1.ktmwan.net",
-      "server_port": 12883,
-      "uuid": "3ac9d436-f213-421d-9644-a94686ee9fba",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "gtm1.ktmwan.net"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -607,6 +591,31 @@
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
+      "type": "vmess",
+      "server": "104.18.212.12",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oliv.beauty:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,
