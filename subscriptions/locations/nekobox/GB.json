@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇬🇧 GB | VLESS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
@@ -86,12 +85,10 @@
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
+        "🇬🇧 GB | SS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @v2rayopen #2",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2",
-        "🇬🇧 GB | SS | @vpn_ioss #2"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +97,6 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VLESS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
@@ -108,12 +104,10 @@
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
+        "🇬🇧 GB | SS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @v2rayopen #2",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2",
-        "🇬🇧 GB | SS | @vpn_ioss #2"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,14 +128,6 @@
       "server": "57.129.137.89",
       "server_port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "57.129.133.88",
-      "server_port": 2345,
-      "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
       "packet_encoding": "xudp"
     },
     {
@@ -196,9 +182,9 @@
     {
       "tag": "🇬🇧 GB | SS | @red2ray #1",
       "type": "shadowsocks",
-      "server": "admin.c2.havij.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
+      "server": "82.38.31.184",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
@@ -210,48 +196,23 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "tag": "🇬🇧 GB | SS | @v2rayopen #1",
       "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
+      "server": "admin.c2.havij.co",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "57.129.137.231",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "tag": "🇬🇧 GB | SS | @v2rayopen #2",
       "type": "shadowsocks",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "server": "20.108.15.110",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
       "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "wolf2.adslimit.info",
-      "server_port": 2345,
-      "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "go.adslimit.info",
       "server_port": 2345,
@@ -259,7 +220,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #2",
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
       "type": "shadowsocks",
       "server": "82.38.31.61",
       "server_port": 8080,

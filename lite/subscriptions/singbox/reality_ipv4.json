@@ -93,23 +93,21 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇮🇷 IR | VLESS | @mimitdl #2",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇮🇪 IE | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,23 +118,21 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇮🇷 IR | VLESS | @mimitdl #2",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇮🇪 IE | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -220,11 +216,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "91.84.105.61",
-      "server_port": 25998,
-      "uuid": "f3bf8732-4040-4132-b68a-2c137b75bbf3",
+      "server": "109.120.191.46",
+      "server_port": 443,
+      "uuid": "01896982-f9df-4bd5-8f32-914253db2e61",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -233,11 +229,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "109.120.191.46",
+      "server_port": 443,
+      "uuid": "01896982-f9df-4bd5-8f32-914253db2e61",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -247,28 +255,6 @@
       "server": "92.60.78.221",
       "server_port": 443,
       "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "91.84.103.69",
-      "server_port": 8443,
-      "uuid": "b1f45225-4f7c-4b13-a7ee-1a9afa48216e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -358,6 +344,28 @@
       }
     },
     {
+      "tag": "🇮🇪 IE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "34.244.236.222",
+      "server_port": 20096,
+      "uuid": "309c4bd0-7430-b8aa-2238-1075e9e29370",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @selinc #1",
       "type": "vless",
       "server": "137.184.218.169",
@@ -410,31 +418,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "84.23.52.70",
-      "server_port": 8443,
-      "uuid": "afffbafe-881f-4a06-bc22-d1a49121ba36",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "89.169.162.214",
-      "server_port": 443,
-      "uuid": "b23f1721-43ac-40fd-988c-b31d398b22cb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇾 CY | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "5.180.24.11",
@@ -484,28 +467,6 @@
       "server": "49.13.135.58",
       "server_port": 443,
       "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "80.211.236.226",
-      "server_port": 443,
-      "uuid": "8c863fe9-65e4-41ee-84e4-1c0009d72639",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
