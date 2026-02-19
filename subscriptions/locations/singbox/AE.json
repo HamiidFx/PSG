@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @prrofile_purple #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @prrofile_purple #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @prrofile_purple #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @prrofile_purple #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,14 @@
       "server": "c1.s-sub.org",
       "server_port": 8443,
       "uuid": "991519c1-3680-49b7-bb9f-9029a7a39067",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "94.183.150.57",
+      "server_port": 2323,
+      "uuid": "e6056cc5-1ec5-4dad-a5c1-ffe4ccde51b8",
       "packet_encoding": "xudp"
     }
   ],
