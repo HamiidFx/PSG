@@ -108,7 +108,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
@@ -120,6 +119,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -147,7 +147,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
@@ -159,6 +158,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -571,22 +571,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "tgju.org",
-      "server_port": 8080,
-      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "nasnet-571296497.iranpress.co"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
       "server": "vjp1.0bad.com",
@@ -798,6 +782,31 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @bored_vpn #1", "server": "65.109.203.5", "port": 18521, "type": "vless", "skip-cert-verify": true, "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @filtershekan_channel #1", "server": "45.15.127.107", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8df8d701-38b4-5175-89ef-7447a1250e67", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @bored_vpn #1'
       - '🇫🇮 FI | VLESS | @filtershekan_channel #1'
 
   - name: 🌍 Global Media

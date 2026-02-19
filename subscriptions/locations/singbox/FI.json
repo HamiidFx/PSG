@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1"
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | SS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1"
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | SS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,14 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "65.109.203.5",
-      "server_port": 18521,
-      "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @filtershekan_channel #1",
@@ -140,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2ray_youtube #1",
+      "type": "shadowsocks",
+      "server": "promo18v.bystrivpn.ru",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0",
+      "password": null
     }
   ],
   "route": {
