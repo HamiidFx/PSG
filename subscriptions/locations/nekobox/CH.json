@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v_2rayng0 #1"
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v_2rayng0 #1"
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +105,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ir.grbr.private-link.lornanet.ir",
+      "server_port": 3130,
+      "uuid": "4ed6948d-0beb-f7ca-18e8-b4259eeb0dbb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -140,6 +166,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "66.163.116.27",
+      "server_port": 20443,
+      "uuid": "5ba01e3f-15a4-4740-9b84-de3892615268",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

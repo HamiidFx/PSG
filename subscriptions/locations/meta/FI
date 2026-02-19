@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @filtershekan_channel #1", "server": "45.15.127.107", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8df8d701-38b4-5175-89ef-7447a1250e67", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @vmesskhodam #1", "server": "135.181.205.220", "port": 31421, "type": "vless", "skip-cert-verify": true, "uuid": "0fd6389a-acb9-48b4-8d2c-63edc5dbc4ba", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @filtershekan_channel #1'
+      - '🇫🇮 FI | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

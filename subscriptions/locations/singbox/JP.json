@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,23 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "109.61.109.135",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

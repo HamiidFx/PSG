@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | SS | @outline_ir #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | SS | @outline_ir #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "3.1.195.148",
       "server_port": 8319,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "31.192.234.199",
+      "server_port": 5223,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpITGs3QWxXM2E4eVkyZVNyYWtKdEVD",
       "password": null
     }
   ],

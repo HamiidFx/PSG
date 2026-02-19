@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1"
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @filtershekan_channel #1"
+        "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "135.181.205.220",
+      "server_port": 31421,
+      "uuid": "0fd6389a-acb9-48b4-8d2c-63edc5dbc4ba",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
