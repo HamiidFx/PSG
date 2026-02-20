@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2"
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2"
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,32 +136,46 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "31.56.205.56",
-      "server_port": 57124,
-      "uuid": "3af5f9c4-9128-41f2-bc56-a927788d12f8",
+      "server": "45.144.53.77",
+      "server_port": 8104,
+      "uuid": "db27262a-4151-4c36-8e5f-2cf7fd387a0f",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "31.56.205.56",
-      "server_port": 13612,
-      "uuid": "cbb94bf1-02cc-46ba-bc01-061b5f38e0ac",
+      "server": "my.kiomars.shop",
+      "server_port": 6610,
+      "uuid": "283c14cf-e2d1-47bf-b997-fafd0d7f8402",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

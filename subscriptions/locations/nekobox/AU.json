@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -142,6 +144,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "170.64.238.91",
+      "server_port": 39218,
+      "uuid": "fcbead98-fef8-4707-bd4f-1278935c9a44",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

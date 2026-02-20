@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @mtproxy22_v2ray #1",
         "🇮🇹 IT | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @mtproxy22_v2ray #1",
         "🇮🇹 IT | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "80.211.133.156",
+      "server_port": 443,
+      "uuid": "d443fb54-207c-4fa4-b9d8-3ae2a2957532",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇹 IT | VLESS | @vmesc #1",
