@@ -92,6 +92,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @free1_vpn #2",
@@ -117,16 +118,16 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @v2rayngconfig #1",
-        "🇮🇷 IR | VLESS | @vpn_ioss #1",
-        "🇮🇷 IR | VLESS | @xsv2ray #1",
-        "🇮🇷 IR | VMESS | @xsv2ray #1"
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #2",
+        "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -136,6 +137,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @free1_vpn #2",
@@ -161,16 +163,16 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @v2rayngconfig #1",
-        "🇮🇷 IR | VLESS | @vpn_ioss #1",
-        "🇮🇷 IR | VLESS | @xsv2ray #1",
-        "🇮🇷 IR | VMESS | @xsv2ray #1"
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #2",
+        "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,9 +204,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s5.daneshvardost.com",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
+      "server": "193.151.139.212",
+      "server_port": 8268,
+      "uuid": "f3db0ad5-ea47-41b6-be3d-d0d188c0de1b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "srv-v0.netmaster.cam",
+      "server_port": 3306,
+      "uuid": "019d0802-149f-f9ec-ce6f-77eda900f377",
       "packet_encoding": "xudp"
     },
     {
@@ -234,24 +244,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #1",
       "type": "vless",
-      "server": "s14.leaders711.top",
-      "server_port": 5050,
-      "uuid": "1b244541-355a-4f88-b800-6bef8b1dbd7a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "s13.leaders711.top",
+      "server_port": 5054,
+      "uuid": "635442ac-1c52-4227-948a-fd4bd2cc6e68",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #2",
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
-      "uuid": "af269bdf-b94e-458c-b908-8b17cc5eb57d",
+      "uuid": "1b244541-355a-4f88-b800-6bef8b1dbd7a",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -266,7 +269,7 @@
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
-      "uuid": "b7b52207-3f71-4f97-87c8-7d18810c6ee0",
+      "uuid": "af269bdf-b94e-458c-b908-8b17cc5eb57d",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -279,9 +282,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #4",
       "type": "vless",
-      "server": "s15.leader21.top",
-      "server_port": 5054,
-      "uuid": "7a7d2067-3ebd-4b25-9b00-13f35ea41a7a",
+      "server": "s14.leaders711.top",
+      "server_port": 5050,
+      "uuid": "8fcdfd0e-c9e2-4c12-9bb4-bca17d91395b",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -294,9 +297,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #5",
       "type": "vless",
-      "server": "s15.leader21.top",
-      "server_port": 5054,
-      "uuid": "47ef0566-5f8f-46bf-8c7f-57e3d68d8695",
+      "server": "s14.leaders711.top",
+      "server_port": 5050,
+      "uuid": "341a1b4e-3a62-4367-bb57-ae744cfffaba",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -309,9 +312,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #6",
       "type": "vless",
-      "server": "s15.leader21.top",
-      "server_port": 5054,
-      "uuid": "e3b89bf0-3e33-4722-b2d4-99129445c039",
+      "server": "s14.leaders711.top",
+      "server_port": 5050,
+      "uuid": "b7b52207-3f71-4f97-87c8-7d18810c6ee0",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -407,33 +410,33 @@
     {
       "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "it.theshire.ir",
-      "server_port": 1616,
-      "uuid": "b57f971b-f6e2-42dc-b058-35f48b79acd3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #2",
-      "type": "vless",
-      "server": "you2.configyous.site",
-      "server_port": 2002,
-      "uuid": "b1405868-6823-4c32-810c-0363960b56c4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #3",
-      "type": "vless",
       "server": "94.184.18.230",
       "server_port": 9090,
       "uuid": "fd8e52df-de0d-4eaa-88fa-fe6ea24fc841",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #4",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #2",
       "type": "vless",
       "server": "85.133.234.223",
       "server_port": 11022,
       "uuid": "041a8210-5697-4339-9c16-69cbd0292d67",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #3",
+      "type": "vless",
+      "server": "193.151.141.145",
+      "server_port": 8081,
+      "uuid": "a397c3b2-315f-449c-9bfe-b207f529db7f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #4",
+      "type": "vless",
+      "server": "5.159.49.79",
+      "server_port": 8081,
+      "uuid": "a397c3b2-315f-449c-9bfe-b207f529db7f",
       "packet_encoding": "xudp"
     },
     {
@@ -469,15 +472,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "mio.server-teamspeak.ir",
-      "server_port": 1917,
-      "uuid": "e0353c1d-a1a7-446a-b677-c2209d0928aa",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -511,11 +505,19 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "46.38.138.221",
-      "server_port": 9090,
-      "uuid": "3334d24a-4fd2-430f-884e-ffb74a23bb50",
+      "server": "nger.omainnames.com",
+      "server_port": 18654,
+      "uuid": "2b195252-b849-4250-b38d-0fa32b69b652",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #2",
+      "type": "vless",
+      "server": "193.151.151.183",
+      "server_port": 2086,
+      "uuid": "eabcbf59-2b9f-4c22-8079-41b69e0e1b74",
       "packet_encoding": "xudp"
     },
     {
@@ -536,11 +538,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @vpn_ioss #1",
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "s5.daneshvardost.com",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
+      "server": "sr13.nimbos.shop",
+      "server_port": 2086,
+      "uuid": "80a04c11-e879-4ab2-aff3-9a13641fcc51",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "po.mi6bot.info",
+      "server_port": 56987,
+      "uuid": "2b195252-b849-4250-b38d-0fa32b69b652",
       "packet_encoding": "xudp"
     },
     {
@@ -557,31 +567,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @xsv2ray #1",
-      "type": "vmess",
-      "server": "tehran-sms.xyz",
-      "server_port": 443,
-      "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "pkgbuild.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect/de/?ed=1024/?JOKERRVPN",
-        "headers": {
-          "Host": ""
         }
       }
     }

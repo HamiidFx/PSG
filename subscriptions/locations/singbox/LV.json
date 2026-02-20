@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @netmellianti #1"
+        "🇱🇻 LV | VLESS | @mehrosaboran #1",
+        "🇱🇻 LV | VLESS | @netmellianti #1",
+        "🇱🇻 LV | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @netmellianti #1"
+        "🇱🇻 LV | VLESS | @mehrosaboran #1",
+        "🇱🇻 LV | VLESS | @netmellianti #1",
+        "🇱🇻 LV | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,7 +114,37 @@
       "type": "direct"
     },
     {
+      "tag": "🇱🇻 LV | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "193.124.254.76",
+      "server_port": 443,
+      "uuid": "fa-7055554789-1771525571155969",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇱🇻 LV | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "parsaprivae.isgood.host",
+      "server_port": 22750,
+      "uuid": "cc1d0ad9-d4ac-4b7e-a9ba-048fa96a9e1e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2raych #1",
       "type": "vless",
       "server": "parsaprivae.isgood.host",
       "server_port": 22750,

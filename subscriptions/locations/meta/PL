@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1", "server": "pol2.linkey37.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "41666e59-9e5c-45fb-b083-fa34a5b62a05", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_youtube #1", "server": "pol2.linkey37.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e86870a5-41f2-4b45-b487-795b8c1a33d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @mtproxy22_v2ray #1'
+      - '🇵🇱 PL | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select

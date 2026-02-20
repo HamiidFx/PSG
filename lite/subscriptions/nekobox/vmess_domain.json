@@ -89,11 +89,9 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇮🇷 IR | VMESS | @xsv2ray #1"
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,11 +111,9 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇮🇷 IR | VMESS | @xsv2ray #1"
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -414,15 +410,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "mio.server-teamspeak.ir",
-      "server_port": 1917,
-      "uuid": "e0353c1d-a1a7-446a-b677-c2209d0928aa",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -485,31 +472,6 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @xsv2ray #1",
-      "type": "vmess",
-      "server": "tehran-sms.xyz",
-      "server_port": 443,
-      "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "pkgbuild.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect/de/?ed=1024/?JOKERRVPN",
-        "headers": {
-          "Host": ""
         }
       }
     }

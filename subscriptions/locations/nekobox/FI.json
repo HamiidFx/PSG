@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,12 +127,34 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "135.181.205.220",
-      "server_port": 31421,
-      "uuid": "0fd6389a-acb9-48b4-8d2c-63edc5dbc4ba",
-      "packet_encoding": "xudp"
+      "server": "31.56.205.56",
+      "server_port": 57124,
+      "uuid": "3af5f9c4-9128-41f2-bc56-a927788d12f8",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "31.56.205.56",
+      "server_port": 13612,
+      "uuid": "cbb94bf1-02cc-46ba-bc01-061b5f38e0ac",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

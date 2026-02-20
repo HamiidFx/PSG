@@ -92,7 +92,8 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @orange_vpns #1"
+        "🇨🇦 CA | VLESS | @orange_vpns #1",
+        "🇨🇦 CA | SS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @orange_vpns #1"
+        "🇨🇦 CA | VLESS | @orange_vpns #1",
+        "🇨🇦 CA | SS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,14 @@
       "server_port": 30238,
       "uuid": "27b6068a-e1e6-4675-ab14-87143c690390",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @v2ray_youtube #1",
+      "type": "shadowsocks",
+      "server": "51.161.80.138",
+      "server_port": 12743,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZTFmNmZlYTc0YjczOTFh",
+      "password": null
     }
   ],
   "route": {

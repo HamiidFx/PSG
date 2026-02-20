@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇼 TW | TROJAN | @vmesc #1", "server": "220.130.58.136", "port": 31102, "type": "trojan", "skip-cert-verify": false, "password": "4250b3bb-d1ae-4e77-bf71-4069e0d2c383"}
+  - {"name": "🇪🇪 EE | VLESS | @v2raych #1", "server": "est01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "762ac78b-0d9d-4d3e-aee5-e2597e7f3f6d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇼 TW | TROJAN | @vmesc #1'
+      - '🇪🇪 EE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

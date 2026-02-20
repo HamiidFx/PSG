@@ -90,10 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,14 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "82.22.40.9",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4U3NKcHZ3WTZ4YnFKMVIyY3haQ21heTVxZmE4SmJjUQ==",
-      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
@@ -154,12 +144,21 @@
       "password": null
     },
     {
-      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "89.223.93.176",
-      "server_port": 41348,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWbXNmMDZZVE1xdEFZZGh3TXFkU3VHcWdkVmttMHlkZGk0a1lhQUVWUVdZajlpSEE=",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "pol2.linkey37.ru",
+      "server_port": 443,
+      "uuid": "e86870a5-41f2-4b45-b487-795b8c1a33d4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

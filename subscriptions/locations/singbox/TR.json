@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "188.132.183.140",
-      "server_port": 443,
-      "uuid": "213325c6-ef4b-4cdb-850b-24a06f2865c8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "38.180.112.88",
+      "server_port": 8443,
+      "uuid": "010c8bf7-0a43-404f-a6c5-2427acb4d476",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "62.133.63.167",
+      "server_port": 61377,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMTJ5WkJQQzd5OFNubWtTWWpmMFds",
+      "password": null
     }
   ],
   "route": {
