@@ -109,6 +109,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -139,6 +141,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -565,6 +569,56 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cdn.nightgemshop.com",
+      "server_port": 443,
+      "uuid": "5f26fdfd-ecb6-48a5-adab-c691bdeefe7c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "Soft.sep-vpn.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Soft.sep-vpn.site"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
+      "type": "vmess",
+      "server": "dll.avaaaal.ir",
+      "server_port": 8443,
+      "uuid": "725f5fcd-721d-40a0-ba6b-3c7477633110",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cdge.avaaaal.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdge.avaaaal.ir"
         }
       }
     },

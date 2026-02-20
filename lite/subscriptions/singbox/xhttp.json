@@ -97,17 +97,17 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
-        "🇽🇽 XX | VLESS | @vpnowl #1"
+        "🇽🇽 XX | VLESS | @vpnowl #1",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,17 +122,17 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇸🇨 SC | VLESS | @kurdistan_vpn_perfectt #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
-        "🇽🇽 XX | VLESS | @vpnowl #1"
+        "🇽🇽 XX | VLESS | @vpnowl #1",
+        "🇽🇽 XX | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -275,11 +275,27 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "140.248.128.0",
+      "server_port": 80,
+      "uuid": "a730405a-6710-411e-9131-2e330169fa47",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "qeshmserver",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "151.101.192.223",
+      "server_port": 80,
+      "uuid": "a26bbed7-a286-4840-84bc-dc102c526777",
       "packet_encoding": "xudp"
     },
     {
@@ -296,14 +312,6 @@
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @komail315 #1",
-      "type": "vless",
-      "server": "cr7.zx-shop.ir",
-      "server_port": 8880,
-      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
     },
     {
@@ -332,14 +340,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "fastly1.fastspeeds.ir",
-      "server_port": 80,
-      "uuid": "392ca09f-3285-4266-9544-14195f0227fa",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
       "type": "vless",
       "server": "fast4.zone-server-irani.ir",
@@ -356,28 +356,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "www.tgju.org",
-      "server_port": 443,
-      "uuid": "f4e1ae51-3b3d-48b5-ae26-dd71bd4af38a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @vpnowl #1",
       "type": "vless",
       "server": "digitalocean.com",
       "server_port": 8443,
       "uuid": "nasnet",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "ip2-cloud.tyryqyserver.ir",
+      "server_port": 8080,
+      "uuid": "67074599-2f4d-4c47-997f-de85bb2e531b",
       "packet_encoding": "xudp"
     }
   ],

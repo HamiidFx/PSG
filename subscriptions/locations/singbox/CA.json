@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "144.217.133.97",
+      "server_port": 30238,
+      "uuid": "27b6068a-e1e6-4675-ab14-87143c690390",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

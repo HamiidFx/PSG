@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "149.22.87.240",
+      "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",
+      "type": "trojan",
+      "server": "kuame.missionsec.us",
       "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "109.61.109.135",
-      "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "packet_encoding": "xudp",
+      "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -135,6 +126,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
     }
   ],
   "route": {

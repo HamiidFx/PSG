@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @config_proxy #1", "server": "ir.grbr.private-link.lornanet.ir", "port": 3130, "type": "vless", "skip-cert-verify": true, "uuid": "4ed6948d-0beb-f7ca-18e8-b4259eeb0dbb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇭 CH | VLESS | @proxyfn #1", "server": "193.168.144.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @v_2rayng0 #1", "server": "208.69.78.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0a21d713-6e6f-4274-8b84-464019325513", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇭 CH | VLESS | @vmesskhodam #1", "server": "66.163.116.27", "port": 20443, "type": "vless", "skip-cert-verify": true, "uuid": "5ba01e3f-15a4-4740-9b84-de3892615268", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -40,7 +39,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @config_proxy #1'
       - '🇨🇭 CH | VLESS | @proxyfn #1'
       - '🇨🇭 CH | VLESS | @v_2rayng0 #1'
       - '🇨🇭 CH | VLESS | @vmesskhodam #1'

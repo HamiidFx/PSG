@@ -102,6 +102,8 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -123,6 +125,8 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -413,6 +417,47 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cdn.nightgemshop.com",
+      "server_port": 443,
+      "uuid": "5f26fdfd-ecb6-48a5-adab-c691bdeefe7c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "Soft.sep-vpn.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Soft.sep-vpn.site"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
+      "type": "vmess",
+      "server": "id-lb.vhax.net",
+      "server_port": 80,
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/sshkit/Arsham85231/6347d08022b91/",
+        "headers": {
+          "Host": "zoom.us"
         }
       }
     },
