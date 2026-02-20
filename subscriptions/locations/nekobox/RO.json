@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇷🇴 RO | VLESS | @bored_vpn #1",
-        "🇷🇴 RO | VLESS | @outline_ir #1"
+        "🇷🇴 RO | VLESS | @outline_ir #1",
+        "🇷🇴 RO | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇴 RO | VLESS | @bored_vpn #1",
-        "🇷🇴 RO | VLESS | @outline_ir #1"
+        "🇷🇴 RO | VLESS | @outline_ir #1",
+        "🇷🇴 RO | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,23 @@
       "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
       "uuid": "e9801fb8-890f-4272-b3c3-8094f89f875a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "8c020e2f-15fb-4e5b-a421-4e8818a21420",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

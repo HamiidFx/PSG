@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | SS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | SS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +105,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @config_proxy #1",
+      "type": "shadowsocks",
+      "server": "82.22.40.9",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4U3NKcHZ3WTZ4YnFKMVIyY3haQ21heTVxZmE4SmJjUQ==",
+      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
@@ -130,6 +142,14 @@
       "server": "217.30.10.18",
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "89.223.93.176",
+      "server_port": 41348,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWbXNmMDZZVE1xdEFZZGh3TXFkU3VHcWdkVmttMHlkZGk0a1lhQUVWUVdZajlpSEE=",
       "password": null
     }
   ],

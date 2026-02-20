@@ -80,13 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @dargiiriis #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @flyv2ray #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
@@ -100,13 +102,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @dargiiriis #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @flyv2ray #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
@@ -197,11 +201,20 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
-      "server": "my.lezzatgo.ir",
-      "server_port": 8443,
-      "uuid": "38c26f23-5362-4902-8e0c-d43ace46dfb9",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @dargiiriis #1",
+      "type": "vless",
+      "server": "uktaz.taz-min.com",
+      "server_port": 6923,
+      "uuid": "45c48567-b3ee-4ab5-9ee0-562498c89488",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -219,20 +232,33 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "dns.mahoshid.ir",
+      "server_port": 1220,
+      "uuid": "5f2f7bd1-3cbf-4c44-a863-a89276337190",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -320,6 +346,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "ars.nexun.ir",
+      "server_port": 443,
+      "uuid": "24fd4c36-83ee-4655-9d9b-1a429773787d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

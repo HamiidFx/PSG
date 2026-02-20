@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | SS | @mftizi #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | SS | @mftizi #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | SS | @mftizi #1",
+      "type": "shadowsocks",
+      "server": "hk01.x.quickcht3.club",
+      "server_port": 52611,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI=",
+      "password": null
     }
   ],
   "route": {
