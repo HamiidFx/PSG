@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "185.237.185.89",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
     }
   ],
   "route": {

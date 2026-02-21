@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
@@ -101,9 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
@@ -116,27 +114,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.70",
-      "server_port": 9018,
-      "method": "YWVzLTI1Ni1jZmI6ZkcyYXJ0VW1IZk5UMmNYNw==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "pol2.linkey37.ru",
+      "server": "plcdn19.suio.me",
       "server_port": 443,
-      "uuid": "e86870a5-41f2-4b45-b487-795b8c1a33d4",
+      "uuid": "da11d62c-1996-4d2c-b2e6-e89c7a1265e9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -145,13 +127,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @v2ray_youtube #1",

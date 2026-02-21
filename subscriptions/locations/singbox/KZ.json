@@ -90,10 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
-        "🇰🇿 KZ | SS | @v2ray_free_conf #1"
+        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
-        "🇰🇿 KZ | SS | @v2ray_free_conf #1"
+        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,14 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "151.236.93.248",
-      "server_port": 7443,
-      "uuid": "a7a43ce1-78dd-4293-9b8c-5f0df01e030e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -146,20 +134,12 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @red2ray #1",
+      "tag": "🇰🇿 KZ | VLESS | @vpnplusee_free #1",
       "type": "vless",
       "server": "data.cloudvibe.ir",
       "server_port": 8443,
-      "uuid": "6ba7bd1b-46d0-4fa0-8771-9df6e7186a4d",
+      "uuid": "3b7ec44b-66d8-4822-b772-f1f50c3fec95",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇰🇿 KZ | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "213.156.137.142",
-      "server_port": 43659,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODIwMWJiZDc0MDQyMGJi",
-      "password": null
     }
   ],
   "route": {
