@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇵🇱 PL | VLESS | @red2ray #1", "server": "pol2.linkey37.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e86870a5-41f2-4b45-b487-795b8c1a33d4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇵🇱 PL | VLESS | @v2ray_youtube #1", "server": "pol2.linkey37.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e86870a5-41f2-4b45-b487-795b8c1a33d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇵🇱 PL | VLESS | @red2ray #1'
       - '🇵🇱 PL | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media

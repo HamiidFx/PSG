@@ -92,7 +92,9 @@
         "direct",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +104,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -163,6 +167,50 @@
       "server": "my.kiomars.shop",
       "server_port": 6610,
       "uuid": "283c14cf-e2d1-47bf-b997-fafd0d7f8402",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "95.217.175.232",
+      "server_port": 8888,
+      "uuid": "260f19e2-41c2-4f0c-870f-ab7e28e72ef6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "my.kiomars.shop",
+      "server_port": 6610,
+      "uuid": "78793680-044c-46d7-8062-8ad3497476f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

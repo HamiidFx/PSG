@@ -89,12 +89,12 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2rayngconfig #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,12 +114,12 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2rayngconfig #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -416,6 +416,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v_2rayng0 #1",
+      "type": "vmess",
+      "server": "id-lb.vhax.net",
+      "server_port": 80,
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/sshkit/Arsham85231/6347d08022b91/",
+        "headers": {
+          "Host": "zoom.us"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -520,15 +536,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2rayngconfig #1",
-      "type": "vmess",
-      "server": "68.167.181.220",
-      "server_port": 10010,
-      "uuid": "b4f7c326-5c4f-4e19-83d5-bfa43b461002",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

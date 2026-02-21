@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @outline_ir #1", "server": "data.cloudvibe.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "3b7ec44b-66d8-4822-b772-f1f50c3fec95", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @red2ray #1", "server": "data.cloudvibe.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "6ba7bd1b-46d0-4fa0-8771-9df6e7186a4d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇿 KZ | VLESS | @filterk0sh #1'
       - '🇰🇿 KZ | VLESS | @outline_ir #1'
+      - '🇰🇿 KZ | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
