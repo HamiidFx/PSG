@@ -94,6 +94,7 @@
         "🇨🇾 CY | VLESS | @flyv2ray #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇨🇾 CY | VLESS | @netfreedom0 #1",
+        "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
         "🇨🇾 CY | VLESS | @v2ray_youtube #1",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
@@ -109,6 +110,7 @@
         "🇨🇾 CY | VLESS | @flyv2ray #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇨🇾 CY | VLESS | @netfreedom0 #1",
+        "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
         "🇨🇾 CY | VLESS | @v2ray_youtube #1",
         "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
@@ -157,6 +159,22 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "pq-Hungary1.09vpn.com",
+      "server_port": 80,
+      "uuid": "703f722a-4bdf-4e9d-9afd-a681fdf87c74",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": ""
+        }
       }
     },
     {
