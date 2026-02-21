@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @outline_ir #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | SS | @v2ray_free_conf #1"
       ],
@@ -88,8 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @outline_ir #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | SS | @v2ray_free_conf #1"
       ],
@@ -105,6 +105,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "151.236.93.248",
+      "server_port": 7443,
+      "uuid": "a7a43ce1-78dd-4293-9b8c-5f0df01e030e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -127,14 +135,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "data.cloudvibe.ir",
-      "server_port": 8443,
-      "uuid": "3b7ec44b-66d8-4822-b772-f1f50c3fec95",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @red2ray #1",

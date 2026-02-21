@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇼 TW | TROJAN | @v2raych #1", "server": "green2.cdntencentmusic.com", "port": 31101, "type": "trojan", "skip-cert-verify": false, "password": "bef1e608-83df-4935-8169-8a345f5643e9"}
+  - {"name": "🇧🇪 BE | VLESS | @v2raych #1", "server": "151.101.10.79", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-SaFaVpN", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇼 TW | TROJAN | @v2raych #1'
+      - '🇧🇪 BE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
