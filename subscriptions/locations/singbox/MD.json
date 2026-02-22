@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @red2ray #1"
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @red2ray #1"
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @red2ray #1",
+      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "93.185.165.50",
-      "server_port": 55211,
-      "uuid": "d5c14a4d-9f74-4d5f-87d0-1b5f6c027253",
+      "server": "germ-node.genadata.online",
+      "server_port": 2040,
+      "uuid": "14818654-7689-453a-9a1f-4c72f89782d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "94.232.247.168",
+      "server_port": 41360,
+      "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

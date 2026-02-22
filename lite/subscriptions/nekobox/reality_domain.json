@@ -82,8 +82,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,8 +97,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -216,11 +218,28 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
-      "server": "ll0ll.vip",
-      "server_port": 8443,
-      "uuid": "b9dbc1ff-6364-4826-a973-71c0584116c4",
+      "server": "m1.designister.com",
+      "server_port": 443,
+      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "my.kiomars.shop",
+      "server_port": 6664,
+      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -238,11 +257,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "m1.designister.com",
-      "server_port": 443,
-      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
+      "server": "tr.prod.n7.homes",
+      "server_port": 8443,
+      "uuid": "010c8bf7-0a43-404f-a6c5-2427acb4d476",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -251,6 +270,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
