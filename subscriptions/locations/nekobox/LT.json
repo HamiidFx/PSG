@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -99,6 +101,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "86.38.214.27",
+      "server_port": 8443,
+      "uuid": "b14403db-b3e6-4b8f-b360-02b51f741abf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",

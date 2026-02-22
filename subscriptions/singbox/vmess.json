@@ -94,6 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -108,6 +109,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -117,6 +121,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -129,6 +134,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -143,6 +149,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -152,6 +161,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -252,6 +262,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "s2.forwardscdn.com",
+      "server_port": 2088,
+      "uuid": "e694ebc6-9257-4348-3128-b353005c4ce0",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -563,6 +582,56 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "172.67.73.163",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn?ed=2560",
+        "headers": {
+          "Host": "nasnet-571296497.iranpress.co"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "s5.forwardscdn.com",
+      "server_port": 2091,
+      "uuid": "82a010f9-1883-49a1-0f2e-6542e4c03611",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "198.62.62.199",
+      "server_port": 443,
+      "uuid": "f08369d1-5ee7-4b16-d786-30bce12fc33c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "ous3.dean52.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/f08369d1-5ee7-4b16-d786-30bce12fc33c",
+        "headers": {
+          "Host": "ous3.dean52.top"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v_2rayng0 #1",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -740,6 +809,22 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
