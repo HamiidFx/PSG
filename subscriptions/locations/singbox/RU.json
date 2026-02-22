@@ -92,10 +92,10 @@
         "direct",
         "🇷🇺 RU | VLESS | @armod_iran #1",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,10 +105,10 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @armod_iran #1",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -164,6 +164,14 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ru1.vpnreal.ru",
+      "server_port": 8443,
+      "uuid": "d08ff8b7-d4a3-4628-9c39-c9c3d256cbf7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -189,19 +197,19 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "176.124.223.138",
-      "server_port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "84.201.187.140",
+      "server_port": 3443,
+      "uuid": "2e0fd045-2937-42a4-8d01-9ae2948b8620",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
       "type": "vless",
-      "server": "37.139.42.234",
-      "server_port": 4443,
-      "uuid": "9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1",
+      "server": "ru.cheburnetnastalgia1998.com",
+      "server_port": 443,
+      "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -210,21 +218,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "158.160.105.121",
-      "server_port": 8443,
-      "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

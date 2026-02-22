@@ -89,9 +89,11 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,9 +113,11 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -410,18 +414,18 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "185.104.189.38",
-      "server_port": 80,
-      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "server": "104.19.37.10",
+      "server_port": 8080,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "path": "/NASNET/cdn",
         "headers": {
-          "Host": "imdb.com"
+          "Host": "nasnet-571299667.rahavard365.co"
         }
       }
     },
@@ -442,7 +446,48 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "104.21.69.44",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn",
+        "headers": {
+          "Host": "nasnet-511952424.mcitel.co"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
+      "type": "vmess",
+      "server": "104.18.212.12",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oliv.beauty:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,

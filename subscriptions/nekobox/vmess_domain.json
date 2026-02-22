@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -95,10 +96,13 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,6 +114,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -124,10 +129,13 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -231,6 +239,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "s5.forwardscdn.com",
+      "server_port": 2091,
+      "uuid": "82a010f9-1883-49a1-0f2e-6542e4c03611",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -542,6 +559,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "104.19.37.10",
+      "server_port": 8080,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/NASNET/cdn",
+        "headers": {
+          "Host": "nasnet-571299667.rahavard365.co"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
       "server": "185.104.189.38",
@@ -558,16 +591,16 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2rayngconfig #1",
       "type": "vmess",
-      "server": "hjk.freevpn2027.dpdns.org",
+      "server": "::ffff:ac40:9bd1",
       "server_port": 443,
-      "uuid": "721d3fd0-e9f1-40c3-92cd-d4405a4319d6",
+      "uuid": "ffece2a9-0296-46a9-8db8-742d29d240ff",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "hjk.freevpn2027.dpdns.org",
+        "server_name": "bedrid.denizhosting.me",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -576,9 +609,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LDTpW8UIEnTAiN9LMya",
+        "path": "ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn",
         "headers": {
-          "Host": "hjk.freevpn2027.dpdns.org"
+          "Host": "bedrid.denizhosting.me"
         }
       }
     },
@@ -599,7 +632,48 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "104.21.69.44",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn",
+        "headers": {
+          "Host": "nasnet-511952424.mcitel.co"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
+      "type": "vmess",
+      "server": "104.18.212.12",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oliv.beauty:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,
