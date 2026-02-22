@@ -84,13 +84,14 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
+        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
+        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,13 +106,14 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
+        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
+        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -260,6 +262,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
+      "type": "vless",
+      "server": "germ-node.genadata.online",
+      "server_port": 2040,
+      "uuid": "14818654-7689-453a-9a1f-4c72f89782d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
@@ -365,11 +389,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
+      "tag": "🇨🇭 CH | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "tr.prod.n7.homes",
-      "server_port": 8443,
-      "uuid": "010c8bf7-0a43-404f-a6c5-2427acb4d476",
+      "server": "ir.grbr.private-link.lornanet.ir",
+      "server_port": 3130,
+      "uuid": "cd00cbb8-a849-332e-9199-cbaf2050e785",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -387,7 +411,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnv2raytop #2",
       "type": "vless",
       "server": "eedf07fd7be44fcd.reni-z1.maf-tahas.ir",
       "server_port": 8585,

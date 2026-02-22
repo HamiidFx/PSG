@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @outline_ir #1",
+      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "188.132.183.140",
+      "server": "91.132.51.160",
       "server_port": 443,
-      "uuid": "213325c6-ef4b-4cdb-850b-24a06f2865c8",
+      "uuid": "fed05faf-401f-3412-b658-5c96f3095dd0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,33 +114,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "tr.prod.n7.homes",
-      "server_port": 8443,
-      "uuid": "010c8bf7-0a43-404f-a6c5-2427acb4d476",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
