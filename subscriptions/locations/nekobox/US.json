@@ -117,7 +117,6 @@
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
         "🇺🇸 US | VLESS | @mpproxy #4",
-        "🇺🇸 US | VLESS | @mpproxy #5",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -136,11 +135,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | SS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -197,7 +196,6 @@
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
         "🇺🇸 US | VLESS | @mpproxy #4",
-        "🇺🇸 US | VLESS | @mpproxy #5",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -216,11 +214,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | SS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -762,21 +760,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @mpproxy #5",
-      "type": "vless",
-      "server": "151.101.128.223",
-      "server_port": 80,
-      "uuid": "a2514b27-7d60-44b3-b440-e8a9579510fa",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @msv2raynp #1",
       "type": "vless",
       "server": "151.101.64.155",
@@ -1007,20 +990,12 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "185.104.189.38",
-      "server_port": 80,
-      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
-        "headers": {
-          "Host": "imdb.com"
-        }
-      }
+      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "64.74.163.218",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
@@ -1040,6 +1015,18 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "freede.spectrum.vu",
+      "server_port": 444,
+      "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfig #1",
       "type": "vless",
       "server": "speedtest.net",
@@ -1053,14 +1040,6 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
       "packet_encoding": "xudp"
     },
     {

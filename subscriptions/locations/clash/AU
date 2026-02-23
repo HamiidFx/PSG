@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
   - {"name": "🇦🇺 AU | VMESS | @khoneproxy #1", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
+  - {"name": "🇦🇺 AU | VMESS | @vpngate_config #1", "server": "phosphorylative.aurorainiceland.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/nimvws", "headers": {"Host": "phosphorylative.aurorainiceland.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇦🇺 AU | VMESS | @dailyv2ray #1'
       - '🇦🇺 AU | VMESS | @khoneproxy #1'
+      - '🇦🇺 AU | VMESS | @vpngate_config #1'
 
   - name: 🌍 Global Media
     type: select
