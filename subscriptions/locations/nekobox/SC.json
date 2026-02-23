@@ -81,13 +81,9 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
-        "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇸🇨 SC | VLESS | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,13 +95,9 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
-        "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇸🇨 SC | VLESS | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -171,36 +163,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "a.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇨 SC | VLESS | @ehsawn8 #1",
       "type": "vless",
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "a36e3773-cad9-4da8-a2d6-4708f3d7754f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "h.zzula.ir",
-      "server_port": 443,
-      "uuid": "e07ef651-915e-4912-9df7-5d5921bb3319",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -226,29 +193,6 @@
       "server": "glob.thisiswe.uno",
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "glob.thisiswe.uno",
-      "server_port": 8443,
-      "uuid": "aab1a536-7a2c-4357-a0e0-8cdde41845c6",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "a.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
     }
   ],

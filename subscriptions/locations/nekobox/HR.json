@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @config_proxy #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇭🇷 HR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @config_proxy #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇭🇷 HR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "94.183.150.47",
-      "server_port": 8081,
-      "uuid": "07581e9c-8e76-47aa-af3f-d5699d648f20",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "38.180.27.102",
-      "server_port": 8443,
-      "uuid": "1d6705da-0790-49bf-bf47-b166d2e945cf",
-      "packet_encoding": "xudp"
+      "tag": "🇭🇷 HR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "5.181.2.73",
+      "server_port": 43248,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXYXZIZVNHRnhmdnJra2JRZDQ4UHJC",
+      "password": null
     }
   ],
   "route": {
