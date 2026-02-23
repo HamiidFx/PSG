@@ -84,7 +84,9 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
@@ -102,7 +104,9 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
@@ -267,12 +271,52 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "dd.openaccessnode.com",
+      "server_port": 5228,
+      "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
       "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fran.scroogethebest.com",
+      "server_port": 443,
+      "uuid": "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

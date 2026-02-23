@@ -23,14 +23,15 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @kafing_2 #1", "server": "151.101.206.133", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1cc40572-43d1-44a7-ad26-312fa7206997", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @outline_ir #1", "server": "194.87.31.160", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @sobi_vpn #1", "server": "45.131.4.5", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_collector #1", "server": "208.67.105.196", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_youtube #1", "server": "81.85.76.89", "port": 4444, "type": "vless", "skip-cert-verify": true, "uuid": "1b0ad61b-1be2-4cda-9979-984a965b0da5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "87.239.252.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c819f3b4-0c46-4ad3-8b6c-beef5215be4a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2rayngconfiig #1", "server": "fi.podpiska.vip", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fc363de7-5d11-42e0-b9c0-79d59274882a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @vpn_ioss #1", "server": "51.158.206.98", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇱 NL | VLESS | @vpnplusee_free #1", "server": "45.89.220.73", "port": 440, "type": "vless", "skip-cert-verify": true, "uuid": "3b65b745-db95-494c-838d-026a4023a194", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -44,14 +45,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @kafing_2 #1'
       - '🇳🇱 NL | VLESS | @outline_ir #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇳🇱 NL | VLESS | @sobi_vpn #1'
       - '🇳🇱 NL | VLESS | @v2ray_collector #1'
       - '🇳🇱 NL | VLESS | @v2ray_youtube #1'
+      - '🇳🇱 NL | VLESS | @v2raych #1'
       - '🇳🇱 NL | VLESS | @v2rayngconfiig #1'
       - '🇳🇱 NL | VLESS | @vpn_ioss #1'
-      - '🇳🇱 NL | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

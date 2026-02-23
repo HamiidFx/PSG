@@ -82,8 +82,9 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2"
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @v2ray1_ng #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,8 +97,9 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2"
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @v2ray1_ng #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -180,19 +182,45 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "tag": "🇸🇨 SC | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "a.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "194.156.26.121",
+      "server_port": 443,
+      "uuid": "eba6d323-71c6-43a1-a2d6-78e0e89573cd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @red2ray #2",
+      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "glob.thisiswe.uno",
-      "server_port": 2053,
-      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "server": "ihp.masterdom.ir",
+      "server_port": 443,
+      "uuid": "be6111d8-5844-4b25-95aa-e64a08662db5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray1_ng #1",
+      "type": "vless",
+      "server": "poli.appleseraj.ir",
+      "server_port": 2096,
+      "uuid": "75d8e7bb-74f8-4c25-a72f-dc3d983fb6d7",
       "packet_encoding": "xudp"
     }
   ],

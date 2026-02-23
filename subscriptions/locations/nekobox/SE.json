@@ -98,14 +98,14 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #2",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -134,14 +134,14 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #2",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -402,6 +402,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "dd.openaccessnode.com",
+      "server_port": 5228,
+      "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "185.146.173.59",
@@ -478,14 +500,6 @@
         "insecure": false,
         "alpn": null
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "199.232.173.212",
-      "server_port": 80,
-      "uuid": "50b0f905-ff29-4d9b-bf2e-161a4dff6426",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
