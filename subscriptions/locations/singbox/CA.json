@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +137,22 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "149.248.62.163",
+      "server_port": 9131,
+      "uuid": "a3c624bd-3183-4f66-b1d1-35914fc9867c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "144.217.164.29",
+      "server_port": 12000,
+      "method": "YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09",
+      "password": null
     }
   ],
   "route": {

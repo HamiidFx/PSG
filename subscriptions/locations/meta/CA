@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
+  - {"name": "🇨🇦 CA | VLESS | @mtproxy22_v2ray #1", "server": "149.248.62.163", "port": 9131, "type": "vless", "skip-cert-verify": true, "uuid": "a3c624bd-3183-4f66-b1d1-35914fc9867c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇨🇦 CA | VLESS | @jokerv2ray #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2'
+      - '🇨🇦 CA | VLESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select
