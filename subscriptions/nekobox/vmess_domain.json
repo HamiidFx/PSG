@@ -95,7 +95,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -127,7 +127,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -548,13 +548,20 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "v10.hdacd.com",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "server": "104.26.14.85",
+      "server_port": 8080,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
       "security": "auto",
-      "alter_id": 2
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn",
+        "headers": {
+          "Host": "nasnet-571296497.iranpress.co"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @v2rayngconfig #1",

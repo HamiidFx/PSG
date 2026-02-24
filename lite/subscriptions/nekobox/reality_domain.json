@@ -80,9 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +94,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -183,6 +185,32 @@
       }
     },
     {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "nl01.bearvpn.win",
+      "server_port": 443,
+      "uuid": "5797a04f-7636-46df-9354-fd74c2264a28",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -218,28 +246,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "my.kiomars.shop",
-      "server_port": 6610,
-      "uuid": "283c14cf-e2d1-47bf-b997-fafd0d7f8402",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

@@ -108,7 +108,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -120,6 +120,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -147,7 +148,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -159,6 +160,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -571,13 +573,20 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "v10.hdacd.com",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "server": "104.26.14.85",
+      "server_port": 8080,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
       "security": "auto",
-      "alter_id": 2
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn",
+        "headers": {
+          "Host": "nasnet-571296497.iranpress.co"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @v2rayngconfig #1",
@@ -807,6 +816,22 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
         }
       }
     },
