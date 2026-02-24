@@ -78,9 +78,7 @@
         "auto",
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @vmesc #1",
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @vmesc #1",
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,30 +120,6 @@
       "transport": {
         "type": "ws",
         "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "144.217.133.97",
-      "server_port": 30238,
-      "uuid": "27b6068a-e1e6-4675-ab14-87143c690390",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
         "headers": {
           "Host": ""
         }
