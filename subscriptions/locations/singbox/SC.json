@@ -95,15 +95,16 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @bored_vpn #3",
+        "🇸🇨 SC | SS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @hope_net #1",
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outline_ir #2",
         "🇸🇨 SC | VLESS | @outline_ir #3",
         "🇸🇨 SC | VLESS | @v2raying #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
-        "🇸🇨 SC | VLESS | @v2raymelliii #2",
         "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
@@ -118,15 +119,16 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @bored_vpn #3",
+        "🇸🇨 SC | SS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @hope_net #1",
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outline_ir #2",
         "🇸🇨 SC | VLESS | @outline_ir #3",
         "🇸🇨 SC | VLESS | @v2raying #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
-        "🇸🇨 SC | VLESS | @v2raymelliii #2",
         "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
@@ -198,6 +200,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | SS | @config_proxy #1",
+      "type": "shadowsocks",
+      "server": "a.pabloping.cloud",
+      "server_port": 2052,
+      "method": "YXV0bzpucx87ax1vTj48HWl6",
+      "password": null
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @ehsawn8 #1",
       "type": "vless",
       "server": "45.130.125.160",
@@ -217,9 +227,26 @@
     {
       "tag": "🇸🇨 SC | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "154.219.5.9",
+      "server": "154.219.5.84",
       "server_port": 443,
-      "uuid": "eae02a50-e329-4647-926e-8439e685f317",
+      "uuid": "a98d1e7d-e794-449c-b8a0-34fa6d4478b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "194.156.26.121",
+      "server_port": 443,
+      "uuid": "eba6d323-71c6-43a1-a2d6-78e0e89573cd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -250,7 +277,7 @@
     {
       "tag": "🇸🇨 SC | VLESS | @outline_ir #2",
       "type": "vless",
-      "server": "a.pabloping.cloud",
+      "server": "45.130.125.160",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
@@ -258,9 +285,9 @@
     {
       "tag": "🇸🇨 SC | VLESS | @outline_ir #3",
       "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "server": "45.130.125.198",
+      "server_port": 2053,
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
     },
     {
@@ -273,14 +300,6 @@
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "glob.thisiswe.uno",
-      "server_port": 2083,
-      "uuid": "3238e861-cfd2-4ebf-d325-2bd8100cf63e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "glob.thisiswe.uno",
       "server_port": 2053,

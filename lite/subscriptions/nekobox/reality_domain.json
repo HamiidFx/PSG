@@ -80,9 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -183,15 +183,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -214,7 +205,29 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "ip.speedcheck.mobileemdad.top",
+      "server_port": 4450,
+      "uuid": "830d006b-a1c1-4990-be92-478a47e249c5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
