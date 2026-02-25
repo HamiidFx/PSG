@@ -95,12 +95,12 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | SS | @red2ray #1",
-        "🇬🇧 GB | SS | @red2ray #2",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2raych #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1",
+        "🇬🇧 GB | VLESS | @vpn_ioss #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,12 +113,12 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | SS | @red2ray #1",
-        "🇬🇧 GB | SS | @red2ray #2",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2raych #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1",
+        "🇬🇧 GB | VLESS | @vpn_ioss #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -170,20 +170,12 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @red2ray #2",
-      "type": "shadowsocks",
-      "server": "admin.c2.havij.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
-      "password": null
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "go.adslimit.info",
+      "server_port": 2345,
+      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
@@ -191,14 +183,6 @@
       "server": "account-mec.emofid.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "192.248.148.230",
-      "server_port": 1080,
-      "method": "YWVzLTEyOC1nY206RmdFT0UzN1FqVmZkNzJjb2M0a3VFQQ==",
       "password": null
     },
     {
@@ -219,11 +203,27 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "simurgh.adslimit.info",
       "server_port": 2345,
       "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "57.129.133.88",
+      "server_port": 2345,
+      "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
       "packet_encoding": "xudp"
     }
   ],
