@@ -90,12 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | SS | @v2rayopen #1",
-        "🇹🇷 TR | VLESS | @vmesc #1",
-        "🇹🇷 TR | SS | @vpn_ioss #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | SS | @v2rayopen #1",
-        "🇹🇷 TR | VLESS | @vmesc #1",
-        "🇹🇷 TR | SS | @vpn_ioss #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,36 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "77.83.245.171",
-      "server_port": 43816,
-      "method": "YXV0bzprd380G29xHlw=",
-      "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "103.231.75.185",
-      "server_port": 443,
-      "uuid": "f078abea-a480-44c7-a785-4436c767835a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
@@ -164,14 +126,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "62.60.233.220",
-      "server_port": 18685,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
@@ -194,14 +148,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "62.133.63.167",
-      "server_port": 61377,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMTJ5WkJQQzd5OFNubWtTWWpmMFds",
-      "password": null
     }
   ],
   "route": {

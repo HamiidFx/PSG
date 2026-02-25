@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @armod_iran #1", "server": "51.250.83.255", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c4d9855b-7eac-44ab-a8a5-d811f371df1b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "51.250.4.119", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9a599b2e-5455-44d5-9a72-5c76f28e93e3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1", "server": "185.86.147.218", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7affe6ed-3783-4570-b1c7-c8049a94bb9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "ru.cheburnetnastalgia1998.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
@@ -39,6 +41,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @armod_iran #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
       - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
