@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @hope_net #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @hope_net #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇱🇹 LT | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "86.38.214.52",
-      "server_port": 443,
-      "uuid": "a98d1e7d-e794-449c-b8a0-34fa6d4478b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",
