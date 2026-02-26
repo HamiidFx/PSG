@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
+  - {"name": "🇨🇦 CA | VLESS | @vpnplusee_free #1", "server": "144.217.133.97", "port": 30238, "type": "vless", "skip-cert-verify": true, "uuid": "27b6068a-e1e6-4675-ab14-87143c690390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VMESS | @NamiraConfigs #1", "server": "51.79.102.253", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "58fe1542-5290-40ad-815a-77707a81afe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/IOebhLMhl1CTbFHbL95myfRX2", "headers": {"Host": "51.79.102.253"}}}
 
 proxy-groups:
@@ -41,6 +42,7 @@ proxy-groups:
     proxies: 
       - '🇨🇦 CA | VLESS | @jokerv2ray #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2'
+      - '🇨🇦 CA | VLESS | @vpnplusee_free #1'
       - '🇨🇦 CA | VMESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media

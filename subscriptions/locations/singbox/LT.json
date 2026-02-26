@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @config_proxy #1",
+        "🇱🇹 LT | VLESS | @hope_net #1",
+        "🇱🇹 LT | VLESS | @outline_ir #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -99,7 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @config_proxy #1",
+        "🇱🇹 LT | VLESS | @hope_net #1",
+        "🇱🇹 LT | VLESS | @outline_ir #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -112,7 +114,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇹 LT | VLESS | @config_proxy #1",
+      "tag": "🇱🇹 LT | VLESS | @hope_net #1",
       "type": "vless",
       "server": "89.116.250.128",
       "server_port": 443,
@@ -125,6 +127,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "93.115.25.177",
+      "server_port": 443,
+      "uuid": "7c3f08c8-7b3b-4028-91d8-378a18c2b62a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

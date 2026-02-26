@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
-        "🇨🇭 CH | VLESS | @vpnplusee_free #1"
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
-        "🇨🇭 CH | VLESS | @vpnplusee_free #1"
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +112,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "185.227.149.123",
+      "server_port": 443,
+      "uuid": "7c3f08c8-7b3b-4028-91d8-378a18c2b62a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -151,14 +173,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "83.228.231.196",
-      "server_port": 56249,
-      "uuid": "4cb986b2-f314-4a99-b207-6cc82f10878a",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
