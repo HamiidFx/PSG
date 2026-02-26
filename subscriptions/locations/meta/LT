@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇹 LT | VLESS | @hope_net #1", "server": "89.116.250.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇹 LT | VLESS | @outline_ir #1", "server": "93.115.25.177", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7c3f08c8-7b3b-4028-91d8-378a18c2b62a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇱🇹 LT | VLESS | @prrofile_purple #1", "server": "cp8.prodnsspeed10.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b05d5744-6986-4567-bd34-b3a37766ead4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇹 LT | VLESS | @v2ray_collector #1", "server": "89.116.180.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇹 LT | VLESS | @hope_net #1'
       - '🇱🇹 LT | VLESS | @outline_ir #1'
+      - '🇱🇹 LT | VLESS | @prrofile_purple #1'
       - '🇱🇹 LT | VLESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media

@@ -97,8 +97,9 @@
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2"
+        "🇱🇹 LT | VLESS | @prrofile_purple #1",
+        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,8 +114,9 @@
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2"
+        "🇱🇹 LT | VLESS | @prrofile_purple #1",
+        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -230,7 +232,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇰 DK | VLESS | @v2ray_youtube #1",
+      "tag": "🇱🇹 LT | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "cp8.prodnsspeed10.ir",
+      "server_port": 443,
+      "uuid": "b05d5744-6986-4567-bd34-b3a37766ead4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ss.mrrnasr.ir",
       "server_port": 443,
@@ -247,7 +266,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,

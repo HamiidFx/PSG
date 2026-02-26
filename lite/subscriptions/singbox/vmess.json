@@ -93,6 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇩🇪 DE | VMESS | @khoneproxy #1",
+        "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -102,13 +106,9 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇯🇵 JP | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,6 +119,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇩🇪 DE | VMESS | @khoneproxy #1",
+        "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -128,13 +132,9 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇯🇵 JP | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,6 +215,78 @@
         "headers": {
           "Host": ""
         }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "104.17.103.249",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
+      "type": "vmess",
+      "server": "142.132.163.200",
+      "server_port": 80,
+      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1",
+      "type": "vmess",
+      "server": "168.119.174.229",
+      "server_port": 443,
+      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
+      "type": "vmess",
+      "server": "172.66.213.38",
+      "server_port": 443,
+      "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy4c1.iraniancpi.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "WgCmp8p80KDzo64uHE"
       }
     },
     {
@@ -427,31 +499,6 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "n1753598452.wpg27.xyz",
-      "server_port": 443,
-      "uuid": "4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "n1753598452.wpg27.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "n1753598452.wpg27.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @v_2rayng0 #1",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -515,62 +562,6 @@
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
         }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
-      "type": "vmess",
-      "server": "142.132.163.200",
-      "server_port": 80,
-      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/graphql",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1",
-      "type": "vmess",
-      "server": "168.119.174.229",
-      "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
-      "type": "vmess",
-      "server": "172.66.213.38",
-      "server_port": 443,
-      "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy4c1.iraniancpi.uk",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "WgCmp8p80KDzo64uHE"
       }
     }
   ],

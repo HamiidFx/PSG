@@ -77,11 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #2"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #2"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,28 +103,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "poland.tconnect.services",
-      "server_port": 443,
-      "uuid": "ea9ba1ec-bfe7-407b-bd21-aeebc86da741",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "217.30.10.70",
@@ -144,22 +116,6 @@
       "server": "217.30.10.18",
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9026,
-      "method": "YWVzLTI1Ni1jZmI6UVdERHZWRTlucE51clFmQQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #2",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9003,
-      "method": "YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA==",
       "password": null
     }
   ],

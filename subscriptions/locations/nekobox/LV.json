@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @red2ray #1",
-        "🇱🇻 LV | VLESS | @vmesskhodam #1"
+        "🇱🇻 LV | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @red2ray #1",
-        "🇱🇻 LV | VLESS | @vmesskhodam #1"
+        "🇱🇻 LV | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,34 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "45.43.79.73",
-      "server_port": 443,
-      "uuid": "f79d200c-ac04-45a8-98a7-031d629f705c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇱🇻 LV | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "parsaprivae.isgood.host",
-      "server_port": 22750,
-      "uuid": "cc1d0ad9-d4ac-4b7e-a9ba-048fa96a9e1e",
-      "packet_encoding": "xudp"
+      "tag": "🇱🇻 LV | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "185.82.126.217",
+      "server_port": 2053,
+      "method": "YXV0bzptNm9te3Mdbj5pc10=",
+      "password": null
     }
   ],
   "route": {

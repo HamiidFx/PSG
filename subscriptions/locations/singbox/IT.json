@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTVQ=
+//profile-title: base64:UFNHIHwgSVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇹 MT | SS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇹 MT | SS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇹 MT | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "171.22.254.17",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
+      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "ss.mrrnasr.ir",
+      "server_port": 443,
+      "uuid": "51c27910-f70a-4dac-b8f1-88ac6f1cbdf5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
