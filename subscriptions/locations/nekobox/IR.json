@@ -79,7 +79,6 @@
         "direct",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -87,6 +86,7 @@
         "🇮🇷 IR | VLESS | @golf_vpn #5",
         "🇮🇷 IR | VLESS | @golf_vpn #6",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VLESS | @komail315 #1",
         "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
         "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -101,7 +101,8 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | SS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpnplusee_free #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
@@ -113,7 +114,6 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -121,6 +121,7 @@
         "🇮🇷 IR | VLESS | @golf_vpn #5",
         "🇮🇷 IR | VLESS | @golf_vpn #6",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VLESS | @komail315 #1",
         "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
         "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -135,7 +136,8 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | SS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpnplusee_free #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
@@ -177,14 +179,6 @@
       "server_port": 60633,
       "method": "MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0=",
       "password": null
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "193.151.158.183",
-      "server_port": 9000,
-      "uuid": "fe08cb95-a7bd-48d3-b3e8-e083ab8cd9bc",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #1",
@@ -277,6 +271,14 @@
       "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @komail315 #1",
+      "type": "vless",
+      "server": "poland.a1mshop2.xyz",
+      "server_port": 49894,
+      "uuid": "29a6f284-dd9f-48be-9c26-7fea94064322",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
@@ -418,17 +420,39 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2raymelliii #1",
-      "type": "shadowsocks",
-      "server": "46.38.143.236",
-      "server_port": 60633,
-      "method": "YXV0bzo=",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "94.184.13.2",
+      "server_port": 5369,
+      "uuid": "c63f2a64-23f1-4273-9a0b-bd5953dae616",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "193.151.158.133",
+      "server_port": 9000,
+      "uuid": "fe08cb95-a7bd-48d3-b3e8-e083ab8cd9bc",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "188.212.97.195",
+      "server": "azinsite.amir777.sbs",
       "server_port": 2010,
       "uuid": "3c54640f-3194-40ee-a885-1e231c17bdc2",
       "packet_encoding": "xudp"

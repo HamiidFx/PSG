@@ -93,9 +93,11 @@
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -150,7 +152,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -163,7 +166,6 @@
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnowl #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -175,9 +177,11 @@
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -232,7 +236,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -245,7 +250,6 @@
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnowl #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -298,6 +302,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "web2.trmas-po.ir",
+      "server_port": 2083,
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @connectshu #1",
       "type": "vless",
       "server": "66.81.247.155",
@@ -328,6 +340,14 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -1039,18 +1059,27 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "support.zoom.us",
-      "server_port": 8080,
-      "uuid": "44e57485-eccc-46ef-808f-cd17ac810018",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/@Malinda6104",
-        "headers": {
-          "Host": "support.zoom.us"
+      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "imap.roomyinmita.name",
+      "server_port": 40565,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA=",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "ss.mrrnasr.ir",
+      "server_port": 443,
+      "uuid": "51c27910-f70a-4dac-b8f1-88ac6f1cbdf5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1227,14 +1256,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @vpnowl #1",
-      "type": "vless",
-      "server": "www.fastly.com",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnowl #2",
       "type": "vless",
       "server": "dash.getasa.ir",
       "server_port": 443,

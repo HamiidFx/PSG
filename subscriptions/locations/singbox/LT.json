@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇹 LT | VMESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇹 LT | VMESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -108,6 +110,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "85.206.165.36",
+      "server_port": 443,
+      "uuid": "ba49ab05-78f8-4b0b-9400-1826cc2d3f75",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",

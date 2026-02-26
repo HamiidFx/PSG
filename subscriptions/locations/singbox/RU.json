@@ -91,12 +91,13 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @armod_iran #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #2",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #3",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,12 +106,13 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @armod_iran #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #2",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #3",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +142,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "95.163.208.217",
+      "server_port": 443,
+      "uuid": "e72b7b21-22ac-48cd-a42d-1ab653822d84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -181,6 +200,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #3",
+      "type": "vless",
+      "server": "37.139.35.53",
+      "server_port": 8443,
+      "uuid": "c501c66b-c6c2-456b-b604-80393b83d67f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -229,28 +256,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "5.cdnconn.com",
-      "server_port": 23335,
-      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

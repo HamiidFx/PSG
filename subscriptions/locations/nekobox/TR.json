@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
@@ -87,6 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
@@ -103,6 +105,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "103.231.75.185",
+      "server_port": 443,
+      "uuid": "f078abea-a480-44c7-a785-4436c767835a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
