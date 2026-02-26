@@ -139,8 +139,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -223,8 +223,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -295,9 +295,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "web2.trmas-po.ir",
-      "server_port": 2083,
-      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
+      "server": "55ae6e1c3bffa10e.speedtest.net",
+      "server_port": 80,
+      "uuid": "3af4acb2-3c3d-44c4-b3bd-e3cb950a99b4",
       "packet_encoding": "xudp"
     },
     {
@@ -1050,14 +1050,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "imap.roomyinmita.name",
-      "server_port": 40565,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA=",
-      "password": null
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ss.mrrnasr.ir",
@@ -1071,6 +1063,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.15.125.8",
+      "server_port": 8443,
+      "uuid": "b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
