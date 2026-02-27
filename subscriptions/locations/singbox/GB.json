@@ -100,9 +100,10 @@
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,9 +121,10 @@
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -192,15 +194,15 @@
     {
       "tag": "🇬🇧 GB | SS | @red2ray #1",
       "type": "shadowsocks",
-      "server": "82.38.31.61",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @red2ray #2",
       "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
+      "server": "series-a2.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
@@ -212,6 +214,23 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "167.99.80.91",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesc #1",
@@ -239,12 +258,12 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "simurgh.adslimit.info",
-      "server_port": 2345,
-      "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
-      "packet_encoding": "xudp"
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.61",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     }
   ],
   "route": {

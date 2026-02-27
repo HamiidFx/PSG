@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VMESS | @vpngate_config #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VMESS | @vpngate_config #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -151,31 +149,6 @@
         "path": "/tq98e0yk",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @vpngate_config #1",
-      "type": "vmess",
-      "server": "phosphorylative.aurorainiceland.com",
-      "server_port": 443,
-      "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "phosphorylative.aurorainiceland.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimvws",
-        "headers": {
-          "Host": "phosphorylative.aurorainiceland.com"
         }
       }
     }

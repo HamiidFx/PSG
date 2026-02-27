@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @vpnplusee_free #1"
+        "🇪🇸 ES | VLESS | @netmellianti #1",
+        "🇪🇸 ES | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @vpnplusee_free #1"
+        "🇪🇸 ES | VLESS | @netmellianti #1",
+        "🇪🇸 ES | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,9 +112,9 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @vpnplusee_free #1",
+      "tag": "🇪🇸 ES | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "4.cdnconn.com",
+      "server": "185.147.26.30",
       "server_port": 23335,
       "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇪🇸 ES | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "method": "e384XTo7bz5rG8abbw==",
+      "password": null
     }
   ],
   "route": {
