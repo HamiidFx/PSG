@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +105,56 @@
       "type": "direct"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "poland.tconnect.services",
+      "server_port": 443,
+      "uuid": "ea9ba1ec-bfe7-407b-bd21-aeebc86da741",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "217.30.10.18",
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "3.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

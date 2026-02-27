@@ -95,8 +95,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -106,7 +106,6 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -134,8 +133,8 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -145,7 +144,6 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -562,6 +560,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "104.21.56.168",
+      "server_port": 443,
+      "uuid": "721d3fd0-e9f1-40c3-92cd-d4405a4319d6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "yhj.iran2026.indevs.in",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LDTpW8UIEnTAiN9LMya",
+        "headers": {
+          "Host": "yhj.iran2026.indevs.in"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @v2rayngconfig #1",
       "type": "vmess",
       "server": "::ffff:ac40:9bd1",
@@ -583,22 +606,6 @@
         "path": "ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn",
         "headers": {
           "Host": "bedrid.denizhosting.me"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
-      "type": "vmess",
-      "server": "tr1-smart.adelping.com",
-      "server_port": 80,
-      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
         }
       }
     },
@@ -789,24 +796,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "5.75.246.162",
-      "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

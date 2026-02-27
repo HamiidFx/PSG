@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
@@ -89,8 +90,9 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇱🇹 LT | VLESS | @prrofile_purple #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -103,6 +105,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
@@ -111,8 +114,9 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇱🇹 LT | VLESS | @prrofile_purple #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -209,6 +213,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "www.bikofile.ir",
+      "server_port": 443,
+      "uuid": "1b46ec1f-9b8e-431c-8f27-e058fcecf369",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
@@ -282,7 +303,7 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ss.mrrnasr.ir",
       "server_port": 443,
@@ -304,6 +325,14 @@
       "server": "speedtest.net",
       "server_port": 80,
       "uuid": "075f9190-5341-4464-a538-0041193065b1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfig #1",
+      "type": "vless",
+      "server": "ip1.gptban.com",
+      "server_port": 80,
+      "uuid": "9f17cce5-2af8-4a92-bcdf-6fd9891d0efe",
       "packet_encoding": "xudp"
     },
     {
