@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @flyv2ray #1",
-        "🇦🇪 AE | VLESS | @prrofile_purple #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @flyv2ray #1",
-        "🇦🇪 AE | VLESS | @prrofile_purple #1"
+        "🇦🇪 AE | VLESS | @prrofile_purple #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,23 @@
       "server_port": 36279,
       "uuid": "90826ad0-5ad0-4758-bc6f-72e029bb274d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "de.ipcl0ud.com",
+      "server_port": 443,
+      "uuid": "0dba6aad-3dc4-4ef6-acee-59c31271bf01",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

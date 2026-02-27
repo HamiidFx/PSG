@@ -27,14 +27,15 @@ proxies:
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #1", "server": "199.232.169.135", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #2", "server": "199.232.169.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @netfreedom0 #1", "server": "157.173.127.224", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bec44ac3-a662-4179-a9dd-2aa881706dde", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.37.158.58", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "13.39.176.199", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.39.176.199", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "13.37.41.238", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @proxyfn #1", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "141.11.203.139", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VMESS | @v2raytg #1", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.37.158.58", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2", "server": "13.39.176.199", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #1", "server": "13.37.158.58", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.37.158.58"}}}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.39.176.199", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2", "server": "13.37.41.238", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #1", "server": "13.39.176.199", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.39.176.199"}}}
+  - {"name": "🇫🇷 FR | VLESS | @vlessconfig #2", "server": "13.37.41.238", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "13.37.41.238"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -60,6 +61,7 @@ proxy-groups:
       - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
       - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #2'
       - '🇫🇷 FR | VLESS | @vlessconfig #1'
+      - '🇫🇷 FR | VLESS | @vlessconfig #2'
 
   - name: 🌍 Global Media
     type: select

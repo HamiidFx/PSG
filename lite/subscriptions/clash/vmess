@@ -23,10 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | VMESS | @config_proxy #1", "server": "104.17.103.249", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/aries", "headers": {"Host": "104.17.103.249"}}}
-  - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
-  - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy #1", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -39,6 +35,9 @@ proxies:
   - {"name": "🇺🇸 US | VMESS | @v_2rayng0 #1", "server": "id-lb.vhax.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "6fea1649-425b-4092-bf53-29792152c925", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/sshkit/Arsham85231/6347d08022b91/", "headers": {"Host": "zoom.us"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "104.18.212.12", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/oliv.beauty:443/linkvws", "headers": {"Host": "sub.yifenjichang.top"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #2", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
+  - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
+  - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -52,10 +51,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | VMESS | @config_proxy #1'
-      - '🇩🇪 DE | VMESS | @khoneproxy #1'
-      - '🇩🇪 DE | VMESS | @magickey_shop #1'
-      - '🇽🇽 XX | VMESS | @proxy48 #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇧🇾 BY | VMESS | @ir_netproxy #1'
@@ -68,6 +63,9 @@ proxy-groups:
       - '🇺🇸 US | VMESS | @v_2rayng0 #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
       - '🇺🇸 US | VMESS | @vpngate_config #2'
+      - '🇩🇪 DE | VMESS | @khoneproxy #1'
+      - '🇩🇪 DE | VMESS | @magickey_shop #1'
+      - '🇽🇽 XX | VMESS | @proxy48 #1'
 
   - name: 🌍 Global Media
     type: select

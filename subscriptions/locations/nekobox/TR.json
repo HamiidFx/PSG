@@ -78,9 +78,10 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @flyv2ray #1",
+        "🇹🇷 TR | SS | @red2ray #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +90,10 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @flyv2ray #1",
+        "🇹🇷 TR | SS | @red2ray #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,6 +129,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "62.60.233.220",
+      "server_port": 18685,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
@@ -167,11 +177,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
+      "tag": "🇹🇷 TR | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "tr.tconnect.services",
+      "server": "103.231.75.185",
       "server_port": 443,
-      "uuid": "ea9ba1ec-bfe7-407b-bd21-aeebc86da741",
+      "uuid": "f078abea-a480-44c7-a785-4436c767835a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
