@@ -80,13 +80,13 @@
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | SS | @selinc #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | TROJAN | @v2raych #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -98,13 +98,13 @@
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | SS | @selinc #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | TROJAN | @v2raych #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -145,6 +145,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "141.98.101.182",
@@ -177,14 +194,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @selinc #1",
-      "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
       "type": "shadowsocks",
       "server": "account-mec.emofid.co",
@@ -193,20 +202,12 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "154.203.183.119",
+      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
       "server_port": 443,
-      "password": "pingUserForApp189",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesc #1",

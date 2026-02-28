@@ -79,9 +79,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
+        "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,9 +89,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1"
+        "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,46 +131,12 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
-      "type": "vless",
-      "server": "parspack.com",
-      "server_port": 443,
-      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "m1.designister.com",
-      "server_port": 443,
-      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #2",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -86,7 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #2",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -103,11 +105,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "144.31.90.114",
-      "server_port": 443,
-      "uuid": "22fc4701-8c86-4d4f-a858-8f5921d83977",
+      "server": "my.kiomars.shop",
+      "server_port": 6664,
+      "uuid": "1b646fd4-c911-4c3f-b66a-420c1fa33e6c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "my.kiomars.shop",
+      "server_port": 6665,
+      "uuid": "1b646fd4-c911-4c3f-b66a-420c1fa33e6c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
