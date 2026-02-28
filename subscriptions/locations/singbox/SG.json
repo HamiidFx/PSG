@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @red2ray #1",
-        "🇸🇬 SG | VLESS | @red2ray #2",
-        "🇸🇬 SG | TROJAN | @red2ray #1"
+        "🇸🇬 SG | TROJAN | @red2ray #1",
+        "🇸🇬 SG | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @red2ray #1",
-        "🇸🇬 SG | VLESS | @red2ray #2",
-        "🇸🇬 SG | TROJAN | @red2ray #1"
+        "🇸🇬 SG | TROJAN | @red2ray #1",
+        "🇸🇬 SG | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,27 +112,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "209.17.118.131",
-      "server_port": 26403,
-      "uuid": "2ab6258a-6670-4875-ab65-60999b764f87",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "209.17.118.131",
-      "server_port": 12639,
-      "uuid": "82e457f4-43ff-4f83-9345-407da3da57f4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇬 SG | TROJAN | @red2ray #1",
       "type": "trojan",
       "server": "ubu.okaoclax.me",
       "server_port": 443,
       "password": "13c169be-8592-4eaa-94cb-69c859e7d987",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "ai.darkvpn.site",
+      "server_port": 443,
+      "uuid": "684e779f-03cf-4a12-ad4d-e923cce20131",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

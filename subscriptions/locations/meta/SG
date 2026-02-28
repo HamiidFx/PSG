@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @red2ray #1", "server": "209.17.118.131", "port": 26403, "type": "vless", "skip-cert-verify": true, "uuid": "2ab6258a-6670-4875-ab65-60999b764f87", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇬 SG | VLESS | @red2ray #2", "server": "209.17.118.131", "port": 12639, "type": "vless", "skip-cert-verify": true, "uuid": "82e457f4-43ff-4f83-9345-407da3da57f4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇬 SG | TROJAN | @red2ray #1", "server": "ubu.okaoclax.me", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "13c169be-8592-4eaa-94cb-69c859e7d987"}
+  - {"name": "🇸🇬 SG | VLESS | @red2ray #1", "server": "ai.darkvpn.site", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "684e779f-03cf-4a12-ad4d-e923cce20131", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @red2ray #1'
-      - '🇸🇬 SG | VLESS | @red2ray #2'
       - '🇸🇬 SG | TROJAN | @red2ray #1'
+      - '🇸🇬 SG | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

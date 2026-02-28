@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @vpnplusee_free #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @vpnplusee_free #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @vpnplusee_free #1",
+      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "83.222.20.64",
-      "server_port": 17910,
-      "uuid": "079c1b04-7ef9-4c49-8a7a-849a18ba7b9b",
+      "server": "195.123.212.222",
+      "server_port": 8443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

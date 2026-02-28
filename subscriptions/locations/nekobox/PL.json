@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,14 +105,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.70",
-      "server_port": 9000,
-      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
-      "password": null
-    },
-    {
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "217.30.10.18",
@@ -124,6 +116,28 @@
       "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "3.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "82.22.40.109",
       "server_port": 23335,
       "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",

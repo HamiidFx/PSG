@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -142,6 +144,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇦🇺 AU | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "46.250.241.55",
+      "server_port": 45720,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOTBkNjNkYzdhNjIwM2Fm",
+      "password": null
     }
   ],
   "route": {
