@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | TROJAN | @red2ray #1",
-        "🇸🇬 SG | VLESS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | TROJAN | @red2ray #1",
-        "🇸🇬 SG | VLESS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,22 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇬 SG | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "ubu.okaoclax.me",
-      "server_port": 443,
-      "password": "13c169be-8592-4eaa-94cb-69c859e7d987",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @red2ray #1",
@@ -134,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "165.22.49.27",
+      "server_port": 2567,
+      "uuid": "0f021ee3-772e-4e24-e0d1-415a2e4a61e1",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

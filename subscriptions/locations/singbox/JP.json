@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | TROJAN | @mpproxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | TROJAN | @mpproxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -108,6 +110,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @mpproxy #1",
+      "type": "trojan",
+      "server": "160.16.68.250",
+      "server_port": 1281,
+      "password": "262f1d150049457ac1d6e66b020fa980",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",

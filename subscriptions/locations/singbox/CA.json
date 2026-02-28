@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @free1_vpn #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @v_2rayng0 #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -100,8 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @free1_vpn #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @v_2rayng0 #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -112,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "152.42.147.18",
+      "server_port": 35689,
+      "uuid": "bf1b45af-c13a-438f-8d32-3b5a31b6735b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
@@ -133,6 +145,22 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @v_2rayng0 #1",
+      "type": "vmess",
+      "server": "15.235.41.200",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": "15.235.41.200"
         }
       }
     },
