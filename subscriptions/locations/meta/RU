@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "109.120.189.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "080556c0-0117-07d0-b1d9-3708fa8ab8c4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @mpproxy #1", "server": "51.250.69.188", "port": 8449, "type": "vless", "skip-cert-verify": true, "uuid": "51f09ae9-e537-4205-aa6f-e539c4b2d413", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "109.120.189.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f27f5ad9-c8e7-07d0-a43b-4fce5aabe734", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #1", "server": "84.201.187.140", "port": 3443, "type": "vless", "skip-cert-verify": true, "uuid": "2e0fd045-2937-42a4-8d01-9ae2948b8620", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #2", "server": "45.82.14.32", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "1b0ad61b-1be2-4cda-9979-984a965b0da5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2rayopen #1", "server": "51.250.0.147", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "64aafe63-ef36-4da5-8bf9-838d767bfe74", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -43,7 +42,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @config_proxy #1'
-      - '🇷🇺 RU | VLESS | @mpproxy #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #2'
       - '🇷🇺 RU | VLESS | @v2rayopen #1'

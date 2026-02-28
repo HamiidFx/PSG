@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | SS | @v2rayopen #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
-        "🇹🇷 TR | SS | @v2rayopen #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "213.142.149.156",
+      "server_port": 14519,
+      "uuid": "695df8a2-e948-4906-83ab-18e680ef130b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
@@ -117,14 +125,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "62.60.233.220",
-      "server_port": 18685,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
-      "password": null
     }
   ],
   "route": {

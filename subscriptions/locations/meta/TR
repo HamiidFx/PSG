@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "213.142.149.156", "port": 14519, "type": "vless", "skip-cert-verify": true, "uuid": "695df8a2-e948-4906-83ab-18e680ef130b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VMESS | @v2rayngconfig #1", "server": "tr1-smart.adelping.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "tr1-smart.adelping.com"}}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
       - '🇹🇷 TR | VMESS | @v2rayngconfig #1'
 
   - name: 🌍 Global Media
