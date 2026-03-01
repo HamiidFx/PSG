@@ -86,11 +86,11 @@
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,11 +107,11 @@
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -321,7 +321,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayopen #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
       "server": "93.94.51.8",
       "server_port": 13380,
@@ -348,6 +348,28 @@
       "server": "51.250.0.147",
       "server_port": 443,
       "uuid": "64aafe63-ef36-4da5-8bf9-838d767bfe74",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v_2rayng0 #1",
+      "type": "vless",
+      "server": "208.69.78.5",
+      "server_port": 443,
+      "uuid": "0a21d713-6e6f-4274-8b84-464019325513",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -392,28 +414,6 @@
       "server": "185.254.98.164",
       "server_port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "144.31.63.7",
-      "server_port": 443,
-      "uuid": "851aa636-6d4b-40e1-b484-f14ad697d2a1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

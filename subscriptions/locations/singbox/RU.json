@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+        "🇷🇺 RU | SS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -101,7 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+        "🇷🇺 RU | SS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -122,6 +126,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇺 RU | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "45.89.55.173",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeFB5bUZtYTZQN1U0MXdrOU1OUDd6blBudmF4M21qZA==",
+      "password": null
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",
       "type": "vless",
       "server": "51.250.0.147",
@@ -140,6 +152,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+      "type": "vless",
+      "server": "ru.cheburnetnastalgia1998.com",
+      "server_port": 443,
+      "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
