@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | SS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
         "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | SS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
         "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
@@ -101,6 +103,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @config_proxy #1",
+      "type": "shadowsocks",
+      "server": "jp.cdn.stun.su",
+      "server_port": 443,
+      "method": "eTvXrjs6bXt+fW8dZw==",
+      "password": null
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
