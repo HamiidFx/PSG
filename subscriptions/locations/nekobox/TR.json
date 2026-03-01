@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "83.217.9.17",
-      "server_port": 25232,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZ3ZMWlVmczhzaXZvQjlBN3drWWRt",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "213.142.149.156",
+      "server_port": 14519,
+      "uuid": "695df8a2-e948-4906-83ab-18e680ef130b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
     }
   ],
   "route": {

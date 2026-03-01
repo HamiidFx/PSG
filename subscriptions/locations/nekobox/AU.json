@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +142,23 @@
         "path": "/tq98e0yk",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "103.169.142.145",
+      "server_port": 443,
+      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
