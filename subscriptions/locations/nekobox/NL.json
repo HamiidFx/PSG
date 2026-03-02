@@ -77,9 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -93,9 +96,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -115,6 +121,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "51.158.206.86",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "free2.spectrum.vu",
+      "server_port": 7443,
+      "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -153,6 +175,14 @@
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.141",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #1",

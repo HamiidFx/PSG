@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVQ=
+//profile-title: base64:UFNHIHwgRUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | SS | @NamiraConfigs #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | SS | @NamiraConfigs #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,31 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "77.110.110.117",
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.252.177.163",
+      "server_port": 8443,
+      "uuid": "4a098f1e-c449-4061-8b95-70ae594d3458",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "95.85.224.28",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl",
-      "password": null
+      "uuid": "75807045-ab0e-47f3-a693-c0b3808ca8e0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

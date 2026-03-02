@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇴 CO | SS | @netfreedom0 #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇴 CO | SS | @netfreedom0 #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,31 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇴 CO | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "154.223.16.212",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.252.177.163",
+      "server_port": 8443,
+      "uuid": "4a098f1e-c449-4061-8b95-70ae594d3458",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "95.85.224.28",
+      "server_port": 443,
+      "uuid": "75807045-ab0e-47f3-a693-c0b3808ca8e0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

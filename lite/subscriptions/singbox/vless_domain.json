@@ -98,6 +98,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
+        "🇧🇭 BH | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -151,12 +152,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -186,6 +186,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
+        "🇧🇭 BH | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -239,12 +240,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -389,6 +389,28 @@
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇭 BH | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "zula.talatorke.com",
+      "server_port": 443,
+      "uuid": "a85169ce-453b-4fe7-aa2d-5896030b1337",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @configv2rayforfree #1",
@@ -1042,23 +1064,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "m1.designister.com",
-      "server_port": 443,
-      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -1100,7 +1105,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
