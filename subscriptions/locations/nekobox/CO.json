@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @hope_net #1"
+        "🇨🇴 CO | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @hope_net #1"
+        "🇨🇴 CO | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "206.238.237.175",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇨🇴 CO | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "154.223.16.212",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

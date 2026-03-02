@@ -84,6 +84,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
+        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -92,8 +93,8 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #3",
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
+        "🇸🇪 SE | SS | @outline_ir #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
-        "🇸🇪 SE | VLESS | @prrofile_purple #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
@@ -107,8 +108,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | TROJAN | @v_2rayng0 #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | SS | @vpn_ioss #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,6 +123,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
+        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -131,8 +132,8 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #3",
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
+        "🇸🇪 SE | SS | @outline_ir #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
-        "🇸🇪 SE | VLESS | @prrofile_purple #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
@@ -146,8 +147,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | TROJAN | @v_2rayng0 #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | SS | @vpn_ioss #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -261,6 +261,14 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "185.146.173.237",
+      "server_port": 2095,
+      "uuid": "59c0031e-6b09-4de2-ad03-83f0998a1f92",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray #1",
       "type": "vless",
       "server": "185.146.173.68",
@@ -346,6 +354,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "46.246.97.140",
+      "server_port": 53908,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpad2V1WGF2am92dWh6dDFBRjBkNnF4",
+      "password": null
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @proxyfn #1",
       "type": "vless",
       "server": "16.170.148.222",
@@ -366,14 +382,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "199.232.173.212",
-      "server_port": 80,
-      "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #1",
@@ -507,14 +515,6 @@
         "insecure": false,
         "alpn": null
       }
-    },
-    {
-      "tag": "🇸🇪 SE | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "45.80.231.75",
-      "server_port": 31019,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu",
-      "password": null
     }
   ],
   "route": {
