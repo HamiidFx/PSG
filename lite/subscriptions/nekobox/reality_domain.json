@@ -80,10 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇪🇸 ES | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -96,10 +96,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇪🇸 ES | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -189,21 +189,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
+      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
       "type": "vless",
       "server": "netherland.boot-lee.ru",
       "server_port": 8443,
       "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -250,9 +241,26 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "m1.designister.com",
+      "server_port": 443,
+      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇪🇸 ES | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "5.cdnconn.com",
+      "server": "4.cdnconn.com",
       "server_port": 23335,
       "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",

@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | SS | @mftizi #1"
+        "🇭🇰 HK | SS | @mftizi #1",
+        "🇭🇰 HK | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | SS | @mftizi #1"
+        "🇭🇰 HK | SS | @mftizi #1",
+        "🇭🇰 HK | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +114,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "8.217.146.222",
+      "server_port": 443,
+      "uuid": "cdfd9787-dac8-4c1e-9ae5-104e23a9d994",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "8.217.146.222",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1753356361.lie5d.cyou"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -142,6 +171,14 @@
       "server": "hk01.x.quickcht3.club",
       "server_port": 52611,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI=",
+      "password": null
+    },
+    {
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "103.141.221.88",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=",
       "password": null
     }
   ],

@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @Fr33C0nfig #1", "server": "netherland.boot-lee.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "ru.cheburnetnastalgia1998.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "109.120.188.156", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "080556c0-0117-0bb8-b1d9-3708fa8ab8c4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @Fr33C0nfig #1'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
       - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
 
