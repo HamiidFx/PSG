@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @red2ray #1",
-        "🇸🇬 SG | SS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @red2ray #1",
-        "🇸🇬 SG | SS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
+      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "ai.darkvpn.site",
+      "server": "206.238.237.175",
       "server_port": 443,
-      "uuid": "684e779f-03cf-4a12-ad4d-e923cce20131",
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,14 +125,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇬 SG | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "194.233.73.51",
-      "server_port": 14453,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NjRhNGQ4YzFjNzZlYjUw",
-      "password": null
     }
   ],
   "route": {

@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | VLESS | @config_proxy #1", "server": "dd.openaccessnode.com", "port": 50, "type": "vless", "skip-cert-verify": true, "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @deli_servers #1", "server": "185.146.173.59", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-deli-servers", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #1", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #2", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "89f86124-a711-4751-9363-4083834dabf5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
@@ -40,6 +39,7 @@ proxies:
   - {"name": "🇸🇪 SE | VLESS | @meli_v2rayng #4", "server": "185.146.173.95", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @minovpnch #1", "server": "185.146.173.200", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "f8d2a4a1-5ccb-49dc-a1fb-36904313c2e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @proxyfn #1", "server": "16.170.148.222", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd2c95b1-f48e-4d44-9b53-f5560f2eaae4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇸🇪 SE | VLESS | @prrofile_purple #1", "server": "199.232.173.212", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @realvpnmaster #1", "server": "185.146.173.185", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "db5a8d71-b3f3-4e5c-a2a9-e7f78c9d141c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @realvpnmaster #2", "server": "185.146.173.24", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "53ed61cd-8be2-46eb-b7c2-850a732ed849", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @realvpnmaster #3", "server": "185.146.173.185", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "f69052a7-2ed3-4196-87f0-4cf90a35ab79", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -66,7 +66,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | VLESS | @config_proxy #1'
       - '🇸🇪 SE | VLESS | @deli_servers #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #2'
@@ -83,6 +82,7 @@ proxy-groups:
       - '🇸🇪 SE | VLESS | @meli_v2rayng #4'
       - '🇸🇪 SE | VLESS | @minovpnch #1'
       - '🇸🇪 SE | VLESS | @proxyfn #1'
+      - '🇸🇪 SE | VLESS | @prrofile_purple #1'
       - '🇸🇪 SE | VLESS | @realvpnmaster #1'
       - '🇸🇪 SE | VLESS | @realvpnmaster #2'
       - '🇸🇪 SE | VLESS | @realvpnmaster #3'
