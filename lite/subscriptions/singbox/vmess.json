@@ -102,13 +102,12 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇮🇷 IR | VMESS | @v2raych #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,13 +127,12 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇮🇷 IR | VMESS | @v2raych #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -427,13 +425,29 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2raych #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "user5507.login.karim2000.ir",
-      "server_port": 10036,
-      "uuid": "aa8458e9-1983-49e2-a42c-29fb9ea453f7",
+      "server": "104.21.91.230",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "nnh.1x0.indevs.in",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
+        "headers": {
+          "Host": "nnh.1x0.indevs.in"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -539,22 +553,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "47.243.135.74",
-      "server_port": 55185,
-      "uuid": "1375985e-334a-4c25-8f64-52a182bc8037",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/Notif_Chat",
-        "headers": {
-          "Host": ""
-        }
       }
     }
   ],
