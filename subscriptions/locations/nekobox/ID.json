@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @hope_net #1"
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @hope_net #1"
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,54 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "45.80.110.229",
-      "server_port": 2053,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "43.156.6.226",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "83.229.121.113",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
     }
   ],
   "route": {

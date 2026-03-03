@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -100,8 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -112,6 +112,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "185.148.106.93",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -135,23 +152,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-      "type": "vless",
-      "server": "ru.cheburnetnastalgia1998.com",
-      "server_port": 443,
-      "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

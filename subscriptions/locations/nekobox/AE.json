@@ -79,7 +79,9 @@
         "direct",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +91,9 @@
       "outbounds": [
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,6 +140,45 @@
       "server_port": 8080,
       "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "89.35.73.250",
+      "server_port": 443,
+      "uuid": "30dc00c9-16c5-4573-b5b2-532940febfd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "ae.cdn.stun.su",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

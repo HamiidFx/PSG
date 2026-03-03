@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
@@ -104,6 +103,7 @@
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇰🇿 KZ | VLESS | @vpn_ioss #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "proxy",
@@ -115,7 +115,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
@@ -126,6 +125,7 @@
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇰🇿 KZ | VLESS | @vpn_ioss #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "auto",
@@ -206,28 +206,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "7.cdnconn.com",
-      "server_port": 23335,
-      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -422,6 +400,28 @@
       "server": "kz01-vlr01.tcp-reset-club.net",
       "server_port": 443,
       "uuid": "1c4aceb6-bff7-4737-8c5d-43afb3dc350b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "ae.cdn.stun.su",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

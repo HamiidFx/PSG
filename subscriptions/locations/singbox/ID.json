@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0E=
+//profile-title: base64:UFNHIHwgSUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇦 SA | SS | @v_2rayng0 #1"
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇦 SA | SS | @v_2rayng0 #1"
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,54 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇦 SA | SS | @v_2rayng0 #1",
-      "type": "shadowsocks",
-      "server": "154.205.134.155",
-      "server_port": 24851,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTE2MTUwZWZlZGQyZDE3",
-      "password": null
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "43.156.6.226",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "83.229.121.113",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
     }
   ],
   "route": {
