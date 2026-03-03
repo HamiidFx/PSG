@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -86,6 +87,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #6",
         "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @hope_net #2",
+        "🇸🇪 SE | VLESS | @hope_net #3",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -108,7 +110,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TROJAN | @v_2rayng0 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
@@ -118,6 +119,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -127,6 +129,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #6",
         "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @hope_net #2",
+        "🇸🇪 SE | VLESS | @hope_net #3",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -149,7 +152,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TROJAN | @v_2rayng0 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
@@ -165,6 +167,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.146.173.37",
+      "server_port": 80,
+      "uuid": "telegram-id-ArV2ray",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -269,23 +279,24 @@
       "type": "vless",
       "server": "185.146.173.58",
       "server_port": 2095,
-      "uuid": "11e81251-ea65-48bc-bfd4-c4d38ef0f8cc",
+      "uuid": "9e145e03-3ba7-4abe-af95-d3681a5e2854",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @hope_net #2",
       "type": "vless",
       "server": "185.146.173.37",
-      "server_port": 80,
-      "uuid": "f63e2f5c-c399-4b65-802c-6f0f2efd1930",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server_port": 2095,
+      "uuid": "6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @hope_net #3",
+      "type": "vless",
+      "server": "185.146.173.58",
+      "server_port": 8080,
+      "uuid": "20948265-ea02-416a-8ce4-3db7a80cc3f4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray #1",
@@ -510,14 +521,6 @@
       "server": "185.146.173.237",
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "185.146.173.237",
-      "server_port": 2095,
-      "uuid": "59c0031e-6b09-4de2-ad03-83f0998a1f92",
       "packet_encoding": "xudp"
     },
     {
