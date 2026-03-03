@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy #1", "server": "2.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_youtube #1", "server": "sr4.laptopstock7.com", "port": 3030, "type": "vless", "skip-cert-verify": true, "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @prrofile_purple #1", "server": "sr4.laptopstock7.com", "port": 3030, "type": "vless", "skip-cert-verify": true, "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @config_proxy #1'
-      - '🇫🇮 FI | VLESS | @v2ray_youtube #1'
+      - '🇫🇮 FI | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media
     type: select

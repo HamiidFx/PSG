@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "2.cdnconn.com",
-      "server_port": 23335,
-      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "server": "sr4.laptopstock7.com",
+      "server_port": 3030,
+      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,14 +121,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "sr4.laptopstock7.com",
-      "server_port": 3030,
-      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
