@@ -98,6 +98,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -115,6 +116,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -295,6 +297,31 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.227",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
         }
       }
     },

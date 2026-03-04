@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2048", "headers": {"Host": "dl3.hupcloud.com"}}}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy #2", "server": "172.64.80.1", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/iSRWSKUJKNuXvVzsYHmsMrnO", "headers": {"Host": "bgn.1dd.ccwu.cc"}}}
   - {"name": "🇽🇽 XX | VMESS | @father_vpn #1", "server": "seoul03.zgjok.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "seoul03.zgjok.com"}}}
   - {"name": "🇽🇽 XX | TROJAN | @father_vpn #1", "server": "188.114.98.0", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | VMESS | @iranvpnet #1", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
@@ -36,7 +38,6 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @vmesskhodam #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss #1", "server": "104.21.40.34", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss #2", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @vpnv2raytop #1", "server": "persiancdn.top", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "51410d3cb2931a01b366bb5c868264bf"}
 
 proxy-groups:
@@ -51,6 +52,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | VMESS | @config_proxy #1'
+      - '🇽🇽 XX | VMESS | @config_proxy #2'
       - '🇽🇽 XX | VMESS | @father_vpn #1'
       - '🇽🇽 XX | TROJAN | @father_vpn #1'
       - '🇽🇽 XX | VMESS | @iranvpnet #1'
@@ -64,7 +67,6 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @vmesc #1'
       - '🇽🇽 XX | TROJAN | @vmesskhodam #1'
       - '🇽🇽 XX | TROJAN | @vpn_ioss #1'
-      - '🇽🇽 XX | TROJAN | @vpn_ioss #2'
       - '🇽🇽 XX | TROJAN | @vpnv2raytop #1'
 
   - name: 🌍 Global Media
