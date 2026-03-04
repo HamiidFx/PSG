@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇹 MT | VLESS | @hope_net #1", "server": "193.227.99.109", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇩 ID | VMESS | @v2ray_free_conf #1", "server": "8.223.63.150", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "462d9694-62b5-4781-a287-61a422b920e8", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "mn1ray.jagoanvip.xyz"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇹 MT | VLESS | @hope_net #1'
+      - '🇮🇩 ID | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

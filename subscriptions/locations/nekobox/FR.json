@@ -77,12 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @father_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -90,6 +92,7 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
@@ -98,12 +101,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | SS | @father_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -111,6 +116,7 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
@@ -125,6 +131,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "13.37.88.196",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | SS | @father_vpn #1",
@@ -178,7 +192,23 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "15.224.29.111",
+      "server": "13.37.88.196",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
+      "type": "trojan",
+      "server": "13.39.100.172",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -249,14 +279,14 @@
     {
       "tag": "🇫🇷 FR | VMESS | @v2raych #1",
       "type": "vmess",
-      "server": "57.128.189.241",
+      "server": "57.128.189.226",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -291,7 +321,23 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
-      "server": "15.224.29.111",
+      "server": "13.37.88.196",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
+      "type": "trojan",
+      "server": "13.39.100.172",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -307,7 +353,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "15.224.29.111",
+      "server": "13.37.88.196",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

@@ -96,6 +96,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇮🇩 ID | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -103,6 +104,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raych #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -132,6 +134,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇮🇩 ID | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -139,6 +142,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raych #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -588,6 +592,31 @@
       }
     },
     {
+      "tag": "🇮🇩 ID | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "8.223.63.150",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -737,16 +766,34 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VMESS | @v2raych #1",
       "type": "vmess",
-      "server": "57.128.189.241",
+      "server": "57.128.189.226",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

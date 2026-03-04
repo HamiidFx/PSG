@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇹 MT | VLESS | @hope_net #1"
+        "🇲🇽 MX | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇹 MT | VLESS | @hope_net #1"
+        "🇲🇽 MX | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇹 MT | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "193.227.99.109",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇲🇽 MX | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "89.223.88.33",
+      "server_port": 11201,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YzMxYTY3YjQxYjE4YzI2",
+      "password": null
     }
   ],
   "route": {

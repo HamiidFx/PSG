@@ -92,8 +92,8 @@
         "direct",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -104,8 +104,8 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -144,11 +144,19 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
-      "server": "62.60.212.216",
+      "server": "185.143.233.120",
+      "server_port": 2086,
+      "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "snapp.ir",
       "server_port": 443,
-      "uuid": "5703f5b9-d708-4443-b661-aae0c338e32c",
+      "uuid": "815dba60-0b12-4be4-9106-33952667e63b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -157,21 +165,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-      "type": "vless",
-      "server": "185.143.233.120",
-      "server_port": 2086,
-      "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",

@@ -107,7 +107,8 @@
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇷 FR | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,7 +133,8 @@
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇷 FR | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -553,6 +555,31 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "57.128.189.226",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
       }
     }
   ],

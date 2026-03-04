@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTVQ=
+//profile-title: base64:UFNHIHwgSUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇹 MT | VLESS | @hope_net #1"
+        "🇮🇩 ID | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇹 MT | VLESS | @hope_net #1"
+        "🇮🇩 ID | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,19 +110,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇹 MT | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "193.227.99.109",
+      "tag": "🇮🇩 ID | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "8.223.63.150",
       "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "packet_encoding": "xudp",
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "mn1ray.jagoanvip.xyz",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
         }
       }
     }
