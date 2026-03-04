@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -100,6 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
@@ -112,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "diddy.com",
+      "server_port": 8080,
+      "uuid": "b623a8a7-46f4-4666-9f8d-01032c24fdf7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",

@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | VMESS | @config_proxy #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2048", "headers": {"Host": "dl3.hupcloud.com"}}}
   - {"name": "🇽🇽 XX | VMESS | @father_vpn #1", "server": "seoul03.zgjok.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "seoul03.zgjok.com"}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
@@ -42,7 +41,6 @@ proxies:
   - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #1", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22f86840-bcac-11ee-abea-1239d0255272"}
   - {"name": "🇩🇪 DE | TROJAN | @teamvpnpro #1", "server": "de1.test3.net", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "78f9bf50-bce8-11ee-8913-1239d0255272", "sni": "chatbuzzteambhm.chatbuzzt7150.workers.dev"}
-  - {"name": "🇫🇷 FR | VMESS | @v2ray_free_conf #1", "server": "57.128.189.227", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "57.128.189.227"}}}
   - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1", "server": "52.28.154.195", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "15.224.29.111", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇽🇽 XX | TROJAN | @vmesskhodam #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -63,7 +61,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | VMESS | @config_proxy #1'
       - '🇽🇽 XX | VMESS | @father_vpn #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
@@ -82,7 +79,6 @@ proxy-groups:
       - '🇽🇽 XX | VMESS | @proxy48 #1'
       - '🇽🇽 XX | TROJAN | @teamvpnpro #1'
       - '🇩🇪 DE | TROJAN | @teamvpnpro #1'
-      - '🇫🇷 FR | VMESS | @v2ray_free_conf #1'
       - '🇩🇪 DE | TROJAN | @v2rayvpnchannel #1'
       - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
       - '🇽🇽 XX | TROJAN | @vmesskhodam #1'

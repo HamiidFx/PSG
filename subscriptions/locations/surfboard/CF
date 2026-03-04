@@ -9,8 +9,6 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇽🇽 XX | VMESS | @config_proxy #1 = vmess, chatgpt.com, 443, username = ac158da9-7ec9-4e23-a6d7-80836da39895, ws = true, tls = true, ws-path = ?ed=2048, ws-headers = Host:"dl3.hupcloud.com"
-🇽🇽 XX | VMESS | @config_proxy #2 = vmess, 172.64.80.1, 80, username = 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, ws = true, tls = false, ws-path = /iSRWSKUJKNuXvVzsYHmsMrnO, ws-headers = Host:"bgn.1dd.ccwu.cc"
 🇽🇽 XX | VMESS | @father_vpn #1 = vmess, seoul03.zgjok.com, 443, username = 72a0dac4-9689-4a57-b164-5c65bfa94772, ws = true, tls = true, ws-path = /, ws-headers = Host:"seoul03.zgjok.com"
 🇽🇽 XX | TROJAN | @father_vpn #1 = trojan, 188.114.98.0, 443, password = humanity, skip-cert-verify = true
 🇽🇽 XX | VMESS | @iranvpnet #1 = vmess, mute-math-d64e.0e503992ad7026.WOrKERs.deV, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, ws-path = /aveiror.com:443/linkvws, ws-headers = Host:"mute-math-d64e.0e503992ad7026.woRKERS.DeV"
@@ -21,15 +19,16 @@ DIRECT = direct
 🇽🇽 XX | TROJAN | @prrofile_purple #3 = trojan, mmkk.www890604.dpdns.org, 443, password = 5cccb4da-8aee-4b01-be84-2056265e52dc, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro #1 = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = 22f86840-bcac-11ee-abea-1239d0255272, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro #2 = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = c7f9b8f0-bfdb-11ee-a15c-1239d0255272, skip-cert-verify = true
+🇽🇽 XX | TROJAN | @v2raych #1 = trojan, 188.114.96.3, 443, password = humanity, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vmesc #1 = trojan, 172.64.152.23, 443, password = humanity, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vmesskhodam #1 = trojan, 172.64.152.23, 443, password = humanity, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vpn_ioss #1 = trojan, 104.21.40.34, 443, password = humanity, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vpnv2raytop #1 = trojan, persiancdn.top, 443, password = 51410d3cb2931a01b366bb5c868264bf, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | VMESS | @config_proxy #1, 🇽🇽 XX | VMESS | @config_proxy #2, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
-PSG-AUTO = url-test, 🇽🇽 XX | VMESS | @config_proxy #1, 🇽🇽 XX | VMESS | @config_proxy #2, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
-PSG-FALLBACK = fallback, 🇽🇽 XX | VMESS | @config_proxy #1, 🇽🇽 XX | VMESS | @config_proxy #2, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @v2raych #1, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
+PSG-AUTO = url-test, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @v2raych #1, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
+PSG-FALLBACK = fallback, 🇽🇽 XX | VMESS | @father_vpn #1, 🇽🇽 XX | TROJAN | @father_vpn #1, 🇽🇽 XX | VMESS | @iranvpnet #1, 🇽🇽 XX | VMESS | @manstervpn #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @prrofile_purple #2, 🇽🇽 XX | TROJAN | @prrofile_purple #3, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇽🇽 XX | TROJAN | @v2raych #1, 🇽🇽 XX | TROJAN | @vmesc #1, 🇽🇽 XX | TROJAN | @vmesskhodam #1, 🇽🇽 XX | TROJAN | @vpn_ioss #1, 🇽🇽 XX | TROJAN | @vpnv2raytop #1
 
 [Rule]
 GEOIP,IR,DIRECT

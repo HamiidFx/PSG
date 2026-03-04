@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | VLESS | @hope_net #1"
+        "🇿🇦 ZA | VLESS | @hope_net #1",
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | VLESS | @hope_net #1"
+        "🇿🇦 ZA | VLESS | @hope_net #1",
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇿🇦 ZA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "192.142.18.127",
+      "server_port": 443,
+      "method": "YWVzLTI1Ni1nY206NWViZWE2MjMtMzdiYS00NDYzLTgzNTUtMTYzMGQ1ODdiOGFk",
+      "password": null
     }
   ],
   "route": {
