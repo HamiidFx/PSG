@@ -77,14 +77,15 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @config_proxy #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -93,14 +94,15 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @config_proxy #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -115,14 +117,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -147,6 +141,23 @@
       "server_port": 8880,
       "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -178,6 +189,14 @@
       "server": "account-mec.emofid.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
