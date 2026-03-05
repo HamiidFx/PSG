@@ -90,11 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -128,8 +127,6 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @imhdiyvp #1",
-        "🇽🇽 XX | VLESS | @imhdiyvp #2",
-        "🇽🇽 XX | VLESS | @imhdiyvp #3",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -322,11 +319,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -360,8 +356,6 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @imhdiyvp #1",
-        "🇽🇽 XX | VLESS | @imhdiyvp #2",
-        "🇽🇽 XX | VLESS | @imhdiyvp #3",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -558,23 +552,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
-      "type": "vless",
-      "server": "rby3b8ax6iznwe-ead7k5pb6ka2q2jqo.zamenparham81.workers.dev",
-      "server_port": 443,
-      "uuid": "a2922e0a-1fe5-4cdc-aac4-5a216e110940",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
       "type": "vless",
       "server": "artemis.sbs",
@@ -615,19 +592,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "172.64.145.202",
-      "server_port": 2087,
-      "uuid": "77777777-6663-4ef2-b26b-ed2d70642678",
-      "packet_encoding": "xudp",
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "nghnju.2yo.ccwu.cc",
+      "server_port": 443,
+      "uuid": "9b354a64-81f6-4a15-a127-337cd17e25ba",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "nghnju.2yo.ccwu.cc",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/7t9M6fIZbmR7zklVEUuTu7GKK",
+        "headers": {
+          "Host": "nghnju.2yo.ccwu.cc"
         }
       }
     },
@@ -978,40 +963,6 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @imhdiyvp #1",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "38046915-6d82-4d86-8510-b5bcc569d0ea",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @imhdiyvp #2",
-      "type": "vless",
-      "server": "104.19.219.139",
-      "server_port": 443,
-      "uuid": "dbb3c682-8564-4c02-aec9-23ecf7981820",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @imhdiyvp #3",
       "type": "vless",
       "server": "104.16.191.195",
       "server_port": 80,

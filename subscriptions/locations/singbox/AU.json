@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,6 +151,31 @@
         "path": "/tq98e0yk",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "hopev2ray.ddns.net",
+      "server_port": 443,
+      "uuid": "17bbb590-ec28-11ed-b334-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.0rd.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@SINA_TEC",
+        "headers": {
+          "Host": "pl.0rd.net"
         }
       }
     }
