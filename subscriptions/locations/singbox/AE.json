@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,14 @@
       "server_port": 8080,
       "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "147.78.0.182",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
     }
   ],
   "route": {

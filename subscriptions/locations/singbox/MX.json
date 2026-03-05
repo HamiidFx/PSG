@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSUQ=
+//profile-title: base64:UFNHIHwgTVg=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇩 ID | VMESS | @config_proxy #1"
+        "🇲🇽 MX | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇩 ID | VMESS | @config_proxy #1"
+        "🇲🇽 MX | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,29 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "38.55.193.78",
-      "server_port": 443,
-      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "mn1ray.jagoanvip.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vvip",
-        "headers": {
-          "Host": "mn1ray.jagoanvip.xyz"
-        }
-      }
+      "tag": "🇲🇽 MX | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "154.205.152.64",
+      "server_port": 11201,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTVlYjNlMTYwY2YyNDMy",
+      "password": null
     }
   ],
   "route": {
