@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUlU=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,10 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,19 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "51.250.86.241",
-      "server_port": 7443,
-      "uuid": "fd53dcb7-210a-45c3-bd97-bb5c5d23a856",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "84.201.155.146",
-      "server_port": 443,
-      "uuid": "5aa188ea-db1b-4121-82f8-4eb1452cc052",
+      "server": "tr.dashping6.ir",
+      "server_port": 8601,
+      "uuid": "e6028dbc-61f4-468c-8b89-2cac7f4dc2e0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -137,41 +123,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
-      "type": "vmess",
-      "server": "77.v2ray1.xyz",
-      "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "77.v2ray1.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/A2DJOPFT",
-        "headers": {
-          "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "rus62.ruslucker.org",
-      "server_port": 444,
-      "uuid": "a28cfe60-b6f6-4737-9082-b2df62f59229",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

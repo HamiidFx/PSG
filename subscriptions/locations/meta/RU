@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "51.250.86.241", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "fd53dcb7-210a-45c3-bd97-bb5c5d23a856", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "84.201.155.146", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5aa188ea-db1b-4121-82f8-4eb1452cc052", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @prrofile_purple #1", "server": "rus62.ruslucker.org", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "a28cfe60-b6f6-4737-9082-b2df62f59229", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -38,6 +40,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @prrofile_purple #1'
 

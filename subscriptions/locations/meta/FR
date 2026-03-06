@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | VLESS | @config_proxy #1", "server": "141.95.127.132", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @merdesert #1", "server": "51.75.30.8", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #1", "server": "199.232.169.135", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #2", "server": "199.232.169.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -48,7 +47,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | VLESS | @config_proxy #1'
       - '🇫🇷 FR | VLESS | @merdesert #1'
       - '🇫🇷 FR | VLESS | @minovpnch #1'
       - '🇫🇷 FR | VLESS | @minovpnch #2'
