@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | VLESS | @vpn_ioss #1"
@@ -87,6 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇰🇿 KZ | VLESS | @vpn_ioss #1"
@@ -103,6 +105,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "91.217.10.166",
+      "server_port": 9443,
+      "uuid": "126e5a65-e81a-46ce-bd61-605f32f1352e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",

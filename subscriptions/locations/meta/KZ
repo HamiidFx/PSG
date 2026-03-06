@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy #1", "server": "91.217.10.166", "port": 9443, "type": "vless", "skip-cert-verify": true, "uuid": "126e5a65-e81a-46ce-bd61-605f32f1352e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @red2ray #1", "server": "212.111.84.82", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @vpn_ioss #1", "server": "kz01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1c4aceb6-bff7-4737-8c5d-43afb3dc350b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇿 KZ | VLESS | @config_proxy #1'
       - '🇰🇿 KZ | VLESS | @filterk0sh #1'
       - '🇰🇿 KZ | VLESS | @red2ray #1'
       - '🇰🇿 KZ | VLESS | @vpn_ioss #1'

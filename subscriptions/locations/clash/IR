@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇷 IR | VMESS | @config_proxy #1", "server": "user5507.login.karim2000.ir", "port": 10036, "type": "vmess", "skip-cert-verify": true, "uuid": "aa8458e9-1983-49e2-a42c-29fb9ea453f7", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇷 IR | VMESS | @config_proxy #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media

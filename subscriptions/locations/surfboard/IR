@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇮🇷 IR | VMESS | @config_proxy #1 = vmess, user5507.login.karim2000.ir, 10036, username = aa8458e9-1983-49e2-a42c-29fb9ea453f7, ws = false, tls = false
 🇮🇷 IR | VMESS | @khoneproxy #1 = vmess, 78.47.131.39, 8443, username = 4d598e48-234f-4c60-fdd3-fa90e084770d, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @khoneproxy #1
-PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @khoneproxy #1
-PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-AUTO = url-test, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
+PSG-FALLBACK = fallback, 🇮🇷 IR | VMESS | @config_proxy #1, 🇮🇷 IR | VMESS | @khoneproxy #1
 
 [Rule]
 GEOIP,IR,DIRECT
