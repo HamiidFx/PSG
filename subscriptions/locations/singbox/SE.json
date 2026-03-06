@@ -120,7 +120,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -158,7 +159,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -172,10 +174,24 @@
     {
       "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "taktun7.majalekhodrostore.ir",
-      "server_port": 50325,
-      "uuid": "2212abc1-ac22-4f59-bd11-a0c5fa9ffdee",
-      "packet_encoding": "xudp"
+      "server": "ap.panel.iran-rom.ir",
+      "server_port": 2085,
+      "uuid": "9d67ed3c-4ad0-4eee-87a0-544d13fd619e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -515,6 +531,14 @@
         "insecure": false,
         "alpn": null
       }
+    },
+    {
+      "tag": "🇸🇪 SE | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "45.80.231.75",
+      "server_port": 31019,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu",
+      "password": null
     }
   ],
   "route": {
