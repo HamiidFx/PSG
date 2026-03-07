@@ -90,11 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
@@ -104,11 +102,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
@@ -122,29 +118,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "gr1.iranishops.com",
-      "server_port": 443,
-      "uuid": "6997ed48-2733-40f8-ba87-566e3efdc5d0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "myket.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "185.226.117.160",
+      "server": "62.60.212.199",
       "server_port": 443,
-      "uuid": "0fff5f1b-370d-4e98-829d-7dca653fbca8",
+      "uuid": "870f0165-8308-4e53-b81f-8b54eaf03bd2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -171,23 +149,6 @@
       "server": "s19.speedyconnect.pro",
       "server_port": 443,
       "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
-      "type": "vless",
-      "server": "parspack.com",
-      "server_port": 443,
-      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
