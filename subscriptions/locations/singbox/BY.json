@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇧🇾 BY | VLESS | @config_proxy #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇧🇾 BY | VLESS | @config_proxy #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "auto",
@@ -108,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇧🇾 BY | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.66.71.149",
+      "server_port": 2053,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇧🇾 BY | VMESS | @ir_netproxy #1",

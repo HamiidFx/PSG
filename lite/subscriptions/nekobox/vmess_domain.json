@@ -80,6 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -90,7 +92,8 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,6 +104,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -111,7 +116,8 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,6 +201,49 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "gr1.iranishops.com",
+      "server_port": 443,
+      "uuid": "6997ed48-2733-40f8-ba87-566e3efdc5d0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "myket.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "n1752833184.lie5d.cyou",
+      "server_port": 443,
+      "uuid": "6c7d09e3-9cfa-41c8-8194-e81eb21bfb88",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1752833184.lie5d.cyou",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1752833184.lie5d.cyou"
         }
       }
     },
@@ -434,6 +483,31 @@
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
+      "type": "vmess",
+      "server": "104.18.212.12",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oliv.beauty:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,

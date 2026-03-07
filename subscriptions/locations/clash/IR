@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇷 IR | VMESS | @config_proxy #1", "server": "gr1.iranishops.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6997ed48-2733-40f8-ba87-566e3efdc5d0", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇷 IR | VMESS | @config_proxy #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media

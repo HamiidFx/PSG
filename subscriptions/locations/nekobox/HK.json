@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -87,7 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -105,12 +105,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "43.161.217.205",
-      "server_port": 1443,
-      "uuid": "69a647a9-c60f-1366-ec63-1332eb2d2105",
-      "packet_encoding": "xudp"
+      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "n1752833184.lie5d.cyou",
+      "server_port": 443,
+      "uuid": "6c7d09e3-9cfa-41c8-8194-e81eb21bfb88",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1752833184.lie5d.cyou",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1752833184.lie5d.cyou"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇩 ID | VMESS | @config_proxy #1", "server": "38.55.194.138", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "462d9694-62b5-4781-a287-61a422b920e8", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/vvip", "headers": {"Host": "mn1ray.jagoanvip.xyz"}}}
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "83.217.9.110", "port": 24443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇩 ID | VMESS | @config_proxy #1'
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
