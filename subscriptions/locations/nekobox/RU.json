@@ -107,7 +107,7 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "109.120.189.87",
+      "server": "212.193.157.118",
       "server_port": 443,
       "uuid": "0d3e2d21-f31b-07d0-b418-54cacd0be7c4",
       "packet_encoding": "xudp",
@@ -118,6 +118,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
