@@ -96,6 +96,7 @@
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -217,7 +218,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -316,6 +316,7 @@
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -437,7 +438,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -576,24 +576,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "104.21.90.132",
-      "server_port": 80,
-      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "chatgpt.com",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "172.67.65.241",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "uuid": "6695f49c-087e-43fd-b519-d0ef50096679",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -608,9 +601,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
       "type": "vless",
-      "server": "vip1.kaixincloud.top",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "2a667767-995c-4892-9719-f52c3db2b0f2",
+      "uuid": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -620,12 +613,21 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "172.67.223.216",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
         "headers": {
-          "Host": ""
+          "Host": "jnm.1x2.indevs.in"
         }
       }
     },
@@ -2082,14 +2084,6 @@
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "chatgpt.com",
-      "server_port": 2086,
-      "uuid": "96196fc5-67a7-400f-9b1a-e8f2e530e411",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
-      "type": "vless",
-      "server": "ping.pe",
       "server_port": 2086,
       "uuid": "96196fc5-67a7-400f-9b1a-e8f2e530e411",
       "packet_encoding": "xudp"

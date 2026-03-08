@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "lv01.abvpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "588f094b-431b-422c-b80b-007945037072", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "tr2.vpnjantit.com", "port": 10002, "type": "vless", "skip-cert-verify": true, "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @config_proxy #1'
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

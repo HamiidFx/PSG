@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1"
+        "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
+        "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1"
+        "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
+        "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇰🇷 KR | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "218.237.185.230",
+      "server_port": 4652,
+      "method": "YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==",
+      "password": null
     }
   ],
   "route": {

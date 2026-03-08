@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFY=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "lv01.abvpn.ru",
-      "server_port": 443,
-      "uuid": "588f094b-431b-422c-b80b-007945037072",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
+      "password": null
     }
   ],
   "route": {
