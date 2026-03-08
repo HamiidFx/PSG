@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.70",
-      "server_port": 9000,
-      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "144.31.0.194",
+      "server_port": 6443,
+      "uuid": "53576318-dafd-4428-9ec3-d635a6521631",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "144.31.0.194",
+      "server_port": 8443,
+      "uuid": "84b5a48a-4c69-493c-87cb-09cbdfa7a450",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

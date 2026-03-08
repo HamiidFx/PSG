@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VMESS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -99,7 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VMESS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -110,31 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇯🇵 JP | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "n1753598451.74qxv.top",
-      "server_port": 443,
-      "uuid": "9798678f-5b8c-4ff1-bbdd-b9b5c1539de0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",

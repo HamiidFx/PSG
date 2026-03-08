@@ -93,6 +93,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -144,7 +145,6 @@
         "🇽🇽 XX | VLESS | @itv2ray #5",
         "🇽🇽 XX | VLESS | @itv2ray #6",
         "🇽🇽 XX | VLESS | @jokerv2ray #1",
-        "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
@@ -220,6 +220,7 @@
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -319,6 +320,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -370,7 +372,6 @@
         "🇽🇽 XX | VLESS | @itv2ray #5",
         "🇽🇽 XX | VLESS | @itv2ray #6",
         "🇽🇽 XX | VLESS | @jokerv2ray #1",
-        "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
@@ -446,6 +447,7 @@
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -577,6 +579,21 @@
           "fingerprint": "chrome"
         }
       },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "104.21.90.132",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "",
@@ -1230,23 +1247,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @kafing_2 #1",
-      "type": "vless",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -2114,6 +2114,22 @@
       "server_port": 2086,
       "uuid": "96196fc5-67a7-400f-9b1a-e8f2e530e411",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "www.gossipglove.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @red2ray #1",
