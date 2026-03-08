@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,14 @@
           "Host": "77.v2ray1.xyz"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "rus62.ruslucker.org",
+      "server_port": 444,
+      "uuid": "a28cfe60-b6f6-4737-9082-b2df62f59229",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

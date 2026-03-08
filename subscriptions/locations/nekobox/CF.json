@@ -81,6 +81,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -201,7 +203,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -274,6 +275,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
         "🇽🇽 XX | VLESS | @vmesc #3",
+        "🇽🇽 XX | VLESS | @vmesc #4",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
@@ -298,6 +300,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -418,7 +422,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -491,6 +494,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
         "🇽🇽 XX | VLESS | @vmesc #3",
+        "🇽🇽 XX | VLESS | @vmesc #4",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
@@ -565,6 +569,47 @@
       "server_port": 80,
       "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "172.67.65.241",
+      "server_port": 443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "2a667767-995c-4892-9719-f52c3db2b0f2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "",
@@ -2023,22 +2068,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "www.gossipglove.com",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
       "server": "172.67.153.156",
@@ -2938,6 +2967,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #4",
+      "type": "vless",
+      "server": "b.pabloping.cloud",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
