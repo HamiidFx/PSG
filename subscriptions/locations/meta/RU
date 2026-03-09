@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "51.250.103.29", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5aa188ea-db1b-4121-82f8-4eb1452cc052", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "95.174.92.196", "port": 22842, "type": "vless", "skip-cert-verify": true, "uuid": "def0255d-238d-4592-b21d-43cd4ef66e55", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "81.200.150.138", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "039ecf94-257c-4a85-ad74-cae472c346f8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #4", "server": "51.250.6.105", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "ca918562-a949-4e4a-8caa-55c2414302c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "5-gaming.harknmav.fun", "port": 10443, "type": "vless", "skip-cert-verify": true, "uuid": "adad2034-0510-4a4e-8759-77a8244e521a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @prrofile_purple #1", "server": "rus62.ruslucker.org", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "a28cfe60-b6f6-4737-9082-b2df62f59229", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -43,9 +40,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @config_proxy #1'
-      - '🇷🇺 RU | VLESS | @config_proxy #2'
-      - '🇷🇺 RU | VLESS | @config_proxy #3'
-      - '🇷🇺 RU | VLESS | @config_proxy #4'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @prrofile_purple #1'
 

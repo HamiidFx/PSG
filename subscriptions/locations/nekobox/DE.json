@@ -77,12 +77,16 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -92,7 +96,6 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
@@ -106,12 +109,16 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -121,7 +128,6 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vpnowl #1",
@@ -141,6 +147,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "e2.aurorix.net",
+      "server_port": 25930,
+      "uuid": "d70415c7-b3fb-43e9-915a-df66b2274c32",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -242,6 +256,46 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "842b5f9dd11e458d8613c907c4cc5723",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2086,
+      "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #2",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "81.88.25.20",
@@ -252,7 +306,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "3.79.165.50",
+      "server": "63.176.126.9",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -361,22 +415,6 @@
       "server_port": 443,
       "uuid": "405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
-      "type": "trojan",
-      "server": "3.79.165.50",
-      "server_port": 22223,
-      "password": "telegram-id-v2rayvpnchannel",
       "tls": {
         "enabled": true,
         "server_name": "",
