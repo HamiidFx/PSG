@@ -92,6 +92,8 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -146,7 +148,6 @@
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -159,6 +160,8 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -213,7 +216,6 @@
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -258,6 +260,39 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "18.245.162.72",
+      "server_port": 443,
+      "uuid": "71cc7878-bcc0-46fc-bc4f-c30fe69ab2e5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "216.144.231.95",
+      "server_port": 8443,
+      "uuid": "84b5a48a-4c69-493c-87cb-09cbdfa7a450",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -560,21 +595,13 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3MHROWkNJdjBSU3UwR3JBdDJQVFcz",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
-      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5M3gzMkdQQ3BmdTZxWnZuYW02dGY4",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -582,7 +609,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -590,7 +617,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -598,11 +625,19 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "tag": "🇺🇸 US | SS | @key_outline #5",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRSDlKWUxsckdKb2RkUllsSVFGeEhO",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIVVJLZllvMzdZS1QwS3J3elFUVDNa",
       "password": null
     },
     {
@@ -814,14 +849,14 @@
     {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #2",
       "type": "vmess",
-      "server": "172.67.196.112",
+      "server": "172.67.152.214",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "kellie.makeup",
+        "server_name": "meroiy.icu",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -832,7 +867,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "kellie.makeup"
+          "Host": "meroiy.icu"
         }
       }
     },
@@ -955,14 +990,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,

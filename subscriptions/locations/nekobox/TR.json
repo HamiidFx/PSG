@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇩 ID | VMESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇩 ID | VMESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,29 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "83.229.121.113",
-      "server_port": 443,
-      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "mn1ray.jagoanvip.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vvip",
-        "headers": {
-          "Host": "mn1ray.jagoanvip.xyz"
-        }
-      }
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "tr2.vpnjantit.com",
+      "server_port": 10004,
+      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "tr2.vpnjantit.com",
+      "server_port": 10004,
+      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
