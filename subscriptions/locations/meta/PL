@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "176.120.67.200", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0509acee-63e3-4364-95cc-21c601f059be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #2", "server": "195.20.208.72", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "de2.pineappled.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71322f86-f37a-4929-ada0-05e6a2688145", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @config_proxy #1'
-      - '🇱🇻 LV | VLESS | @config_proxy #2'
+      - '🇵🇱 PL | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

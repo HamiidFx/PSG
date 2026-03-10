@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @config_proxy #1", "server": "ae.harknmav.fun", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ff238176-3cc9-4b97-a295-5678919d5cdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @config_proxy #2", "server": "ae2.suio.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @netmellianti #1", "server": "94.140.0.0", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,8 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @config_proxy #1'
-      - '🇦🇪 AE | VLESS | @config_proxy #2'
       - '🇦🇪 AE | VLESS | @netmellianti #1'
 
   - name: 🌍 Global Media

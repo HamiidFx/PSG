@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "212.46.33.43", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a62bcf06-2f45-4d41-a419-0240ec672a0e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇳🇱 NL | VLESS | @kafing_2 #1", "server": "151.101.206.133", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1cc40572-43d1-44a7-ad26-312fa7206997", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @mpproxy #1", "server": "cid.wlrus.lol", "port": 37016, "type": "vless", "skip-cert-verify": true, "uuid": "c6be0a05-6105-4c0a-8af5-3e227f10735f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -43,6 +44,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @config_proxy #1'
       - '🇳🇱 NL | VLESS | @kafing_2 #1'
       - '🇳🇱 NL | VLESS | @mpproxy #1'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'

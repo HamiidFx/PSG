@@ -90,8 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @config_proxy #1",
-        "🇦🇪 AE | VLESS | @config_proxy #2",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -101,8 +99,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @config_proxy #1",
-        "🇦🇪 AE | VLESS | @config_proxy #2",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -114,40 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "ae.harknmav.fun",
-      "server_port": 443,
-      "uuid": "ff238176-3cc9-4b97-a295-5678919d5cdb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "ae2.suio.me",
-      "server_port": 443,
-      "uuid": "6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇦🇪 AE | SS | @manstervpn #1",
