@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkU=
+//profile-title: base64:UFNHIHwgQ08=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇨🇴 CO | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇨🇴 CO | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "113.30.152.46",
-      "server_port": 443,
-      "uuid": "e04c6096-7a26-4b6b-b7b7-57818ac82a97",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇨🇴 CO | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "154.223.16.212",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

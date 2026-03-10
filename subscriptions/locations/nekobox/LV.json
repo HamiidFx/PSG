@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1",
+        "🇱🇻 LV | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1",
+        "🇱🇻 LV | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,9 +105,27 @@
     {
       "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "lv.vpnhub.shop",
+      "server": "176.120.67.200",
       "server_port": 443,
-      "uuid": "b8e03ade-a2a1-4cbb-b002-5e1148049735",
+      "uuid": "0509acee-63e3-4364-95cc-21c601f059be",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "195.20.208.72",
+      "server_port": 443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

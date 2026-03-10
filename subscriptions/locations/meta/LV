@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "lv.vpnhub.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b8e03ade-a2a1-4cbb-b002-5e1148049735", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "176.120.67.200", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0509acee-63e3-4364-95cc-21c601f059be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇱🇻 LV | VLESS | @config_proxy #2", "server": "195.20.208.72", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇱🇻 LV | VLESS | @config_proxy #1'
+      - '🇱🇻 LV | VLESS | @config_proxy #2'
 
   - name: 🌍 Global Media
     type: select
