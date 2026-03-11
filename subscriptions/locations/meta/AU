@@ -26,6 +26,7 @@ proxies:
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
   - {"name": "🇦🇺 AU | VMESS | @khoneproxy #1", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
   - {"name": "🇦🇺 AU | VMESS | @v2ray_free_conf #1", "server": "hopev2ray.ddns.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17bbb590-ec28-11ed-b334-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/@SINA_TEC", "headers": {"Host": "pl.0rd.net"}}}
+  - {"name": "🇦🇺 AU | VLESS | @v2ray_vmes #1", "server": "103.73.65.187", "port": 7000, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,6 +43,7 @@ proxy-groups:
       - '🇦🇺 AU | VMESS | @dailyv2ray #1'
       - '🇦🇺 AU | VMESS | @khoneproxy #1'
       - '🇦🇺 AU | VMESS | @v2ray_free_conf #1'
+      - '🇦🇺 AU | VLESS | @v2ray_vmes #1'
 
   - name: 🌍 Global Media
     type: select
