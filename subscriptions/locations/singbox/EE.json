@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3"
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3"
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "talinn-news.life",
+      "server": "est.pink-service.ru",
       "server_port": 443,
-      "uuid": "3f30096f-f421-4608-a2c3-a076b3ee1d95",
+      "uuid": "9c7d89ae-daf3-45c2-84d6-a7447e9123f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,41 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "185.4.72.98",
-      "server_port": 8443,
-      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "93.123.39.211",
-      "server_port": 443,
-      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

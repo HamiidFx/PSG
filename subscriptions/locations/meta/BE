@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇧🇪 BE | VLESS | @prrofile_purple #1", "server": "151.101.10.79", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ff581e0-4622-4af2-9b57-37dbcd6dee1e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇪 BE | VLESS | @prrofile_purple #2", "server": "fs.cedriklorenz.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ff581e0-4622-4af2-9b57-37dbcd6dee1e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇧🇪 BE | VLESS | @prrofile_purple #1'
+      - '🇧🇪 BE | VLESS | @prrofile_purple #2'
 
   - name: 🌍 Global Media
     type: select

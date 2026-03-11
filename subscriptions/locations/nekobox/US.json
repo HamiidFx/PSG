@@ -80,6 +80,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
+        "🇺🇸 US | VLESS | @config_proxy #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -134,7 +136,6 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -149,6 +150,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
+        "🇺🇸 US | VLESS | @config_proxy #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -203,7 +206,6 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -257,11 +259,53 @@
     {
       "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "216.144.231.92",
-      "server_port": 8443,
-      "uuid": "a62bcf06-2f45-4d41-a419-0240ec672a0e",
+      "server": "143.204.111.65",
+      "server_port": 443,
+      "uuid": "20a328bd-08c1-4e88-aee5-bc542a4ef101",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "143.204.111.65",
+      "server_port": 443,
+      "uuid": "20a328bd-08c1-4e88-aee5-bc542a4ef101",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "141.193.213.21",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -545,13 +589,21 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVYVlBSGFDSEh1bU9EbkdjYnp0V3pl",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRSDlKWUxsckdKb2RkUllsSVFGeEhO",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -559,7 +611,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #5",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -567,19 +619,11 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "tag": "🇺🇸 US | SS | @key_outline #6",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2WVF6dnpYZE5pU1p5U2pYWW12OGhE",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #6",
-      "type": "shadowsocks",
-      "server": "104.192.227.162",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPT1cyR3NydzVqODhXNkZBTGhVNU9i",
       "password": null
     },
     {
@@ -945,14 +989,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,

@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #1", "server": "talinn-news.life", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3f30096f-f421-4608-a2c3-a076b3ee1d95", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #2", "server": "185.4.72.98", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #3", "server": "93.123.39.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇪🇪 EE | VLESS | @prrofile_purple #1", "server": "est.pink-service.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9c7d89ae-daf3-45c2-84d6-a7447e9123f9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @config_proxy #1'
-      - '🇪🇪 EE | VLESS | @config_proxy #2'
-      - '🇪🇪 EE | VLESS | @config_proxy #3'
+      - '🇪🇪 EE | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media
     type: select

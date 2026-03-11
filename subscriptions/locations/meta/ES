@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy #1", "server": "istanbul-meow.nethcloud.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2010e842-ad9b-463e-8c94-32339ed45fca", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @vpnplusee_free #1", "server": "185.147.26.21", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇸 ES | VLESS | @config_proxy #1'
       - '🇪🇸 ES | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
