@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇲🇩 MD | VLESS | @ghalagyann #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -100,6 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇲🇩 MD | VLESS | @ghalagyann #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -112,6 +114,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "kzcdn1.suio.me",
+      "server_port": 443,
+      "uuid": "6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",

@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇲🇩 MD | VLESS | @ghalagyann #1", "server": "kzcdn1.suio.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #1", "server": "4.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #2", "server": "3.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #3", "server": "5.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇲🇩 MD | VLESS | @ghalagyann #1'
       - '🇲🇩 MD | VLESS | @vpn_ioss #1'
       - '🇲🇩 MD | VLESS | @vpn_ioss #2'
       - '🇲🇩 MD | VLESS | @vpn_ioss #3'
