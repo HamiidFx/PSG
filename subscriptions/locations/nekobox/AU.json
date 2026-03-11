@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1"
       ],
       "tag": "proxy",
@@ -89,10 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1"
       ],
       "tag": "auto",
@@ -107,31 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "hopev2ray.ddns.net",
-      "server_port": 443,
-      "uuid": "bb0bdd60-d319-11ed-b837-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "fr-1.0rd.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@hopev2ray",
-        "headers": {
-          "Host": "fr-1.0rd.net"
-        }
-      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -171,31 +142,6 @@
         "path": "/tq98e0yk",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "hopev2ray.ddns.net",
-      "server_port": 443,
-      "uuid": "17bbb590-ec28-11ed-b334-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.0rd.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@SINA_TEC",
-        "headers": {
-          "Host": "pl.0rd.net"
         }
       }
     },
