@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | VLESS | @ai_duet #1",
+        "🇿🇦 ZA | SS | @oonfig #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #2"
       ],
@@ -87,7 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | VLESS | @ai_duet #1",
+        "🇿🇦 ZA | SS | @oonfig #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #2"
       ],
@@ -105,21 +105,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | VLESS | @ai_duet #1",
-      "type": "vless",
-      "server": "102.37.155.79",
+      "tag": "🇿🇦 ZA | SS | @oonfig #1",
+      "type": "shadowsocks",
+      "server": "102.37.156.224",
       "server_port": 443,
-      "uuid": "a2a7636b-25d9-4f83-941c-ba88cef9e2e2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2",
+      "password": null
     },
     {
       "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",

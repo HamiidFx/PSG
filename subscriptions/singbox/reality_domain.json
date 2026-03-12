@@ -93,10 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇨🇭 CH | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -117,10 +119,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇨🇭 CH | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -214,11 +218,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
+      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "finland2.foxyrobot.ru",
+      "server": "ch.darknet.run",
       "server_port": 443,
-      "uuid": "aca93f8a-0a46-4c92-a948-e745dd3fa9ae",
+      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -231,11 +235,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "vb19.homianco.ir",
-      "server_port": 2096,
-      "uuid": "d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549",
+      "server": "at.darknet.run",
+      "server_port": 443,
+      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -244,11 +248,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "senkogermany.foxyrobot.ru",
+      "server_port": 443,
+      "uuid": "aca93f8a-0a46-4c92-a948-e745dd3fa9ae",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -267,6 +283,28 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
+      "type": "vless",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

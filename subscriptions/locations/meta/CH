@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇭 CH | VLESS | @config_proxy #1", "server": "ch.darknet.run", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "54c36460-4710-4c4d-8b58-0be7da081331", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @proxyfn #1", "server": "193.168.144.46", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇭 CH | VLESS | @config_proxy #1'
       - '🇨🇭 CH | VLESS | @proxyfn #1'
 
   - name: 🌍 Global Media

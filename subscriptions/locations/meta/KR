@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇰🇷 KR | VLESS | @config_proxy #1", "server": "203.170.125.48", "port": 24738, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "203.170.125.48"}}}
+  - {"name": "🇰🇷 KR | VLESS | @config_proxy #2", "server": "220.88.3.5", "port": 12283, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1", "server": "52.231.38.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇰🇷 KR | VLESS | @config_proxy #1'
+      - '🇰🇷 KR | VLESS | @config_proxy #2'
       - '🇰🇷 KR | VLESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media

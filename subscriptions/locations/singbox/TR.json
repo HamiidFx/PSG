@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
         "🇹🇷 TR | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
         "🇹🇷 TR | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
@@ -108,6 +110,30 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "212.87.198.108",
+      "server_port": 443,
+      "uuid": "f91c1cc2-05fe-4efd-ba09-86cb6bec19e3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",

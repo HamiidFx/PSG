@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "finland2.foxyrobot.ru",
-      "server_port": 443,
-      "uuid": "aca93f8a-0a46-4c92-a948-e745dd3fa9ae",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
