@@ -90,6 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VLESS | @config_proxy #2",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -99,6 +102,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VLESS | @config_proxy #2",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -110,6 +116,65 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "36.50.90.241",
+      "server_port": 47790,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "20.255.49.160",
+      "server_port": 443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "n1752248951.lie5d.cyou",
+      "server_port": 443,
+      "uuid": "bf2ce3c2-339f-4926-b92d-b7d83af1b3b6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1752248951.lie5d.cyou",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1752248951.lie5d.cyou"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
