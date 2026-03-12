@@ -90,6 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
+        "🇪🇪 EE | VLESS | @config_proxy #4",
         "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
@@ -98,6 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
+        "🇪🇪 EE | VLESS | @config_proxy #4",
         "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
@@ -108,6 +116,56 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "s501.ccgfw.top",
+      "server_port": 443,
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "185.155.97.85",
+      "server_port": 443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "69.12.83.19",
+      "server_port": 7443,
+      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "77.239.126.122",
+      "server_port": 7443,
+      "uuid": "9b4a17a2-6845-4924-a81a-20b7591ba9f9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",

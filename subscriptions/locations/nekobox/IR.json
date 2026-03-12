@@ -79,8 +79,10 @@
         "direct",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -91,8 +93,10 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -135,6 +139,24 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "uk1.iranishops.com",
+      "server_port": 443,
+      "uuid": "4bb91b6c-be3d-5462-30ed-d127f8dd61aa",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "myket.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -149,6 +171,15 @@
       "server_port": 58372,
       "uuid": "6671da8e-95b4-4904-85de-ede5bf830f5e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "217.218.52.1",
+      "server_port": 10410,
+      "uuid": "f93f134f-7adb-48c3-bcd1-2532edb0b478",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",

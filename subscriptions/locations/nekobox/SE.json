@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -117,7 +116,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -163,23 +161,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "193.181.29.120",
-      "server_port": 443,
-      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",

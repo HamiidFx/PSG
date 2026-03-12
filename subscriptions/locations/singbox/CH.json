@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "proxy",
@@ -99,7 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "auto",
@@ -110,23 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "ch.darknet.run",
-      "server_port": 443,
-      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",

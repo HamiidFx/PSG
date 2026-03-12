@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "sv22.v2bit.com",
+      "server_port": 443,
+      "uuid": "cbaf27fe-914e-5457-9db6-92719bfaafac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | SS | @manstervpn #1",
