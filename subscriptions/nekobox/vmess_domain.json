@@ -93,6 +93,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇺🇸 US | VMESS | @prrofile_purple #1",
+        "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
@@ -121,6 +123,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇺🇸 US | VMESS | @prrofile_purple #1",
+        "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
@@ -493,6 +497,40 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @prrofile_purple #1",
+      "type": "vmess",
+      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
+      "server_port": 80,
+      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @prrofile_purple #2",
+      "type": "vmess",
+      "server": "15.235.85.156",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kampong.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
         }
       }
     },
