@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
@@ -99,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "158.160.220.159",
+      "server_port": 8443,
+      "uuid": "dc34f1db-8c63-45cc-8789-5e27c7b7a8a5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",

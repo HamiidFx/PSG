@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇶 IQ | VLESS | @config_proxy #1",
         "🇮🇶 IQ | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇶 IQ | VLESS | @config_proxy #1",
         "🇮🇶 IQ | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
@@ -108,6 +110,18 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇶 IQ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "dev.fastdbn.com",
+      "server_port": 5001,
+      "uuid": "8b483e0a-4e76-406d-a36d-c7775f8306ff",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
       "tag": "🇮🇶 IQ | VLESS | @prrofile_purple #1",

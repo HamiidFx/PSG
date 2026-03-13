@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @config_proxy #1", "server": "n1752248951.lie5d.cyou", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "bf2ce3c2-339f-4926-b92d-b7d83af1b3b6", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "n1752248951.lie5d.cyou"}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VMESS | @config_proxy #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
 
   - name: 🌍 Global Media
