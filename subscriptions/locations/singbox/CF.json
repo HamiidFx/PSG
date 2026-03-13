@@ -94,6 +94,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -244,7 +246,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -314,6 +315,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -464,7 +467,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -576,9 +578,48 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "f3.hamrahconf.ir",
-      "server_port": 8443,
-      "uuid": "5fdc186d-f881-4fc4-9346-1f3d8fae9339",
+      "server": "104.17.74.206",
+      "server_port": 2096,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "172.64.149.80",
+      "server_port": 443,
+      "uuid": "733a9a09-ba93-4e73-b1f3-ae0bcbd88310",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "c6b615a8-d901-4eef-82dd-54a44ee9abd9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2379,22 +2420,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "104.21.16.211",
-      "server_port": 80,
-      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
-        "headers": {
-          "Host": "nnmkl.2nn.ccwu.cc"
         }
       }
     },

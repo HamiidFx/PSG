@@ -97,7 +97,7 @@
         "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -127,7 +127,7 @@
         "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -585,18 +585,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "104.21.16.211",
-      "server_port": 80,
-      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "server": "502.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "glweidf.sbs",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
+        "path": "/linkws",
         "headers": {
-          "Host": "nnmkl.2nn.ccwu.cc"
+          "Host": "glweidf.sbs"
         }
       }
     },

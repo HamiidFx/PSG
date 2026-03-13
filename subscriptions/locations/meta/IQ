@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇶 IQ | VLESS | @config_proxy #1", "server": "dev.fastdbn.com", "port": 5001, "type": "vless", "skip-cert-verify": true, "uuid": "8b483e0a-4e76-406d-a36d-c7775f8306ff", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇮🇶 IQ | VLESS | @prrofile_purple #1", "server": "81.90.29.39", "port": 2443, "type": "vless", "skip-cert-verify": true, "uuid": "44dc6ac1-6126-4627-b889-9792a8188012", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇶 IQ | VLESS | @config_proxy #1'
       - '🇮🇶 IQ | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media

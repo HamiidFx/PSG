@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇴 JO | SS | @v2ray_free_conf #1"
+        "🇱🇺 LU | VLESS | @config_proxy #1",
+        "🇱🇺 LU | VMESS | @config_proxy #1",
+        "🇱🇺 LU | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇴 JO | SS | @v2ray_free_conf #1"
+        "🇱🇺 LU | VLESS | @config_proxy #1",
+        "🇱🇺 LU | VMESS | @config_proxy #1",
+        "🇱🇺 LU | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +105,35 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇴 JO | SS | @v2ray_free_conf #1",
+      "tag": "🇱🇺 LU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "107.189.7.176",
+      "server_port": 49839,
+      "uuid": "c56375ea-317d-4d81-9213-582d024e5d3a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇱🇺 LU | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "107.189.7.176",
+      "server_port": 34972,
+      "uuid": "4814b7d2-b478-4482-a1ab-6cea34b6581b",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "91.106.109.17",
-      "server_port": 48213,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1",
+      "server": "107.189.7.176",
+      "server_port": 46294,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206YmdRV2crelRpeW9WTWU5VTZVNzJJaTZnZmZEN0ZQcWpBTG5sdU95Qi9rOD06RURxdHd2TEJGMENWb05qWnJyK053b21tNE9zNGp0SDN1Z0ZtUHhUZkV1VT0=",
       "password": null
     }
   ],
