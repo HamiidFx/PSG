@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVE=
+//profile-title: base64:UFNHIHwgTVk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @prrofile_purple #1"
+        "🇲🇾 MY | VMESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @prrofile_purple #1"
+        "🇲🇾 MY | VMESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "81.90.29.39",
-      "server_port": 2443,
-      "uuid": "44dc6ac1-6126-4627-b889-9792a8188012",
-      "packet_encoding": "xudp"
+      "tag": "🇲🇾 MY | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "47.250.45.234",
+      "server_port": 8613,
+      "uuid": "80039b4d-bac0-4f89-82c7-54fad3b0a1ea",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {
