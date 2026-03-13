@@ -23,6 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "89.208.229.10", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4262ba73-f5ba-1b58-9714-a2a8a19ae6d8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "5.188.140.217", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4262ba73-f5ba-07d0-9714-a2a8a19ae6d8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "109.120.190.254", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4262ba73-f5ba-07d0-9714-a2a8a19ae6d8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #4", "server": "51.250.67.33", "port": 8448, "type": "vless", "skip-cert-verify": true, "uuid": "53aba536-b3ab-48fd-a694-aef1e84c6baf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
 
 proxy-groups:
@@ -37,6 +41,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
+      - '🇷🇺 RU | VLESS | @config_proxy #3'
+      - '🇷🇺 RU | VLESS | @config_proxy #4'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
 
   - name: 🌍 Global Media
