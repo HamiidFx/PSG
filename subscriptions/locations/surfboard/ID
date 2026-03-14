@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/ID interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇮🇩 ID | VMESS | @config_proxy #1 = vmess, 47.130.9.238, 443, username = 462d9694-62b5-4781-a287-61a422b920e8, ws = true, tls = false, ws-path = /vvip, ws-headers = Host:"mn1ray.jagoanvip.xyz"
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇩 ID | VMESS | @config_proxy #1
+PSG-AUTO = url-test, 🇮🇩 ID | VMESS | @config_proxy #1
+PSG-FALLBACK = fallback, 🇮🇩 ID | VMESS | @config_proxy #1
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
