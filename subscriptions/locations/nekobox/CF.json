@@ -81,8 +81,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -271,6 +271,7 @@
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇽🇽 XX | VLESS | @vboxpanel #3",
         "🇽🇽 XX | VLESS | @vboxpanel #4",
+        "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
@@ -306,8 +307,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -496,6 +497,7 @@
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇽🇽 XX | VLESS | @vboxpanel #3",
         "🇽🇽 XX | VLESS | @vboxpanel #4",
+        "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
@@ -577,26 +579,60 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "cdn.narvpn.com",
+      "server": "104.17.148.22",
       "server_port": 2082,
-      "uuid": "8e6bfe64-d4f8-4564-8f47-7423fb88156b",
+      "uuid": "28b1fd8a-57b0-481e-830b-af3a7907f474",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "cdn.narvpn.com",
-      "server_port": 2095,
-      "uuid": "8e6bfe64-d4f8-4564-8f47-7423fb88156b",
-      "packet_encoding": "xudp"
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "zzrt.uhomdex.shop",
+      "server_port": 8443,
+      "uuid": "edb3e961-0b28-4e52-8446-399f3ef03c08",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "zzrt.uhomdex.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zzrt.uhomdex.shop"
+        }
+      }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "104.16.149.66",
-      "server_port": 80,
-      "uuid": "a7444b2b-20fb-461f-9840-63e5c8c7d883",
-      "packet_encoding": "xudp"
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "zdqbk.cmvvb.online",
+      "server_port": 8443,
+      "uuid": "ef46b74c-b3ef-4633-9818-0af6226c4060",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "zdqbk.cmvvb.online",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zdqbk.cmvvb.online"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -2854,6 +2890,14 @@
       "server": "hilnu.com",
       "server_port": 8443,
       "uuid": "0c94ca98-3643-4cb4-de75-6167815af665",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "104.21.17.104",
+      "server_port": 8880,
+      "uuid": "ci49kfwjrc",
       "packet_encoding": "xudp"
     },
     {
