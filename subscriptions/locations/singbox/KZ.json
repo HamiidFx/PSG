@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @red2ray #1"
       ],
@@ -100,7 +99,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @red2ray #1"
       ],
@@ -112,27 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "kazachok.ookcdn.ru",
-      "server_port": 443,
-      "uuid": "69addc17-13de-4493-a7c3-876090ee5af5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",

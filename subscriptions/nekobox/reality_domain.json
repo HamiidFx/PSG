@@ -80,10 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇯🇵 JP | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -100,10 +100,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇯🇵 JP | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -197,11 +197,11 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
+      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "kazachok.ookcdn.ru",
+      "server": "tokyo.high-speed-test-56424.me",
       "server_port": 443,
-      "uuid": "69addc17-13de-4493-a7c3-876090ee5af5",
+      "uuid": "28455c79-1165-46a2-a1a9-ead96ad9c5cb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -210,21 +210,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -249,11 +241,33 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
       "type": "vless",
-      "server": "d1.designister.com",
-      "server_port": 443,
-      "uuid": "3ebd01e3-763d-45c9-bfcc-fa220e81bd5f",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "cache2.datapull.cc",
+      "server_port": 8443,
+      "uuid": "742d2dcb-ab26-4b10-b0a3-2efed2c154fa",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
