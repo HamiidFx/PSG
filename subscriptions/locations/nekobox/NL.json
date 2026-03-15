@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -87,7 +86,8 @@
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +95,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -105,7 +104,8 @@
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,28 +119,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "85.158.110.62",
-      "server_port": 8443,
-      "uuid": "f4d8b865-a620-4e1d-802a-6bcf5a48c49e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -286,6 +264,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "194.85.249.173",
+      "server_port": 433,
+      "uuid": "e81a36d5-b3c3-48e0-bf08-d8938a247391",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

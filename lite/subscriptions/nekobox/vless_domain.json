@@ -82,12 +82,12 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -101,6 +101,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
@@ -161,12 +162,12 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -180,6 +181,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
@@ -331,13 +333,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "server": "poe.com",
+      "server_port": 443,
+      "uuid": "081efe27-f6b8-4f60-aedb-3c9effe9c67d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -372,7 +382,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -566,6 +576,14 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @komail315 #1",
+      "type": "vless",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @kopltall_vpn #1",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -757,9 +775,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "nodejs.org",
-      "server_port": 80,
-      "uuid": "546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f",
+      "server": "ip-data.turkserver.ir",
+      "server_port": 2083,
+      "uuid": "3b7ec44b-66d8-4822-b772-f1f50c3fec95",
       "packet_encoding": "xudp"
     },
     {
