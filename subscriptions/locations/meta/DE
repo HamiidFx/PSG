@@ -23,14 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VLESS | @config_proxy #1", "server": "77.110.99.57", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VLESS | @configasli #1", "server": "s1.aparat-movies-download.ir", "port": 4450, "type": "vless", "skip-cert-verify": true, "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇩🇪 DE | VLESS | @eliteproxyv2 #1", "server": "germany.fast.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #2", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | VLESS | @megavpn_link #1", "server": "all32-vip.f-sub.com", "port": 2434, "type": "vless", "skip-cert-verify": true, "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @minovpnch #1", "server": "92.223.124.29", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e1034c59-c944-4a60-bdba-8f9cea0324b1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | TROJAN | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "842b5f9dd11e458d8613c907c4cc5723"}
   - {"name": "🇩🇪 DE | VLESS | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -65,14 +62,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | VLESS | @config_proxy #1'
-      - '🇩🇪 DE | VLESS | @configasli #1'
       - '🇩🇪 DE | VLESS | @eliteproxyv2 #1'
       - '🇩🇪 DE | VLESS | @filterk0sh #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #2'
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
-      - '🇩🇪 DE | VLESS | @megavpn_link #1'
       - '🇩🇪 DE | VLESS | @minovpnch #1'
       - '🇩🇪 DE | TROJAN | @mpproxy #1'
       - '🇩🇪 DE | VLESS | @mpproxy #1'

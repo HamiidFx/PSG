@@ -92,6 +92,9 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -144,6 +147,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
+        "🇺🇸 US | SS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -156,6 +160,9 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -208,6 +215,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
+        "🇺🇸 US | SS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -252,6 +260,51 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "94.183.233.213",
+      "server_port": 8443,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "162.212.157.215",
+      "server_port": 443,
+      "uuid": "e1823bc1-3100-43f2-87a0-7c53b6905866",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "cn02.365cloud5878.com",
+      "server_port": 6029,
+      "uuid": "9f1ecfca-13a9-488d-ac84-aaeb73a8d574",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -910,6 +963,14 @@
       "server_port": 2053,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | SS | @vip_vpn_2022 #1",
+      "type": "shadowsocks",
+      "server": "tinkered-pennies-puppies.freesocks.work",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",

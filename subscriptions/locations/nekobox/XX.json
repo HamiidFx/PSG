@@ -81,8 +81,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -193,6 +191,7 @@
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
+        "🇽🇽 XX | TROJAN | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -317,8 +316,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -429,6 +426,7 @@
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
+        "🇽🇽 XX | TROJAN | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -599,60 +597,10 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "104.17.148.22",
-      "server_port": 2082,
-      "uuid": "28b1fd8a-57b0-481e-830b-af3a7907f474",
+      "server": "172.64.155.209",
+      "server_port": 80,
+      "uuid": "787b3724-16c8-4e58-a038-2b8013cdc6d9",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "zzrt.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "edb3e961-0b28-4e52-8446-399f3ef03c08",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zzrt.uhomdex.shop",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zzrt.uhomdex.shop"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "zdqbk.cmvvb.online",
-      "server_port": 8443,
-      "uuid": "ef46b74c-b3ef-4633-9818-0af6226c4060",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zdqbk.cmvvb.online",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zdqbk.cmvvb.online"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -1962,6 +1910,22 @@
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "irancell.buzzmuzzpanel.online",
+      "server_port": 443,
+      "password": "%295%2C9FW.Kk166",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @pro_chaneel #1",
