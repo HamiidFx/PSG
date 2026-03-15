@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -110,7 +109,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -118,6 +116,8 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
+        "🇱🇺 LU | VMESS | @v2ray_free_conf #2",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -129,7 +129,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -146,7 +145,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -154,6 +152,8 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
+        "🇱🇺 LU | VMESS | @v2ray_free_conf #2",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -236,15 +236,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "cn02.365cloud5878.com",
-      "server_port": 6029,
-      "uuid": "9f1ecfca-13a9-488d-ac84-aaeb73a8d574",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -606,31 +597,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "dl4.kendoole.store",
-      "server_port": 443,
-      "uuid": "969ecc5d-813b-4d90-ad2f-bf987ccd8999",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "soft98.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "soft98.ir"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -776,6 +742,56 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "107.189.7.176",
+      "server_port": 53469,
+      "uuid": "c70b24da-5325-42c5-80bd-374ed82d2781",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | VMESS | @v2ray_free_conf #2",
+      "type": "vmess",
+      "server": "107.189.7.176",
+      "server_port": 53469,
+      "uuid": "bb051c3a-412f-4c69-9bb9-96224c91c5ae",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

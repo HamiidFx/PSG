@@ -77,11 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -90,11 +90,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -109,6 +109,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "my.protag.ir",
+      "server_port": 80,
+      "uuid": "3075155b-439e-4f60-9041-e92ff75136fc",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -159,14 +167,6 @@
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "nett112.servernettt.shop",
-      "server_port": 58372,
-      "uuid": "6671da8e-95b4-4904-85de-ede5bf830f5e",
       "packet_encoding": "xudp"
     },
     {

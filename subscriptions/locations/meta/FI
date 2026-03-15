@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy #1", "server": "77.42.67.4", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "7d0d9224-b471-4d0a-877a-f68a9e4fdaa9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @config_proxy #2", "server": "45.144.53.140", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "20d3c935-98ba-4787-b5ed-b8b31d9be82c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @vpnplusee_free #1", "server": "sr4.laptopstock7.com", "port": 3030, "type": "vless", "skip-cert-verify": true, "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -39,8 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @config_proxy #1'
-      - '🇫🇮 FI | VLESS | @config_proxy #2'
       - '🇫🇮 FI | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media

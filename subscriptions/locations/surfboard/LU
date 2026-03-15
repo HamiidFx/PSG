@@ -1,0 +1,22 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/LU interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇱🇺 LU | VMESS | @v2ray_free_conf #1 = vmess, 107.189.7.176, 53469, username = c70b24da-5325-42c5-80bd-374ed82d2781, ws = true, tls = true, ws-path = /, ws-headers = Host:"107.189.7.176"
+🇱🇺 LU | VMESS | @v2ray_free_conf #2 = vmess, 107.189.7.176, 53469, username = bb051c3a-412f-4c69-9bb9-96224c91c5ae, ws = true, tls = true, ws-path = /, ws-headers = Host:"107.189.7.176"
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇱🇺 LU | VMESS | @v2ray_free_conf #1, 🇱🇺 LU | VMESS | @v2ray_free_conf #2
+PSG-AUTO = url-test, 🇱🇺 LU | VMESS | @v2ray_free_conf #1, 🇱🇺 LU | VMESS | @v2ray_free_conf #2
+PSG-FALLBACK = fallback, 🇱🇺 LU | VMESS | @v2ray_free_conf #1, 🇱🇺 LU | VMESS | @v2ray_free_conf #2
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
