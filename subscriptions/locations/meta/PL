@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "pl.riotvpn.eu", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1d8120a6-15de-4001-92ad-eeaf8ba63699", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "pl1.nettrust.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6bd5e67b-e1fb-48b5-bf8c-bebb3dc6be7e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy

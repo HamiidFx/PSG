@@ -105,10 +105,24 @@
     {
       "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "pl.riotvpn.eu",
-      "server_port": 80,
-      "uuid": "1d8120a6-15de-4001-92ad-eeaf8ba63699",
-      "packet_encoding": "xudp"
+      "server": "pl1.nettrust.ru",
+      "server_port": 443,
+      "uuid": "6bd5e67b-e1fb-48b5-bf8c-bebb3dc6be7e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
