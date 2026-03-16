@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #1", "server": "nr-01.opsvpnvless.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #2", "server": "5.180.47.159", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2c564cf2-2291-4c8a-ad02-d8db601c41f9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇴 NO | VLESS | @prrofile_purple #1'
+      - '🇳🇴 NO | VLESS | @prrofile_purple #2'
 
   - name: 🌍 Global Media
     type: select

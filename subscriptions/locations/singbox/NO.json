@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇴 NO | VLESS | @prrofile_purple #1"
+        "🇳🇴 NO | VLESS | @prrofile_purple #1",
+        "🇳🇴 NO | VLESS | @prrofile_purple #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇴 NO | VLESS | @prrofile_purple #1"
+        "🇳🇴 NO | VLESS | @prrofile_purple #1",
+        "🇳🇴 NO | VLESS | @prrofile_purple #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,28 @@
       "server": "nr-01.opsvpnvless.ru",
       "server_port": 443,
       "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇴 NO | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "5.180.47.159",
+      "server_port": 8443,
+      "uuid": "2c564cf2-2291-4c8a-ad02-d8db601c41f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
