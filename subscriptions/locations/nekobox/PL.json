@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -88,8 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -105,45 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "uk1.santexnika24.com",
-      "server_port": 443,
-      "uuid": "096d2cea-e1d5-4b68-ada3-6349a272ecad",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "pl1.nettrust.ru",
-      "server_port": 443,
-      "uuid": "6bd5e67b-e1fb-48b5-bf8c-bebb3dc6be7e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
