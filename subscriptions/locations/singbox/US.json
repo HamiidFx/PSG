@@ -92,9 +92,9 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -159,9 +159,9 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -260,15 +260,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "cn02.365cloud5878.com",
-      "server_port": 6033,
-      "uuid": "9f1ecfca-13a9-488d-ac84-aaeb73a8d574",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
       "type": "vless",
       "server": "www.gcore.com",
@@ -282,6 +273,14 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -533,13 +532,21 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiS3lGclp3bUxhV0NNV20wcWhLZHNG",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #2",
+      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUWEJQd0pxOE4xNGxZaldhZDkyNWhJ",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -547,7 +554,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -555,7 +562,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #5",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -563,19 +570,11 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "tag": "🇺🇸 US | SS | @key_outline #6",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #6",
-      "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UHpKQ3cxcDdZREkxT25YR0I2MnhE",
       "password": null
     },
     {
@@ -788,14 +787,14 @@
     {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #2",
       "type": "vmess",
-      "server": "172.67.152.214",
+      "server": "172.67.196.112",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "meroiy.icu",
+        "server_name": "kellie.makeup",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -806,7 +805,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "meroiy.icu"
+          "Host": "kellie.makeup"
         }
       }
     },
