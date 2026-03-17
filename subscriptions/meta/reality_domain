@@ -26,6 +26,7 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy #1", "server": "kz1.a-svc.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "45686761-5a47-40c0-a982-a06233f9d64e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @megavpn_link #1", "server": "all32-vip.f-sub.com", "port": 2434, "type": "vless", "skip-cert-verify": true, "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #1", "server": "nr-01.opsvpnvless.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -34,6 +35,7 @@ proxies:
   - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #2", "server": "3.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #3", "server": "5.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @vpnplusee_free #1", "server": "sr4.laptopstock7.com", "port": 3030, "type": "vless", "skip-cert-verify": true, "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @vpnv2raytop #1", "server": "eedf07fd7be44fcd.reni-z1.maf-tahas.ir", "port": 8585, "type": "vless", "skip-cert-verify": true, "uuid": "31351ae7-e506-43d3-9fcf-246c5248d336", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,6 +52,7 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇲🇩 MD | VLESS | @config_proxy #1'
       - '🇩🇪 DE | VLESS | @filterk0sh #1'
       - '🇩🇪 DE | VLESS | @megavpn_link #1'
       - '🇳🇴 NO | VLESS | @prrofile_purple #1'
@@ -58,6 +61,7 @@ proxy-groups:
       - '🇲🇩 MD | VLESS | @vpn_ioss #2'
       - '🇲🇩 MD | VLESS | @vpn_ioss #3'
       - '🇫🇮 FI | VLESS | @vpnplusee_free #1'
+      - '🇩🇪 DE | VLESS | @vpnv2raytop #1'
 
   - name: 🌍 Global Media
     type: select

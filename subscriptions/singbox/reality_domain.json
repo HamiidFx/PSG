@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇴 NO | VLESS | @prrofile_purple #1",
@@ -100,7 +101,8 @@
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,6 +113,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇴 NO | VLESS | @prrofile_purple #1",
@@ -118,7 +121,8 @@
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,6 +202,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "kz1.a-svc.com",
+      "server_port": 443,
+      "uuid": "45686761-5a47-40c0-a982-a06233f9d64e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -361,6 +387,28 @@
       "server": "sr4.laptopstock7.com",
       "server_port": 3030,
       "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+      "type": "vless",
+      "server": "eedf07fd7be44fcd.reni-z1.maf-tahas.ir",
+      "server_port": 8585,
+      "uuid": "31351ae7-e506-43d3-9fcf-246c5248d336",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
