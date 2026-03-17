@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "176.124.203.183", "port": 8082, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-4000-8000-000000000000", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @kafing_2 #1", "server": "151.101.206.133", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1cc40572-43d1-44a7-ad26-312fa7206997", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -43,7 +42,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VLESS | @config_proxy #1'
       - '🇳🇱 NL | VLESS | @kafing_2 #1'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'

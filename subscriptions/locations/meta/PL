@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #1", "server": "nr-01.opsvpnvless.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #2", "server": "5.180.47.159", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2c564cf2-2291-4c8a-ad02-d8db601c41f9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇴 NO | VLESS | @prrofile_purple #3", "server": "89.185.81.169", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "95.85.253.126", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "39832ad0-eb3c-42a9-83ae-d160f5667df3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇴 NO | VLESS | @prrofile_purple #1'
-      - '🇳🇴 NO | VLESS | @prrofile_purple #2'
-      - '🇳🇴 NO | VLESS | @prrofile_purple #3'
+      - '🇵🇱 PL | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

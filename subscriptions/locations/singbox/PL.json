@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -110,6 +112,24 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "95.85.253.126",
+      "server_port": 443,
+      "uuid": "39832ad0-eb3c-42a9-83ae-d160f5667df3",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
