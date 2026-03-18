@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,37 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "95.85.253.126",
-      "server_port": 443,
-      "uuid": "39832ad0-eb3c-42a9-83ae-d160f5667df3",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "217.30.10.70",
       "server_port": 9000,
       "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
     }
   ],

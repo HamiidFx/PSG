@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
@@ -88,7 +87,6 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
@@ -105,7 +103,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | SS | @free4allvpn #1",
@@ -116,7 +113,6 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
@@ -139,15 +135,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "46.225.54.75",
-      "server_port": 10410,
-      "uuid": "0654d64d-08bf-43e5-ad44-18a7d1a8d6f7",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
@@ -293,22 +280,6 @@
       "server_port": 59029,
       "uuid": "c031d6c7-5132-4d81-8efc-3b13a947984e",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
-      "type": "trojan",
-      "server": "3.120.82.109",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @proxy48 #1",

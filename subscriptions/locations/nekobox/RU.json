@@ -105,10 +105,20 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "83.166.249.47",
-      "server_port": 52006,
-      "uuid": "29aab552-bfbb-0320-b22a-9a9c58c84811",
-      "packet_encoding": "xudp"
+      "server": "80.93.178.102",
+      "server_port": 443,
+      "uuid": "42d21032-dca6-4951-ab44-c3ab56aee17b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
