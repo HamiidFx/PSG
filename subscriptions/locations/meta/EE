@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "pl-1.axeronzer.xyz", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "fe1912e2-43a9-4067-9d18-b8eebf9a61b9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #2", "server": "144.31.1.172", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "564a1583-4d4f-40da-b673-e371faaba64a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇪🇪 EE | VLESS | @config_proxy #1", "server": "193.109.120.119", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd37be2f-f8d1-47de-97e8-13c28107d31e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy #1'
-      - '🇵🇱 PL | VLESS | @config_proxy #2'
+      - '🇪🇪 EE | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
