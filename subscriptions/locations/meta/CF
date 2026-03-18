@@ -26,6 +26,8 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #1", "server": "artemis.sbs", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6ae833da-e51f-48b4-a870-1f1aafe17378", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #2", "server": "artemis.sbs", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @buffalo_vpn #1", "server": "188.114.97.0", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "188.114.97.0"}}}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy #1", "server": "rgt.ae1autumn.dpdns.org", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/YsmRouA9ZbxgW4", "headers": {"Host": "rgt.ae1autumn.dpdns.org"}}}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy #2", "server": "vbh.ae1autumn.cc.cd", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/YsmRouA9ZbxgW4", "headers": {"Host": "vbh.ae1autumn.cc.cd"}}}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #1", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "VPNCUSTOMIZE", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #2", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "017c320f-e573-46a9-a86d-edd8f4a8cbbf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #3", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "-VPNCUSTOMIZE-", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -255,6 +257,8 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @artemis_vpn_free #1'
       - '🇽🇽 XX | VLESS | @artemis_vpn_free #2'
       - '🇽🇽 XX | VLESS | @buffalo_vpn #1'
+      - '🇽🇽 XX | VMESS | @config_proxy #1'
+      - '🇽🇽 XX | VMESS | @config_proxy #2'
       - '🇽🇽 XX | VLESS | @customizev2ray #1'
       - '🇽🇽 XX | VLESS | @customizev2ray #2'
       - '🇽🇽 XX | VLESS | @customizev2ray #3'

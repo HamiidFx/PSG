@@ -80,6 +80,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -303,6 +305,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -567,6 +571,47 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "rgt.ae1autumn.dpdns.org",
+      "server_port": 443,
+      "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "rgt.ae1autumn.dpdns.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/YsmRouA9ZbxgW4",
+        "headers": {
+          "Host": "rgt.ae1autumn.dpdns.org"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "vbh.ae1autumn.cc.cd",
+      "server_port": 80,
+      "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/YsmRouA9ZbxgW4",
+        "headers": {
+          "Host": "vbh.ae1autumn.cc.cd"
         }
       }
     },
