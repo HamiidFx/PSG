@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -86,6 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -101,6 +105,33 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "pl-1.axeronzer.xyz",
+      "server_port": 8443,
+      "uuid": "fe1912e2-43a9-4067-9d18-b8eebf9a61b9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "144.31.1.172",
+      "server_port": 443,
+      "uuid": "564a1583-4d4f-40da-b673-e371faaba64a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
