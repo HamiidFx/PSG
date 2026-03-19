@@ -92,8 +92,10 @@
         "direct",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "proxy",
@@ -104,8 +106,10 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "auto",
@@ -144,6 +148,23 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "my.protag.ir",
@@ -166,6 +187,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 8880,
+      "uuid": "89495d73-259e-4f84-9763-6c669a819c6a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",

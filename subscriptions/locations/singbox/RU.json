@@ -116,11 +116,24 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "188.225.57.254",
-      "server_port": 7443,
-      "uuid": "42d21032-dca6-4951-ab44-c3ab56aee17b",
+      "server": "37.9.4.241",
+      "server_port": 443,
+      "uuid": "2050919f-cd5c-4158-8514-72b24fa124dc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",

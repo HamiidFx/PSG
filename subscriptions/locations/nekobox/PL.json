@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -101,6 +103,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "pl.sky-vault.top",
+      "server_port": 443,
+      "uuid": "ab1ddafb-9514-40ab-9e4b-a3878f70931d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
