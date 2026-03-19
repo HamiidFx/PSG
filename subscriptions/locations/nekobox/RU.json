@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -103,28 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "37.9.4.241",
-      "server_port": 443,
-      "uuid": "2050919f-cd5c-4158-8514-72b24fa124dc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",

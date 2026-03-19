@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇧🇾 BY | VLESS | @config_proxy #1", "server": "91.149.167.240", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1401682c-0e47-4eb9-b5ab-98243655be9b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy #1", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇧🇾 BY | VLESS | @config_proxy #1'
       - '🇧🇾 BY | VMESS | @ir_netproxy #1'
 
   - name: 🌍 Global Media

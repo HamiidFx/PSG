@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -127,6 +128,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -166,6 +168,21 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "freefamily.shop",
+      "server_port": 8443,
+      "uuid": "2a5d9814-2382-4c98-a048-1d23e70ec30b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
