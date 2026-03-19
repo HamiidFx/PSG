@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇸 US | VMESS | @config_proxy #1", "server": "cn01.365cloud8754.com", "port": 6001, "type": "vmess", "skip-cert-verify": true, "uuid": "db75bc92-4e32-48dd-b792-d7a8b707626c", "alterId": 0, "cipher": "aes-128-gcm", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy #1", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇺🇸 US | VMESS | @manstervpn #1", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
@@ -47,7 +46,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | VMESS | @config_proxy #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @ir_netproxy #1'
       - '🇺🇸 US | VMESS | @manstervpn #1'

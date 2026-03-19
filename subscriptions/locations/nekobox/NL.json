@@ -119,15 +119,22 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "sc-thenetherlands2.09vpn.com",
-      "server_port": 80,
-      "uuid": "e73df646-1f62-41bf-8c50-653497d603d0",
+      "server": "89.149.243.167",
+      "server_port": 443,
+      "uuid": "64ae277f-4089-41ae-8856-87ceff67edb3",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

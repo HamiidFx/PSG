@@ -93,6 +93,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -327,6 +329,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -602,12 +606,69 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "hwtqcp.uhomdex.shop",
+      "server_port": 8443,
+      "uuid": "b6182347-f6df-47e3-9ac8-d40a792f319e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hwtqcp.uhomdex.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hwtqcp.uhomdex.shop"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "bnhhy.1ll.ccwu.cc",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
+        "headers": {
+          "Host": "bnhhy.1ll.ccwu.cc"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "172.64.153.235",
-      "server_port": 8443,
-      "uuid": "656bb400-3b7a-47e3-94b0-0362f3865072",
-      "packet_encoding": "xudp"
+      "server": "vip2.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "9e4f36da-8f61-44f8-a9a7-0fd3a8d81234",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
