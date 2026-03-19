@@ -89,9 +89,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -173,8 +172,8 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | TROJAN | @mpproxy #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -324,9 +323,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -408,8 +406,8 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | TROJAN | @mpproxy #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -749,60 +747,20 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "hwtqcp.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "b6182347-f6df-47e3-9ac8-d40a792f319e",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hwtqcp.uhomdex.shop",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hwtqcp.uhomdex.shop"
-        }
-      }
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "37.114.50.157",
+      "server_port": 4002,
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "89.149.243.167",
-      "server_port": 443,
-      "uuid": "64ae277f-4089-41ae-8856-87ceff67edb3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "server": "138.68.64.213",
+      "server_port": 2096,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -1441,9 +1399,9 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
-      "server": "216.105.168.18",
+      "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpreThVaXhZWWxoM1VEaDEwV01kUFF0",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
       "password": null
     },
     {
@@ -1451,7 +1409,7 @@
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDMEozeHFwT3pYc01oS29NUlRWcGN3",
       "password": null
     },
     {
@@ -1875,7 +1833,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
+      "tag": "🇸🇨 SC | TROJAN | @mpproxy #1",
       "type": "trojan",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -1891,7 +1849,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
