@@ -83,7 +83,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -133,9 +132,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
@@ -147,7 +147,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
         "🇽🇽 XX | VLESS | @wbrovers #1",
         "🇽🇽 XX | VLESS | @xsv2ray #1"
@@ -164,7 +164,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -214,9 +213,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
@@ -228,7 +228,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇸🇨 SC | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
         "🇽🇽 XX | VLESS | @wbrovers #1",
         "🇽🇽 XX | VLESS | @xsv2ray #1"
@@ -341,21 +341,6 @@
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "freefamily.shop",
-      "server_port": 8443,
-      "uuid": "2a5d9814-2382-4c98-a048-1d23e70ec30b",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -928,11 +913,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "chatgpt.com",
+      "server": "fs.cedriklorenz.ir",
       "server_port": 443,
-      "uuid": "9e13716d-c43d-48b3-8cab-65e02d938ab5",
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -959,6 +944,23 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2rayng3 #1",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "9e13716d-c43d-48b3-8cab-65e02d938ab5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -1115,26 +1117,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #2",
       "type": "vless",
-      "server": "sr4.laptopstock7.com",
-      "server_port": 3030,
-      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "file.data-recive.ir",
+      "server_port": 2096,
+      "uuid": "a5323cba-7ba7-4e10-87f5-a49fd2c4f4c0",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vpnv2raytop #1",
