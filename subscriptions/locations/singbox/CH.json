@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "auto",
@@ -108,6 +110,27 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ch1.sky-vault.top",
+      "server_port": 443,
+      "uuid": "d02c92dc-93e0-4a0f-b2ed-65e7515a0b5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
