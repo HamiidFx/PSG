@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @config_proxy #2",
+        "🇸🇬 SG | VLESS | @config_proxy #3",
+        "🇸🇬 SG | VLESS | @config_proxy #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @config_proxy #2",
+        "🇸🇬 SG | VLESS | @config_proxy #3",
+        "🇸🇬 SG | VLESS | @config_proxy #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,9 +109,51 @@
     {
       "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "67.159.52.81",
+      "server": "68.183.225.227",
       "server_port": 443,
-      "uuid": "a16bd0e2-ff2e-4e4c-a955-0c684255a065",
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "129.226.95.29",
+      "server_port": 35051,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "157.245.194.172",
+      "server_port": 443,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "152.42.232.41",
+      "server_port": 443,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

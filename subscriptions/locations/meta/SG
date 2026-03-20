@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "67.159.52.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a16bd0e2-ff2e-4e4c-a955-0c684255a065", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "68.183.225.227", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #2", "server": "129.226.95.29", "port": 35051, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #3", "server": "157.245.194.172", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #4", "server": "152.42.232.41", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇸🇬 SG | VLESS | @config_proxy #1'
+      - '🇸🇬 SG | VLESS | @config_proxy #2'
+      - '🇸🇬 SG | VLESS | @config_proxy #3'
+      - '🇸🇬 SG | VLESS | @config_proxy #4'
 
   - name: 🌍 Global Media
     type: select
