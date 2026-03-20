@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @config_proxy #1",
+        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -88,7 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @config_proxy #1",
+        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -107,11 +107,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
+      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "86.104.74.33",
-      "server_port": 443,
-      "uuid": "3cc7c3a4-03a7-11f1-9bc0-0242ac110002",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -120,6 +120,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
