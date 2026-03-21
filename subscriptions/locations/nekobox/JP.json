@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | VLESS | @config_proxy #2",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -86,6 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | VLESS | @config_proxy #2",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -101,6 +105,40 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "152.69.201.51",
+      "server_port": 15039,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "jp1.cyphervpn.pro",
+      "server_port": 443,
+      "uuid": "f7bae22e-20ab-11f1-835c-0242ac110002",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",

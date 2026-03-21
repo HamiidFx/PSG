@@ -24,7 +24,13 @@ dns:
 
 proxies: 
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
+  - {"name": "🇦🇺 AU | VLESS | @frev2rayng #1", "server": "all.mdvpnsec.cfd", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f5bb39a2-c997-4381-baf0-307ac3bd3464", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "all.mdvpnsec.cfd"}}}
+  - {"name": "🇦🇺 AU | VLESS | @frev2rayng #2", "server": "all.mdvpnsec.cfd", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "395dc4ac-0719-42ad-85f0-1df6f7cc9e9d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VLESS | @frev2rayng #3", "server": "all.mdvpnsec.cfd", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "395dc4ac-0719-42ad-85f0-1df6f7cc9e9d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇺 AU | VMESS | @khoneproxy #1", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
+  - {"name": "🇦🇺 AU | VMESS | @manstervpn #1", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
+  - {"name": "🇦🇺 AU | VMESS | @mi_pn_official #1", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
+  - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "104.21.4.6", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.cfd"}}}
   - {"name": "🇦🇺 AU | VLESS | @v2ray_vmes #1", "server": "103.73.65.187", "port": 7000, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -40,7 +46,13 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇺 AU | VMESS | @dailyv2ray #1'
+      - '🇦🇺 AU | VLESS | @frev2rayng #1'
+      - '🇦🇺 AU | VLESS | @frev2rayng #2'
+      - '🇦🇺 AU | VLESS | @frev2rayng #3'
       - '🇦🇺 AU | VMESS | @khoneproxy #1'
+      - '🇦🇺 AU | VMESS | @manstervpn #1'
+      - '🇦🇺 AU | VMESS | @mi_pn_official #1'
+      - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
       - '🇦🇺 AU | VLESS | @v2ray_vmes #1'
 
   - name: 🌍 Global Media
