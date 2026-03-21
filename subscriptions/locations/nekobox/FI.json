@@ -77,10 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VLESS | @config_proxy #3",
-        "🇸🇬 SG | VLESS | @config_proxy #4"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VLESS | @config_proxy #3",
-        "🇸🇬 SG | VLESS | @config_proxy #4"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "68.183.225.227",
-      "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "server": "sr4.laptopstock7.com",
+      "server_port": 3030,
+      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -120,48 +114,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "129.226.95.29",
-      "server_port": 35051,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "157.245.194.172",
-      "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #4",
-      "type": "vless",
-      "server": "152.42.232.41",
-      "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

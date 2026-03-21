@@ -80,11 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,11 +96,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -187,11 +189,19 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #2",
+      "type": "vless",
+      "server": "sps.blackhoster.com",
+      "server_port": 8080,
+      "uuid": "19f529fe-9fed-40c2-a41d-491575a9a1c5",
       "packet_encoding": "xudp"
     },
     {
@@ -201,6 +211,23 @@
       "server_port": 8880,
       "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "662d440c-7567-41ec-b220-c7d69cb2f67c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
@@ -216,14 +243,6 @@
       "server": "b.pabloping.cloud",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "file.data-recive.ir",
-      "server_port": 2096,
-      "uuid": "a5323cba-7ba7-4e10-87f5-a49fd2c4f4c0",
       "packet_encoding": "xudp"
     }
   ],
