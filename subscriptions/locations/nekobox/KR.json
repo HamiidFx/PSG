@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,22 @@
       "server_port": 4652,
       "method": "YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==",
       "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "glowing-deer.rooster465.autos",
+      "server_port": 443,
+      "password": "ZY07256934",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
