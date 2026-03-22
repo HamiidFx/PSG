@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgQkc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @config_proxy #1"
+        "🇧🇬 BG | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @config_proxy #1"
+        "🇧🇬 BG | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "178.33.161.186",
-      "server_port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
+      "tag": "🇧🇬 BG | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "45.39.241.51",
+      "server_port": 38543,
+      "uuid": "f54778cc-ce26-4f8d-923f-f8e62b090cde",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

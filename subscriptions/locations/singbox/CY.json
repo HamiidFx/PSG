@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs #1",
-        "🇨🇾 CY | VLESS | @mt_proxy #1",
+        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇨🇾 CY | VLESS | @config_proxy #2",
+        "🇨🇾 CY | VLESS | @config_proxy #3",
         "🇨🇾 CY | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -101,7 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs #1",
-        "🇨🇾 CY | VLESS | @mt_proxy #1",
+        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇨🇾 CY | VLESS | @config_proxy #2",
+        "🇨🇾 CY | VLESS | @config_proxy #3",
         "🇨🇾 CY | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -122,9 +126,39 @@
       "password": null
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @mt_proxy #1",
+      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "yesok42v2.ip4exordir.shop",
+      "server": "pl1.cvs-a.com",
+      "server_port": 443,
+      "uuid": "eceb9426-48bb-4bcb-b8f8-f1dbd824e0a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "45.15.178.36",
+      "server_port": 8443,
+      "uuid": "2c43a787-7aed-58e2-a549-ef60fc734b2d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "45.82.251.33",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
