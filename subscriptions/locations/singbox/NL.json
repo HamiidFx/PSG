@@ -90,11 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
       ],
@@ -104,11 +107,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
       ],
@@ -120,6 +126,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "138.226.240.199",
+      "server_port": 4433,
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -136,6 +150,14 @@
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.141",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -169,6 +191,23 @@
       "server_port": 2052,
       "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fs.cedriklorenz.ir",
+      "server_port": 443,
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayngconfiig #1",

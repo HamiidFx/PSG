@@ -80,6 +80,10 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VLESS | @config_proxy #4",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -129,7 +133,6 @@
         "🇽🇽 XX | VLESS | @itv2ray #6",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kafing_2 #2",
-        "🇽🇽 XX | VLESS | @kafing_2 #3",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
@@ -239,6 +242,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -309,6 +313,10 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VLESS | @config_proxy #4",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -358,7 +366,6 @@
         "🇽🇽 XX | VLESS | @itv2ray #6",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kafing_2 #2",
-        "🇽🇽 XX | VLESS | @kafing_2 #3",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
@@ -468,6 +475,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -579,6 +587,47 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ns.cloudflare.com",
+      "server_port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "www.epicgames.com",
+      "server_port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "172.64.147.255",
+      "server_port": 80,
+      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "elliot.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1177,30 +1226,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "server": "cld2.lordofwest.ir",
+      "server_port": 2083,
+      "uuid": "db5f8bec-c3d0-4a7f-ac0d-5c17863365c0",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @kafing_2 #2",
-      "type": "vless",
-      "server": "mcioo.frss.ir",
-      "server_port": 443,
-      "uuid": "e68f082d-975e-4c7b-98bd-ed310db4e0c0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @kafing_2 #3",
       "type": "vless",
       "server": "104.17.162.123",
       "server_port": 8443,
@@ -2461,7 +2493,7 @@
       "type": "vless",
       "server": "ip-data.turkserver.ir",
       "server_port": 2087,
-      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "uuid": "ad8a28d6-a327-4ccc-9335-41fdd9738437",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2476,9 +2508,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "104.18.32.47",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "server": "172.67.166.185",
+      "server_port": 443,
+      "uuid": "4cf1a3a0-7360-41ff-84ae-b621001e8376",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "104.21.224.5",
+      "server_port": 80,
+      "uuid": "93526fcb-8dbf-442e-a656-eb304f1da4ef",
       "packet_encoding": "xudp"
     },
     {

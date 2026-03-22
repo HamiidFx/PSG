@@ -77,9 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @config_proxy #1",
-        "🇲🇩 MD | VLESS | @config_proxy #2",
-        "🇲🇩 MD | VLESS | @config_proxy #3",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -90,9 +87,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @config_proxy #1",
-        "🇲🇩 MD | VLESS | @config_proxy #2",
-        "🇲🇩 MD | VLESS | @config_proxy #3",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -109,72 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "94.103.0.92",
-      "server_port": 2443,
-      "uuid": "c01733dd-3e58-4da9-910b-cdd4560295bc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "94.103.0.92",
-      "server_port": 443,
-      "uuid": "c01733dd-3e58-4da9-910b-cdd4560295bc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "md-alex-01.com",
-      "server_port": 8443,
-      "uuid": "d67ecea3-d8de-4269-8113-d96cc7f91f6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
