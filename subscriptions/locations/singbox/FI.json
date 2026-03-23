@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | SS | @v2ray_free_conf #1"
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | SS | @v2ray_free_conf #1"
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,8 +116,30 @@
       "type": "shadowsocks",
       "server": "95.216.238.249",
       "server_port": 37337,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Ly9MeURZbTh2akFFcmcxcE1SWldXcXVSODdpekpTRGxoaGNtRUtjTHpZbz06d3hhMlBLYkYwLzFVclJpQm9lV056YUxWRnEzNjZIRzc1SVlTK0ZqVTdPYz0=",
+      "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "sr4.laptopstock7.com",
+      "server_port": 3030,
+      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

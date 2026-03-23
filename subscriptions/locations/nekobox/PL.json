@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VMESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -86,6 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VMESS | @config_proxy #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -101,6 +105,53 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "185.138.90.213",
+      "server_port": 443,
+      "uuid": "c01733dd-3e58-4da9-910b-cdd4560295bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "194.15.196.170",
+      "server_port": 443,
+      "uuid": "4d0247e0-d1da-444c-9cda-8cc20e4e4435",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.39110059.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/172910173003",
+        "headers": {
+          "Host": "www.39110059.xyz"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
