@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "144.31.234.98", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd325093-cdb5-4a73-980e-af2ec0444310", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy #2", "server": "s725.ccgfw.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @prrofile_purple #1", "server": "45.136.126.16", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "203b0744-f943-4bba-a8d2-cab635467c46", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @sobi_vpn #1", "server": "45.131.4.5", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_collector #1", "server": "208.67.105.196", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -44,9 +43,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VLESS | @config_proxy #1'
-      - '🇳🇱 NL | VLESS | @config_proxy #2'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'
+      - '🇳🇱 NL | VLESS | @prrofile_purple #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇳🇱 NL | VLESS | @sobi_vpn #1'
       - '🇳🇱 NL | VLESS | @v2ray_collector #1'

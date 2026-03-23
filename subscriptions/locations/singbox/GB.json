@@ -90,6 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
+        "🇬🇧 GB | VLESS | @config_proxy #3",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -104,6 +107,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
+        "🇬🇧 GB | VLESS | @config_proxy #3",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -120,6 +126,57 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "backup.eerieperet.top",
+      "server_port": 443,
+      "uuid": "42ce7a2e-c147-4388-9b38-4ccfc2e47a30",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "backup.eerieperet.top",
+      "server_port": 443,
+      "uuid": "e85db295-fa5a-4220-beaf-a7a71842e1a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "backup.eerieperet.top",
+      "server_port": 443,
+      "uuid": "78dc7d29-b76d-443c-8e85-20fc2e60a041",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
