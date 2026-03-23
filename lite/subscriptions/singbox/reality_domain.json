@@ -93,10 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇲🇩 MD | VLESS | @vpn_ioss #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇲🇩 MD | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,10 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇲🇩 MD | VLESS | @vpn_ioss #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇲🇩 MD | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,11 +194,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "backup.eerieperet.top",
-      "server_port": 443,
-      "uuid": "8de66c3a-6d1c-40b3-b99b-d4c0a773a2e9",
+      "server": "pl.nitroo-tech.ru",
+      "server_port": 48885,
+      "uuid": "3f88f137-a506-4386-8936-b0b4d7349478",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -207,8 +207,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -238,28 +252,6 @@
       "server": "4.cdnconn.com",
       "server_port": 23335,
       "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "sr4.laptopstock7.com",
-      "server_port": 3030,
-      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,7 +107,15 @@
       "type": "vless",
       "server": "77.83.245.135",
       "server_port": 34205,
-      "uuid": "fddac2e2-1fc8-4cab-8061-83d83185fc9c",
+      "uuid": "fa798d01-9e12-4872-8311-625f43294849",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "77.83.245.135",
+      "server_port": 34205,
+      "uuid": "891c319a-6a59-453e-a8ff-92887ed907d7",
       "packet_encoding": "xudp"
     }
   ],
