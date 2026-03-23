@@ -23,10 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #1", "server": "95.85.224.240", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4be34e61-fea3-42fc-9fcc-b411b1152926", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #2", "server": "ee2.zqwerty.ru", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #3", "server": "ee.techdatacloud.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "050a78fb-d829-42fc-9aba-1295e8ddfa17", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #4", "server": "ee5.zqwerty.ru", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇨 SC | TROJAN | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "842b5f9dd11e458d8613c907c4cc5723"}
+  - {"name": "🇸🇨 SC | TROJAN | @mpproxy #2", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @config_proxy #1'
-      - '🇪🇪 EE | VLESS | @config_proxy #2'
-      - '🇪🇪 EE | VLESS | @config_proxy #3'
-      - '🇪🇪 EE | VLESS | @config_proxy #4'
+      - '🇸🇨 SC | TROJAN | @mpproxy #1'
+      - '🇸🇨 SC | TROJAN | @mpproxy #2'
 
   - name: 🌍 Global Media
     type: select
