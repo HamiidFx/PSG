@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
         "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -101,6 +102,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
         "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -114,6 +116,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "217.16.31.224",
+      "server_port": 443,
+      "uuid": "3edcf3aa-ae75-43cf-9add-5ba14fde92c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @ghalagyann #1",

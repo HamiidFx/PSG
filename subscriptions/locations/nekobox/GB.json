@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VMESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -92,8 +90,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VMESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -113,32 +109,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "51.89.229.134",
-      "server_port": 443,
-      "uuid": "53821f3c-5b03-456a-89f3-f8379f130752",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",

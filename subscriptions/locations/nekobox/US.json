@@ -101,7 +101,6 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #2",
-        "🇺🇸 US | VLESS | @kafing_2 #3",
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇺🇸 US | SS | @key_outline #3",
@@ -128,7 +127,6 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -166,7 +164,6 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #2",
-        "🇺🇸 US | VLESS | @kafing_2 #3",
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇺🇸 US | SS | @key_outline #3",
@@ -193,7 +190,6 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -249,11 +245,10 @@
     {
       "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "2.27.54.145",
+      "server": "85.209.159.22",
       "server_port": 443,
-      "uuid": "3fe48a33-aac8-41cd-b2db-fdeeafced0aa",
+      "uuid": "90c9c25c-df6c-4438-83d3-ef97166a9184",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -261,23 +256,26 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇺🇸 US | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "150.241.75.139",
-      "server_port": 443,
-      "uuid": "5f98c4f8-19f4-471d-8ed5-10c0550c0423",
+      "server": "192.220.249.92",
+      "server_port": 45230,
+      "uuid": "00000000-0000-4000-8000-000000000000",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -546,32 +544,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #3",
-      "type": "vless",
-      "server": "66.81.247.155",
-      "server_port": 443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | SS | @key_outline #1",
-      "type": "shadowsocks",
-      "server": "104.192.227.163",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppM3l5YXFtQUhyaFNyZnJSZ3o5cHNG",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -579,7 +552,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
       "server": "104.192.227.163",
       "server_port": 443,
@@ -587,15 +560,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
-      "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZVA4UGdRU0pqMmhkYjhBdUZnS3Nk",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "104.192.227.163",
       "server_port": 443,
@@ -603,11 +568,27 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDUFNpV1Rrczh6S3FOVGRnVEVldEJZ",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "type": "shadowsocks",
+      "server": "104.192.227.163",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptSmVaUjFRTVN6cEVhT0h2U2g5VzNp",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3Z2llUnNWRDZoWFhGWWQyenRwaXNE",
       "password": null
     },
     {
@@ -897,23 +878,6 @@
       "server": "103.133.1.227",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "24dc5c91924c5346.freestly.sapienza-mahan.ir",
-      "server_port": 443,
-      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
