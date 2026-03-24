@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "backup.eerieperet.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a9134805-238f-43c3-9630-f417613667fa", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VMESS | @config_proxy #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "raw", "tls": false}
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "51.89.229.134", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "53821f3c-5b03-456a-89f3-f8379f130752", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VMESS | @config_proxy #1'
       - '🇬🇧 GB | VLESS | @config_proxy #1'
       - '🇬🇧 GB | VLESS | @komail315 #1'
 

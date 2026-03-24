@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
+        "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -88,8 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
+        "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -107,28 +107,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "45.10.40.16",
-      "server_port": 443,
-      "uuid": "f7b19108-cb70-4b81-ada4-aabda9b0c83e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "212.193.153.187",
@@ -144,6 +122,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @ghalagyann #2",
+      "type": "vless",
+      "server": "ing.anti-vpn.ru",
+      "server_port": 52006,
+      "uuid": "52dbc2d8-00c5-2710-a898-22718fb85c12",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",

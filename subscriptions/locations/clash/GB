@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇷 GR | VLESS | @ghalagyann #1", "server": "ing.anti-vpn.ru", "port": 52006, "type": "vless", "skip-cert-verify": true, "uuid": "52dbc2d8-00c5-2710-a898-22718fb85c12", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VMESS | @config_proxy #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "raw", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇷 GR | VLESS | @ghalagyann #1'
+      - '🇬🇧 GB | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
