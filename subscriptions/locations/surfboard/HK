@@ -9,14 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | VMESS | @config_proxy #1 = vmess, n1753101277.4u9ma.icu, 443, username = 6ea48dfe-7de2-45dc-9267-d4d9effad9fc, ws = true, tls = true, ws-path = /, ws-headers = Host:"n1753101277.4u9ma.icu"
 🇭🇰 HK | VMESS | @freev2rays #1 = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1 = vmess, n1761296877.lie5d.cyou, 443, username = 1ebfdffa-1a37-4336-8494-f85b36cdf087, ws = true, tls = true, ws-path = /, ws-headers = Host:"n1761296877.lie5d.cyou"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy #1, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
-PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy #1, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
-PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy #1, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @freev2rays #1, 🇭🇰 HK | VMESS | @mtproxy22_v2ray #1
 
 [Rule]
 GEOIP,IR,DIRECT

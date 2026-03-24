@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | SS | @ehsawn8 #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
-        "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -89,10 +89,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | SS | @ehsawn8 #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
-        "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -109,21 +109,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "217.16.31.224",
-      "server_port": 443,
-      "uuid": "3edcf3aa-ae75-43cf-9add-5ba14fde92c7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇷🇺 RU | SS | @ehsawn8 #1",
+      "type": "shadowsocks",
+      "server": "83.222.8.148",
+      "server_port": 23753,
+      "method": "YWVzLTI1Ni1nY206OXBQS0oybVRkWnVRNlJPSnR5bHVtZllSR1M1ZUJxNzJnbzBoTTV6SDd4Zz0=",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @ghalagyann #1",
@@ -141,14 +132,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @ghalagyann #2",
-      "type": "vless",
-      "server": "ing.anti-vpn.ru",
-      "server_port": 52006,
-      "uuid": "52dbc2d8-00c5-2710-a898-22718fb85c12",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -172,6 +155,23 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "217.149.31.81",
+      "server_port": 443,
+      "uuid": "ffb10891-526b-43a6-a4d1-1ea61e0a3a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

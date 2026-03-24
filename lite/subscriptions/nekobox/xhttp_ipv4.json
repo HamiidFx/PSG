@@ -87,8 +87,10 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -107,8 +109,10 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -271,6 +275,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "102.37.155.79",
@@ -294,6 +315,23 @@
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "217.149.31.81",
+      "server_port": 443,
+      "uuid": "ffb10891-526b-43a6-a4d1-1ea61e0a3a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
