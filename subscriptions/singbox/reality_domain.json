@@ -93,15 +93,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @ghalagyann #1",
+        "🇬🇷 GR | VLESS | @ghalagyann #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "proxy",
@@ -113,15 +113,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @ghalagyann #1",
+        "🇬🇷 GR | VLESS | @ghalagyann #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "auto",
@@ -206,11 +206,11 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "pl.nitroo-tech.ru",
-      "server_port": 48885,
-      "uuid": "3f88f137-a506-4386-8936-b0b4d7349478",
+      "server": "backup.eerieperet.top",
+      "server_port": 443,
+      "uuid": "a9134805-238f-43c3-9630-f417613667fa",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -219,24 +219,7 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "sg004.421421.xyz",
-      "server_port": 20230,
-      "uuid": "2ba7e4d0-f2f9-456e-a43e-f5a724d7e367",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
     },
     {
@@ -271,7 +254,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @ghalagyann #1",
+      "tag": "🇬🇷 GR | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "ing.anti-vpn.ru",
       "server_port": 52006,
@@ -350,6 +333,28 @@
       "server": "5.cdnconn.com",
       "server_port": 23335,
       "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "sr4.laptopstock7.com",
+      "server_port": 3030,
+      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

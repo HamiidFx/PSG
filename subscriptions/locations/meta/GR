@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "sg004.421421.xyz", "port": 20230, "type": "vless", "skip-cert-verify": true, "uuid": "2ba7e4d0-f2f9-456e-a43e-f5a724d7e367", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇬🇷 GR | VLESS | @ghalagyann #1", "server": "ing.anti-vpn.ru", "port": 52006, "type": "vless", "skip-cert-verify": true, "uuid": "52dbc2d8-00c5-2710-a898-22718fb85c12", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @config_proxy #1'
+      - '🇬🇷 GR | VLESS | @ghalagyann #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇧🇾 BY | VLESS | @config_proxy #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇧🇾 BY | VLESS | @config_proxy #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "auto",
@@ -99,6 +101,24 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇧🇾 BY | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "144.31.131.13",
+      "server_port": 443,
+      "uuid": "9cdfecbf-f470-4928-981c-44d9cc21df3c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇧🇾 BY | VMESS | @ir_netproxy #1",
