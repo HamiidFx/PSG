@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @ghalagyann #1", "server": "212.193.153.187", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e81b43d3-bb75-07d0-8b11-f526aef4fef4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @ghalagyann #2", "server": "ing.anti-vpn.ru", "port": 52006, "type": "vless", "skip-cert-verify": true, "uuid": "52dbc2d8-00c5-2710-a898-22718fb85c12", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "158.160.124.158", "port": 8447, "type": "vless", "skip-cert-verify": true, "uuid": "61751c9e-8867-417d-b5da-fd69fa4636bd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "5.42.120.20", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a23cd4b4-f5f3-4d00-a8d9-fe9867bb1138", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "212.193.152.134", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dd98dc11-b5ca-07d0-a9e6-ff5243503422", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "212.193.152.134"}}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1", "server": "217.149.31.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ffb10891-526b-43a6-a4d1-1ea61e0a3a6f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "185.147.26.21", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -41,8 +42,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @ghalagyann #1'
-      - '🇷🇺 RU | VLESS | @ghalagyann #2'
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
+      - '🇷🇺 RU | VLESS | @config_proxy #3'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @vip_vpn_2022 #1'
       - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
