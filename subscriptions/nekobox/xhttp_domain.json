@@ -80,11 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #4",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
@@ -98,11 +99,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #4",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
@@ -193,7 +195,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -219,10 +221,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "b.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "cdn.bio4cdn.com",
+      "server_port": 443,
+      "uuid": "fcb3cf91-34ce-47a0-8343-945e0645996f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -230,6 +241,14 @@
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "3b40a0be-995a-4b8a-b927-136facd20896",
       "packet_encoding": "xudp"
     },
     {
