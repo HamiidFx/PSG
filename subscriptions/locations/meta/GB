@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #1", "server": "2.27.61.17", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e0a446bc-5e87-4a54-ac72-48462a0ca233", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @config_proxy #2", "server": "ge.astralweb.tech", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e0a446bc-5e87-4a54-ac72-48462a0ca233", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @config_proxy #1'
+      - '🇬🇧 GB | VLESS | @config_proxy #2'
       - '🇬🇧 GB | VLESS | @komail315 #1'
 
   - name: 🌍 Global Media
