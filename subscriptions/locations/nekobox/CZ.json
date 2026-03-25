@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇿 CZ | VLESS | @config_proxy #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇿 CZ | VLESS | @config_proxy #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "auto",
@@ -99,6 +101,24 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "194.87.44.157",
+      "server_port": 443,
+      "uuid": "fd37be2f-f8d1-47de-97e8-13c28107d31e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇿 CZ | VMESS | @freev2rays #1",

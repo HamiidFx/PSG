@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VLESS | @config_proxy #1", "server": "185.143.234.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8585380d-1d74-4b09-a955-5dbf862d13df", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VLESS | @lax_vpn #1", "server": "s19.speedyconnect.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @miov2ray #1", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -44,7 +43,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VLESS | @config_proxy #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
       - '🇮🇷 IR | VLESS | @lax_vpn #1'
       - '🇮🇷 IR | VLESS | @miov2ray #1'

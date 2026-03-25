@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "144.31.237.121", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b4c4858-96ba-441e-a2fd-1af58b36c756", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #2", "server": "85.17.118.17", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ad9d1e99-cc1d-4f05-ae31-36b9f22d9bf9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @prrofile_purple #1", "server": "45.136.126.16", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "203b0744-f943-4bba-a8d2-cab635467c46", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -42,6 +44,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @config_proxy #1'
+      - '🇳🇱 NL | VLESS | @config_proxy #2'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'
       - '🇳🇱 NL | VLESS | @prrofile_purple #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
