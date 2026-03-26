@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -98,6 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -108,6 +112,36 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "node1.telegavpn.org",
+      "server_port": 443,
+      "uuid": "1041e05d-ecb9-4fe1-bde2-429abff13e8f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "87.251.69.48",
+      "server_port": 8443,
+      "uuid": "98d8cefc-499a-4969-9a59-f03e947adf78",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",

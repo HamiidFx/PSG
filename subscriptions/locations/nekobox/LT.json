@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇱🇹 LT | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "lithuania1.labburo.su",
-      "server_port": 443,
-      "uuid": "bc019623-ecae-4ee0-8826-6e96f6942263",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",

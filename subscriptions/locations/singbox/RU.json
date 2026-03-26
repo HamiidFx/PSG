@@ -92,6 +92,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -103,6 +104,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -118,9 +120,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "185.148.106.64",
+      "server": "159.194.197.194",
       "server_port": 2053,
-      "uuid": "7d4b6a9a-cb74-4de1-b78f-dbec043d4156",
+      "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787",
       "packet_encoding": "xudp"
     },
     {
@@ -145,6 +147,28 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "176.125.241.253",
+      "server_port": 443,
+      "uuid": "2fac7379-b7ac-4f23-acd7-be0f77b4745f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
