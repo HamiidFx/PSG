@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2"
+        "🇹🇼 TW | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2"
+        "🇹🇼 TW | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,33 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "tag": "🇹🇼 TW | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "185.39.204.27",
+      "server": "api.livecut.cc",
       "server_port": 443,
-      "uuid": "ff1c6588-b23b-406e-a633-beb327110aa4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "193.124.46.139",
-      "server_port": 443,
-      "uuid": "ea8d14d4-ca12-4cd1-bcad-f0fa72f6eadc",
+      "uuid": "ac421bf3-470d-4e21-a56d-c8d622f6df2f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
