@@ -91,8 +91,6 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
@@ -104,8 +102,6 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
@@ -122,53 +118,10 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "158.160.124.158",
-      "server_port": 8447,
-      "uuid": "61751c9e-8867-417d-b5da-fd69fa4636bd",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "5.42.120.20",
-      "server_port": 443,
-      "uuid": "a23cd4b4-f5f3-4d00-a8d9-fe9867bb1138",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "212.193.152.134",
-      "server_port": 443,
-      "uuid": "dd98dc11-b5ca-07d0-a9e6-ff5243503422",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "185.148.106.64",
+      "server_port": 2053,
+      "uuid": "7d4b6a9a-cb74-4de1-b78f-dbec043d4156",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
