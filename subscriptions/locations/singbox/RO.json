@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVQ=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #2",
-        "🇦🇹 AT | SS | @NamiraConfigs #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #2",
-        "🇦🇹 AT | SS | @NamiraConfigs #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "node1.telegavpn.org",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
-      "uuid": "1041e05d-ecb9-4fe1-bde2-429abff13e8f",
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,29 +123,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "87.251.69.48",
-      "server_port": 8443,
-      "uuid": "98d8cefc-499a-4969-9a59-f03e947adf78",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "77.110.110.117",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl",
-      "password": null
     }
   ],
   "route": {

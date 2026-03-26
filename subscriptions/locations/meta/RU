@@ -23,10 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "159.194.197.194", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "93.185.166.71", "port": 1443, "type": "vless", "skip-cert-verify": true, "uuid": "9a1ac29b-4da9-4164-afb1-aa7ff67d300c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
-  - {"name": "🇷🇺 RU | VLESS | @v2ray_free_conf #1", "server": "176.125.241.253", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2fac7379-b7ac-4f23-acd7-be0f77b4745f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1", "server": "217.149.31.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ffb10891-526b-43a6-a4d1-1ea61e0a3a6f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "185.147.26.21", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -43,8 +41,6 @@ proxy-groups:
     proxies: 
       - '🇷🇺 RU | VLESS | @config_proxy #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
-      - '🇷🇺 RU | VLESS | @v2ray_free_conf #1'
-      - '🇷🇺 RU | VLESS | @vip_vpn_2022 #1'
       - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media

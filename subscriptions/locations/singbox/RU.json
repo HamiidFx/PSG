@@ -92,8 +92,6 @@
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -104,8 +102,6 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -120,10 +116,19 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "159.194.197.194",
-      "server_port": 2053,
-      "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787",
-      "packet_encoding": "xudp"
+      "server": "93.185.166.71",
+      "server_port": 1443,
+      "uuid": "9a1ac29b-4da9-4164-afb1-aa7ff67d300c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -147,45 +152,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "176.125.241.253",
-      "server_port": 443,
-      "uuid": "2fac7379-b7ac-4f23-acd7-be0f77b4745f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
-      "type": "vless",
-      "server": "217.149.31.81",
-      "server_port": 443,
-      "uuid": "ffb10891-526b-43a6-a4d1-1ea61e0a3a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
