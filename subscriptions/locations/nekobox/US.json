@@ -81,7 +81,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -125,9 +124,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
+        "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -143,7 +144,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -187,9 +187,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
+        "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -254,14 +256,6 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -851,6 +845,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "63.141.128.22",
+      "server_port": 443,
+      "uuid": "b8b01773-36b1-4b49-9bd0-6249f52345b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -882,6 +893,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "208.103.161.33",
+      "server_port": 2053,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @vip_vpn_2022 #1",

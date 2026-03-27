@@ -101,8 +101,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇲🇩 MD | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -114,7 +114,7 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -184,8 +184,8 @@
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -328,8 +328,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇲🇩 MD | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -341,7 +341,7 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -411,8 +411,8 @@
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -734,33 +734,21 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "45.67.229.119",
-      "server_port": 2443,
-      "uuid": "c01733dd-3e58-4da9-910b-cdd4560295bc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
+      "server": "dl.io-laptop.ir",
+      "server_port": 8443,
+      "uuid": "9d7c1761-90de-48d1-8eda-31410ac8e848",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "95.163.181.160",
-      "server_port": 443,
-      "uuid": "0d12a977-ea18-448b-a983-b317426af9b9",
+      "server": "217.13.104.133",
+      "server_port": 7443,
+      "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -860,7 +848,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -1841,7 +1829,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | TROJAN | @mpproxy #1",
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
       "type": "trojan",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -1857,7 +1845,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -2693,17 +2681,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "f2.hamrahconf.ir",
-      "server_port": 8443,
-      "uuid": "5558156d-3a2c-4843-9eb9-06e69ac3a2bf",
-      "packet_encoding": "xudp"
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "h7.eldenringshop.ir",
-      "server_port": 2053,
-      "uuid": "dba2493d-5f5a-466a-bd8f-3b74b7f3d63b",
+      "server": "w.smarteracloud.com",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
       "packet_encoding": "xudp"
     },
     {
@@ -2882,7 +2879,7 @@
       "type": "vless",
       "server": "172.66.156.81",
       "server_port": 80,
-      "uuid": "5adfc317-2483-45ad-bd84-d2779540ffa3",
+      "uuid": "4b6accb6-db3d-48d6-a9e7-95611b928613",
       "packet_encoding": "xudp"
     },
     {
@@ -2890,7 +2887,7 @@
       "type": "vless",
       "server": "172.66.156.81",
       "server_port": 80,
-      "uuid": "5adfc317-2483-45ad-bd84-d2779540ffa3",
+      "uuid": "4b6accb6-db3d-48d6-a9e7-95611b928613",
       "packet_encoding": "xudp"
     },
     {

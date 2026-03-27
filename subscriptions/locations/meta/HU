@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #1", "server": "ee.stardevs.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #2", "server": "144.31.178.192", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
-  - {"name": "🇪🇪 EE | VLESS | @config_proxy #3", "server": "95.85.249.44", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇭🇺 HU | VLESS | @config_proxy #1", "server": "217.13.104.133", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇭🇺 HU | VLESS | @config_proxy #2", "server": "217.13.104.133", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @config_proxy #1'
-      - '🇪🇪 EE | VLESS | @config_proxy #2'
-      - '🇪🇪 EE | VLESS | @config_proxy #3'
+      - '🇭🇺 HU | VLESS | @config_proxy #1'
+      - '🇭🇺 HU | VLESS | @config_proxy #2'
 
   - name: 🌍 Global Media
     type: select

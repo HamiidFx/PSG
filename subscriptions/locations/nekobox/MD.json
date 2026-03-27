@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -88,7 +87,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3"
@@ -105,18 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "45.67.229.119",
-      "server_port": 2443,
-      "uuid": "c01733dd-3e58-4da9-910b-cdd4560295bc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
