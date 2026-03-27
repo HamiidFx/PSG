@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #1", "server": "43.153.183.11", "port": 18651, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #2", "server": "5.180.77.95", "port": 627, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4c910b61-5229-4eb7-bdf4-692fcabf0fc1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @config_proxy #1'
-      - '🇯🇵 JP | VLESS | @config_proxy #2'
+      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

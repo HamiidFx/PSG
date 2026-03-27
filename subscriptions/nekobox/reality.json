@@ -80,12 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -112,12 +115,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -217,6 +223,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ee.stardevs.top",
+      "server_port": 443,
+      "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -349,6 +372,45 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "144.31.178.192",
+      "server_port": 443,
+      "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "95.85.249.44",
+      "server_port": 443,
+      "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
