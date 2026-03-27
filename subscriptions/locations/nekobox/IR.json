@@ -77,13 +77,15 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #1"
+        "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,13 +93,15 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #1"
+        "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,22 +115,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "dl.io-laptop.ir",
-      "server_port": 8443,
-      "uuid": "9d7c1761-90de-48d1-8eda-31410ac8e848",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "dl.io-laptop.ir",
-      "server_port": 8443,
-      "uuid": "eef044ee-21f4-4a8a-80cb-0d2af3df34c3",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -155,6 +143,23 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | TROJAN | @prrofile_purple #1",
       "type": "trojan",
       "server": "185.143.235.5",
@@ -169,6 +174,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "snapp.doctor",
+      "server_port": 80,
+      "uuid": "4c003bc1-6e72-40d4-8b9b-0e814e315336",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -194,6 +207,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "arvancloud.ir",
+      "server_port": 80,
+      "uuid": "1011e6d2-009a-48e6-af63-83796521a0e2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "dl.io-laptop.ir",
+      "server_port": 8443,
+      "uuid": "eef044ee-21f4-4a8a-80cb-0d2af3df34c3",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

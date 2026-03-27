@@ -93,6 +93,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -232,8 +233,6 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
-        "🇽🇽 XX | VLESS | @shahedtec #1",
-        "🇽🇽 XX | VLESS | @shahedtec #2",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
@@ -255,8 +254,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -328,6 +325,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -467,8 +465,6 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
-        "🇽🇽 XX | VLESS | @shahedtec #1",
-        "🇽🇽 XX | VLESS | @shahedtec #2",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
@@ -490,8 +486,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -600,6 +594,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "172.64.146.138",
+      "server_port": 443,
+      "uuid": "130e98f6-18ad-4505-9a6e-6e00424bd058",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -2284,36 +2295,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @shahedtec #1",
-      "type": "vless",
-      "server": "shahed2.novintecc.org",
-      "server_port": 8080,
-      "uuid": "85f1516e-688b-40db-997a-05c7c25e0e93",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @shahedtec #2",
-      "type": "vless",
-      "server": "shahed2.novintecc.org",
-      "server_port": 8080,
-      "uuid": "a04be978-3b21-42cf-a80c-4832894d26f0",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -2550,31 +2531,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "w.smarteracloud.com",
-      "server_port": 2096,
-      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",

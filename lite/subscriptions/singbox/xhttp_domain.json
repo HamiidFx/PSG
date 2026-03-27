@@ -93,11 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
@@ -111,11 +110,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
@@ -202,14 +200,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "dl.io-laptop.ir",
-      "server_port": 8443,
-      "uuid": "9d7c1761-90de-48d1-8eda-31410ac8e848",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
@@ -226,15 +216,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "w.smarteracloud.com",
-      "server_port": 2096,
-      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-      "packet_encoding": "xudp"
+      "server": "04cc4ef1beb1b536.freestly.sapienza-mahan.ir",
+      "server_port": 443,
+      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
