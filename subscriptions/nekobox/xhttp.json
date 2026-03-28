@@ -81,7 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @bored_vpn #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -117,7 +117,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @bored_vpn #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -237,12 +237,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "146.75.121.57",
-      "server_port": 80,
-      "uuid": "3f0dc60f-e341-43c4-8480-d5f063d74143",
-      "packet_encoding": "xudp"
+      "server": "172.237.128.199",
+      "server_port": 443,
+      "uuid": "fae38aae-0342-4752-834d-3f7d2ec58ea8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @minovpnch #1",
