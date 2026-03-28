@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -89,7 +90,7 @@
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -101,8 +102,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -110,7 +112,7 @@
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -199,12 +201,26 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "45.12.146.179",
-      "server_port": 8443,
-      "uuid": "e033ef6e-ab4b-47d4-a523-ff568d2c8dbb",
-      "packet_encoding": "xudp"
+      "server": "185.39.204.27",
+      "server_port": 443,
+      "uuid": "bab88fbe-69da-46ee-be00-3439a8360090",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
@@ -212,6 +228,28 @@
       "server": "92.60.78.221",
       "server_port": 443,
       "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @free4allvpn #1",
+      "type": "vless",
+      "server": "15.168.173.144",
+      "server_port": 443,
+      "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -363,7 +401,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
+      "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
       "server_port": 443,
