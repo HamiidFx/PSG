@@ -83,7 +83,6 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @minovpnch #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -92,6 +91,7 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
@@ -109,7 +109,6 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @minovpnch #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -118,6 +117,7 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
@@ -230,14 +230,6 @@
       "server": "151.101.204.190",
       "server_port": 80,
       "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "146.75.121.57",
-      "server_port": 80,
-      "uuid": "cbd8b498-6685-4528-badf-ada3a4cfdc3b",
       "packet_encoding": "xudp"
     },
     {
@@ -357,6 +349,23 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
