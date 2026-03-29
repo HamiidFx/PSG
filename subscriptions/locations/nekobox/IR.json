@@ -78,12 +78,14 @@
         "auto",
         "direct",
         "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -97,12 +99,14 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -146,6 +150,14 @@
           "Host": "i-love-iran.amlakayuni.ir"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "tsstt.1.globalmymusic2.com",
+      "server_port": 80,
+      "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -217,15 +229,34 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dl.tarebarr.com",
-      "server_port": 80,
-      "uuid": "5fc3eaa2-e7a0-469b-8d8b-f200a30a6fdd",
+      "server": "185.143.233.120",
+      "server_port": 443,
+      "uuid": "db3cf6e8-515a-47e0-8572-eb47bb611fb2",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "185.143.233.232",
+      "server_port": 443,
+      "uuid": "78672fd9-2bad-46d6-80d7-eb8eed9cb927",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
