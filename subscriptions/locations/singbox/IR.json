@@ -92,6 +92,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -113,6 +114,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -166,6 +168,14 @@
       "server": "tsstt.1.globalmymusic2.com",
       "server_port": 80,
       "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "185.143.233.200",
+      "server_port": 8080,
+      "uuid": "4faba089-e42c-4586-b987-1c27bc20ed19",
       "packet_encoding": "xudp"
     },
     {
@@ -238,10 +248,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "anten.ir",
-      "server_port": 80,
-      "uuid": "d8fbc00d-f817-481b-bb42-3714f5f7ff19",
-      "packet_encoding": "xudp"
+      "server": "user11.ionosio.ir",
+      "server_port": 2052,
+      "uuid": "223e5111-34b2-4a3b-8daa-36ae6e84d1f5",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
