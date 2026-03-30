@@ -94,6 +94,8 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
       ],
@@ -107,6 +109,8 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2"
       ],
@@ -156,9 +160,9 @@
     {
       "tag": "🇸🇨 SC | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "cdn.torprospeed.ir",
-      "server_port": 2087,
-      "uuid": "0cdab3ab-67dd-4342-a78f-710a32d0c3bb",
+      "server": "192.144.19.55",
+      "server_port": 8443,
+      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
       "packet_encoding": "xudp"
     },
     {
@@ -167,6 +171,30 @@
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
       "password": "842b5f9dd11e458d8613c907c4cc5723",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2086,
+      "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @mpproxy #2",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
