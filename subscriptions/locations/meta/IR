@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇮🇷 IR | VMESS | @config_proxy #1", "server": "i-love-iran.amlakayuni.ir", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2053", "headers": {"Host": "i-love-iran.amlakayuni.ir"}}}
   - {"name": "🇮🇷 IR | VLESS | @config_proxy #1", "server": "tsstt.1.globalmymusic2.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VMESS | @config_proxy #2", "server": "i-love-iran.amlakayuni.ir", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2053", "headers": {"Host": "i-love-iran.amlakayuni.ir"}}}
   - {"name": "🇮🇷 IR | VLESS | @ghalagyann #1", "server": "185.143.233.200", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "4faba089-e42c-4586-b987-1c27bc20ed19", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VLESS | @lax_vpn #1", "server": "s19.speedyconnect.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -32,7 +33,6 @@ proxies:
   - {"name": "🇮🇷 IR | VLESS | @prrofile_purple #1", "server": "snapp.doctor", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "4c003bc1-6e72-40d4-8b9b-0e814e315336", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @prrofile_purple #2", "server": "snapp.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "7b85b51d-4b64-4931-854c-5130389297ab", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @prrofile_purple #3", "server": "snapp.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "c20fa220-f6fe-46df-84a8-55d8c2ae8146", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "user11.ionosio.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "223e5111-34b2-4a3b-8daa-36ae6e84d1f5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "user11.ionosio.ir"}}}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_iran88 #1", "server": "185.143.233.120", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_youtube #1", "server": "185.143.233.5", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "a46fd309-e506-4207-9148-22c162b10a71", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_youtube #2", "server": "185.143.233.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a46fd309-e506-4207-9148-22c162b10a71", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -53,6 +53,7 @@ proxy-groups:
     proxies: 
       - '🇮🇷 IR | VMESS | @config_proxy #1'
       - '🇮🇷 IR | VLESS | @config_proxy #1'
+      - '🇮🇷 IR | VMESS | @config_proxy #2'
       - '🇮🇷 IR | VLESS | @ghalagyann #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
       - '🇮🇷 IR | VLESS | @lax_vpn #1'
@@ -60,7 +61,6 @@ proxy-groups:
       - '🇮🇷 IR | VLESS | @prrofile_purple #1'
       - '🇮🇷 IR | VLESS | @prrofile_purple #2'
       - '🇮🇷 IR | VLESS | @prrofile_purple #3'
-      - '🇮🇷 IR | VLESS | @v2ray_free_conf #1'
       - '🇮🇷 IR | VLESS | @v2ray_iran88 #1'
       - '🇮🇷 IR | VLESS | @v2ray_youtube #1'
       - '🇮🇷 IR | VLESS | @v2ray_youtube #2'
