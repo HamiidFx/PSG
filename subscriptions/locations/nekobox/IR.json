@@ -88,12 +88,15 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
-        "🇮🇷 IR | VLESS | @vmesskhodam #3"
+        "🇮🇷 IR | VLESS | @vmesskhodam #3",
+        "🇮🇷 IR | VLESS | @vmesskhodam #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,12 +115,15 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
-        "🇮🇷 IR | VLESS | @vmesskhodam #3"
+        "🇮🇷 IR | VLESS | @vmesskhodam #3",
+        "🇮🇷 IR | VLESS | @vmesskhodam #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -251,9 +257,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "s10.x2fast.top",
+      "server": "185.143.233.200",
       "server_port": 443,
-      "uuid": "0763477d-7e67-49f1-a855-cdff82b59e43",
+      "uuid": "a32240a5-ad06-4075-954b-2fcdd6df5616",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -264,6 +270,31 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "adi.asaltabie.online",
+      "server_port": 443,
+      "uuid": "b3845dc9-26af-47fe-8b5c-4b94d1cfdc59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "arvancloud.ir",
+      "server_port": 8080,
+      "uuid": "9894a5bc-7e5b-4c1e-ae43-5052208d26a7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -321,6 +352,23 @@
       "server_port": 80,
       "uuid": "7cc8cd28-0311-43b4-9b7f-223b3afb4635",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #4",
+      "type": "vless",
+      "server": "s10.x2fast.top",
+      "server_port": 443,
+      "uuid": "0763477d-7e67-49f1-a855-cdff82b59e43",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
