@@ -2513,9 +2513,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "nekopingbot.thisiswe.uno",
-      "server_port": 2053,
-      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "server": "172.64.229.20",
+      "server_port": 443,
+      "uuid": "e47eba6b-05f1-46d9-82e1-0d145faa7d53",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2524,42 +2524,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "proxy.rahmancloud.ir",
-      "server_port": 8443,
-      "uuid": "6b279ab4-10e8-4e66-fb5d-9092c6709a1e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "172.64.152.23",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "172.66.1.143",
-      "server_port": 443,
-      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "f2.hamrahconf.ir",
+      "server_port": 8443,
+      "uuid": "5558156d-3a2c-4843-9eb9-06e69ac3a2bf",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",
