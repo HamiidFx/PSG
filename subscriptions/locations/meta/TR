@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "185.39.204.27", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7d51e3fe-a49a-4245-83b6-98a0346cdd09", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @vmesc #1", "server": "103.231.75.185", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @config_proxy #1'
+      - '🇹🇷 TR | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

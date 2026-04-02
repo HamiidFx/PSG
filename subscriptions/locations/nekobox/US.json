@@ -81,7 +81,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -89,7 +88,6 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
-        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -126,6 +124,7 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
@@ -142,7 +141,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -150,7 +148,6 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
-        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -187,6 +184,7 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
@@ -252,14 +250,6 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -364,31 +354,6 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @ir_netproxy #1",
-      "type": "vmess",
-      "server": "172.67.207.114",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 1,
-      "tls": {
-        "enabled": true,
-        "server_name": "ophelia.mom",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "ophelia.mom"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -869,6 +834,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "15.204.247.49",
+      "server_port": 12000,
+      "method": "YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",

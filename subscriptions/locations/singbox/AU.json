@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇦🇺 AU | VMESS | @ir_netproxy #1",
         "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇦🇺 AU | VMESS | @ir_netproxy #1",
         "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1"
       ],
@@ -126,6 +128,31 @@
         "path": "/qmbdkyzn",
         "headers": {
           "Host": "us-4.0rd.net"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
         }
       }
     },

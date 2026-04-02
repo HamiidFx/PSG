@@ -93,12 +93,11 @@
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnplusee_free #1",
         "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -127,12 +126,11 @@
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnplusee_free #1",
         "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -468,12 +466,26 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "194.85.249.173",
-      "server_port": 433,
-      "uuid": "e81a36d5-b3c3-48e0-bf08-d8938a247391",
-      "packet_encoding": "xudp"
+      "server": "103.231.75.185",
+      "server_port": 443,
+      "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
@@ -542,28 +554,6 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fin5.frostbot.ru",
-      "server_port": 443,
-      "uuid": "5b77fb18-cece-4759-9a81-571f1be53e0c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
