@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "51.250.107.243", "port": 3000, "type": "vless", "skip-cert-verify": true, "uuid": "135cf519-64bc-4bfa-98bc-3e0adf42b082", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "84.201.176.45", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f2ba6dba-f210-4a5e-b2fc-96eb3ce141be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "84.201.176.45", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f2ba6dba-f210-4a5e-b2fc-96eb3ce141be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @vpnplusee_free #1", "server": "185.147.26.21", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -40,7 +39,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @config_proxy #1'
-      - '🇷🇺 RU | VLESS | @config_proxy #2'
       - '🇷🇺 RU | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
