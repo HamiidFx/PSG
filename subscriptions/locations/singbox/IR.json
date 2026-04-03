@@ -92,6 +92,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -117,6 +118,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -175,6 +177,31 @@
       "server_port": 80,
       "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -265,7 +292,7 @@
       "type": "vless",
       "server": "185.143.234.235",
       "server_port": 80,
-      "uuid": "7d5a38cf-285b-4587-9ef6-7bbb5f13431c",
+      "uuid": "4bac43df-264d-4706-97fe-51c69c0da053",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
