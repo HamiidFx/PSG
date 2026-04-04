@@ -106,6 +106,7 @@
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @v2ray_youtube #3",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2"
       ],
@@ -131,6 +132,7 @@
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @v2ray_youtube #3",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2"
       ],
@@ -271,25 +273,27 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ww.boldtest.ir",
-      "server_port": 8880,
-      "uuid": "b678614e-2bd6-4cf4-875b-b12f4c48a823",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "mim.md-teach.com",
+      "server_port": 8443,
+      "uuid": "b7c3934e-325f-49ee-b6c3-d3c2ee3e7ca6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 80,
-      "uuid": "64d55326-fb18-4a17-8b96-d88fc091db42",
-      "packet_encoding": "xudp"
+      "server": "185.143.233.200",
+      "server_port": 443,
+      "uuid": "a32240a5-ad06-4075-954b-2fcdd6df5616",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -347,6 +351,14 @@
       "server": "forimarket.2.globalmymusic2.com",
       "server_port": 80,
       "uuid": "88f964e1-4ab8-4280-9557-e1cd573abdec",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vip_vpn_2022 #2",
+      "type": "vless",
+      "server": "s2.tehranionliine.ir",
+      "server_port": 80,
+      "uuid": "b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4",
       "packet_encoding": "xudp"
     },
     {

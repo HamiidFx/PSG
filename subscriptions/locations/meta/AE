@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @netmellianti #1", "server": "94.140.0.0", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "dlbazi1.ketakhan.sbs", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "75851373-9166-4413-bcb4-e995135ca3ce", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @netmellianti #1'
-      - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

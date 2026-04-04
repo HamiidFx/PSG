@@ -253,9 +253,10 @@
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇦🇺 AU | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -271,6 +272,7 @@
         "🇽🇽 XX | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2raytg #2",
         "🇨🇾 CY | VLESS | @v2raytg #1",
+        "🇨🇾 CY | VLESS | @v2raytg #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2rayza #1",
         "🇽🇽 XX | VLESS | @v2rayza #2",
@@ -284,8 +286,8 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #2",
-        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇽🇽 XX | VLESS | @vmesc #2",
         "🇽🇽 XX | VLESS | @vmesc #3",
@@ -468,9 +470,10 @@
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇦🇺 AU | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -486,6 +489,7 @@
         "🇽🇽 XX | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2raytg #2",
         "🇨🇾 CY | VLESS | @v2raytg #1",
+        "🇨🇾 CY | VLESS | @v2raytg #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2rayza #1",
         "🇽🇽 XX | VLESS | @v2rayza #2",
@@ -499,8 +503,8 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #2",
-        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇽🇽 XX | VLESS | @vmesc #2",
         "🇽🇽 XX | VLESS | @vmesc #3",
@@ -2526,25 +2530,43 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "188.114.98.0",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "104.18.26.90",
+      "server_port": 2087,
+      "uuid": "d5880da4-750c-4bdf-807f-0f6d5888f0f3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "70.34.201.81",
+      "server_port": 443,
+      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 80,
-      "uuid": "64d55326-fb18-4a17-8b96-d88fc091db42",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "188.114.97.3",
+      "server": "185.143.233.200",
       "server_port": 443,
-      "uuid": "turboo-server",
+      "uuid": "a32240a5-ad06-4075-954b-2fcdd6df5616",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2562,6 +2584,14 @@
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "103.73.65.187",
+      "server_port": 7000,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
       "packet_encoding": "xudp"
     },
     {
@@ -2719,6 +2749,28 @@
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "45.88.183.100",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raytg #2",
       "type": "vless",
       "server": "45.82.251.33",
       "server_port": 8880,
@@ -2953,9 +3005,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "3.72.189.223",
+      "server": "51.44.53.220",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -2968,9 +3020,9 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.36.250.59",
+      "server": "52.59.32.38",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -2985,7 +3037,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "51.44.53.220",
+      "server": "15.237.155.59",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

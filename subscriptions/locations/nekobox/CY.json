@@ -79,7 +79,8 @@
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
-        "🇨🇾 CY | VLESS | @v2raytg #1"
+        "🇨🇾 CY | VLESS | @v2raytg #1",
+        "🇨🇾 CY | VLESS | @v2raytg #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
-        "🇨🇾 CY | VLESS | @v2raytg #1"
+        "🇨🇾 CY | VLESS | @v2raytg #1",
+        "🇨🇾 CY | VLESS | @v2raytg #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +124,28 @@
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "45.88.183.100",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raytg #2",
       "type": "vless",
       "server": "45.82.251.33",
       "server_port": 8880,

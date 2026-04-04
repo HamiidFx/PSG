@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VLESS | @v2ray_vmes #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1",
-        "🇦🇺 AU | VLESS | @v2ray_vmes #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,29 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
-      "type": "vmess",
-      "server": "104.31.16.104",
-      "server_port": 80,
-      "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/qmbdkyzn",
-        "headers": {
-          "Host": "us-4.0rd.net"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @khoneproxy #1",
-      "type": "vmess",
-      "server": "us-2.0rd.net",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
-      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -136,22 +115,7 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tq98e0yk",
-        "headers": {
-          "Host": ""
-        }
       }
-    },
-    {
-      "tag": "🇦🇺 AU | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "103.73.65.187",
-      "server_port": 7000,
-      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
