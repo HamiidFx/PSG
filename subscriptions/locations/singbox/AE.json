@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,23 @@
       "server_port": 8080,
       "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "dlbazi1.ketakhan.sbs",
+      "server_port": 8443,
+      "uuid": "75851373-9166-4413-bcb4-e995135ca3ce",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
