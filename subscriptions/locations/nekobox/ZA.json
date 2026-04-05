@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | SS | @oonfig #1"
+        "🇿🇦 ZA | SS | @oonfig #1",
+        "🇿🇦 ZA | VLESS | @v2ray_vmes #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | SS | @oonfig #1"
+        "🇿🇦 ZA | SS | @oonfig #1",
+        "🇿🇦 ZA | VLESS | @v2ray_vmes #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,23 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2",
       "password": null
+    },
+    {
+      "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "102.37.155.79",
+      "server_port": 443,
+      "uuid": "a2a7636b-25d9-4f83-941c-ba88cef9e2e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
