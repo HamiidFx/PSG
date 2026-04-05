@@ -82,7 +82,6 @@
         "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
@@ -108,7 +107,6 @@
         "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
-        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
@@ -221,23 +219,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
-      "type": "vless",
-      "server": "parspack.com",
-      "server_port": 443,
-      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "snapp.doctor",
@@ -264,25 +245,23 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "mim.md-teach.com",
-      "server_port": 8443,
-      "uuid": "b7c3934e-325f-49ee-b6c3-d3c2ee3e7ca6",
+      "server": "snapp.ir",
+      "server_port": 8080,
+      "uuid": "2a9651e0-2d92-4e87-8043-66b76c961d93",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.200",
-      "server_port": 443,
-      "uuid": "a32240a5-ad06-4075-954b-2fcdd6df5616",
+      "server": "m.tolorayan.ir",
+      "server_port": 8080,
+      "uuid": "b2e71359-5745-4832-ac1b-b7e096d067d0",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
