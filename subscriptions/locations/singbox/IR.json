@@ -93,6 +93,7 @@
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -113,7 +114,9 @@
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #3",
-        "🇮🇷 IR | VLESS | @vmesskhodam #4"
+        "🇮🇷 IR | VLESS | @vmesskhodam #4",
+        "🇮🇷 IR | VLESS | @vmesskhodam #5",
+        "🇮🇷 IR | VLESS | @vmesskhodam #6"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,6 +127,7 @@
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -144,7 +148,9 @@
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #3",
-        "🇮🇷 IR | VLESS | @vmesskhodam #4"
+        "🇮🇷 IR | VLESS | @vmesskhodam #4",
+        "🇮🇷 IR | VLESS | @vmesskhodam #5",
+        "🇮🇷 IR | VLESS | @vmesskhodam #6"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,6 +218,14 @@
           "Host": "i-love-iran.amlakayuni.ir"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "de23.fastplus7.site",
+      "server_port": 80,
+      "uuid": "0c74a134-003a-4ced-b4e4-87630e0224db",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -285,7 +299,7 @@
       "type": "vless",
       "server": "de22.fastplus7.site",
       "server_port": 2086,
-      "uuid": "0d1c3cee-2952-4a3e-a03e-fbe99d32dc72",
+      "uuid": "2af97b13-bffb-4e51-b3e8-d3d606e600cc",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -299,25 +313,41 @@
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
       "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "6e42eb2b-151a-4441-a17f-5bd107fd2065",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "e5933eb3-2aa8-4f20-b622-92677bf618f8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "s2.tehranionliine.ir",
       "server_port": 80,
-      "uuid": "b41ce518-dee4-4590-a42d-bed6185f1f30",
+      "uuid": "b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "de23.fastplus7.site",
       "server_port": 80,
-      "uuid": "f46def27-0024-4c17-ad8e-b15d63577be8",
-      "packet_encoding": "xudp"
+      "uuid": "0c74a134-003a-4ced-b4e4-87630e0224db",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -430,6 +460,22 @@
       "server": "185.143.234.235",
       "server_port": 80,
       "uuid": "0395dac4-3550-498e-bfe0-971d0acdcafa",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #5",
+      "type": "vless",
+      "server": "www.nextgold.ir",
+      "server_port": 2086,
+      "uuid": "c34e022f-1322-42d5-b6e7-dd6c362064a7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #6",
+      "type": "vless",
+      "server": "tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir",
+      "server_port": 80,
+      "uuid": "e8f469a1-28e6-477d-aa4b-0764849b1ab5",
       "packet_encoding": "xudp"
     }
   ],
