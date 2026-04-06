@@ -111,7 +111,9 @@
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #2"
+        "🇮🇷 IR | VLESS | @vmesskhodam #2",
+        "🇮🇷 IR | VLESS | @vmesskhodam #3",
+        "🇮🇷 IR | VLESS | @vmesskhodam #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -140,7 +142,9 @@
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #2"
+        "🇮🇷 IR | VLESS | @vmesskhodam #2",
+        "🇮🇷 IR | VLESS | @vmesskhodam #3",
+        "🇮🇷 IR | VLESS | @vmesskhodam #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -392,26 +396,40 @@
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "s10.x2fast.top",
-      "server_port": 443,
-      "uuid": "0763477d-7e67-49f1-a855-cdff82b59e43",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "f369cf10-2d6e-420d-8173-f54246d9a99f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #2",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "185.143.234.122",
       "server_port": 80,
-      "uuid": "f369cf10-2d6e-420d-8173-f54246d9a99f",
+      "uuid": "8fc836e4-f72f-40d7-8a55-8677324a2079",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #3",
+      "type": "vless",
+      "server": "185.143.234.200",
+      "server_port": 80,
+      "uuid": "c1e0aa57-6ae8-429d-a304-80cc52eba9c1",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #4",
+      "type": "vless",
+      "server": "185.143.234.235",
+      "server_port": 80,
+      "uuid": "0395dac4-3550-498e-bfe0-971d0acdcafa",
       "packet_encoding": "xudp"
     }
   ],
