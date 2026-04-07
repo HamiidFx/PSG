@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇦🇺 AU | VMESS | @khoneproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇦🇺 AU | VMESS | @khoneproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
+      "type": "vmess",
+      "server": "104.31.16.104",
+      "server_port": 80,
+      "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/qmbdkyzn",
+        "headers": {
+          "Host": "us-4.0rd.net"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @khoneproxy #1",
+      "type": "vmess",
+      "server": "us-2.0rd.net",
       "server_port": 443,
-      "uuid": "4c910b61-5229-4eb7-bdf4-692fcabf0fc1",
-      "packet_encoding": "xudp",
+      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -114,6 +133,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tq98e0yk",
+        "headers": {
+          "Host": ""
         }
       }
     }

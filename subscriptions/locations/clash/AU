@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4c910b61-5229-4eb7-bdf4-692fcabf0fc1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
+  - {"name": "🇦🇺 AU | VMESS | @khoneproxy #1", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
+      - '🇦🇺 AU | VMESS | @dailyv2ray #1'
+      - '🇦🇺 AU | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media
     type: select
