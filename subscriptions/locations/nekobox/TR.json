@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -101,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "185.39.204.27",
-      "server_port": 443,
-      "uuid": "7d51e3fe-a49a-4245-83b6-98a0346cdd09",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
