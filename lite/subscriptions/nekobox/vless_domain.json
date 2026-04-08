@@ -113,7 +113,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -132,7 +132,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -197,7 +196,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -216,7 +215,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -698,7 +696,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -890,30 +888,20 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "v2ir03186.temp.veraspeed.ir",
-      "server_port": 80,
-      "uuid": "e4c9557e-0435-4669-8192-dda40aa188ee",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 443,
-      "uuid": "e17c7cab-8a0c-44f4-bea9-23adf51a606a",
+      "server": "ww.iwantmoney.ir",
+      "server_port": 8880,
+      "uuid": "a68a1ef0-06c7-4443-bbaf-4524ae80b694",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #2",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ursa.linkinfo.cloud",
       "server_port": 8080,

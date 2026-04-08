@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -104,9 +103,9 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
@@ -121,9 +120,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -135,9 +133,9 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
@@ -156,31 +154,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "i-love-iran.amlakayuni.ir",
-      "server_port": 2053,
-      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "i-love-iran.amlakayuni.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "?ed=2053",
-        "headers": {
-          "Host": "i-love-iran.amlakayuni.ir"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "tsstt.1.globalmymusic2.com",
@@ -189,29 +162,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "i-love-iran.amlakayuni.ir",
-      "server_port": 2053,
-      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "i-love-iran.amlakayuni.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "?ed=2053",
-        "headers": {
-          "Host": "i-love-iran.amlakayuni.ir"
-        }
-      }
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "d8680ca0-b97c-40cf-9726-16c362eadf88",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
@@ -307,17 +263,32 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "v2ir03186.temp.veraspeed.ir",
-      "server_port": 80,
-      "uuid": "e4c9557e-0435-4669-8192-dda40aa188ee",
-      "packet_encoding": "xudp"
+      "server": "ww.iwantmoney.ir",
+      "server_port": 8880,
+      "uuid": "a68a1ef0-06c7-4443-bbaf-4524ae80b694",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "185.143.233.235",
       "server_port": 80,
-      "uuid": "1825745f-2a8f-496f-a106-922856836e1f",
+      "uuid": "78d81f7b-a340-4880-9313-4ae7f77bff63",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "78d81f7b-a340-4880-9313-4ae7f77bff63",
       "packet_encoding": "xudp"
     },
     {
@@ -330,23 +301,6 @@
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 443,
-      "uuid": "e17c7cab-8a0c-44f4-bea9-23adf51a606a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #2",
       "type": "vless",
       "server": "ursa.linkinfo.cloud",
       "server_port": 8080,
