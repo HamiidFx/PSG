@@ -80,7 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -106,7 +107,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -209,13 +211,54 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
       "type": "vmess",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",

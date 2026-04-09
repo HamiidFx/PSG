@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
@@ -122,7 +124,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
@@ -158,12 +162,62 @@
       "type": "direct"
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "tsstt.1.globalmymusic2.com",
       "server_port": 80,
       "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -317,27 +371,32 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "verso.legion-bot.site",
-      "server_port": 443,
-      "uuid": "dba1e1cd-5563-4e5f-8bba-8f003ccb9c90",
+      "server": "185.143.233.5",
+      "server_port": 80,
+      "uuid": "8c3b555c-a148-4d6b-b4b9-51e4dbbd7a41",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "2101adeb-fe06-4aa2-8323-cc2178b60f6a",
-      "packet_encoding": "xudp"
+      "server": "ww.iwantmoney.ir",
+      "server_port": 8880,
+      "uuid": "a68a1ef0-06c7-4443-bbaf-4524ae80b694",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
