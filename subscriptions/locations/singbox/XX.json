@@ -125,6 +125,7 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -253,8 +254,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #4",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -308,7 +311,6 @@
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2",
-        "🇽🇽 XX | VLESS | @vpnplusee_free #3",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
         "🇽🇽 XX | TROJAN | @vpnv2raytop #1",
         "🇽🇽 XX | VLESS | @vpnv2raytop #2",
@@ -357,6 +359,7 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -485,8 +488,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #4",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -540,7 +545,6 @@
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2",
-        "🇽🇽 XX | VLESS | @vpnplusee_free #3",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
         "🇽🇽 XX | TROJAN | @vpnv2raytop #1",
         "🇽🇽 XX | VLESS | @vpnv2raytop #2",
@@ -930,6 +934,23 @@
       "server": "104.18.218.118",
       "server_port": 443,
       "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "acccrd-ffb6d3c1-103d-4168-9b75-e1cb5b7212b9.smarteracloud.com",
+      "server_port": 443,
+      "uuid": "",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2505,11 +2526,12 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "172.64.152.23",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "www.speedtest.net",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "acccrd-7d3b945d-0f23-4719-9fae-50033251e2fd",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2521,12 +2543,55 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "b.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "104.18.33.27",
+      "server_port": 443,
+      "uuid": "8a30cf48-9fa2-46c5-8815-2822b12852e0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #4",
+      "type": "vless",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "8a30cf48-9fa2-46c5-8815-2822b12852e0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
@@ -3222,21 +3287,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "cosmin.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #2",
-      "type": "vless",
       "server": "grok.com",
       "server_port": 2083,
       "uuid": "e0c50817-86dd-4ee1-bca3-6e296d85dd59",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #3",
+      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #2",
       "type": "vless",
       "server": "172.64.153.22",
       "server_port": 8443,
