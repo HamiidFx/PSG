@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | SS | @mftizi #1"
+        "🇭🇰 HK | SS | @mftizi #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | SS | @mftizi #1"
+        "🇭🇰 HK | SS | @mftizi #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,15 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -145,6 +136,14 @@
       "server_port": 52611,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI=",
       "password": null
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "222.167.202.15",
+      "server_port": 7443,
+      "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
