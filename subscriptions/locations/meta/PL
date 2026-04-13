@@ -23,13 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "188.114.98.0", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "51.45.0.19", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "3.64.136.6", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1", "server": "172.67.180.92", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "51.45.0.19", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1", "server": "3.64.136.6", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "151.115.96.243", "port": 7242, "type": "vless", "skip-cert-verify": true, "uuid": "859b7d71-a9fc-4234-8e03-42eb876a170a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇩🇪 DE | TROJAN | @privatevpns #1'
-      - '🇽🇽 XX | TROJAN | @v2ray_free_conf #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
-      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
