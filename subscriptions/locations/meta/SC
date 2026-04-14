@@ -28,6 +28,7 @@ proxies:
   - {"name": "🇸🇨 SC | TROJAN | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "842b5f9dd11e458d8613c907c4cc5723"}
   - {"name": "🇸🇨 SC | VLESS | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | TROJAN | @mpproxy #2", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇸🇨 SC | VLESS | @v2ray_free_conf #1", "server": "glob.thisiswe.uno", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "dfe76531-d087-4129-cf5f-41975a1fa894", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -46,6 +47,7 @@ proxy-groups:
       - '🇸🇨 SC | TROJAN | @mpproxy #1'
       - '🇸🇨 SC | VLESS | @mpproxy #1'
       - '🇸🇨 SC | TROJAN | @mpproxy #2'
+      - '🇸🇨 SC | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
