@@ -98,10 +98,9 @@
         "🇽🇽 XX | VLESS | @freeconfigsplus #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @nofiltering2 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇽🇽 XX | VLESS | @vmesc #4"
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #5",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,10 +116,9 @@
         "🇽🇽 XX | VLESS | @freeconfigsplus #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @nofiltering2 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇽🇽 XX | VLESS | @vmesc #4"
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #5",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -253,35 +251,45 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @nofiltering2 #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #5",
       "type": "vless",
-      "server": "b.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "clud.soonteam.top",
+      "server_port": 443,
+      "uuid": "501e461e-02f6-4293-8334-d6ba7c076dd9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "24dc5c91924c5346.freestly.sapienza-mahan.ir",
+      "server_port": 443,
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "b.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vmesc #4",
-      "type": "vless",
-      "server": "b.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
     }
   ],
