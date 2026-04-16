@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | VLESS | @config_proxy #1", "server": "89.22.228.118", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e6c05419-9338-44fc-926d-918c55bacf44", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @deli_servers #1", "server": "185.146.173.59", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-deli-servers", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #1", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #2", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "89f86124-a711-4751-9363-4083834dabf5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
@@ -65,7 +64,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | VLESS | @config_proxy #1'
       - '🇸🇪 SE | VLESS | @deli_servers #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #2'

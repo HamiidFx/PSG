@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "84.201.176.45",
+      "server": "185.253.23.111",
       "server_port": 443,
-      "uuid": "f2ba6dba-f210-4a5e-b2fc-96eb3ce141be",
+      "uuid": "9d94835e-2a8b-45a2-babc-86037288cd9f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

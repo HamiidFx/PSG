@@ -92,7 +92,10 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1"
+        "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +105,10 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1"
+        "🇸🇨 SC | TROJAN | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -162,6 +168,38 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2086,
+      "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @mpproxy #2",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "glob.thisiswe.uno",
+      "server_port": 2083,
+      "uuid": "dfe76531-d087-4129-cf5f-41975a1fa894",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
