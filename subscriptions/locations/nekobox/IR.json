@@ -77,17 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
-        "🇮🇷 IR | VLESS | @ehsawn8 #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @father_vpn #4",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #2",
-        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -105,17 +102,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VMESS | @config_proxy #2",
-        "🇮🇷 IR | VLESS | @ehsawn8 #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @father_vpn #4",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #2",
-        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -141,31 +135,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "i-love-iran.amlakayuni.ir",
-      "server_port": 2053,
-      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "i-love-iran.amlakayuni.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "?ed=2053",
-        "headers": {
-          "Host": "i-love-iran.amlakayuni.ir"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "tsstt.1.globalmymusic2.com",
@@ -174,36 +143,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "i-love-iran.amlakayuni.ir",
-      "server_port": 2053,
-      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "i-love-iran.amlakayuni.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "?ed=2053",
-        "headers": {
-          "Host": "i-love-iran.amlakayuni.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "link2x06473.temp.veraspeed.ir",
+      "server": "snapp.ir",
       "server_port": 80,
-      "uuid": "ab1bf57b-0644-4994-971b-ac585a851809",
+      "uuid": "d8680ca0-b97c-40cf-9726-16c362eadf88",
       "packet_encoding": "xudp"
     },
     {
@@ -252,14 +196,6 @@
       "server": "snapp.ir",
       "server_port": 8080,
       "uuid": "5f12e894-5230-4ae4-a70d-389ae4052a3e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "2ff05b5e-cdb2-4cfd-88a1-ebd12612e8eb",
       "packet_encoding": "xudp"
     },
     {
@@ -316,9 +252,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 80,
-      "uuid": "b1c81245-1a64-4234-9eac-4564970c7c9a",
+      "server": "ww.iwantmoney.ir",
+      "server_port": 8880,
+      "uuid": "661da941-5333-4b32-bcfc-db184a20d4dd",
       "packet_encoding": "xudp"
     },
     {

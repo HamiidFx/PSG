@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VMESS | @config_proxy #1", "server": "i-love-iran.amlakayuni.ir", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2053", "headers": {"Host": "i-love-iran.amlakayuni.ir"}}}
-  - {"name": "🇮🇷 IR | VMESS | @config_proxy #2", "server": "i-love-iran.amlakayuni.ir", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2053", "headers": {"Host": "i-love-iran.amlakayuni.ir"}}}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -39,8 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VMESS | @config_proxy #1'
-      - '🇮🇷 IR | VMESS | @config_proxy #2'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media
