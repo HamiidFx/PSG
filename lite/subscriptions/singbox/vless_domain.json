@@ -104,7 +104,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
-        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
         "🇽🇽 XX | VLESS | @frev2rayng #2",
@@ -127,6 +126,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -179,7 +179,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
-        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
         "🇽🇽 XX | VLESS | @frev2rayng #2",
@@ -202,6 +201,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -411,14 +411,6 @@
     },
     {
       "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "5f12e894-5230-4ae4-a70d-389ae4052a3e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #2",
       "type": "vless",
       "server": "snapp.ir",
       "server_port": 80,
@@ -692,8 +684,25 @@
       "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
-      "server_port": 80,
-      "uuid": "97fa2fbd-b24c-ff98-633e-fd6fc14556db",
+      "server_port": 443,
+      "uuid": "651a858c-2975-4b96-96b7-82745b38714c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
     },
     {
@@ -848,9 +857,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ip-data.turkserver.ir",
-      "server_port": 2087,
-      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "server": "proxy.rahmancloud.ir",
+      "server_port": 8443,
+      "uuid": "6b279ab4-10e8-4e66-fb5d-9092c6709a1e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

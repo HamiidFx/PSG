@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
-  - {"name": "🇭🇰 HK | VLESS | @mpproxy #1", "server": "222.167.202.22", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VLESS | @vmesskhodam #1", "server": "222.167.202.33", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -40,7 +39,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | VMESS | @freev2rays #1'
-      - '🇭🇰 HK | VLESS | @mpproxy #1'
       - '🇭🇰 HK | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
