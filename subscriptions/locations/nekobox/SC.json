@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇨 SC | VLESS | @arv2ray #1"
+        "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @mpproxy #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇨 SC | VLESS | @arv2ray #1"
+        "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @mpproxy #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,6 +112,48 @@
       "server": "156.243.83.167",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #3",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
