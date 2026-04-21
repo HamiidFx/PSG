@@ -99,6 +99,7 @@
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -108,8 +109,11 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
+        "🇮🇷 IR | VLESS | @v2rayngvpn_1 #2",
+        "🇮🇷 IR | VLESS | @v2rayngvpn_1 #3",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
@@ -131,6 +135,7 @@
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -140,8 +145,11 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
+        "🇮🇷 IR | VLESS | @v2rayngvpn_1 #2",
+        "🇮🇷 IR | VLESS | @v2rayngvpn_1 #3",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
@@ -271,6 +279,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #2",
+      "type": "vless",
+      "server": "185.143.233.5",
+      "server_port": 443,
+      "uuid": "9f1d913e-837f-45b3-bda3-cd4ebfffd3be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "shop.shadowroute.site",
@@ -357,9 +382,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.234.120",
+      "server": "tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir",
       "server_port": 443,
-      "uuid": "af812bdd-7190-4c62-84a8-10a9cc96a50d",
+      "uuid": "8c53daee-2173-4889-a483-4f698b4b0432",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -374,17 +399,23 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "new.sordo.store",
-      "server_port": 443,
-      "uuid": "7d4f9ad9-060e-4f12-b957-f4bdee8ed62f",
+      "server": "185.143.234.235",
+      "server_port": 80,
+      "uuid": "20bc570b-0d2e-4514-832b-f588d416bdf2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "s3.tehranionliine.ir",
+      "server_port": 80,
+      "uuid": "40eb5911-c6e8-416c-bd12-e9d5cd4d9ae7",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -402,6 +433,22 @@
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "0b5d07af-3a5d-42f5-92f7-cce38e9f31db",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2rayngvpn_1 #2",
+      "type": "vless",
+      "server": "abr.superip.ir",
+      "server_port": 2086,
+      "uuid": "0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2rayngvpn_1 #3",
+      "type": "vless",
+      "server": "abr.superip.ir",
+      "server_port": 2086,
+      "uuid": "0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a",
       "packet_encoding": "xudp"
     },
     {
