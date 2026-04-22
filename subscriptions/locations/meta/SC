@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇸🇨 SC | VLESS | @arv2ray #1", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @arv2ray #2", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇨 SC | VLESS | @v2ray_free_conf #1", "server": "glob.thisiswe.uno", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇸🇨 SC | VLESS | @arv2ray #1'
       - '🇸🇨 SC | VLESS | @arv2ray #2'
+      - '🇸🇨 SC | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
