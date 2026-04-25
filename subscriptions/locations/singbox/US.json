@@ -98,7 +98,6 @@
         "🇺🇸 US | VLESS | @config_proxy #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
@@ -133,6 +132,7 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -154,7 +154,6 @@
         "🇺🇸 US | VLESS | @config_proxy #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
@@ -189,6 +188,7 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -292,14 +292,6 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -788,6 +780,23 @@
       "server": "103.133.1.227",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cdn.zoom.us",
+      "server_port": 443,
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

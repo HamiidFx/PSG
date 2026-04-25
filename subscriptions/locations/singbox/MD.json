@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #2"
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #2"
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
-      "server_port": 443,
-      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,15 +125,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #2",
+      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #2",
       "type": "vless",
-      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
-      "server_port": 443,
-      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
+      "server": "3.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,6 +147,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

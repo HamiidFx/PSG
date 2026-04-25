@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "983da2df-bc52-4226-84c1-bbfef0704427", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #2", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #1", "server": "4.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇩 MD | VLESS | @vpn_ioss #2", "server": "3.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #2'
+      - '🇲🇩 MD | VLESS | @vpn_ioss #1'
+      - '🇲🇩 MD | VLESS | @vpn_ioss #2'
 
   - name: 🌍 Global Media
     type: select
