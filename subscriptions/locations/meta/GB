@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @kafing_2 #1", "server": "18.171.164.29", "port": 32073, "type": "vless", "skip-cert-verify": true, "uuid": "0b694f0a-48c3-4394-8862-a1b7cd1a184e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @kafing_2 #1'
       - '🇬🇧 GB | VLESS | @komail315 #1'
 
   - name: 🌍 Global Media

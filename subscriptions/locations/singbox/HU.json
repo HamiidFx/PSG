@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgREs=
+//profile-title: base64:UFNHIHwgSFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇰 DK | VLESS | @v2ray_free_conf #1"
+        "🇭🇺 HU | VLESS | @father_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇰 DK | VLESS | @v2ray_free_conf #1"
+        "🇭🇺 HU | VLESS | @father_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+      "tag": "🇭🇺 HU | VLESS | @father_vpn #1",
       "type": "vless",
-      "server": "016fab73dd0e5521.freestly.sapienza-mahan.ir",
-      "server_port": 443,
-      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
