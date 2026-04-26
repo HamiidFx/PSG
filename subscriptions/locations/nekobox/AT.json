@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "152.53.1.112",
+      "server_port": 7443,
+      "uuid": "3824f134-a633-4318-9c2a-79887bf811a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇹 AT | TROJAN | @mpproxy #1",
