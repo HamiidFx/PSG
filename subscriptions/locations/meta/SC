@@ -23,11 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇸🇨 SC | VLESS | @arv2ray #1", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇨 SC | VLESS | @arv2ray #2", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @mpproxy #2", "server": "srv1.khatibirepair.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @mpproxy #3", "server": "srv1.khatibirepair.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @mpproxy #4", "server": "srv1.khatibirepair.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇨 SC | VLESS | @v2ray_free_conf #1", "server": "dlbazi2.ketakhan.sbs", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "75851373-9166-4413-bcb4-e995135ca3ce", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇨 SC | VLESS | @v2ray_free_conf #1", "server": "45.130.125.160", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,6 +43,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇸🇨 SC | VLESS | @arv2ray #1'
+      - '🇸🇨 SC | VLESS | @arv2ray #2'
       - '🇸🇨 SC | VLESS | @mpproxy #1'
       - '🇸🇨 SC | VLESS | @mpproxy #2'
       - '🇸🇨 SC | VLESS | @mpproxy #3'
