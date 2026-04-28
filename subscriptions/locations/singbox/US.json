@@ -103,6 +103,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -134,6 +135,7 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -157,6 +159,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -188,6 +191,7 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -353,6 +357,31 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -789,6 +818,14 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,
