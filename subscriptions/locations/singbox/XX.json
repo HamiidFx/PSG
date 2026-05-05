@@ -135,6 +135,7 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @goldenvpn_v2rayy #1",
         "🇽🇽 XX | TROJAN | @grizzlyvpn #1",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -276,7 +277,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -321,6 +321,7 @@
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #3",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
@@ -388,6 +389,7 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @goldenvpn_v2rayy #1",
         "🇽🇽 XX | TROJAN | @grizzlyvpn #1",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -529,7 +531,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -574,6 +575,7 @@
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #3",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
@@ -1127,6 +1129,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
         }
       }
     },
@@ -2901,22 +2928,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "172.67.180.92",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
       "type": "trojan",
       "server": "104.20.6.134",
@@ -3544,6 +3555,22 @@
       "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #2",
       "type": "trojan",
       "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #3",
+      "type": "trojan",
+      "server": "172.67.180.92",
       "server_port": 443,
       "password": "humanity",
       "tls": {
