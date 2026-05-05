@@ -128,10 +128,9 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
-        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -150,6 +149,7 @@
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -211,10 +211,9 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
-        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -233,6 +232,7 @@
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -461,9 +461,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "s4.tehranionliine.ir",
+      "server": "org.parsajahdi.ir",
       "server_port": 80,
-      "uuid": "44d701d0-115b-432e-8c50-46966ecd3d61",
+      "uuid": "25c6b196-a253-404c-be96-2a6934f38d23",
       "packet_encoding": "xudp"
     },
     {
@@ -730,7 +730,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -756,23 +756,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @parsashonam #1",
-      "type": "vless",
-      "server": "nextjs.org",
-      "server_port": 443,
-      "uuid": "Parsashonam",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @parsashonam #2",
       "type": "vless",
       "server": "kubernetes.io",
       "server_port": 443,
@@ -940,18 +923,27 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "mmd.az99x.info",
-      "server_port": 8880,
-      "uuid": "cb05a23a-4cda-4407-e1c4-e0b421a2af8e",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "telegram-id-%40netstux",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "mmd.az99x.info",
-      "server_port": 8880,
-      "uuid": "cb05a23a-4cda-4407-e1c4-e0b421a2af8e",
-      "packet_encoding": "xudp"
+      "server": "red.nahidapp.com",
+      "server_port": 443,
+      "uuid": "b3c31715-a508-4e48-a560-14dfb4c595d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
@@ -984,6 +976,14 @@
       "server": "berovps.masoodbiranvand-230.workers.dev",
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "b3ef9da6-1ccd-4099-8e09-b8ed36008559",
       "packet_encoding": "xudp"
     },
     {

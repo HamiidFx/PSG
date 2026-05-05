@@ -82,6 +82,7 @@
         "🇺🇸 US | VLESS | @artemis_vpn_free #1",
         "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -104,7 +105,6 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
-        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -130,6 +130,7 @@
         "🇺🇸 US | VLESS | @artemis_vpn_free #1",
         "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -152,7 +153,6 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
-        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -233,6 +233,22 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @dailyv2ray #1",
+      "type": "vmess",
+      "server": "104.31.16.104",
+      "server_port": 80,
+      "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/qmbdkyzn",
+        "headers": {
+          "Host": "us-4.0rd.net"
         }
       }
     },
@@ -477,23 +493,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @parsashonam #1",
-      "type": "vless",
-      "server": "nextjs.org",
-      "server_port": 443,
-      "uuid": "Parsashonam",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @parsashonam #2",
       "type": "vless",
       "server": "kubernetes.io",
       "server_port": 443,
