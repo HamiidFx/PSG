@@ -168,6 +168,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
@@ -290,6 +291,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
@@ -573,6 +575,23 @@
     {
       "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
       "type": "vless",
+      "server": "185.143.233.68",
+      "server_port": 443,
+      "uuid": "62d66671-0ab5-43b4-8a2f-3d74857fa5b2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
+      "type": "vless",
       "server": "185.143.234.235",
       "server_port": 8080,
       "uuid": "cc97c110-b686-42c5-9c47-3421765535da",
@@ -584,14 +603,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
-      "type": "vless",
-      "server": "185.143.233.235",
-      "server_port": 8080,
-      "uuid": "60404e8a-a1d0-4374-9b4c-6aeb32dcf51b",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
@@ -1534,6 +1545,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "a54fe611-c55d-47ab-b155-bdb5f9a35c6a",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },

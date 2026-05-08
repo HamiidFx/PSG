@@ -97,6 +97,8 @@
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | SS | @NamiraConfigs #1",
         "🇺🇸 US | SS | @NamiraConfigs #2",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
@@ -273,7 +275,7 @@
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayopen #1",
@@ -327,6 +329,8 @@
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | SS | @NamiraConfigs #1",
         "🇺🇸 US | SS | @NamiraConfigs #2",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
@@ -503,7 +507,7 @@
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayopen #1",
@@ -663,6 +667,22 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+      "type": "vless",
+      "server": "artemis.sbs",
+      "server_port": 80,
+      "uuid": "6ae833da-e51f-48b4-a870-1f1aafe17378",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @artemis_vpn_free #2",
+      "type": "vless",
+      "server": "artemis.sbs",
+      "server_port": 80,
+      "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇨 SC | VLESS | @arv2ray #1",
@@ -863,6 +883,23 @@
     {
       "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
       "type": "vless",
+      "server": "185.143.233.68",
+      "server_port": 443,
+      "uuid": "62d66671-0ab5-43b4-8a2f-3d74857fa5b2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
+      "type": "vless",
       "server": "185.143.234.235",
       "server_port": 8080,
       "uuid": "cc97c110-b686-42c5-9c47-3421765535da",
@@ -874,14 +911,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
-      "type": "vless",
-      "server": "185.143.233.235",
-      "server_port": 8080,
-      "uuid": "60404e8a-a1d0-4374-9b4c-6aeb32dcf51b",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
@@ -2780,26 +2809,24 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "camp.nahidapp.com",
-      "server_port": 443,
-      "uuid": "4bdd9eae-414f-40cb-8e08-289e20e04dfd",
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "a54fe611-c55d-47ab-b155-bdb5f9a35c6a",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "cdn3.whitepol4.ir",
-      "server_port": 2052,
-      "uuid": "c8a390d4-743a-42d3-806c-2a4c6ee8b7df",
+      "server": "snapp.ir",
+      "server_port": 8080,
+      "uuid": "52391f3e-e358-4bc7-85e9-4bcb8db6e0de",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -2989,7 +3016,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
