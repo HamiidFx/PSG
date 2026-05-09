@@ -106,6 +106,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
+        "🇺🇸 US | VLESS | @parsashonam #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -156,6 +157,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
+        "🇺🇸 US | VLESS | @parsashonam #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -527,6 +529,23 @@
       "server_port": 80,
       "uuid": "TELEGRAM-NUFiLTER-2",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @parsashonam #1",
+      "type": "vless",
+      "server": "kubernetes.io",
+      "server_port": 443,
+      "uuid": "Telegram-Parsashonam",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
