@@ -111,7 +111,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -240,6 +239,7 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
@@ -268,7 +268,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -351,7 +350,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -480,6 +478,7 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
@@ -508,7 +507,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -791,23 +789,6 @@
       "server": "104.18.35.85",
       "server_port": 443,
       "uuid": "060a8fe8-7175-4ded-94a5-d9808bc645b6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "8.6.112.6",
-      "server_port": 443,
-      "uuid": "Telegram-Parsashonam",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2493,6 +2474,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @serverv2ray00 #2",
+      "type": "vmess",
+      "server": "172.67.152.214",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "meroiy.icu",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "meroiy.icu"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @shadowsocksshop #1",
       "type": "vless",
       "server": "sub.shadowsokstes.workers.dev",
@@ -2781,36 +2787,10 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.18.26.90",
-      "server_port": 2087,
-      "uuid": "d5880da4-750c-4bdf-807f-0f6d5888f0f3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "ip-data.turkserver.ir",
-      "server_port": 2087,
-      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "w.smarteracloud.com",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
