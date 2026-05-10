@@ -232,7 +232,6 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
@@ -260,7 +259,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -460,7 +458,6 @@
         "🇽🇽 XX | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @serverv2ray00 #2",
-        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @sobi_vpn #1",
         "🇽🇽 XX | VLESS | @spikevpn #1",
@@ -488,7 +485,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -2380,31 +2376,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @serverv2ray00 #2",
-      "type": "vmess",
-      "server": "172.67.152.214",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "meroiy.icu",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "meroiy.icu"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @shadowsocksshop #1",
       "type": "vless",
       "server": "sub.shadowsokstes.workers.dev",
@@ -2547,28 +2518,20 @@
       "tag": "🇽🇽 XX | VLESS | @turboo_server #2",
       "type": "vless",
       "server": "104.18.12.149",
-      "server_port": 2053,
+      "server_port": 8443,
       "uuid": "e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @turboo_server #3",
       "type": "vless",
-      "server": "104.18.12.149",
-      "server_port": 8443,
-      "uuid": "e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @turboo_server #4",
-      "type": "vless",
       "server": "104.18.13.149",
       "server_port": 8443,
       "uuid": "4dc0b42a-1a8a-4337-851b-5d8a1f149fca",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @turboo_server #5",
+      "tag": "🇽🇽 XX | VLESS | @turboo_server #4",
       "type": "vless",
       "server": "104.18.13.149",
       "server_port": 2053,
@@ -2576,9 +2539,17 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @turboo_server #6",
+      "tag": "🇽🇽 XX | VLESS | @turboo_server #5",
       "type": "vless",
       "server": "172.64.149.54",
+      "server_port": 8443,
+      "uuid": "4dc0b42a-1a8a-4337-851b-5d8a1f149fca",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @turboo_server #6",
+      "type": "vless",
+      "server": "104.16.80.73",
       "server_port": 8443,
       "uuid": "4dc0b42a-1a8a-4337-851b-5d8a1f149fca",
       "packet_encoding": "xudp"
@@ -2689,14 +2660,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "w.smarteracloud.com",
-      "server_port": 2096,
-      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
