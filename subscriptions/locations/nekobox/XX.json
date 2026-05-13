@@ -256,6 +256,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -296,8 +297,8 @@
         "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
-        "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | TROJAN | @vpn_ioss #3",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -499,6 +500,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -539,8 +541,8 @@
         "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
-        "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | TROJAN | @vpn_ioss #3",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -2778,7 +2780,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "188.114.98.0",
+      "server": "172.64.152.170",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
@@ -2786,10 +2788,35 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "h7.eldenringshop.ir",
-      "server_port": 2053,
-      "uuid": "dba2493d-5f5a-466a-bd8f-3b74b7f3d63b",
-      "packet_encoding": "xudp"
+      "server": "ip-data.turkserver.ir",
+      "server_port": 2087,
+      "uuid": "1ea92475-4ea3-48b5-a307-d9fa6e9a11e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "8.6.112.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
@@ -3376,22 +3403,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
-      "type": "trojan",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "freedom.gov",
@@ -3409,9 +3420,25 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
       "type": "trojan",
       "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+      "type": "trojan",
+      "server": "172.64.152.23",
       "server_port": 443,
       "password": "humanity",
       "tls": {
