@@ -83,7 +83,9 @@
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +99,9 @@
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -209,7 +213,41 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "letsencrypt.org",
+      "server_port": 443,
+      "uuid": "db3d4f12-ed79-48a6-8b32-78f3ac3bf4ec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "m.spotihi.ir",
+      "server_port": 8443,
+      "uuid": "d3f96499-3f60-400c-b05a-7ea82ddb44e3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,

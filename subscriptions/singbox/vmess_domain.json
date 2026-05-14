@@ -101,13 +101,14 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
-        "🇺🇸 US | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -127,13 +128,14 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
-        "🇺🇸 US | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -402,29 +404,13 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @khoneproxy #1",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
       "type": "vmess",
-      "server": "us-2.0rd.net",
-      "server_port": 443,
-      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
+      "server": "78.47.131.39",
+      "server_port": 8443,
+      "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
       "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tq98e0yk",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "alter_id": 0
     },
     {
       "tag": "🇽🇽 XX | VMESS | @manstervpn #1",
@@ -564,6 +550,22 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "ba6d9b39-0bae-4179-9b9b-824b9bb27dc4",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n3.multiservers.ir"
         }
       }
     },
