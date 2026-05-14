@@ -78,7 +78,14 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
-        "🇸🇨 SC | VLESS | @arv2ray #2"
+        "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @mpproxy #3",
+        "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +94,14 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
-        "🇸🇨 SC | VLESS | @arv2ray #2"
+        "🇸🇨 SC | VLESS | @arv2ray #2",
+        "🇸🇨 SC | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @mpproxy #3",
+        "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,6 +149,107 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "ip2.neoservers.ir",
+      "server_port": 8443,
+      "uuid": "c1de7c16-9c66-482c-82e5-8aeaeb5d53b3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #3",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #4",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "glob.thisiswe.uno",
+      "server_port": 2053,
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "glob.thisiswe.uno",
+      "server_port": 2083,
+      "uuid": "dfe76531-d087-4129-cf5f-41975a1fa894",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
