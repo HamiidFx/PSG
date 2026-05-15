@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @prrofile_purple #1", "server": "snapp.tech-notes.xyz", "port": 42293, "type": "vless", "skip-cert-verify": true, "uuid": "cea5a86c-bf57-4aba-9205-b9c7cfbe8f43", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VLESS | @v2ray_free_conf #1", "server": "4.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @prrofile_purple #1'
+      - '🇲🇩 MD | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
