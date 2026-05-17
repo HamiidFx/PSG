@@ -173,7 +173,6 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #2",
-        "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #2",
         "🇽🇽 XX | VLESS | @merdesert #1",
@@ -408,7 +407,6 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #2",
-        "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #2",
         "🇽🇽 XX | VLESS | @merdesert #1",
@@ -1616,14 +1614,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
-      "type": "vless",
-      "server": "104.31.16.65",
-      "server_port": 2096,
-      "uuid": "281a5a7c-6530-4cd6-b0f2-a2666e6c3b36",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @meli_v2rayng #1",
       "type": "vless",
       "server": "188.114.98.224",
@@ -2745,10 +2735,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "162.159.153.235",
+      "server": "nekopingbot.thisiswe.uno",
       "server_port": 2053,
-      "uuid": "b818576e-951a-4a9c-879a-d32611b977ad",
-      "packet_encoding": "xudp"
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
