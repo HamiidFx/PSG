@@ -91,7 +91,8 @@
         "🇽🇽 XX | VLESS | @turboo_server #2",
         "🇽🇽 XX | VLESS | @turboo_server #5",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vpnowl #2"
+        "🇽🇽 XX | VLESS | @vpnowl #2",
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,7 +114,8 @@
         "🇽🇽 XX | VLESS | @turboo_server #2",
         "🇽🇽 XX | VLESS | @turboo_server #5",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇽🇽 XX | VLESS | @vpnowl #2"
+        "🇽🇽 XX | VLESS | @vpnowl #2",
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -349,6 +351,23 @@
       "server_port": 8880,
       "uuid": "ci49kfwjrc",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vpnowl #1",
+      "type": "vless",
+      "server": "104.198.14.52",
+      "server_port": 443,
+      "uuid": "598cbaec-00f6-4d84-8644-b35fdcec6904",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
