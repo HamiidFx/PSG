@@ -88,11 +88,11 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,11 +111,11 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -371,16 +371,16 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
+      "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
-      "server": "cf.sudoer.net",
+      "server": "188.114.97.3",
       "server_port": 443,
-      "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c",
+      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net",
+        "server_name": "afrhms16v.bestxray.buzz",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -389,9 +389,34 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api05",
+        "path": "/linkws",
         "headers": {
-          "Host": "scherehtzflk01.schere.net"
+          "Host": "afrhms16v.bestxray.buzz"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
+      "type": "vmess",
+      "server": "45.85.118.88",
+      "server_port": 443,
+      "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hstr1675520106270.aidapp.life",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aidapp.lifevws",
+        "headers": {
+          "Host": "hstr1675520106270.aidapp.life"
         }
       }
     },
@@ -452,28 +477,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
-      "type": "vmess",
-      "server": "172.66.213.38",
-      "server_port": 443,
-      "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy4c1.iraniancpi.uk",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "WgCmp8p80KDzo64uHE"
       }
     }
   ],
