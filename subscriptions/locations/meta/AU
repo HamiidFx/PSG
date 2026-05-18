@@ -23,11 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "63.184.236.74", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "15.224.82.53", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "162.159.135.79", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "janett.click"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | TROJAN | @mpproxy #1'
-      - '🇩🇪 DE | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
+      - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
 
   - name: 🌍 Global Media
     type: select
