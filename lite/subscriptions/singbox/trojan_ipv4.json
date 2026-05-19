@@ -96,6 +96,7 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇽🇽 XX | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
@@ -110,6 +111,7 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇽🇽 XX | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
@@ -231,6 +233,22 @@
       "server": "172.64.152.23",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
+      "type": "trojan",
+      "server": "3.77.116.109",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
       "tls": {
         "enabled": true,
         "server_name": "",
