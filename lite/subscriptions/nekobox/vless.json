@@ -161,8 +161,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
@@ -191,7 +190,6 @@
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
@@ -239,6 +237,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -354,8 +353,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
@@ -384,7 +382,6 @@
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
@@ -432,6 +429,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -1583,20 +1581,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "172.64.152.170",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "185.143.233.122",
-      "server_port": 80,
-      "uuid": "0c12ff0e-004d-4f86-8ba2-6756cbb6dac9",
-      "packet_encoding": "xudp"
+      "server": "3.71.78.215",
+      "server_port": 443,
+      "uuid": "4ca14b7d-7719-4756-df72-905e9cf37a73",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -1939,14 +1938,6 @@
       "server": "snapp.ir",
       "server_port": 8880,
       "uuid": "72a61ef2-f87d-44ee-a42a-e4154dcd5086",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
-      "type": "vless",
-      "server": "digipay.ir",
-      "server_port": 8080,
-      "uuid": "675edb84-254f-48c7-bd95-0fd3542132b3",
       "packet_encoding": "xudp"
     },
     {
@@ -2485,6 +2476,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "07d93c71-81ef-44a8-bba2-a2fcf91934c5",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },

@@ -89,7 +89,6 @@
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
@@ -137,6 +136,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -180,7 +180,6 @@
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
@@ -228,6 +227,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -408,14 +408,6 @@
       "server": "snapp.ir",
       "server_port": 8880,
       "uuid": "72a61ef2-f87d-44ee-a42a-e4154dcd5086",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
-      "type": "vless",
-      "server": "digipay.ir",
-      "server_port": 8080,
-      "uuid": "675edb84-254f-48c7-bd95-0fd3542132b3",
       "packet_encoding": "xudp"
     },
     {
@@ -954,6 +946,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "07d93c71-81ef-44a8-bba2-a2fcf91934c5",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
