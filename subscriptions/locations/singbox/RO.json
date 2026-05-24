@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUkVBTElUWV9ET01BSU4=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,14 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇲🇩 MD | VLESS | @vpn_ioss #1",
-        "🇲🇩 MD | VLESS | @vpn_ioss #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇲🇩 MD | VLESS | @vpn_ioss #1",
-        "🇲🇩 MD | VLESS | @vpn_ioss #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "127.0.0.1",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -137,143 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
-      "type": "vless",
-      "server": "eng14.netliberated.org",
-      "server_port": 443,
-      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
-      "type": "vless",
-      "server": "sadaf.netherlands.mehrdadsadaf.com",
-      "server_port": 80,
-      "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @nn_vpn #2",
-      "type": "vless",
-      "server": "sadaf.melorin.mehrdadsadaf.com",
-      "server_port": 80,
-      "uuid": "b8debe38-3858-4a7e-9bfc-ee090ac7597b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "4.cdnconn.com",
-      "server_port": 23335,
-      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #2",
-      "type": "vless",
-      "server": "3.cdnconn.com",
-      "server_port": 23335,
-      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
