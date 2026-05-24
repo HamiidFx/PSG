@@ -83,6 +83,7 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #2",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -103,6 +104,7 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #2",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -233,6 +235,28 @@
       "server_port": 80,
       "uuid": "b8debe38-3858-4a7e-9bfc-ee090ac7597b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #2",
