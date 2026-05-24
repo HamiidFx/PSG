@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇮🇹 IT | VLESS | @v2ray_free_conf #1", "server": "24dc5c91924c5346.freestly.sapienza-mahan.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | TROJAN | @mpproxy #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
+      - '🇮🇹 IT | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
