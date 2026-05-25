@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇨 SC | VLESS | @arv2ray #1", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇨 SC | VLESS | @arv2ray #2", "server": "156.243.83.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-Arfilter", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇨 SC | VLESS | @kafing_2 #1", "server": "cdn.torprospeed.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "0cdab3ab-67dd-4342-a78f-710a32d0c3bb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇨 SC | VLESS | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇨 SC | VLESS | @arv2ray #1'
-      - '🇸🇨 SC | VLESS | @arv2ray #2'
-      - '🇸🇨 SC | VLESS | @kafing_2 #1'
-      - '🇸🇨 SC | VLESS | @mpproxy #1'
+      - '🇮🇷 IR | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media
     type: select
