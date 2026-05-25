@@ -99,7 +99,8 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇽🇽 XX | TROJAN | @vpnv2raytop #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇽🇽 XX | TROJAN | @vmesc #1"
+        "🇽🇽 XX | TROJAN | @vmesc #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,7 +117,8 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇽🇽 XX | TROJAN | @vpnv2raytop #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇽🇽 XX | TROJAN | @vmesc #1"
+        "🇽🇽 XX | TROJAN | @vmesc #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -297,6 +299,22 @@
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #1",
       "type": "trojan",
       "server": "172.64.152.23",
       "server_port": 443,
