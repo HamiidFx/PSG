@@ -116,6 +116,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
+        "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @proxyfn #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -169,6 +170,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
+        "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @proxyfn #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -511,6 +513,31 @@
       "server_port": 80,
       "uuid": "TELEGRAM-NUFiLTER-2",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @prooxyk #1",
+      "type": "vmess",
+      "server": "77.v2ray1.xyz",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "77.v2ray1.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "77.v2ray1.xyz"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
