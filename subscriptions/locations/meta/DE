@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇩🇪 DE | VLESS | @ehsawn8 #1", "server": "dey.lnmarketplace.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @goldenshiinevpn #1", "server": "172.104.148.48", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "07402610-3f00-4384-b54b-eb8cd5037b4c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -33,8 +34,8 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @tobevasl #3", "server": "91.99.195.73", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2ray_youtube #1", "server": "be.darknet.cv", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6c36723b-75a3-4816-9c19-1ccd3fde83fe", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @v2raych #1", "server": "93.94.51.210", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2rayngconfiig #1", "server": "test.fast.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-29", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @vipv2rey #1", "server": "49.13.135.58", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇩🇪 DE | VLESS | @vmesc #1", "server": "89.106.89.112", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "07cd9dbe-21ac-4871-817d-c772687e4b7c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | TROJAN | @vmesskhodam #1", "server": "37.120.190.125", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
 
 proxy-groups:
@@ -49,6 +50,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | VLESS | @ehsawn8 #1'
       - '🇩🇪 DE | VLESS | @goldenshiinevpn #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
@@ -59,8 +61,8 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @tobevasl #3'
       - '🇩🇪 DE | VLESS | @v2ray_youtube #1'
       - '🇩🇪 DE | VLESS | @v2raych #1'
+      - '🇩🇪 DE | VLESS | @v2rayngconfiig #1'
       - '🇩🇪 DE | VLESS | @vipv2rey #1'
-      - '🇩🇪 DE | VLESS | @vmesc #1'
       - '🇩🇪 DE | TROJAN | @vmesskhodam #1'
 
   - name: 🌍 Global Media
