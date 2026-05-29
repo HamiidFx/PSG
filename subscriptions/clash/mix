@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇽🇽 XX | TROJAN | @bored_vpn #1", "server": "104.16.75.207", "port": 2053, "type": "trojan", "skip-cert-verify": false, "password": "v2raydia"}
   - {"name": "🇽🇽 XX | TROJAN | @father_vpn #1", "server": "162.159.153.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "6202b230-417c-4d8e-b624-0f71afa9c75d"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
@@ -42,6 +43,7 @@ proxies:
   - {"name": "🇺🇸 US | TROJAN | @netmellianti #1", "server": "216.24.57.7", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Mitivpn"}
   - {"name": "🇺🇸 US | TROJAN | @netmellianti #2", "server": "216.24.57.7", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Mitivpn"}
   - {"name": "🇸🇨 SC | TROJAN | @netmellianti #1", "server": "45.130.125.76", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4Fi9DdXrBq"}
+  - {"name": "🇸🇨 SC | TROJAN | @netmellianti #2", "server": "45.130.125.76", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Mitivpn"}
   - {"name": "🇺🇸 US | TROJAN | @nofiltering2 #1", "server": "208.103.161.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Mitivpn"}
   - {"name": "🇺🇸 US | TROJAN | @nofiltering2 #2", "server": "208.103.161.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Mitivpn"}
   - {"name": "🇸🇨 SC | TROJAN | @outline_ir #1", "server": "45.130.125.69", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -62,7 +64,7 @@ proxies:
   - {"name": "🇮🇷 IR | VMESS | @v2ray_youtube #1", "server": "vip.45259.net", "port": 59961, "type": "vmess", "skip-cert-verify": true, "uuid": "09d06a4a-96bd-4ebd-8292-20e986712638", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | TROJAN | @v2rayng3 #1", "server": "165.215.250.14", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1", "server": "104.16.7.70", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "51.44.104.68", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "15.237.10.72", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss #1", "server": "104.21.40.34", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss #2", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -84,6 +86,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | TROJAN | @bored_vpn #1'
       - '🇽🇽 XX | TROJAN | @father_vpn #1'
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
@@ -103,6 +106,7 @@ proxy-groups:
       - '🇺🇸 US | TROJAN | @netmellianti #1'
       - '🇺🇸 US | TROJAN | @netmellianti #2'
       - '🇸🇨 SC | TROJAN | @netmellianti #1'
+      - '🇸🇨 SC | TROJAN | @netmellianti #2'
       - '🇺🇸 US | TROJAN | @nofiltering2 #1'
       - '🇺🇸 US | TROJAN | @nofiltering2 #2'
       - '🇸🇨 SC | TROJAN | @outline_ir #1'
