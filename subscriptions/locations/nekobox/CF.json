@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -94,6 +95,7 @@
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #2",
+        "🇽🇽 XX | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
@@ -260,6 +262,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -290,6 +295,7 @@
         "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
@@ -314,6 +320,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -331,6 +338,7 @@
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #2",
+        "🇽🇽 XX | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
@@ -497,6 +505,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -527,6 +538,7 @@
         "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
@@ -557,6 +569,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "162.159.153.79",
+      "server_port": 2083,
+      "uuid": "d3d962b1-7fc4-4f34-8292-b57e75cd0316",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -708,6 +728,23 @@
       "server_port": 2095,
       "uuid": "b4d2cb44-6eaf-48e7-adcb-5a7c49bddd8d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ehsawn8 #1",
+      "type": "vless",
+      "server": "104.16.7.70",
+      "server_port": 443,
+      "uuid": "a01daac7-1e65-4645-854d-b47d226f6b08",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
@@ -2829,6 +2866,47 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "2238e2f3-1a01-485e-8c22-24b65764c68b",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "server_port": 2096,
+      "uuid": "629325d2-7e7b-47e8-a503-301677a59589",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "173.245.58.75",
+      "server_port": 443,
+      "uuid": "fc965ad9-bdd7-4815-ad71-b39ec5972dc1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -3243,6 +3321,23 @@
       "server": "162.159.12.151",
       "server_port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "server_port": 2096,
+      "uuid": "44036b76-ecd4-488b-83ce-108d94583cf3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
