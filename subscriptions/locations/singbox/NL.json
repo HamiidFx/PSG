@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @bored_vpn #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @ehsawn8 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -107,8 +107,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @bored_vpn #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @ehsawn8 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -128,11 +128,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @bored_vpn #1",
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.151",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @ehsawn8 #1",
       "type": "vless",
-      "server": "50.85.80.187",
-      "server_port": 4004,
-      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -141,21 +149,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
-      "type": "shadowsocks",
-      "server": "193.29.139.151",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @netfreedom0 #1",
