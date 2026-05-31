@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇮🇷 IR | VLESS | @Fr33C0nfig #1", "server": "185.143.233.235", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8135074a-49d9-46da-b79d-b58d2b9dcb6a", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.143.233.235"}}}
+  - {"name": "🇮🇷 IR | VLESS | @ai_duet #1", "server": "tamin.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @config_proxy #1", "server": "185.143.233.235", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @config_proxy #2", "server": "185.143.234.235", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @ehsawn8 #1", "server": "snapp.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "0c422f0c-5ada-4ef7-8294-0f383b42ad65", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "snapp.ir"}}}
@@ -36,7 +37,8 @@ proxies:
   - {"name": "🇮🇷 IR | VLESS | @nofilter_v2rayng #1", "server": "abr.superip.ir", "port": 2082, "type": "vless", "skip-cert-verify": true, "uuid": "0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ang #1", "server": "193.151.141.36", "port": 2026, "type": "vless", "skip-cert-verify": true, "uuid": "fdfa6120-6f97-4153-ac3d-979d9ecae058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ang #2", "server": "::ffff:c197:8d24", "port": 2026, "type": "vless", "skip-cert-verify": true, "uuid": "c9c416ed-8a72-4572-8bd6-12292dee8dfd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "188.121.110.86", "port": 9092, "type": "vless", "skip-cert-verify": true, "uuid": "b5e7fa61-f302-469b-85f6-cbf2b7b40297", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "snapp.ir", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "41bc5a50-7c41-4078-9a2a-611ab1c6dddb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #2", "server": "ir-de4.zarghamweb.ir", "port": 51262, "type": "vless", "skip-cert-verify": true, "uuid": "604b27f6-b67d-4f3f-b2d6-5ea7755eb755", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_iran88 #1", "server": "185.143.233.120", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VMESS | @v2ray_youtube #1", "server": "vip.45259.net", "port": 59961, "type": "vmess", "skip-cert-verify": true, "uuid": "09d06a4a-96bd-4ebd-8292-20e986712638", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VLESS | @v2raymelliii #1", "server": "ikco.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "e4f8a283-8793-4ff7-ba4e-adc927d463fc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -58,6 +60,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇮🇷 IR | VLESS | @Fr33C0nfig #1'
+      - '🇮🇷 IR | VLESS | @ai_duet #1'
       - '🇮🇷 IR | VLESS | @config_proxy #1'
       - '🇮🇷 IR | VLESS | @config_proxy #2'
       - '🇮🇷 IR | VLESS | @ehsawn8 #1'
@@ -71,6 +74,7 @@ proxy-groups:
       - '🇮🇷 IR | VLESS | @v2ang #1'
       - '🇮🇷 IR | VLESS | @v2ang #2'
       - '🇮🇷 IR | VLESS | @v2ray_free_conf #1'
+      - '🇮🇷 IR | VLESS | @v2ray_free_conf #2'
       - '🇮🇷 IR | VLESS | @v2ray_iran88 #1'
       - '🇮🇷 IR | VMESS | @v2ray_youtube #1'
       - '🇮🇷 IR | VLESS | @v2raymelliii #1'
